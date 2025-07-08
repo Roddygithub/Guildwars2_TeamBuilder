@@ -1,13 +1,62 @@
-.venv/
+# Python
 __pycache__/
-*.pyc
-*.pyo
-*.db
-*.sqlite3
-.DS_Store
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# IDE specific files
 .idea/
 .vscode/
+*.swp
+*.swo
+*~
+
+# Environment variables
 .env
+.env.*
+!.env.example
+
+# Local development
+*.sqlite3
+*.db
+.DS_Store
+Thumbs.db
+
+# Testing
+.coverage
+*.cover
+htmlcov/
+.pytest_cache/
+
+# Logs
+logs/
+*.log
 
 # Local Netlify folder
 .netlify
+
+# Project specific
+Config
+Current
