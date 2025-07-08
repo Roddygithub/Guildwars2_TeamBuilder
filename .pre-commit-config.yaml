@@ -1,0 +1,48 @@
+repos:
+-   repo: https://github.com/psf/black
+    rev: 24.3.0
+    hooks:
+    -   id: black
+        language_version: python3.9
+        types: [python]
+
+-   repo: https://github.com/pycqa/isort
+    rev: 5.13.2
+    hooks:
+    -   id: isort
+        name: isort (python)
+        types: [python]
+
+-   repo: https://github.com/pycqa/flake8
+    rev: 7.0.0
+    hooks:
+    -   id: flake8
+        additional_dependencies: [flake8-bugbear==24.2.6]
+        types: [python]
+
+-   repo: https://github.com/pre-commit/mirrors-mypy
+    rev: v1.8.0
+    hooks:
+    -   id: mypy
+        additional_dependencies: [types-requests==2.31.0.1, types-python-dateutil==2.8.19.14]
+        args: [--ignore-missing-imports, --disallow-untyped-defs]
+        types: [python]
+
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.5.0
+    hooks:
+    -   id: check-yaml
+    -   id: end-of-file-fixer
+    -   id: trailing-whitespace
+    -   id: check-json
+    -   id: check-added-large-files
+    -   id: debug-statements
+    -   id: name-tests-test
+        args: [--django]
+
+-   repo: https://github.com/igorshubovych/markdownlint-cli
+    rev: v0.37.0
+    hooks:
+    -   id: markdownlint
+        args: [--config=.markdownlint.json]
+        types: [markdown]

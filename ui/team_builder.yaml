@@ -1,0 +1,67 @@
+# Auto-UI specification for the Team Builder form
+# Interpreted by Windsurf's auto-ui plugin.
+version: 1
+forms:
+  - id: team-builder
+    title: Guild Wars 2 Team Builder
+    description: Configure constraints and generate optimized team compositions.
+    submit:
+      path: /teams/suggest
+      method: post
+    fields:
+      - name: team_size
+        label: Team size
+        type: number
+        default: 10
+        min: 1
+      - name: algorithm
+        label: Algorithm
+        type: select
+        options:
+          - sampling
+          - genetic
+        default: sampling
+      - name: samples
+        label: Samples (sampling)
+        type: number
+        default: 500
+        show_if:
+          algorithm: sampling
+      - name: generations
+        label: Generations (genetic)
+        type: number
+        default: 40
+        show_if:
+          algorithm: genetic
+      - name: population
+        label: Population size (genetic)
+        type: number
+        default: 200
+        show_if:
+          algorithm: genetic
+      - name: playstyle
+        label: Playstyle
+        type: select
+        options:
+          - raid_guild
+          - bus
+          - roaming_solo
+          - roaming_group
+          - havoc
+        default: raid_guild
+      - name: allowed_professions
+        label: Allowed professions
+        type: multiselect
+        options:
+          - Guardian
+          - Warrior
+          - Revenant
+          - Ranger
+          - Thief
+          - Engineer
+          - Necromancer
+          - Elementalist
+          - Mesmer
+    response_display:
+      type: json
+      title: Suggested Teams
