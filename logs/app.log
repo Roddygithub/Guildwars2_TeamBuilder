@@ -1,0 +1,340 @@
+2025-07-09 08:17:29 - app.api.endpoints.teams - INFO - Génération d'une équipe de 5 joueurs pour le style de jeu: Playstyle.ZERG
+2025-07-09 08:17:29 - app.api.endpoints.teams - INFO - Démarrage de l'optimisation pour une équipe de 5 joueurs...
+2025-07-09 08:17:29 - app.api.endpoints.teams - ERROR - Erreur lors de l'optimisation: Column expression, FROM clause, or other columns clause element expected, got <enum 'Profession'>.
+Traceback (most recent call last):
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\app\api\endpoints\teams.py", line 113, in generate_team
+    results = optimize_team(
+        team_size=request.team_size,
+    ...<3 lines>...
+        random_seed=42  # Pour la reproductibilité
+    )
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\app\optimizer\simple.py", line 127, in optimize
+    candidates = _default_candidates(db)
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\app\optimizer\simple.py", line 64, in _default_candidates
+    for prof in db.query(Profession).all():
+                ~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\rsala\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\sqlalchemy\orm\session.py", line 2955, in query
+    return self._query_cls(entities, self, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rsala\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\sqlalchemy\orm\query.py", line 276, in __init__
+    self._set_entities(entities)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\rsala\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\sqlalchemy\orm\query.py", line 289, in _set_entities
+    coercions.expect(
+    ~~~~~~~~~~~~~~~~^
+        roles.ColumnsClauseRole,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        post_inspect=True,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\rsala\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\sqlalchemy\sql\coercions.py", line 395, in expect
+    resolved = impl._literal_coercion(
+        element, argname=argname, **kw
+    )
+  File "C:\Users\rsala\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\sqlalchemy\sql\coercions.py", line 634, in _literal_coercion
+    self._raise_for_expected(element, argname)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rsala\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\sqlalchemy\sql\coercions.py", line 1132, in _raise_for_expected
+    return super()._raise_for_expected(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        element, argname=argname, resolved=resolved, advice=advice, **kw
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\rsala\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\sqlalchemy\sql\coercions.py", line 695, in _raise_for_expected
+    super()._raise_for_expected(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        element,
+        ^^^^^^^^
+    ...<5 lines>...
+        **kw,
+        ^^^^^
+    )
+    ^
+  File "C:\Users\rsala\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\sqlalchemy\sql\coercions.py", line 518, in _raise_for_expected
+    raise exc.ArgumentError(msg, code=code) from err
+sqlalchemy.exc.ArgumentError: Column expression, FROM clause, or other columns clause element expected, got <enum 'Profession'>.
+2025-07-09 08:17:29 - app.api.endpoints.teams - ERROR - Erreur lors de la génération de l'équipe: Column expression, FROM clause, or other columns clause element expected, got <enum 'Profession'>.
+Traceback (most recent call last):
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\app\api\endpoints\teams.py", line 113, in generate_team
+    results = optimize_team(
+        team_size=request.team_size,
+    ...<3 lines>...
+        random_seed=42  # Pour la reproductibilité
+    )
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\app\optimizer\simple.py", line 127, in optimize
+    candidates = _default_candidates(db)
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\app\optimizer\simple.py", line 64, in _default_candidates
+    for prof in db.query(Profession).all():
+                ~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\rsala\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\sqlalchemy\orm\session.py", line 2955, in query
+    return self._query_cls(entities, self, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rsala\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\sqlalchemy\orm\query.py", line 276, in __init__
+    self._set_entities(entities)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\rsala\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\sqlalchemy\orm\query.py", line 289, in _set_entities
+    coercions.expect(
+    ~~~~~~~~~~~~~~~~^
+        roles.ColumnsClauseRole,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        post_inspect=True,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\rsala\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\sqlalchemy\sql\coercions.py", line 395, in expect
+    resolved = impl._literal_coercion(
+        element, argname=argname, **kw
+    )
+  File "C:\Users\rsala\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\sqlalchemy\sql\coercions.py", line 634, in _literal_coercion
+    self._raise_for_expected(element, argname)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rsala\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\sqlalchemy\sql\coercions.py", line 1132, in _raise_for_expected
+    return super()._raise_for_expected(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        element, argname=argname, resolved=resolved, advice=advice, **kw
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\rsala\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\sqlalchemy\sql\coercions.py", line 695, in _raise_for_expected
+    super()._raise_for_expected(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        element,
+        ^^^^^^^^
+    ...<5 lines>...
+        **kw,
+        ^^^^^
+    )
+    ^
+  File "C:\Users\rsala\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\sqlalchemy\sql\coercions.py", line 518, in _raise_for_expected
+    raise exc.ArgumentError(msg, code=code) from err
+sqlalchemy.exc.ArgumentError: Column expression, FROM clause, or other columns clause element expected, got <enum 'Profession'>.
+2025-07-09 08:17:29 - app.api.endpoints.teams - ERROR - Détails de l'erreur: Traceback (most recent call last):
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\app\api\endpoints\teams.py", line 113, in generate_team
+    results = optimize_team(
+        team_size=request.team_size,
+    ...<3 lines>...
+        random_seed=42  # Pour la reproductibilité
+    )
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\app\optimizer\simple.py", line 127, in optimize
+    candidates = _default_candidates(db)
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\app\optimizer\simple.py", line 64, in _default_candidates
+    for prof in db.query(Profession).all():
+                ~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\rsala\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\sqlalchemy\orm\session.py", line 2955, in query
+    return self._query_cls(entities, self, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rsala\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\sqlalchemy\orm\query.py", line 276, in __init__
+    self._set_entities(entities)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\rsala\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\sqlalchemy\orm\query.py", line 289, in _set_entities
+    coercions.expect(
+    ~~~~~~~~~~~~~~~~^
+        roles.ColumnsClauseRole,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        post_inspect=True,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\rsala\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\sqlalchemy\sql\coercions.py", line 395, in expect
+    resolved = impl._literal_coercion(
+        element, argname=argname, **kw
+    )
+  File "C:\Users\rsala\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\sqlalchemy\sql\coercions.py", line 634, in _literal_coercion
+    self._raise_for_expected(element, argname)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rsala\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\sqlalchemy\sql\coercions.py", line 1132, in _raise_for_expected
+    return super()._raise_for_expected(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        element, argname=argname, resolved=resolved, advice=advice, **kw
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\rsala\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\sqlalchemy\sql\coercions.py", line 695, in _raise_for_expected
+    super()._raise_for_expected(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        element,
+        ^^^^^^^^
+    ...<5 lines>...
+        **kw,
+        ^^^^^
+    )
+    ^
+  File "C:\Users\rsala\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\sqlalchemy\sql\coercions.py", line 518, in _raise_for_expected
+    raise exc.ArgumentError(msg, code=code) from err
+sqlalchemy.exc.ArgumentError: Column expression, FROM clause, or other columns clause element expected, got <enum 'Profession'>.
+
+2025-07-09 08:19:05 - app.api.endpoints.teams - INFO - Génération d'une équipe de 5 joueurs pour le style de jeu: Playstyle.ZERG
+2025-07-09 08:19:05 - app.api.endpoints.teams - INFO - Démarrage de l'optimisation pour une équipe de 5 joueurs...
+2025-07-09 08:19:05 - app.api.endpoints.teams - ERROR - Erreur lors de l'optimisation: Column expression, FROM clause, or other columns clause element expected, got <enum 'Profession'>.
+Traceback (most recent call last):
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\app\api\endpoints\teams.py", line 113, in generate_team
+    results = optimize_team(
+        team_size=request.team_size,
+    ...<3 lines>...
+        random_seed=42  # Pour la reproductibilité
+    )
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\app\optimizer\simple.py", line 127, in optimize
+    candidates = _default_candidates(db)
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\app\optimizer\simple.py", line 64, in _default_candidates
+    for prof in db.query(Profession).all():
+                ~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\rsala\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\sqlalchemy\orm\session.py", line 2955, in query
+    return self._query_cls(entities, self, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rsala\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\sqlalchemy\orm\query.py", line 276, in __init__
+    self._set_entities(entities)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\rsala\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\sqlalchemy\orm\query.py", line 289, in _set_entities
+    coercions.expect(
+    ~~~~~~~~~~~~~~~~^
+        roles.ColumnsClauseRole,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        post_inspect=True,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\rsala\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\sqlalchemy\sql\coercions.py", line 395, in expect
+    resolved = impl._literal_coercion(
+        element, argname=argname, **kw
+    )
+  File "C:\Users\rsala\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\sqlalchemy\sql\coercions.py", line 634, in _literal_coercion
+    self._raise_for_expected(element, argname)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rsala\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\sqlalchemy\sql\coercions.py", line 1132, in _raise_for_expected
+    return super()._raise_for_expected(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        element, argname=argname, resolved=resolved, advice=advice, **kw
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\rsala\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\sqlalchemy\sql\coercions.py", line 695, in _raise_for_expected
+    super()._raise_for_expected(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        element,
+        ^^^^^^^^
+    ...<5 lines>...
+        **kw,
+        ^^^^^
+    )
+    ^
+  File "C:\Users\rsala\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\sqlalchemy\sql\coercions.py", line 518, in _raise_for_expected
+    raise exc.ArgumentError(msg, code=code) from err
+sqlalchemy.exc.ArgumentError: Column expression, FROM clause, or other columns clause element expected, got <enum 'Profession'>.
+2025-07-09 08:19:05 - app.api.endpoints.teams - ERROR - Erreur lors de la génération de l'équipe: Column expression, FROM clause, or other columns clause element expected, got <enum 'Profession'>.
+Traceback (most recent call last):
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\app\api\endpoints\teams.py", line 113, in generate_team
+    results = optimize_team(
+        team_size=request.team_size,
+    ...<3 lines>...
+        random_seed=42  # Pour la reproductibilité
+    )
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\app\optimizer\simple.py", line 127, in optimize
+    candidates = _default_candidates(db)
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\app\optimizer\simple.py", line 64, in _default_candidates
+    for prof in db.query(Profession).all():
+                ~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\rsala\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\sqlalchemy\orm\session.py", line 2955, in query
+    return self._query_cls(entities, self, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rsala\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\sqlalchemy\orm\query.py", line 276, in __init__
+    self._set_entities(entities)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\rsala\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\sqlalchemy\orm\query.py", line 289, in _set_entities
+    coercions.expect(
+    ~~~~~~~~~~~~~~~~^
+        roles.ColumnsClauseRole,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        post_inspect=True,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\rsala\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\sqlalchemy\sql\coercions.py", line 395, in expect
+    resolved = impl._literal_coercion(
+        element, argname=argname, **kw
+    )
+  File "C:\Users\rsala\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\sqlalchemy\sql\coercions.py", line 634, in _literal_coercion
+    self._raise_for_expected(element, argname)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rsala\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\sqlalchemy\sql\coercions.py", line 1132, in _raise_for_expected
+    return super()._raise_for_expected(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        element, argname=argname, resolved=resolved, advice=advice, **kw
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\rsala\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\sqlalchemy\sql\coercions.py", line 695, in _raise_for_expected
+    super()._raise_for_expected(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        element,
+        ^^^^^^^^
+    ...<5 lines>...
+        **kw,
+        ^^^^^
+    )
+    ^
+  File "C:\Users\rsala\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\sqlalchemy\sql\coercions.py", line 518, in _raise_for_expected
+    raise exc.ArgumentError(msg, code=code) from err
+sqlalchemy.exc.ArgumentError: Column expression, FROM clause, or other columns clause element expected, got <enum 'Profession'>.
+2025-07-09 08:19:05 - app.api.endpoints.teams - ERROR - Détails de l'erreur: Traceback (most recent call last):
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\app\api\endpoints\teams.py", line 113, in generate_team
+    results = optimize_team(
+        team_size=request.team_size,
+    ...<3 lines>...
+        random_seed=42  # Pour la reproductibilité
+    )
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\app\optimizer\simple.py", line 127, in optimize
+    candidates = _default_candidates(db)
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\app\optimizer\simple.py", line 64, in _default_candidates
+    for prof in db.query(Profession).all():
+                ~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\rsala\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\sqlalchemy\orm\session.py", line 2955, in query
+    return self._query_cls(entities, self, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rsala\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\sqlalchemy\orm\query.py", line 276, in __init__
+    self._set_entities(entities)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\rsala\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\sqlalchemy\orm\query.py", line 289, in _set_entities
+    coercions.expect(
+    ~~~~~~~~~~~~~~~~^
+        roles.ColumnsClauseRole,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        post_inspect=True,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\rsala\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\sqlalchemy\sql\coercions.py", line 395, in expect
+    resolved = impl._literal_coercion(
+        element, argname=argname, **kw
+    )
+  File "C:\Users\rsala\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\sqlalchemy\sql\coercions.py", line 634, in _literal_coercion
+    self._raise_for_expected(element, argname)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rsala\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\sqlalchemy\sql\coercions.py", line 1132, in _raise_for_expected
+    return super()._raise_for_expected(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        element, argname=argname, resolved=resolved, advice=advice, **kw
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\rsala\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\sqlalchemy\sql\coercions.py", line 695, in _raise_for_expected
+    super()._raise_for_expected(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        element,
+        ^^^^^^^^
+    ...<5 lines>...
+        **kw,
+        ^^^^^
+    )
+    ^
+  File "C:\Users\rsala\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\sqlalchemy\sql\coercions.py", line 518, in _raise_for_expected
+    raise exc.ArgumentError(msg, code=code) from err
+sqlalchemy.exc.ArgumentError: Column expression, FROM clause, or other columns clause element expected, got <enum 'Profession'>.
+

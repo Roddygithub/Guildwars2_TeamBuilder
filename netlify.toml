@@ -3,12 +3,36 @@
   publish = "ui"
   functions = "netlify/functions"
 
+[build.environment]
+  PYTHON_VERSION = "3.11"
+  NODE_VERSION = "20"
+  NPM_VERSION = "10"
+
+[functions]
+  node_bundler = "esbuild"
+  external_node_modules = ["@fastify/static"]
+
 [[redirects]]
   from = "/api/*"
   to = "/.netlify/functions/api/:splat"
   status = 200
+  force = true
 
 [[redirects]]
   from = "/*"
-  to = "/.netlify/functions/api/:splat"
+  to = "/index.html"
   status = 200
+
+# Headers pour l'API
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Access-Control-Allow-Methods = "GET, POST, PUT, DELETE, OPTIONS"
+    Access-Control-Allow-Headers = "Content-Type, Authorization"
+
+# Configuration du cache
+[[headers]]
+  for = "/static/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
