@@ -1,22 +1,66 @@
 [build]
-  command = "pip install -r requirements.txt"
-  publish = "ui"
+  # Commandes de build pour le frontend React
+  command = "cd ui && npm install && npm run build"
+  # Dossier de sortie du build (configuré dans vite.config.ts)
+  publish = "ui/dist"
+  # Dossier des fonctions serverless
   functions = "netlify/functions"
 
 [build.environment]
+  # Versions des environnements
   PYTHON_VERSION = "3.11"
   NODE_VERSION = "20"
   NPM_VERSION = "10"
+  
+  # Configuration Python pour Netlify
+  PIPENV_VERBOSITY = "1"
+  PIPENV_NOSPIN = "1"
+  
+  # Configuration de l'application
+  ENVIRONMENT = "production"
+  DEBUG = "false"
+  
+  # URL du frontend (à remplacer par votre domaine Netlify après déploiement)
+  FRONTEND_URL = "https://votre-site.netlify.app"
+  
+  # Origines autorisées (séparées par des virgules)
+  ALLOWED_ORIGINS = "https://votre-site.netlify.app,http://localhost:3000"
+  
+  # Configuration de la base de données (à remplir après la création de la base Supabase)
+  # DATABASE_URL = "postgresql://postgres:VOTRE_MOT_DE_PASSE@db.VOTRE_PROJET_REF.supabase.co:5432/postgres"
+  
+  # Configuration Supabase (optionnel)
+  # SUPABASE_URL = "https://VOTRE_PROJET_REF.supabase.co"
+  # SUPABASE_ANON_KEY = "votre_anon_key"
+  
+  # Clé secrète pour les sessions (générer une chaîne aléatoire sécurisée)
+  SECRET_KEY = "kLi.6pLd*xyZmOqS2/p4@#Iyus=LBaIj/k?dIbJckH7sa1Rfo*"
+  
+  # Configuration du cache (optionnel)
+  CACHE_TTL = "3600"
 
 [functions]
+  # Configuration des fonctions serverless
   node_bundler = "esbuild"
   external_node_modules = ["@fastify/static"]
+  # Taille maximale de la fonction (limite Netlify: 10 Go décompressé)
+  # 1024 Mo = 1 Go (on reste bien en dessous de la limite)
+  node_bundler = "esbuild"
+  external_node_modules = ["@fastify/static"]
+  included_files = ["app/**"]
 
+# Redirections pour le SPA (Single Page Application)
 [[redirects]]
   from = "/api/*"
   to = "/.netlify/functions/api/:splat"
   status = 200
   force = true
+
+# Redirection pour le routage côté client (SPA)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
 
 [[redirects]]
   from = "/*"
@@ -25,14 +69,14 @@
 
 # Headers pour l'API
 [[headers]]
-  for = "/*"
+  for = "/api/*"
   [headers.values]
     Access-Control-Allow-Origin = "*"
     Access-Control-Allow-Methods = "GET, POST, PUT, DELETE, OPTIONS"
     Access-Control-Allow-Headers = "Content-Type, Authorization"
 
-# Configuration du cache
+# Configuration du cache pour les assets
 [[headers]]
-  for = "/static/*"
+  for = "/assets/*"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
