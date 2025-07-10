@@ -41,8 +41,16 @@ ENV/
 # Local development
 *.sqlite3
 *.db
+*.db-shm
+*.db-wal
 .DS_Store
 Thumbs.db
+
+# Node.js dependencies
+ui/node_modules/
+ui/dist/
+ui/tsconfig.tsbuildinfo
+ui/bundle-analysis.html
 
 # Testing
 .coverage

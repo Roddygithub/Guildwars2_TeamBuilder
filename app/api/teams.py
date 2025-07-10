@@ -79,32 +79,32 @@ _DEFAULT_CONFIG = ScoringConfig(
     },
     role_weights={
         # Rôles de base
-        "heal": RoleWeight(required_count=1, weight=2.0),
-        "quickness": RoleWeight(required_count=1, weight=1.5),
-        "alacrity": RoleWeight(required_count=1, weight=1.5),
-        "dps": RoleWeight(required_count=3, weight=1.0),
-        "tank": RoleWeight(required_count=1, weight=1.2),
+        "heal": RoleWeight(required_count=1, weight=2.0, description="Soigneur principal"),
+        "quickness": RoleWeight(required_count=1, weight=1.5, description="Fournit la rapidité"),
+        "alacrity": RoleWeight(required_count=1, weight=1.5, description="Fournit l'alacrité"),
+        "dps": RoleWeight(required_count=3, weight=1.0, description="Dégâts"),
+        "tank": RoleWeight(required_count=1, weight=1.2, description="Tank principal"),
         
         # Rôles spécifiques au WvW
-        "zerg": RoleWeight(required_count=3, weight=1.2),
-        "havoc": RoleWeight(required_count=1, weight=1.5),
-        "roamer": RoleWeight(required_count=0, weight=0.5),  # Optionnel
-        "bomber": RoleWeight(required_count=1, weight=1.3),
-        "support": RoleWeight(required_count=2, weight=1.2),
-        "bunker": RoleWeight(required_count=1, weight=1.1),
-        "pusher": RoleWeight(required_count=1, weight=1.1),
-        "disruptor": RoleWeight(required_count=1, weight=1.0),
-        "scout": RoleWeight(required_count=0, weight=0.3),  # Optionnel
-        "backline": RoleWeight(required_count=2, weight=1.0),
-        "frontline": RoleWeight(required_count=3, weight=1.1),
-        "team_fight_support": RoleWeight(required_count=2, weight=1.2),
-        "team_fight_dps": RoleWeight(required_count=3, weight=1.0),
-        "team_fight_cc": RoleWeight(required_count=1, weight=1.3),
-        "team_fight_heal": RoleWeight(required_count=1, weight=1.4),
-        "team_fight_boons": RoleWeight(required_count=2, weight=1.2),
-        "team_fight_cleanser": RoleWeight(required_count=1, weight=1.1),
-        "team_fight_res": RoleWeight(required_count=0, weight=0.8),  # Optionnel
-        "team_fight_stability": RoleWeight(required_count=1, weight=1.3),
+        "zerg": RoleWeight(required_count=3, weight=1.2, description="Spécialisation pour les grands groupes"),
+        "havoc": RoleWeight(required_count=1, weight=1.5, description="Petit groupe mobile"),
+        "roamer": RoleWeight(required_count=1, weight=1.0, description="Joueur autonome"),
+        "bomber": RoleWeight(required_count=1, weight=1.3, description="Dégâts de zone"),
+        "support": RoleWeight(required_count=2, weight=1.2, description="Soutien polyvalent"),
+        "bunker": RoleWeight(required_count=1, weight=1.1, description="Défense de point"),
+        "pusher": RoleWeight(required_count=1, weight=1.1, description="Pression offensive"),
+        "disruptor": RoleWeight(required_count=1, weight=1.0, description="Désorganisation ennemie"),
+        "scout": RoleWeight(required_count=1, weight=0.8, description="Renseignement et détection"),
+        "captain": RoleWeight(required_count=1, weight=1.0, description="Leader de groupe"),
+        "backline": RoleWeight(required_count=2, weight=1.0, description="Dégâts à distance"),
+        "frontline": RoleWeight(required_count=3, weight=1.1, description="Combat rapproché"),
+        "midline": RoleWeight(required_count=1, weight=1.0, description="Soutien et contrôle"),
+        "plus_one": RoleWeight(required_count=1, weight=0.9, description="Renfort rapide"),
+        "solo_dueler": RoleWeight(required_count=1, weight=0.9, description="Combat en 1v1"),
+        "team_fighter": RoleWeight(required_count=2, weight=1.2, description="Combat en groupe"),
+        "side_noder": RoleWeight(required_count=1, weight=1.0, description="Contrôle de points"),
+        "roamer_plus_one": RoleWeight(required_count=1, weight=1.0, description="Flanc + renfort"),
+        "team_fight_support": RoleWeight(required_count=2, weight=1.2, description="Soutien en combat d'équipe")
     },
     duplicate_penalty=DuplicatePenalty(threshold=2, penalty_per_extra=0.5),  # Pénalité plus forte pour éviter les doublons
 )

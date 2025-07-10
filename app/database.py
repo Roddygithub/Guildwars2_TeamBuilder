@@ -1,6 +1,6 @@
 """Configuration de la base de données SQLAlchemy pour GW2 Team Builder.
 
-Ce module configure la connexion à la base de données SQLite avec un pool de connexions,
+Ce module configure la connexion à la base de données avec un pool de connexions,
 des timeouts et d'autres optimisations de performance.
 """
 import os
@@ -10,22 +10,34 @@ from sqlalchemy import create_engine, event
 from sqlalchemy.engine import Engine
 from sqlalchemy.orm import sessionmaker, declarative_base, Session
 
-# Configuration de la base de données
-DATABASE_URL = os.getenv(
-    "DATABASE_URL", 
-    "sqlite:///./gw2.db?check_same_thread=False"
-)
+from .config import settings
+
+# Configuration du pool de connexions
+pool_config = {
+    "pool_size": 5,  # Taille du pool de connexions
+    "max_overflow": 10,  # Connexions supplémentaires autorisées
+    "pool_timeout": 30,  # Délai d'attente pour obtenir une connexion (secondes)
+    "pool_recycle": 3600,  # Recycle les connexions après 1 heure
+    "pool_pre_ping": True,  # Vérifie que la connexion est toujours active
+}
+
+# Configuration spécifique à SQLite
+connect_args = {}
+if "sqlite" in settings.DATABASE_URL:
+    connect_args["check_same_thread"] = False
+    # Configuration spécifique pour SQLite en production
+    if settings.ENVIRONMENT == "production":
+        connect_args["timeout"] = 30
+        # Journalisation en mode WAL pour de meilleures performances
+        connect_args["isolation_level"] = "IMMEDIATE"
 
 # Création du moteur avec un pool de connexions et des optimisations
 engine = create_engine(
-    DATABASE_URL,
-    # Configuration du pool de connexions
-    pool_size=int(os.getenv("DB_POOL_SIZE", "5")),  # Taille du pool de connexions
-    max_overflow=int(os.getenv("DB_MAX_OVERFLOW", "10")),  # Connexions supplémentaires autorisées
-    pool_timeout=int(os.getenv("DB_POOL_TIMEOUT", "30")),  # Timeout en secondes
-    pool_recycle=int(os.getenv("DB_POOL_RECYCLE", "1800")),  # Recyclage des connexions après 30 minutes
-    pool_pre_ping=True,  # Vérification de la validité des connexions
-    echo=bool(os.getenv("SQL_ECHO", "").lower() in ("1", "true", "t")),  # Log des requêtes SQL
+    settings.DATABASE_URL,
+    **pool_config,
+    connect_args=connect_args if connect_args else {},
+    echo=settings.DEBUG,  # Active l'écho des requêtes SQL en mode debug
+    future=True  # Active les fonctionnalités futures de SQLAlchemy 2.0
 )
 
 # Configuration de la session
@@ -82,7 +94,7 @@ def get_db() -> Generator[Session, None, None]:
 
 
 # Configuration spécifique pour SQLite pour améliorer les performances
-if "sqlite" in DATABASE_URL:
+if "sqlite" in settings.DATABASE_URL:
     @event.listens_for(Engine, "connect")
     def set_sqlite_pragma(dbapi_connection, connection_record):
         """Active les clés étrangères et d'autres optimisations SQLite."""

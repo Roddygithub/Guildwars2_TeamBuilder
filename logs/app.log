@@ -338,3 +338,224 @@ sqlalchemy.exc.ArgumentError: Column expression, FROM clause, or other columns c
     raise exc.ArgumentError(msg, code=code) from err
 sqlalchemy.exc.ArgumentError: Column expression, FROM clause, or other columns clause element expected, got <enum 'Profession'>.
 
+2025-07-09 20:51:44 - [34mapp.api.endpoints.teams[0m - [32mINFO[0m - Génération d'une équipe de 5 joueurs pour le style de jeu: Playstyle.ZERG
+2025-07-09 20:51:44 - [34mapp.api.endpoints.teams[0m - [32mINFO[0m - Démarrage de l'optimisation pour une équipe de 5 joueurs...
+2025-07-09 20:51:44 - [34mapp.optimizer.simple[0m - [32mINFO[0m - Début de la récupération des professions depuis la base de données...
+2025-07-09 20:51:44 - [34mapp.optimizer.simple[0m - [31mERROR[0m - Erreur critique dans _default_candidates: Mapper 'Mapper[Profession(professions)]' has no property 'skills'.  If this property was indicated from other mappers or configure events, ensure registry.configure() has been called.
+Traceback (most recent call last):
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2522, in get_property
+    return self._props[key]
+           ~~~~~~~~~~~^^^^^
+KeyError: 'skills'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\app\optimizer\simple.py", line 82, in _default_candidates
+    professions = db.query(Profession).all()
+                  ~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2955, in query
+    return self._query_cls(entities, self, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\venv\Lib\site-packages\sqlalchemy\orm\query.py", line 276, in __init__
+    self._set_entities(entities)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\venv\Lib\site-packages\sqlalchemy\orm\query.py", line 289, in _set_entities
+    coercions.expect(
+    ~~~~~~~~~~~~~~~~^
+        roles.ColumnsClauseRole,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        post_inspect=True,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\venv\Lib\site-packages\sqlalchemy\sql\coercions.py", line 388, in expect
+    insp._post_inspect
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 1338, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ~~~~~~~~~^^^^^
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2724, in _post_inspect
+    self._check_configure()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2401, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4214, in _configure_registries
+    _do_configure_registries(registries, cascade)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4255, in _do_configure_registries
+    mapper._post_configure_properties()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2418, in _post_configure_properties
+    prop.init()
+    ~~~~~~~~~^^
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\venv\Lib\site-packages\sqlalchemy\orm\interfaces.py", line 589, in init
+    self.do_init()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\venv\Lib\site-packages\sqlalchemy\orm\relationships.py", line 1661, in do_init
+    self._generate_backref()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\venv\Lib\site-packages\sqlalchemy\orm\relationships.py", line 2145, in _generate_backref
+    self._add_reverse_property(self.back_populates)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\venv\Lib\site-packages\sqlalchemy\orm\relationships.py", line 1592, in _add_reverse_property
+    other = self.mapper.get_property(key, _configure_mappers=False)
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2524, in get_property
+    raise sa_exc.InvalidRequestError(
+    ...<3 lines>...
+    ) from err
+sqlalchemy.exc.InvalidRequestError: Mapper 'Mapper[Profession(professions)]' has no property 'skills'.  If this property was indicated from other mappers or configure events, ensure registry.configure() has been called.
+2025-07-09 20:51:44 - [34mapp.api.endpoints.teams[0m - [32mINFO[0m - Optimisation terminée. 3 équipes générées.
+2025-07-09 20:54:58 - [34mapp.api.endpoints.teams[0m - [32mINFO[0m - Génération d'une équipe de 5 joueurs pour le style de jeu: Playstyle.ZERG
+2025-07-09 20:54:58 - [34mapp.api.endpoints.teams[0m - [32mINFO[0m - Démarrage de l'optimisation pour une équipe de 5 joueurs...
+2025-07-09 20:54:58 - [34mapp.optimizer.simple[0m - [32mINFO[0m - Début de la récupération des professions depuis la base de données...
+2025-07-09 20:54:58 - [34mapp.optimizer.simple[0m - [31mERROR[0m - Erreur critique dans _default_candidates: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[Skill(skills)]'. Original exception was: Mapper 'Mapper[Profession(professions)]' has no property 'skills'.  If this property was indicated from other mappers or configure events, ensure registry.configure() has been called.
+Traceback (most recent call last):
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\app\optimizer\simple.py", line 82, in _default_candidates
+    professions = db.query(Profession).all()
+                  ~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2955, in query
+    return self._query_cls(entities, self, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\venv\Lib\site-packages\sqlalchemy\orm\query.py", line 276, in __init__
+    self._set_entities(entities)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\venv\Lib\site-packages\sqlalchemy\orm\query.py", line 289, in _set_entities
+    coercions.expect(
+    ~~~~~~~~~~~~~~~~^
+        roles.ColumnsClauseRole,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        post_inspect=True,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\venv\Lib\site-packages\sqlalchemy\sql\coercions.py", line 388, in expect
+    insp._post_inspect
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 1338, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ~~~~~~~~~^^^^^
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2724, in _post_inspect
+    self._check_configure()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2401, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4214, in _configure_registries
+    _do_configure_registries(registries, cascade)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4251, in _do_configure_registries
+    raise e
+sqlalchemy.exc.InvalidRequestError: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[Skill(skills)]'. Original exception was: Mapper 'Mapper[Profession(professions)]' has no property 'skills'.  If this property was indicated from other mappers or configure events, ensure registry.configure() has been called.
+2025-07-09 20:54:58 - [34mapp.api.endpoints.teams[0m - [32mINFO[0m - Optimisation terminée. 3 équipes générées.
+2025-07-09 21:02:31 - [34mapp.api.endpoints.teams[0m - [32mINFO[0m - Génération d'une équipe de 5 joueurs pour le style de jeu: Playstyle.ZERG
+2025-07-09 21:02:31 - [34mapp.api.endpoints.teams[0m - [32mINFO[0m - Démarrage de l'optimisation pour une équipe de 5 joueurs...
+2025-07-09 21:02:31 - [34mapp.optimizer.simple[0m - [32mINFO[0m - Début de la récupération des professions depuis la base de données...
+2025-07-09 21:02:31 - [34mapp.optimizer.simple[0m - [31mERROR[0m - Erreur critique dans _default_candidates: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[Skill(skills)]'. Original exception was: Mapper 'Mapper[Profession(professions)]' has no property 'skills'.  If this property was indicated from other mappers or configure events, ensure registry.configure() has been called.
+Traceback (most recent call last):
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\app\optimizer\simple.py", line 82, in _default_candidates
+    professions = db.query(Profession).all()
+                  ~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2955, in query
+    return self._query_cls(entities, self, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\venv\Lib\site-packages\sqlalchemy\orm\query.py", line 276, in __init__
+    self._set_entities(entities)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\venv\Lib\site-packages\sqlalchemy\orm\query.py", line 289, in _set_entities
+    coercions.expect(
+    ~~~~~~~~~~~~~~~~^
+        roles.ColumnsClauseRole,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        post_inspect=True,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\venv\Lib\site-packages\sqlalchemy\sql\coercions.py", line 388, in expect
+    insp._post_inspect
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 1338, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ~~~~~~~~~^^^^^
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2724, in _post_inspect
+    self._check_configure()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2401, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4214, in _configure_registries
+    _do_configure_registries(registries, cascade)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4251, in _do_configure_registries
+    raise e
+sqlalchemy.exc.InvalidRequestError: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[Skill(skills)]'. Original exception was: Mapper 'Mapper[Profession(professions)]' has no property 'skills'.  If this property was indicated from other mappers or configure events, ensure registry.configure() has been called.
+2025-07-09 21:02:31 - [34mapp.api.endpoints.teams[0m - [32mINFO[0m - Optimisation terminée. 3 équipes générées.
+2025-07-09 21:06:31 - [34mapp.api.endpoints.teams[0m - [32mINFO[0m - Génération d'une équipe de 5 joueurs pour le style de jeu: Playstyle.ZERG
+2025-07-09 21:06:31 - [34mapp.api.endpoints.teams[0m - [32mINFO[0m - Démarrage de l'optimisation pour une équipe de 5 joueurs...
+2025-07-09 21:06:31 - [34mapp.optimizer.simple[0m - [32mINFO[0m - Début de la récupération des professions depuis la base de données...
+2025-07-09 21:06:31 - [34mapp.optimizer.simple[0m - [31mERROR[0m - Erreur critique dans _default_candidates: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[Skill(skills)]'. Original exception was: Mapper 'Mapper[Profession(professions)]' has no property 'skills'.  If this property was indicated from other mappers or configure events, ensure registry.configure() has been called.
+Traceback (most recent call last):
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\app\optimizer\simple.py", line 82, in _default_candidates
+    professions = db.query(Profession).all()
+                  ~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2955, in query
+    return self._query_cls(entities, self, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\venv\Lib\site-packages\sqlalchemy\orm\query.py", line 276, in __init__
+    self._set_entities(entities)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\venv\Lib\site-packages\sqlalchemy\orm\query.py", line 289, in _set_entities
+    coercions.expect(
+    ~~~~~~~~~~~~~~~~^
+        roles.ColumnsClauseRole,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        post_inspect=True,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\venv\Lib\site-packages\sqlalchemy\sql\coercions.py", line 388, in expect
+    insp._post_inspect
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 1338, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ~~~~~~~~~^^^^^
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2724, in _post_inspect
+    self._check_configure()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2401, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4214, in _configure_registries
+    _do_configure_registries(registries, cascade)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4251, in _do_configure_registries
+    raise e
+sqlalchemy.exc.InvalidRequestError: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[Skill(skills)]'. Original exception was: Mapper 'Mapper[Profession(professions)]' has no property 'skills'.  If this property was indicated from other mappers or configure events, ensure registry.configure() has been called.
+2025-07-09 21:06:31 - [34mapp.api.endpoints.teams[0m - [32mINFO[0m - Optimisation terminée. 3 équipes générées.
+2025-07-10 22:14:45 - [34mapp.api.endpoints.teams[0m - [32mINFO[0m - Génération d'une équipe de 5 joueurs pour le style de jeu: Playstyle.ZERG
+2025-07-10 22:14:45 - [34mapp.api.endpoints.teams[0m - [32mINFO[0m - Démarrage de l'optimisation pour une équipe de 5 joueurs...
+2025-07-10 22:14:45 - [34mapp.optimizer.simple[0m - [32mINFO[0m - Début de la récupération des professions depuis la base de données...
+2025-07-10 22:14:45 - [34mapp.optimizer.simple[0m - [31mERROR[0m - La table 'professions' n'existe pas dans la base de données.
+2025-07-10 22:14:45 - [34mapp.optimizer.simple[0m - [31mERROR[0m - Erreur critique dans _default_candidates: La table 'professions' n'existe pas dans la base de données.
+Traceback (most recent call last):
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\app\optimizer\simple.py", line 79, in _default_candidates
+    raise ValueError("La table 'professions' n'existe pas dans la base de données.")
+ValueError: La table 'professions' n'existe pas dans la base de données.
+2025-07-10 22:14:45 - [34mapp.api.endpoints.teams[0m - [32mINFO[0m - Optimisation terminée. 3 équipes générées.
+2025-07-10 22:20:20 - [34mapp.api.endpoints.teams[0m - [32mINFO[0m - Génération d'une équipe de 5 joueurs pour le style de jeu: Playstyle.HAVOC
+2025-07-10 22:20:20 - [34mapp.api.endpoints.teams[0m - [32mINFO[0m - Démarrage de l'optimisation pour une équipe de 5 joueurs...
+2025-07-10 22:20:20 - [34mapp.optimizer.simple[0m - [32mINFO[0m - Début de la récupération des professions depuis la base de données...
+2025-07-10 22:20:20 - [34mapp.optimizer.simple[0m - [31mERROR[0m - La table 'professions' n'existe pas dans la base de données.
+2025-07-10 22:20:20 - [34mapp.optimizer.simple[0m - [31mERROR[0m - Erreur critique dans _default_candidates: La table 'professions' n'existe pas dans la base de données.
+Traceback (most recent call last):
+  File "C:\Users\rsala\CascadeProjects\Guildwars2_TeamBuilder\app\optimizer\simple.py", line 79, in _default_candidates
+    raise ValueError("La table 'professions' n'existe pas dans la base de données.")
+ValueError: La table 'professions' n'existe pas dans la base de données.
+2025-07-10 22:20:20 - [34mapp.api.endpoints.teams[0m - [32mINFO[0m - Optimisation terminée. 3 équipes générées.
+2025-07-10 22:48:06 - [34mapp.database[0m - [32mINFO[0m - Initialisation de la base de données...
+2025-07-10 22:48:06 - [34mapp.database[0m - [32mINFO[0m - Base de données initialisée avec succès
+2025-07-10 22:48:06 - [34mapp.main[0m - [32mINFO[0m - L'application GW2 Team Builder démarre...
+2025-07-10 22:49:01 - [34mapp.database[0m - [32mINFO[0m - Initialisation de la base de données...
+2025-07-10 22:49:01 - [34mapp.database[0m - [32mINFO[0m - Base de données initialisée avec succès
+2025-07-10 22:49:01 - [34mapp.main[0m - [32mINFO[0m - L'application GW2 Team Builder démarre...

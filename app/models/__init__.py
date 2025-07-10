@@ -3,15 +3,10 @@
 Ce package exporte à la fois les modèles Pydantic pour l'API et les modèles SQLAlchemy.
 """
 
-# Import des modèles SQLAlchemy depuis le module racine
-import sys
-from pathlib import Path
-
-# Ajout du répertoire parent au chemin de recherche Python pour permettre l'import du module racine
-sys.path.append(str(Path(__file__).parent.parent))
-
-# Import des modèles SQLAlchemy depuis le module racine
-from app.models import Profession, Specialization, Skill
+# Import des modèles SQLAlchemy depuis leurs fichiers respectifs
+from .profession import Profession
+from .specialization import Specialization
+from .skill import Skill
 
 # Import des modèles Pydantic pour l'API
 from .team import TeamRequest, TeamResponse, TeamComposition, TeamMember, Playstyle

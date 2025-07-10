@@ -30,12 +30,12 @@ _DEFAULT_CONFIG = ScoringConfig(
         "swiftness": BuffWeight(weight=0.3, description="Augmente la vitesse de déplacement"),
     },
     role_weights={
-        Role.HEALER: RoleWeight(weight=2.0, required_count=1, description="Soigneur principal"),
-        Role.QUICKNESS: RoleWeight(weight=2.0, required_count=1, description="Fournisseur de Quickness"),
-        Role.ALACRITY: RoleWeight(weight=2.0, required_count=1, description="Fournisseur d'Alacrity"),
-        Role.DPS: RoleWeight(weight=1.0, required_count=2, description="Dégâts purs"),
-        Role.SUPPORT: RoleWeight(weight=1.5, required_count=1, description="Support secondaire"),
-        Role.BRUISER: RoleWeight(weight=1.2, required_count=1, description="Bruiser"),
+        "heal": RoleWeight(weight=2.0, required_count=1, description="Soigneur principal"),
+        "quickness": RoleWeight(weight=2.0, required_count=1, description="Fournisseur de Quickness"),
+        "alacrity": RoleWeight(weight=2.0, required_count=1, description="Fournisseur d'Alacrity"),
+        "dps": RoleWeight(weight=1.0, required_count=2, description="Dégâts purs"),
+        "support": RoleWeight(weight=1.5, required_count=1, description="Support secondaire"),
+        "tank": RoleWeight(weight=1.2, required_count=1, description="Tank"),
     },
     duplicate_penalty=DuplicatePenalty(
         threshold=1,
