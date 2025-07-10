@@ -4,7 +4,8 @@
   functions = "netlify/functions"
 
 [build.environment]
-  PYTHON_VERSION = "3.11"
+  # Utilisation d'une version majeure de Python pour une meilleure compatibilité
+  PYTHON_VERSION = "3.10"
   NODE_VERSION = "20"
   NPM_VERSION = "10"
   
