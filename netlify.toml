@@ -1,73 +1,59 @@
 [build]
-  # Commandes de build pour le frontend React
   command = "cd ui && npm install && npm run build"
-  # Dossier de sortie du build (configuré dans vite.config.ts)
   publish = "ui/dist"
-  # Dossier des fonctions serverless
   functions = "netlify/functions"
 
 [build.environment]
-  # Versions des environnements
   PYTHON_VERSION = "3.11"
   NODE_VERSION = "20"
   NPM_VERSION = "10"
   
-  # Configuration Python pour Netlify
+  # Python configuration
   PIPENV_VERBOSITY = "1"
   PIPENV_NOSPIN = "1"
   
-  # Configuration de l'application
+  # App configuration
   ENVIRONMENT = "production"
   DEBUG = "false"
   
-  # URL du frontend (à remplacer par votre domaine Netlify après déploiement)
+  # Frontend URL (update after deployment)
   FRONTEND_URL = "https://votre-site.netlify.app"
   
-  # Origines autorisées (séparées par des virgules)
+  # Allowed origins (comma separated)
   ALLOWED_ORIGINS = "https://votre-site.netlify.app,http://localhost:3000"
   
-  # Configuration de la base de données (à remplir après la création de la base Supabase)
-  # DATABASE_URL = "postgresql://postgres:VOTRE_MOT_DE_PASSE@db.VOTRE_PROJET_REF.supabase.co:5432/postgres"
+  # Database configuration (to be filled after Supabase setup)
+  # DATABASE_URL = "postgresql://postgres:PASSWORD@db.PROJECT_REF.supabase.co:5432/postgres"
   
-  # Configuration Supabase (optionnel)
-  # SUPABASE_URL = "https://VOTRE_PROJET_REF.supabase.co"
-  # SUPABASE_ANON_KEY = "votre_anon_key"
+  # Supabase configuration (optional)
+  # SUPABASE_URL = "https://PROJECT_REF.supabase.co"
+  # SUPABASE_ANON_KEY = "your_anon_key"
   
-  # Clé secrète pour les sessions (générer une chaîne aléatoire sécurisée)
+  # Secret key for sessions
   SECRET_KEY = "kLi.6pLd*xyZmOqS2/p4@#Iyus=LBaIj/k?dIbJckH7sa1Rfo*"
   
-  # Configuration du cache (optionnel)
+  # Cache configuration (optional)
   CACHE_TTL = "3600"
 
 [functions]
-  # Configuration des fonctions serverless
-  node_bundler = "esbuild"
-  external_node_modules = ["@fastify/static"]
-  # Taille maximale de la fonction (limite Netlify: 10 Go décompressé)
-  # 1024 Mo = 1 Go (on reste bien en dessous de la limite)
   node_bundler = "esbuild"
   external_node_modules = ["@fastify/static"]
   included_files = ["app/**"]
 
-# Redirections pour le SPA (Single Page Application)
+# SPA redirects
 [[redirects]]
   from = "/api/*"
   to = "/.netlify/functions/api/:splat"
   status = 200
   force = true
 
-# Redirection pour le routage côté client (SPA)
+# Client-side routing for SPA
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
 
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
-
-# Headers pour l'API
+# API headers
 [[headers]]
   for = "/api/*"
   [headers.values]
@@ -75,7 +61,7 @@
     Access-Control-Allow-Methods = "GET, POST, PUT, DELETE, OPTIONS"
     Access-Control-Allow-Headers = "Content-Type, Authorization"
 
-# Configuration du cache pour les assets
+# Cache control for assets
 [[headers]]
   for = "/assets/*"
   [headers.values]
