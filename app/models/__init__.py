@@ -38,7 +38,34 @@ from .team import TeamRequest, TeamResponse, TeamComposition, TeamMember, Playst
 
 # 6. Configuration des relations entre les modèles
 # Note: Ce module doit être importé après tous les autres modèles
-from . import relationships  # noqa: F401
+from . import relationships
+from sqlalchemy.exc import SQLAlchemyError
+import logging
+
+# Configure logging
+logger = logging.getLogger(__name__)
+
+# 7. Configuration des relations SQLAlchemy
+try:
+    # Appel explicite à setup_relationships() pour configurer toutes les relations
+    relationships.setup_relationships()
+    logger.info("SQLAlchemy relationships configured successfully")
+except SQLAlchemyError as e:
+    logger.error(f"Failed to configure SQLAlchemy relationships: {e}")
+    raise
+
+# 8. Vérification de la configuration des relations (pour le débogage)
+def verify_relationships():
+    """Vérifie que les relations critiques sont correctement configurées."""
+    from sqlalchemy import inspect
+    
+    # Vérification de la relation Item.weapon
+    if not hasattr(Item, 'weapon') or not inspect(Item).relationships.get('weapon'):
+        logger.warning("Item.weapon relationship is not properly configured")
+    
+    # Vérification de la relation Weapon.item
+    if not hasattr(Weapon, 'item') or not inspect(Weapon).relationships.get('item'):
+        logger.warning("Weapon.item relationship is not properly configured")
 
 __all__ = [
     # Base de données

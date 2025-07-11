@@ -4,13 +4,18 @@ Ce module configure la connexion à la base de données avec un pool de connexio
 des timeouts et d'autres optimisations de performance.
 """
 import os
+import logging
 from typing import Generator
 
-from sqlalchemy import create_engine, event
+from sqlalchemy import create_engine, event, inspect
 from sqlalchemy.engine import Engine
 from sqlalchemy.orm import sessionmaker, declarative_base, Session
+from sqlalchemy.exc import SQLAlchemyError
 
 from .config import settings
+
+# Configure logging
+logger = logging.getLogger(__name__)
 
 # Configuration spécifique à SQLite
 connect_args = {}
@@ -62,7 +67,24 @@ SessionLocal = sessionmaker(
 from app.models.base import Base
 
 
-def init_db() -> None:
+def verify_database_schema():
+    """Vérifie que le schéma de la base de données est cohérent avec les modèles."""
+    from sqlalchemy import inspect as sql_inspect
+    
+    # Vérifie que toutes les tables des modèles existent dans la base de données
+    inspector = sql_inspect(engine)
+    missing_tables = []
+    
+    for table_name in Base.metadata.tables.keys():
+        if not inspector.has_table(table_name):
+            missing_tables.append(table_name)
+    
+    if missing_tables:
+        logger.warning(f"Tables manquantes dans la base de données: {', '.join(missing_tables)}")
+        return False
+    return True
+
+def init_db():
     """Initialise la base de données et crée les tables si elles n'existent pas.
     
     Cette fonction doit être appelée au démarrage de l'application pour s'assurer
@@ -73,20 +95,31 @@ def init_db() -> None:
         pour la création des tables. Pour une utilisation dans un contexte asynchrone,
         utilisez init_async_db() à la place.
     """
-    import importlib
-    import logging
-    
-    logger = logging.getLogger(__name__)
-    logger.info("Initialisation synchrone de la base de données...")
-    
     try:
-        # Import dynamique des modèles pour les enregistrer dans les métadonnées
-        importlib.import_module("app.models")
+        # Import des modèles pour s'assurer qu'ils sont enregistrés avec SQLAlchemy
+        from . import models  # noqa: F401
         
-        # Créer toutes les tables
-        Base.metadata.create_all(bind=engine)
-        logger.info("Base de données initialisée avec succès (mode synchrone)")
+        # Configuration des relations SQLAlchemy
+        if hasattr(models, 'setup_relationships'):
+            models.setup_relationships()
         
+        # Vérification du schéma de la base de données
+        if not verify_database_schema():
+            logger.info("Création des tables manquantes dans la base de données...")
+            
+            # Création de toutes les tables
+            Base.metadata.create_all(bind=engine)
+            logger.info("Tables créées avec succès")
+        
+        # Vérification des relations critiques
+        if hasattr(models, 'verify_relationships'):
+            models.verify_relationships()
+        
+        logger.info("Base de données initialisée avec succès")
+        return True
+    except SQLAlchemyError as e:
+        logger.error(f"Erreur lors de l'initialisation de la base de données: {e}")
+        raise
     except Exception as e:
         logger.exception("Erreur lors de l'initialisation de la base de données")
         raise
