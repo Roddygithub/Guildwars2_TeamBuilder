@@ -1,0 +1,57 @@
+{
+  "id": 277,
+  "tier": 2,
+  "order": 2,
+  "name": "Bénédiction terrestre",
+  "description": "Réduction de la durée des altérations de mouvements subies. Vous récupérez de l'endurance lorsque vous subissez l'une de ces altérations.",
+  "slot": "Major",
+  "facts": [
+    {
+      "text": "Durée réduite",
+      "type": "Percent",
+      "icon": "https://render.guildwars2.com/file/7B2193ACCF77E56C13E608191B082D68AA0FAA71/156659.png",
+      "percent": 33
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/28C4EC547A3516AF0242E826772DA43A5EAC3DF3/102839.png",
+      "duration": 0,
+      "status": "Givré",
+      "description": "Vitesse de déplacement réduite de 66%. Temps de recharge de la compétence augmenté de 66%. La durée est cumulable.",
+      "apply_count": 1
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/070325E519C178D502A8160523766070D30C0C19/102838.png",
+      "duration": 0,
+      "status": "Infirmité",
+      "description": "Vitesse de déplacement réduite de 50%. La durée est cumulable.",
+      "apply_count": 1
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/397A613651BFCA2832B6469CE34735580A2C120E/102844.png",
+      "duration": 0,
+      "status": "Immobile",
+      "description": "Incapable de bouger. La durée est cumulable.",
+      "apply_count": 1
+    },
+    {
+      "text": "Endurance gagnée",
+      "type": "Number",
+      "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png",
+      "value": 10
+    },
+    {
+      "text": "Endurance gagnée",
+      "type": "Number",
+      "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png",
+      "value": 5
+    }
+  ],
+  "specialization": 26,
+  "icon": "https://render.guildwars2.com/file/9A2144F4A44AFF9AA3B9099405F0EA36F226CD27/2175042.png"
+}

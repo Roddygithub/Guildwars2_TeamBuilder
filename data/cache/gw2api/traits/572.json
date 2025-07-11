@@ -1,0 +1,42 @@
+{
+  "id": 572,
+  "tier": 1,
+  "order": 0,
+  "name": "Justice aveugle",
+  "description": "Lorsque vous activez votre 1re compétence de vertu, vous bénéficiez d'Aura de lumière et infligez Aveuglement aux ennemis à proximité.",
+  "slot": "Minor",
+  "facts": [
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/09770136BB76FD0DBE1CC4267DEED54774CB20F6/102837.png",
+      "duration": 3,
+      "status": "Aveugle",
+      "description": "L'attaque suivante rate. L'intensité est cumulable.",
+      "apply_count": 1
+    },
+    {
+      "text": "Nombre de cibles",
+      "type": "Number",
+      "icon": "https://render.guildwars2.com/file/BBE8191A494B0352259C10EADFDACCE177E6DA5B/1770208.png",
+      "value": 5
+    },
+    {
+      "text": "Rayon",
+      "type": "Distance",
+      "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+      "distance": 240
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/62405ED2322E80A4A95663BA6C6804DB0962E6B0/867451.png",
+      "duration": 4,
+      "status": "Aura de lumière",
+      "description": "Vous bénéficiez de Résolution lorsque vous êtes touché. Dégâts par altération subis réduits de 10%. <c=@reminder>(Temps de recharge : 1 s)</c>",
+      "apply_count": 1
+    }
+  ],
+  "specialization": 16,
+  "icon": "https://render.guildwars2.com/file/090954DB1B76C01908A6AC9E38A9E4A9F10D131D/1012423.png"
+}

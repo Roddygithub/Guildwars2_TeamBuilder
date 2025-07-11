@@ -1,0 +1,53 @@
+{
+  "id": 968,
+  "tier": 3,
+  "order": 1,
+  "name": "Célérité du zéphyr",
+  "description": "Vous lancez Zéphyr véloce mineur lorsque vous changez de familier.",
+  "slot": "Major",
+  "facts": [
+    {
+      "text": "Uniquement en combat",
+      "type": "NoData",
+      "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Zéphyr véloce mineur",
+      "facts": [
+        {
+          "text": "Recharge",
+          "type": "Recharge",
+          "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+          "value": 15
+        },
+        {
+          "text": "Apply Buff/Condition",
+          "type": "Buff",
+          "icon": "https://render.guildwars2.com/file/D4AB6401A6D6917C3D4F230764452BCCE1035B0D/1012835.png",
+          "duration": 3,
+          "status": "Célérité",
+          "description": "Les compétences et les actions sont plus rapides.",
+          "apply_count": 1
+        },
+        {
+          "text": "Apply Buff/Condition",
+          "type": "Buff",
+          "icon": "https://render.guildwars2.com/file/E04392C3D8ED985125973AEB99D8460C483263F9/103458.png",
+          "duration": 3,
+          "status": "Super vitesse",
+          "description": "La vitesse de déplacement est considérablement accrue. Durée maximum : 10s",
+          "apply_count": 1
+        }
+      ],
+      "description": "Survie. Votre familier et vous bénéficiez de Célérité ainsi que de Super vitesse.",
+      "icon": "https://render.guildwars2.com/file/5C2FFFD8103A1D763E5A71EE557277B5959F2051/104006.png",
+      "flags": [],
+      "id": 44240,
+      "chat_link": "[&BtCsAAA=]"
+    }
+  ],
+  "specialization": 32,
+  "icon": "https://render.guildwars2.com/file/DFCFB305E50B1A1824B4D81108BAD072C5BA010C/1012613.png"
+}

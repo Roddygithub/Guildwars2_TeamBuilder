@@ -1,0 +1,32 @@
+{
+  "id": 1089,
+  "tier": 3,
+  "order": 0,
+  "name": "Pousse coriace",
+  "description": "Votre familier et vous récupérez de la santé tant que vous êtes affectés par la protection.",
+  "slot": "Minor",
+  "facts": [
+    {
+      "text": "Guérison",
+      "type": "AttributeAdjust",
+      "icon": "https://render.guildwars2.com/file/D4347C52157B040943051D7E09DEAD7AF63D4378/156662.png",
+      "value": 259,
+      "target": "Healing"
+    },
+    {
+      "text": "Guérison",
+      "type": "AttributeAdjust",
+      "icon": "https://render.guildwars2.com/file/D4347C52157B040943051D7E09DEAD7AF63D4378/156662.png",
+      "value": 196,
+      "target": "Healing"
+    },
+    {
+      "text": "Intervalle",
+      "type": "Time",
+      "icon": "https://render.guildwars2.com/file/B75E91EB22E0DFCC1D08030204055946506D56F6/1770206.png",
+      "duration": 1
+    }
+  ],
+  "specialization": 33,
+  "icon": "https://render.guildwars2.com/file/C13D29745FB34B9B2C803ABAB92E011EEC1E4204/1012665.png"
+}

@@ -1,0 +1,53 @@
+{
+  "id": 257,
+  "tier": 2,
+  "order": 2,
+  "name": "Protection finale",
+  "description": "Vous lancez Bouclier des arcanes mineur lorsque vous utilisez une compétence d'élite.",
+  "slot": "Major",
+  "skills": [
+    {
+      "name": "Bouclier des arcanes mineur",
+      "facts": [
+        {
+          "text": "Recharge",
+          "type": "Recharge",
+          "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+          "value": 20
+        },
+        {
+          "text": "Dégât",
+          "type": "Damage",
+          "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+          "hit_count": 1,
+          "dmg_multiplier": 1.5
+        },
+        {
+          "text": "Apply Buff/Condition",
+          "type": "Buff",
+          "icon": "https://render.guildwars2.com/file/A20219EB6F5FC52A0E537163B4A9051606C11B52/65735.png",
+          "duration": 5,
+          "status": "Bouclier des arcanes",
+          "description": "Bloque les attaques. Explose après trois attaques bloquées.",
+          "apply_count": 3
+        },
+        {
+          "text": "Rayon",
+          "type": "Distance",
+          "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+          "distance": 360
+        }
+      ],
+      "description": "Arcane. Un bouclier d'énergie bloque les attaques. Il explose après trois attaques essuyées.",
+      "icon": "https://render.guildwars2.com/file/A20219EB6F5FC52A0E537163B4A9051606C11B52/65735.png",
+      "flags": [],
+      "id": 25579,
+      "chat_link": "[&ButjAAA=]",
+      "categories": [
+        "Arcane"
+      ]
+    }
+  ],
+  "specialization": 37,
+  "icon": "https://render.guildwars2.com/file/F00E3FB59751F0422F3D3C5859F5FD3B580EA9B3/1012287.png"
+}

@@ -1,0 +1,33 @@
+{
+  "id": 917,
+  "tier": 3,
+  "order": 0,
+  "name": "Puissance drainée",
+  "description": "Vous gagnez Pouvoir quand vous frappez un ennemi en dessous d'un certain seuil de santé.",
+  "slot": "Minor",
+  "facts": [
+    {
+      "text": "Recharge",
+      "type": "Recharge",
+      "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+      "value": 1
+    },
+    {
+      "text": "Seuil de Santé",
+      "type": "Percent",
+      "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+      "percent": 50
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/2FA9DF9D6BC17839BBEA14723F1C53D645DDB5E1/102852.png",
+      "duration": 8,
+      "status": "Pouvoir",
+      "description": "Les dégâts infligés sont augmentés. Intensité cumulable.",
+      "apply_count": 3
+    }
+  ],
+  "specialization": 53,
+  "icon": "https://render.guildwars2.com/file/F9CC326D70BFDFAED0054C27F721362AFB32177E/1012604.png"
+}

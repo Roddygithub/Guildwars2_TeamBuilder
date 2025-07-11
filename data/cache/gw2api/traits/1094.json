@@ -1,0 +1,58 @@
+{
+  "id": 1094,
+  "tier": 3,
+  "order": 0,
+  "name": "Carnivore",
+  "description": "Vous volez de la santé aux ennemis quand vous ou votre familier les neutralisez.<br><c=@reminder>Les effets suivants neutralisent la cible : Étourdissement, Stupeur, Repoussement, Attraction, Renversement, Noyade, Flottaison, Projection, Incitation ou Peur.</c>",
+  "slot": "Major",
+  "facts": [
+    {
+      "text": "Recharge",
+      "type": "Recharge",
+      "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+      "value": 0.25
+    }
+  ],
+  "skills": [
+    {
+      "name": "Carnivore",
+      "facts": [
+        {
+          "text": "Dégâts du Siphon de vie",
+          "type": "AttributeAdjust",
+          "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+          "value": 3205,
+          "target": "Power"
+        },
+        {
+          "text": "Guérison du Siphon de vie",
+          "type": "AttributeAdjust",
+          "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+          "value": 3205,
+          "target": "Healing"
+        },
+        {
+          "text": "Dégâts du Siphon de vie",
+          "type": "AttributeAdjust",
+          "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+          "value": 581,
+          "target": "Power"
+        },
+        {
+          "text": "Guérison du Siphon de vie",
+          "type": "AttributeAdjust",
+          "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+          "value": 581,
+          "target": "Healing"
+        }
+      ],
+      "description": "Vous volez de la santé aux ennemis neutralisés.",
+      "icon": "https://render.guildwars2.com/file/C59B052F29BB21A6471F5080CB5A416F3A6CE7A8/1012659.png",
+      "flags": [],
+      "id": 72369,
+      "chat_link": "[&BrEaAQA=]"
+    }
+  ],
+  "specialization": 33,
+  "icon": "https://render.guildwars2.com/file/C59B052F29BB21A6471F5080CB5A416F3A6CE7A8/1012659.png"
+}

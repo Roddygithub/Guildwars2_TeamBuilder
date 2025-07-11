@@ -1,0 +1,138 @@
+{
+  "id": 482,
+  "tier": 2,
+  "order": 0,
+  "name": "Roquette à visée assistée",
+  "description": "Les projectiles qui touchent une cible lancent une roquette sur votre cible. Quand un certain nombre de roquettes ont été lancées, vous déclenchez Frappe orbitale.<br><c=@reminder>Cette aptitude a un temps de recharge interne.</c>",
+  "slot": "Major",
+  "facts": [
+    {
+      "text": "Recharge",
+      "type": "Recharge",
+      "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+      "value": 3
+    },
+    {
+      "text": "Roquettes avant Frappe orbitale",
+      "type": "Number",
+      "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png",
+      "value": 4
+    },
+    {
+      "text": "Intervalle",
+      "type": "Time",
+      "icon": "https://render.guildwars2.com/file/B75E91EB22E0DFCC1D08030204055946506D56F6/1770206.png",
+      "duration": 3
+    }
+  ],
+  "skills": [
+    {
+      "name": "Roquette à visée assistée",
+      "facts": [
+        {
+          "text": "Range",
+          "type": "Range",
+          "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+          "value": 1500
+        },
+        {
+          "text": "Dégât",
+          "type": "Damage",
+          "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+          "hit_count": 1,
+          "dmg_multiplier": 1
+        },
+        {
+          "text": "Dégât",
+          "type": "Damage",
+          "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+          "hit_count": 1,
+          "dmg_multiplier": 0.5
+        },
+        {
+          "text": "Nombre de cibles",
+          "type": "Number",
+          "icon": "https://render.guildwars2.com/file/BBE8191A494B0352259C10EADFDACCE177E6DA5B/1770208.png",
+          "value": 3
+        },
+        {
+          "text": "Rayon",
+          "type": "Distance",
+          "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+          "distance": 120
+        },
+        {
+          "text": "Explosion",
+          "type": "NoData",
+          "icon": "https://render.guildwars2.com/file/450630987A0566D4A7A491EDA4DCDF57D9396854/1770203.png"
+        }
+      ],
+      "description": "Vous tirez une roquette à tête chercheuse sur votre ennemi.",
+      "icon": "https://render.guildwars2.com/file/C61F211044C97242B6324B6F092802706A5FC101/103936.png",
+      "flags": [],
+      "id": 29889,
+      "chat_link": "[&BsF0AAA=]",
+      "traited_facts": [
+        {
+          "text": "Apply Buff/Condition",
+          "type": "Buff",
+          "icon": "https://render.guildwars2.com/file/3A394C1A0A3257EB27A44842DDEEF0DF000E1241/102850.png",
+          "duration": 5,
+          "status": "Vulnérabilité",
+          "description": "Les dégâts et Dégâts par altération sont augmentés. Intensité cumulable.",
+          "apply_count": 1,
+          "requires_trait": 517
+        }
+      ]
+    },
+    {
+      "name": "Frappe de commande orbitale",
+      "facts": [
+        {
+          "text": "Range",
+          "type": "Range",
+          "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+          "value": 1500
+        },
+        {
+          "text": "Rayon",
+          "type": "Distance",
+          "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+          "distance": 360
+        },
+        {
+          "text": "Dégât",
+          "type": "Damage",
+          "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+          "hit_count": 1,
+          "dmg_multiplier": 1.92
+        },
+        {
+          "text": "Nombre de cibles",
+          "type": "Number",
+          "icon": "https://render.guildwars2.com/file/BBE8191A494B0352259C10EADFDACCE177E6DA5B/1770208.png",
+          "value": 5
+        },
+        {
+          "text": "Ne peut être bloquée",
+          "type": "NoData",
+          "icon": "https://render.guildwars2.com/file/BA65F2F5A073EB4BCC79085916B978DC0B096A0B/2248876.png"
+        },
+        {
+          "text": "Combo de coup de grâce",
+          "type": "ComboFinisher",
+          "icon": "https://render.guildwars2.com/file/A513F3653D33FBA4220D2D307799F8A327A36A3B/156656.png",
+          "percent": 100,
+          "finisher_type": "Blast"
+        }
+      ],
+      "description": "Vous canalisez l'énergie du ciel pour déclencher une explosion ciblée.",
+      "icon": "https://render.guildwars2.com/file/99CFD7B1B200DCC508172BC8A3C2EE970C06493E/1012854.png",
+      "flags": [],
+      "id": 41612,
+      "chat_link": "[&BoyiAAA=]"
+    }
+  ],
+  "specialization": 6,
+  "icon": "https://render.guildwars2.com/file/284CE83D6CC7169E1B0D045054566E0D0A7D052B/1012345.png"
+}

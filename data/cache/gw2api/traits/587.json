@@ -1,0 +1,102 @@
+{
+  "id": 587,
+  "tier": 2,
+  "order": 2,
+  "name": "Cœur glacial",
+  "description": "Coup puissant devient Coup glaçant. Vous guérissez lorsque vous neutralisez ou infligez Immobilisation ou Givre à un ennemi.\n<br><c=@reminder>Les altérations neutralisantes sont entre autres : Étourdissement, Stupeur, Repoussement, Attraction, Renversement, Noyade, Flottaison, Projection, Incitation et Peur.</c>",
+  "slot": "Major",
+  "facts": [
+    {
+      "text": "Recharge",
+      "type": "Recharge",
+      "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+      "value": 0.5
+    },
+    {
+      "text": "Guérison",
+      "type": "AttributeAdjust",
+      "icon": "https://render.guildwars2.com/file/D4347C52157B040943051D7E09DEAD7AF63D4378/156662.png",
+      "value": 647,
+      "target": "Healing"
+    },
+    {
+      "text": "Nombre de cibles alliées",
+      "type": "Number",
+      "icon": "https://render.guildwars2.com/file/BBE8191A494B0352259C10EADFDACCE177E6DA5B/1770208.png",
+      "value": 5
+    },
+    {
+      "text": "Rayon",
+      "type": "Distance",
+      "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+      "distance": 300
+    }
+  ],
+  "skills": [
+    {
+      "name": "Coup glaçant",
+      "facts": [
+        {
+          "text": "Range",
+          "type": "Range",
+          "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+          "value": 300
+        },
+        {
+          "text": "Recharge",
+          "type": "Recharge",
+          "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+          "value": 4
+        },
+        {
+          "text": "Dégât",
+          "type": "Damage",
+          "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+          "hit_count": 1,
+          "dmg_multiplier": 2.5
+        },
+        {
+          "text": "Apply Buff/Condition",
+          "type": "Buff",
+          "icon": "https://render.guildwars2.com/file/28C4EC547A3516AF0242E826772DA43A5EAC3DF3/102839.png",
+          "duration": 3,
+          "status": "Givré",
+          "description": "Vitesse de déplacement réduite de 66%. Temps de recharge de la compétence augmenté de 66%. La durée est cumulable.",
+          "apply_count": 1
+        },
+        {
+          "text": "Rayon",
+          "type": "Distance",
+          "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+          "distance": 180
+        },
+        {
+          "text": "Nombre de cibles",
+          "type": "Number",
+          "icon": "https://render.guildwars2.com/file/BBE8191A494B0352259C10EADFDACCE177E6DA5B/1770208.png",
+          "value": 5
+        },
+        {
+          "text": "Portée de téléportation",
+          "type": "Number",
+          "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+          "value": 800
+        },
+        {
+          "text": "Combo Finisher",
+          "type": "ComboFinisher",
+          "icon": "https://render.guildwars2.com/file/A513F3653D33FBA4220D2D307799F8A327A36A3B/156656.png",
+          "percent": 100,
+          "finisher_type": "Blast"
+        }
+      ],
+      "description": "Assène une frappe glaçante aux ennemis à proximité. Si votre cible a été touchée par Bannissement, vous vous téléportez jusqu'à elle.",
+      "icon": "https://render.guildwars2.com/file/0B54C31BD12FD40F51C068D84A79BB6FCE6D2505/2075996.png",
+      "flags": [],
+      "id": 53482,
+      "chat_link": "[&BurQAAA=]"
+    }
+  ],
+  "specialization": 46,
+  "icon": "https://render.guildwars2.com/file/B6B838104E585313E2FA34481FEDBD9F1B6F07B4/1012443.png"
+}

@@ -1,0 +1,31 @@
+{
+  "id": 1066,
+  "tier": 3,
+  "order": 2,
+  "name": "Haches aiguisées",
+  "description": "Votre familier et vous-même bénéficiez de Férocité. Les compétences de hache se rechargent plus vite et vous obtenez de la Férocité supplémentaire lorsque vous maniez une hache.",
+  "slot": "Major",
+  "facts": [
+    {
+      "type": "AttributeAdjust",
+      "icon": "https://render.guildwars2.com/file/0658D833944E69E62E08EB18A0B5407F722125BC/2229320.png",
+      "value": 120,
+      "target": "CritDamage"
+    },
+    {
+      "text": "Férocité supplémentaire",
+      "type": "AttributeAdjust",
+      "icon": "https://render.guildwars2.com/file/0658D833944E69E62E08EB18A0B5407F722125BC/2229320.png",
+      "value": 120,
+      "target": "CritDamage"
+    },
+    {
+      "text": "Réduction du temps de recharge",
+      "type": "Percent",
+      "icon": "https://render.guildwars2.com/file/AAB7C5387A08367C2F023F19FEE70E1556AD4375/1770202.png",
+      "percent": 20
+    }
+  ],
+  "specialization": 32,
+  "icon": "https://render.guildwars2.com/file/08106C6618C43B927DD90C97BB643843E2DCBA14/1012614.png"
+}

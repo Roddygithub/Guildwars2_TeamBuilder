@@ -1,0 +1,8387 @@
+[
+  {
+    "name": "Nightmare Coil",
+    "description": "<c=@flavor>A circle of dark, twisted vines.</c>",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36587,
+    "chat_link": "[&AgHrjgAA]",
+    "icon": "https://render.guildwars2.com/file/F2A90C600A25B19908FA66357FB6567949DC7D7B/66853.png",
+    "details": {
+      "type": "Ring",
+      "infusion_slots": [],
+      "attribute_adjustment": 256.08,
+      "infix_upgrade": {
+        "id": 162,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 90
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 64
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 64
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Tortured Root",
+    "description": "<c=@flavor>Gnarled and knotted, this root is still strong.</c>",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 330,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36590,
+    "chat_link": "[&AgHujgAA]",
+    "icon": "https://render.guildwars2.com/file/0DED39029743D2794F214502E228A6089FEB37DE/220453.png",
+    "details": {
+      "type": "Accessory",
+      "infusion_slots": [],
+      "attribute_adjustment": 213.4,
+      "infix_upgrade": {
+        "id": 154,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 53
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 53
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 75
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Stargazer Pendant",
+    "description": "<c=@flavor>The jotun have many secrets. This is but one.</c>",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 528,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36593,
+    "chat_link": "[&AgHxjgAA]",
+    "icon": "https://render.guildwars2.com/file/35A76FF749801A31BDE750017C2DF371DB200D4A/222374.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "stat_choices": [
+        161,
+        154,
+        158
+      ],
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Coral Pendant",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Masterwork",
+    "vendor_value": 264,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36594,
+    "chat_link": "[&AgHyjgAA]",
+    "icon": "https://render.guildwars2.com/file/D5681E4191C1634104D4D2442B2D20C67AD7A8E4/222364.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 279.956,
+      "suffix_item_id": 24522,
+      "stat_choices": [
+        161,
+        154,
+        158
+      ],
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Coral Pendant",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 396,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36595,
+    "chat_link": "[&AgHzjgAA]",
+    "icon": "https://render.guildwars2.com/file/D5681E4191C1634104D4D2442B2D20C67AD7A8E4/222364.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 301.824,
+      "suffix_item_id": 24545,
+      "secondary_suffix_item_id": "",
+      "stat_choices": [
+        161,
+        154,
+        158
+      ]
+    }
+  },
+  {
+    "name": "Recipe: Operative's Creed",
+    "description": "Double-click to learn a recipe.",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36596,
+    "chat_link": "[&AgH0jgAA]",
+    "icon": "https://render.guildwars2.com/file/1862804D61ED5E0BE301E40E2E2027125907BC72/849331.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 6510
+    }
+  },
+  {
+    "name": "Recipe: Stargazer Pendant",
+    "description": "Double-click to learn a recipe.",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36597,
+    "chat_link": "[&AgH1jgAA]",
+    "icon": "https://render.guildwars2.com/file/01CC2C735674EF3E77AA48FE5EBADED5F109B873/849332.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 6511
+    }
+  },
+  {
+    "name": "Recipe: Bloodstone Fragment",
+    "description": "Double-click to learn a recipe.",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36598,
+    "chat_link": "[&AgH2jgAA]",
+    "icon": "https://render.guildwars2.com/file/01CC2C735674EF3E77AA48FE5EBADED5F109B873/849332.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 6512
+    }
+  },
+  {
+    "name": "Recipe: Tortured Root",
+    "description": "Double-click to learn a recipe.",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36600,
+    "chat_link": "[&AgH4jgAA]",
+    "icon": "https://render.guildwars2.com/file/1862804D61ED5E0BE301E40E2E2027125907BC72/849331.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 6513
+    }
+  },
+  {
+    "name": "Recipe: Nightmare Coil",
+    "description": "Double-click to learn a recipe.",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36601,
+    "chat_link": "[&AgH5jgAA]",
+    "icon": "https://render.guildwars2.com/file/7B1A44A9170BC3F8903327B79AE79DC6BCCA06E2/849333.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 6514
+    }
+  },
+  {
+    "name": "Recipe: Colossus Fang",
+    "description": "Double-click to learn a recipe.",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36603,
+    "chat_link": "[&AgH7jgAA]",
+    "icon": "https://render.guildwars2.com/file/01CC2C735674EF3E77AA48FE5EBADED5F109B873/849332.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 6516
+    }
+  },
+  {
+    "name": "Recipe: Claw of the Howling King",
+    "description": "Double-click to learn a recipe.",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36604,
+    "chat_link": "[&AgH8jgAA]",
+    "icon": "https://render.guildwars2.com/file/7B1A44A9170BC3F8903327B79AE79DC6BCCA06E2/849333.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 6515
+    }
+  },
+  {
+    "name": "Recipe: Ashes of the Effigy",
+    "description": "Double-click to learn a recipe.",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36606,
+    "chat_link": "[&AgH+jgAA]",
+    "icon": "https://render.guildwars2.com/file/1862804D61ED5E0BE301E40E2E2027125907BC72/849331.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 6518
+    }
+  },
+  {
+    "name": "Recipe: Eternal Flame",
+    "description": "Double-click to learn a recipe.",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36607,
+    "chat_link": "[&AgH/jgAA]",
+    "icon": "https://render.guildwars2.com/file/01CC2C735674EF3E77AA48FE5EBADED5F109B873/849332.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 6517
+    }
+  },
+  {
+    "name": "Recipe: Alpha Conduit",
+    "description": "Double-click to learn a recipe.",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36609,
+    "chat_link": "[&AgEBjwAA]",
+    "icon": "https://render.guildwars2.com/file/01CC2C735674EF3E77AA48FE5EBADED5F109B873/849332.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 6519
+    }
+  },
+  {
+    "name": "Recipe: Infinity Loop",
+    "description": "Double-click to learn a recipe.",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36610,
+    "chat_link": "[&AgECjwAA]",
+    "icon": "https://render.guildwars2.com/file/7B1A44A9170BC3F8903327B79AE79DC6BCCA06E2/849333.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 6520
+    }
+  },
+  {
+    "name": "Recipe: Koda's Gift",
+    "description": "Double-click to learn a recipe.",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36612,
+    "chat_link": "[&AgEEjwAA]",
+    "icon": "https://render.guildwars2.com/file/1862804D61ED5E0BE301E40E2E2027125907BC72/849331.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 6521
+    }
+  },
+  {
+    "name": "Recipe: The Zealot's Amulet",
+    "description": "Double-click to learn a recipe.",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36613,
+    "chat_link": "[&AgEFjwAA]",
+    "icon": "https://render.guildwars2.com/file/01CC2C735674EF3E77AA48FE5EBADED5F109B873/849332.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 6522
+    }
+  },
+  {
+    "name": "Recipe: Ring of Blood",
+    "description": "Double-click to learn a recipe.",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36614,
+    "chat_link": "[&AgEGjwAA]",
+    "icon": "https://render.guildwars2.com/file/7B1A44A9170BC3F8903327B79AE79DC6BCCA06E2/849333.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 6523
+    }
+  },
+  {
+    "name": "Recipe: Vallog's Demise",
+    "description": "Double-click to learn a recipe.",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36615,
+    "chat_link": "[&AgEHjwAA]",
+    "icon": "https://render.guildwars2.com/file/1862804D61ED5E0BE301E40E2E2027125907BC72/849331.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 6524
+    }
+  },
+  {
+    "name": "Recipe: Plague",
+    "description": "Double-click to learn a recipe.",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36616,
+    "chat_link": "[&AgEIjwAA]",
+    "icon": "https://render.guildwars2.com/file/7B1A44A9170BC3F8903327B79AE79DC6BCCA06E2/849333.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 6525
+    }
+  },
+  {
+    "name": "Recipe: The Replicator",
+    "description": "Double-click to learn a recipe.",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36619,
+    "chat_link": "[&AgELjwAA]",
+    "icon": "https://render.guildwars2.com/file/01CC2C735674EF3E77AA48FE5EBADED5F109B873/849332.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 6527
+    }
+  },
+  {
+    "name": "Recipe: Husk of the Destroyer",
+    "description": "Double-click to learn a recipe.",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36620,
+    "chat_link": "[&AgEMjwAA]",
+    "icon": "https://render.guildwars2.com/file/7B1A44A9170BC3F8903327B79AE79DC6BCCA06E2/849333.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 6528
+    }
+  },
+  {
+    "name": "Caudecus's Journal",
+    "type": "Trinket",
+    "level": 45,
+    "rarity": "Masterwork",
+    "vendor_value": 103,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36621,
+    "chat_link": "[&AgENjwAA]",
+    "icon": "https://render.guildwars2.com/file/095B9410F480575B7EAF9CDA9F05163FB8530251/220884.png",
+    "details": {
+      "type": "Accessory",
+      "infusion_slots": [],
+      "attribute_adjustment": 77.9025,
+      "suffix_item_id": 24539,
+      "stat_choices": [
+        144,
+        145,
+        152,
+        142,
+        146,
+        149,
+        755
+      ],
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Beetlestone's Band",
+    "type": "Trinket",
+    "level": 45,
+    "rarity": "Masterwork",
+    "vendor_value": 123,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36622,
+    "chat_link": "[&AgEOjwAA]",
+    "icon": "https://render.guildwars2.com/file/1E1679D99ADB6102D05454354EFA6FD707CFC8D9/511740.png",
+    "details": {
+      "type": "Ring",
+      "infusion_slots": [],
+      "attribute_adjustment": 93.483,
+      "infix_upgrade": {
+        "id": 144,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 23
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 33
+          }
+        ]
+      },
+      "suffix_item_id": 24490,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Bandit Spineguard",
+    "type": "Back",
+    "level": 45,
+    "rarity": "Masterwork",
+    "vendor_value": 82,
+    "default_skin": 2329,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36623,
+    "chat_link": "[&AgEPjwAA]",
+    "icon": "https://render.guildwars2.com/file/03B65C435B15EB2C10E04F3454B03718AAF3AE90/61004.png",
+    "details": {
+      "infusion_slots": [],
+      "attribute_adjustment": 31.161,
+      "infix_upgrade": {
+        "id": 141,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 8
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 11
+          }
+        ]
+      },
+      "suffix_item_id": 24538,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Caudecus's Journal",
+    "type": "Trinket",
+    "level": 45,
+    "rarity": "Rare",
+    "vendor_value": 154,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36624,
+    "chat_link": "[&AgEQjwAA]",
+    "icon": "https://render.guildwars2.com/file/095B9410F480575B7EAF9CDA9F05163FB8530251/220884.png",
+    "details": {
+      "type": "Accessory",
+      "infusion_slots": [],
+      "attribute_adjustment": 85.095,
+      "suffix_item_id": 24910,
+      "secondary_suffix_item_id": "",
+      "stat_choices": [
+        144,
+        145,
+        152,
+        142,
+        146,
+        149,
+        755
+      ]
+    }
+  },
+  {
+    "name": "Beetlestone's Band",
+    "type": "Trinket",
+    "level": 45,
+    "rarity": "Rare",
+    "vendor_value": 185,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36625,
+    "chat_link": "[&AgERjwAA]",
+    "icon": "https://render.guildwars2.com/file/1E1679D99ADB6102D05454354EFA6FD707CFC8D9/511740.png",
+    "details": {
+      "type": "Ring",
+      "infusion_slots": [],
+      "attribute_adjustment": 102.114,
+      "infix_upgrade": {
+        "id": 144,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 26
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 36
+          }
+        ]
+      },
+      "suffix_item_id": 24911,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Bandit Spineguard",
+    "type": "Back",
+    "level": 45,
+    "rarity": "Rare",
+    "vendor_value": 123,
+    "default_skin": 2329,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36626,
+    "chat_link": "[&AgESjwAA]",
+    "icon": "https://render.guildwars2.com/file/03B65C435B15EB2C10E04F3454B03718AAF3AE90/61004.png",
+    "details": {
+      "infusion_slots": [],
+      "attribute_adjustment": 34.038,
+      "infix_upgrade": {
+        "id": 141,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 9
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 12
+          }
+        ]
+      },
+      "suffix_item_id": 24905,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Darkened Vine",
+    "type": "Trinket",
+    "level": 55,
+    "rarity": "Masterwork",
+    "vendor_value": 120,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36657,
+    "chat_link": "[&AgExjwAA]",
+    "icon": "https://render.guildwars2.com/file/0FFCB6F430ECDD6DCD58BFCFA9147D0EC677CC9F/223873.png",
+    "details": {
+      "type": "Accessory",
+      "infusion_slots": [],
+      "attribute_adjustment": 102.382,
+      "infix_upgrade": {
+        "id": 144,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 26
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 36
+          }
+        ]
+      },
+      "suffix_item_id": 24490,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Twisted Tendril",
+    "type": "Trinket",
+    "level": 55,
+    "rarity": "Masterwork",
+    "vendor_value": 144,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36658,
+    "chat_link": "[&AgEyjwAA]",
+    "icon": "https://render.guildwars2.com/file/7DFD0F47B8EF9D929904EA655C0CE6FA4D245F11/66771.png",
+    "details": {
+      "type": "Ring",
+      "infusion_slots": [],
+      "attribute_adjustment": 122.859,
+      "infix_upgrade": {
+        "id": 149,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 31
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 43
+          }
+        ]
+      },
+      "suffix_item_id": 24487,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Forest Brace",
+    "type": "Back",
+    "level": 55,
+    "rarity": "Masterwork",
+    "vendor_value": 96,
+    "default_skin": 2329,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36659,
+    "chat_link": "[&AgEzjwAA]",
+    "icon": "https://render.guildwars2.com/file/03B65C435B15EB2C10E04F3454B03718AAF3AE90/61004.png",
+    "details": {
+      "infusion_slots": [],
+      "attribute_adjustment": 40.953,
+      "infix_upgrade": {
+        "id": 147,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 10
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 14
+          }
+        ]
+      },
+      "suffix_item_id": 24897,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Darkened Vine",
+    "type": "Trinket",
+    "level": 55,
+    "rarity": "Rare",
+    "vendor_value": 180,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36660,
+    "chat_link": "[&AgE0jwAA]",
+    "icon": "https://render.guildwars2.com/file/0FFCB6F430ECDD6DCD58BFCFA9147D0EC677CC9F/223873.png",
+    "details": {
+      "type": "Accessory",
+      "infusion_slots": [],
+      "attribute_adjustment": 111.24,
+      "infix_upgrade": {
+        "id": 144,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 28
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 39
+          }
+        ]
+      },
+      "suffix_item_id": 24911,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Twisted Tendril",
+    "type": "Trinket",
+    "level": 55,
+    "rarity": "Rare",
+    "vendor_value": 216,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36661,
+    "chat_link": "[&AgE1jwAA]",
+    "icon": "https://render.guildwars2.com/file/7DFD0F47B8EF9D929904EA655C0CE6FA4D245F11/66771.png",
+    "details": {
+      "type": "Ring",
+      "infusion_slots": [],
+      "attribute_adjustment": 133.488,
+      "infix_upgrade": {
+        "id": 149,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 33
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 47
+          }
+        ]
+      },
+      "suffix_item_id": 24907,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Forest Brace",
+    "type": "Back",
+    "level": 55,
+    "rarity": "Rare",
+    "vendor_value": 144,
+    "default_skin": 2329,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36662,
+    "chat_link": "[&AgE2jwAA]",
+    "icon": "https://render.guildwars2.com/file/03B65C435B15EB2C10E04F3454B03718AAF3AE90/61004.png",
+    "details": {
+      "infusion_slots": [],
+      "attribute_adjustment": 44.496,
+      "infix_upgrade": {
+        "id": 147,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 11
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 16
+          }
+        ]
+      },
+      "suffix_item_id": 24909,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Revolutionary Flyers",
+    "type": "Trinket",
+    "level": 65,
+    "rarity": "Rare",
+    "vendor_value": 207,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36666,
+    "chat_link": "[&AgE6jwAA]",
+    "icon": "https://render.guildwars2.com/file/09D5CC42680FED30CE9A5AC2EB7EFCA93F522B06/66843.png",
+    "details": {
+      "type": "Accessory",
+      "infusion_slots": [],
+      "attribute_adjustment": 140.085,
+      "infix_upgrade": {
+        "id": 162,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 49
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 35
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 35
+          }
+        ]
+      },
+      "suffix_item_id": 24912,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Flame Legion Ritual Book",
+    "type": "Trinket",
+    "level": 75,
+    "rarity": "Masterwork",
+    "vendor_value": 155,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36675,
+    "chat_link": "[&AgFDjwAA]",
+    "icon": "https://render.guildwars2.com/file/0D2CEE30F7CF9E03E997E5A80ED946A755B7BA31/511743.png",
+    "details": {
+      "type": "Accessory",
+      "infusion_slots": [],
+      "attribute_adjustment": 158.908,
+      "infix_upgrade": {
+        "id": 153,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 56
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 40
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 40
+          }
+        ]
+      },
+      "suffix_item_id": 24492,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Wildfire Talisman",
+    "type": "Trinket",
+    "level": 75,
+    "rarity": "Masterwork",
+    "vendor_value": 248,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36676,
+    "chat_link": "[&AgFEjwAA]",
+    "icon": "https://render.guildwars2.com/file/3EAA067B1D4E9553C13A74060D7B020E311AD251/220893.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 254.252,
+      "infix_upgrade": {
+        "id": 160,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 64
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 64
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 89
+          }
+        ]
+      },
+      "suffix_item_id": 24492,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Charred Back Warmer",
+    "type": "Back",
+    "level": 75,
+    "rarity": "Masterwork",
+    "vendor_value": 124,
+    "default_skin": 2329,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36677,
+    "chat_link": "[&AgFFjwAA]",
+    "icon": "https://render.guildwars2.com/file/03B65C435B15EB2C10E04F3454B03718AAF3AE90/61004.png",
+    "details": {
+      "infusion_slots": [],
+      "attribute_adjustment": 63.563,
+      "infix_upgrade": {
+        "id": 154,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 16
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 16
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 22
+          }
+        ]
+      },
+      "suffix_item_id": 24541,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Flame Legion Ritual Book",
+    "type": "Trinket",
+    "level": 75,
+    "rarity": "Rare",
+    "vendor_value": 233,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36678,
+    "chat_link": "[&AgFGjwAA]",
+    "icon": "https://render.guildwars2.com/file/0D2CEE30F7CF9E03E997E5A80ED946A755B7BA31/511743.png",
+    "details": {
+      "type": "Accessory",
+      "infusion_slots": [],
+      "attribute_adjustment": 171.675,
+      "infix_upgrade": {
+        "id": 153,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 60
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 43
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 43
+          }
+        ]
+      },
+      "suffix_item_id": 24920,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Wildfire Talisman",
+    "type": "Trinket",
+    "level": 75,
+    "rarity": "Rare",
+    "vendor_value": 372,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36679,
+    "chat_link": "[&AgFHjwAA]",
+    "icon": "https://render.guildwars2.com/file/3EAA067B1D4E9553C13A74060D7B020E311AD251/220893.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 274.68,
+      "infix_upgrade": {
+        "id": 160,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 69
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 69
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 96
+          }
+        ]
+      },
+      "suffix_item_id": 24920,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Charred Back Warmer",
+    "type": "Back",
+    "level": 75,
+    "rarity": "Rare",
+    "vendor_value": 186,
+    "default_skin": 2329,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36680,
+    "chat_link": "[&AgFIjwAA]",
+    "icon": "https://render.guildwars2.com/file/03B65C435B15EB2C10E04F3454B03718AAF3AE90/61004.png",
+    "details": {
+      "infusion_slots": [],
+      "attribute_adjustment": 68.67,
+      "infix_upgrade": {
+        "id": 154,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 17
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 17
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 24
+          }
+        ]
+      },
+      "suffix_item_id": 24921,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Foefire Amulet",
+    "type": "Trinket",
+    "level": 35,
+    "rarity": "Masterwork",
+    "vendor_value": 136,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36681,
+    "chat_link": "[&AgFJjwAA]",
+    "icon": "https://render.guildwars2.com/file/F82FF7C2693014663173FF717C403F02C4540F0C/62368.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 89.624,
+      "infix_upgrade": {
+        "id": 144,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 22
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 31
+          }
+        ]
+      },
+      "suffix_item_id": 24489,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Ring of the Catacombs",
+    "type": "Trinket",
+    "level": 35,
+    "rarity": "Masterwork",
+    "vendor_value": 102,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36682,
+    "chat_link": "[&AgFKjwAA]",
+    "icon": "https://render.guildwars2.com/file/CC727509301FFBE37A6527D637594517491E2832/223591.png",
+    "details": {
+      "type": "Ring",
+      "infusion_slots": [],
+      "attribute_adjustment": 67.218,
+      "infix_upgrade": {
+        "id": 147,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 17
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 24
+          }
+        ]
+      },
+      "suffix_item_id": 24896,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Ghostly Spineguard",
+    "type": "Back",
+    "level": 35,
+    "rarity": "Masterwork",
+    "vendor_value": 68,
+    "default_skin": 2339,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36683,
+    "chat_link": "[&AgFLjwAA]",
+    "icon": "https://render.guildwars2.com/file/293AD0760A90135C36523956179423DE77D54C2E/511739.png",
+    "details": {
+      "infusion_slots": [],
+      "attribute_adjustment": 22.406,
+      "suffix_item_id": 24537,
+      "stat_choices": [
+        144,
+        145,
+        152,
+        142,
+        146,
+        149,
+        755
+      ],
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Foefire Amulet",
+    "type": "Trinket",
+    "level": 45,
+    "rarity": "Masterwork",
+    "vendor_value": 164,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36684,
+    "chat_link": "[&AgFMjwAA]",
+    "icon": "https://render.guildwars2.com/file/F82FF7C2693014663173FF717C403F02C4540F0C/62368.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 124.644,
+      "infix_upgrade": {
+        "id": 144,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 31
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 44
+          }
+        ]
+      },
+      "suffix_item_id": 24490,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Ring of the Catacombs",
+    "type": "Trinket",
+    "level": 45,
+    "rarity": "Masterwork",
+    "vendor_value": 123,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36685,
+    "chat_link": "[&AgFNjwAA]",
+    "icon": "https://render.guildwars2.com/file/CC727509301FFBE37A6527D637594517491E2832/223591.png",
+    "details": {
+      "type": "Ring",
+      "infusion_slots": [],
+      "attribute_adjustment": 93.483,
+      "infix_upgrade": {
+        "id": 147,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 23
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 33
+          }
+        ]
+      },
+      "suffix_item_id": 24897,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Foefire Amulet",
+    "type": "Trinket",
+    "level": 45,
+    "rarity": "Rare",
+    "vendor_value": 246,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36687,
+    "chat_link": "[&AgFPjwAA]",
+    "icon": "https://render.guildwars2.com/file/C6B3A518FF90EC0C01F6D8E3E2A8B7E5F840170A/222396.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 136.152,
+      "infix_upgrade": {
+        "id": 144,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 34
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 48
+          }
+        ]
+      },
+      "suffix_item_id": 24911,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Ring of the Catacombs",
+    "type": "Trinket",
+    "level": 45,
+    "rarity": "Rare",
+    "vendor_value": 185,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36688,
+    "chat_link": "[&AgFQjwAA]",
+    "icon": "https://render.guildwars2.com/file/CC727509301FFBE37A6527D637594517491E2832/223591.png",
+    "details": {
+      "type": "Ring",
+      "infusion_slots": [],
+      "attribute_adjustment": 102.114,
+      "infix_upgrade": {
+        "id": 147,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 26
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 36
+          }
+        ]
+      },
+      "suffix_item_id": 24909,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Foefire Amulet",
+    "type": "Trinket",
+    "level": 55,
+    "rarity": "Masterwork",
+    "vendor_value": 192,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36690,
+    "chat_link": "[&AgFSjwAA]",
+    "icon": "https://render.guildwars2.com/file/F82FF7C2693014663173FF717C403F02C4540F0C/62368.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 163.812,
+      "infix_upgrade": {
+        "id": 144,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 41
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 57
+          }
+        ]
+      },
+      "suffix_item_id": 24490,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Ring of the Catacombs",
+    "type": "Trinket",
+    "level": 55,
+    "rarity": "Masterwork",
+    "vendor_value": 144,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36691,
+    "chat_link": "[&AgFTjwAA]",
+    "icon": "https://render.guildwars2.com/file/CC727509301FFBE37A6527D637594517491E2832/223591.png",
+    "details": {
+      "type": "Ring",
+      "infusion_slots": [],
+      "attribute_adjustment": 122.859,
+      "infix_upgrade": {
+        "id": 147,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 31
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 43
+          }
+        ]
+      },
+      "suffix_item_id": 24897,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Foefire Amulet",
+    "type": "Trinket",
+    "level": 55,
+    "rarity": "Rare",
+    "vendor_value": 288,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36693,
+    "chat_link": "[&AgFVjwAA]",
+    "icon": "https://render.guildwars2.com/file/C6B3A518FF90EC0C01F6D8E3E2A8B7E5F840170A/222396.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 177.984,
+      "infix_upgrade": {
+        "id": 144,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 44
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 62
+          }
+        ]
+      },
+      "suffix_item_id": 24911,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Ring of the Catacombs",
+    "type": "Trinket",
+    "level": 55,
+    "rarity": "Rare",
+    "vendor_value": 216,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36694,
+    "chat_link": "[&AgFWjwAA]",
+    "icon": "https://render.guildwars2.com/file/CC727509301FFBE37A6527D637594517491E2832/223591.png",
+    "details": {
+      "type": "Ring",
+      "infusion_slots": [],
+      "attribute_adjustment": 133.488,
+      "infix_upgrade": {
+        "id": 147,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 33
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 47
+          }
+        ]
+      },
+      "suffix_item_id": 24909,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Foefire Amulet",
+    "type": "Trinket",
+    "level": 65,
+    "rarity": "Masterwork",
+    "vendor_value": 220,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36696,
+    "chat_link": "[&AgFYjwAA]",
+    "icon": "https://render.guildwars2.com/file/F82FF7C2693014663173FF717C403F02C4540F0C/62368.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 206.992,
+      "infix_upgrade": {
+        "id": 154,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 52
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 52
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 72
+          }
+        ]
+      },
+      "suffix_item_id": 24879,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Ring of the Catacombs",
+    "type": "Trinket",
+    "level": 65,
+    "rarity": "Masterwork",
+    "vendor_value": 165,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36697,
+    "chat_link": "[&AgFZjwAA]",
+    "icon": "https://render.guildwars2.com/file/CC727509301FFBE37A6527D637594517491E2832/223591.png",
+    "details": {
+      "type": "Ring",
+      "infusion_slots": [],
+      "attribute_adjustment": 155.244,
+      "infix_upgrade": {
+        "id": 156,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 39
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 39
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 54
+          }
+        ]
+      },
+      "suffix_item_id": 24882,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Foefire Amulet",
+    "type": "Trinket",
+    "level": 65,
+    "rarity": "Rare",
+    "vendor_value": 330,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36699,
+    "chat_link": "[&AgFbjwAA]",
+    "icon": "https://render.guildwars2.com/file/C6B3A518FF90EC0C01F6D8E3E2A8B7E5F840170A/222396.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 224.136,
+      "infix_upgrade": {
+        "id": 154,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 56
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 56
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 78
+          }
+        ]
+      },
+      "suffix_item_id": 24914,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Ring of the Catacombs",
+    "type": "Trinket",
+    "level": 65,
+    "rarity": "Rare",
+    "vendor_value": 248,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36700,
+    "chat_link": "[&AgFcjwAA]",
+    "icon": "https://render.guildwars2.com/file/CC727509301FFBE37A6527D637594517491E2832/223591.png",
+    "details": {
+      "type": "Ring",
+      "infusion_slots": [],
+      "attribute_adjustment": 168.102,
+      "infix_upgrade": {
+        "id": 156,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 42
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 42
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 59
+          }
+        ]
+      },
+      "suffix_item_id": 24918,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Foefire Amulet",
+    "type": "Trinket",
+    "level": 75,
+    "rarity": "Masterwork",
+    "vendor_value": 248,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36702,
+    "chat_link": "[&AgFejwAA]",
+    "icon": "https://render.guildwars2.com/file/F82FF7C2693014663173FF717C403F02C4540F0C/62368.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 254.252,
+      "infix_upgrade": {
+        "id": 154,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 64
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 64
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 89
+          }
+        ]
+      },
+      "suffix_item_id": 24541,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Ring of the Catacombs",
+    "type": "Trinket",
+    "level": 75,
+    "rarity": "Masterwork",
+    "vendor_value": 186,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36703,
+    "chat_link": "[&AgFfjwAA]",
+    "icon": "https://render.guildwars2.com/file/CC727509301FFBE37A6527D637594517491E2832/223591.png",
+    "details": {
+      "type": "Ring",
+      "infusion_slots": [],
+      "attribute_adjustment": 190.689,
+      "infix_upgrade": {
+        "id": 156,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 48
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 48
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 67
+          }
+        ]
+      },
+      "suffix_item_id": 24495,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Foefire Amulet",
+    "type": "Trinket",
+    "level": 75,
+    "rarity": "Rare",
+    "vendor_value": 372,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36705,
+    "chat_link": "[&AgFhjwAA]",
+    "icon": "https://render.guildwars2.com/file/C6B3A518FF90EC0C01F6D8E3E2A8B7E5F840170A/222396.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 274.68,
+      "infix_upgrade": {
+        "id": 154,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 69
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 69
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 96
+          }
+        ]
+      },
+      "suffix_item_id": 24921,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Ring of the Catacombs",
+    "type": "Trinket",
+    "level": 75,
+    "rarity": "Rare",
+    "vendor_value": 279,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36706,
+    "chat_link": "[&AgFijwAA]",
+    "icon": "https://render.guildwars2.com/file/CC727509301FFBE37A6527D637594517491E2832/223591.png",
+    "details": {
+      "type": "Ring",
+      "infusion_slots": [],
+      "attribute_adjustment": 206.01,
+      "infix_upgrade": {
+        "id": 156,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 52
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 52
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 72
+          }
+        ]
+      },
+      "suffix_item_id": 24925,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Black Lion Chest Key",
+    "description": "This key will unlock one Black Lion Chest. Black Lion Chests can be found randomly on enemies or in hidden places in the world.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36708,
+    "chat_link": "[&AgFkjwAA]",
+    "icon": "https://render.guildwars2.com/file/207BDD31BC494A07A0A1691705079100066D3F2F/414998.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Wizard's Hat",
+    "description": "Town clothes can no longer be equipped separately.\n\nSpeak to a Black Lion Armor Trader in any major city to exchange this for a helmet skin with the same look.",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "default_skin": 1179,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36709,
+    "chat_link": "[&AgFljwAA]",
+    "icon": "https://render.guildwars2.com/file/C749FD38F8110C156EA5E27AE8D8A15869C846E1/522590.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Clothing",
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 3.9,
+      "infix_upgrade": {
+        "id": 112,
+        "attributes": []
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Arcane Converter",
+    "description": "Used by the Mystic Forge to convert arcane components.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 6,
+    "game_types": [
+      "Pvp",
+      "PvpLobby"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36710,
+    "chat_link": "[&AgFmjwAA]",
+    "icon": "https://render.guildwars2.com/file/5DDF09ED3C0A7CD4026DA5293F07A41C9178EC0C/66878.png"
+  },
+  {
+    "name": "Karka Egg Omelet",
+    "type": "Consumable",
+    "level": 75,
+    "rarity": "Basic",
+    "vendor_value": 17,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36724,
+    "chat_link": "[&AgF0jwAA]",
+    "icon": "https://render.guildwars2.com/file/46044DE9FC56AB792904AD9017A390B867C26847/511764.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "+200 Condition Damage for 30 Seconds on Kill\n+70 Precision\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Potion of Young Karka Transformation",
+    "description": "Double-click to become a young karka for 5 minutes.",
+    "type": "Consumable",
+    "level": 10,
+    "rarity": "Masterwork",
+    "vendor_value": 15,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 36725,
+    "chat_link": "[&AgF1jwAA]",
+    "icon": "https://render.guildwars2.com/file/79DA6A310F020315361533F80906F1A9DA7C5DE6/63121.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Karka Tonic",
+    "description": "Double-click to become a karka for 5 minutes.",
+    "type": "Consumable",
+    "level": 10,
+    "rarity": "Masterwork",
+    "vendor_value": 15,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "NoUnderwater",
+      "AccountBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 36726,
+    "chat_link": "[&AgF2jwAA]",
+    "icon": "https://render.guildwars2.com/file/79DA6A310F020315361533F80906F1A9DA7C5DE6/63121.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Endless Karka Tonic",
+    "description": "Double-click to become a young karka for 5 minutes.",
+    "type": "Gizmo",
+    "level": 10,
+    "rarity": "Rare",
+    "vendor_value": 45,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "NoUnderwater",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 36727,
+    "chat_link": "[&AgF3jwAA]",
+    "icon": "https://render.guildwars2.com/file/79DA6A310F020315361533F80906F1A9DA7C5DE6/63121.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Crate of Commendations",
+    "description": "Contains 50 commendations.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36728,
+    "chat_link": "[&AgF4jwAA]",
+    "icon": "https://render.guildwars2.com/file/3E7EA34DE947FBEF787C121705E868B90CE3587F/511765.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Ancient Karka Shell Box",
+    "description": "20 Slots",
+    "type": "Bag",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 256,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36729,
+    "chat_link": "[&AgF5jwAA]",
+    "icon": "https://render.guildwars2.com/file/CFFC295D57E0423CA5360AD4E669D2DAFCD9E580/511766.png",
+    "details": {
+      "no_sell_or_sort": false,
+      "size": 20
+    }
+  },
+  {
+    "name": "Ancient Karka Chest",
+    "description": "Double-click to unpack wondrous things.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 256,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36730,
+    "chat_link": "[&AgF6jwAA]",
+    "icon": "https://render.guildwars2.com/file/D570763C281536AE520476BCB2A0FD2D16479105/511767.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Passion Fruit",
+    "description": "Ingredient",
+    "type": "CraftingMaterial",
+    "level": 80,
+    "rarity": "Basic",
+    "vendor_value": 9,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage"
+    ],
+    "restrictions": [],
+    "id": 36731,
+    "chat_link": "[&AgF7jwAA]",
+    "icon": "https://render.guildwars2.com/file/245EB89D59905C2857587A1A2E02FC1645EBF740/511768.png"
+  },
+  {
+    "name": "Apothecary's Draconic Pauldrons",
+    "description": "",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 240,
+    "default_skin": 138,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36732,
+    "chat_link": "[&AgF8jwAA]",
+    "icon": "https://render.guildwars2.com/file/9A1A03AA6818EACB1E63B43F06150925484B200D/61567.png",
+    "details": {
+      "type": "Shoulders",
+      "weight_class": "Heavy",
+      "defense": 121,
+      "infusion_slots": [],
+      "attribute_adjustment": 128.04,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 32
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 45
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 32
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Prowler Boots",
+    "description": "",
+    "type": "Armor",
+    "level": 75,
+    "rarity": "Fine",
+    "vendor_value": 77,
+    "default_skin": 201,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 36733,
+    "chat_link": "[&AgF9jwAA]",
+    "icon": "https://render.guildwars2.com/file/A5E4C1FA605C41E81267DDD11569A3464C93642A/61616.png",
+    "details": {
+      "type": "Boots",
+      "weight_class": "Medium",
+      "defense": 109,
+      "infusion_slots": [],
+      "attribute_adjustment": 88.08,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 22
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 31
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 22
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Mithril Axe",
+    "description": "",
+    "type": "Weapon",
+    "level": 75,
+    "rarity": "Fine",
+    "vendor_value": 62,
+    "default_skin": 4046,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 36734,
+    "chat_link": "[&AgF+jwAA]",
+    "icon": "https://render.guildwars2.com/file/C8EAC643C02F41B918D79031B6060B0CBFE40CAD/64967.png",
+    "details": {
+      "type": "Axe",
+      "damage_type": "Physical",
+      "min_power": 600,
+      "max_power": 734,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 234.88,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 59
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 82
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 59
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Elder Wood Focus",
+    "description": "",
+    "type": "Weapon",
+    "level": 75,
+    "rarity": "Fine",
+    "vendor_value": 62,
+    "default_skin": 3950,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 36735,
+    "chat_link": "[&AgF/jwAA]",
+    "icon": "https://render.guildwars2.com/file/EF62B7FE5B45A1181C362E635301E1BAA8FDCC44/65104.png",
+    "details": {
+      "type": "Focus",
+      "damage_type": "Physical",
+      "min_power": 582,
+      "max_power": 618,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 234.88,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 59
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 82
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 59
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Elder Wood Longbow",
+    "description": "",
+    "type": "Weapon",
+    "level": 75,
+    "rarity": "Fine",
+    "vendor_value": 93,
+    "default_skin": 4024,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 36736,
+    "chat_link": "[&AgGAjwAA]",
+    "icon": "https://render.guildwars2.com/file/C6110F52DF5AFE0F00A56F9E143E9732176DDDE9/65015.png",
+    "details": {
+      "type": "LongBow",
+      "damage_type": "Physical",
+      "min_power": 644,
+      "max_power": 756,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 469.76,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 117
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 164
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 117
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Passiflora Orichalcum Ring",
+    "description": "",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36737,
+    "chat_link": "[&AgGBjwAA]",
+    "icon": "https://render.guildwars2.com/file/71B847FBF9D974EDFC7D44C909B8EAF763603434/511769.png",
+    "details": {
+      "type": "Ring",
+      "infusion_slots": [],
+      "attribute_adjustment": 256.08,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 64
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 90
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 64
+          }
+        ]
+      },
+      "suffix_item_id": 37906,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Feathered Boots",
+    "description": "",
+    "type": "Armor",
+    "level": 75,
+    "rarity": "Fine",
+    "vendor_value": 77,
+    "default_skin": 164,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 36738,
+    "chat_link": "[&AgGCjwAA]",
+    "icon": "https://render.guildwars2.com/file/117D0308052D5F72F8C5EF9D69CFFF5B060CC2EC/61466.png",
+    "details": {
+      "type": "Boots",
+      "weight_class": "Light",
+      "defense": 92,
+      "infusion_slots": [],
+      "attribute_adjustment": 88.08,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 22
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 31
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 22
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Elder Wood Longbow",
+    "description": "",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Masterwork",
+    "vendor_value": 198,
+    "default_skin": 4024,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36739,
+    "chat_link": "[&AgGDjwAA]",
+    "icon": "https://render.guildwars2.com/file/C6110F52DF5AFE0F00A56F9E143E9732176DDDE9/65015.png",
+    "details": {
+      "type": "LongBow",
+      "damage_type": "Physical",
+      "min_power": 758,
+      "max_power": 889,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 559.912,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 140
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 196
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 140
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Passion Fruit Soufflé",
+    "type": "Consumable",
+    "level": 15,
+    "rarity": "Fine",
+    "vendor_value": 10,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 36740,
+    "chat_link": "[&AgGEjwAA]",
+    "icon": "https://render.guildwars2.com/file/B19BFCA6010CA8B80E4512020576D076DD3D0B9C/511770.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "+20 Toughness\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Passiflora Mithril Ring",
+    "description": "",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 297,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36741,
+    "chat_link": "[&AgGFjwAA]",
+    "icon": "https://render.guildwars2.com/file/E7CCF15E5C9A02680FBD991FC11F95F3BADA7651/511771.png",
+    "details": {
+      "type": "Ring",
+      "infusion_slots": [],
+      "attribute_adjustment": 226.368,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 57
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 79
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 57
+          }
+        ]
+      },
+      "suffix_item_id": 37908,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Feathered Boots",
+    "description": "",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Masterwork",
+    "vendor_value": 80,
+    "default_skin": 164,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36742,
+    "chat_link": "[&AgGGjwAA]",
+    "icon": "https://render.guildwars2.com/file/117D0308052D5F72F8C5EF9D69CFFF5B060CC2EC/61466.png",
+    "details": {
+      "type": "Boots",
+      "weight_class": "Light",
+      "defense": 109,
+      "infusion_slots": [],
+      "attribute_adjustment": 104.983,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 26
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 37
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 26
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Prowler Boots",
+    "description": "",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Masterwork",
+    "vendor_value": 80,
+    "default_skin": 201,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36743,
+    "chat_link": "[&AgGHjwAA]",
+    "icon": "https://render.guildwars2.com/file/A5E4C1FA605C41E81267DDD11569A3464C93642A/61616.png",
+    "details": {
+      "type": "Boots",
+      "weight_class": "Medium",
+      "defense": 129,
+      "infusion_slots": [],
+      "attribute_adjustment": 104.983,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 26
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 37
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 26
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Elder Wood Focus",
+    "description": "",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Masterwork",
+    "vendor_value": 132,
+    "default_skin": 3950,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36744,
+    "chat_link": "[&AgGIjwAA]",
+    "icon": "https://render.guildwars2.com/file/EF62B7FE5B45A1181C362E635301E1BAA8FDCC44/65104.png",
+    "details": {
+      "type": "Focus",
+      "damage_type": "Physical",
+      "min_power": 685,
+      "max_power": 727,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 279.956,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 70
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 98
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 70
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Mithril Axe",
+    "description": "",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Masterwork",
+    "vendor_value": 132,
+    "default_skin": 4046,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36745,
+    "chat_link": "[&AgGJjwAA]",
+    "icon": "https://render.guildwars2.com/file/C8EAC643C02F41B918D79031B6060B0CBFE40CAD/64967.png",
+    "details": {
+      "type": "Axe",
+      "damage_type": "Physical",
+      "min_power": 706,
+      "max_power": 863,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 279.956,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 70
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 98
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 70
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Gladiator Pauldrons",
+    "description": "",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 160,
+    "default_skin": 226,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36746,
+    "chat_link": "[&AgGKjwAA]",
+    "icon": "https://render.guildwars2.com/file/912EF0F9D5B31F95ED30500AA559EB6AD9783778/61531.png",
+    "details": {
+      "type": "Shoulders",
+      "weight_class": "Heavy",
+      "defense": 107,
+      "infusion_slots": [],
+      "attribute_adjustment": 113.184,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 28
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 40
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 28
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Masquerade Boots",
+    "description": "",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 160,
+    "default_skin": 234,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36747,
+    "chat_link": "[&AgGLjwAA]",
+    "icon": "https://render.guildwars2.com/file/A22A4903606FC878B701FFE973532BB3669A02B3/61354.png",
+    "details": {
+      "type": "Boots",
+      "weight_class": "Light",
+      "defense": 118,
+      "infusion_slots": [],
+      "attribute_adjustment": 113.184,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 28
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 40
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 28
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Krait Battleaxe",
+    "description": "",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 198,
+    "default_skin": 4052,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36748,
+    "chat_link": "[&AgGMjwAA]",
+    "icon": "https://render.guildwars2.com/file/D176C4A464A920E469BB0D5B125F3342746CFB74/574990.png",
+    "details": {
+      "type": "Axe",
+      "damage_type": "Physical",
+      "min_power": 759,
+      "max_power": 928,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 301.824,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 75
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 106
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 75
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Barbaric Pauldrons",
+    "description": "",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Masterwork",
+    "vendor_value": 80,
+    "default_skin": 206,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36749,
+    "chat_link": "[&AgGNjwAA]",
+    "icon": "https://render.guildwars2.com/file/742B082701940B4AE9F9696A60455B68150546EB/61365.png",
+    "details": {
+      "type": "Shoulders",
+      "weight_class": "Heavy",
+      "defense": 100,
+      "infusion_slots": [],
+      "attribute_adjustment": 104.983,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 26
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 37
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 26
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Krait Recurve Bow",
+    "description": "",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 297,
+    "default_skin": 4017,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36750,
+    "chat_link": "[&AgGOjwAA]",
+    "icon": "https://render.guildwars2.com/file/7B6B0F69F64B97F61814AE2CCA961A0ADFE93D6E/574975.png",
+    "details": {
+      "type": "LongBow",
+      "damage_type": "Physical",
+      "min_power": 815,
+      "max_power": 957,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 603.648,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 151
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 211
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 151
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Passiflora Mithril Ring",
+    "description": "",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Masterwork",
+    "vendor_value": 198,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36751,
+    "chat_link": "[&AgGPjwAA]",
+    "icon": "https://render.guildwars2.com/file/493C5EBAFFF103BD71A6AE300EFC170A487BA89E/511772.png",
+    "details": {
+      "type": "Ring",
+      "infusion_slots": [],
+      "attribute_adjustment": 209.967,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 52
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 73
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 52
+          }
+        ]
+      },
+      "suffix_item_id": 37909,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Noble Boots",
+    "description": "",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 160,
+    "default_skin": 238,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36752,
+    "chat_link": "[&AgGQjwAA]",
+    "icon": "https://render.guildwars2.com/file/B57B5B700AF63B1DA0C5739516D6191DFCCE5BF1/61440.png",
+    "details": {
+      "type": "Boots",
+      "weight_class": "Medium",
+      "defense": 139,
+      "infusion_slots": [],
+      "attribute_adjustment": 113.184,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 28
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 40
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 28
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Passion Fruit Bar",
+    "type": "Consumable",
+    "level": 30,
+    "rarity": "Fine",
+    "vendor_value": 16,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 36753,
+    "chat_link": "[&AgGRjwAA]",
+    "icon": "https://render.guildwars2.com/file/11AF4EF861F60AE90C9367D34BAC1254027FA665/511773.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "+30 Healing\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Apothecary's Krait Star",
+    "description": "",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 198,
+    "default_skin": 3959,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36754,
+    "chat_link": "[&AgGSjwAA]",
+    "icon": "https://render.guildwars2.com/file/0872ED746DE5C1C765F944BB5AADAD4A28C32864/574967.png",
+    "details": {
+      "type": "Focus",
+      "damage_type": "Physical",
+      "min_power": 737,
+      "max_power": 782,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 301.824,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 75
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 106
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 75
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Bottle of Tropical Dressing",
+    "description": "Ingredient",
+    "type": "CraftingMaterial",
+    "level": 45,
+    "rarity": "Basic",
+    "vendor_value": 6,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 36755,
+    "chat_link": "[&AgGTjwAA]",
+    "icon": "https://render.guildwars2.com/file/02A0CEEDA174D5DE490A0CBFD2757895637AB0B3/511774.png"
+  },
+  {
+    "name": "Apothecary's Barbaric Pauldrons",
+    "description": "",
+    "type": "Armor",
+    "level": 75,
+    "rarity": "Fine",
+    "vendor_value": 77,
+    "default_skin": 206,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 36756,
+    "chat_link": "[&AgGUjwAA]",
+    "icon": "https://render.guildwars2.com/file/742B082701940B4AE9F9696A60455B68150546EB/61365.png",
+    "details": {
+      "type": "Shoulders",
+      "weight_class": "Heavy",
+      "defense": 84,
+      "infusion_slots": [],
+      "attribute_adjustment": 88.08,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 22
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 31
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 22
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Emblazoned Boots",
+    "description": "",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 240,
+    "default_skin": 198,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36757,
+    "chat_link": "[&AgGVjwAA]",
+    "icon": "https://render.guildwars2.com/file/E8E3621EE10F44A6ED1CC4295161E7D5C0F17F36/61610.png",
+    "details": {
+      "type": "Boots",
+      "weight_class": "Medium",
+      "defense": 157,
+      "infusion_slots": [],
+      "attribute_adjustment": 128.04,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 32
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 45
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 32
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Exalted Boots",
+    "description": "",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 240,
+    "default_skin": 172,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36758,
+    "chat_link": "[&AgGWjwAA]",
+    "icon": "https://render.guildwars2.com/file/AE26D521B64460E45F69FBD7784313D4BAF070CA/61520.png",
+    "details": {
+      "type": "Boots",
+      "weight_class": "Light",
+      "defense": 133,
+      "infusion_slots": [],
+      "attribute_adjustment": 128.04,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 32
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 45
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 32
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Pearl Stinger",
+    "description": "",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 4045,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36759,
+    "chat_link": "[&AgGXjwAA]",
+    "icon": "https://render.guildwars2.com/file/92E2236F9ABA9A04EBC12F7017776D02A6371858/67748.png",
+    "details": {
+      "type": "LongBow",
+      "damage_type": "Physical",
+      "min_power": 920,
+      "max_power": 1080,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 171
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 239
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 171
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Passiflora Mithril Ring",
+    "description": "",
+    "type": "Trinket",
+    "level": 75,
+    "rarity": "Fine",
+    "vendor_value": 93,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix"
+    ],
+    "restrictions": [],
+    "id": 36760,
+    "chat_link": "[&AgGYjwAA]",
+    "icon": "https://render.guildwars2.com/file/493C5EBAFFF103BD71A6AE300EFC170A487BA89E/511772.png",
+    "details": {
+      "type": "Ring",
+      "infusion_slots": [],
+      "attribute_adjustment": 176.16,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 44
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 62
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 44
+          }
+        ]
+      },
+      "suffix_item_id": 37907,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Pearl Reaver",
+    "description": "",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 4074,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36761,
+    "chat_link": "[&AgGZjwAA]",
+    "icon": "https://render.guildwars2.com/file/740FF64621D0D8D6E038A1E34EF802619EA0367E/67742.png",
+    "details": {
+      "type": "Axe",
+      "damage_type": "Physical",
+      "min_power": 857,
+      "max_power": 1048,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 85
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 120
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 85
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Pearl Conch",
+    "description": "",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 3978,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36762,
+    "chat_link": "[&AgGajwAA]",
+    "icon": "https://render.guildwars2.com/file/C5483504F9F474C1CCAF060F57265D137F990A99/67762.png",
+    "details": {
+      "type": "Focus",
+      "damage_type": "Physical",
+      "min_power": 832,
+      "max_power": 883,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 85
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 120
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 85
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Prowler Coat",
+    "description": "",
+    "type": "Armor",
+    "level": 75,
+    "rarity": "Fine",
+    "vendor_value": 77,
+    "default_skin": 189,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 36763,
+    "chat_link": "[&AgGbjwAA]",
+    "icon": "https://render.guildwars2.com/file/1EF1E421FD910AE990627AAE417872D1E5B85F4A/61617.png",
+    "details": {
+      "type": "Coat",
+      "weight_class": "Medium",
+      "defense": 233,
+      "infusion_slots": [],
+      "attribute_adjustment": 264.24,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 66
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 92
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 66
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Mithril Pistol",
+    "description": "",
+    "type": "Weapon",
+    "level": 75,
+    "rarity": "Fine",
+    "vendor_value": 62,
+    "default_skin": 3992,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 36764,
+    "chat_link": "[&AgGcjwAA]",
+    "icon": "https://render.guildwars2.com/file/C43656C1551C9A5A1A931EAC2901BD0FBA3BE3E1/62830.png",
+    "details": {
+      "type": "Pistol",
+      "damage_type": "Physical",
+      "min_power": 614,
+      "max_power": 720,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 234.88,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 59
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 82
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 59
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Draconic Legs",
+    "description": "",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 240,
+    "default_skin": 132,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36765,
+    "chat_link": "[&AgGdjwAA]",
+    "icon": "https://render.guildwars2.com/file/5B4F503619F5F5C659E961E76E290BAB6F234816/61566.png",
+    "details": {
+      "type": "Leggings",
+      "weight_class": "Heavy",
+      "defense": 242,
+      "infusion_slots": [],
+      "attribute_adjustment": 256.08,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 64
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 90
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 64
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Passiflora Orichalcum Earring",
+    "description": "",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 330,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36766,
+    "chat_link": "[&AgGejwAA]",
+    "icon": "https://render.guildwars2.com/file/CE13384E71BE4FCE241962386F2DC80F0AC4ECB4/511775.png",
+    "details": {
+      "type": "Accessory",
+      "infusion_slots": [],
+      "attribute_adjustment": 213.4,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 53
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 75
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 53
+          }
+        ]
+      },
+      "suffix_item_id": 37906,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Bowl of Salad a la Consortium",
+    "type": "Consumable",
+    "level": 45,
+    "rarity": "Fine",
+    "vendor_value": 21,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 36767,
+    "chat_link": "[&AgGfjwAA]",
+    "icon": "https://render.guildwars2.com/file/D9FF1BB0684F47300734E3BD98C5011141BD003D/511776.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "+50 Toughness\n+40 Condition Damage\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Apothecary's Mithril Dagger",
+    "description": "",
+    "type": "Weapon",
+    "level": 75,
+    "rarity": "Fine",
+    "vendor_value": 62,
+    "default_skin": 4079,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 36768,
+    "chat_link": "[&AgGgjwAA]",
+    "icon": "https://render.guildwars2.com/file/3254C66ED1675657E0B7C2FBBC09FBF2FBAA74A6/62762.png",
+    "details": {
+      "type": "Dagger",
+      "damage_type": "Physical",
+      "min_power": 647,
+      "max_power": 687,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 234.88,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 59
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 82
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 59
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Feathered Vestments",
+    "description": "",
+    "type": "Armor",
+    "level": 75,
+    "rarity": "Fine",
+    "vendor_value": 77,
+    "default_skin": 151,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 36769,
+    "chat_link": "[&AgGhjwAA]",
+    "icon": "https://render.guildwars2.com/file/162CBF22243191070B7824BFDE3C06A4161BA4C1/61467.png",
+    "details": {
+      "type": "Coat",
+      "weight_class": "Light",
+      "defense": 217,
+      "infusion_slots": [],
+      "attribute_adjustment": 264.24,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 66
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 92
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 66
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Elder Wood Scepter",
+    "description": "",
+    "type": "Weapon",
+    "level": 75,
+    "rarity": "Fine",
+    "vendor_value": 62,
+    "default_skin": 3965,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 36770,
+    "chat_link": "[&AgGijwAA]",
+    "icon": "https://render.guildwars2.com/file/2696C7FBBB99549E700204A9A11F75B0D50CEC2E/65334.png",
+    "details": {
+      "type": "Scepter",
+      "damage_type": "Physical",
+      "min_power": 627,
+      "max_power": 707,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 234.88,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 59
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 82
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 59
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Mithril Dagger",
+    "description": "",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Masterwork",
+    "vendor_value": 132,
+    "default_skin": 4079,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36771,
+    "chat_link": "[&AgGjjwAA]",
+    "icon": "https://render.guildwars2.com/file/3254C66ED1675657E0B7C2FBBC09FBF2FBAA74A6/62762.png",
+    "details": {
+      "type": "Dagger",
+      "damage_type": "Physical",
+      "min_power": 761,
+      "max_power": 808,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 279.956,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 70
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 98
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 70
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Prowler Coat",
+    "description": "",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Masterwork",
+    "vendor_value": 80,
+    "default_skin": 189,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36772,
+    "chat_link": "[&AgGkjwAA]",
+    "icon": "https://render.guildwars2.com/file/1EF1E421FD910AE990627AAE417872D1E5B85F4A/61617.png",
+    "details": {
+      "type": "Coat",
+      "weight_class": "Medium",
+      "defense": 278,
+      "infusion_slots": [],
+      "attribute_adjustment": 314.951,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 79
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 110
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 79
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Elder Wood Scepter",
+    "description": "",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Masterwork",
+    "vendor_value": 132,
+    "default_skin": 3965,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36773,
+    "chat_link": "[&AgGljwAA]",
+    "icon": "https://render.guildwars2.com/file/2696C7FBBB99549E700204A9A11F75B0D50CEC2E/65334.png",
+    "details": {
+      "type": "Scepter",
+      "damage_type": "Physical",
+      "min_power": 737,
+      "max_power": 831,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 279.956,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 70
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 98
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 70
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Gladiator Legplates",
+    "description": "",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 160,
+    "default_skin": 211,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36774,
+    "chat_link": "[&AgGmjwAA]",
+    "icon": "https://render.guildwars2.com/file/7773801D47E0CAA34B5BBB6C9178235392304DB1/61530.png",
+    "details": {
+      "type": "Leggings",
+      "weight_class": "Heavy",
+      "defense": 214,
+      "infusion_slots": [],
+      "attribute_adjustment": 226.368,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 57
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 79
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 57
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Feathered Vestments",
+    "description": "",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Masterwork",
+    "vendor_value": 80,
+    "default_skin": 151,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36775,
+    "chat_link": "[&AgGnjwAA]",
+    "icon": "https://render.guildwars2.com/file/162CBF22243191070B7824BFDE3C06A4161BA4C1/61467.png",
+    "details": {
+      "type": "Coat",
+      "weight_class": "Light",
+      "defense": 258,
+      "infusion_slots": [],
+      "attribute_adjustment": 314.951,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 79
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 110
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 79
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Mithril Pistol",
+    "description": "",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Masterwork",
+    "vendor_value": 132,
+    "default_skin": 3992,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36776,
+    "chat_link": "[&AgGojwAA]",
+    "icon": "https://render.guildwars2.com/file/C43656C1551C9A5A1A931EAC2901BD0FBA3BE3E1/62830.png",
+    "details": {
+      "type": "Pistol",
+      "damage_type": "Physical",
+      "min_power": 722,
+      "max_power": 847,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 279.956,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 70
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 98
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 70
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Orange Passion Fruit Tart",
+    "type": "Consumable",
+    "level": 60,
+    "rarity": "Fine",
+    "vendor_value": 10,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 36777,
+    "chat_link": "[&AgGpjwAA]",
+    "icon": "https://render.guildwars2.com/file/ED0BEF21264406D30FBF7CAE17BAB3E3E0BBA12F/511777.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "+60 Healing\n+50 Condition Damage\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Passiflora Mithril Earring",
+    "description": "",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 248,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36778,
+    "chat_link": "[&AgGqjwAA]",
+    "icon": "https://render.guildwars2.com/file/61B19CD0F673D6B3B64DD80455B245029E1FAF69/511778.png",
+    "details": {
+      "type": "Accessory",
+      "infusion_slots": [],
+      "attribute_adjustment": 188.64,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 47
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 66
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 47
+          }
+        ]
+      },
+      "suffix_item_id": 37908,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Krait Ripper",
+    "description": "",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 198,
+    "default_skin": 4091,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36779,
+    "chat_link": "[&AgGrjwAA]",
+    "icon": "https://render.guildwars2.com/file/3CE91149B32C4FFF6E55E0D49C0C0F6279379C34/574991.png",
+    "details": {
+      "type": "Dagger",
+      "damage_type": "Physical",
+      "min_power": 819,
+      "max_power": 869,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 301.824,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 75
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 106
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 75
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Krait Wand",
+    "description": "",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 198,
+    "default_skin": 3981,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36780,
+    "chat_link": "[&AgGsjwAA]",
+    "icon": "https://render.guildwars2.com/file/2C731762EBC55D1492D2235F28941209FADF6908/574968.png",
+    "details": {
+      "type": "Scepter",
+      "damage_type": "Physical",
+      "min_power": 793,
+      "max_power": 894,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 301.824,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 75
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 106
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 75
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Krait Handgun",
+    "description": "",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 198,
+    "default_skin": 4013,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36781,
+    "chat_link": "[&AgGtjwAA]",
+    "icon": "https://render.guildwars2.com/file/CBE3E712973DEF339BA6964E9C4519D64A6B4BA0/574976.png",
+    "details": {
+      "type": "Pistol",
+      "damage_type": "Physical",
+      "min_power": 776,
+      "max_power": 911,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 301.824,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 75
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 106
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 75
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Raspberry Passion Fruit Compote",
+    "type": "Consumable",
+    "level": 75,
+    "rarity": "Fine",
+    "vendor_value": 31,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 36782,
+    "chat_link": "[&AgGujwAA]",
+    "icon": "https://render.guildwars2.com/file/C6F55BDD44D6B5757E1EBD9FA60644ACC2A47FB3/511779.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "+80 Healing\n+60 Condition Damage\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Apothecary's Noble Coat",
+    "description": "",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 160,
+    "default_skin": 222,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36783,
+    "chat_link": "[&AgGvjwAA]",
+    "icon": "https://render.guildwars2.com/file/6D7C6EF0EAC2A92A0C040D340496C1B5A5520627/61441.png",
+    "details": {
+      "type": "Coat",
+      "weight_class": "Medium",
+      "defense": 299,
+      "infusion_slots": [],
+      "attribute_adjustment": 339.552,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 85
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 119
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 85
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Passiflora Mithril Earring",
+    "description": "",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Masterwork",
+    "vendor_value": 165,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36784,
+    "chat_link": "[&AgGwjwAA]",
+    "icon": "https://render.guildwars2.com/file/6E57D8075F04C041DB7B0009F41CF5D166942F32/511780.png",
+    "details": {
+      "type": "Accessory",
+      "infusion_slots": [],
+      "attribute_adjustment": 174.973,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 44
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 61
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 44
+          }
+        ]
+      },
+      "suffix_item_id": 37909,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Barbaric Legplates",
+    "description": "",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Masterwork",
+    "vendor_value": 80,
+    "default_skin": 197,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36785,
+    "chat_link": "[&AgGxjwAA]",
+    "icon": "https://render.guildwars2.com/file/969B0DDA122E53341858AE6806CDFC02EF236628/61364.png",
+    "details": {
+      "type": "Leggings",
+      "weight_class": "Heavy",
+      "defense": 199,
+      "infusion_slots": [],
+      "attribute_adjustment": 209.967,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 52
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 73
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 52
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Masquerade Raiments",
+    "description": "",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 160,
+    "default_skin": 217,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36786,
+    "chat_link": "[&AgGyjwAA]",
+    "icon": "https://render.guildwars2.com/file/E156D2564805DE9757E839D3C1044B519E462C53/61355.png",
+    "details": {
+      "type": "Coat",
+      "weight_class": "Light",
+      "defense": 278,
+      "infusion_slots": [],
+      "attribute_adjustment": 339.552,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 85
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 119
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 85
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Pearl Handcannon",
+    "description": "",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 3976,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36787,
+    "chat_link": "[&AgGzjwAA]",
+    "icon": "https://render.guildwars2.com/file/4CFF5C04AF27A6DB4E1BEC2CE97763ED73D6680E/67782.png",
+    "details": {
+      "type": "Pistol",
+      "damage_type": "Physical",
+      "min_power": 876,
+      "max_power": 1029,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 85
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 120
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 85
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Exalted Coat",
+    "description": "",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 240,
+    "default_skin": 161,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36788,
+    "chat_link": "[&AgG0jwAA]",
+    "icon": "https://render.guildwars2.com/file/072F6E4D010C68014D725D9066AEE7EECB2CC1CA/61521.png",
+    "details": {
+      "type": "Coat",
+      "weight_class": "Light",
+      "defense": 314,
+      "infusion_slots": [],
+      "attribute_adjustment": 384.12,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 96
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 134
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 96
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Barbaric Legplates",
+    "description": "",
+    "type": "Armor",
+    "level": 75,
+    "rarity": "Fine",
+    "vendor_value": 77,
+    "default_skin": 197,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 36789,
+    "chat_link": "[&AgG1jwAA]",
+    "icon": "https://render.guildwars2.com/file/969B0DDA122E53341858AE6806CDFC02EF236628/61364.png",
+    "details": {
+      "type": "Leggings",
+      "weight_class": "Heavy",
+      "defense": 167,
+      "infusion_slots": [],
+      "attribute_adjustment": 176.16,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 44
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 62
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 44
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Passiflora Mithril Earring",
+    "description": "",
+    "type": "Trinket",
+    "level": 75,
+    "rarity": "Fine",
+    "vendor_value": 78,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix"
+    ],
+    "restrictions": [],
+    "id": 36790,
+    "chat_link": "[&AgG2jwAA]",
+    "icon": "https://render.guildwars2.com/file/6E57D8075F04C041DB7B0009F41CF5D166942F32/511780.png",
+    "details": {
+      "type": "Accessory",
+      "infusion_slots": [],
+      "attribute_adjustment": 146.8,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 37
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 51
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 37
+          }
+        ]
+      },
+      "suffix_item_id": 37907,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Pearl Rod",
+    "description": "",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 3995,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36791,
+    "chat_link": "[&AgG3jwAA]",
+    "icon": "https://render.guildwars2.com/file/09C51476177A48D86C44965D3034F4A8EA073A48/67794.png",
+    "details": {
+      "type": "Scepter",
+      "damage_type": "Physical",
+      "min_power": 895,
+      "max_power": 1010,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 85
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 120
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 85
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Emblazoned Coat",
+    "description": "",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 240,
+    "default_skin": 188,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36792,
+    "chat_link": "[&AgG4jwAA]",
+    "icon": "https://render.guildwars2.com/file/6CC34DCB24B953F6DB78619CD4FF3D7D5EB8721B/61611.png",
+    "details": {
+      "type": "Coat",
+      "weight_class": "Medium",
+      "defense": 338,
+      "infusion_slots": [],
+      "attribute_adjustment": 384.12,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 96
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 134
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 96
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Bowl of Tropical Fruit Salad",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Fine",
+    "vendor_value": 33,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 36793,
+    "chat_link": "[&AgG5jwAA]",
+    "icon": "https://render.guildwars2.com/file/DAF3E5BE12EEC461C6F07FFA11E142DAE60CFEA4/511781.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "+100 Healing\n+70 Condition Damage\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Apothecary's Pearl Carver",
+    "description": "",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 4097,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36794,
+    "chat_link": "[&AgG6jwAA]",
+    "icon": "https://render.guildwars2.com/file/3EB97D4B966B1848CF6A2B4A1C1D736BF4C3E3B1/67756.png",
+    "details": {
+      "type": "Dagger",
+      "damage_type": "Physical",
+      "min_power": 924,
+      "max_power": 981,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 85
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 120
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 85
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Feathered Gloves",
+    "description": "",
+    "type": "Armor",
+    "level": 75,
+    "rarity": "Fine",
+    "vendor_value": 77,
+    "default_skin": 174,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 36795,
+    "chat_link": "[&AgG7jwAA]",
+    "icon": "https://render.guildwars2.com/file/A0385E243BCF3EC104BFEB0D9318A2FB08C6E292/61468.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Light",
+      "defense": 92,
+      "infusion_slots": [],
+      "attribute_adjustment": 88.08,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 22
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 31
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 22
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Bottle of Passion Fruit Sauce",
+    "description": "Ingredient",
+    "type": "CraftingMaterial",
+    "level": 30,
+    "rarity": "Basic",
+    "vendor_value": 4,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 36796,
+    "chat_link": "[&AgG8jwAA]",
+    "icon": "https://render.guildwars2.com/file/9995D3ED4F139D289C02C258C1F6953B2742173A/63060.png"
+  },
+  {
+    "name": "Apothecary's Mithril Greatsword",
+    "description": "",
+    "type": "Weapon",
+    "level": 75,
+    "rarity": "Fine",
+    "vendor_value": 93,
+    "default_skin": 4081,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 36797,
+    "chat_link": "[&AgG9jwAA]",
+    "icon": "https://render.guildwars2.com/file/1EA00FDAAD23FD1B1B9C4BD6E36EB30A43E21D06/64138.png",
+    "details": {
+      "type": "Greatsword",
+      "damage_type": "Physical",
+      "min_power": 697,
+      "max_power": 770,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 469.76,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 117
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 164
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 117
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Elder Wood Staff",
+    "description": "",
+    "type": "Weapon",
+    "level": 75,
+    "rarity": "Fine",
+    "vendor_value": 93,
+    "default_skin": 4105,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 36798,
+    "chat_link": "[&AgG+jwAA]",
+    "icon": "https://render.guildwars2.com/file/04BE267A42B12DB00F0162639702BDEFC90F4A5D/62880.png",
+    "details": {
+      "type": "Staff",
+      "damage_type": "Physical",
+      "min_power": 690,
+      "max_power": 778,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 469.76,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 117
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 164
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 117
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Prowler Gloves",
+    "description": "",
+    "type": "Armor",
+    "level": 75,
+    "rarity": "Fine",
+    "vendor_value": 77,
+    "default_skin": 256,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 36799,
+    "chat_link": "[&AgG/jwAA]",
+    "icon": "https://render.guildwars2.com/file/4EFFC00BAD06A4EE5FDF9BFB07CE447B39560D04/61618.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Medium",
+      "defense": 109,
+      "infusion_slots": [],
+      "attribute_adjustment": 88.08,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 22
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 31
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 22
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Mithril Rifle",
+    "description": "",
+    "type": "Weapon",
+    "level": 75,
+    "rarity": "Fine",
+    "vendor_value": 93,
+    "default_skin": 4114,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 36800,
+    "chat_link": "[&AgHAjwAA]",
+    "icon": "https://render.guildwars2.com/file/167018D742BBF5120BE4ACE80DE5B049089D20F2/62700.png",
+    "details": {
+      "type": "Rifle",
+      "damage_type": "Physical",
+      "min_power": 690,
+      "max_power": 843,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 469.76,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 117
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 164
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 117
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Passiflora Orichalcum Amulet",
+    "description": "",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 528,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36801,
+    "chat_link": "[&AgHBjwAA]",
+    "icon": "https://render.guildwars2.com/file/06B670E5071E4BBE036C282E4E4398DE299A63BF/511782.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 85
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 120
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 85
+          }
+        ]
+      },
+      "suffix_item_id": 37906,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Draconic Helm",
+    "description": "",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 240,
+    "default_skin": 152,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36802,
+    "chat_link": "[&AgHCjwAA]",
+    "icon": "https://render.guildwars2.com/file/0CDB4F0534D023449B6202B3566E23F4B8C10CE6/61565.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Heavy",
+      "defense": 121,
+      "infusion_slots": [],
+      "attribute_adjustment": 170.72,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 43
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 60
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 43
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apple Passion Fruit Pie",
+    "type": "Consumable",
+    "level": 10,
+    "rarity": "Fine",
+    "vendor_value": 10,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 36803,
+    "chat_link": "[&AgHDjwAA]",
+    "icon": "https://render.guildwars2.com/file/22B4650D632FD00FEC601098DFF828F97004C63F/511783.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "+20 Healing\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Apothecary's Elder Wood Staff",
+    "description": "",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Masterwork",
+    "vendor_value": 198,
+    "default_skin": 4105,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36804,
+    "chat_link": "[&AgHEjwAA]",
+    "icon": "https://render.guildwars2.com/file/04BE267A42B12DB00F0162639702BDEFC90F4A5D/62880.png",
+    "details": {
+      "type": "Staff",
+      "damage_type": "Physical",
+      "min_power": 811,
+      "max_power": 914,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 559.912,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 140
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 196
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 140
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Passiflora Mithril Amulet",
+    "description": "",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 396,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36805,
+    "chat_link": "[&AgHFjwAA]",
+    "icon": "https://render.guildwars2.com/file/A66B721BB15A552B7D1737A637084B3E1A64C615/511784.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 301.824,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 75
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 106
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 75
+          }
+        ]
+      },
+      "suffix_item_id": 37908,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Gladiator Helm",
+    "description": "",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 160,
+    "default_skin": 259,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36806,
+    "chat_link": "[&AgHGjwAA]",
+    "icon": "https://render.guildwars2.com/file/3B50937F62A523EEA40BD876F51BEEFA4811E46A/61529.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Heavy",
+      "defense": 107,
+      "infusion_slots": [],
+      "attribute_adjustment": 150.912,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 38
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 53
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 38
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Prowler Gloves",
+    "description": "",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Masterwork",
+    "vendor_value": 80,
+    "default_skin": 256,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36807,
+    "chat_link": "[&AgHHjwAA]",
+    "icon": "https://render.guildwars2.com/file/4EFFC00BAD06A4EE5FDF9BFB07CE447B39560D04/61618.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Medium",
+      "defense": 129,
+      "infusion_slots": [],
+      "attribute_adjustment": 104.983,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 26
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 37
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 26
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Mithril Rifle",
+    "description": "",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Masterwork",
+    "vendor_value": 198,
+    "default_skin": 4114,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36808,
+    "chat_link": "[&AgHIjwAA]",
+    "icon": "https://render.guildwars2.com/file/167018D742BBF5120BE4ACE80DE5B049089D20F2/62700.png",
+    "details": {
+      "type": "Rifle",
+      "damage_type": "Physical",
+      "min_power": 812,
+      "max_power": 992,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 559.912,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 140
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 196
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 140
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Feathered Gloves",
+    "description": "",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Masterwork",
+    "vendor_value": 80,
+    "default_skin": 174,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36809,
+    "chat_link": "[&AgHJjwAA]",
+    "icon": "https://render.guildwars2.com/file/A0385E243BCF3EC104BFEB0D9318A2FB08C6E292/61468.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Light",
+      "defense": 109,
+      "infusion_slots": [],
+      "attribute_adjustment": 104.983,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 26
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 37
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 26
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Mithril Greatsword",
+    "description": "",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Masterwork",
+    "vendor_value": 198,
+    "default_skin": 4081,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36810,
+    "chat_link": "[&AgHKjwAA]",
+    "icon": "https://render.guildwars2.com/file/1EA00FDAAD23FD1B1B9C4BD6E36EB30A43E21D06/64138.png",
+    "details": {
+      "type": "Greatsword",
+      "damage_type": "Physical",
+      "min_power": 819,
+      "max_power": 906,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 559.912,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 140
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 196
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 140
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Passiflora Mithril Amulet",
+    "description": "",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Masterwork",
+    "vendor_value": 264,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36811,
+    "chat_link": "[&AgHLjwAA]",
+    "icon": "https://render.guildwars2.com/file/B9744EAE200311D312EE6A5C76E2A224FD2D0F99/511785.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 279.956,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 70
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 98
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 70
+          }
+        ]
+      },
+      "suffix_item_id": 37909,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Krait Shooter",
+    "description": "",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 297,
+    "default_skin": 4116,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36812,
+    "chat_link": "[&AgHMjwAA]",
+    "icon": "https://render.guildwars2.com/file/1C7B17710EF7E9E5C41856275CAFCD1B46F01293/574979.png",
+    "details": {
+      "type": "Rifle",
+      "damage_type": "Physical",
+      "min_power": 873,
+      "max_power": 1067,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 603.648,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 151
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 211
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 151
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Krait Crook",
+    "description": "",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 297,
+    "default_skin": 4111,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36813,
+    "chat_link": "[&AgHNjwAA]",
+    "icon": "https://render.guildwars2.com/file/B8F4F953BC20F7A7FE9FF7459FD5534F0608730F/574969.png",
+    "details": {
+      "type": "Staff",
+      "damage_type": "Physical",
+      "min_power": 872,
+      "max_power": 984,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 603.648,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 151
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 211
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 151
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Masquerade Gloves",
+    "description": "",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 160,
+    "default_skin": 247,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36814,
+    "chat_link": "[&AgHOjwAA]",
+    "icon": "https://render.guildwars2.com/file/6329B19E9F9603C1AD46D0A4C347DA0604A0DAAB/61358.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Light",
+      "defense": 118,
+      "infusion_slots": [],
+      "attribute_adjustment": 113.184,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 28
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 40
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 28
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Barbaric Helm",
+    "description": "",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Masterwork",
+    "vendor_value": 80,
+    "default_skin": 235,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36815,
+    "chat_link": "[&AgHPjwAA]",
+    "icon": "https://render.guildwars2.com/file/7894C34F10DD50750A0BDD58E29077CA6525C59D/61363.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Heavy",
+      "defense": 100,
+      "infusion_slots": [],
+      "attribute_adjustment": 139.978,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 35
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 49
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 35
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Krait Slayer",
+    "description": "",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 297,
+    "default_skin": 4089,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36816,
+    "chat_link": "[&AgHQjwAA]",
+    "icon": "https://render.guildwars2.com/file/75E8103E4106F879A35D78B1EC0ED3BE78D5450F/574992.png",
+    "details": {
+      "type": "Greatsword",
+      "damage_type": "Physical",
+      "min_power": 882,
+      "max_power": 975,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 603.648,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 151
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 211
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 151
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Bowl of Grilled Bananas with Passion Fruit Sauce",
+    "type": "Consumable",
+    "level": 30,
+    "rarity": "Fine",
+    "vendor_value": 16,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 36817,
+    "chat_link": "[&AgHRjwAA]",
+    "icon": "https://render.guildwars2.com/file/D380280451EF040409E914B2EC0AE4C6EB94015B/511786.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "+30 Toughness\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Apothecary's Noble Gloves",
+    "description": "",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 160,
+    "default_skin": 252,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36818,
+    "chat_link": "[&AgHSjwAA]",
+    "icon": "https://render.guildwars2.com/file/04D6DAB3CCB0CF65A2CEE2F7BAA4CFC44CBA369C/61442.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Medium",
+      "defense": 139,
+      "infusion_slots": [],
+      "attribute_adjustment": 113.184,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 28
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 40
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 28
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Barbaric Helm",
+    "description": "",
+    "type": "Armor",
+    "level": 75,
+    "rarity": "Fine",
+    "vendor_value": 77,
+    "default_skin": 235,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 36819,
+    "chat_link": "[&AgHTjwAA]",
+    "icon": "https://render.guildwars2.com/file/7894C34F10DD50750A0BDD58E29077CA6525C59D/61363.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Heavy",
+      "defense": 84,
+      "infusion_slots": [],
+      "attribute_adjustment": 117.44,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 29
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 41
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 29
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Pearl Blunderbuss",
+    "description": "",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 4117,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36820,
+    "chat_link": "[&AgHUjwAA]",
+    "icon": "https://render.guildwars2.com/file/6301EC09D0083C6B209DFDC4A8A8D8B52BB5F91B/67788.png",
+    "details": {
+      "type": "Rifle",
+      "damage_type": "Physical",
+      "min_power": 986,
+      "max_power": 1205,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 171
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 239
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 171
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Cherry Passion Fruit Cake",
+    "type": "Consumable",
+    "level": 45,
+    "rarity": "Fine",
+    "vendor_value": 21,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 36821,
+    "chat_link": "[&AgHVjwAA]",
+    "icon": "https://render.guildwars2.com/file/A9771523EF16D478F82D75F675BC46F0A24922EE/511787.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "+50 Healing\n+40 Condition Damage\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Apothecary's Emblazoned Gloves",
+    "description": "",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 240,
+    "default_skin": 204,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36822,
+    "chat_link": "[&AgHWjwAA]",
+    "icon": "https://render.guildwars2.com/file/597D35D5FD36DC7F7CB90AE704BB5F27FD29D122/61612.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Medium",
+      "defense": 157,
+      "infusion_slots": [],
+      "attribute_adjustment": 128.04,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 32
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 45
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 32
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Passiflora Mithril Amulet",
+    "description": "",
+    "type": "Trinket",
+    "level": 75,
+    "rarity": "Fine",
+    "vendor_value": 124,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix"
+    ],
+    "restrictions": [],
+    "id": 36823,
+    "chat_link": "[&AgHXjwAA]",
+    "icon": "https://render.guildwars2.com/file/B9744EAE200311D312EE6A5C76E2A224FD2D0F99/511785.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 234.88,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 59
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 82
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 59
+          }
+        ]
+      },
+      "suffix_item_id": 37907,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Pearl Quarterstaff",
+    "description": "",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 4113,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36824,
+    "chat_link": "[&AgHYjwAA]",
+    "icon": "https://render.guildwars2.com/file/FAD2A5B1BC93C70E110F09595F7D50C9B12B500A/67802.png",
+    "details": {
+      "type": "Staff",
+      "damage_type": "Physical",
+      "min_power": 985,
+      "max_power": 1111,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 171
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 239
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 171
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Pearl Broadsword",
+    "description": "",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 4099,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36825,
+    "chat_link": "[&AgHZjwAA]",
+    "icon": "https://render.guildwars2.com/file/BFA69F67BF067CBA6742C4FAEB9353066906BE17/67764.png",
+    "details": {
+      "type": "Greatsword",
+      "damage_type": "Physical",
+      "min_power": 995,
+      "max_power": 1100,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 171
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 239
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 171
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Exalted Gloves",
+    "description": "",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 240,
+    "default_skin": 178,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36826,
+    "chat_link": "[&AgHajwAA]",
+    "icon": "https://render.guildwars2.com/file/77EC710506D20A724036E55D12054903D2F42763/61522.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Light",
+      "defense": 133,
+      "infusion_slots": [],
+      "attribute_adjustment": 128.04,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 32
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 45
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 32
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Draconic Gauntlets",
+    "description": "",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 240,
+    "default_skin": 246,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36827,
+    "chat_link": "[&AgHbjwAA]",
+    "icon": "https://render.guildwars2.com/file/0AAAED031F08DDAF665339E8DC060D2BFDE60C7B/61564.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Heavy",
+      "defense": 182,
+      "infusion_slots": [],
+      "attribute_adjustment": 128.04,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 32
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 45
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 32
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Passion Fruit Coconut Cookie",
+    "type": "Consumable",
+    "level": 45,
+    "rarity": "Fine",
+    "vendor_value": 10,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 36828,
+    "chat_link": "[&AgHcjwAA]",
+    "icon": "https://render.guildwars2.com/file/947BD419069951FA0ABD414908F67CA0DFC70B7D/511788.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "+60 Toughness\n+50 Condition Damage\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Apothecary's Elder Wood Trident",
+    "description": "",
+    "type": "Weapon",
+    "level": 75,
+    "rarity": "Fine",
+    "vendor_value": 93,
+    "default_skin": 3956,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 36829,
+    "chat_link": "[&AgHdjwAA]",
+    "icon": "https://render.guildwars2.com/file/195C62FCE31ECE47100E4020CE6C909AB69FEA9C/562000.png",
+    "details": {
+      "type": "Trident",
+      "damage_type": "Physical",
+      "min_power": 634,
+      "max_power": 700,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 469.76,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 117
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 164
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 117
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Elder Wood Short Bow",
+    "description": "",
+    "type": "Weapon",
+    "level": 75,
+    "rarity": "Fine",
+    "vendor_value": 93,
+    "default_skin": 3969,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 36830,
+    "chat_link": "[&AgHejwAA]",
+    "icon": "https://render.guildwars2.com/file/0EFDC626FD430DA00CD9240C95EC6DF0500DB45E/67068.png",
+    "details": {
+      "type": "ShortBow",
+      "damage_type": "Physical",
+      "min_power": 634,
+      "max_power": 700,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 469.76,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 117
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 164
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 117
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Prowler Helm",
+    "description": "",
+    "type": "Armor",
+    "level": 75,
+    "rarity": "Fine",
+    "vendor_value": 77,
+    "default_skin": 216,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 36831,
+    "chat_link": "[&AgHfjwAA]",
+    "icon": "https://render.guildwars2.com/file/99ED01172CA9F6487AD5EF02D56031645214FDCA/61619.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Medium",
+      "defense": 67,
+      "infusion_slots": [],
+      "attribute_adjustment": 117.44,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 29
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 41
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 29
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Feathered Headpiece",
+    "description": "",
+    "type": "Armor",
+    "level": 75,
+    "rarity": "Fine",
+    "vendor_value": 77,
+    "default_skin": 177,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 36832,
+    "chat_link": "[&AgHgjwAA]",
+    "icon": "https://render.guildwars2.com/file/7DDDD3115823EC6EA8AC6BD6A303F40E057BCCD4/61469.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Light",
+      "defense": 50,
+      "infusion_slots": [],
+      "attribute_adjustment": 117.44,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 29
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 41
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 29
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Mithril Hammer",
+    "description": "",
+    "type": "Weapon",
+    "level": 75,
+    "rarity": "Fine",
+    "vendor_value": 93,
+    "default_skin": 4102,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 36833,
+    "chat_link": "[&AgHhjwAA]",
+    "icon": "https://render.guildwars2.com/file/2F4509F15B48B1A9F1579D08539F4109972A31A4/65162.png",
+    "details": {
+      "type": "Hammer",
+      "damage_type": "Physical",
+      "min_power": 690,
+      "max_power": 778,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 469.76,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 117
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 164
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 117
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Prowler Helm",
+    "description": "",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Masterwork",
+    "vendor_value": 80,
+    "default_skin": 216,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36834,
+    "chat_link": "[&AgHijwAA]",
+    "icon": "https://render.guildwars2.com/file/99ED01172CA9F6487AD5EF02D56031645214FDCA/61619.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Medium",
+      "defense": 80,
+      "infusion_slots": [],
+      "attribute_adjustment": 139.978,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 35
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 49
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 35
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Stuffed Artichoke with Tropical Dressing",
+    "type": "Consumable",
+    "level": 75,
+    "rarity": "Fine",
+    "vendor_value": 31,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 36835,
+    "chat_link": "[&AgHjjwAA]",
+    "icon": "https://render.guildwars2.com/file/5B69CE717C6CBC5B52B33A2B66B2A50F74331138/511789.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "+80 Toughness\n+60 Condition Damage\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Apothecary's Elder Wood Trident",
+    "description": "",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Masterwork",
+    "vendor_value": 198,
+    "default_skin": 3956,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36836,
+    "chat_link": "[&AgHkjwAA]",
+    "icon": "https://render.guildwars2.com/file/195C62FCE31ECE47100E4020CE6C909AB69FEA9C/562000.png",
+    "details": {
+      "type": "Trident",
+      "damage_type": "Physical",
+      "min_power": 745,
+      "max_power": 823,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 559.912,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 140
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 196
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 140
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Elder Wood Short Bow",
+    "description": "",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Masterwork",
+    "vendor_value": 198,
+    "default_skin": 3969,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36837,
+    "chat_link": "[&AgHljwAA]",
+    "icon": "https://render.guildwars2.com/file/0EFDC626FD430DA00CD9240C95EC6DF0500DB45E/67068.png",
+    "details": {
+      "type": "ShortBow",
+      "damage_type": "Physical",
+      "min_power": 745,
+      "max_power": 823,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 559.912,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 140
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 196
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 140
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Feathered Headpiece",
+    "description": "",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Masterwork",
+    "vendor_value": 80,
+    "default_skin": 177,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36838,
+    "chat_link": "[&AgHmjwAA]",
+    "icon": "https://render.guildwars2.com/file/7DDDD3115823EC6EA8AC6BD6A303F40E057BCCD4/61469.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Light",
+      "defense": 60,
+      "infusion_slots": [],
+      "attribute_adjustment": 139.978,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 35
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 49
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 35
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Gladiator Gauntlets",
+    "description": "",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 160,
+    "default_skin": 241,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36839,
+    "chat_link": "[&AgHnjwAA]",
+    "icon": "https://render.guildwars2.com/file/A6CBBB9E28EFB4134A0306C232CFD278144CC623/61528.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Heavy",
+      "defense": 161,
+      "infusion_slots": [],
+      "attribute_adjustment": 113.184,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 28
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 40
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 28
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Mithril Hammer",
+    "description": "",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Masterwork",
+    "vendor_value": 198,
+    "default_skin": 4102,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36840,
+    "chat_link": "[&AgHojwAA]",
+    "icon": "https://render.guildwars2.com/file/2F4509F15B48B1A9F1579D08539F4109972A31A4/65162.png",
+    "details": {
+      "type": "Hammer",
+      "damage_type": "Physical",
+      "min_power": 811,
+      "max_power": 914,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 559.912,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 140
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 196
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 140
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Bowl of Tropical Mousse",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Fine",
+    "vendor_value": 33,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 36841,
+    "chat_link": "[&AgHpjwAA]",
+    "icon": "https://render.guildwars2.com/file/0F4767221332D7E90EC520090660CC9FA0021EEE/511790.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "+100 Toughness\n+70 Condition Damage\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Apothecary's Noble Mask",
+    "description": "",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 160,
+    "default_skin": 262,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36842,
+    "chat_link": "[&AgHqjwAA]",
+    "icon": "https://render.guildwars2.com/file/E7340208602BBE9FCBADAD2C96FC02F8F2C5501D/61443.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Medium",
+      "defense": 86,
+      "infusion_slots": [],
+      "attribute_adjustment": 150.912,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 38
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 53
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 38
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Barbaric Gloves",
+    "description": "",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Masterwork",
+    "vendor_value": 80,
+    "default_skin": 245,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36843,
+    "chat_link": "[&AgHrjwAA]",
+    "icon": "https://render.guildwars2.com/file/01CB564B1D3D9AB10578F8FD78C39A7637BBF2BB/61362.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Heavy",
+      "defense": 149,
+      "infusion_slots": [],
+      "attribute_adjustment": 104.983,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 26
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 37
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 26
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Masquerade Mask",
+    "description": "",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 160,
+    "default_skin": 255,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36844,
+    "chat_link": "[&AgHsjwAA]",
+    "icon": "https://render.guildwars2.com/file/B9F2C1A5CA3EDA38D7FDE994B4749942630475A1/61359.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Light",
+      "defense": 65,
+      "infusion_slots": [],
+      "attribute_adjustment": 150.912,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 38
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 53
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 38
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Krait Short Bow",
+    "description": "",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 297,
+    "default_skin": 3985,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36845,
+    "chat_link": "[&AgHtjwAA]",
+    "icon": "https://render.guildwars2.com/file/E3F1BF3517EB19662935B73502DF1216D063654C/574980.png",
+    "details": {
+      "type": "ShortBow",
+      "damage_type": "Physical",
+      "min_power": 802,
+      "max_power": 886,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 603.648,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 151
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 211
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 151
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Krait Trident",
+    "description": "",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 297,
+    "default_skin": 3960,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36846,
+    "chat_link": "[&AgHujwAA]",
+    "icon": "https://render.guildwars2.com/file/E76304981F7A94C09D06BEC252740B97C49219B0/574970.png",
+    "details": {
+      "type": "Trident",
+      "damage_type": "Physical",
+      "min_power": 802,
+      "max_power": 886,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 603.648,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 151
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 211
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 151
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Krait Warhammer",
+    "description": "",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 297,
+    "default_skin": 4106,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36847,
+    "chat_link": "[&AgHvjwAA]",
+    "icon": "https://render.guildwars2.com/file/A13C08BC13084AF21A9206F66B430B98DE13F221/574993.png",
+    "details": {
+      "type": "Hammer",
+      "damage_type": "Physical",
+      "min_power": 872,
+      "max_power": 984,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 603.648,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 151
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 211
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 151
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Exalted Masque",
+    "description": "",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 240,
+    "default_skin": 185,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36848,
+    "chat_link": "[&AgHwjwAA]",
+    "icon": "https://render.guildwars2.com/file/0F2101315C12A3E75263224DEA3B946FFD0801E0/61523.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Light",
+      "defense": 73,
+      "infusion_slots": [],
+      "attribute_adjustment": 170.72,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 43
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 60
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 43
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Emblazoned Helm",
+    "description": "",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 240,
+    "default_skin": 214,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36849,
+    "chat_link": "[&AgHxjwAA]",
+    "icon": "https://render.guildwars2.com/file/00F20B809913F95FAB60AE057D98BB760C984AF8/61613.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Medium",
+      "defense": 97,
+      "infusion_slots": [],
+      "attribute_adjustment": 170.72,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 43
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 60
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 43
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Barbaric Gloves",
+    "description": "",
+    "type": "Armor",
+    "level": 75,
+    "rarity": "Fine",
+    "vendor_value": 77,
+    "default_skin": 245,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 36850,
+    "chat_link": "[&AgHyjwAA]",
+    "icon": "https://render.guildwars2.com/file/01CB564B1D3D9AB10578F8FD78C39A7637BBF2BB/61362.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Heavy",
+      "defense": 125,
+      "infusion_slots": [],
+      "attribute_adjustment": 88.08,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 22
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 31
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 22
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Pearl Crusher",
+    "description": "",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 4109,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36851,
+    "chat_link": "[&AgHzjwAA]",
+    "icon": "https://render.guildwars2.com/file/69D11CA2D5B30802312B7D0A02C8A048B7E6743D/67770.png",
+    "details": {
+      "type": "Hammer",
+      "damage_type": "Physical",
+      "min_power": 985,
+      "max_power": 1111,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 171
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 239
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 171
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Pearl Trident",
+    "description": "",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 3939,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36852,
+    "chat_link": "[&AgH0jwAA]",
+    "icon": "https://render.guildwars2.com/file/EDF623A3384647AAE654AABA7C2A626403B40C7B/220087.png",
+    "details": {
+      "type": "Trident",
+      "damage_type": "Physical",
+      "min_power": 905,
+      "max_power": 1000,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 171
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 239
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 171
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Pearl Needler",
+    "description": "",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 3952,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36853,
+    "chat_link": "[&AgH1jwAA]",
+    "icon": "https://render.guildwars2.com/file/655E24F31AFA03C0699AAAD6BCA7FF317D2B2849/67754.png",
+    "details": {
+      "type": "ShortBow",
+      "damage_type": "Physical",
+      "min_power": 905,
+      "max_power": 1000,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 171
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 239
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 171
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Mithril Mace",
+    "description": "",
+    "type": "Weapon",
+    "level": 75,
+    "rarity": "Fine",
+    "vendor_value": 62,
+    "default_skin": 4036,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 36854,
+    "chat_link": "[&AgH2jwAA]",
+    "icon": "https://render.guildwars2.com/file/415D42C379B3AE75721E59D76E5F170926C416C1/65228.png",
+    "details": {
+      "type": "Mace",
+      "damage_type": "Physical",
+      "min_power": 627,
+      "max_power": 707,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 234.88,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 59
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 82
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 59
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Feathered Pants",
+    "description": "",
+    "type": "Armor",
+    "level": 75,
+    "rarity": "Fine",
+    "vendor_value": 77,
+    "default_skin": 150,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 36855,
+    "chat_link": "[&AgH3jwAA]",
+    "icon": "https://render.guildwars2.com/file/2C10104F2A0D2CFB1D9DE7121ABC04729EB50AF7/61470.png",
+    "details": {
+      "type": "Leggings",
+      "weight_class": "Light",
+      "defense": 134,
+      "infusion_slots": [],
+      "attribute_adjustment": 176.16,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 44
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 62
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 44
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Elder Wood Harpoon Gun",
+    "description": "",
+    "type": "Weapon",
+    "level": 75,
+    "rarity": "Fine",
+    "vendor_value": 93,
+    "default_skin": 3972,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 36856,
+    "chat_link": "[&AgH4jwAA]",
+    "icon": "https://render.guildwars2.com/file/73B70408A1C99BA37B50DA72EA4BCC6AC9384E2B/561999.png",
+    "details": {
+      "type": "Speargun",
+      "damage_type": "Physical",
+      "min_power": 634,
+      "max_power": 700,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 469.76,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 117
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 164
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 117
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Draconic Coat",
+    "description": "",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 240,
+    "default_skin": 131,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36857,
+    "chat_link": "[&AgH5jwAA]",
+    "icon": "https://render.guildwars2.com/file/E7FC2F5D02DBA0EE089BC615A5D2F1DFCFE6185F/61563.png",
+    "details": {
+      "type": "Coat",
+      "weight_class": "Heavy",
+      "defense": 363,
+      "infusion_slots": [],
+      "attribute_adjustment": 384.12,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 96
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 134
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 96
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Prowler Pants",
+    "description": "",
+    "type": "Armor",
+    "level": 75,
+    "rarity": "Fine",
+    "vendor_value": 77,
+    "default_skin": 190,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 36858,
+    "chat_link": "[&AgH6jwAA]",
+    "icon": "https://render.guildwars2.com/file/D062A5D759F5E3A92803A84EF7A55D09E7B46D56/61620.png",
+    "details": {
+      "type": "Leggings",
+      "weight_class": "Medium",
+      "defense": 150,
+      "infusion_slots": [],
+      "attribute_adjustment": 176.16,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 44
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 62
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 44
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Apothecary's Destroyer Focus",
+    "description": "",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 3877,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36859,
+    "chat_link": "[&AgH7jwAA]",
+    "icon": "https://render.guildwars2.com/file/DC7065E80ECC04A9CACF6B249655C1449F4B14DB/534125.png",
+    "details": {
+      "type": "Focus",
+      "damage_type": "Physical",
+      "min_power": 832,
+      "max_power": 883,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 605,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 85
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 120
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 85
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "id": 1065,
+  "tier": 3,
+  "order": 0,
+  "name": "Prouesse du familier",
+  "description": "Votre familier se déplace plus vite et inflige plus de dégâts lors de coups critiques.",
+  "slot": "Minor",
+  "facts": [
+    {
+      "text": "Augmentation de Férocité",
+      "type": "AttributeAdjust",
+      "icon": "https://render.guildwars2.com/file/0658D833944E69E62E08EB18A0B5407F722125BC/2229320.png",
+      "value": 300,
+      "target": "CritDamage"
+    },
+    {
+      "text": "Augmentation de la vitesse de déplacement",
+      "type": "Percent",
+      "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png",
+      "percent": 30
+    }
+  ],
+  "traited_facts": [
+    {
+      "text": "Augmentation de Férocité d'Animorphe",
+      "type": "AttributeAdjust",
+      "icon": "https://render.guildwars2.com/file/0658D833944E69E62E08EB18A0B5407F722125BC/2229320.png",
+      "value": 150,
+      "requires_trait": 2151,
+      "target": "CritDamage"
+    }
+  ],
+  "specialization": 32,
+  "icon": "https://render.guildwars2.com/file/7D3EA005DDE41D017CACFFACA12DA9F160685228/1012617.png"
+}

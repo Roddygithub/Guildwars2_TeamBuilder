@@ -1,0 +1,45 @@
+{
+  "id": 915,
+  "tier": 2,
+  "order": 0,
+  "name": "Étreinte de la mort",
+  "description": "Vous infligez des dégâts de frappe supplémentaires lorsque vous êtes à terre. Vous infligez Vulnérabilité quand vous frappez un ennemi en dessous d'un certain seuil de santé.<br><c=@reminder>Vous ne pouvez infliger Vulnérabilité à la même cible qu'une seule fois par intervalle.</c>",
+  "slot": "Minor",
+  "facts": [
+    {
+      "text": "Augmentation des dégâts",
+      "type": "Percent",
+      "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+      "percent": 25
+    },
+    {
+      "text": "Augmentation des dégâts",
+      "type": "Percent",
+      "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+      "percent": 5
+    },
+    {
+      "text": "Seuil de Santé",
+      "type": "Percent",
+      "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+      "percent": 50
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/3A394C1A0A3257EB27A44842DDEEF0DF000E1241/102850.png",
+      "duration": 8,
+      "status": "Vulnérabilité",
+      "description": "Les dégâts et Dégâts par altération sont augmentés. Intensité cumulable.",
+      "apply_count": 5
+    },
+    {
+      "text": "Intervalle",
+      "type": "Time",
+      "icon": "https://render.guildwars2.com/file/B75E91EB22E0DFCC1D08030204055946506D56F6/1770206.png",
+      "duration": 10
+    }
+  ],
+  "specialization": 53,
+  "icon": "https://render.guildwars2.com/file/FD34100F781539CF49B657412CDBD9B170D6C964/1012605.png"
+}

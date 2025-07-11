@@ -1,0 +1,48 @@
+{
+  "id": 1162,
+  "tier": 3,
+  "order": 2,
+  "name": "Ombre lacérante",
+  "description": "Vous volez des avantages aux ennemis que vous touchez lors d'<c=@abilitytype>attaques furtives</c>. Frapper un ennemi sans avantage avec une attaque furtive inflige Peur aux ennemis à proximité.",
+  "slot": "Major",
+  "facts": [
+    {
+      "text": "Avantages volés",
+      "type": "Number",
+      "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png",
+      "value": 2
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/30307A6E766D74B6EB09EDA12A4A2DE50E4D76F4/102869.png",
+      "duration": 1,
+      "status": "Peur",
+      "description": "Retraite involontaire. Incapable d'agir. La durée est cumulable.",
+      "apply_count": 1
+    },
+    {
+      "text": "Rayon",
+      "type": "Distance",
+      "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+      "distance": 180
+    },
+    {
+      "text": "Nombre de cibles maximum pour Peur",
+      "type": "Number",
+      "icon": "https://render.guildwars2.com/file/BBE8191A494B0352259C10EADFDACCE177E6DA5B/1770208.png",
+      "value": 5
+    }
+  ],
+  "traited_facts": [
+    {
+      "text": "Temps de recharge de Siphon de vie",
+      "type": "Time",
+      "icon": "https://render.guildwars2.com/file/AAB7C5387A08367C2F023F19FEE70E1556AD4375/1770202.png",
+      "duration": 1,
+      "requires_trait": 289
+    }
+  ],
+  "specialization": 20,
+  "icon": "https://render.guildwars2.com/file/672F123A490A0505DCC29DEEDD4C609FD9C32F40/1012758.png"
+}

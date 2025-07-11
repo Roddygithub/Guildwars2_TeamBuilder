@@ -1,0 +1,87 @@
+{
+  "id": 752,
+  "tier": 3,
+  "order": 2,
+  "name": "Inscriptions brouillées",
+  "description": "Les effets actifs des <c=@abilitytype>signes</c> sont améliorés, lorsque vous en activez, vous bénéficiez de Distorsion.",
+  "slot": "Major",
+  "facts": [
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/EE5271572B2B10FBCE95097ECD54775832E8B9EF/699528.png",
+      "duration": 0,
+      "status": "Signe de l'Ether",
+      "description": "Augmente les soins.",
+      "apply_count": 1
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/CE55909D170BF3E2C9F9A22C559CDF43D1726CEC/103612.png",
+      "duration": 0,
+      "status": "Signe de domination",
+      "description": "Dissipe les avantages.",
+      "apply_count": 1
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/24B9A56E45B7AB5AA96FF3E85505DF60EA6EBD11/103756.png",
+      "duration": 0,
+      "status": "Signe des illusions",
+      "description": "Invoque des illusions.",
+      "apply_count": 1
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/636A59096E48DD9B01D11F74EFECAEDCC4DB300D/103750.png",
+      "duration": 0,
+      "status": "Signe d'inspiration",
+      "description": "Augmente le nombre de cibles alliées.",
+      "apply_count": 1
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/6F03529059F71F0CCEC9046F1932619ECB245EC4/57900.png",
+      "duration": 0,
+      "status": "Signe de minuit",
+      "description": "Supprime les altérations.",
+      "apply_count": 1
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/A8B2B2403BF7A920040EB6E0E534920DA8D27B32/1012893.png",
+      "duration": 0,
+      "status": "Signe d'humilité",
+      "description": "Applique Vulnérabilité.",
+      "apply_count": 1
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/D0969802A76808ACD65A56A6D54F2A40E355F7C3/103284.png",
+      "duration": 1,
+      "status": "Distorsion",
+      "description": "Immunisé contre les altérations et les dégâts.",
+      "apply_count": 1
+    }
+  ],
+  "traited_facts": [
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/A20219EB6F5FC52A0E537163B4A9051606C11B52/65735.png",
+      "duration": 1,
+      "status": "Réflexion",
+      "description": "Renvoie les projectiles.",
+      "apply_count": 1,
+      "requires_trait": 2035
+    }
+  ],
+  "specialization": 23,
+  "icon": "https://render.guildwars2.com/file/B6C6AAC9506E3904F7CEEDC82629D2BEE54A7EF3/1012490.png"
+}

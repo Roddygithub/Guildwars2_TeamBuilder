@@ -1,0 +1,27 @@
+{
+  "id": 554,
+  "tier": 3,
+  "order": 1,
+  "name": "Présence au combat",
+  "description": "Les alliés à proximité gagnent l'effet passif de votre 2e compétence de vertu.<br><br><c=@reminder>Subjugueur : vous soignez les alliés lorsque Détermination prend effet.</c>",
+  "slot": "Major",
+  "facts": [
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/F12B07B5466A51AB2BFD2C0CB8F3994D3F9E610C/103652.png",
+      "duration": 3,
+      "status": "Vertu de résolution",
+      "description": "Régénération de santé.",
+      "apply_count": 1
+    },
+    {
+      "text": "Rayon",
+      "type": "Distance",
+      "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+      "distance": 600
+    }
+  ],
+  "specialization": 46,
+  "icon": "https://render.guildwars2.com/file/33B6DF1FB0AB7C497E3C5467EA22C8ABFFC83D17/1012445.png"
+}

@@ -1,0 +1,33 @@
+{
+  "id": 723,
+  "tier": 2,
+  "order": 0,
+  "name": "Puissance combinée",
+  "description": "Créer une illusion augmente vos dégâts infligés et vos dégâts par altération pendant une courte durée.<br><br><c=@reminder>Virtuose : s'active lorsque vous accumulez une lame.</c>",
+  "slot": "Minor",
+  "facts": [
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/E9BA251055B444E693144A9AF5FD1CF8266BEFA6/1012520.png",
+      "duration": 8,
+      "status": "Puissance combinée",
+      "description": "Augmentation des dégâts infligés et des dégâts par altération par charge.",
+      "apply_count": 1
+    },
+    {
+      "text": "Nombre de charges maximum",
+      "type": "Number",
+      "icon": "https://render.guildwars2.com/file/B4490FB81AA1E7C06F1B22056AE09A0F54CBE2C4/1770201.png",
+      "value": 5
+    },
+    {
+      "text": "Nombre de charges maximum",
+      "type": "Number",
+      "icon": "https://render.guildwars2.com/file/B4490FB81AA1E7C06F1B22056AE09A0F54CBE2C4/1770201.png",
+      "value": 5
+    }
+  ],
+  "specialization": 24,
+  "icon": "https://render.guildwars2.com/file/E9BA251055B444E693144A9AF5FD1CF8266BEFA6/1012520.png"
+}

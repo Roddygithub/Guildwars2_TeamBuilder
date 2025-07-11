@@ -1,0 +1,54 @@
+{
+  "id": 783,
+  "tier": 2,
+  "order": 0,
+  "name": "Vampirique",
+  "description": "Siphonne la vie de vos ennemis lorsque vous les frappez. Les serviteurs volent des points de vie et vous les transfèrent.",
+  "slot": "Minor",
+  "facts": [
+    {
+      "text": "Dégâts du Siphon de vie",
+      "type": "AttributeAdjust",
+      "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+      "value": 38,
+      "target": "Power"
+    },
+    {
+      "text": "Guérison du Siphon de vie",
+      "type": "AttributeAdjust",
+      "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+      "value": 38,
+      "target": "Healing"
+    },
+    {
+      "text": "Vol de vie des serviteurs",
+      "type": "AttributeAdjust",
+      "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+      "value": 50,
+      "target": "Power"
+    },
+    {
+      "text": "Guérison des serviteurs",
+      "type": "AttributeAdjust",
+      "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+      "value": 50,
+      "target": "Healing"
+    },
+    {
+      "text": "Vol de vie des serviteurs",
+      "type": "AttributeAdjust",
+      "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+      "value": 26,
+      "target": "Power"
+    },
+    {
+      "text": "Guérison des serviteurs",
+      "type": "AttributeAdjust",
+      "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+      "value": 26,
+      "target": "Healing"
+    }
+  ],
+  "specialization": 19,
+  "icon": "https://render.guildwars2.com/file/0DF523B154B8FD9F2E2B95F72A534E7C80352D2A/1012544.png"
+}

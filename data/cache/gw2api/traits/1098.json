@@ -1,0 +1,79 @@
+{
+  "id": 1098,
+  "tier": 1,
+  "order": 0,
+  "name": "Enfant de la terre",
+  "description": "Vous créez un Terrain boueux quand vous utilisez une compétence de Guérison.",
+  "slot": "Major",
+  "skills": [
+    {
+      "name": "Terrain boueux inférieur",
+      "facts": [
+        {
+          "text": "Recharge",
+          "type": "Recharge",
+          "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+          "value": 25
+        },
+        {
+          "text": "Apply Buff/Condition",
+          "type": "Buff",
+          "icon": "https://render.guildwars2.com/file/070325E519C178D502A8160523766070D30C0C19/102838.png",
+          "duration": 2,
+          "status": "Infirmité",
+          "description": "Vitesse de déplacement réduite de 50%. La durée est cumulable.",
+          "apply_count": 1
+        },
+        {
+          "text": "Apply Buff/Condition",
+          "type": "Buff",
+          "icon": "https://render.guildwars2.com/file/F60D1EF5271D7B9319610855676D320CD25F01C6/961397.png",
+          "duration": 1,
+          "status": "Lent",
+          "description": "Les compétences et les actions sont plus lentes.",
+          "apply_count": 1
+        },
+        {
+          "text": "Apply Buff/Condition",
+          "type": "Buff",
+          "icon": "https://render.guildwars2.com/file/397A613651BFCA2832B6469CE34735580A2C120E/102844.png",
+          "duration": 1,
+          "status": "Immobile",
+          "description": "Incapable de bouger. La durée est cumulable.",
+          "apply_count": 1
+        },
+        {
+          "text": "Intervalle",
+          "type": "Time",
+          "icon": "https://render.guildwars2.com/file/B75E91EB22E0DFCC1D08030204055946506D56F6/1770206.png",
+          "duration": 2
+        },
+        {
+          "text": "Durée",
+          "type": "Time",
+          "icon": "https://render.guildwars2.com/file/7B2193ACCF77E56C13E608191B082D68AA0FAA71/156659.png",
+          "duration": 10
+        },
+        {
+          "text": "Durée",
+          "type": "Time",
+          "icon": "https://render.guildwars2.com/file/7B2193ACCF77E56C13E608191B082D68AA0FAA71/156659.png",
+          "duration": 4
+        },
+        {
+          "text": "Rayon",
+          "type": "Distance",
+          "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+          "distance": 240
+        }
+      ],
+      "description": "Survie. Vous utilisez de la boue pour infliger Infirmité, Lenteur et Immobilisation à l'ennemi.",
+      "icon": "https://render.guildwars2.com/file/B6BD062BE66079C0514191004BB1D1140112E2A1/103996.png",
+      "flags": [],
+      "id": 13938,
+      "chat_link": "[&BnI2AAA=]"
+    }
+  ],
+  "specialization": 33,
+  "icon": "https://render.guildwars2.com/file/23742E1977C947E4692564FD7E443359A16AEBBC/2229317.png"
+}

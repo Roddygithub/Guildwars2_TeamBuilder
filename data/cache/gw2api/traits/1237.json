@@ -1,0 +1,53 @@
+{
+  "id": 1237,
+  "tier": 1,
+  "order": 2,
+  "name": "Réaction à la douleur",
+  "description": "Lorsque vous évitez une attaque, vous dissipez une altération de dégâts vous affectant.",
+  "slot": "Major",
+  "facts": [
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/79FF0046A5F9ADA3B4C4EC19ADB4CB124D5F0021/102848.png",
+      "status": "Saignement",
+      "description": "Inflige des dégâts à chaque seconde. Intensité cumulable."
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/B47BF5803FED2718D7474EAF9617629AD068EE10/102849.png",
+      "status": "En feu",
+      "description": "Inflige des dégâts à chaque seconde. Intensité cumulable."
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/289AA0A4644F0E044DED3D3F39CED958E1DDFF53/102880.png",
+      "status": "Confusion",
+      "description": "Dégâts subis à l'activation d'une compétence. Intensité cumulable."
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/559B0AF9FB5E1243D2649FAAE660CCB338AACC19/102840.png",
+      "status": "Empoisonné",
+      "description": "Inflige des dégâts à chaque seconde et réduit l'efficacité de guérison de 33%. Intensité cumulable."
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/10BABF2708CA3575730AC662A2E72EC292565B08/598887.png",
+      "status": "Tourment",
+      "description": "Inflige des dégâts à chaque seconde. Inflige des dégâts supplémentaires aux ennemis qui ne bougent pas. L'intensité est cumulable."
+    },
+    {
+      "text": "Altérations dissipées",
+      "type": "Number",
+      "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png",
+      "value": 1
+    }
+  ],
+  "specialization": 54,
+  "icon": "https://render.guildwars2.com/file/E6D3C67F5EF7DCBCF09C40D1529393CEDD9ABFCC/1012716.png"
+}

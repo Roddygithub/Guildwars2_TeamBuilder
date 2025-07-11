@@ -1,0 +1,42 @@
+{
+  "id": 888,
+  "tier": 1,
+  "order": 2,
+  "name": "Vitesse des ombres",
+  "description": "Utiliser le linceul confère Rapidité et dissipe les altérations de mouvements.",
+  "slot": "Major",
+  "facts": [
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/20CFC14967E67F7A3FD4A4B8722B4CF5B8565E11/102836.png",
+      "duration": 10,
+      "status": "Rapidité",
+      "description": "Vitesse de déplacement augmentée de 33%. La durée est cumulable.",
+      "apply_count": 1
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/070325E519C178D502A8160523766070D30C0C19/102838.png",
+      "status": "Infirmité",
+      "description": "Vitesse de déplacement réduite de 50%. La durée est cumulable."
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/28C4EC547A3516AF0242E826772DA43A5EAC3DF3/102839.png",
+      "status": "Givré",
+      "description": "Vitesse de déplacement réduite de 66%. Temps de recharge de la compétence augmenté de 66%. La durée est cumulable."
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/397A613651BFCA2832B6469CE34735580A2C120E/102844.png",
+      "status": "Immobile",
+      "description": "Incapable de bouger. La durée est cumulable."
+    }
+  ],
+  "specialization": 50,
+  "icon": "https://render.guildwars2.com/file/6DDE13189AD8C45020D1CC1F0803E329F26839CB/1012584.png"
+}

@@ -1,0 +1,37 @@
+{
+  "id": 413,
+  "tier": 3,
+  "order": 0,
+  "name": "Produits chimiques combinés",
+  "description": "Vous vous soignez lorsque vous vous conférez un avantage. Vous dissipez une altération vous affectant lorsque vous utilisez une compétence d'<c=@abilitytype>élixir</c>. Vous bénéficiez d'une Concentration supérieure.",
+  "slot": "Minor",
+  "facts": [
+    {
+      "text": "Guérison",
+      "type": "AttributeAdjust",
+      "icon": "https://render.guildwars2.com/file/D4347C52157B040943051D7E09DEAD7AF63D4378/156662.png",
+      "value": 37,
+      "target": "Healing"
+    },
+    {
+      "type": "AttributeAdjust",
+      "icon": "https://render.guildwars2.com/file/6574560606F6BA1B32E9CF0F6C9709D1C1F2D9A6/2207782.png",
+      "value": 240,
+      "target": "BoonDuration"
+    },
+    {
+      "type": "AttributeAdjust",
+      "icon": "https://render.guildwars2.com/file/6574560606F6BA1B32E9CF0F6C9709D1C1F2D9A6/2207782.png",
+      "value": 75,
+      "target": "BoonDuration"
+    },
+    {
+      "text": "Altérations dissipées",
+      "type": "Number",
+      "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png",
+      "value": 1
+    }
+  ],
+  "specialization": 29,
+  "icon": "https://render.guildwars2.com/file/D40DB82F69C6750822C6750A9705ECFA4051B64B/1012341.png"
+}

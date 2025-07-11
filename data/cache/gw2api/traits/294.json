@@ -1,0 +1,95 @@
+{
+  "id": 294,
+  "tier": 3,
+  "order": 1,
+  "name": "Puissance du pyromancien",
+  "description": "Chaque compétence que vous utilisez quand vous êtes en affinité avec le feu vous confère Pouvoir. Au terme de l'affinité avec le feu ou en cas de surtension de feu réussie, vous libérez une expulsion de flammes.",
+  "slot": "Major",
+  "facts": [
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/2FA9DF9D6BC17839BBEA14723F1C53D645DDB5E1/102852.png",
+      "duration": 15,
+      "status": "Pouvoir",
+      "description": "Les dégâts infligés sont augmentés. Intensité cumulable.",
+      "apply_count": 1
+    },
+    {
+      "text": "Uniquement en combat",
+      "type": "NoData",
+      "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Expulsion de flammes",
+      "facts": [
+        {
+          "text": "Dégâts de frappe minimum",
+          "type": "Damage",
+          "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+          "hit_count": 1,
+          "dmg_multiplier": 1
+        },
+        {
+          "text": "Dégâts de frappe maximum",
+          "type": "Damage",
+          "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+          "hit_count": 1,
+          "dmg_multiplier": 2
+        },
+        {
+          "text": "Dégâts de frappe maximum",
+          "type": "Damage",
+          "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+          "hit_count": 1,
+          "dmg_multiplier": 1.5
+        },
+        {
+          "text": "Apply Buff/Condition",
+          "type": "Buff",
+          "icon": "https://render.guildwars2.com/file/B47BF5803FED2718D7474EAF9617629AD068EE10/102849.png",
+          "duration": 2,
+          "status": "En feu",
+          "description": "Inflige des dégâts à chaque seconde. Intensité cumulable.",
+          "apply_count": 1
+        },
+        {
+          "text": "Augmentation de Brûlure par charge de Pouvoir",
+          "type": "Time",
+          "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png",
+          "duration": 1
+        },
+        {
+          "text": "Apply Buff/Condition",
+          "type": "Buff",
+          "icon": "https://render.guildwars2.com/file/2FA9DF9D6BC17839BBEA14723F1C53D645DDB5E1/102852.png",
+          "duration": 15,
+          "status": "Pouvoir",
+          "description": "Les dégâts infligés sont augmentés. Intensité cumulable.",
+          "apply_count": 1
+        },
+        {
+          "text": "Seuil de charges de Pouvoir maximum",
+          "type": "Number",
+          "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png",
+          "value": 10
+        },
+        {
+          "text": "Rayon",
+          "type": "Distance",
+          "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+          "distance": 240
+        }
+      ],
+      "description": "Après quelques instants, vous libérez un torrent de flammes. Les alliés obtiennent Pouvoir, tandis que les dégâts et Brûlure augmentent en fonction du Pouvoir dont vous bénéficiez.",
+      "icon": "https://render.guildwars2.com/file/998095CB1FD2CF0164B8A36BABFDB911DF08DB02/1012313.png",
+      "flags": [],
+      "id": 13334,
+      "chat_link": "[&BhY0AAA=]"
+    }
+  ],
+  "specialization": 31,
+  "icon": "https://render.guildwars2.com/file/998095CB1FD2CF0164B8A36BABFDB911DF08DB02/1012313.png"
+}

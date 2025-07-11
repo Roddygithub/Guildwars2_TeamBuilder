@@ -1,0 +1,55 @@
+{
+  "id": 433,
+  "tier": 3,
+  "order": 2,
+  "name": "Poudre incendiaire",
+  "description": "Vos coups critiques infligent Brûlure et la durée de cette altération est augmentée.",
+  "slot": "Major",
+  "facts": [
+    {
+      "text": "Recharge",
+      "type": "Recharge",
+      "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+      "value": 10
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/B47BF5803FED2718D7474EAF9617629AD068EE10/102849.png",
+      "duration": 8,
+      "status": "En feu",
+      "description": "Inflige des dégâts à chaque seconde. Intensité cumulable.",
+      "apply_count": 1
+    },
+    {
+      "text": "Durée augmentée",
+      "type": "Percent",
+      "icon": "https://render.guildwars2.com/file/7B2193ACCF77E56C13E608191B082D68AA0FAA71/156659.png",
+      "percent": 33
+    },
+    {
+      "text": "Durée augmentée",
+      "type": "Percent",
+      "icon": "https://render.guildwars2.com/file/7B2193ACCF77E56C13E608191B082D68AA0FAA71/156659.png",
+      "percent": 10
+    }
+  ],
+  "traited_facts": [
+    {
+      "text": "Augmentation de durée du Mech",
+      "type": "Percent",
+      "icon": "https://render.guildwars2.com/file/7B2193ACCF77E56C13E608191B082D68AA0FAA71/156659.png",
+      "percent": 33,
+      "requires_trait": 2291
+    },
+    {
+      "text": "Augmentation de durée du Mech",
+      "type": "Percent",
+      "icon": "https://render.guildwars2.com/file/7B2193ACCF77E56C13E608191B082D68AA0FAA71/156659.png",
+      "percent": 10,
+      "requires_trait": 2291
+    }
+  ],
+  "specialization": 38,
+  "icon": "https://render.guildwars2.com/file/0D467BCA43AF4EFF9EE7CDAAB1A15696CE5B54AF/1012362.png"
+}

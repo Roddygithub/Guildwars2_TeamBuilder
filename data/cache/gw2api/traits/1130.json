@@ -1,0 +1,147 @@
+{
+  "id": 1130,
+  "tier": 2,
+  "order": 1,
+  "name": "Venins sangsue",
+  "description": "Les compétences utilitaires de <c=@abilitytype>venin</c> siphonnent la vie des ennemis touchés. Vous bénéficiez de charges de Venin d'araignée lorsque vous activez ou désactivez le mode furtif.<br><c=@reminder>Siphon de vie ne peut se produire qu'une fois par coup.</c>",
+  "slot": "Major",
+  "facts": [
+    {
+      "text": "Dégâts du Siphon de vie",
+      "type": "AttributeAdjust",
+      "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+      "value": 320,
+      "target": "Power"
+    },
+    {
+      "text": "Dégâts du Siphon de vie",
+      "type": "AttributeAdjust",
+      "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+      "value": 160,
+      "target": "Power"
+    },
+    {
+      "text": "Guérison du Siphon de vie",
+      "type": "AttributeAdjust",
+      "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+      "value": 325,
+      "target": "Healing"
+    },
+    {
+      "text": "Charges de venin",
+      "type": "Number",
+      "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png",
+      "value": 3
+    },
+    {
+      "text": "Charges de venin",
+      "type": "Number",
+      "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png",
+      "value": 1
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/39320C2D4AED963861F4540F59AEBB5E05AD2E1C/103513.png",
+      "duration": 30,
+      "status": "Venin d'araignée",
+      "description": "Vos attaques infligent Empoisonnement aux ennemis.",
+      "apply_count": 3
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/39320C2D4AED963861F4540F59AEBB5E05AD2E1C/103513.png",
+      "duration": 30,
+      "status": "Venin d'araignée",
+      "description": "Vos attaques infligent Empoisonnement aux ennemis.",
+      "apply_count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Venin d'araignée",
+      "facts": [
+        {
+          "text": "Recharge",
+          "type": "Recharge",
+          "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+          "value": 30
+        },
+        {
+          "text": "Apply Buff/Condition",
+          "type": "Buff",
+          "icon": "https://render.guildwars2.com/file/39320C2D4AED963861F4540F59AEBB5E05AD2E1C/103513.png",
+          "duration": 24,
+          "status": "Venin d'araignée",
+          "description": "Vos attaques infligent Empoisonnement aux ennemis.",
+          "apply_count": 6
+        },
+        {
+          "text": "Apply Buff/Condition",
+          "type": "Buff",
+          "icon": "https://render.guildwars2.com/file/559B0AF9FB5E1243D2649FAAE660CCB338AACC19/102840.png",
+          "duration": 3,
+          "status": "Empoisonné",
+          "description": "Inflige des dégâts à chaque seconde et réduit l'efficacité de guérison de 33%. Intensité cumulable.",
+          "apply_count": 1
+        },
+        {
+          "text": "Apply Buff/Condition",
+          "type": "Buff",
+          "icon": "https://render.guildwars2.com/file/559B0AF9FB5E1243D2649FAAE660CCB338AACC19/102840.png",
+          "duration": 3,
+          "status": "Empoisonné",
+          "description": "Inflige des dégâts à chaque seconde et réduit l'efficacité de guérison de 33%. Intensité cumulable.",
+          "apply_count": 1
+        },
+        {
+          "text": "Apply Buff/Condition",
+          "type": "Buff",
+          "icon": "https://render.guildwars2.com/file/559B0AF9FB5E1243D2649FAAE660CCB338AACC19/102840.png",
+          "duration": 3,
+          "status": "Empoisonné",
+          "description": "Inflige des dégâts à chaque seconde et réduit l'efficacité de guérison de 33%. Intensité cumulable.",
+          "apply_count": 1
+        },
+        {
+          "text": "Nombre d'attaques",
+          "type": "Number",
+          "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png",
+          "value": 6
+        },
+        {
+          "text": "Nombre d'attaques",
+          "type": "Number",
+          "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png",
+          "value": 3
+        },
+        {
+          "text": "Durée du venin",
+          "type": "Time",
+          "icon": "https://render.guildwars2.com/file/7B2193ACCF77E56C13E608191B082D68AA0FAA71/156659.png",
+          "duration": 24
+        },
+        {
+          "text": "Nombre de cibles",
+          "type": "Number",
+          "icon": "https://render.guildwars2.com/file/BBE8191A494B0352259C10EADFDACCE177E6DA5B/1770208.png",
+          "value": 5
+        },
+        {
+          "text": "Rayon",
+          "type": "Distance",
+          "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+          "distance": 240
+        }
+      ],
+      "description": "Venin. Vos prochaines attaques infligent Poison aux ennemis.",
+      "icon": "https://render.guildwars2.com/file/39320C2D4AED963861F4540F59AEBB5E05AD2E1C/103513.png",
+      "flags": [],
+      "id": 13037,
+      "chat_link": "[&Bu0yAAA=]"
+    }
+  ],
+  "specialization": 20,
+  "icon": "https://render.guildwars2.com/file/09B09DBDA3B81470A27514925DAD37DE0D6121FB/1012755.png"
+}

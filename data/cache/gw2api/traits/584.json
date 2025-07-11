@@ -1,0 +1,31 @@
+{
+  "id": 584,
+  "tier": 2,
+  "order": 1,
+  "name": "Rédemption",
+  "description": "Vous lancez Litanie du courroux inférieure lorsque vous activez la compétence de vertu 3.",
+  "slot": "Major",
+  "skills": [
+    {
+      "name": "Litanie du courroux inférieure",
+      "facts": [
+        {
+          "text": "Apply Buff/Condition",
+          "type": "Buff",
+          "icon": "https://render.guildwars2.com/file/77077EDEB2AF1F3D4062E6428000F44F77616ADE/699527.png",
+          "duration": 4,
+          "status": "Litanie du courroux",
+          "description": "Donne de la santé en fonction des dégâts infligés aux ennemis.",
+          "apply_count": 1
+        }
+      ],
+      "description": "Méditation. Vous vous soignez. Pendant un court laps de temps, vous guérissez en fonction d'un pourcentage de dégâts infligés aux ennemis.",
+      "icon": "https://render.guildwars2.com/file/77077EDEB2AF1F3D4062E6428000F44F77616ADE/699527.png",
+      "flags": [],
+      "id": 71798,
+      "chat_link": "[&BnYYAQA=]"
+    }
+  ],
+  "specialization": 13,
+  "icon": "https://render.guildwars2.com/file/B5C9AAF67FA6305CB414C196EB1503493B5E0D59/1012430.png"
+}

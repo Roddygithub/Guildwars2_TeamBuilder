@@ -1,0 +1,19 @@
+{
+  "id": 470,
+  "tier": 2,
+  "order": 2,
+  "name": "Régénérateur de sac à dos",
+  "description": "Vous regagnez de la santé à chaque seconde quand vous utilisez un <c=@abilitytype>Kit d'ingénierie</c>.",
+  "slot": "Major",
+  "facts": [
+    {
+      "text": "Guérison",
+      "type": "AttributeAdjust",
+      "icon": "https://render.guildwars2.com/file/D4347C52157B040943051D7E09DEAD7AF63D4378/156662.png",
+      "value": 117,
+      "target": "Healing"
+    }
+  ],
+  "specialization": 29,
+  "icon": "https://render.guildwars2.com/file/C971920D6D5A5A66BECBD361B0B118E20AB1FCC4/1012335.png"
+}

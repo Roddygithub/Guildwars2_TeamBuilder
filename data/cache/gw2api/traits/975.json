@@ -1,0 +1,30 @@
+{
+  "id": 975,
+  "tier": 2,
+  "order": 0,
+  "name": "Frappe fanée",
+  "description": "Les capacités de <c=@abilitytype>bête</c> infligent Faiblesse aux cibles touchées.<br><c=@reminder>Cet effet n'est infligé qu'une fois à chaque cible touchée par une capacité.</c>",
+  "slot": "Major",
+  "facts": [
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/6CB0E64AF9AA292E332A38C1770CE577E2CDE0E8/102853.png",
+      "duration": 4,
+      "status": "Faiblesse",
+      "description": "Régénération d'endurance réduite de 50%. 50% des coups sont des effleurements (50% des dégâts). Durée cumulable.",
+      "apply_count": 1
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/6CB0E64AF9AA292E332A38C1770CE577E2CDE0E8/102853.png",
+      "duration": 3,
+      "status": "Faiblesse",
+      "description": "Régénération d'endurance réduite de 50%. 50% des coups sont des effleurements (50% des dégâts). Durée cumulable.",
+      "apply_count": 1
+    }
+  ],
+  "specialization": 32,
+  "icon": "https://render.guildwars2.com/file/32230CE64A4007F6301E9C93B393CF5328101C15/1012609.png"
+}

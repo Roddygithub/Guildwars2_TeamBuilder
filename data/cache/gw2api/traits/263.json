@@ -1,0 +1,102 @@
+{
+  "id": 263,
+  "tier": 3,
+  "order": 1,
+  "name": "Éclair des arcanes",
+  "description": "Les compétences d'<c=@abilitytype>arcanes</c> augmentent votre Férocité et ont divers effets supplémentaires.",
+  "slot": "Major",
+  "facts": [
+    {
+      "text": "Apply Buff/Condition",
+      "type": "PrefixedBuff",
+      "icon": "https://render.guildwars2.com/file/CD77D1FAB7B270223538A8F8ECDA1CFB044D65F4/102834.png",
+      "duration": 4,
+      "status": "Protection",
+      "description": "Dégâts de frappe subis réduits de 33%. La durée est cumulable.",
+      "apply_count": 1,
+      "prefix": {
+        "text": "Apply Buff/Condition",
+        "icon": "https://render.guildwars2.com/file/09A60F4FF1020AD1CB78FC7FF21F10306AF7DF0E/699524.png",
+        "status": "Fulgurance des arcanes",
+        "description": "<c=@abilitytype>Arcane.</c> Une explosion vise la zone, infligeant des dégâts critiques aux ennemis et vous guérissant. Efficacité de guérison accrue à chaque cible touchée. Si cette compétence termine un combo, vous guérissez davantage."
+      }
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "PrefixedBuff",
+      "icon": "https://render.guildwars2.com/file/397A613651BFCA2832B6469CE34735580A2C120E/102844.png",
+      "duration": 2,
+      "status": "Immobile",
+      "description": "Incapable de bouger. La durée est cumulable.",
+      "apply_count": 1,
+      "prefix": {
+        "text": "Apply Buff/Condition",
+        "icon": "https://render.guildwars2.com/file/367C5408D29E1C49AE52ED18A2EFD76C1B40EB5A/103372.png",
+        "status": "Vague des arcanes",
+        "description": "<c=@abilitytype>Arcane.</c> Une onde d'énergie s'abat sur les ennemis dans la zone ciblée, leur infligeant des dégâts critiques."
+      }
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "PrefixedBuff",
+      "icon": "https://render.guildwars2.com/file/09770136BB76FD0DBE1CC4267DEED54774CB20F6/102837.png",
+      "duration": 5,
+      "status": "Aveugle",
+      "description": "L'attaque suivante rate. L'intensité est cumulable.",
+      "apply_count": 1,
+      "prefix": {
+        "text": "Apply Buff/Condition",
+        "icon": "https://render.guildwars2.com/file/BCEB22C05BD13F226612C81339AF9A7647F7B454/103229.png",
+        "status": "Explosion des arcanes",
+        "description": "<c=@abilitytype>Arcane.</c> Une décharge d'énergie s'abat sur l'ennemi et lui inflige des dégâts critiques."
+      }
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "PrefixedBuff",
+      "icon": "https://render.guildwars2.com/file/3D3A1C2D6D791C05179AB871902D28782C65C244/415959.png",
+      "duration": 4,
+      "status": "Stabilité",
+      "description": "Immunisé contre les altérations Renversement, Repoussement, Attraction, Projection, Étourdissement, Stupeur, Flottaison, Noyade, Peur ou Incitation.",
+      "apply_count": 2,
+      "prefix": {
+        "text": "Apply Buff/Condition",
+        "icon": "https://render.guildwars2.com/file/A20219EB6F5FC52A0E537163B4A9051606C11B52/65735.png",
+        "status": "Bouclier des arcanes",
+        "description": "<c=@abilitytype>Arcane.</c> Un bouclier d'énergie bloque les attaques. Il explose après trois attaques essuyées et inflige des dégâts critiques."
+      }
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "PrefixedBuff",
+      "icon": "https://render.guildwars2.com/file/D4AB6401A6D6917C3D4F230764452BCCE1035B0D/1012835.png",
+      "duration": 4,
+      "status": "Célérité",
+      "description": "Les compétences et les actions sont plus rapides.",
+      "apply_count": 1,
+      "prefix": {
+        "text": "Apply Buff/Condition",
+        "icon": "https://render.guildwars2.com/file/AD24BD1B231424D2A8F223A6F899AC34D6AAAB26/103356.png",
+        "status": "Écho des arcanes",
+        "description": "<c=@abilitytype>Arcane.</c> Votre prochaine compétence d'arme se recharge nettement plus vite. Le temps de recharge de cette compétence est augmenté par la recharge d'origine de la compétence affectée."
+      }
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/005807D4EACC2FC562FAF2C6BABC3E38E33FC070/1012289.png",
+      "duration": 15,
+      "status": "Éclair des arcanes",
+      "description": "Augmente votre Férocité.\n",
+      "apply_count": 1
+    },
+    {
+      "type": "AttributeAdjust",
+      "icon": "https://render.guildwars2.com/file/0658D833944E69E62E08EB18A0B5407F722125BC/2229320.png",
+      "value": 150,
+      "target": "CritDamage"
+    }
+  ],
+  "specialization": 37,
+  "icon": "https://render.guildwars2.com/file/005807D4EACC2FC562FAF2C6BABC3E38E33FC070/1012289.png"
+}

@@ -1,0 +1,27 @@
+{
+  "id": 521,
+  "tier": 1,
+  "order": 2,
+  "name": "Assurance santé",
+  "description": "Améliore l'efficacité des soins reçus. Les soins conférés sont augmentés lorsque vous utilisez un kit médical.",
+  "slot": "Major",
+  "facts": [
+    {
+      "text": "Augmentation des soins reçus",
+      "type": "Percent",
+      "icon": "https://render.guildwars2.com/file/D4347C52157B040943051D7E09DEAD7AF63D4378/156662.png",
+      "percent": 10
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/206FCC2A05035FDB306AB5136E5F3AC0FC6467F3/103395.png",
+      "duration": 0,
+      "status": "Bonus de kit médical",
+      "description": "Augmentation des soins conférés aux autres alliés",
+      "apply_count": 1
+    }
+  ],
+  "specialization": 29,
+  "icon": "https://render.guildwars2.com/file/2816FDC0BB196C164646425734AB9205A2750A95/1012332.png"
+}

@@ -1,0 +1,48 @@
+{
+  "id": 1070,
+  "tier": 2,
+  "order": 2,
+  "name": "Instant de clarté",
+  "description": "Vous conférez une attaque d'opportunité à votre familier et à vous même lorsque vous interrompez un ennemi. La durée de Stupeur et d'Étourdissement que vous infligez est augmentée.<br><c=@reminder>Cette aptitude ne confère une attaque d'opportunité contre les ennemis possédant une barre de défiance qu'une seule fois par intervalle.</c>",
+  "slot": "Major",
+  "facts": [
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/9B120D5A176870D4EC9F1BE44E295EAAA6EF0ABC/1012623.png",
+      "duration": 10,
+      "status": "Attaque d'opportunité",
+      "description": "Dégâts de l'attaque suivante +50%.",
+      "apply_count": 1
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/9B120D5A176870D4EC9F1BE44E295EAAA6EF0ABC/1012623.png",
+      "duration": 10,
+      "status": "Attaque d'opportunité",
+      "description": "",
+      "apply_count": 1
+    },
+    {
+      "text": "Durée augmentée",
+      "type": "Percent",
+      "icon": "https://render.guildwars2.com/file/7B2193ACCF77E56C13E608191B082D68AA0FAA71/156659.png",
+      "percent": 50
+    },
+    {
+      "text": "Durée augmentée",
+      "type": "Percent",
+      "icon": "https://render.guildwars2.com/file/7B2193ACCF77E56C13E608191B082D68AA0FAA71/156659.png",
+      "percent": 10
+    },
+    {
+      "text": "Intervalle",
+      "type": "Time",
+      "icon": "https://render.guildwars2.com/file/B75E91EB22E0DFCC1D08030204055946506D56F6/1770206.png",
+      "duration": 3
+    }
+  ],
+  "specialization": 8,
+  "icon": "https://render.guildwars2.com/file/9B120D5A176870D4EC9F1BE44E295EAAA6EF0ABC/1012623.png"
+}

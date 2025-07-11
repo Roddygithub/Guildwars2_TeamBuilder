@@ -12,14 +12,25 @@ import requests
 from sqlalchemy.orm import Session
 from sqlalchemy.exc import SQLAlchemyError, IntegrityError
 
-from app.core.config import settings
-from app.core.exceptions import ValidationError, ImportError
-from app.core.logging import setup_logger
+from app.config import settings
+from app.core.exceptions import ValidationError
+from app.logging_config import get_logger
 from app.models.base import Base
-from app.services.mapping.gw2_api_mapper import GW2APIMapper
+
+# Import conditionnel pour éviter les dépendances circulaires
+try:
+    from app.services.mapping.gw2_api_mapper import GW2APIMapper
+except ImportError:
+    # Pour les cas où le mapper n'est pas encore disponible
+    GW2APIMapper = None
+
+# Définition d'une exception ImportError personnalisée
+class ImportError(Exception):
+    """Exception levée lorsqu'une erreur d'importation se produit."""
+    pass
 
 # Configuration du logger
-logger = setup_logger(__name__)
+logger = get_logger(__name__)
 
 # Type générique pour les modèles SQLAlchemy
 T = TypeVar('T', bound=Base)
@@ -241,7 +252,7 @@ class GW2ImportService(Generic[T]):
         Args:
             existing: Instance existante à mettre à jour
             new_data: Nouvelles données à appliquer
-        ""
+        """
         for key, value in new_data.__dict__.items():
             if not key.startswith('_'):  # Ignorer les attributs privés
                 setattr(existing, key, value)
@@ -299,7 +310,7 @@ class ItemStatsImportService(GW2ImportService):
     """Service d'importation pour les statistiques d'objets."""
     
     def __init__(self, language: str = "en"):
-        from app.models.item import ItemStats
+        from app.models.item_stats import ItemStats
         super().__init__(ItemStats, 'itemstats', language)
     
     def _map_with_mapper(self, mapper: GW2APIMapper, data: Dict[str, Any]) -> Any:

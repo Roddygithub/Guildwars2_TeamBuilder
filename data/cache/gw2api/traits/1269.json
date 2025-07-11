@@ -1,0 +1,24 @@
+{
+  "id": 1269,
+  "tier": 3,
+  "order": 2,
+  "name": "Bourreau",
+  "description": "Vous infligez des dégâts de frappe supplémentaires lorsque la santé de votre cible est en dessous d'un certain seuil.",
+  "slot": "Major",
+  "facts": [
+    {
+      "text": "Augmentation des dégâts",
+      "type": "Percent",
+      "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+      "percent": 20
+    },
+    {
+      "text": "Seuil de Santé",
+      "type": "Percent",
+      "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+      "percent": 50
+    }
+  ],
+  "specialization": 28,
+  "icon": "https://render.guildwars2.com/file/C44E0FC7EC5B1870214E24AD4144C55E110AD9C2/1012746.png"
+}

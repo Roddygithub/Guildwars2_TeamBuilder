@@ -1,0 +1,27 @@
+{
+  "id": 1015,
+  "tier": 3,
+  "order": 1,
+  "name": "Sans remords",
+  "description": "Vous avez de nouveau accès à Première frappe lorsque vous bénéficiez de Fureur. Première frappe inflige davantage de dégâts.",
+  "slot": "Major",
+  "facts": [
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/A537B362D8AC54BC7907E050B596BA93E4CBE5F2/1012627.png",
+      "duration": 20,
+      "status": "Première frappe",
+      "description": "Votre prochaine attaque est une Première frappe.",
+      "apply_count": 1
+    },
+    {
+      "text": "Augmentation des dégâts",
+      "type": "Percent",
+      "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+      "percent": 25
+    }
+  ],
+  "specialization": 8,
+  "icon": "https://render.guildwars2.com/file/1744A5411A5DED5AF343B4F4B7490A7677FE18EA/1012625.png"
+}

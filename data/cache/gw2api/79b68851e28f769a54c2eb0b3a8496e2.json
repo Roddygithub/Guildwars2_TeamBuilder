@@ -1,0 +1,7341 @@
+[
+  {
+    "name": "Fortunate Rifle",
+    "description": "<c=@flavor>May fortune favor you in the new year.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 12008,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101420,
+    "chat_link": "[&AgEsjAEA]",
+    "icon": "https://render.guildwars2.com/file/9F670FED49BC18DA080F54FECCB9A0D21220D25B/3240237.png",
+    "details": {
+      "type": "Rifle",
+      "damage_type": "Physical",
+      "min_power": 986,
+      "max_power": 1205,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "infix_upgrade": {
+        "id": 559,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 113
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 113
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 113
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 113
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 113
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 113
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 113
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 113
+          },
+          {
+            "attribute": "ConditionDuration",
+            "modifier": 113
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Fortunate Scepter",
+    "description": "<c=@flavor>May fortune favor you in the new year.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 12001,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101421,
+    "chat_link": "[&AgEtjAEA]",
+    "icon": "https://render.guildwars2.com/file/962543CF3EB4476D28B21D7639ECBBF0733E3FF6/3240245.png",
+    "details": {
+      "type": "Scepter",
+      "damage_type": "Physical",
+      "min_power": 895,
+      "max_power": 1010,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 559,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 56
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 56
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 56
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 56
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 56
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 56
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 56
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 56
+          },
+          {
+            "attribute": "ConditionDuration",
+            "modifier": 56
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Fortunate Warhorn",
+    "description": "<c=@flavor>May fortune favor you in the new year.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 11985,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101422,
+    "chat_link": "[&AgEujAEA]",
+    "icon": "https://render.guildwars2.com/file/2E1C021D590362F116182F13186637336BF7B803/3240296.png",
+    "details": {
+      "type": "Warhorn",
+      "damage_type": "Physical",
+      "min_power": 814,
+      "max_power": 900,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 559,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 56
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 56
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 56
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 56
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 56
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 56
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 56
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 56
+          },
+          {
+            "attribute": "ConditionDuration",
+            "modifier": 56
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Elegant Noble's Backpack",
+    "description": "This will replace the appearance of one back slot item of any weight class and unlock the skin in your account wardrobe.\n\nThis back slot skin has no stats of its own.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101425,
+    "chat_link": "[&AgExjAEA]",
+    "icon": "https://render.guildwars2.com/file/AF9C37F3CCA19C34535CAE967CEA9CFEF821AED8/3240093.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        11996
+      ]
+    }
+  },
+  {
+    "name": "Fortunate Pistol",
+    "description": "<c=@flavor>May fortune favor you in the new year.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 12004,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101426,
+    "chat_link": "[&AgEyjAEA]",
+    "icon": "https://render.guildwars2.com/file/102A12B3933305BBF84E239BE1AFC5062DDFEF62/3240229.png",
+    "details": {
+      "type": "Pistol",
+      "damage_type": "Physical",
+      "min_power": 876,
+      "max_power": 1029,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 559,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 56
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 56
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 56
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 56
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 56
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 56
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 56
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 56
+          },
+          {
+            "attribute": "ConditionDuration",
+            "modifier": 56
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Visage of the Great Dragon Fireworks",
+    "description": "Double-click to activate a one-time firework. Cannot be used in WvW.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "NoUnderwater",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101427,
+    "chat_link": "[&AgEzjAEA]",
+    "icon": "https://render.guildwars2.com/file/794C0F611CB40836A39108DE60C96B3463AABC62/3240050.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Lucky Dragon Hammer",
+    "description": "<c=@flavor>Let your arrival inspire awe.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 11991,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101428,
+    "chat_link": "[&AgE0jAEA]",
+    "icon": "https://render.guildwars2.com/file/7A923C200CBF7BE53CBEF0D5F2D323C6ECF40498/3240128.png",
+    "details": {
+      "type": "Hammer",
+      "damage_type": "Physical",
+      "min_power": 985,
+      "max_power": 1111,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "infix_upgrade": {
+        "id": 559,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 113
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 113
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 113
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 113
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 113
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 113
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 113
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 113
+          },
+          {
+            "attribute": "ConditionDuration",
+            "modifier": 113
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Lucky Great Dragon Lantern",
+    "type": "Back",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 8888,
+    "default_skin": 12007,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101429,
+    "chat_link": "[&AgE1jAEA]",
+    "icon": "https://render.guildwars2.com/file/6B443BBF9C084DCF0B255E2B7865526E904A2221/3240044.png",
+    "details": {
+      "infusion_slots": [],
+      "attribute_adjustment": 85.36,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539,
+        1717,
+        1687,
+        1826
+      ],
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Lucky Dragon Short Bow",
+    "description": "<c=@flavor>Let your mind soar freely.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 11994,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101430,
+    "chat_link": "[&AgE2jAEA]",
+    "icon": "https://render.guildwars2.com/file/08281E074831CF1B4D7B6C26A16FC236F77C04DD/3240152.png",
+    "details": {
+      "type": "ShortBow",
+      "damage_type": "Physical",
+      "min_power": 905,
+      "max_power": 1000,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "infix_upgrade": {
+        "id": 559,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 113
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 113
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 113
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 113
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 113
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 113
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 113
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 113
+          },
+          {
+            "attribute": "ConditionDuration",
+            "modifier": 113
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Dragon Descendant's Helm",
+    "description": "<c=@flavor>Soar into the new year.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 330,
+    "default_skin": 11990,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101431,
+    "chat_link": "[&AgE3jAEA]",
+    "icon": "https://render.guildwars2.com/file/5457E72D11D8EA327AB7C004C2F3070A9FB43413/3240330.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Light",
+      "defense": 73,
+      "infusion_slots": [],
+      "attribute_adjustment": 170.72,
+      "infix_upgrade": {
+        "id": 559,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 28
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 28
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 28
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 28
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 28
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 28
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 28
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 28
+          },
+          {
+            "attribute": "ConditionDuration",
+            "modifier": 28
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Fortunate Axe",
+    "description": "<c=@flavor>May fortune favor you in the new year.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 11997,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101432,
+    "chat_link": "[&AgE4jAEA]",
+    "icon": "https://render.guildwars2.com/file/30AB6E1CDD1554A42EDBB99631E10DA9DCDC35B8/3240171.png",
+    "details": {
+      "type": "Axe",
+      "damage_type": "Physical",
+      "min_power": 857,
+      "max_power": 1048,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 559,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 56
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 56
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 56
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 56
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 56
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 56
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 56
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 56
+          },
+          {
+            "attribute": "ConditionDuration",
+            "modifier": 56
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "New Year's Weapon Chest",
+    "description": "<c=@flavor>Double-click to choose a weapon.</c>",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101433,
+    "chat_link": "[&AgE5jAEA]",
+    "icon": "https://render.guildwars2.com/file/F5494A082995D4DFC724D10D52367C6ECA29486A/3240041.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Synergetics Cyberhound Skin",
+    "description": "Double-click to unlock this jackal mount skin for your account.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101434,
+    "chat_link": "[&AgE6jAEA]",
+    "icon": "https://render.guildwars2.com/file/1D1203C20A0851D457290603A96EEEA170141843/3240111.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Ms"
+    }
+  },
+  {
+    "name": "Golden Dragon Figurine",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Junk",
+    "vendor_value": 8888,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101435,
+    "chat_link": "[&AgE7jAEA]",
+    "icon": "https://render.guildwars2.com/file/AFA1E5C1067844A5FF9C5C50D5FFB0A5B6AA180B/3240049.png"
+  },
+  {
+    "name": "Dragon Descendant's Helm",
+    "description": "<c=@flavor>Soar into the new year.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 330,
+    "default_skin": 11992,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101437,
+    "chat_link": "[&AgE9jAEA]",
+    "icon": "https://render.guildwars2.com/file/5457E72D11D8EA327AB7C004C2F3070A9FB43413/3240330.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Medium",
+      "defense": 97,
+      "infusion_slots": [],
+      "attribute_adjustment": 170.72,
+      "infix_upgrade": {
+        "id": 559,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 28
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 28
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 28
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 28
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 28
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 28
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 28
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 28
+          },
+          {
+            "attribute": "ConditionDuration",
+            "modifier": 28
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Lifeblood of Nourys, Eyes of the Abyss",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101438,
+    "chat_link": "[&AgE+jAEA]",
+    "icon": "https://render.guildwars2.com/file/729817F1E902E21032A0CDB83D2520CA7EA51119/3256312.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Relic of Mercy",
+    "description": "Revive allies faster and with more health.",
+    "type": "Relic",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101439,
+    "chat_link": "[&AgE/jAEA]",
+    "icon": "https://render.guildwars2.com/file/08DED07BF6DF37E69A08D1C49D9C45D81BD8A5CA/3255567.png"
+  },
+  {
+    "name": "Solar Astrolabe Short Bow Skin",
+    "description": "Double-click to apply this look to any other short bow.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101440,
+    "chat_link": "[&AgFAjAEA]",
+    "icon": "https://render.guildwars2.com/file/BC06EA5D93329C9F0BF80980571709AF1CAD5A69/3255689.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12024
+      ]
+    }
+  },
+  {
+    "name": "Relic of Evasion",
+    "description": "Gain vigor after evading an attack.",
+    "type": "Relic",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101441,
+    "chat_link": "[&AgFBjAEA]",
+    "icon": "https://render.guildwars2.com/file/08DED07BF6DF37E69A08D1C49D9C45D81BD8A5CA/3255567.png"
+  },
+  {
+    "name": "Relic of Speed",
+    "description": "Increase movement speed when under the effect of swiftness.",
+    "type": "Relic",
+    "level": 60,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101442,
+    "chat_link": "[&AgFCjAEA]",
+    "icon": "https://render.guildwars2.com/file/08DED07BF6DF37E69A08D1C49D9C45D81BD8A5CA/3255567.png"
+  },
+  {
+    "name": "Mysterious Tablet",
+    "description": "Double-click to read. Can be safely discarded after acquiring.\nUsed to progress Astral Ward Weapons to unlock new weapon proficiencies.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101444,
+    "chat_link": "[&AgFEjAEA]",
+    "icon": "https://render.guildwars2.com/file/AC51A891D812FB67DF72B851280E6B96A2A2B940/220887.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Necrotic Essence Warhorn Skin",
+    "description": "Double-click to apply this look to any other warhorn.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101445,
+    "chat_link": "[&AgFFjAEA]",
+    "icon": "https://render.guildwars2.com/file/5C1242C1FAC328E9F2B2C4CB4743A81FDFFCD002/3255535.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12027
+      ]
+    }
+  },
+  {
+    "name": "Maddened Mackerel",
+    "description": "Double-click to convert to materials.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101446,
+    "chat_link": "[&AgFGjAEA]",
+    "icon": "https://render.guildwars2.com/file/33C833ABEF615419592009DEFDC6FC56626F0BDC/2594625.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Relic of the Pack",
+    "description": "Grant superspeed to nearby allies after using an elite skill.",
+    "type": "Relic",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101447,
+    "chat_link": "[&AgFHjAEA]",
+    "icon": "https://render.guildwars2.com/file/08DED07BF6DF37E69A08D1C49D9C45D81BD8A5CA/3255567.png"
+  },
+  {
+    "name": "Massive Calcified Gasp",
+    "description": "Double-click to add 100 calcified gasps to your wallet.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "BulkConsume",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101448,
+    "chat_link": "[&AgFIjAEA]",
+    "icon": "https://render.guildwars2.com/file/C264AC5057A0BE4EFA94D39C550256162EAAE8CD/3188138.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Banner of the Bastion of the Obscure",
+    "type": "Back",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 12047,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101449,
+    "chat_link": "[&AgFJjAEA]",
+    "icon": "https://render.guildwars2.com/file/F1B1AF90671BBC0F13E76D59D8FF0AD7535D55A0/3255290.png",
+    "details": {
+      "infusion_slots": [],
+      "attribute_adjustment": 85.36,
+      "infix_upgrade": {
+        "id": 1153,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 26
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 14
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 26
+          },
+          {
+            "attribute": "ConditionDuration",
+            "modifier": 14
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Necrotic Essence Short Bow Skin",
+    "description": "Double-click to apply this look to any other short bow.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101450,
+    "chat_link": "[&AgFKjAEA]",
+    "icon": "https://render.guildwars2.com/file/EFF35DD35308B8BF07D49D02EF2F60777BE8A2E6/3255491.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12042
+      ]
+    }
+  },
+  {
+    "name": "Necrotic Essence Axe Skin",
+    "description": "Double-click to apply this look to any other axe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101451,
+    "chat_link": "[&AgFLjAEA]",
+    "icon": "https://render.guildwars2.com/file/4753979576573CCF060A246A5080BFB7E647CC9B/3255376.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12046
+      ]
+    }
+  },
+  {
+    "name": "Relic of the Firebrand",
+    "description": "Upon using the final charge of a mantra skill, gain increased boon duration.",
+    "type": "Relic",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101452,
+    "chat_link": "[&AgFMjAEA]",
+    "icon": "https://render.guildwars2.com/file/08DED07BF6DF37E69A08D1C49D9C45D81BD8A5CA/3255567.png"
+  },
+  {
+    "name": "Relic of the Nightmare",
+    "description": "After using an elite skill, send forth a nightmare pulse that inflicts fear and poison on nearby enemies.",
+    "type": "Relic",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101453,
+    "chat_link": "[&AgFNjAEA]",
+    "icon": "https://render.guildwars2.com/file/08DED07BF6DF37E69A08D1C49D9C45D81BD8A5CA/3255567.png"
+  },
+  {
+    "name": "Mastery Point",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage"
+    ],
+    "restrictions": [],
+    "id": 101454,
+    "chat_link": "[&AgFOjAEA]",
+    "icon": "https://render.guildwars2.com/file/5075086BF3517C6B4EAA91C0C0F8DE56011F9CD3/3187597.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Solar Astrolabe Torch Skin",
+    "description": "Double-click to apply this look to any other torch.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101457,
+    "chat_link": "[&AgFRjAEA]",
+    "icon": "https://render.guildwars2.com/file/32B7932728719699166CBD176FB2AA4C595F1101/3255721.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12034
+      ]
+    }
+  },
+  {
+    "name": "Ancient Scroll of Astral Ward Weapons",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101458,
+    "chat_link": "[&AgFSjAEA]",
+    "icon": "https://render.guildwars2.com/file/21FF236A656E0BAA217C6E2E5AEBD2D1A6E3B7BC/66426.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Lifeblood of Myros the Spiteful",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101459,
+    "chat_link": "[&AgFTjAEA]",
+    "icon": "https://render.guildwars2.com/file/010F09DD97381A1BC05A0D0ADED1A4E7EA264933/3256311.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Obsidian Heavy Greaves",
+    "description": "<c=@flavor>Imposing armor forged with the help of dwarven wizard Lyhr.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 240,
+    "default_skin": 12048,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101460,
+    "chat_link": "[&AgFUjAEA]",
+    "icon": "https://render.guildwars2.com/file/0EB6787B05B90E21D7982A3B2E75460166C6520D/3256181.png",
+    "details": {
+      "type": "Boots",
+      "weight_class": "Heavy",
+      "defense": 191,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "secondary_suffix_item_id": "",
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1111,
+        1109,
+        1123,
+        1140,
+        1085,
+        1153,
+        1118,
+        1131,
+        1222,
+        1344,
+        1363,
+        1364,
+        1559,
+        1556,
+        1681,
+        1686,
+        1826
+      ]
+    }
+  },
+  {
+    "name": "Relic of Leadership",
+    "description": "Convert conditions into boons on nearby allies after using an elite skill.",
+    "type": "Relic",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101461,
+    "chat_link": "[&AgFVjAEA]",
+    "icon": "https://render.guildwars2.com/file/08DED07BF6DF37E69A08D1C49D9C45D81BD8A5CA/3255567.png"
+  },
+  {
+    "name": "Obsidian Light Mantle",
+    "description": "<c=@flavor>Imposing armor forged with the help of dwarven wizard Lyhr.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 240,
+    "default_skin": 12022,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101462,
+    "chat_link": "[&AgFWjAEA]",
+    "icon": "https://render.guildwars2.com/file/0CAFA9029802161CF256331DC94480C76F413B5A/3256199.png",
+    "details": {
+      "type": "Shoulders",
+      "weight_class": "Light",
+      "defense": 77,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1111,
+        1109,
+        1123,
+        1140,
+        1085,
+        1153,
+        1118,
+        1131,
+        1222,
+        1344,
+        1363,
+        1364,
+        1559,
+        1556,
+        1681,
+        1686,
+        1826
+      ],
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Solar Astrolabe Hammer Skin",
+    "description": "Double-click to apply this look to any other hammer.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101463,
+    "chat_link": "[&AgFXjAEA]",
+    "icon": "https://render.guildwars2.com/file/6F0EA6794BD302ECC89AA0BFB6BCB2F198AB6B11/3255629.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12077
+      ]
+    }
+  },
+  {
+    "name": "Solar Astrolabe Warhorn Skin",
+    "description": "Double-click to apply this look to any other warhorn.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101464,
+    "chat_link": "[&AgFYjAEA]",
+    "icon": "https://render.guildwars2.com/file/E0A0A3E23838E055A41FA430D23728E504AEFF6B/3255732.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12058
+      ]
+    }
+  },
+  {
+    "name": "Relic of the Necromancer",
+    "description": "Fear you inflict causes foes to move slower.",
+    "type": "Relic",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101465,
+    "chat_link": "[&AgFZjAEA]",
+    "icon": "https://render.guildwars2.com/file/08DED07BF6DF37E69A08D1C49D9C45D81BD8A5CA/3255567.png"
+  },
+  {
+    "name": "Relic of Resistance",
+    "description": "Gain resistance after using a healing skill.",
+    "type": "Relic",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101466,
+    "chat_link": "[&AgFajAEA]",
+    "icon": "https://render.guildwars2.com/file/08DED07BF6DF37E69A08D1C49D9C45D81BD8A5CA/3255567.png"
+  },
+  {
+    "name": "Relic of the Demon Queen",
+    "description": "Poison that you apply reduces healing by an additional amount. Disabling a foe applies poison. <br><c=@reminder>Disables include stun, taunt, daze, knockback, pull, knockdown, sink, float, fear, and launch.</c>",
+    "type": "Relic",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "SoulBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101467,
+    "chat_link": "[&AgFbjAEA]",
+    "icon": "https://render.guildwars2.com/file/08DED07BF6DF37E69A08D1C49D9C45D81BD8A5CA/3255567.png"
+  },
+  {
+    "name": "Skysage's Boots Skin",
+    "description": "Double-click to apply this appearance to your current boots. This will unlock the skin in your wardrobe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101469,
+    "chat_link": "[&AgFdjAEA]",
+    "icon": "https://render.guildwars2.com/file/FDC7AB3C2527F831324528097E5D12A10EF30ADB/3256187.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12029,
+        12054,
+        12091
+      ]
+    }
+  },
+  {
+    "name": "Lifeblood of Knaebelag the Terror",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101471,
+    "chat_link": "[&AgFfjAEA]",
+    "icon": "https://render.guildwars2.com/file/400530AF4446B64D04F3D3090819E272F3534508/3256310.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Relic of the Reaper",
+    "description": "Chill nearby enemies after executing a <c=@abilitytype>shout</c> skill.",
+    "type": "Relic",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101472,
+    "chat_link": "[&AgFgjAEA]",
+    "icon": "https://render.guildwars2.com/file/08DED07BF6DF37E69A08D1C49D9C45D81BD8A5CA/3255567.png"
+  },
+  {
+    "name": "Necrotic Essence Hammer Skin",
+    "description": "Double-click to apply this look to any other hammer.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101473,
+    "chat_link": "[&AgFhjAEA]",
+    "icon": "https://render.guildwars2.com/file/B3D26599C00D115DBAC2192E0FE30CEE49314DAD/3255417.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12057
+      ]
+    }
+  },
+  {
+    "name": "Relic of the Water",
+    "description": "Cleanse conditions from yourself and nearby allies after using a healing skill.",
+    "type": "Relic",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101474,
+    "chat_link": "[&AgFijAEA]",
+    "icon": "https://render.guildwars2.com/file/08DED07BF6DF37E69A08D1C49D9C45D81BD8A5CA/3255567.png"
+  },
+  {
+    "name": "Skysage's Gloves Skin",
+    "description": "Double-click to apply this appearance to your current gloves. This will unlock the skin in your wardrobe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101475,
+    "chat_link": "[&AgFjjAEA]",
+    "icon": "https://render.guildwars2.com/file/D3C634D56273100F28CAA90807B461DE3B0BCFCE/3256189.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12036,
+        12076,
+        12094
+      ]
+    }
+  },
+  {
+    "name": "Necrotic Essence Rifle Skin",
+    "description": "Double-click to apply this look to any other rifle.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101476,
+    "chat_link": "[&AgFkjAEA]",
+    "icon": "https://render.guildwars2.com/file/0B5A2000F95D11D7DD3898D44D0C9CD59EEC6849/3255461.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12085
+      ]
+    }
+  },
+  {
+    "name": "Chest of the Obscure",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101477,
+    "chat_link": "[&AgFljAEA]",
+    "icon": "https://render.guildwars2.com/file/DE310103C36B9845F4E57C77501007AA96676776/2247453.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Baggy Cargo Pants Skin",
+    "description": "Double-click to apply this appearance to your current leg armor. This will unlock the skin in your wardrobe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101480,
+    "chat_link": "[&AgFojAEA]",
+    "icon": "https://render.guildwars2.com/file/7D1615C326EAD8C5F321AA5569F96C1663766739/3255354.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12012,
+        12037,
+        12072
+      ]
+    }
+  },
+  {
+    "name": "Weaponmaster Training Document",
+    "description": "Used to progress Weaponmaster Training to wield any weapon you have learned, regardless of elite specialization.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101481,
+    "chat_link": "[&AgFpjAEA]",
+    "icon": "https://render.guildwars2.com/file/AC51A891D812FB67DF72B851280E6B96A2A2B940/220887.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Inner Nayos: Hero's Chest",
+    "description": "Double-click to open.\nContains materials from Inner Nayos.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101482,
+    "chat_link": "[&AgFqjAEA]",
+    "icon": "https://render.guildwars2.com/file/6C0CDA94EC94FA906493E2050DDECDD5965877FD/3199530.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Recipe: Legendary Obsidian Armor",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 64,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101483,
+    "chat_link": "[&AgFrjAEA]",
+    "icon": "https://render.guildwars2.com/file/E19734B71C949924A1353106E513DE62729A5313/849374.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 14083,
+      "extra_recipe_ids": [
+        14073,
+        14080,
+        14079,
+        14074,
+        14084,
+        14076,
+        14077,
+        14081,
+        14078,
+        14075,
+        14082,
+        14034,
+        13972,
+        13983,
+        13946,
+        14005,
+        13948
+      ]
+    }
+  },
+  {
+    "name": "Necrotic Essence Longbow Skin",
+    "description": "Double-click to apply this look to any other longbow.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101484,
+    "chat_link": "[&AgFsjAEA]",
+    "icon": "https://render.guildwars2.com/file/61CB2E58D327DE97F20A05C5D20DABFE3E356C12/3255430.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12043
+      ]
+    }
+  },
+  {
+    "name": "Solar Astrolabe Selection Box",
+    "description": "Use this box to claim one Solar Astrolabe weapon skin of your choice.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101485,
+    "chat_link": "[&AgFtjAEA]",
+    "icon": "https://render.guildwars2.com/file/413DF569E03B16CD5D95E0664E48472D0B20B949/3255568.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Solar Astrolabe Rifle Skin",
+    "description": "Double-click to apply this look to any other rifle.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101486,
+    "chat_link": "[&AgFujAEA]",
+    "icon": "https://render.guildwars2.com/file/F8093A9A960B24D5552D06A64EFDED042DDF1327/3255659.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12026
+      ]
+    }
+  },
+  {
+    "name": "Relic of Antitoxin",
+    "description": "Outgoing condition cleanses remove an additional condition. <c=@reminder>This can only affect an ally once every 10 seconds.</c>",
+    "type": "Relic",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101487,
+    "chat_link": "[&AgFvjAEA]",
+    "icon": "https://render.guildwars2.com/file/08DED07BF6DF37E69A08D1C49D9C45D81BD8A5CA/3255567.png"
+  },
+  {
+    "name": "Fashionable Kilt Skin",
+    "description": "Double-click to apply this appearance to your current leg armor. This will unlock the skin in your wardrobe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101488,
+    "chat_link": "[&AgFwjAEA]",
+    "icon": "https://render.guildwars2.com/file/2FED0441BD0EC23556394F2E472BDB0AF31EC300/3255355.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12020,
+        12052,
+        12087
+      ]
+    }
+  },
+  {
+    "name": "Relic of the Fractal",
+    "description": "When you inflict bleeding on an enemy with 6 or more stacks of bleeding, also inflict burning and torment.",
+    "type": "Relic",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "SoulBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101489,
+    "chat_link": "[&AgFxjAEA]",
+    "icon": "https://render.guildwars2.com/file/08DED07BF6DF37E69A08D1C49D9C45D81BD8A5CA/3255567.png"
+  },
+  {
+    "name": "Lifeblood of Pherus the Subjugator",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101490,
+    "chat_link": "[&AgFyjAEA]",
+    "icon": "https://render.guildwars2.com/file/05C9AD9EC7F3C993663A2E98C0675C24A4C31123/3256313.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Relic of Dagda",
+    "description": "After using an elite skill, fire a projectile at the target or nearest enemy that damages and inflicts conditions. Damage scales with the recharge of the elite skill.",
+    "type": "Relic",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "SoulBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101491,
+    "chat_link": "[&AgFzjAEA]",
+    "icon": "https://render.guildwars2.com/file/08DED07BF6DF37E69A08D1C49D9C45D81BD8A5CA/3255567.png"
+  },
+  {
+    "name": "Relic of Vass",
+    "description": "After using a healing or elixir skill, your next few attacks inflict poison. <c=@reminder>Healing skills can only trigger this effect once every interval.</c>",
+    "type": "Relic",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "SoulBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101492,
+    "chat_link": "[&AgF0jAEA]",
+    "icon": "https://render.guildwars2.com/file/08DED07BF6DF37E69A08D1C49D9C45D81BD8A5CA/3255567.png"
+  },
+  {
+    "name": "Relic of the Afflicted",
+    "description": "Create a Death Nova at a foe's location upon their defeat that inflicts poison and bleeding. <c=@reminder>(Cooldown: 10 Seconds)</c>",
+    "type": "Relic",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101493,
+    "chat_link": "[&AgF1jAEA]",
+    "icon": "https://render.guildwars2.com/file/08DED07BF6DF37E69A08D1C49D9C45D81BD8A5CA/3255567.png"
+  },
+  {
+    "name": "Banner of the Bastion of the Natural",
+    "type": "Back",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 12032,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101494,
+    "chat_link": "[&AgF2jAEA]",
+    "icon": "https://render.guildwars2.com/file/E4DBC001E0ED534EDA4FBC6F96D10CB2EEA60CE5/3255289.png",
+    "details": {
+      "infusion_slots": [],
+      "attribute_adjustment": 85.36,
+      "infix_upgrade": {
+        "id": 1363,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 30
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 21
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 21
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Saryx Backpiece",
+    "type": "Back",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 330,
+    "default_skin": 12081,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NotUpgradeable",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101495,
+    "chat_link": "[&AgF3jAEA]",
+    "icon": "https://render.guildwars2.com/file/94A2A97F357B74D2C109CA2D6241FE314E3EA1F4/3255181.png",
+    "details": {
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 89.628,
+      "stat_choices": [
+        584,
+        656,
+        658,
+        1119,
+        657,
+        1038,
+        1097,
+        659,
+        690,
+        583,
+        585,
+        1037,
+        586,
+        1035,
+        588,
+        1114,
+        1128,
+        1163,
+        1066,
+        1064,
+        660,
+        1430,
+        1436,
+        591,
+        581,
+        592,
+        1263,
+        1271,
+        1265,
+        1270,
+        1262,
+        1268,
+        1264,
+        1267,
+        1269,
+        1366,
+        1367,
+        1374,
+        1549,
+        1566,
+        1691,
+        1706,
+        1827
+      ],
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Skysage's Shoulder Skin",
+    "description": "Double-click to apply this appearance to your current shoulder armor. This will unlock the skin in your wardrobe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101496,
+    "chat_link": "[&AgF4jAEA]",
+    "icon": "https://render.guildwars2.com/file/673252AF6A075D21DD0FE4C3AD2F409DBB0C2368/3256193.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12014,
+        12018,
+        12088
+      ]
+    }
+  },
+  {
+    "name": "Obsidian Light Regalia",
+    "description": "<c=@flavor>Imposing armor forged with the help of dwarven wizard Lyhr.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 240,
+    "default_skin": 12031,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101499,
+    "chat_link": "[&AgF7jAEA]",
+    "icon": "https://render.guildwars2.com/file/46F1D0D780A0930E936B48B9B9BF720A7B239339/3256195.png",
+    "details": {
+      "type": "Coat",
+      "weight_class": "Light",
+      "defense": 330,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 403.326,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1111,
+        1109,
+        1123,
+        1140,
+        1085,
+        1153,
+        1118,
+        1131,
+        1222,
+        1344,
+        1363,
+        1364,
+        1559,
+        1556,
+        1681,
+        1686,
+        1826
+      ],
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Relic of Cerus",
+    "description": "Upon using an elite skill, summon an Eye of Cerus that emits a rotating line attack, dealing damage and converting boons into conditions.",
+    "type": "Relic",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "SoulBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101500,
+    "chat_link": "[&AgF8jAEA]",
+    "icon": "https://render.guildwars2.com/file/08DED07BF6DF37E69A08D1C49D9C45D81BD8A5CA/3255567.png"
+  },
+  {
+    "name": "Obsidian Light Pants",
+    "description": "<c=@flavor>Imposing armor forged with the help of dwarven wizard Lyhr.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 240,
+    "default_skin": 12067,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101501,
+    "chat_link": "[&AgF9jAEA]",
+    "icon": "https://render.guildwars2.com/file/CE032615F504521DC30C6F780C09FBF137A5FA7A/3256198.png",
+    "details": {
+      "type": "Leggings",
+      "weight_class": "Light",
+      "defense": 203,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 268.884,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1111,
+        1109,
+        1123,
+        1140,
+        1085,
+        1153,
+        1118,
+        1131,
+        1222,
+        1344,
+        1363,
+        1364,
+        1559,
+        1556,
+        1681,
+        1686,
+        1826
+      ],
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Lifeblood of Galene the Seething",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101502,
+    "chat_link": "[&AgF+jAEA]",
+    "icon": "https://render.guildwars2.com/file/3FAB26955480AF9BDC06A8C87E64B940BFCE6792/3256308.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Relic of Nourys",
+    "description": "Gain stacks of Nourys's Hunger every interval when you remove boons from enemies. Consume 10 stacks to grow larger, dealing increased damage, taking reduced damage, and converting a percentage of outgoing damage into healing.",
+    "type": "Relic",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "SoulBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101503,
+    "chat_link": "[&AgF/jAEA]",
+    "icon": "https://render.guildwars2.com/file/08DED07BF6DF37E69A08D1C49D9C45D81BD8A5CA/3255567.png"
+  },
+  {
+    "name": "Relic of Durability",
+    "description": "Gain protection and regeneration after using a healing skill.",
+    "type": "Relic",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101504,
+    "chat_link": "[&AgGAjAEA]",
+    "icon": "https://render.guildwars2.com/file/08DED07BF6DF37E69A08D1C49D9C45D81BD8A5CA/3255567.png"
+  },
+  {
+    "name": "Necrotic Essence Shield Skin",
+    "description": "Double-click to apply this look to any other shield.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101507,
+    "chat_link": "[&AgGDjAEA]",
+    "icon": "https://render.guildwars2.com/file/9A18256110A659C000F4DC0A05B112EBAE02E6F9/3255481.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12011
+      ]
+    }
+  },
+  {
+    "name": "Relic of the Herald",
+    "description": "Gain concentration after granting a boon to an ally.",
+    "type": "Relic",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101509,
+    "chat_link": "[&AgGFjAEA]",
+    "icon": "https://render.guildwars2.com/file/08DED07BF6DF37E69A08D1C49D9C45D81BD8A5CA/3255567.png"
+  },
+  {
+    "name": "Knaebelag's Fang",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 330,
+    "default_skin": 12019,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101510,
+    "chat_link": "[&AgGGjAEA]",
+    "icon": "https://render.guildwars2.com/file/F07274D6CD7F0CBF057029B63E24F7511FD70CFE/3255754.png",
+    "details": {
+      "type": "Sword",
+      "damage_type": "Physical",
+      "min_power": 950,
+      "max_power": 1050,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 358.512,
+      "secondary_suffix_item_id": "",
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539,
+        1717,
+        1687,
+        1826
+      ]
+    }
+  },
+  {
+    "name": "Relic of the Adventurer",
+    "description": "Gain 50% endurance after using a healing skill. <c=@reminder>(Cooldown: 20 Seconds)</c>",
+    "type": "Relic",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101511,
+    "chat_link": "[&AgGHjAEA]",
+    "icon": "https://render.guildwars2.com/file/08DED07BF6DF37E69A08D1C49D9C45D81BD8A5CA/3255567.png"
+  },
+  {
+    "name": "Shattered Kryptis Carapace",
+    "description": "Double-click to read. Can be safely discarded after acquiring.\nUsed to progress Astral Ward Weapons to unlock new weapon proficiencies.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101512,
+    "chat_link": "[&AgGIjAEA]",
+    "icon": "https://render.guildwars2.com/file/AC51A891D812FB67DF72B851280E6B96A2A2B940/220887.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Relic of the Defender",
+    "description": "Heal a percentage of your maximum health after blocking an attack. If you block again within 5 seconds, you heal less each time down to a minimum of 1%.",
+    "type": "Relic",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101513,
+    "chat_link": "[&AgGJjAEA]",
+    "icon": "https://render.guildwars2.com/file/08DED07BF6DF37E69A08D1C49D9C45D81BD8A5CA/3255567.png"
+  },
+  {
+    "name": "Relic of Dwayna",
+    "description": "Regeneration you apply is more effective.",
+    "type": "Relic",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101514,
+    "chat_link": "[&AgGKjAEA]",
+    "icon": "https://render.guildwars2.com/file/08DED07BF6DF37E69A08D1C49D9C45D81BD8A5CA/3255567.png"
+  },
+  {
+    "name": "Maguuma Jungle Fishing License",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage"
+    ],
+    "restrictions": [],
+    "id": 101515,
+    "chat_link": "[&AgGLjAEA]",
+    "icon": "https://render.guildwars2.com/file/16D70F7A5C06D415E50EEF07986C46FBDB4D1E80/222818.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Obsidian Light Crown",
+    "description": "<c=@flavor>Imposing armor forged with the help of dwarven wizard Lyhr.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 240,
+    "default_skin": 12063,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101516,
+    "chat_link": "[&AgGMjAEA]",
+    "icon": "https://render.guildwars2.com/file/1CC5E39F6362AD5B25081C090CBCB4F12512EB22/3256197.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Light",
+      "defense": 77,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 179.256,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1111,
+        1109,
+        1123,
+        1140,
+        1085,
+        1153,
+        1118,
+        1131,
+        1222,
+        1344,
+        1363,
+        1364,
+        1559,
+        1556,
+        1681,
+        1686,
+        1826
+      ],
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "NotUpgradeable",
+      "SoulbindOnAcquire",
+      "Unique",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101518,
+    "name": "",
+    "chat_link": "[&AgGOjAEA]",
+    "icon": "https://render.guildwars2.com/file/6D0AA296D7402CDE6F9BEB513F7007DEAD9B38B0/648139.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Gift of Relics",
+    "description": "In the Mystic Forge, combine a Gift of Relics, a Gift of Condensed Magic, a Gift of Condensed Might, and a Gift of Craftsmanship to create a legendary relic.\n\nA Gift of Relics is made by combining these items in the Mystic Forge:\n• 25 Mystic Facets\n• 25 Mystic Clovers \n• 150 Globs of Ectoplasm\n• 1 Gift of Research",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Legendary",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101519,
+    "chat_link": "[&AgGPjAEA]",
+    "icon": "https://render.guildwars2.com/file/D6E27E21C6B7125D756E4316F2D4576BD9E4D550/3255338.png"
+  },
+  {
+    "name": "Obsidian Heavy Breastplate",
+    "description": "<c=@flavor>Imposing armor forged with the help of dwarven wizard Lyhr.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 240,
+    "default_skin": 12060,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101521,
+    "chat_link": "[&AgGRjAEA]",
+    "icon": "https://render.guildwars2.com/file/0E039364A11D5B9A0F40ADB9D0A7FD6FEDB64DB0/3256182.png",
+    "details": {
+      "type": "Coat",
+      "weight_class": "Heavy",
+      "defense": 381,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 403.326,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1111,
+        1109,
+        1123,
+        1140,
+        1085,
+        1153,
+        1118,
+        1131,
+        1222,
+        1344,
+        1363,
+        1364,
+        1559,
+        1556,
+        1681,
+        1686,
+        1826
+      ],
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Trapper's Fur Cape Skin",
+    "description": "This will replace the appearance of one back slot item of any weight class and unlock the skin in your account wardrobe.\n\nThis back slot skin has no stats of its own.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 6250,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101522,
+    "chat_link": "[&AgGSjAEA]",
+    "icon": "https://render.guildwars2.com/file/7E0EA0EA6F94A0430D4FA7069AA4DDDC52075AF6/3255362.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12099
+      ]
+    }
+  },
+  {
+    "name": "Frenzied Cephalopod",
+    "description": "Double-click to release for 1,500 karma.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 256,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101523,
+    "chat_link": "[&AgGTjAEA]",
+    "icon": "https://render.guildwars2.com/file/A0AB07F87643C598912CEEF40DD0D9D42B13311F/2594623.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Relic of the Weaver",
+    "description": "Upon using a <c=@abilitytype>stance</c> skill, deal increased strike damage for a duration.",
+    "type": "Relic",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101526,
+    "chat_link": "[&AgGWjAEA]",
+    "icon": "https://render.guildwars2.com/file/08DED07BF6DF37E69A08D1C49D9C45D81BD8A5CA/3255567.png"
+  },
+  {
+    "name": "Relic of the Flock",
+    "description": "Grant barrier to yourself and nearby allies after you use a healing skill.",
+    "type": "Relic",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101527,
+    "chat_link": "[&AgGXjAEA]",
+    "icon": "https://render.guildwars2.com/file/08DED07BF6DF37E69A08D1C49D9C45D81BD8A5CA/3255567.png"
+  },
+  {
+    "name": "Saryx Backpiece (Infused)",
+    "type": "Back",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 330,
+    "default_skin": 12081,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NotUpgradeable",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101528,
+    "chat_link": "[&AgGYjAEA]",
+    "icon": "https://render.guildwars2.com/file/94A2A97F357B74D2C109CA2D6241FE314E3EA1F4/3255181.png",
+    "details": {
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 89.628,
+      "stat_choices": [
+        584,
+        656,
+        658,
+        1119,
+        657,
+        1038,
+        1097,
+        659,
+        690,
+        583,
+        585,
+        1037,
+        586,
+        1035,
+        588,
+        1114,
+        1128,
+        1163,
+        1066,
+        1064,
+        660,
+        1430,
+        1436,
+        591,
+        581,
+        592,
+        1263,
+        1271,
+        1265,
+        1270,
+        1262,
+        1268,
+        1264,
+        1267,
+        1269,
+        1366,
+        1367,
+        1374,
+        1549,
+        1566,
+        1691,
+        1706,
+        1827
+      ],
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Cyberhowl Greatsword Skin",
+    "description": "Double-click to apply this look to any other greatsword.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101529,
+    "chat_link": "[&AgGZjAEA]",
+    "icon": "https://render.guildwars2.com/file/0E480E4F515DF601FF633311DC4E5C2305DDD269/3255566.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12021
+      ]
+    }
+  },
+  {
+    "name": "Skysage's Helm Skin",
+    "description": "Double-click to apply this appearance to your current helm. This will unlock the skin in your wardrobe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101533,
+    "chat_link": "[&AgGdjAEA]",
+    "icon": "https://render.guildwars2.com/file/386FCC65EDFC217BC839E6F8CC7EF4AC08CA3940/3256191.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12017,
+        12062,
+        12095
+      ]
+    }
+  },
+  {
+    "name": "Relic of the Cavalier",
+    "description": "Grant yourself aegis, quickness, swiftness, resistance, and might when striking an enemy with your mount's <c=@abilitytype>engage</c> skill.",
+    "type": "Relic",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101534,
+    "chat_link": "[&AgGejAEA]",
+    "icon": "https://render.guildwars2.com/file/08DED07BF6DF37E69A08D1C49D9C45D81BD8A5CA/3255567.png"
+  },
+  {
+    "name": "Obsidian Light Shoes",
+    "description": "<c=@flavor>Imposing armor forged with the help of dwarven wizard Lyhr.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 240,
+    "default_skin": 12098,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101535,
+    "chat_link": "[&AgGfjAEA]",
+    "icon": "https://render.guildwars2.com/file/4D52B43E294580DD05592E1402F75D5F07CD7DE9/3256194.png",
+    "details": {
+      "type": "Boots",
+      "weight_class": "Light",
+      "defense": 140,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1111,
+        1109,
+        1123,
+        1140,
+        1085,
+        1153,
+        1118,
+        1131,
+        1222,
+        1344,
+        1363,
+        1364,
+        1559,
+        1556,
+        1681,
+        1686,
+        1826
+      ],
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Obsidian Light Gloves",
+    "description": "<c=@flavor>Imposing armor forged with the help of dwarven wizard Lyhr.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 240,
+    "default_skin": 12056,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101536,
+    "chat_link": "[&AgGgjAEA]",
+    "icon": "https://render.guildwars2.com/file/C2EAC99A1F38707E4533C86F1AC45F6802D4F2AC/3256196.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Light",
+      "defense": 140,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1111,
+        1109,
+        1123,
+        1140,
+        1085,
+        1153,
+        1118,
+        1131,
+        1222,
+        1344,
+        1363,
+        1364,
+        1559,
+        1556,
+        1681,
+        1686,
+        1826
+      ],
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Solar Astrolabe Pistol Skin",
+    "description": "Double-click to apply this look to any other pistol.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101537,
+    "chat_link": "[&AgGhjAEA]",
+    "icon": "https://render.guildwars2.com/file/3E0D0232C84E9CFEF706D5B1D648A50370761EBE/3255649.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12084
+      ]
+    }
+  },
+  {
+    "name": "Relic of the Aristocracy",
+    "description": "Gain 3% condition duration for 8 seconds when inflicting weakness or vulnerability on a foe, up to a maximum of 5 stacks. <c=@reminder>(Cooldown: 1 Second)</c>",
+    "type": "Relic",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101539,
+    "chat_link": "[&AgGjjAEA]",
+    "icon": "https://render.guildwars2.com/file/08DED07BF6DF37E69A08D1C49D9C45D81BD8A5CA/3255567.png"
+  },
+  {
+    "name": "Mystic Facet",
+    "description": "Used in the Mystic Forge to create the Gift of Relics. Used for the legendary relic.\n\nA Mystic Facet is made by combining these items in the Mystic Forge:\n• 1 Relic\n• 250 Piles of Lucent Crystal \n• 250 Piles of Lucent Crystal\n• 250 Piles of Lucent Crystal",
+    "type": "CraftingMaterial",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 130,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage"
+    ],
+    "restrictions": [],
+    "id": 101540,
+    "chat_link": "[&AgGkjAEA]",
+    "icon": "https://render.guildwars2.com/file/EDA0452ED3DD2A0DB0C0340ACCC83FE2DB0599BB/3255339.png"
+  },
+  {
+    "name": "Relic of the Sunless",
+    "description": "Using an elite skill summons a pool on the target enemy that inflicts poison and cripple. Pool duration scales with the recharge of the elite skill.",
+    "type": "Relic",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101541,
+    "chat_link": "[&AgGljAEA]",
+    "icon": "https://render.guildwars2.com/file/08DED07BF6DF37E69A08D1C49D9C45D81BD8A5CA/3255567.png"
+  },
+  {
+    "name": "Cerus's Magnificent Coffer",
+    "description": "Double-click to open.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101542,
+    "chat_link": "[&AgGmjAEA]",
+    "icon": "https://render.guildwars2.com/file/0934913AA71AAA9FBD329FA0C6F408C8E1B60995/2604720.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Solar Astrolabe Scepter Skin",
+    "description": "Double-click to apply this look to any other scepter.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101543,
+    "chat_link": "[&AgGnjAEA]",
+    "icon": "https://render.guildwars2.com/file/B5216CED2DCEC3611205C7139ACB20F7ADBF7CFA/3255669.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12059
+      ]
+    }
+  },
+  {
+    "name": "Obsidian Heavy Helmet",
+    "description": "<c=@flavor>Imposing armor forged with the help of dwarven wizard Lyhr.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 240,
+    "default_skin": 12030,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101544,
+    "chat_link": "[&AgGojAEA]",
+    "icon": "https://render.guildwars2.com/file/C905E4515CFB4AA52C7C57DF2F98D4DB0D04055D/3256184.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Heavy",
+      "defense": 127,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 179.256,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1111,
+        1109,
+        1123,
+        1140,
+        1085,
+        1153,
+        1118,
+        1131,
+        1222,
+        1344,
+        1363,
+        1364,
+        1559,
+        1556,
+        1681,
+        1686,
+        1826
+      ],
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Relic of the Warrior",
+    "description": "Weapon swap recharge time is reduced.",
+    "type": "Relic",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101545,
+    "chat_link": "[&AgGpjAEA]",
+    "icon": "https://render.guildwars2.com/file/08DED07BF6DF37E69A08D1C49D9C45D81BD8A5CA/3255567.png"
+  },
+  {
+    "name": "Relic of Karakosa",
+    "description": "Heal other nearby allies when you successfully combo a field with a blast finisher.",
+    "type": "Relic",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "SoulBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101546,
+    "chat_link": "[&AgGqjAEA]",
+    "icon": "https://render.guildwars2.com/file/08DED07BF6DF37E69A08D1C49D9C45D81BD8A5CA/3255567.png"
+  },
+  {
+    "name": "Ancient Scroll",
+    "description": "Double-click to read. Can be safely discarded after acquiring.\nUsed to progress Astral Ward Weapons to unlock new weapon proficiencies.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101547,
+    "chat_link": "[&AgGrjAEA]",
+    "icon": "https://render.guildwars2.com/file/AC51A891D812FB67DF72B851280E6B96A2A2B940/220887.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Relic of the Chronomancer",
+    "description": "Gain quickness when you use a <c=@abilitytype>well</c> skill.",
+    "type": "Relic",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101549,
+    "chat_link": "[&AgGtjAEA]",
+    "icon": "https://render.guildwars2.com/file/08DED07BF6DF37E69A08D1C49D9C45D81BD8A5CA/3255567.png"
+  },
+  {
+    "name": "Necrotic Essence Mace Skin",
+    "description": "Double-click to apply this look to any other mace.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101550,
+    "chat_link": "[&AgGujAEA]",
+    "icon": "https://render.guildwars2.com/file/06F4A970C06E719E5F1004DA47382BBBA654492D/3255440.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12097
+      ]
+    }
+  },
+  {
+    "name": "Obsidian Heavy Pauldrons",
+    "description": "<c=@flavor>Imposing armor forged with the help of dwarven wizard Lyhr.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 240,
+    "default_skin": 12064,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101551,
+    "chat_link": "[&AgGvjAEA]",
+    "icon": "https://render.guildwars2.com/file/BAC307B13FD2A4A803CA5CED056916D7B34DDFF8/3256186.png",
+    "details": {
+      "type": "Shoulders",
+      "weight_class": "Heavy",
+      "defense": 127,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1111,
+        1109,
+        1123,
+        1140,
+        1085,
+        1153,
+        1118,
+        1131,
+        1222,
+        1344,
+        1363,
+        1364,
+        1559,
+        1556,
+        1681,
+        1686,
+        1826
+      ],
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Skysage's Leggings Skin",
+    "description": "Double-click to apply this appearance to your current leggings. This will unlock the skin in your wardrobe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101552,
+    "chat_link": "[&AgGwjAEA]",
+    "icon": "https://render.guildwars2.com/file/194F64676A234A9C2A23EF03E1B66A0DA7033998/3256192.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12044,
+        12050,
+        12079
+      ]
+    }
+  },
+  {
+    "name": "Solar Astrolabe Greatsword Skin",
+    "description": "Double-click to apply this look to any other greatsword.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101553,
+    "chat_link": "[&AgGxjAEA]",
+    "icon": "https://render.guildwars2.com/file/91D55B391D2509AE31BD490D0E460846DB450344/3255618.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12083
+      ]
+    }
+  },
+  {
+    "name": "Relic of the Trooper",
+    "description": "Remove a condition from affected allies after using a <c=@abilitytype>shout</c> skill.",
+    "type": "Relic",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101554,
+    "chat_link": "[&AgGyjAEA]",
+    "icon": "https://render.guildwars2.com/file/08DED07BF6DF37E69A08D1C49D9C45D81BD8A5CA/3255567.png"
+  },
+  {
+    "name": "Obsidian Medium Jacket",
+    "description": "<c=@flavor>Imposing armor forged with the help of dwarven wizard Lyhr.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 240,
+    "default_skin": 12086,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101556,
+    "chat_link": "[&AgG0jAEA]",
+    "icon": "https://render.guildwars2.com/file/A7DB4B5B5244D8B9D6CC6F5ED9303CE63BE06BF2/3256201.png",
+    "details": {
+      "type": "Coat",
+      "weight_class": "Medium",
+      "defense": 355,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 403.326,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1111,
+        1109,
+        1123,
+        1140,
+        1085,
+        1153,
+        1118,
+        1131,
+        1222,
+        1344,
+        1363,
+        1364,
+        1559,
+        1556,
+        1681,
+        1686,
+        1826
+      ],
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Nugget of Rift Essence",
+    "description": "Contains multiple tiers of rift essences. Please do not eat.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101558,
+    "chat_link": "[&AgG2jAEA]",
+    "icon": "https://render.guildwars2.com/file/4D59B95AC418420104F20E9739785D43F36BAF26/66922.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Knaebelag's Hoard",
+    "description": "Double-click to open.\nContains materials from Inner Nayos.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101560,
+    "chat_link": "[&AgG4jAEA]",
+    "icon": "https://render.guildwars2.com/file/6C0CDA94EC94FA906493E2050DDECDD5965877FD/3199530.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Necrotic Essence Pistol Skin",
+    "description": "Double-click to apply this look to any other pistol.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101561,
+    "chat_link": "[&AgG5jAEA]",
+    "icon": "https://render.guildwars2.com/file/4CF8933EF7AF100C93025ED7A3F1BBD917A05B27/3255451.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12055
+      ]
+    }
+  },
+  {
+    "name": "Solar Astrolabe Sword Skin",
+    "description": "Double-click to apply this look to any other sword.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101562,
+    "chat_link": "[&AgG6jAEA]",
+    "icon": "https://render.guildwars2.com/file/FF1673A1B8D06C64C69E0491BE0661FF133A1EF2/3255711.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12051
+      ]
+    }
+  },
+  {
+    "name": "Relic of Febe",
+    "description": "When you use a healing skill, grant nearby allies swiftness and remove movement-impairing conditions from them.",
+    "type": "Relic",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "SoulBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101563,
+    "chat_link": "[&AgG7jAEA]",
+    "icon": "https://render.guildwars2.com/file/08DED07BF6DF37E69A08D1C49D9C45D81BD8A5CA/3255567.png"
+  },
+  {
+    "name": "Relic of Fireworks",
+    "description": "Upon dealing strike damage using a weapon skill with a recharge time of 20 seconds or more, deal increased strike damage for a duration. Refreshes duration on stack.",
+    "type": "Relic",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101564,
+    "chat_link": "[&AgG8jAEA]",
+    "icon": "https://render.guildwars2.com/file/08DED07BF6DF37E69A08D1C49D9C45D81BD8A5CA/3255567.png"
+  },
+  {
+    "name": "Banner of the Bastion of Balance",
+    "type": "Back",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 12039,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101565,
+    "chat_link": "[&AgG9jAEA]",
+    "icon": "https://render.guildwars2.com/file/952C4FF85E702CD4960C036492B8BE5406D2B3CB/3255286.png",
+    "details": {
+      "infusion_slots": [],
+      "attribute_adjustment": 85.36,
+      "infix_upgrade": {
+        "id": 1222,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 26
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 14
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 26
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 14
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Solar Astrolabe Dagger Skin",
+    "description": "Double-click to apply this look to any other dagger.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101566,
+    "chat_link": "[&AgG+jAEA]",
+    "icon": "https://render.guildwars2.com/file/6875C5F22C072EEF7FE00AE0E866D55EFF03E06A/3255599.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12035
+      ]
+    }
+  },
+  {
+    "name": "Obsidian Heavy Cuisses",
+    "description": "<c=@flavor>Imposing armor forged with the help of dwarven wizard Lyhr.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 240,
+    "default_skin": 12049,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101568,
+    "chat_link": "[&AgHAjAEA]",
+    "icon": "https://render.guildwars2.com/file/22BED3680AC1A1AB6B3ED4F8922891077DADF361/3256185.png",
+    "details": {
+      "type": "Leggings",
+      "weight_class": "Heavy",
+      "defense": 254,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 268.884,
+      "secondary_suffix_item_id": "",
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1111,
+        1109,
+        1123,
+        1140,
+        1085,
+        1153,
+        1118,
+        1131,
+        1222,
+        1344,
+        1363,
+        1364,
+        1559,
+        1556,
+        1681,
+        1686,
+        1826
+      ]
+    }
+  },
+  {
+    "name": "Deluxe Gear Box",
+    "description": "Double-click to open.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101569,
+    "chat_link": "[&AgHBjAEA]",
+    "icon": "https://render.guildwars2.com/file/B9BA95E7DEEFF80259C17EB724F7C5E17FB2A1C3/3073209.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Obsidian Medium Gloves",
+    "description": "<c=@flavor>Imposing armor forged with the help of dwarven wizard Lyhr.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 240,
+    "default_skin": 12093,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101570,
+    "chat_link": "[&AgHCjAEA]",
+    "icon": "https://render.guildwars2.com/file/743805FF0EE34E1DA26EE45E0B075A6A3D47723F/3256202.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Medium",
+      "defense": 165,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1111,
+        1109,
+        1123,
+        1140,
+        1085,
+        1153,
+        1118,
+        1131,
+        1222,
+        1344,
+        1363,
+        1364,
+        1559,
+        1556,
+        1681,
+        1686,
+        1826
+      ],
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Relic of the Unseen Invasion",
+    "description": "Grant yourself and nearby allies superspeed when you enter or exit stealth.",
+    "type": "Relic",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "SoulBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101571,
+    "chat_link": "[&AgHDjAEA]",
+    "icon": "https://render.guildwars2.com/file/08DED07BF6DF37E69A08D1C49D9C45D81BD8A5CA/3255567.png"
+  },
+  {
+    "name": "Relic of Akeem",
+    "description": "When you disable an enemy that is afflicted by 5 or more stacks of confusion or torment, inflict confusion and torment on enemies around the target.",
+    "type": "Relic",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "SoulBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101573,
+    "chat_link": "[&AgHFjAEA]",
+    "icon": "https://render.guildwars2.com/file/08DED07BF6DF37E69A08D1C49D9C45D81BD8A5CA/3255567.png"
+  },
+  {
+    "name": "Cat Tree Chair",
+    "description": "Double-click to unlock this item in your wardrobe.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "NoUnderwater",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101574,
+    "chat_link": "[&AgHGjAEA]",
+    "icon": "https://render.guildwars2.com/file/E90706FEFE4D1DFD90991EF9B76D156F02F6E2F5/3255337.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Banner of the Bastion of Knowledge",
+    "type": "Back",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 12065,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101575,
+    "chat_link": "[&AgHHjAEA]",
+    "icon": "https://render.guildwars2.com/file/705C182380A6AA30A20C05EC07AC1239080328DA/3255288.png",
+    "details": {
+      "infusion_slots": [],
+      "attribute_adjustment": 85.36,
+      "infix_upgrade": {
+        "id": 160,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 21
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 21
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 30
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Solar Astrolabe Longbow Skin",
+    "description": "Double-click to apply this look to any other longbow.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101576,
+    "chat_link": "[&AgHIjAEA]",
+    "icon": "https://render.guildwars2.com/file/37E60513DF051A3A03E06CAC2C1ACE91ADBBD10B/3255589.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12089
+      ]
+    }
+  },
+  {
+    "name": "Necrotic Essence Staff Skin",
+    "description": "Double-click to apply this look to any other staff.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101578,
+    "chat_link": "[&AgHKjAEA]",
+    "icon": "https://render.guildwars2.com/file/7BB4DFD41504D66AE23242DCCD41087DDD64A277/3255503.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12033
+      ]
+    }
+  },
+  {
+    "name": "Obsidian Medium Leggings",
+    "description": "<c=@flavor>Imposing armor forged with the help of dwarven wizard Lyhr.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 240,
+    "default_skin": 12078,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101579,
+    "chat_link": "[&AgHLjAEA]",
+    "icon": "https://render.guildwars2.com/file/A021E1194C612DC313D62F73EA5799ED021C3D4F/3256204.png",
+    "details": {
+      "type": "Leggings",
+      "weight_class": "Medium",
+      "defense": 229,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 268.884,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1111,
+        1109,
+        1123,
+        1140,
+        1085,
+        1153,
+        1118,
+        1131,
+        1222,
+        1344,
+        1363,
+        1364,
+        1559,
+        1556,
+        1681,
+        1686,
+        1826
+      ],
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Relic of the Thief",
+    "description": "Upon striking an enemy with a weapon skill that has a recharge or resource cost, gain increased strike damage. <c=@reminder>When this triggers, refresh the duration of all stacks.</c>",
+    "type": "Relic",
+    "level": 60,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101580,
+    "chat_link": "[&AgHMjAEA]",
+    "icon": "https://render.guildwars2.com/file/08DED07BF6DF37E69A08D1C49D9C45D81BD8A5CA/3255567.png"
+  },
+  {
+    "name": "Relic of the Mirage",
+    "description": "Inflict torment upon successfully evading an attack.",
+    "type": "Relic",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101581,
+    "chat_link": "[&AgHNjAEA]",
+    "icon": "https://render.guildwars2.com/file/08DED07BF6DF37E69A08D1C49D9C45D81BD8A5CA/3255567.png"
+  },
+  {
+    "name": "Legendary Relic",
+    "description": "Unused Relic Effect Slot",
+    "type": "Relic",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101582,
+    "chat_link": "[&AgHOjAEA]",
+    "icon": "https://render.guildwars2.com/file/08DED07BF6DF37E69A08D1C49D9C45D81BD8A5CA/3255567.png"
+  },
+  {
+    "name": "Banner of the Bastion of the Celestial",
+    "type": "Back",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 12070,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101583,
+    "chat_link": "[&AgHPjAEA]",
+    "icon": "https://render.guildwars2.com/file/1A43999EE9BB0C411A0962AB1E9F300FD014AA1B/3255287.png",
+    "details": {
+      "infusion_slots": [],
+      "attribute_adjustment": 85.36,
+      "infix_upgrade": {
+        "id": 559,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 14
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 14
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 14
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 14
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 14
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 14
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 14
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 14
+          },
+          {
+            "attribute": "ConditionDuration",
+            "modifier": 14
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Necrotic Essence Torch Skin",
+    "description": "Double-click to apply this look to any other torch.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101584,
+    "chat_link": "[&AgHQjAEA]",
+    "icon": "https://render.guildwars2.com/file/C106D1050D65AC0C7D052268F9BF0A15B3534A98/3255525.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12069
+      ]
+    }
+  },
+  {
+    "name": "Lifeblood of Ignaxious",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101585,
+    "chat_link": "[&AgHRjAEA]",
+    "icon": "https://render.guildwars2.com/file/09EAACA447AAF8BD96FC0CCED4D57799BBF87A40/3256309.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Relic of the Wizard's Tower",
+    "description": "After using an elite skill, shield yourself with a projectile-reflecting barrier while summoning a wave that pulls enemies toward you.",
+    "type": "Relic",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "SoulBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101586,
+    "chat_link": "[&AgHSjAEA]",
+    "icon": "https://render.guildwars2.com/file/08DED07BF6DF37E69A08D1C49D9C45D81BD8A5CA/3255567.png"
+  },
+  {
+    "name": "Relic of the Dragonhunter",
+    "description": "Enemies hit by your trap skills become hunted by you, increasing your strike damage and condition duration against them.",
+    "type": "Relic",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101590,
+    "chat_link": "[&AgHWjAEA]",
+    "icon": "https://render.guildwars2.com/file/08DED07BF6DF37E69A08D1C49D9C45D81BD8A5CA/3255567.png"
+  },
+  {
+    "name": "Solar Astrolabe Mace Skin",
+    "description": "Double-click to apply this look to any other mace.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101591,
+    "chat_link": "[&AgHXjAEA]",
+    "icon": "https://render.guildwars2.com/file/EC7C5EE6ADBB14FA424B987677A3DB316AADCC6B/3255639.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12045
+      ]
+    }
+  },
+  {
+    "name": "Ancient Scroll of Astral Ward Weapons",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101594,
+    "chat_link": "[&AgHajAEA]",
+    "icon": "https://render.guildwars2.com/file/21FF236A656E0BAA217C6E2E5AEBD2D1A6E3B7BC/66426.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Gift of Inner Nayos",
+    "type": "CraftingMaterial",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101595,
+    "chat_link": "[&AgHbjAEA]",
+    "icon": "https://render.guildwars2.com/file/39E830DF5892D30A09CDE2AAF80D75E071DA07D0/3122199.png"
+  },
+  {
+    "name": "Chest of the Obscure",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 192,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101597,
+    "chat_link": "[&AgHdjAEA]",
+    "icon": "https://render.guildwars2.com/file/DE310103C36B9845F4E57C77501007AA96676776/2247453.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Solar Astrolabe Focus Skin",
+    "description": "Double-click to apply this look to any other focus.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101598,
+    "chat_link": "[&AgHejAEA]",
+    "icon": "https://render.guildwars2.com/file/210A4CCC254878B9460FCF0F08C0E3DE5E97CAA2/3255607.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12053
+      ]
+    }
+  },
+  {
+    "name": "Solar Astrolabe Shield Skin",
+    "description": "Double-click to apply this look to any other shield.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101599,
+    "chat_link": "[&AgHfjAEA]",
+    "icon": "https://render.guildwars2.com/file/2EABC1E4B6546B3E447FAD236FD5D7AA449E72EF/3255679.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12080
+      ]
+    }
+  },
+  {
+    "name": "Relic of the Brawler",
+    "description": "Deal increased strike damage for a duration when granting protection or resolution to yourself.",
+    "type": "Relic",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101600,
+    "chat_link": "[&AgHgjAEA]",
+    "icon": "https://render.guildwars2.com/file/08DED07BF6DF37E69A08D1C49D9C45D81BD8A5CA/3255567.png"
+  },
+  {
+    "name": "Necrotic Essence Greatsword Skin",
+    "description": "Double-click to apply this look to any other greatsword.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101601,
+    "chat_link": "[&AgHhjAEA]",
+    "icon": "https://render.guildwars2.com/file/997A403E44995739DD6D1205C567C92F55E39CBC/3255407.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12028
+      ]
+    }
+  },
+  {
+    "name": "Obsidian Medium Boots",
+    "description": "<c=@flavor>Imposing armor forged with the help of dwarven wizard Lyhr.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 240,
+    "default_skin": 12071,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101602,
+    "chat_link": "[&AgHijAEA]",
+    "icon": "https://render.guildwars2.com/file/DBDB22ABE39D5BAA76C2F4FC9B294B7AF9FFF81B/3256200.png",
+    "details": {
+      "type": "Boots",
+      "weight_class": "Medium",
+      "defense": 165,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1111,
+        1109,
+        1123,
+        1140,
+        1085,
+        1153,
+        1118,
+        1131,
+        1222,
+        1344,
+        1363,
+        1364,
+        1559,
+        1556,
+        1681,
+        1686,
+        1826
+      ],
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Reclaimed Bonds Mount Adoption License",
+    "description": "Gain a random mount skin that you do not already own from the Black Lion Stables. Right-click to preview available mount skins.\n\n<c=#F8C56E>All unobtained skins have an equal chance of dropping.</c>",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 999,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101604,
+    "chat_link": "[&AgHkjAEA]",
+    "icon": "https://render.guildwars2.com/file/DED80F042190792B5BB1ACA0F25A514FF5E9282F/3255363.png",
+    "details": {
+      "type": "MountRandomUnlock"
+    }
+  },
+  {
+    "name": "Relic of Lyhr",
+    "description": "Upon healing an ally, shield up to four allies, redirecting a percentage of any strike damage they take to yourself. Allies may only be protected by one shield at a time.",
+    "type": "Relic",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "SoulBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101605,
+    "chat_link": "[&AgHljAEA]",
+    "icon": "https://render.guildwars2.com/file/08DED07BF6DF37E69A08D1C49D9C45D81BD8A5CA/3255567.png"
+  },
+  {
+    "name": "Relic of the Centaur",
+    "description": "Gain stability when you use a healing skill.",
+    "type": "Relic",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101607,
+    "chat_link": "[&AgHnjAEA]",
+    "icon": "https://render.guildwars2.com/file/08DED07BF6DF37E69A08D1C49D9C45D81BD8A5CA/3255567.png"
+  },
+  {
+    "name": "Relic of the Ice",
+    "description": "After using an elite skill, launch icicles that inflict chilled at nearby enemies.",
+    "type": "Relic",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101608,
+    "chat_link": "[&AgHojAEA]",
+    "icon": "https://render.guildwars2.com/file/08DED07BF6DF37E69A08D1C49D9C45D81BD8A5CA/3255567.png"
+  },
+  {
+    "name": "Obsidian Heavy Gauntlets",
+    "description": "<c=@flavor>Imposing armor forged with the help of dwarven wizard Lyhr.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 240,
+    "default_skin": 12090,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101609,
+    "chat_link": "[&AgHpjAEA]",
+    "icon": "https://render.guildwars2.com/file/78A5446DC86D5FDE540B45102F973D94A2EDC3C0/3256183.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Heavy",
+      "defense": 191,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1111,
+        1109,
+        1123,
+        1140,
+        1085,
+        1153,
+        1118,
+        1131,
+        1222,
+        1344,
+        1363,
+        1364,
+        1559,
+        1556,
+        1681,
+        1686,
+        1826
+      ],
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Horn of Maguuma Fishing Reward",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101610,
+    "chat_link": "[&AgHqjAEA]",
+    "icon": "https://render.guildwars2.com/file/611F3A54CC0F0BB36B7C58B8D4A5B941A5ED055D/63175.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Relic of Peitha",
+    "description": "After shadowstepping or using a deception skill, fire a blade at a nearby enemy after a short delay, applying torment and increasing your strike damage against that target.",
+    "type": "Relic",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "SoulBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101611,
+    "chat_link": "[&AgHrjAEA]",
+    "icon": "https://render.guildwars2.com/file/08DED07BF6DF37E69A08D1C49D9C45D81BD8A5CA/3255567.png"
+  },
+  {
+    "name": "Obsidian Medium Mask",
+    "description": "<c=@flavor>Imposing armor forged with the help of dwarven wizard Lyhr.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 240,
+    "default_skin": 12068,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101614,
+    "chat_link": "[&AgHujAEA]",
+    "icon": "https://render.guildwars2.com/file/297112AF99D72E081010FE01DFD0EF4649192654/3256203.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Medium",
+      "defense": 102,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 179.256,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1111,
+        1109,
+        1123,
+        1140,
+        1085,
+        1153,
+        1118,
+        1131,
+        1222,
+        1344,
+        1363,
+        1364,
+        1559,
+        1556,
+        1681,
+        1686,
+        1826
+      ],
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Banner of the Bastion of Strength",
+    "type": "Back",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 12073,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101615,
+    "chat_link": "[&AgHvjAEA]",
+    "icon": "https://render.guildwars2.com/file/A11E7D9F0E7E0BAD6608CB1FC24B11FEB5950ECD/3255291.png",
+    "details": {
+      "infusion_slots": [],
+      "attribute_adjustment": 85.36,
+      "infix_upgrade": {
+        "id": 161,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 30
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 21
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 21
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Mastery Point",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage"
+    ],
+    "restrictions": [],
+    "id": 101616,
+    "chat_link": "[&AgHwjAEA]",
+    "icon": "https://render.guildwars2.com/file/5075086BF3517C6B4EAA91C0C0F8DE56011F9CD3/3187597.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Leaf Glider",
+    "description": "This will unlock the glider skin in your account wardrobe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101617,
+    "chat_link": "[&AgHxjAEA]",
+    "icon": "https://render.guildwars2.com/file/20EE4B2408A4176F3ADFB6440AC46D3B3F9B63A8/3255197.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "GliderSkin"
+    }
+  },
+  {
+    "name": "Relic of the Zephyrite",
+    "description": "Summon crystals that apply protection and resolution to allies after using an elite skill. Crystal duration scales with the recharge of the used skill.",
+    "type": "Relic",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101618,
+    "chat_link": "[&AgHyjAEA]",
+    "icon": "https://render.guildwars2.com/file/08DED07BF6DF37E69A08D1C49D9C45D81BD8A5CA/3255567.png"
+  },
+  {
+    "name": "Relic of the Astral Ward",
+    "description": "Gain a Signet of the Astral Ward after using a signet skill. Using a signet skill while this signet is active consumes it to remove conditions from nearby allies and grant them resistance.",
+    "type": "Relic",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "SoulBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101619,
+    "chat_link": "[&AgHzjAEA]",
+    "icon": "https://render.guildwars2.com/file/08DED07BF6DF37E69A08D1C49D9C45D81BD8A5CA/3255567.png"
+  },
+  {
+    "name": "Relic of the Midnight King",
+    "description": "Grant might and fury to nearby allies when you disable an enemy. <br><c=@reminder>Disables include stun, taunt, daze, knockback, pull, knockdown, sink, float, fear, and launch.</c>",
+    "type": "Relic",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "SoulBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101621,
+    "chat_link": "[&AgH1jAEA]",
+    "icon": "https://render.guildwars2.com/file/08DED07BF6DF37E69A08D1C49D9C45D81BD8A5CA/3255567.png"
+  },
+  {
+    "name": "Buried Angst",
+    "description": "Double-click to convert to materials.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 128,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101622,
+    "chat_link": "[&AgH2jAEA]",
+    "icon": "https://render.guildwars2.com/file/5C63D043357A5D9F2F347D73E105BCD9A400B16C/2594619.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Legendary Weapon Starter Kit—Set 3",
+    "description": "Double-click to choose from a select list of legendary weapon starter kits. All contents are account bound on acquisition.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101623,
+    "chat_link": "[&AgH3jAEA]",
+    "icon": "https://render.guildwars2.com/file/B12D41A5A67EAA554108FC6D20C9BE697EF77E1A/3122159.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Skysage's Coat Skin",
+    "description": "Double-click to apply this appearance to your current chest armor. This will unlock the skin in your wardrobe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101626,
+    "chat_link": "[&AgH6jAEA]",
+    "icon": "https://render.guildwars2.com/file/FC35B505D3177B3332F8A6F8B45C0F4FF0176F92/3256188.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12013,
+        12074,
+        12075
+      ]
+    }
+  },
+  {
+    "name": "Relic of Nayos",
+    "description": "Removing a condition from yourself heals you.",
+    "type": "Relic",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "SoulBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101627,
+    "chat_link": "[&AgH7jAEA]",
+    "icon": "https://render.guildwars2.com/file/08DED07BF6DF37E69A08D1C49D9C45D81BD8A5CA/3255567.png"
+  },
+  {
+    "name": "Necrotic Essence Focus Skin",
+    "description": "Double-click to apply this look to any other focus.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101628,
+    "chat_link": "[&AgH8jAEA]",
+    "icon": "https://render.guildwars2.com/file/98D143A54DE7485B28A992F50223CA2C2E99597C/3255396.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12023
+      ]
+    }
+  },
+  {
+    "name": "Ancient Tome",
+    "description": "Double-click to read. Can be safely discarded after acquiring.\nUsed to progress Astral Ward Weapons to unlock new weapon proficiencies.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101629,
+    "chat_link": "[&AgH9jAEA]",
+    "icon": "https://render.guildwars2.com/file/AC51A891D812FB67DF72B851280E6B96A2A2B940/220887.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Relic of the Monk",
+    "description": "Increase healing effectiveness to allies after granting a boon to an ally.",
+    "type": "Relic",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101630,
+    "chat_link": "[&AgH+jAEA]",
+    "icon": "https://render.guildwars2.com/file/08DED07BF6DF37E69A08D1C49D9C45D81BD8A5CA/3255567.png"
+  },
+  {
+    "name": "Solar Astrolabe Axe Skin",
+    "description": "Double-click to apply this look to any other axe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101631,
+    "chat_link": "[&AgH/jAEA]",
+    "icon": "https://render.guildwars2.com/file/7EF608DDAE0C99E9F195045D216CD449A30AB50D/3255569.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12025
+      ]
+    }
+  },
+  {
+    "name": "Solar Astrolabe Staff Skin",
+    "description": "Double-click to apply this look to any other staff.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101632,
+    "chat_link": "[&AgEAjQEA]",
+    "icon": "https://render.guildwars2.com/file/B1CED8AEDD413DF80DFF904F9C350BDD5CCBEF91/3255699.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12040
+      ]
+    }
+  },
+  {
+    "name": "Relic of the Scourge",
+    "description": "Upon applying barrier to an ally, gain increased condition duration. <c=@reminder>When this triggers, refresh the duration of all stacks.</c>",
+    "type": "Relic",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101634,
+    "chat_link": "[&AgECjQEA]",
+    "icon": "https://render.guildwars2.com/file/08DED07BF6DF37E69A08D1C49D9C45D81BD8A5CA/3255567.png"
+  },
+  {
+    "name": "Necrotic Essence Sword Skin",
+    "description": "Double-click to apply this look to any other sword.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101636,
+    "chat_link": "[&AgEEjQEA]",
+    "icon": "https://render.guildwars2.com/file/10BC7271031BA36B750D5B0EE4C1804F6154420D/3255514.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12041
+      ]
+    }
+  },
+  {
+    "name": "Relic of the Deadeye",
+    "description": "Deal increased strike damage for a duration when you use a <c=@abilitytype>cantrip</c> skill.",
+    "type": "Relic",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101637,
+    "chat_link": "[&AgEFjQEA]",
+    "icon": "https://render.guildwars2.com/file/08DED07BF6DF37E69A08D1C49D9C45D81BD8A5CA/3255567.png"
+  },
+  {
+    "name": "Reclaimed Bonds Mount Select License",
+    "description": "Gain a mount skin of your choice from the Black Lion Stables. Right-click to preview available mount skins.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 999,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101638,
+    "chat_link": "[&AgEGjQEA]",
+    "icon": "https://render.guildwars2.com/file/C16506B205081BF5E82D1D6A5512E43D94BE2BBE/3255364.png",
+    "details": {
+      "type": "MountRandomUnlock"
+    }
+  },
+  {
+    "name": "Knaebelag's Hoard",
+    "description": "Double-click to open.\nContains materials from Inner Nayos.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101639,
+    "chat_link": "[&AgEHjQEA]",
+    "icon": "https://render.guildwars2.com/file/6C0CDA94EC94FA906493E2050DDECDD5965877FD/3199530.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Relic of the Krait",
+    "description": "After using an elite skill, emit a wave of corruption that inflicts damaging conditions.",
+    "type": "Relic",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101640,
+    "chat_link": "[&AgEIjQEA]",
+    "icon": "https://render.guildwars2.com/file/08DED07BF6DF37E69A08D1C49D9C45D81BD8A5CA/3255567.png"
+  },
+  {
+    "name": "Necrotic Essence Dagger Skin",
+    "description": "Double-click to apply this look to any other dagger.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101641,
+    "chat_link": "[&AgEJjQEA]",
+    "icon": "https://render.guildwars2.com/file/AB5096683193059CDF1EE604ECDE37C7A2A9FC2A/3255386.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12096
+      ]
+    }
+  },
+  {
+    "name": "Relic of Mabon",
+    "description": "Upon applying might while in combat, gain Mabon's Strength. At 10 stacks, your might stacks become more effective for a duration, after which you lose all might and Mabon's Strength.",
+    "type": "Relic",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "SoulBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101643,
+    "chat_link": "[&AgELjQEA]",
+    "icon": "https://render.guildwars2.com/file/08DED07BF6DF37E69A08D1C49D9C45D81BD8A5CA/3255567.png"
+  },
+  {
+    "name": "Relic of the Daredevil",
+    "description": "After dodge rolling in combat or evading an attack, your next attack is guaranteed to be a critical hit. <c=@reminder>(Cooldown: 1 Second)</c>",
+    "type": "Relic",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101644,
+    "chat_link": "[&AgEMjQEA]",
+    "icon": "https://render.guildwars2.com/file/08DED07BF6DF37E69A08D1C49D9C45D81BD8A5CA/3255567.png"
+  },
+  {
+    "name": "Obsidian Medium Shoulders",
+    "description": "<c=@flavor>Imposing armor forged with the help of dwarven wizard Lyhr.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 240,
+    "default_skin": 12082,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101645,
+    "chat_link": "[&AgENjQEA]",
+    "icon": "https://render.guildwars2.com/file/B2EE31E7095A7028CABB9462EA27433CDB340C48/3256205.png",
+    "details": {
+      "type": "Shoulders",
+      "weight_class": "Medium",
+      "defense": 102,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1111,
+        1109,
+        1123,
+        1140,
+        1085,
+        1153,
+        1118,
+        1131,
+        1222,
+        1344,
+        1363,
+        1364,
+        1559,
+        1556,
+        1681,
+        1686,
+        1826
+      ],
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Necrotic Essence Scepter Skin",
+    "description": "Double-click to apply this look to any other scepter.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101646,
+    "chat_link": "[&AgEOjQEA]",
+    "icon": "https://render.guildwars2.com/file/AFE5B636D55150FB1106685EDE256EDA32C30668/3255471.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12061
+      ]
+    }
+  },
+  {
+    "name": "Relic of the Citadel",
+    "description": "After using an elite skill, call down an artillery strike that inflicts stun on the skill target or nearest enemy.",
+    "type": "Relic",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101647,
+    "chat_link": "[&AgEPjQEA]",
+    "icon": "https://render.guildwars2.com/file/08DED07BF6DF37E69A08D1C49D9C45D81BD8A5CA/3255567.png"
+  },
+  {
+    "name": "Relic of Isgarren",
+    "description": "After evading an enemy's attack, place the Eye of Isgarren on them for a duration. You deal increased strike and condition duration against enemies with the Eye of Isgarren.",
+    "type": "Relic",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "SoulBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101649,
+    "chat_link": "[&AgERjQEA]",
+    "icon": "https://render.guildwars2.com/file/08DED07BF6DF37E69A08D1C49D9C45D81BD8A5CA/3255567.png"
+  },
+  {
+    "name": "Afternoon Wine Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101650,
+    "chat_link": "[&AgESjQEA]",
+    "icon": "https://render.guildwars2.com/file/FFE3A6302A0409148059239E05C9064D5DAF1E04/561734.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 1710
+    }
+  },
+  {
+    "name": "Fool's Tall Tonic",
+    "description": "Consume to gain a heightened state of awareness.",
+    "type": "Consumable",
+    "level": 2,
+    "rarity": "Exotic",
+    "vendor_value": 128,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101651,
+    "chat_link": "[&AgETjQEA]",
+    "icon": "https://render.guildwars2.com/file/7C5910071493C8EE367E5ADD77A51235F3D93B04/222702.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Height-Eye Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+5% Magic Find\n+5% Karma\n+5% Gold from Monsters\n+5% Experience from Kills\nApplies dramatically taller field of vision during April Fools."
+    }
+  },
+  {
+    "name": "Devil-Rending Dagger Skin",
+    "description": "Double-click to apply this look to any other dagger.\nThis will also unlock this skin for your wardrobe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101652,
+    "chat_link": "[&AgEUjQEA]",
+    "icon": "https://render.guildwars2.com/file/23C3B81A3EAC3E5A03C90DAB3A46A76F48C1A4B7/3270712.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12102
+      ]
+    }
+  },
+  {
+    "name": "Candy Corn Gobbler's Blessing",
+    "description": "Has a chance to give a random Halloween transformation or boost.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage"
+    ],
+    "restrictions": [],
+    "id": 101653,
+    "chat_link": "[&AgEVjQEA]",
+    "icon": "https://render.guildwars2.com/file/28D1A092B51F78CD17301E08D6915957475D06D0/888387.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Slate Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101654,
+    "chat_link": "[&AgEWjQEA]",
+    "icon": "https://render.guildwars2.com/file/FFE3A6302A0409148059239E05C9064D5DAF1E04/561734.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 1707
+    }
+  },
+  {
+    "name": "Shattered Stone Wings Backpack Skin",
+    "description": "This will replace the appearance of one back slot item of any weight class and unlock the skin in your account wardrobe.\n\nThis back slot skin has no stats of its own.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101655,
+    "chat_link": "[&AgEXjQEA]",
+    "icon": "https://render.guildwars2.com/file/6AB666CF0C356E370FB518D99605F21658EFB5AB/3270631.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12103
+      ]
+    }
+  },
+  {
+    "name": "Pastel Lavender Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101656,
+    "chat_link": "[&AgEYjQEA]",
+    "icon": "https://render.guildwars2.com/file/FFE3A6302A0409148059239E05C9064D5DAF1E04/561734.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 1708
+    }
+  },
+  {
+    "name": "Smooth Berry Dye Kit",
+    "description": "Contains one random armor dye from a pool of 25 colors that includes six exclusive colors.\n\nDyes can be unlocked for unlimited use to color armor on all characters. Dye bottles can also be recycled in the Mystic Forge.\n\n<c=#FFC957>All dyes have an equal chance to drop.</c>",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101657,
+    "chat_link": "[&AgEZjQEA]",
+    "icon": "https://render.guildwars2.com/file/6E353510E0EC5CFA9DD67324F851A73166F92BE3/3270698.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Pillager's Pack",
+    "description": "28 Slots",
+    "type": "Bag",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 216,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101658,
+    "chat_link": "[&AgEajQEA]",
+    "icon": "https://render.guildwars2.com/file/2E3D180E2220345C30CCDB12E69E607BF1D97E22/3278129.png",
+    "details": {
+      "no_sell_or_sort": false,
+      "size": 28
+    }
+  },
+  {
+    "name": "Deep Sea Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101660,
+    "chat_link": "[&AgEcjQEA]",
+    "icon": "https://render.guildwars2.com/file/FFE3A6302A0409148059239E05C9064D5DAF1E04/561734.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 1709
+    }
+  },
+  {
+    "name": "Shattered Stone Wings Glider Skin",
+    "description": "This will unlock the glider skin in your account wardrobe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101661,
+    "chat_link": "[&AgEdjQEA]",
+    "icon": "https://render.guildwars2.com/file/0FEB98CCCDCD039CE918DA6DDE30C030A8743FBF/3270696.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "GliderSkin"
+    }
+  },
+  {
+    "name": "Pillager's Pack",
+    "description": "32 Slots",
+    "type": "Bag",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 270,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101662,
+    "chat_link": "[&AgEejQEA]",
+    "icon": "https://render.guildwars2.com/file/AC0200B842067D651C59010B345803A8A8265219/3278130.png",
+    "details": {
+      "no_sell_or_sort": false,
+      "size": 32
+    }
+  },
+  {
+    "name": "Light Viridian Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101663,
+    "chat_link": "[&AgEfjQEA]",
+    "icon": "https://render.guildwars2.com/file/FFE3A6302A0409148059239E05C9064D5DAF1E04/561734.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 1711
+    }
+  },
+  {
+    "name": "Celestial Invisible Cat Cape",
+    "description": "<c=@flavor>A cape given to you by the King of All Cats. Or an invisible cat pretending to be a cape. It's hard to say, because you can't see it.</c>",
+    "type": "Back",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 12100,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101664,
+    "chat_link": "[&AgEgjQEA]",
+    "icon": "https://render.guildwars2.com/file/F899DBBE0AC5EDC1D8E9E7351F9980CDF373F27C/3272980.png",
+    "details": {
+      "infusion_slots": [],
+      "attribute_adjustment": 85.36,
+      "infix_upgrade": {
+        "id": 559,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 14
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 14
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 14
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 14
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 14
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 14
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 14
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 14
+          },
+          {
+            "attribute": "ConditionDuration",
+            "modifier": 14
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Mustard Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 101665,
+    "chat_link": "[&AgEhjQEA]",
+    "icon": "https://render.guildwars2.com/file/FFE3A6302A0409148059239E05C9064D5DAF1E04/561734.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 1706
+    }
+  },
+  {
+    "name": "Serious Potion",
+    "description": "Can be used to overwrite any currently active foolish enhancements and get back to business.",
+    "type": "Consumable",
+    "level": 2,
+    "rarity": "Rare",
+    "vendor_value": 96,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101666,
+    "chat_link": "[&AgEijQEA]",
+    "icon": "https://render.guildwars2.com/file/B4052C4E01A7CE1E5959C74A70E9CF6CD4D3AF02/632446.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Serious Mode",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+5% Magic Find\n+5% Karma\n+5% Gold from Monsters\n+5% Experience from Kills"
+    }
+  },
+  {
+    "name": "Synergetics Energized Shield Skin",
+    "description": "Double-click to apply this look to any other shield.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 101667,
+    "chat_link": "[&AgEjjQEA]",
+    "icon": "https://render.guildwars2.com/file/2AFBF9C77E46ACF7513701EAFF7628560B260744/3270737.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12101
+      ]
+    }
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "id": 505,
+  "tier": 3,
+  "order": 1,
+  "name": "Shrapnel",
+  "description": "Les <c=@abilitytype>explosions</c> ont une chance d'infliger Saignement et Infirmité à l'impact.",
+  "slot": "Major",
+  "facts": [
+    {
+      "text": "Chance lors d'un coup",
+      "type": "Percent",
+      "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png",
+      "percent": 33
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/79FF0046A5F9ADA3B4C4EC19ADB4CB124D5F0021/102848.png",
+      "duration": 6,
+      "status": "Saignement",
+      "description": "Inflige des dégâts à chaque seconde. Intensité cumulable.",
+      "apply_count": 1
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/070325E519C178D502A8160523766070D30C0C19/102838.png",
+      "duration": 1,
+      "status": "Infirmité",
+      "description": "Vitesse de déplacement réduite de 50%. La durée est cumulable.",
+      "apply_count": 1
+    }
+  ],
+  "specialization": 6,
+  "icon": "https://render.guildwars2.com/file/74C8E6F334CF6905D1E407473701077C60AFE2B6/1012349.png"
+}

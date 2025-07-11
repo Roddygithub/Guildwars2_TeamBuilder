@@ -1,0 +1,33 @@
+{
+  "id": 582,
+  "tier": 1,
+  "order": 0,
+  "name": "Vaillante défense",
+  "description": "Vous obtenez Égide lorsque vous êtes frappé et que vous êtes en dessous d'un certain seuil de santé.",
+  "slot": "Minor",
+  "facts": [
+    {
+      "text": "Recharge",
+      "type": "Recharge",
+      "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+      "value": 30
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/DFB4D1B50AE4D6A275B349E15B179261EE3EB0AF/102854.png",
+      "duration": 5,
+      "status": "Égide",
+      "description": "Bloque la prochaine attaque. La durée est cumulable.",
+      "apply_count": 1
+    },
+    {
+      "text": "Seuil de Santé",
+      "type": "Percent",
+      "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+      "percent": 50
+    }
+  ],
+  "specialization": 13,
+  "icon": "https://render.guildwars2.com/file/BE72671325E165BAFD4DCFD11C60D70C7371C439/1012435.png"
+}

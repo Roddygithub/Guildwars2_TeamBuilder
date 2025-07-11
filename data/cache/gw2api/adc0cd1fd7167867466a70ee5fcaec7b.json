@@ -1,0 +1,1286 @@
+[
+  {
+    "name": "Sweep the Mold",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 600
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 2
+      }
+    ],
+    "description": "The Greerling sweeps its claw in a 60-degree cone, damaging, bleeding, poisoning, and knocking back targets. This attack sets up Rake the Rot, the next attack in the chain.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 75927,
+    "chat_link": "[&BpcoAQA=]"
+  },
+  {
+    "name": "",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 2000
+      }
+    ],
+    "description": "",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 75931,
+    "chat_link": "[&BpsoAQA=]"
+  },
+  {
+    "name": "Rain of Spores",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 3000
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 75
+      }
+    ],
+    "description": "The Greerling targets 3 players, preferring the farthest away, and then fires a torrent of exploding spores along a line that moves towards the initial position of the target. The spores explode on impact, inflicting damage, poison, and confusion.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 75938,
+    "chat_link": "[&BqIoAQA=]"
+  },
+  {
+    "name": "Fluxlance Fusillade",
+    "facts": [
+      {
+        "text": "Unblockable",
+        "type": "Unblockable",
+        "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png",
+        "value": true
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/11089CFF98086A316D09116537FE0D0A2ED28030/1896037.png",
+        "duration": 30,
+        "status": "Galvanic Sensitivity",
+        "description": "Recent damage from Decima's fluxlance attacks has made you more vulnerable to dancing sparks.\n\nWhen taking damage from a dancing spark, you will also take significant extra damage from Galvanic Sensitivity.\n\nGalvanic Sensitivity removes Harmonic Sensitivity and prevents it from being applied for the duration.",
+        "apply_count": 1
+      }
+    ],
+    "description": "Decima fires several fluxlance beams at enemies in sequence. Conduits struck by a beam gain charge, but block the beam's path, allowing targets to take cover if needed.\n\nMakes enemies vulnerable to dancing sparks.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 75954,
+    "chat_link": "[&BrIoAQA=]"
+  },
+  {
+    "name": "Focused Fluxlance",
+    "description": "",
+    "flags": [],
+    "id": 75957,
+    "chat_link": "[&BrUoAQA=]"
+  },
+  {
+    "name": "Earthrend",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 3000
+      }
+    ],
+    "description": "Decima causes a large ring-shaped area of ground to erupt with jagged rocks and pyrite. The tremendous force sends enemies sliding toward Decima. Enemies that impact a conduit will take extra damage and ricochet in another direction.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 75961,
+    "chat_link": "[&BrkoAQA=]"
+  },
+  {
+    "name": "Seismic Crash",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 2000
+      }
+    ],
+    "description": "Decima slams down, causing the immediate vicinity to erupt with jagged rocks and pyrite. The tremendous force sends enemies sliding away. Dodge rolling will end the slide prematurely. Deals increased damge to close targets.\n\nEnemies that impact a conduit will take extra damage and ricochet in another direction.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 75965,
+    "chat_link": "[&Br0oAQA=]"
+  },
+  {
+    "name": "Noxious Blight",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 1000
+      }
+    ],
+    "description": "Noxious blights form persistent pools of corruption on the ground. Foes in a noxious blight take continuous damage, and their boons will be corrupted while they remain in the noxious blight.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 75966,
+    "chat_link": "[&Br4oAQA=]"
+  },
+  {
+    "name": "",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 3000
+      }
+    ],
+    "description": "",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 75967,
+    "chat_link": "[&Br8oAQA=]"
+  },
+  {
+    "name": "Sweep the Mold",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 800
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 2
+      }
+    ],
+    "description": "Greer sweeps his claw in a 60-degree cone, damaging, bleeding, poisoning, and knocking back targets. This attack sets up Rake the Rot, the next attack in the chain.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 75968,
+    "chat_link": "[&BsAoAQA=]"
+  },
+  {
+    "name": "Decimation",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 5000
+      }
+    ],
+    "description": "As Decima gains Charge, her fluxlance attacks deal extra damage.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 75973,
+    "chat_link": "[&BsUoAQA=]"
+  },
+  {
+    "name": "Infectious Rot",
+    "icon": "https://render.guildwars2.com/file/6FE1726DE997C07E56A9612E0C66EF5B0B47D40B/2141737.png",
+    "description": "",
+    "flags": [],
+    "id": 75979,
+    "chat_link": "[&BssoAQA=]"
+  },
+  {
+    "name": "Invulnerable Barrier",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 6000
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 1
+      }
+    ],
+    "description": "Greer encircles himself in a barrier, protecting himself from further harm while his Greerlings attack his foes. Players entering the barrier will be knocked back.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 75982,
+    "chat_link": "[&Bs4oAQA=]"
+  },
+  {
+    "name": "Seismic Reposition",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 2000
+      }
+    ],
+    "description": "Decima leaps to a new location then crashes down violently. The immediate vicinity erupts with jagged rocks and pyrite. Enemies struck by the attack are pushed away. Dodge rolling will end the slide prematurely. Deals increased damage to close targets.\n\nEnemies that impact a conduit will take extra damage and ricochet in another direction.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 75984,
+    "chat_link": "[&BtAoAQA=]"
+  },
+  {
+    "name": "Fulminate",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 5000
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/514B5C1C503548FC71182EAC979A936DA6253717/2156519.png",
+        "duration": 0,
+        "status": "Peal of Harmony",
+        "description": "Decima will periodically consumes stacks of this effect to target a number of conduits with Chorus of Thunder.",
+        "apply_count": 1
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/563F3A97A568FA3BC49BCC27FEA14DDF16EA69C7/831712.png",
+        "duration": 0,
+        "status": "Peal of Discord",
+        "description": "Decima will periodically consume stacks of this effect to target a number of nearby enemies with Chorus of Thunder.",
+        "apply_count": 1
+      }
+    ],
+    "description": "Just before Decima unleashes Flux Nova, she also fulminates all conduits. \n\nConduits with 3 charges damage all enemies, apply exposed, and grant Decima 5 stacks of Peal of Harmony and Peal of Discord.\n\nConduits with 1 or 2 charges damage all enemies.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 75988,
+    "chat_link": "[&BtQoAQA=]"
+  },
+  {
+    "name": "Enfeebling Miasma",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 3000
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 75
+      }
+    ],
+    "description": "Reeg exhales lingering clouds of poisonous gas that travel outward to form 3 roughly conical areas. The gas clouds stay in place for several seconds, poisoning foes inside them.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 75994,
+    "chat_link": "[&BtooAQA=]"
+  },
+  {
+    "name": "Sparking Aura",
+    "facts": [
+      {
+        "text": "Unblockable",
+        "type": "Unblockable",
+        "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png",
+        "value": true
+      }
+    ],
+    "description": "Conduits with charge periodically release dancing sparks that move toward Decima. Sparks lose some health and stop moving temporarily when enough players are standing in their aura. If a dancing spark reaches Decima, it is absorbed and grants her some charge.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 75999,
+    "chat_link": "[&Bt8oAQA=]"
+  },
+  {
+    "name": "Rain of Spores",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 3000
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 120
+      }
+    ],
+    "description": "Greer targets 3 players, preferring the farthest away, and then fires a torrent of exploding spores along a line that moves towards the initial position of the target. The spores explode on impact, inflicting damage, poison, and confusion.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 76001,
+    "chat_link": "[&BuEoAQA=]"
+  },
+  {
+    "name": "Fluxlance Salvo",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 6000
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 6
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/11089CFF98086A316D09116537FE0D0A2ED28030/1896037.png",
+        "duration": 30,
+        "status": "Galvanic Sensitivity",
+        "description": "Recent damage from Decima's fluxlance attacks has made you more vulnerable to dancing sparks.\n\nWhen taking damage from a dancing spark, you will also take significant extra damage from Galvanic Sensitivity.\n\nGalvanic Sensitivity removes Harmonic Sensitivity and prevents it from being applied for the duration.",
+        "apply_count": 1
+      }
+    ],
+    "description": "Decima fires a salvo of fluxlance beams simultaneously. A conduit struck by a beam gains Charge, but blocks the beam's path, allowing targets to take cover if needed.\n\nMakes enemies vulnerable to dancing sparks.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 76015,
+    "chat_link": "[&Bu8oAQA=]"
+  },
+  {
+    "name": "Fulgent Aura",
+    "description": "Charged conduits emit a dangerous aura of Arcane Flux that damages nearby enemies. The aura increases in size as the conduit gains more Charge.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 76019,
+    "chat_link": "[&BvMoAQA=]"
+  },
+  {
+    "name": "Flux Nova",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 3000
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 5
+      }
+    ],
+    "description": "Decima gathers a colossal amount of arcane flux into an unstable orb. After several seconds, she detonates this orb to obliterate her enemies.\n\nIf Decima reaches full charge while channeling this skill, it ends early, and the damage becomes unsurvivable.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 76026,
+    "chat_link": "[&BvooAQA=]"
+  },
+  {
+    "name": "Blob of Blight",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 3000
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 75
+      }
+    ],
+    "description": "Reeg targets up to 3 foes, preferring the most distant combatants. He slams his fist down, creating a damaging sphere that will then fire a blob of blight that follows the targeted enemy for 12 seconds, firing multiple smaller projectiles as it moves. If it hits a targeted foe, it will also create a stationary blob of blight that fires projectiles for several seconds.\n",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 76031,
+    "chat_link": "[&Bv8oAQA=]"
+  },
+  {
+    "name": "Sparking Aura",
+    "facts": [
+      {
+        "text": "Unblockable",
+        "type": "Unblockable",
+        "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png",
+        "value": true
+      }
+    ],
+    "description": "Conduits with charge periodically release dancing sparks that move toward Decima. Sparks lose some health and stop moving temporarily when enough players are standing in their aura. If the dancing spark reaches Decima, it is absorbed and grants her some charge.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 76034,
+    "chat_link": "[&BgIpAQA=]"
+  },
+  {
+    "name": "Foreshock",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 3000
+      }
+    ],
+    "description": "Decima performs a series of stomp attacks to pulverize her puny opponents.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 76048,
+    "chat_link": "[&BhApAQA=]"
+  },
+  {
+    "name": "Pressure Blast",
+    "description": "",
+    "flags": [],
+    "id": 76092,
+    "chat_link": "[&BjwpAQA=]"
+  },
+  {
+    "name": "Glacial Midnight",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 5000
+      }
+    ],
+    "description": "The whispering shadow assails all enemies with waves of supernatural cold and darkness. Each pulse of damage also grants it one stack of Empowered.\n\nIf the whispering shadow has 5 or more stacks of Empowered, all enemies are chilled and blinded.\n\nIf the whisperinng shadow has 10 stacks of Empowered, all enemies are also afflicted with vulnerability.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 76097,
+    "chat_link": "[&BkEpAQA=]"
+  },
+  {
+    "name": "Glacial Midnight",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 5000
+      }
+    ],
+    "description": "The whispering shadow assails all enemies with waves of supernatural cold and darkness. Each pulse of damage also grants it one stack of Empowered.\n\nIf the whispering shadow has 5 or more stacks of Empowered, all enemies are chilled and blinded.\n\nIf the whisperinng shadow has 10 stacks of Empowered, all enemies are also afflicted with vulnerability.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 76101,
+    "chat_link": "[&BkUpAQA=]"
+  },
+  {
+    "name": "Freezing Fan",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 600
+      }
+    ],
+    "description": "The whispering shadow flash-freezes a large swath of terrain in front of itself, damaging everything in the area.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 76110,
+    "chat_link": "[&Bk4pAQA=]"
+  },
+  {
+    "name": "Acid Spray",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 1800
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 1.5
+      }
+    ],
+    "description": "Inflicts Sulfuric Acid",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 76113,
+    "chat_link": "[&BlEpAQA=]"
+  },
+  {
+    "name": "Vitreous Spike",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 3000
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 26
+      }
+    ],
+    "description": "A large spike of ice erupts from the ground, launching targets into the air. \n\nThis can be used to avoid Terrestrial Cryoflash, but it may knock targets into aerial hazards.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 76137,
+    "chat_link": "[&BmkpAQA=]"
+  },
+  {
+    "name": "Falling Ice",
+    "description": "A small piece of debris has fallen from the ceiling of the cave.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 76163,
+    "chat_link": "[&BoMpAQA=]"
+  },
+  {
+    "name": "Pressure Blast",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 3000
+      }
+    ],
+    "description": "Causes an eruption that imprisons the target and nearby enemies.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 76169,
+    "chat_link": "[&BokpAQA=]"
+  },
+  {
+    "name": "Steam Prison",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 3000
+      }
+    ],
+    "description": "Creates a steam prison that reflects projectiles.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 76173,
+    "chat_link": "[&Bo0pAQA=]"
+  },
+  {
+    "name": "Freezing Fan",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 600
+      }
+    ],
+    "description": "The whispering shadow flash-freezes a large swath of terrain in front of itself, damaging everything in the area.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 76182,
+    "chat_link": "[&BpYpAQA=]"
+  },
+  {
+    "name": "Toxic Geyser",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 5000
+      }
+    ],
+    "description": "Applies poison and Sulfuric Acid, and grants protection and might to Ura.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 76232,
+    "chat_link": "[&BsgpAQA=]"
+  },
+  {
+    "name": "Falling Ice",
+    "description": "A small piece of debris has fallen from the ceiling of the cave.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 76238,
+    "chat_link": "[&Bs4pAQA=]"
+  },
+  {
+    "name": "Copying Text",
+    "icon": "https://render.guildwars2.com/file/6DDE245C59EB022E39EE0827161FFB77C0F04CD0/1029981.png",
+    "description": "",
+    "flags": [],
+    "id": 76256,
+    "chat_link": "[&BuApAQA=]"
+  },
+  {
+    "name": "Eruption Vent",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 3000
+      }
+    ],
+    "description": "Ura causes a sulfuric geyser to erupt at target's location after several seconds, creating a shockwave and leaving behind a geyser that inflicts poison and Sulfuric Acid on enemies and benefits allies.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 76287,
+    "chat_link": "[&Bv8pAQA=]"
+  },
+  {
+    "name": "Gorefrost",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 3000
+      }
+    ],
+    "description": "Piercing spears of ice damage all enemies in their path. Targets damaged by Gorefrost may be interrupted, dazed, or stunned depending on the fractal tier.\n\nAll icicles fire at the same target in an inward-facing circular sequence that tracks the target. As health drops, more projectiles are fired.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 76292,
+    "chat_link": "[&BgQqAQA=]"
+  },
+  {
+    "name": "Wicked Swipe",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 450
+      }
+    ],
+    "description": "Swipes the air, dealing damage at close range.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 76295,
+    "chat_link": "[&BgcqAQA=]"
+  },
+  {
+    "name": "Return",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 3000
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 15
+      }
+    ],
+    "description": "Ura creates a whirlpool, sucking in players and teleporting them to the center of her arena.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 76307,
+    "chat_link": "[&BhMqAQA=]"
+  },
+  {
+    "name": "Frozen Teeth",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 1600
+      }
+    ],
+    "description": "The whispering shadow creates multiple fissures in the ground that erupt with razor-sharp blades of ice. As health drops, more fissures are created.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 76332,
+    "chat_link": "[&BiwqAQA=]"
+  },
+  {
+    "name": "Vitreous Spike",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 3000
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 26
+      }
+    ],
+    "description": "A large spike of ice erupts from the ground, launching targets into the air. \n\nThis can be used to avoid Terrestrial Cryoflash, but it may knock targets into aerial hazards.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 76341,
+    "chat_link": "[&BjUqAQA=]"
+  },
+  {
+    "name": "Vitreous Spike",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 4000
+      }
+    ],
+    "description": "A large spike of ice erupts from the ground, launching targets into the air. \n\nThis can be used to avoid Terrestrial Cryoflash, but it may knock targets into aerial hazards.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 76343,
+    "chat_link": "[&BjcqAQA=]"
+  },
+  {
+    "name": "Propel",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 3000
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 12
+      }
+    ],
+    "description": "Ura launches herself at the furthest target, dealing a high amount of damage when she lands.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 76358,
+    "chat_link": "[&BkYqAQA=]"
+  },
+  {
+    "name": "Sulfuric Froth",
+    "description": "Inflicts Sulfuric Acid",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 76380,
+    "chat_link": "[&BlwqAQA=]"
+  },
+  {
+    "name": "Earthrend",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 800
+      }
+    ],
+    "description": "When Decima leaps, anything she lands on gets squashed like a bug.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 76384,
+    "chat_link": "[&BmAqAQA=]"
+  },
+  {
+    "name": "Vitreous Spike",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 3000
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 26
+      }
+    ],
+    "description": "A large spike of ice erupts from the ground, launching targets into the air. \n\nThis can be used to avoid Terrestrial Cryoflash, but it may knock targets into aerial hazards.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 76393,
+    "chat_link": "[&BmkqAQA=]"
+  },
+  {
+    "name": "Botch",
+    "description": "",
+    "icon": "https://render.guildwars2.com/file/BCD402BDC67DC13F6B07B9504F0E2F0E6C13D407/2604827.png",
+    "flags": [],
+    "id": 76396,
+    "chat_link": "[&BmwqAQA=]"
+  },
+  {
+    "name": "Guttering Light",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 5000
+      }
+    ],
+    "description": "The whispering shadow becomes vulnerable to defiance damage and repeatedly targets enemies who carry life-fire. While channeling, Guttering Light damages all enemies in the life-fire's radius. Upon completion, life-fire is removed from the target and the whispering shadow gains a stack of Inevitable Darkness.\n\nIf no players have life-fire, the whispering shadow instead uses Glacial Midnight.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 76397,
+    "chat_link": "[&Bm0qAQA=]"
+  },
+  {
+    "name": "Lofted Cryoflash",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 5000
+      }
+    ],
+    "description": "Upon completing Frozen Teeth, the whispering shadow releases an icy explosion that severely damages and chills all enemies in the air.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 76402,
+    "chat_link": "[&BnIqAQA=]"
+  },
+  {
+    "name": "Falling Ice",
+    "description": "A small piece of debris has fallen from the ceiling of the cave.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 76417,
+    "chat_link": "[&BoEqAQA=]"
+  },
+  {
+    "name": "Terrestrial Cryoflash",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 5000
+      }
+    ],
+    "description": "Upon completing Frozen Teeth, the whispering shadow releases an icy explosion that severely damages and chills all enemies near the ground.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 76420,
+    "chat_link": "[&BoQqAQA=]"
+  },
+  {
+    "name": "Copying Text",
+    "icon": "https://render.guildwars2.com/file/6DDE245C59EB022E39EE0827161FFB77C0F04CD0/1029981.png",
+    "description": "",
+    "flags": [],
+    "id": 76427,
+    "chat_link": "[&BosqAQA=]"
+  },
+  {
+    "name": "Freezing Vortex",
+    "facts": [
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 40
+      }
+    ],
+    "description": "The whispering shadow summons multiple freezing vortices that spiral outward. As they move, they create vitreous spikes in their wake.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 76444,
+    "chat_link": "[&BpwqAQA=]"
+  },
+  {
+    "name": "Seismic Crash",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 2000
+      }
+    ],
+    "description": "Decima slams down, causing the immediate vicinity to erupt with jagged rocks and pyrite. The tremendous force sends enemies sliding away. Dodge rolling will end the slide prematurely. Deals increased damge to close targets.\n\nEnemies that impact a conduit will take extra damage and ricochet in another direction.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 76470,
+    "chat_link": "[&BrYqAQA=]"
+  },
+  {
+    "name": "Earthrend",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 3000
+      }
+    ],
+    "description": "Decima causes a large ring-shaped area of ground to erupt with jagged rocks and pyrite. The tremendous force sends enemies sliding toward Decima. Enemies that impact a conduit will take extra damage and ricochet in another direction.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 76472,
+    "chat_link": "[&BrgqAQA=]"
+  },
+  {
+    "name": "Wintry Orb",
+    "description": "The whispering shadow summons an orb of bitter cold that absorbs warmth from nearby enemies. Damage inflicted is spread among all players in the area.",
+    "icon": "https://render.guildwars2.com/file/9D661C490109C13717F95520EF6ED7BB16BE99E3/103986.png",
+    "flags": [],
+    "id": 76482,
+    "chat_link": "[&BsIqAQA=]"
+  },
+  {
+    "name": "Stoke the Flames",
+    "facts": [
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 20
+      },
+      {
+        "text": "Damage",
+        "type": "Damage",
+        "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+        "hit_count": 1,
+        "dmg_multiplier": 0.5
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/B47BF5803FED2718D7474EAF9617629AD068EE10/102849.png",
+        "duration": 6,
+        "status": "Burning",
+        "description": "Deals damage every second; stacks intensity.",
+        "apply_count": 3
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/D4AB6401A6D6917C3D4F230764452BCCE1035B0D/1012835.png",
+        "duration": 5,
+        "status": "Quickness",
+        "description": "Skills and actions are faster.",
+        "apply_count": 1
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/2FA9DF9D6BC17839BBEA14723F1C53D645DDB5E1/102852.png",
+        "duration": 8,
+        "status": "Might",
+        "description": "Increased outgoing damage; stacks intensity.",
+        "apply_count": 8
+      },
+      {
+        "text": "Radius",
+        "type": "Distance",
+        "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+        "distance": 240
+      },
+      {
+        "text": "Number of Targets",
+        "type": "Number",
+        "icon": "https://render.guildwars2.com/file/BBE8191A494B0352259C10EADFDACCE177E6DA5B/1770208.png",
+        "value": 5
+      },
+      {
+        "text": "Combo Field",
+        "type": "ComboField",
+        "icon": "https://render.guildwars2.com/file/59E0DB6A699810641C959926ADFEF73E08CC255B/156655.png",
+        "field_type": "Fire"
+      }
+    ],
+    "description": "Overcharge your flamethrower with a fuel injection, releasing a burst of flames around you as you grant yourself boons.",
+    "icon": "https://render.guildwars2.com/file/9FD24A39C91355664B9C4FDEA7A1A40662C2E1AF/103461.png",
+    "type": "Bundle",
+    "weapon_type": "None",
+    "professions": [
+      "Thief",
+      "Mesmer",
+      "Warrior",
+      "Elementalist",
+      "Necromancer",
+      "Guardian",
+      "Ranger",
+      "Engineer",
+      "Revenant"
+    ],
+    "slot": "Weapon_4",
+    "flags": [
+      "NoUnderwater"
+    ],
+    "id": 76493,
+    "chat_link": "[&Bs0qAQA=]"
+  },
+  {
+    "name": "Replenishing Despair",
+    "facts": [
+      {
+        "text": "Siphon Damage",
+        "type": "AttributeAdjust",
+        "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+        "value": 453,
+        "target": "Power"
+      },
+      {
+        "text": "First-Hit Siphon Healing",
+        "type": "AttributeAdjust",
+        "icon": "https://render.guildwars2.com/file/D4347C52157B040943051D7E09DEAD7AF63D4378/156662.png",
+        "value": 453,
+        "target": "Healing"
+      },
+      {
+        "text": "Additional-Hit Healing",
+        "type": "AttributeAdjust",
+        "icon": "https://render.guildwars2.com/file/D4347C52157B040943051D7E09DEAD7AF63D4378/156662.png",
+        "value": 101,
+        "target": "Healing"
+      },
+      {
+        "text": "Radius",
+        "type": "Distance",
+        "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+        "distance": 240
+      },
+      {
+        "text": "Number of Targets",
+        "type": "Number",
+        "icon": "https://render.guildwars2.com/file/BBE8191A494B0352259C10EADFDACCE177E6DA5B/1770208.png",
+        "value": 5
+      }
+    ],
+    "description": "Siphon health from nearby enemies when you gain a dark aura. Siphon healing is reduced for each target struck beyond the first.",
+    "icon": "https://render.guildwars2.com/file/23760CCE7F3271041121BA089A4D2453166BB52C/961421.png",
+    "flags": [],
+    "id": 76497,
+    "chat_link": "[&BtEqAQA=]"
+  },
+  {
+    "name": "Flashbang",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 900
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 20
+      },
+      {
+        "text": "Reveal Radius",
+        "type": "Distance",
+        "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+        "distance": 600
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/62BFF65D1CE99B1B2B0928152BCC596EAC0D372B/102887.png",
+        "duration": 6,
+        "status": "Revealed",
+        "description": "You cannot stealth",
+        "apply_count": 1
+      },
+      {
+        "text": "Number of Targets",
+        "type": "Number",
+        "icon": "https://render.guildwars2.com/file/BBE8191A494B0352259C10EADFDACCE177E6DA5B/1770208.png",
+        "value": 5
+      },
+      {
+        "text": "Explosion",
+        "type": "NoData",
+        "icon": "https://render.guildwars2.com/file/450630987A0566D4A7A491EDA4DCDF57D9396854/1770203.png"
+      },
+      {
+        "text": "Radius",
+        "type": "Distance",
+        "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+        "distance": 180
+      },
+      {
+        "text": "Damage",
+        "type": "Damage",
+        "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+        "hit_count": 1,
+        "dmg_multiplier": 1
+      },
+      {
+        "text": "Daze",
+        "type": "Time",
+        "icon": "https://render.guildwars2.com/file/9AE125E930C92FEA0DD99E7EBAEDE4CF5EC556B6/433474.png",
+        "duration": 2
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/09770136BB76FD0DBE1CC4267DEED54774CB20F6/102837.png",
+        "duration": 3,
+        "status": "Blinded",
+        "description": "Next outgoing attack misses; stacks duration.",
+        "apply_count": 1
+      }
+    ],
+    "description": "Throw an explosive at the target area, dazing and blinding enemies on impact. Remove stealth and reveal enemies in a larger area around the impact.",
+    "icon": "https://render.guildwars2.com/file/A86BC2376541159FFE9E62E5C6544403EAB302A7/1128590.png",
+    "type": "Toolbelt",
+    "weapon_type": "None",
+    "professions": [
+      "Engineer"
+    ],
+    "slot": "Toolbelt",
+    "flags": [],
+    "id": 76500,
+    "chat_link": "[&BtQqAQA=]"
+  },
+  {
+    "name": "Unyielding Impact",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 300
+      },
+      {
+        "text": "Damage",
+        "type": "Damage",
+        "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+        "hit_count": 1,
+        "dmg_multiplier": 1
+      },
+      {
+        "text": "Number of Targets",
+        "type": "Number",
+        "icon": "https://render.guildwars2.com/file/BBE8191A494B0352259C10EADFDACCE177E6DA5B/1770208.png",
+        "value": 5
+      },
+      {
+        "text": "Radius",
+        "type": "Distance",
+        "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+        "distance": 300
+      },
+      {
+        "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png"
+      }
+    ],
+    "description": "Slam the ground, creating a powerful impact that inflicts conditions on foes in the area.",
+    "icon": "https://render.guildwars2.com/file/0BFE7E484552037E102533C3B1590599B00FA4EF/3645915.png",
+    "type": "Utility",
+    "weapon_type": "None",
+    "professions": [
+      "Revenant"
+    ],
+    "slot": "Utility",
+    "cost": 5,
+    "flags": [],
+    "id": 76503,
+    "chat_link": "[&BtcqAQA=]"
+  },
+  {
+    "name": "Hailstorm",
+    "description": "The whispering shadow summons a hailstorm of exploding ice shards that rain down on several opponents. Each attack deals increased damage to secondary targets.",
+    "icon": "https://render.guildwars2.com/file/9D661C490109C13717F95520EF6ED7BB16BE99E3/103986.png",
+    "flags": [],
+    "id": 76510,
+    "chat_link": "[&Bt4qAQA=]"
+  },
+  {
+    "name": "Magnetic Bomb",
+    "facts": [
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 20
+      },
+      {
+        "text": "Damage",
+        "type": "Damage",
+        "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+        "hit_count": 1,
+        "dmg_multiplier": 1.5
+      },
+      {
+        "text": "Pull",
+        "type": "Number",
+        "icon": "https://render.guildwars2.com/file/D5F6EBC4630F0E10F3DDB7A6DBB63592CD4B00BC/2440717.png",
+        "value": 300
+      },
+      {
+        "text": "Radius",
+        "type": "Distance",
+        "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+        "distance": 300
+      },
+      {
+        "text": "Number of Targets",
+        "type": "Number",
+        "icon": "https://render.guildwars2.com/file/BBE8191A494B0352259C10EADFDACCE177E6DA5B/1770208.png",
+        "value": 5
+      },
+      {
+        "text": "Explosion",
+        "type": "NoData",
+        "icon": "https://render.guildwars2.com/file/450630987A0566D4A7A491EDA4DCDF57D9396854/1770203.png"
+      },
+      {
+        "text": "Fuse Time",
+        "type": "Time",
+        "icon": "https://render.guildwars2.com/file/7B2193ACCF77E56C13E608191B082D68AA0FAA71/156659.png",
+        "duration": 2
+      }
+    ],
+    "description": "Set a timed charge that pulls nearby foes.",
+    "icon": "https://render.guildwars2.com/file/B70B5426F0B2F4924E08198069789121426F9517/103176.png",
+    "type": "Bundle",
+    "weapon_type": "None",
+    "professions": [
+      "Thief",
+      "Mesmer",
+      "Warrior",
+      "Elementalist",
+      "Necromancer",
+      "Guardian",
+      "Ranger",
+      "Engineer",
+      "Revenant"
+    ],
+    "slot": "Weapon_4",
+    "flags": [],
+    "id": 76530,
+    "chat_link": "[&BvIqAQA=]"
+  }
+]

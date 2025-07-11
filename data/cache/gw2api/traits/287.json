@@ -1,0 +1,147 @@
+{
+  "id": 287,
+  "tier": 3,
+  "order": 1,
+  "name": "Gravé dans la pierre",
+  "description": "Les <c=@abilitytype>signes</c> continuent à conférer des bonus passifs pendant la recharge. Vous obtenez une aura quand vous utilisez une compétence de <c=@abilitytype>signe</c>.",
+  "slot": "Major",
+  "facts": [
+    {
+      "text": "Apply Buff/Condition",
+      "type": "PrefixedBuff",
+      "icon": "https://render.guildwars2.com/file/719B80E35C276D68EF0AABB79126CF4CD42E3AF6/2261522.png",
+      "duration": 4,
+      "status": "Aura de givre",
+      "description": "Inflige Givre aux ennemis qui vous frappent (une fois par seconde pour chaque attaquant) ; dégâts subis réduits de 10%.",
+      "apply_count": 1,
+      "prefix": {
+        "text": "Apply Buff/Condition",
+        "icon": "https://render.guildwars2.com/file/3FA4D3DCA80A06036E7F6C77E84D94466D157766/103321.png",
+        "status": "Signe de restauration",
+        "description": "<c=@abilitytype>Signe passif :</c> vous gagnez de la santé chaque fois que vous lancez un sort. <br><c=@abilitytype>Signe actif :</c> vous soigne."
+      }
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "PrefixedBuff",
+      "icon": "https://render.guildwars2.com/file/2E7050E44690AFE0A396FA0DAD526699392743F3/2261521.png",
+      "duration": 4,
+      "status": "Aura de feu",
+      "description": "Un bouclier ardent vous enveloppe et inflige Brûlure aux ennemis. Il gagne en puissance à chaque fois que vous êtes touché (1 seconde de temps de recharge par attaquant).",
+      "apply_count": 1,
+      "prefix": {
+        "text": "Apply Buff/Condition",
+        "icon": "https://render.guildwars2.com/file/78F000A3121FCFF9B56EA62625186F0E06D8A458/103340.png",
+        "status": "Signe de feu",
+        "description": "<c=@abilitytype>Signe passif :</c> augmente les chances de coups critiques.<br><c=@abilitytype>Signe actif :</c> inflige Brûlure à votre cible et aux ennemis à proximité."
+      }
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "PrefixedBuff",
+      "icon": "https://render.guildwars2.com/file/719B80E35C276D68EF0AABB79126CF4CD42E3AF6/2261522.png",
+      "duration": 4,
+      "status": "Aura de givre",
+      "description": "Inflige Givre aux ennemis qui vous frappent (une fois par seconde pour chaque attaquant) ; dégâts subis réduits de 10%.",
+      "apply_count": 1,
+      "prefix": {
+        "text": "Apply Buff/Condition",
+        "icon": "https://render.guildwars2.com/file/950EABEE51A5B7E116609A2C4869B2BDF3760ED1/103351.png",
+        "status": "Signe de l'eau",
+        "description": "<c=@abilitytype>Signe passif :</c> réduit la durée des altérations subies.<br><c=@abilitytype>Signe actif :</c> inflige des dégâts et Givre aux ennemis tout en soignant et ranimant les alliés dans une zone."
+      }
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "PrefixedBuff",
+      "icon": "https://render.guildwars2.com/file/79F60BF40AB3F306E7367CF3479A4163F76F3944/2261527.png",
+      "duration": 3,
+      "status": "Aura de choc",
+      "description": "Étourdit les attaquants ennemis à proximité avec un choc électrique (une fois toutes les 2 secondes par attaquant).",
+      "apply_count": 1,
+      "prefix": {
+        "text": "Apply Buff/Condition",
+        "icon": "https://render.guildwars2.com/file/2995072EFD05AC80581CCEEB64BC592B3B6DE724/103353.png",
+        "status": "Signe de l'air",
+        "description": "<c=@abilitytype>Signe passif :</c> augmente la vitesse de déplacement de 25%.<br><c=@abilitytype>Signe actif :</c> aveugle la cible et les ennemis à proximité."
+      }
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "PrefixedBuff",
+      "icon": "https://render.guildwars2.com/file/79F60BF40AB3F306E7367CF3479A4163F76F3944/2261527.png",
+      "duration": 2,
+      "status": "Aura de choc",
+      "description": "Étourdit les attaquants ennemis à proximité avec un choc électrique (une fois toutes les 2 secondes par attaquant).",
+      "apply_count": 1,
+      "prefix": {
+        "text": "Apply Buff/Condition",
+        "icon": "https://render.guildwars2.com/file/2995072EFD05AC80581CCEEB64BC592B3B6DE724/103353.png",
+        "status": "Signe de l'air",
+        "description": "<c=@abilitytype>Signe passif :</c> augmente la vitesse de déplacement de 25%.<br><c=@abilitytype>Signe actif :</c> aveugle la cible et les ennemis à proximité."
+      }
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "PrefixedBuff",
+      "icon": "https://render.guildwars2.com/file/33D27C7FE0017F70749DE84576F56F381DDF0C30/2261524.png",
+      "duration": 3,
+      "status": "Aura magnétique",
+      "description": "Une énergie magnétique renvoie les projectiles.",
+      "apply_count": 1,
+      "prefix": {
+        "text": "Apply Buff/Condition",
+        "icon": "https://render.guildwars2.com/file/DC27E04D9F9CE5627D953752B5F334C7A304B7F5/103352.png",
+        "status": "Signe de la terre",
+        "description": "<c=@abilitytype>Signe passif :</c> robustesse améliorée.<br><c=@abilitytype>Signe actif :</c> inflige Immobilisation et Saignement à votre ennemi."
+      }
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "PrefixedBuff",
+      "icon": "https://render.guildwars2.com/file/33D27C7FE0017F70749DE84576F56F381DDF0C30/2261524.png",
+      "duration": 2,
+      "status": "Aura magnétique",
+      "description": "Une énergie magnétique renvoie les projectiles.",
+      "apply_count": 1,
+      "prefix": {
+        "text": "Apply Buff/Condition",
+        "icon": "https://render.guildwars2.com/file/DC27E04D9F9CE5627D953752B5F334C7A304B7F5/103352.png",
+        "status": "Signe de la terre",
+        "description": "<c=@abilitytype>Signe passif :</c> robustesse améliorée.<br><c=@abilitytype>Signe actif :</c> inflige Immobilisation et Saignement à votre ennemi."
+      }
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "PrefixedBuff",
+      "icon": "https://render.guildwars2.com/file/719B80E35C276D68EF0AABB79126CF4CD42E3AF6/2261522.png",
+      "duration": 2,
+      "status": "Aura de givre",
+      "description": "Inflige Givre aux ennemis qui vous frappent (une fois par seconde pour chaque attaquant) ; dégâts subis réduits de 10%.",
+      "apply_count": 1,
+      "prefix": {
+        "text": "Apply Buff/Condition",
+        "icon": "https://render.guildwars2.com/file/3FA4D3DCA80A06036E7F6C77E84D94466D157766/103321.png",
+        "status": "Signe de restauration",
+        "description": "<c=@abilitytype>Signe passif :</c> vous gagnez de la santé chaque fois que vous lancez un sort. <br><c=@abilitytype>Signe actif :</c> vous soigne."
+      }
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "PrefixedBuff",
+      "icon": "https://render.guildwars2.com/file/719B80E35C276D68EF0AABB79126CF4CD42E3AF6/2261522.png",
+      "duration": 2,
+      "status": "Aura de givre",
+      "description": "Inflige Givre aux ennemis qui vous frappent (une fois par seconde pour chaque attaquant) ; dégâts subis réduits de 10%.",
+      "apply_count": 1,
+      "prefix": {
+        "text": "Apply Buff/Condition",
+        "icon": "https://render.guildwars2.com/file/950EABEE51A5B7E116609A2C4869B2BDF3760ED1/103351.png",
+        "status": "Signe de l'eau",
+        "description": "<c=@abilitytype>Signe passif :</c> réduit la durée des altérations subies.<br><c=@abilitytype>Signe actif :</c> inflige des dégâts et Givre aux ennemis tout en soignant et ranimant les alliés dans une zone."
+      }
+    }
+  ],
+  "specialization": 26,
+  "icon": "https://render.guildwars2.com/file/5160CCF906702A4478C533EF5DA6BD02956E9378/1012301.png"
+}

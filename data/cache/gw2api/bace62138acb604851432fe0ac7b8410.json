@@ -1,0 +1,7389 @@
+[
+  {
+    "name": "Cantle of Sea",
+    "description": "A fragment of water used to unlock the Sylvan Chest.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 2,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36204,
+    "chat_link": "[&AgFsjQAA]",
+    "icon": "https://render.guildwars2.com/file/7D66AE6625079B1A05EA0EFB133BF4F91F960E52/222772.png"
+  },
+  {
+    "name": "Cantle of Sun",
+    "description": "A heated fragment of light used to unlock the Sylvan Chest.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 2,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36205,
+    "chat_link": "[&AgFtjQAA]",
+    "icon": "https://render.guildwars2.com/file/64B50BFCE210C96DBDA5405394DD913A2155DC98/66839.png"
+  },
+  {
+    "name": "Ceremonial Focus of the Night",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 5067,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36208,
+    "chat_link": "[&AgFwjQAA]",
+    "icon": "https://render.guildwars2.com/file/CCD92674FA9230936C5CCFAD71DB61094FE4C8A6/534093.png",
+    "details": {
+      "type": "Focus",
+      "damage_type": "Physical",
+      "min_power": 832,
+      "max_power": 883,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "suffix_item_id": 36053,
+      "secondary_suffix_item_id": "",
+      "stat_choices": [
+        161,
+        154,
+        158
+      ]
+    }
+  },
+  {
+    "name": "Penetrating Krytan Axe of the Night",
+    "type": "Weapon",
+    "level": 50,
+    "rarity": "Masterwork",
+    "vendor_value": 90,
+    "default_skin": 5013,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36244,
+    "chat_link": "[&AgGUjQAA]",
+    "icon": "https://render.guildwars2.com/file/FC26BFB3280B24576762056838F7BDCF6243E1BD/61644.png",
+    "details": {
+      "type": "Axe",
+      "damage_type": "Physical",
+      "min_power": 407,
+      "max_power": 498,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 144.228,
+      "infix_upgrade": {
+        "id": 151,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 50
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 36
+          }
+        ]
+      },
+      "suffix_item_id": 36054,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Penetrating Krytan Dagger of the Night",
+    "type": "Weapon",
+    "level": 50,
+    "rarity": "Masterwork",
+    "vendor_value": 90,
+    "default_skin": 4997,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36245,
+    "chat_link": "[&AgGVjQAA]",
+    "icon": "https://render.guildwars2.com/file/C625750CE2F7D60366E594CEBC20697439F92A19/61659.png",
+    "details": {
+      "type": "Dagger",
+      "damage_type": "Physical",
+      "min_power": 439,
+      "max_power": 466,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 144.228,
+      "infix_upgrade": {
+        "id": 151,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 50
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 36
+          }
+        ]
+      },
+      "suffix_item_id": 36054,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Penetrating Krytan Focus of the Night",
+    "type": "Weapon",
+    "level": 50,
+    "rarity": "Masterwork",
+    "vendor_value": 90,
+    "default_skin": 4994,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36246,
+    "chat_link": "[&AgGWjQAA]",
+    "icon": "https://render.guildwars2.com/file/BBFD79A8C5A7AF067FF2B9BF385E713291465869/61665.png",
+    "details": {
+      "type": "Focus",
+      "damage_type": "Physical",
+      "min_power": 395,
+      "max_power": 420,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 144.228,
+      "infix_upgrade": {
+        "id": 151,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 50
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 36
+          }
+        ]
+      },
+      "suffix_item_id": 36054,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Penetrating Krytan Greatsword of the Night",
+    "type": "Weapon",
+    "level": 50,
+    "rarity": "Masterwork",
+    "vendor_value": 135,
+    "default_skin": 4995,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36247,
+    "chat_link": "[&AgGXjQAA]",
+    "icon": "https://render.guildwars2.com/file/CC31BBF5C565BB000AF150407329610572C20C3D/61671.png",
+    "details": {
+      "type": "Greatsword",
+      "damage_type": "Physical",
+      "min_power": 473,
+      "max_power": 523,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 288.456,
+      "infix_upgrade": {
+        "id": 151,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 101
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 72
+          }
+        ]
+      },
+      "suffix_item_id": 36054,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Penetrating Krytan Warhammer of the Night",
+    "type": "Weapon",
+    "level": 50,
+    "rarity": "Masterwork",
+    "vendor_value": 135,
+    "default_skin": 5022,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36248,
+    "chat_link": "[&AgGYjQAA]",
+    "icon": "https://render.guildwars2.com/file/FBE1BC5F0E3C3A4160E2E9B599F3E125030AB405/61677.png",
+    "details": {
+      "type": "Hammer",
+      "damage_type": "Physical",
+      "min_power": 468,
+      "max_power": 528,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 288.456,
+      "infix_upgrade": {
+        "id": 151,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 101
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 72
+          }
+        ]
+      },
+      "suffix_item_id": 36054,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Penetrating Krytan Spear of the Night",
+    "type": "Weapon",
+    "level": 50,
+    "rarity": "Masterwork",
+    "vendor_value": 135,
+    "default_skin": 5164,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36249,
+    "chat_link": "[&AgGZjQAA]",
+    "icon": "https://render.guildwars2.com/file/3B43A2B3024DB30DAE3E930176080946B2E23BC1/780562.png",
+    "details": {
+      "type": "Harpoon",
+      "damage_type": "Physical",
+      "min_power": 430,
+      "max_power": 475,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 288.456,
+      "infix_upgrade": {
+        "id": 151,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 101
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 72
+          }
+        ]
+      },
+      "suffix_item_id": 36054,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Penetrating Krytan Bow of the Night",
+    "type": "Weapon",
+    "level": 50,
+    "rarity": "Masterwork",
+    "vendor_value": 135,
+    "default_skin": 4998,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36250,
+    "chat_link": "[&AgGajQAA]",
+    "icon": "https://render.guildwars2.com/file/1FA1C0C722B9751C4C378055231E14FCB51517BF/61650.png",
+    "details": {
+      "type": "LongBow",
+      "damage_type": "Physical",
+      "min_power": 437,
+      "max_power": 513,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 288.456,
+      "infix_upgrade": {
+        "id": 151,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 101
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 72
+          }
+        ]
+      },
+      "suffix_item_id": 36054,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Penetrating Krytan Mace of the Night",
+    "type": "Weapon",
+    "level": 50,
+    "rarity": "Masterwork",
+    "vendor_value": 90,
+    "default_skin": 5005,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36251,
+    "chat_link": "[&AgGbjQAA]",
+    "icon": "https://render.guildwars2.com/file/D81434679966BBCEB97B7B681833BC38E73694F2/61688.png",
+    "details": {
+      "type": "Mace",
+      "damage_type": "Physical",
+      "min_power": 426,
+      "max_power": 480,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 144.228,
+      "infix_upgrade": {
+        "id": 151,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 50
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 36
+          }
+        ]
+      },
+      "suffix_item_id": 36054,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Penetrating Krytan Pistol of the Night",
+    "type": "Weapon",
+    "level": 50,
+    "rarity": "Masterwork",
+    "vendor_value": 90,
+    "default_skin": 5008,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36252,
+    "chat_link": "[&AgGcjQAA]",
+    "icon": "https://render.guildwars2.com/file/12B504B2276E164B08C55CFCA634243DBCCD80B7/61694.png",
+    "details": {
+      "type": "Pistol",
+      "damage_type": "Physical",
+      "min_power": 417,
+      "max_power": 489,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 144.228,
+      "infix_upgrade": {
+        "id": 151,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 50
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 36
+          }
+        ]
+      },
+      "suffix_item_id": 36054,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Penetrating Krytan Rifle of the Night",
+    "type": "Weapon",
+    "level": 50,
+    "rarity": "Masterwork",
+    "vendor_value": 135,
+    "default_skin": 5021,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36253,
+    "chat_link": "[&AgGdjQAA]",
+    "icon": "https://render.guildwars2.com/file/5427F16936431923080AE3FD023377CF59CF2312/61700.png",
+    "details": {
+      "type": "Rifle",
+      "damage_type": "Physical",
+      "min_power": 469,
+      "max_power": 573,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 288.456,
+      "infix_upgrade": {
+        "id": 151,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 101
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 72
+          }
+        ]
+      },
+      "suffix_item_id": 36054,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Penetrating Krytan Scepter of the Night",
+    "type": "Weapon",
+    "level": 50,
+    "rarity": "Masterwork",
+    "vendor_value": 90,
+    "default_skin": 4989,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36254,
+    "chat_link": "[&AgGejQAA]",
+    "icon": "https://render.guildwars2.com/file/0D30D70499EDAC01D6C925470200BF2906E364CB/61706.png",
+    "details": {
+      "type": "Scepter",
+      "damage_type": "Physical",
+      "min_power": 426,
+      "max_power": 480,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 144.228,
+      "infix_upgrade": {
+        "id": 151,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 50
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 36
+          }
+        ]
+      },
+      "suffix_item_id": 36054,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Penetrating Krytan Shield of the Night",
+    "type": "Weapon",
+    "level": 50,
+    "rarity": "Masterwork",
+    "vendor_value": 90,
+    "default_skin": 5018,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36255,
+    "chat_link": "[&AgGfjQAA]",
+    "icon": "https://render.guildwars2.com/file/5DA00DC8E6E6E7BE39B51B7F30D2314ECB33A5CF/61712.png",
+    "details": {
+      "type": "Shield",
+      "damage_type": "Physical",
+      "min_power": 383,
+      "max_power": 432,
+      "defense": 27,
+      "infusion_slots": [],
+      "attribute_adjustment": 144.228,
+      "infix_upgrade": {
+        "id": 151,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 50
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 36
+          }
+        ]
+      },
+      "suffix_item_id": 36054,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Penetrating Krytan Short Bow of the Night",
+    "type": "Weapon",
+    "level": 50,
+    "rarity": "Masterwork",
+    "vendor_value": 135,
+    "default_skin": 5000,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36256,
+    "chat_link": "[&AgGgjQAA]",
+    "icon": "https://render.guildwars2.com/file/4BCEF9E3C9D95E3F95EF0130F9AFE7DE680D9242/68100.png",
+    "details": {
+      "type": "ShortBow",
+      "damage_type": "Physical",
+      "min_power": 430,
+      "max_power": 475,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 288.456,
+      "infix_upgrade": {
+        "id": 151,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 101
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 72
+          }
+        ]
+      },
+      "suffix_item_id": 36054,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Penetrating Krytan Speargun of the Night",
+    "type": "Weapon",
+    "level": 50,
+    "rarity": "Masterwork",
+    "vendor_value": 135,
+    "default_skin": 4990,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36257,
+    "chat_link": "[&AgGhjQAA]",
+    "icon": "https://render.guildwars2.com/file/A44FA6A23E80D5519D279012FA0B257135EA75C1/61718.png",
+    "details": {
+      "type": "Speargun",
+      "damage_type": "Physical",
+      "min_power": 430,
+      "max_power": 475,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 288.456,
+      "infix_upgrade": {
+        "id": 151,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 101
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 72
+          }
+        ]
+      },
+      "suffix_item_id": 36054,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Penetrating Krytan Staff of the Night",
+    "type": "Weapon",
+    "level": 50,
+    "rarity": "Masterwork",
+    "vendor_value": 135,
+    "default_skin": 5019,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36258,
+    "chat_link": "[&AgGijQAA]",
+    "icon": "https://render.guildwars2.com/file/97DDBDF3D871A7773BF12210205A27057AD253DA/61724.png",
+    "details": {
+      "type": "Staff",
+      "damage_type": "Physical",
+      "min_power": 468,
+      "max_power": 528,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 288.456,
+      "infix_upgrade": {
+        "id": 151,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 101
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 72
+          }
+        ]
+      },
+      "suffix_item_id": 36054,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Penetrating Krytan Sword of the Night",
+    "type": "Weapon",
+    "level": 50,
+    "rarity": "Masterwork",
+    "vendor_value": 90,
+    "default_skin": 5020,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36259,
+    "chat_link": "[&AgGjjQAA]",
+    "icon": "https://render.guildwars2.com/file/9AF522FA610E744803AE9F42063EABA5AA0F57B2/61730.png",
+    "details": {
+      "type": "Sword",
+      "damage_type": "Physical",
+      "min_power": 430,
+      "max_power": 475,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 144.228,
+      "infix_upgrade": {
+        "id": 151,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 50
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 36
+          }
+        ]
+      },
+      "suffix_item_id": 36054,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Penetrating Krytan Torch of the Night",
+    "type": "Weapon",
+    "level": 50,
+    "rarity": "Masterwork",
+    "vendor_value": 90,
+    "default_skin": 4992,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36260,
+    "chat_link": "[&AgGkjQAA]",
+    "icon": "https://render.guildwars2.com/file/D0AAAB4B0AD3FCC3B3735C08CA5ED074B9440EDB/61736.png",
+    "details": {
+      "type": "Torch",
+      "damage_type": "Physical",
+      "min_power": 375,
+      "max_power": 440,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 144.228,
+      "infix_upgrade": {
+        "id": 151,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 50
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 36
+          }
+        ]
+      },
+      "suffix_item_id": 36054,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Penetrating Krytan Trident of the Night",
+    "type": "Weapon",
+    "level": 50,
+    "rarity": "Masterwork",
+    "vendor_value": 135,
+    "default_skin": 5129,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36261,
+    "chat_link": "[&AgGljQAA]",
+    "icon": "https://render.guildwars2.com/file/7BAE7EA0DAD1BAB0FA0EFA17A1587E031F550CBB/62778.png",
+    "details": {
+      "type": "Trident",
+      "damage_type": "Physical",
+      "min_power": 430,
+      "max_power": 475,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 288.456,
+      "infix_upgrade": {
+        "id": 151,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 101
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 72
+          }
+        ]
+      },
+      "suffix_item_id": 36054,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Penetrating Krytan Warhorn of the Night",
+    "type": "Weapon",
+    "level": 50,
+    "rarity": "Masterwork",
+    "vendor_value": 90,
+    "default_skin": 5001,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36262,
+    "chat_link": "[&AgGmjQAA]",
+    "icon": "https://render.guildwars2.com/file/5E27306C1273E90D736AB0EEDC4D570BDD62BA4F/68099.png",
+    "details": {
+      "type": "Warhorn",
+      "damage_type": "Physical",
+      "min_power": 387,
+      "max_power": 428,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 144.228,
+      "infix_upgrade": {
+        "id": 151,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 50
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 36
+          }
+        ]
+      },
+      "suffix_item_id": 36054,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Penetrating Krytan Axe of the Night",
+    "type": "Weapon",
+    "level": 26,
+    "rarity": "Masterwork",
+    "vendor_value": 56,
+    "default_skin": 5013,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36263,
+    "chat_link": "[&AgGnjQAA]",
+    "icon": "https://render.guildwars2.com/file/FC26BFB3280B24576762056838F7BDCF6243E1BD/61644.png",
+    "details": {
+      "type": "Axe",
+      "damage_type": "Physical",
+      "min_power": 241,
+      "max_power": 295,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 61.744,
+      "infix_upgrade": {
+        "id": 151,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 22
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 15
+          }
+        ]
+      },
+      "suffix_item_id": 36055,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Penetrating Krytan Dagger of the Night",
+    "type": "Weapon",
+    "level": 26,
+    "rarity": "Masterwork",
+    "vendor_value": 56,
+    "default_skin": 4997,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36264,
+    "chat_link": "[&AgGojQAA]",
+    "icon": "https://render.guildwars2.com/file/C625750CE2F7D60366E594CEBC20697439F92A19/61659.png",
+    "details": {
+      "type": "Dagger",
+      "damage_type": "Physical",
+      "min_power": 260,
+      "max_power": 276,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 61.744,
+      "infix_upgrade": {
+        "id": 151,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 22
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 15
+          }
+        ]
+      },
+      "suffix_item_id": 36055,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Penetrating Krytan Focus of the Night",
+    "type": "Weapon",
+    "level": 26,
+    "rarity": "Masterwork",
+    "vendor_value": 56,
+    "default_skin": 4994,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36265,
+    "chat_link": "[&AgGpjQAA]",
+    "icon": "https://render.guildwars2.com/file/BBFD79A8C5A7AF067FF2B9BF385E713291465869/61665.png",
+    "details": {
+      "type": "Focus",
+      "damage_type": "Physical",
+      "min_power": 234,
+      "max_power": 249,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 61.744,
+      "infix_upgrade": {
+        "id": 151,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 22
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 15
+          }
+        ]
+      },
+      "suffix_item_id": 36055,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Penetrating Krytan Greatsword of the Night",
+    "type": "Weapon",
+    "level": 26,
+    "rarity": "Masterwork",
+    "vendor_value": 84,
+    "default_skin": 4995,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36266,
+    "chat_link": "[&AgGqjQAA]",
+    "icon": "https://render.guildwars2.com/file/CC31BBF5C565BB000AF150407329610572C20C3D/61671.png",
+    "details": {
+      "type": "Greatsword",
+      "damage_type": "Physical",
+      "min_power": 280,
+      "max_power": 310,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 123.488,
+      "infix_upgrade": {
+        "id": 151,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 43
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 31
+          }
+        ]
+      },
+      "suffix_item_id": 36055,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Penetrating Krytan Warhammer of the Night",
+    "type": "Weapon",
+    "level": 26,
+    "rarity": "Masterwork",
+    "vendor_value": 84,
+    "default_skin": 5022,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36267,
+    "chat_link": "[&AgGrjQAA]",
+    "icon": "https://render.guildwars2.com/file/FBE1BC5F0E3C3A4160E2E9B599F3E125030AB405/61677.png",
+    "details": {
+      "type": "Hammer",
+      "damage_type": "Physical",
+      "min_power": 277,
+      "max_power": 313,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 123.488,
+      "infix_upgrade": {
+        "id": 151,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 43
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 31
+          }
+        ]
+      },
+      "suffix_item_id": 36055,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Penetrating Krytan Spear of the Night",
+    "type": "Weapon",
+    "level": 26,
+    "rarity": "Masterwork",
+    "vendor_value": 84,
+    "default_skin": 5164,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36268,
+    "chat_link": "[&AgGsjQAA]",
+    "icon": "https://render.guildwars2.com/file/3B43A2B3024DB30DAE3E930176080946B2E23BC1/780562.png",
+    "details": {
+      "type": "Harpoon",
+      "damage_type": "Physical",
+      "min_power": 255,
+      "max_power": 282,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 123.488,
+      "infix_upgrade": {
+        "id": 151,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 43
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 31
+          }
+        ]
+      },
+      "suffix_item_id": 36055,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Penetrating Krytan Bow of the Night",
+    "type": "Weapon",
+    "level": 26,
+    "rarity": "Masterwork",
+    "vendor_value": 84,
+    "default_skin": 4998,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36269,
+    "chat_link": "[&AgGtjQAA]",
+    "icon": "https://render.guildwars2.com/file/1FA1C0C722B9751C4C378055231E14FCB51517BF/61650.png",
+    "details": {
+      "type": "LongBow",
+      "damage_type": "Physical",
+      "min_power": 259,
+      "max_power": 304,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 123.488,
+      "infix_upgrade": {
+        "id": 151,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 43
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 31
+          }
+        ]
+      },
+      "suffix_item_id": 36055,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Penetrating Krytan Mace of the Night",
+    "type": "Weapon",
+    "level": 26,
+    "rarity": "Masterwork",
+    "vendor_value": 56,
+    "default_skin": 5005,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36270,
+    "chat_link": "[&AgGujQAA]",
+    "icon": "https://render.guildwars2.com/file/D81434679966BBCEB97B7B681833BC38E73694F2/61688.png",
+    "details": {
+      "type": "Mace",
+      "damage_type": "Physical",
+      "min_power": 252,
+      "max_power": 284,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 61.744,
+      "infix_upgrade": {
+        "id": 151,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 22
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 15
+          }
+        ]
+      },
+      "suffix_item_id": 36055,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Penetrating Krytan Pistol of the Night",
+    "type": "Weapon",
+    "level": 26,
+    "rarity": "Masterwork",
+    "vendor_value": 56,
+    "default_skin": 5008,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36271,
+    "chat_link": "[&AgGvjQAA]",
+    "icon": "https://render.guildwars2.com/file/12B504B2276E164B08C55CFCA634243DBCCD80B7/61694.png",
+    "details": {
+      "type": "Pistol",
+      "damage_type": "Physical",
+      "min_power": 247,
+      "max_power": 290,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 61.744,
+      "infix_upgrade": {
+        "id": 151,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 22
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 15
+          }
+        ]
+      },
+      "suffix_item_id": 36055,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Penetrating Krytan Rifle of the Night",
+    "type": "Weapon",
+    "level": 26,
+    "rarity": "Masterwork",
+    "vendor_value": 84,
+    "default_skin": 5021,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36272,
+    "chat_link": "[&AgGwjQAA]",
+    "icon": "https://render.guildwars2.com/file/5427F16936431923080AE3FD023377CF59CF2312/61700.png",
+    "details": {
+      "type": "Rifle",
+      "damage_type": "Physical",
+      "min_power": 278,
+      "max_power": 339,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 123.488,
+      "infix_upgrade": {
+        "id": 151,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 43
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 31
+          }
+        ]
+      },
+      "suffix_item_id": 36055,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Penetrating Krytan Scepter of the Night",
+    "type": "Weapon",
+    "level": 26,
+    "rarity": "Masterwork",
+    "vendor_value": 56,
+    "default_skin": 4989,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36273,
+    "chat_link": "[&AgGxjQAA]",
+    "icon": "https://render.guildwars2.com/file/0D30D70499EDAC01D6C925470200BF2906E364CB/61706.png",
+    "details": {
+      "type": "Scepter",
+      "damage_type": "Physical",
+      "min_power": 252,
+      "max_power": 284,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 61.744,
+      "infix_upgrade": {
+        "id": 151,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 22
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 15
+          }
+        ]
+      },
+      "suffix_item_id": 36055,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Penetrating Krytan Shield of the Night",
+    "type": "Weapon",
+    "level": 26,
+    "rarity": "Masterwork",
+    "vendor_value": 56,
+    "default_skin": 5018,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36274,
+    "chat_link": "[&AgGyjQAA]",
+    "icon": "https://render.guildwars2.com/file/5DA00DC8E6E6E7BE39B51B7F30D2314ECB33A5CF/61712.png",
+    "details": {
+      "type": "Shield",
+      "damage_type": "Physical",
+      "min_power": 227,
+      "max_power": 256,
+      "defense": 14,
+      "infusion_slots": [],
+      "attribute_adjustment": 61.744,
+      "infix_upgrade": {
+        "id": 151,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 22
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 15
+          }
+        ]
+      },
+      "suffix_item_id": 36055,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Penetrating Krytan Short Bow of the Night",
+    "type": "Weapon",
+    "level": 26,
+    "rarity": "Masterwork",
+    "vendor_value": 84,
+    "default_skin": 5000,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36275,
+    "chat_link": "[&AgGzjQAA]",
+    "icon": "https://render.guildwars2.com/file/4BCEF9E3C9D95E3F95EF0130F9AFE7DE680D9242/68100.png",
+    "details": {
+      "type": "ShortBow",
+      "damage_type": "Physical",
+      "min_power": 255,
+      "max_power": 282,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 123.488,
+      "infix_upgrade": {
+        "id": 151,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 43
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 31
+          }
+        ]
+      },
+      "suffix_item_id": 36055,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Penetrating Krytan Speargun of the Night",
+    "type": "Weapon",
+    "level": 26,
+    "rarity": "Masterwork",
+    "vendor_value": 84,
+    "default_skin": 4990,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36276,
+    "chat_link": "[&AgG0jQAA]",
+    "icon": "https://render.guildwars2.com/file/A44FA6A23E80D5519D279012FA0B257135EA75C1/61718.png",
+    "details": {
+      "type": "Speargun",
+      "damage_type": "Physical",
+      "min_power": 255,
+      "max_power": 282,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 123.488,
+      "infix_upgrade": {
+        "id": 151,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 43
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 31
+          }
+        ]
+      },
+      "suffix_item_id": 36055,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Penetrating Krytan Staff of the Night",
+    "type": "Weapon",
+    "level": 26,
+    "rarity": "Masterwork",
+    "vendor_value": 84,
+    "default_skin": 5019,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36277,
+    "chat_link": "[&AgG1jQAA]",
+    "icon": "https://render.guildwars2.com/file/97DDBDF3D871A7773BF12210205A27057AD253DA/61724.png",
+    "details": {
+      "type": "Staff",
+      "damage_type": "Physical",
+      "min_power": 277,
+      "max_power": 313,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 123.488,
+      "infix_upgrade": {
+        "id": 151,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 43
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 31
+          }
+        ]
+      },
+      "suffix_item_id": 36055,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Penetrating Krytan Sword of the Night",
+    "type": "Weapon",
+    "level": 26,
+    "rarity": "Masterwork",
+    "vendor_value": 56,
+    "default_skin": 5020,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36278,
+    "chat_link": "[&AgG2jQAA]",
+    "icon": "https://render.guildwars2.com/file/9AF522FA610E744803AE9F42063EABA5AA0F57B2/61730.png",
+    "details": {
+      "type": "Sword",
+      "damage_type": "Physical",
+      "min_power": 255,
+      "max_power": 282,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 61.744,
+      "infix_upgrade": {
+        "id": 151,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 22
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 15
+          }
+        ]
+      },
+      "suffix_item_id": 36055,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Penetrating Krytan Torch of the Night",
+    "type": "Weapon",
+    "level": 26,
+    "rarity": "Masterwork",
+    "vendor_value": 56,
+    "default_skin": 4992,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36279,
+    "chat_link": "[&AgG3jQAA]",
+    "icon": "https://render.guildwars2.com/file/D0AAAB4B0AD3FCC3B3735C08CA5ED074B9440EDB/61736.png",
+    "details": {
+      "type": "Torch",
+      "damage_type": "Physical",
+      "min_power": 222,
+      "max_power": 261,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 61.744,
+      "infix_upgrade": {
+        "id": 151,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 22
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 15
+          }
+        ]
+      },
+      "suffix_item_id": 36055,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Penetrating Krytan Trident of the Night",
+    "type": "Weapon",
+    "level": 26,
+    "rarity": "Masterwork",
+    "vendor_value": 84,
+    "default_skin": 5129,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36280,
+    "chat_link": "[&AgG4jQAA]",
+    "icon": "https://render.guildwars2.com/file/7BAE7EA0DAD1BAB0FA0EFA17A1587E031F550CBB/62778.png",
+    "details": {
+      "type": "Trident",
+      "damage_type": "Physical",
+      "min_power": 255,
+      "max_power": 282,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 123.488,
+      "infix_upgrade": {
+        "id": 151,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 43
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 31
+          }
+        ]
+      },
+      "suffix_item_id": 36055,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Penetrating Krytan Warhorn of the Night",
+    "type": "Weapon",
+    "level": 26,
+    "rarity": "Masterwork",
+    "vendor_value": 56,
+    "default_skin": 5001,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36281,
+    "chat_link": "[&AgG5jQAA]",
+    "icon": "https://render.guildwars2.com/file/5E27306C1273E90D736AB0EEDC4D570BDD62BA4F/68099.png",
+    "details": {
+      "type": "Warhorn",
+      "damage_type": "Physical",
+      "min_power": 229,
+      "max_power": 254,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 61.744,
+      "infix_upgrade": {
+        "id": 151,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 22
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 15
+          }
+        ]
+      },
+      "suffix_item_id": 36055,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Self-Style Hair Kit",
+    "description": "Double-click to modify your appearance settings for hair style, hair color, horns, and facial hair. This kit is consumed on accepting a new appearance.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 8,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36284,
+    "chat_link": "[&AgG8jQAA]",
+    "icon": "https://render.guildwars2.com/file/575DAC7F994037D4740E5067277B63B90DDE0FCE/495499.png",
+    "details": {
+      "type": "AppearanceChange"
+    }
+  },
+  {
+    "name": "Total Makeover Kit",
+    "description": "Double-click to modify your appearance: height, physique, skin color, markings, face, hair, even gender. Race and profession will remain the same. This kit is consumed on accepting a new appearance.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 8,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36285,
+    "chat_link": "[&AgG9jQAA]",
+    "icon": "https://render.guildwars2.com/file/91BD906F3DB001B01D18B505CC0C9920C4451E97/495503.png",
+    "details": {
+      "type": "AppearanceChange"
+    }
+  },
+  {
+    "name": "Mini Spooky Ghost",
+    "description": "Double-click to summon this mini to follow you around. Only one mini may be in use at a time.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36317,
+    "chat_link": "[&AgHdjQAA]",
+    "icon": "https://render.guildwars2.com/file/CA35F7D73917D80B582AEE63DFC6EA2336924CE6/499439.png",
+    "details": {
+      "minipet_id": 107
+    }
+  },
+  {
+    "name": "Mini Spooky Spider",
+    "description": "Double-click to summon this mini to follow you around. Only one mini may be in use at a time.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36319,
+    "chat_link": "[&AgHfjQAA]",
+    "icon": "https://render.guildwars2.com/file/CC2FA04E06D91DE05E02099EB6A9D164D6C75DF4/499441.png",
+    "details": {
+      "minipet_id": 109
+    }
+  },
+  {
+    "name": "Mini Spooky Trio",
+    "description": "Double-click to receive a mini spooky ghost, mini spooky skeleton, and mini spooky spider.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36320,
+    "chat_link": "[&AgHgjQAA]",
+    "icon": "https://render.guildwars2.com/file/37DEE7E6294BD4D9345001C750BB37991A1931B8/499442.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Mini Spooky Skeleton",
+    "description": "Double-click to summon this mini to follow you around. Only one mini may be in use at a time.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36321,
+    "chat_link": "[&AgHhjQAA]",
+    "icon": "https://render.guildwars2.com/file/DBD5E9A718DD143DC8F89304B87DB4A84AB2051B/499443.png",
+    "details": {
+      "minipet_id": 110
+    }
+  },
+  {
+    "name": "Mini Chainsaw the Skeleton",
+    "description": "Double-click to summon this mini to follow you around. Only one mini may be in use at a time.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36323,
+    "chat_link": "[&AgHjjQAA]",
+    "icon": "https://render.guildwars2.com/file/B1B72521A6EDF44B03A2DEE8A762C2BA083C4D5F/499450.png",
+    "details": {
+      "minipet_id": 111
+    }
+  },
+  {
+    "name": "Small Guild Discovery",
+    "description": "Double-click to increase your currently represented guild's influence by 50 points.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 1,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NotUpgradeable",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36324,
+    "chat_link": "[&AgHkjQAA]",
+    "icon": "https://render.guildwars2.com/file/5DB70C60F398A9F8C6BA0F2B34E497D497ED6995/526352.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Large Guild Discovery",
+    "description": "Double-click to increase your currently represented guild's influence by 300 points.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 1,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NotUpgradeable",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36325,
+    "chat_link": "[&AgHljQAA]",
+    "icon": "https://render.guildwars2.com/file/0AE3080C1B0A5E70A05744DAED9257C0063A2BCC/526353.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Medium Guild Discovery",
+    "description": "Double-click to increase your currently represented guild's influence by 100 points.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 1,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NotUpgradeable",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36326,
+    "chat_link": "[&AgHmjQAA]",
+    "icon": "https://render.guildwars2.com/file/D653024971FE091DB555D346D340C1C1377435E9/526354.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Severed Dagger",
+    "type": "Weapon",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "default_skin": 3825,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36331,
+    "chat_link": "[&AgHrjQAA]",
+    "icon": "https://render.guildwars2.com/file/6FAADCFAE377FBF836771C0FFF73AF02057A55FE/499468.png",
+    "details": {
+      "type": "Dagger",
+      "damage_type": "Physical",
+      "min_power": 146,
+      "max_power": 155,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 11.832,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Ghastly Grinning Shield",
+    "type": "Weapon",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "default_skin": 3693,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36332,
+    "chat_link": "[&AgHsjQAA]",
+    "icon": "https://render.guildwars2.com/file/90DEDF5658F1E008224AC0535C2CE85B732902F0/499465.png",
+    "details": {
+      "type": "Shield",
+      "damage_type": "Physical",
+      "min_power": 127,
+      "max_power": 143,
+      "defense": 6,
+      "infusion_slots": [],
+      "attribute_adjustment": 11.832,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Scythe Staff",
+    "type": "Weapon",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "default_skin": 3711,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36333,
+    "chat_link": "[&AgHtjQAA]",
+    "icon": "https://render.guildwars2.com/file/99304429A83E297B101CD94AAC6564BCC1AC2ADC/499474.png",
+    "details": {
+      "type": "Staff",
+      "damage_type": "Physical",
+      "min_power": 155,
+      "max_power": 175,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 23.664,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Greatsaw",
+    "type": "Weapon",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "default_skin": 3687,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36334,
+    "chat_link": "[&AgHujQAA]",
+    "icon": "https://render.guildwars2.com/file/F3DD14464C5F1A92592101950F16B60DA52B5695/499467.png",
+    "details": {
+      "type": "Greatsword",
+      "damage_type": "Physical",
+      "min_power": 157,
+      "max_power": 173,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 23.664,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Grinning Gourd Rifle",
+    "type": "Weapon",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "default_skin": 4694,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36335,
+    "chat_link": "[&AgHvjQAA]",
+    "icon": "https://render.guildwars2.com/file/65EB690AD503F5BC35D438A8E5475D3FCA7C05A0/499457.png",
+    "details": {
+      "type": "Rifle",
+      "damage_type": "Physical",
+      "min_power": 155,
+      "max_power": 190,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 23.664,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Scythe Staff Skin",
+    "description": "Double-click to apply this look to any other staff.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 36336,
+    "chat_link": "[&AgHwjQAA]",
+    "icon": "https://render.guildwars2.com/file/99304429A83E297B101CD94AAC6564BCC1AC2ADC/499474.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        3711
+      ]
+    }
+  },
+  {
+    "name": "Severed Dagger Skin",
+    "description": "Double-click to apply this look to any other dagger.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 36337,
+    "chat_link": "[&AgHxjQAA]",
+    "icon": "https://render.guildwars2.com/file/6FAADCFAE377FBF836771C0FFF73AF02057A55FE/499468.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        3825
+      ]
+    }
+  },
+  {
+    "name": "Grinning Gourd Rifle Skin",
+    "description": "Double-click to apply this look to any other rifle.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 36338,
+    "chat_link": "[&AgHyjQAA]",
+    "icon": "https://render.guildwars2.com/file/65EB690AD503F5BC35D438A8E5475D3FCA7C05A0/499457.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        4694
+      ]
+    }
+  },
+  {
+    "name": "Ghastly Grinning Shield Skin",
+    "description": "Double-click to apply this look to any other shield.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 36339,
+    "chat_link": "[&AgHzjQAA]",
+    "icon": "https://render.guildwars2.com/file/90DEDF5658F1E008224AC0535C2CE85B732902F0/499465.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        3693
+      ]
+    }
+  },
+  {
+    "name": "Greatsaw Greatsword Skin",
+    "description": "Double-click to apply this look to any other greatsword.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 36340,
+    "chat_link": "[&AgH0jQAA]",
+    "icon": "https://render.guildwars2.com/file/F3DD14464C5F1A92592101950F16B60DA52B5695/499467.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        3687
+      ]
+    }
+  },
+  {
+    "name": "Deathly Pauldrons Skin",
+    "description": "Double-click to apply this look to any other heavy shoulders.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 36341,
+    "chat_link": "[&AgH1jQAA]",
+    "icon": "https://render.guildwars2.com/file/C40623F844125E074C04C509217D0803747804C4/499475.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1120
+      ]
+    }
+  },
+  {
+    "name": "Deathly Mantle Skin",
+    "description": "Double-click to apply this look to any other light shoulders.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 36342,
+    "chat_link": "[&AgH2jQAA]",
+    "icon": "https://render.guildwars2.com/file/C40623F844125E074C04C509217D0803747804C4/499475.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1126
+      ]
+    }
+  },
+  {
+    "name": "Deathly Shoulderpads Skin",
+    "description": "Double-click to apply this look to any other medium shoulders.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 36343,
+    "chat_link": "[&AgH3jQAA]",
+    "icon": "https://render.guildwars2.com/file/C40623F844125E074C04C509217D0803747804C4/499475.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1136
+      ]
+    }
+  },
+  {
+    "name": "Deathly Pauldrons",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 0,
+    "default_skin": 1120,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 36344,
+    "chat_link": "[&AgH4jQAA]",
+    "icon": "https://render.guildwars2.com/file/C40623F844125E074C04C509217D0803747804C4/499475.png",
+    "details": {
+      "type": "Shoulders",
+      "weight_class": "Heavy",
+      "defense": 10,
+      "infusion_slots": [],
+      "attribute_adjustment": 4.176,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 1
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Chain Sword",
+    "type": "Weapon",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "default_skin": 3696,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36347,
+    "chat_link": "[&AgH7jQAA]",
+    "icon": "https://render.guildwars2.com/file/959F043BDE7D62EA5B1D0D1ABE31AAE3516B06FB/499466.png",
+    "details": {
+      "type": "Sword",
+      "damage_type": "Physical",
+      "min_power": 143,
+      "max_power": 158,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 11.832,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Chain Sword Skin",
+    "description": "Double-click to apply this look to any other one-handed sword.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 36348,
+    "chat_link": "[&AgH8jQAA]",
+    "icon": "https://render.guildwars2.com/file/959F043BDE7D62EA5B1D0D1ABE31AAE3516B06FB/499466.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        3696
+      ]
+    }
+  },
+  {
+    "name": "Deathly Avian Mantle",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 0,
+    "default_skin": 1121,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 36350,
+    "chat_link": "[&AgH+jQAA]",
+    "icon": "https://render.guildwars2.com/file/340F26CF50A5A5595E3DFF9D699B54F865CE7A52/499476.png",
+    "details": {
+      "type": "Shoulders",
+      "weight_class": "Light",
+      "defense": 6,
+      "infusion_slots": [],
+      "attribute_adjustment": 4.176,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 1
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Deathly Bull's Mantle",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 0,
+    "default_skin": 1123,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 36353,
+    "chat_link": "[&AgEBjgAA]",
+    "icon": "https://render.guildwars2.com/file/48B2D9B505D2AAF124256C54B341EFECE06CBA06/499477.png",
+    "details": {
+      "type": "Shoulders",
+      "weight_class": "Light",
+      "defense": 6,
+      "infusion_slots": [],
+      "attribute_adjustment": 4.176,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 1
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Deathly Bull's Shoulderpads",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 0,
+    "default_skin": 1131,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 36354,
+    "chat_link": "[&AgECjgAA]",
+    "icon": "https://render.guildwars2.com/file/48B2D9B505D2AAF124256C54B341EFECE06CBA06/499477.png",
+    "details": {
+      "type": "Shoulders",
+      "weight_class": "Medium",
+      "defense": 8,
+      "infusion_slots": [],
+      "attribute_adjustment": 4.176,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 1
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Deathly Avian Shoulderpads Skin",
+    "description": "Double-click to apply this look to any other medium shoulders.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 36355,
+    "chat_link": "[&AgEDjgAA]",
+    "icon": "https://render.guildwars2.com/file/340F26CF50A5A5595E3DFF9D699B54F865CE7A52/499476.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1128
+      ]
+    }
+  },
+  {
+    "name": "Deathly Avian Mantle Skin",
+    "description": "Double-click to apply this look to any other light shoulders.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 36356,
+    "chat_link": "[&AgEEjgAA]",
+    "icon": "https://render.guildwars2.com/file/340F26CF50A5A5595E3DFF9D699B54F865CE7A52/499476.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1121
+      ]
+    }
+  },
+  {
+    "name": "Deathly Avian Pauldrons Skin",
+    "description": "Double-click to apply this look to any other heavy shoulders.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 36357,
+    "chat_link": "[&AgEFjgAA]",
+    "icon": "https://render.guildwars2.com/file/340F26CF50A5A5595E3DFF9D699B54F865CE7A52/499476.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1116
+      ]
+    }
+  },
+  {
+    "name": "Deathly Bull's Shoulderpads Skin",
+    "description": "Double-click to apply this look to any other medium shoulders.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 36358,
+    "chat_link": "[&AgEGjgAA]",
+    "icon": "https://render.guildwars2.com/file/48B2D9B505D2AAF124256C54B341EFECE06CBA06/499477.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1131
+      ]
+    }
+  },
+  {
+    "name": "Deathly Bull's Mantle Skin",
+    "description": "Double-click to apply this look to any other light shoulders.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 36359,
+    "chat_link": "[&AgEHjgAA]",
+    "icon": "https://render.guildwars2.com/file/48B2D9B505D2AAF124256C54B341EFECE06CBA06/499477.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1123
+      ]
+    }
+  },
+  {
+    "name": "Deathly Bull's Pauldrons Skin",
+    "description": "Double-click to apply this look to any other heavy shoulders.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 36360,
+    "chat_link": "[&AgEIjgAA]",
+    "icon": "https://render.guildwars2.com/file/48B2D9B505D2AAF124256C54B341EFECE06CBA06/499477.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1119
+      ]
+    }
+  },
+  {
+    "name": "Scepter of Thorn",
+    "description": "Town clothes can no longer be equipped separately.\n\nSpeak to a Black Lion Armor Trader to exchange this for a portable bundle item.",
+    "type": "Weapon",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 3190,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "NotUpgradeable",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36361,
+    "chat_link": "[&AgEJjgAA]",
+    "icon": "https://render.guildwars2.com/file/30A2EE0E7D03796A4628FC00D00E43B6A20D223A/499478.png",
+    "details": {
+      "type": "Toy",
+      "damage_type": "Physical",
+      "min_power": 0,
+      "max_power": 0,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 13.392,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Mad King's Boots",
+    "description": "Town clothes can no longer be equipped separately.\n\nSpeak to a Black Lion Armor Trader at the trading post in any major city to exchange this item for an outfit wearable in combat.",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1117,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36362,
+    "chat_link": "[&AgEKjgAA]",
+    "icon": "https://render.guildwars2.com/file/5D0BFF0BA40E9CA2B45A377198D9ED9E26ED711B/499484.png",
+    "details": {
+      "type": "Boots",
+      "weight_class": "Clothing",
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 5.022,
+      "infix_upgrade": {
+        "id": 112,
+        "attributes": []
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Mad King's Coat",
+    "description": "Town clothes can no longer be equipped separately.\n\nSpeak to a Black Lion Armor Trader at the trading post in any major city to exchange this item for an outfit wearable in combat.",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1112,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36363,
+    "chat_link": "[&AgELjgAA]",
+    "icon": "https://render.guildwars2.com/file/CA9D119405321F579D90B1387CECFAB02F180ADC/499485.png",
+    "details": {
+      "type": "Coat",
+      "weight_class": "Clothing",
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 15.066,
+      "infix_upgrade": {
+        "id": 112,
+        "attributes": []
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Mad King's Gloves",
+    "description": "Town clothes can no longer be equipped separately.\n\nSpeak to a Black Lion Armor Trader at the trading post in any major city to exchange this item for an outfit wearable in combat.",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1161,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36364,
+    "chat_link": "[&AgEMjgAA]",
+    "icon": "https://render.guildwars2.com/file/1068C0B4A40F6696EE96BA04B99CA6D99FC47D66/499486.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Clothing",
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 5.022,
+      "infix_upgrade": {
+        "id": 112,
+        "attributes": []
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Mad King's Hat",
+    "description": "Town clothes can no longer be equipped separately.\n\nSpeak to a Black Lion Armor Trader at the trading post in any major city to exchange this item for an outfit wearable in combat.",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1217,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36365,
+    "chat_link": "[&AgENjgAA]",
+    "icon": "https://render.guildwars2.com/file/7FAF170F80B95C7B925DC5EA3699EB466C59C83A/499487.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Clothing",
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 6.696,
+      "infix_upgrade": {
+        "id": 112,
+        "attributes": []
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Mad King's Outfit",
+    "description": "Contains a Mad King Outfit, which is usable in combat, and a Scepter of Thorn toy for costume brawl.\n\nOutfits are full sets of clothing that hide other armor. This will not change individual armor pieces, and you will still receive your current armor stats.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36366,
+    "chat_link": "[&AgEOjgAA]",
+    "icon": "https://render.guildwars2.com/file/041DC1695CF0DD1A4438D45ACB036C510E1AFFB4/499488.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Aviator Cap",
+    "description": "Town clothes can no longer be equipped separately.\n\nSpeak to a Black Lion Armor Trader in any major city to exchange this for a helmet skin with the same look.",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 0,
+    "default_skin": 1171,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36368,
+    "chat_link": "[&AgEQjgAA]",
+    "icon": "https://render.guildwars2.com/file/A656AC3140BD5A3548CD0805E7124BA768419DD8/499489.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Clothing",
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 5.184,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Bunny Ears",
+    "description": "Town clothes can no longer be equipped separately.\n\nSpeak to a Black Lion Armor Trader in any major city to exchange this for a helmet skin with the same look.",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 0,
+    "default_skin": 1181,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36369,
+    "chat_link": "[&AgERjgAA]",
+    "icon": "https://render.guildwars2.com/file/AFBE55FC08ABD32007F3EA0F77F14306AC07283D/499490.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Clothing",
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 5.184,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Devil Horns",
+    "description": "Town clothes can no longer be equipped separately.\n\nSpeak to a Black Lion Armor Trader in any major city to exchange this for a helmet skin with the same look.",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "default_skin": 1214,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36370,
+    "chat_link": "[&AgESjgAA]",
+    "icon": "https://render.guildwars2.com/file/926298A2090B76A42DBBDBA36E46707B016AF39B/499491.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Clothing",
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 3.9,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Phantom's Hood",
+    "description": "Town clothes can no longer be equipped separately.\n\nSpeak to a Black Lion Armor Trader in any major city to exchange this for a helmet skin with the same look.",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 0,
+    "default_skin": 1215,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36371,
+    "chat_link": "[&AgETjgAA]",
+    "icon": "https://render.guildwars2.com/file/39961BC2BC1A3090BA9BE1FD54473B2F034BB10F/499492.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Clothing",
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 5.184,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Witch's Hat",
+    "description": "Town clothes can no longer be equipped separately.\n\nSpeak to a Black Lion Armor Trader in any major city to exchange this for a helmet skin with the same look.",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "default_skin": 1216,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36372,
+    "chat_link": "[&AgEUjgAA]",
+    "icon": "https://render.guildwars2.com/file/D4F164CE635FCB6596637DA573F5A3AD7FA4F473/499493.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Clothing",
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 3.9,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Enchanted Broom",
+    "description": "Town clothes can no longer be equipped separately.\n\nSpeak to a Black Lion Armor Trader to exchange this for a portable bundle item.",
+    "type": "Weapon",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 3241,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "NotUpgradeable",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36373,
+    "chat_link": "[&AgEVjgAA]",
+    "icon": "https://render.guildwars2.com/file/0B041363F2E8D23B9CF828C51A77B81F303626BA/534228.png",
+    "details": {
+      "type": "ToyTwoHanded",
+      "damage_type": "Physical",
+      "min_power": 0,
+      "max_power": 0,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 13.392,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Witch's Boots",
+    "description": "Town clothes can no longer be equipped separately.\n\nSpeak to a Black Lion Armor Trader at the trading post in any major city to exchange this item for an outfit wearable in combat.",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1118,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36375,
+    "chat_link": "[&AgEXjgAA]",
+    "icon": "https://render.guildwars2.com/file/4EE5F53ED0BB13F3214AE71901F13458E42D397F/499495.png",
+    "details": {
+      "type": "Boots",
+      "weight_class": "Clothing",
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 5.022,
+      "infix_upgrade": {
+        "id": 112,
+        "attributes": []
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Witch's Coat",
+    "description": "Town clothes can no longer be equipped separately.\n\nSpeak to a Black Lion Armor Trader at the trading post in any major city to exchange this item for an outfit wearable in combat.",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1115,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36376,
+    "chat_link": "[&AgEYjgAA]",
+    "icon": "https://render.guildwars2.com/file/1F79BC402251E9362255E05520F0EF7334CDBAF3/499496.png",
+    "details": {
+      "type": "Coat",
+      "weight_class": "Clothing",
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 15.066,
+      "infix_upgrade": {
+        "id": 112,
+        "attributes": []
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Witch's Gloves",
+    "description": "Town clothes can no longer be equipped separately.\n\nSpeak to a Black Lion Armor Trader at the trading post in any major city to exchange this item for an outfit wearable in combat.",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1164,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36377,
+    "chat_link": "[&AgEZjgAA]",
+    "icon": "https://render.guildwars2.com/file/050E4E9FD92DFDCE5331337F4A92430545972928/499497.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Clothing",
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 5.022,
+      "infix_upgrade": {
+        "id": 112,
+        "attributes": []
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Witch's Hat",
+    "description": "Town clothes can no longer be equipped separately.\n\nSpeak to a Black Lion Armor Trader at the trading post in any major city to exchange this item for an outfit wearable in combat.",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1218,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36378,
+    "chat_link": "[&AgEajgAA]",
+    "icon": "https://render.guildwars2.com/file/3691D30A1ACF0A66C6B3723109E164EBAC73372A/499498.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Clothing",
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 6.696,
+      "infix_upgrade": {
+        "id": 112,
+        "attributes": []
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Witch's Outfit",
+    "description": "Contains a Witch's Outfit, which is usable in combat, and a Broom toy for costume brawl.\n\nOutfits are full sets of clothing that hide other armor. This will not change individual armor pieces, and you will still receive your current armor stats.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36379,
+    "chat_link": "[&AgEbjgAA]",
+    "icon": "https://render.guildwars2.com/file/F90DEF6BD1FA9EE60DC93BA31B0D367EBA60EC7A/499499.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Spooky Ghost Tonic",
+    "description": "Double-click to transform into a ghost. You will be unable to fight while transformed.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 36380,
+    "chat_link": "[&AgEcjgAA]",
+    "icon": "https://render.guildwars2.com/file/7357A304E7554DAD78581E03A54A7EE9FF9117DA/499500.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Spooky Zombie Tonic",
+    "description": "Double-click to transform into a zombie. You will be unable to fight while transformed.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 36381,
+    "chat_link": "[&AgEdjgAA]",
+    "icon": "https://render.guildwars2.com/file/E0D9DFB196E7ACAF0153BB05EDC12DDF1C90A437/499501.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Spooky Skeleton Tonic",
+    "description": "Double-click to transform into a skeleton. You will be unable to fight while transformed.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 36382,
+    "chat_link": "[&AgEejgAA]",
+    "icon": "https://render.guildwars2.com/file/9C2DD2B2CFB2BA4476AD64709D0BEF52F3DFE070/499502.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Mad Memoires I: Boyhood",
+    "description": "In which His Royal Madness, yet but a boy, discovers the joys of humor.<br><c=@flavor>—Dig deep in the muck, where all the garbage of Lion's Arch flows. (Site #1)<br>—Find Provernic, where the first king's bones rot in the hills. (Site #5)</c>",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 4,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "Unique",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36384,
+    "chat_link": "[&AgEgjgAA]",
+    "icon": "https://render.guildwars2.com/file/575234B3F40716106A1DC8AA76B4D09F102504A3/499503.png"
+  },
+  {
+    "name": "Mad Memoires II: Friendship",
+    "description": "In which a friend joins young Oswald Thorn for the adventure of a lifetime.<br><c=@flavor>—Say more now and look more where Kryta's descendants are buried. (Site #3)<br>—Go into the hills and set down black roots in stagnant waters. (Site #4)</c>",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 4,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "Unique",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36385,
+    "chat_link": "[&AgEhjgAA]",
+    "icon": "https://render.guildwars2.com/file/575234B3F40716106A1DC8AA76B4D09F102504A3/499503.png"
+  },
+  {
+    "name": "Mad Memoires III: Young Love",
+    "description": "In which Os woos Lady Lyrica with graceless verve and uncomfortable silences.<br><c=@flavor>—Go into the hills and set down black roots in stagnant waters. (Site #4)<br>—Find Provernic, where the first king's bones rot in the hills. (Site #5)</c>",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 4,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "Unique",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36386,
+    "chat_link": "[&AgEijgAA]",
+    "icon": "https://render.guildwars2.com/file/575234B3F40716106A1DC8AA76B4D09F102504A3/499503.png"
+  },
+  {
+    "name": "Mad Memoires IV: Deadly Adventures",
+    "description": "In which Os and his elder brother, Ewie, get into a sticky situation. Only one returns.<br><c=@flavor>—Deep in the muck, where all the garbage of Lion's Arch flows. (Site #1)<br>—Search the dead streets and forgotten thoroughfares of another Lion's Arch. (Site #2)</c>",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 4,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "Unique",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36387,
+    "chat_link": "[&AgEjjgAA]",
+    "icon": "https://render.guildwars2.com/file/575234B3F40716106A1DC8AA76B4D09F102504A3/499503.png"
+  },
+  {
+    "name": "Mad Memoires V: Betrothed",
+    "description": "In which Lord Oswald Thorn, the new heir to the throne, chooses his queen.<br><c=@flavor>—Say more now and look more where Kryta's descendants are buried. (Site #3)<br>—Find Provernic, where the first king's bones rot in the hills. (Site #5)</c>",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 4,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "Unique",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36388,
+    "chat_link": "[&AgEkjgAA]",
+    "icon": "https://render.guildwars2.com/file/575234B3F40716106A1DC8AA76B4D09F102504A3/499503.png"
+  },
+  {
+    "name": "Mad Memoires VI: Coronation",
+    "description": "In which His Royal Madness ascends to the Krytan throne and wields his first decree.<br><c=@flavor>—Search the dead streets and forgotten thoroughfares of another Lion's Arch. (Site #2)<br>—Say more now and look more where Kryta's descendants are buried. (Site #3)</c>",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 4,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "Unique",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36389,
+    "chat_link": "[&AgEljgAA]",
+    "icon": "https://render.guildwars2.com/file/575234B3F40716106A1DC8AA76B4D09F102504A3/499503.png"
+  },
+  {
+    "name": "Mad Memoires VII: Handless",
+    "description": "In which King Thorn relieves thieves of their hands.<br><c=@flavor>—This hinterland village was home to a goddess and a martyr. (Site #6)</c>",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 4,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "Unique",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36390,
+    "chat_link": "[&AgEmjgAA]",
+    "icon": "https://render.guildwars2.com/file/575234B3F40716106A1DC8AA76B4D09F102504A3/499503.png"
+  },
+  {
+    "name": "Mad Memoires VIII: Feast and Famine",
+    "description": "In which the Mad King cries, \"Let them eat candy corn!\"<br><c=@flavor>—These old bones are caught in the gullet, where laughing rises from sorrow. (Site #7)</c>",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 4,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "Unique",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36391,
+    "chat_link": "[&AgEnjgAA]",
+    "icon": "https://render.guildwars2.com/file/575234B3F40716106A1DC8AA76B4D09F102504A3/499503.png"
+  },
+  {
+    "name": "Mad Memoires IX: Pains of Love",
+    "description": "In which Zola's father is afforded special hospitality during her engagement to King Thorn.<br><c=@flavor>—The landing at Arca struggles to fill its storeroom so it will never starve again. (Site #8)</c>",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 4,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "Unique",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36392,
+    "chat_link": "[&AgEojgAA]",
+    "icon": "https://render.guildwars2.com/file/575234B3F40716106A1DC8AA76B4D09F102504A3/499503.png"
+  },
+  {
+    "name": "Mad Memoires X: Tax-o'-Lanterns",
+    "description": "In which the king makes an example of ungrateful peasants.<br><c=@flavor>—Green is the color I want to remember. Not the red of flames or the blackened plateau. The bridge, even it was green. (Site #9)</c>",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 4,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "Unique",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36393,
+    "chat_link": "[&AgEpjgAA]",
+    "icon": "https://render.guildwars2.com/file/575234B3F40716106A1DC8AA76B4D09F102504A3/499503.png"
+  },
+  {
+    "name": "Mad Memoires XI: Flames of Renewal",
+    "description": "In which a rebellious village goes up in flames.<br><c=@flavor>—Walk in cadence with King Thorn's shattered subjects. They keep their hatred deep within. (Site #10)</c>",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 4,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "Unique",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36394,
+    "chat_link": "[&AgEqjgAA]",
+    "icon": "https://render.guildwars2.com/file/575234B3F40716106A1DC8AA76B4D09F102504A3/499503.png"
+  },
+  {
+    "name": "Mad Memoires XII: Descension",
+    "description": "In which Mad King Thorn is scattered to the four winds and departs for the Underworld.</c>",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 4,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "Unique",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36395,
+    "chat_link": "[&AgErjgAA]",
+    "icon": "https://render.guildwars2.com/file/575234B3F40716106A1DC8AA76B4D09F102504A3/499503.png"
+  },
+  {
+    "name": "Candy-Powered Matter Meter",
+    "description": "This device detects power caches by attuning its frequency to one of the four types of matter: aqueous, gaseous, etheric, and corporeal. Activation requires at least one piece of candy corn. <br><c=@flavor>\"Tassi, where are you going with those blueprints? Those are Statics property! Hey!\"<br>—Councilor Ludo</c>",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36396,
+    "chat_link": "[&AgEsjgAA]",
+    "icon": "https://render.guildwars2.com/file/02F191D77DDAC53C9D74EA0D0B33B357D0B80BCE/499504.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Mad Memoires",
+    "description": "A recollection of the life and deeds of Mad King Thorn, as recounted by his loyal subjects and friends. The volume ends with the coronation of King Thorn. It seems incomplete.<br><c=@flavor>—Stories yet untold despite the tower that marks a spooky site. When humans flee their home of old, where they settle cannot be told.</c>",
+    "type": "Back",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 29,
+    "default_skin": 2336,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "Unique",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36397,
+    "chat_link": "[&AgEtjgAA]",
+    "icon": "https://render.guildwars2.com/file/2D9C6A207995189C51E70AB4304BA1342A0A480F/499505.png",
+    "details": {
+      "infusion_slots": [],
+      "attribute_adjustment": 15.264,
+      "infix_upgrade": {
+        "id": 148,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 5
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 4
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Mad Memoires: Complete Edition",
+    "description": "A recollection of the life and deeds of Mad King Thorn, as told by his loyal subjects and friends. Contains a complete account of King Oswald Thorn's life, from boyhood to gruesome death.<br><c=@flavor>\"Even after death, I shall return! And all my enemies will burn, burn, BURN!\"<br>—Mad King Thorn</c>",
+    "type": "Back",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 128,
+    "default_skin": 2338,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "Unique",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36398,
+    "chat_link": "[&AgEujgAA]",
+    "icon": "https://render.guildwars2.com/file/F6D6A2A4095D46CB5C963E780E007D9FD173D8FA/499511.png",
+    "details": {
+      "infusion_slots": [],
+      "attribute_adjustment": 67.422,
+      "infix_upgrade": {
+        "id": 159,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 17
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 24
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 17
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Scythe",
+    "type": "Weapon",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "default_skin": 2434,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36399,
+    "chat_link": "[&AgEvjgAA]",
+    "icon": "https://render.guildwars2.com/file/3DD95762302CF908D7D65E69BC7BD5159F1FEC96/65798.png",
+    "details": {
+      "type": "LargeBundle",
+      "damage_type": "Physical",
+      "min_power": 143,
+      "max_power": 158,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 23.664,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Sickle",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Fine",
+    "vendor_value": 66,
+    "default_skin": 3273,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix"
+    ],
+    "restrictions": [],
+    "id": 36401,
+    "chat_link": "[&AgExjgAA]",
+    "icon": "https://render.guildwars2.com/file/C8EAC643C02F41B918D79031B6060B0CBFE40CAD/64967.png",
+    "details": {
+      "type": "Sword",
+      "damage_type": "Physical",
+      "min_power": 667,
+      "max_power": 737,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 258.624,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Pistol",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Fine",
+    "vendor_value": 66,
+    "default_skin": 3875,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix"
+    ],
+    "restrictions": [],
+    "id": 36405,
+    "chat_link": "[&AgE1jgAA]",
+    "icon": "https://render.guildwars2.com/file/C43656C1551C9A5A1A931EAC2901BD0FBA3BE3E1/62830.png",
+    "details": {
+      "type": "Pistol",
+      "damage_type": "Physical",
+      "min_power": 646,
+      "max_power": 758,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 258.624,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Limited-Use Scarecrow Finisher",
+    "description": "Feed your opponents to the birds with this scarecrow finishing move in PvP and WvW.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36408,
+    "chat_link": "[&AgE4jgAA]",
+    "icon": "https://render.guildwars2.com/file/3849FBC850B9A872FBEFEFF5F852AE4434F33D51/499518.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Content"
+    }
+  },
+  {
+    "name": "Limited-Use Mad King Finisher",
+    "description": "Have the last laugh with this Mad King finishing move in PvP and WvW.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36409,
+    "chat_link": "[&AgE5jgAA]",
+    "icon": "https://render.guildwars2.com/file/FBF45CE54777DF1FF4940EA1A6083658A574727F/499519.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Content"
+    }
+  },
+  {
+    "name": "Triple-Luck Tonic",
+    "description": "<c=@flavor>Wealth, fame, and power—a recipe for success. One drink gives you what most people can't achieve in a lifetime.</c>",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36447,
+    "chat_link": "[&AgFfjgAA]",
+    "icon": "https://render.guildwars2.com/file/6DF35B17270BF655560BC800BEE03B5BA95BE305/222728.png",
+    "details": {
+      "type": "Utility"
+    }
+  },
+  {
+    "name": "Drop of Liquid Karma",
+    "description": "Double-click to gain karma.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "BulkConsume",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36448,
+    "chat_link": "[&AgFgjgAA]",
+    "icon": "https://render.guildwars2.com/file/7517A67C7E694B0309F17FA9C205A95A4AFD32C5/63165.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Thimble of Liquid Karma",
+    "description": "Double-click to gain karma.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "BulkConsume",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36449,
+    "chat_link": "[&AgFhjgAA]",
+    "icon": "https://render.guildwars2.com/file/6DF35B17270BF655560BC800BEE03B5BA95BE305/222728.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Sip of Liquid Karma",
+    "description": "Double-click to gain karma.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "BulkConsume",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36450,
+    "chat_link": "[&AgFijgAA]",
+    "icon": "https://render.guildwars2.com/file/9F96299E45E807602CD945469AAABD4A4A92752F/63167.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Taste of Liquid Karma",
+    "description": "Double-click to gain karma.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "BulkConsume",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36451,
+    "chat_link": "[&AgFjjgAA]",
+    "icon": "https://render.guildwars2.com/file/67BCBBC96890F1BC9E30B69F42AA7304B948E23C/222740.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Vial of Liquid Karma",
+    "description": "Double-click to gain karma.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "BulkConsume",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36456,
+    "chat_link": "[&AgFojgAA]",
+    "icon": "https://render.guildwars2.com/file/7D3BA971730ECC0896993357460EDB674F3C05FD/222752.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Swig of Liquid Karma",
+    "description": "Double-click to gain karma.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "BulkConsume",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36457,
+    "chat_link": "[&AgFpjgAA]",
+    "icon": "https://render.guildwars2.com/file/4D75F2413077590E190A0F9159CCA305EA44F3C1/222764.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Gulp of Liquid Karma",
+    "description": "Double-click to gain karma.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "BulkConsume",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36458,
+    "chat_link": "[&AgFqjgAA]",
+    "icon": "https://render.guildwars2.com/file/B1AEEF619795DA2F39B60F72F8E3B97EF925B57F/222778.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Flask of Liquid Karma",
+    "description": "Double-click to gain karma.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "BulkConsume",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36459,
+    "chat_link": "[&AgFrjgAA]",
+    "icon": "https://render.guildwars2.com/file/D15B7C2E9D741CD9F39C1EAF76D924F3DA25AB1F/222792.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Jug of Liquid Karma",
+    "description": "Double-click to gain karma.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "BulkConsume",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36460,
+    "chat_link": "[&AgFsjgAA]",
+    "icon": "https://render.guildwars2.com/file/947DB197DA701B95C7A04CBB57036A2CDBD892F4/222806.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Keg of Liquid Karma",
+    "description": "Double-click to gain karma.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "BulkConsume",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36461,
+    "chat_link": "[&AgFtjgAA]",
+    "icon": "https://render.guildwars2.com/file/506D9B916340A2BA94C7672DBDA114C32803A3A2/1431686.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Jug of Liquid Karma",
+    "description": "Double-click to gain karma.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36470,
+    "chat_link": "[&AgF2jgAA]",
+    "icon": "https://render.guildwars2.com/file/947DB197DA701B95C7A04CBB57036A2CDBD892F4/222806.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Bag of Wondrous Goods",
+    "description": "Double-click to open.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36471,
+    "chat_link": "[&AgF3jgAA]",
+    "icon": "https://render.guildwars2.com/file/350D02EDC4D2025C162107C60E78490C710EDDCF/63180.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Bag of Wondrous Goods",
+    "description": "Double-click to open.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36472,
+    "chat_link": "[&AgF4jgAA]",
+    "icon": "https://render.guildwars2.com/file/350D02EDC4D2025C162107C60E78490C710EDDCF/63180.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Bag of Wondrous Goods",
+    "description": "Double-click to open.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36473,
+    "chat_link": "[&AgF5jgAA]",
+    "icon": "https://render.guildwars2.com/file/350D02EDC4D2025C162107C60E78490C710EDDCF/63180.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Bag of Wondrous Goods",
+    "description": "Double-click to open.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36474,
+    "chat_link": "[&AgF6jgAA]",
+    "icon": "https://render.guildwars2.com/file/350D02EDC4D2025C162107C60E78490C710EDDCF/63180.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Bag of Wondrous Goods",
+    "description": "Double-click to open.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36475,
+    "chat_link": "[&AgF7jgAA]",
+    "icon": "https://render.guildwars2.com/file/350D02EDC4D2025C162107C60E78490C710EDDCF/63180.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Bag of Wondrous Goods",
+    "description": "Double-click to open.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36476,
+    "chat_link": "[&AgF8jgAA]",
+    "icon": "https://render.guildwars2.com/file/350D02EDC4D2025C162107C60E78490C710EDDCF/63180.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Bag of Wondrous Goods",
+    "description": "Double-click to open.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36477,
+    "chat_link": "[&AgF9jgAA]",
+    "icon": "https://render.guildwars2.com/file/350D02EDC4D2025C162107C60E78490C710EDDCF/63180.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Bag of Wondrous Goods",
+    "description": "Double-click to open.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36478,
+    "chat_link": "[&AgF+jgAA]",
+    "icon": "https://render.guildwars2.com/file/350D02EDC4D2025C162107C60E78490C710EDDCF/63180.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Bag of Wondrous Goods",
+    "description": "Double-click to open.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36479,
+    "chat_link": "[&AgF/jgAA]",
+    "icon": "https://render.guildwars2.com/file/350D02EDC4D2025C162107C60E78490C710EDDCF/63180.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Bag of Wondrous Goods",
+    "description": "Double-click to open.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36480,
+    "chat_link": "[&AgGAjgAA]",
+    "icon": "https://render.guildwars2.com/file/350D02EDC4D2025C162107C60E78490C710EDDCF/63180.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Bag of Wondrous Goods",
+    "description": "Double-click to open.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36481,
+    "chat_link": "[&AgGBjgAA]",
+    "icon": "https://render.guildwars2.com/file/350D02EDC4D2025C162107C60E78490C710EDDCF/63180.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Bag of Wondrous Goods",
+    "description": "Double-click to open.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36482,
+    "chat_link": "[&AgGCjgAA]",
+    "icon": "https://render.guildwars2.com/file/350D02EDC4D2025C162107C60E78490C710EDDCF/63180.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Bag of Wondrous Goods",
+    "description": "Double-click to open.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36483,
+    "chat_link": "[&AgGDjgAA]",
+    "icon": "https://render.guildwars2.com/file/350D02EDC4D2025C162107C60E78490C710EDDCF/63180.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Bag of Wondrous Goods",
+    "description": "Double-click to open.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36485,
+    "chat_link": "[&AgGFjgAA]",
+    "icon": "https://render.guildwars2.com/file/350D02EDC4D2025C162107C60E78490C710EDDCF/63180.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Bag of Wondrous Goods",
+    "description": "Double-click to open.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36486,
+    "chat_link": "[&AgGGjgAA]",
+    "icon": "https://render.guildwars2.com/file/350D02EDC4D2025C162107C60E78490C710EDDCF/63180.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Custom Arena Starter Kit",
+    "description": "Used to create a new PvP Custom Arena with 30 days of playing time. Double-click to open the \"Create a Custom Arena\" panel.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "NotUpgradeable",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36506,
+    "chat_link": "[&AgGajgAA]",
+    "icon": "https://render.guildwars2.com/file/759709571F7E6FFABEAAE6411D0F976DAA3A1052/575064.png"
+  },
+  {
+    "name": "Custom Arena Time Token",
+    "description": "Used to add one day of time to a Custom Arena. Used from your Custom Arena management panel or double-click while playing in any Custom Arena to add time to that arena.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "NotUpgradeable",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36507,
+    "chat_link": "[&AgGbjgAA]",
+    "icon": "https://render.guildwars2.com/file/62566FF228E11BD4FE3856A5187E36AE4E58B390/575065.png"
+  },
+  {
+    "name": "Tome of Influence",
+    "description": "Add 5 Guild Commendations to your account that can be spent at guild vendors.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Legendary",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 36508,
+    "chat_link": "[&AgGcjgAA]",
+    "icon": "https://render.guildwars2.com/file/1DB12CF3E9D8D3CF77DA805B2008D417EA32C172/699005.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Mad King Chest",
+    "description": "Open to receive treats from the Mad King. Has a good chance to give Halloween crafting materials and transform tonics as well as a rare chance to give Halloween skins for weapons and shoulders.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36510,
+    "chat_link": "[&AgGejgAA]",
+    "icon": "https://render.guildwars2.com/file/570A1A46B5B7501E3DF021E42B45C430907C4FD6/507540.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Fuzzy Quaggan Hat with Bow",
+    "description": "Town clothes can no longer be equipped separately.\n\nSpeak to a Black Lion Armor Trader in any major city to exchange this for a helmet skin with the same look.",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 0,
+    "default_skin": 1177,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "NotUpgradeable",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36515,
+    "chat_link": "[&AgGjjgAA]",
+    "icon": "https://render.guildwars2.com/file/2CBF9C75CC4E57C208D5DFF81DCBCF780D3BF044/587066.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Clothing",
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 5.184,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Limited-Use Snowman Finisher",
+    "description": "Freeze your opponents with this snowman finishing move in PvP and WvW.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36517,
+    "chat_link": "[&AgGljgAA]",
+    "icon": "https://render.guildwars2.com/file/3D0BBD30A2CA4D1A0E14525C03233E51DA095307/619502.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Content"
+    }
+  },
+  {
+    "name": "Limited-Use Gift Finisher",
+    "description": "Crush your opponents with a stack of gift boxes by using this finishing move in PvP and WvW.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36518,
+    "chat_link": "[&AgGmjgAA]",
+    "icon": "https://render.guildwars2.com/file/3BDDA4DFF4B83B56C716410E446DE89CF03C38CE/619503.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Content"
+    }
+  },
+  {
+    "name": "Bag of Coins",
+    "description": "Double-click to open.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36520,
+    "chat_link": "[&AgGojgAA]",
+    "icon": "https://render.guildwars2.com/file/3BF274D1A323C002CDCFE80724912CDB7C78ABEE/62857.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Claw of the Howling King",
+    "description": "<c=@flavor>A tiny sound still emanates from the ring.</c>",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36521,
+    "chat_link": "[&AgGpjgAA]",
+    "icon": "https://render.guildwars2.com/file/D30394C4BAB8D6F4BA747CA209FAD8B3A6D2032F/223747.png",
+    "details": {
+      "type": "Ring",
+      "infusion_slots": [],
+      "attribute_adjustment": 256.08,
+      "infix_upgrade": {
+        "id": 156,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 64
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 64
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 90
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Ring of the Catacombs",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Masterwork",
+    "vendor_value": 198,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36522,
+    "chat_link": "[&AgGqjgAA]",
+    "icon": "https://render.guildwars2.com/file/CC727509301FFBE37A6527D637594517491E2832/223591.png",
+    "details": {
+      "type": "Ring",
+      "infusion_slots": [],
+      "attribute_adjustment": 209.967,
+      "infix_upgrade": {
+        "id": 156,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 52
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 52
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 73
+          }
+        ]
+      },
+      "suffix_item_id": 24516,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Ring of the Catacombs",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 297,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36523,
+    "chat_link": "[&AgGrjgAA]",
+    "icon": "https://render.guildwars2.com/file/CC727509301FFBE37A6527D637594517491E2832/223591.png",
+    "details": {
+      "type": "Ring",
+      "infusion_slots": [],
+      "attribute_adjustment": 226.368,
+      "infix_upgrade": {
+        "id": 156,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 57
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 57
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 79
+          }
+        ]
+      },
+      "suffix_item_id": 24499,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Colossus Fang",
+    "description": "<c=@flavor>Very large, and very sharp.</c>",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 528,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36524,
+    "chat_link": "[&AgGsjgAA]",
+    "icon": "https://render.guildwars2.com/file/090C47B6BFC5F70B5BA83D3B0F4630A51F07ED34/220642.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 154,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 85
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 85
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 120
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Foefire Amulet",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Masterwork",
+    "vendor_value": 264,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36525,
+    "chat_link": "[&AgGtjgAA]",
+    "icon": "https://render.guildwars2.com/file/F82FF7C2693014663173FF717C403F02C4540F0C/62368.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 279.956,
+      "infix_upgrade": {
+        "id": 154,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 70
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 70
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 98
+          }
+        ]
+      },
+      "suffix_item_id": 24510,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Foefire Amulet",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 396,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36526,
+    "chat_link": "[&AgGujgAA]",
+    "icon": "https://render.guildwars2.com/file/C6B3A518FF90EC0C01F6D8E3E2A8B7E5F840170A/222396.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 301.824,
+      "infix_upgrade": {
+        "id": 154,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 75
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 75
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 106
+          }
+        ]
+      },
+      "suffix_item_id": 24544,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Ghost Eater's Hide",
+    "description": "<c=@flavor>Surprisingly sturdy, given its incorporeal diet.</c>",
+    "type": "Back",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 2329,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36527,
+    "chat_link": "[&AgGvjgAA]",
+    "icon": "https://render.guildwars2.com/file/03B65C435B15EB2C10E04F3454B03718AAF3AE90/61004.png",
+    "details": {
+      "infusion_slots": [],
+      "attribute_adjustment": 85.36,
+      "suffix_item_id": 24545,
+      "stat_choices": [
+        161,
+        154,
+        158
+      ],
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Spineguard of the North",
+    "description": "<c=@flavor>Pleasantly cool.</c>",
+    "type": "Back",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 2329,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36530,
+    "chat_link": "[&AgGyjgAA]",
+    "icon": "https://render.guildwars2.com/file/03B65C435B15EB2C10E04F3454B03718AAF3AE90/61004.png",
+    "details": {
+      "infusion_slots": [],
+      "attribute_adjustment": 85.36,
+      "infix_upgrade": {
+        "id": 160,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 21
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 21
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 30
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Plague",
+    "description": "<c=@flavor>Waves of darkness emanate from this twisted ring.</c>",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36533,
+    "chat_link": "[&AgG1jgAA]",
+    "icon": "https://render.guildwars2.com/file/04A84E79CEFBFB1ADBBB5D275E0857B1FD5D5D3E/223589.png",
+    "details": {
+      "type": "Ring",
+      "infusion_slots": [],
+      "attribute_adjustment": 256.08,
+      "infix_upgrade": {
+        "id": 154,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 64
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 64
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 90
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Vallog's Demise",
+    "description": "<c=@flavor>\"I should have never left the raft.\"<br>—Vallog</c>",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 330,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36536,
+    "chat_link": "[&AgG4jgAA]",
+    "icon": "https://render.guildwars2.com/file/C169769F7200EAFD31144DD0306909AF98B23449/220886.png",
+    "details": {
+      "type": "Accessory",
+      "infusion_slots": [],
+      "attribute_adjustment": 213.4,
+      "stat_choices": [
+        161,
+        154,
+        158
+      ],
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Eternal Flame",
+    "description": "<c=@flavor>The flame is untouched by the wind.</c>",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 528,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36539,
+    "chat_link": "[&AgG7jgAA]",
+    "icon": "https://render.guildwars2.com/file/980527553D5D3629940ED90D3AD1AE0909297580/511741.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 160,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 85
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 85
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 120
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Burntclaw's Brace",
+    "description": "<c=@flavor>Doubles as a back warmer.</c>",
+    "type": "Back",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 2329,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36542,
+    "chat_link": "[&AgG+jgAA]",
+    "icon": "https://render.guildwars2.com/file/03B65C435B15EB2C10E04F3454B03718AAF3AE90/61004.png",
+    "details": {
+      "infusion_slots": [],
+      "attribute_adjustment": 85.36,
+      "infix_upgrade": {
+        "id": 154,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 21
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 21
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 30
+          }
+        ]
+      },
+      "suffix_item_id": 24544,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Ashes of the Effigy",
+    "description": "<c=@flavor>Burning embers are still visible.</c>",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 330,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36545,
+    "chat_link": "[&AgHBjgAA]",
+    "icon": "https://render.guildwars2.com/file/E40D3C6ED10916BFB638016CB10495100EFA14B0/66931.png",
+    "details": {
+      "type": "Accessory",
+      "infusion_slots": [],
+      "attribute_adjustment": 213.4,
+      "infix_upgrade": {
+        "id": 153,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 75
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 53
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 53
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Prototype Sheath",
+    "description": "<c=@flavor>Protects your back, at least in theory.</c>",
+    "type": "Back",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 2329,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36548,
+    "chat_link": "[&AgHEjgAA]",
+    "icon": "https://render.guildwars2.com/file/03B65C435B15EB2C10E04F3454B03718AAF3AE90/61004.png",
+    "details": {
+      "infusion_slots": [],
+      "attribute_adjustment": 85.36,
+      "infix_upgrade": {
+        "id": 162,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 30
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 21
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 21
+          }
+        ]
+      },
+      "suffix_item_id": 24543,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Fiber Splice",
+    "type": "Back",
+    "level": 80,
+    "rarity": "Masterwork",
+    "vendor_value": 132,
+    "default_skin": 2329,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36549,
+    "chat_link": "[&AgHFjgAA]",
+    "icon": "https://render.guildwars2.com/file/03B65C435B15EB2C10E04F3454B03718AAF3AE90/61004.png",
+    "details": {
+      "infusion_slots": [],
+      "attribute_adjustment": 69.989,
+      "infix_upgrade": {
+        "id": 162,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 24
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 17
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 17
+          }
+        ]
+      },
+      "suffix_item_id": 24520,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Fiber Splice",
+    "type": "Back",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 198,
+    "default_skin": 2329,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36550,
+    "chat_link": "[&AgHGjgAA]",
+    "icon": "https://render.guildwars2.com/file/03B65C435B15EB2C10E04F3454B03718AAF3AE90/61004.png",
+    "details": {
+      "infusion_slots": [],
+      "attribute_adjustment": 75.456,
+      "infix_upgrade": {
+        "id": 162,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 26
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 19
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 19
+          }
+        ]
+      },
+      "suffix_item_id": 24543,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Infinity Loop",
+    "description": "<c=@flavor>A single twist in the band creates a continuous surface.</c>",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36551,
+    "chat_link": "[&AgHHjgAA]",
+    "icon": "https://render.guildwars2.com/file/A3473FFC3353576C2EF60C5A9CC47CDA6AB562C1/63613.png",
+    "details": {
+      "type": "Ring",
+      "infusion_slots": [],
+      "attribute_adjustment": 256.08,
+      "infix_upgrade": {
+        "id": 153,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 90
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 64
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 64
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Charged Band",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Masterwork",
+    "vendor_value": 198,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36552,
+    "chat_link": "[&AgHIjgAA]",
+    "icon": "https://render.guildwars2.com/file/04FA35B4422E02E2683FFD711EA935413BFA0BC6/66812.png",
+    "details": {
+      "type": "Ring",
+      "infusion_slots": [],
+      "attribute_adjustment": 209.967,
+      "infix_upgrade": {
+        "id": 153,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 73
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 52
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 52
+          }
+        ]
+      },
+      "suffix_item_id": 24512,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Charged Band",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 297,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36553,
+    "chat_link": "[&AgHJjgAA]",
+    "icon": "https://render.guildwars2.com/file/04FA35B4422E02E2683FFD711EA935413BFA0BC6/66812.png",
+    "details": {
+      "type": "Ring",
+      "infusion_slots": [],
+      "attribute_adjustment": 226.368,
+      "infix_upgrade": {
+        "id": 153,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 79
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 57
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 57
+          }
+        ]
+      },
+      "suffix_item_id": 24496,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Alpha Conduit",
+    "description": "<c=@flavor>A mysterious clear liquid runs through it.</c>",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 528,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36554,
+    "chat_link": "[&AgHKjgAA]",
+    "icon": "https://render.guildwars2.com/file/17116576C478FE08481E1F010C991A0BBEE92339/222408.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "secondary_suffix_item_id": "",
+      "stat_choices": [
+        161,
+        154,
+        158
+      ]
+    }
+  },
+  {
+    "name": "Diffraction Crystal",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Masterwork",
+    "vendor_value": 264,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36555,
+    "chat_link": "[&AgHLjgAA]",
+    "icon": "https://render.guildwars2.com/file/03C8FB276B146CB64E201F006D0FC0D2380E956B/220645.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 279.956,
+      "suffix_item_id": 24522,
+      "stat_choices": [
+        161,
+        154,
+        158
+      ],
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Diffraction Crystal",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 396,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36556,
+    "chat_link": "[&AgHMjgAA]",
+    "icon": "https://render.guildwars2.com/file/03C8FB276B146CB64E201F006D0FC0D2380E956B/220645.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 301.824,
+      "suffix_item_id": 24545,
+      "stat_choices": [
+        161,
+        154,
+        158
+      ],
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Koda's Gift",
+    "description": "<c=@flavor>The symbol of Koda: a serrated oval, reminiscent of the jaws of a bear.</c>",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 330,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36557,
+    "chat_link": "[&AgHNjgAA]",
+    "icon": "https://render.guildwars2.com/file/DFE3E0A6D10D0B0AC1A772F0700D660EF83C8011/511744.png",
+    "details": {
+      "type": "Accessory",
+      "infusion_slots": [],
+      "attribute_adjustment": 213.4,
+      "infix_upgrade": {
+        "id": 160,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 53
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 53
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 75
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Carving of Jormag",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Masterwork",
+    "vendor_value": 165,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36558,
+    "chat_link": "[&AgHOjgAA]",
+    "icon": "https://render.guildwars2.com/file/18557F10485201B809A97BD35B90681130C44348/455910.png",
+    "details": {
+      "type": "Accessory",
+      "infusion_slots": [],
+      "attribute_adjustment": 174.973,
+      "infix_upgrade": {
+        "id": 160,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 44
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 44
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 61
+          }
+        ]
+      },
+      "suffix_item_id": 24512,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Carving of Jormag",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 248,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36559,
+    "chat_link": "[&AgHPjgAA]",
+    "icon": "https://render.guildwars2.com/file/18557F10485201B809A97BD35B90681130C44348/455910.png",
+    "details": {
+      "type": "Accessory",
+      "infusion_slots": [],
+      "attribute_adjustment": 188.64,
+      "infix_upgrade": {
+        "id": 160,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 47
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 47
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 66
+          }
+        ]
+      },
+      "suffix_item_id": 24496,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "The Zealot's Amulet",
+    "description": "<c=@flavor>A powerful talisman of kodan design.</c>",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 528,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36560,
+    "chat_link": "[&AgHQjgAA]",
+    "icon": "https://render.guildwars2.com/file/B1FEA5BFD9AEDE1D1F9E7B0B6A0708E32E0FC60B/66852.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 153,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 120
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 85
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 85
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Svanir Talisman",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Masterwork",
+    "vendor_value": 264,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36561,
+    "chat_link": "[&AgHRjgAA]",
+    "icon": "https://render.guildwars2.com/file/18557F10485201B809A97BD35B90681130C44348/455910.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 279.956,
+      "infix_upgrade": {
+        "id": 153,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 98
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 70
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 70
+          }
+        ]
+      },
+      "suffix_item_id": 24512,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Svanir Talisman",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 396,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36562,
+    "chat_link": "[&AgHSjgAA]",
+    "icon": "https://render.guildwars2.com/file/90383BE37D081EAB372ABCC0F26749B0D9CE46CD/455917.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 301.824,
+      "infix_upgrade": {
+        "id": 153,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 106
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 75
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 75
+          }
+        ]
+      },
+      "suffix_item_id": 24496,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Ring of Blood",
+    "description": "<c=@flavor>It glitters with malice.</c>",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36563,
+    "chat_link": "[&AgHTjgAA]",
+    "icon": "https://render.guildwars2.com/file/92140FF998C910373AFF3C25607504FA364AA4BA/511745.png",
+    "details": {
+      "type": "Ring",
+      "infusion_slots": [],
+      "attribute_adjustment": 256.08,
+      "stat_choices": [
+        161,
+        154,
+        158
+      ],
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Arctic Ring",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Masterwork",
+    "vendor_value": 198,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36564,
+    "chat_link": "[&AgHUjgAA]",
+    "icon": "https://render.guildwars2.com/file/925CE1CB16413341E2475A54B45E2DBF0D0A03DC/511746.png",
+    "details": {
+      "type": "Ring",
+      "infusion_slots": [],
+      "attribute_adjustment": 209.967,
+      "suffix_item_id": 24522,
+      "stat_choices": [
+        161,
+        154,
+        158
+      ],
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Arctic Ring",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 297,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36565,
+    "chat_link": "[&AgHVjgAA]",
+    "icon": "https://render.guildwars2.com/file/925CE1CB16413341E2475A54B45E2DBF0D0A03DC/511746.png",
+    "details": {
+      "type": "Ring",
+      "infusion_slots": [],
+      "attribute_adjustment": 226.368,
+      "suffix_item_id": 24545,
+      "secondary_suffix_item_id": "",
+      "stat_choices": [
+        161,
+        154,
+        158
+      ]
+    }
+  },
+  {
+    "name": "Operative's Creed",
+    "description": "<c=@flavor>\"Objective 1: Find them. Objective 2: Destroy them.\"<br>—First Page of the Operative's Creed.</c>",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 330,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36566,
+    "chat_link": "[&AgHWjgAA]",
+    "icon": "https://render.guildwars2.com/file/924E992B2217CFCAC6CA0F06663FA99C6629CDAB/220885.png",
+    "details": {
+      "type": "Accessory",
+      "infusion_slots": [],
+      "attribute_adjustment": 213.4,
+      "infix_upgrade": {
+        "id": 156,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 53
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 53
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 75
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Orrian Artifact Shards",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Masterwork",
+    "vendor_value": 165,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36567,
+    "chat_link": "[&AgHXjgAA]",
+    "icon": "https://render.guildwars2.com/file/EB2AF7C99C3CFF4B28536162CEB334C528FC4CA0/455945.png",
+    "details": {
+      "type": "Accessory",
+      "infusion_slots": [],
+      "attribute_adjustment": 174.973,
+      "infix_upgrade": {
+        "id": 156,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 44
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 44
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 61
+          }
+        ]
+      },
+      "suffix_item_id": 24516,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Orrian Artifact Shards",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 248,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36568,
+    "chat_link": "[&AgHYjgAA]",
+    "icon": "https://render.guildwars2.com/file/EB2AF7C99C3CFF4B28536162CEB334C528FC4CA0/455945.png",
+    "details": {
+      "type": "Accessory",
+      "infusion_slots": [],
+      "attribute_adjustment": 188.64,
+      "infix_upgrade": {
+        "id": 156,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 47
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 47
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 66
+          }
+        ]
+      },
+      "suffix_item_id": 24499,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Bloodstone Fragment",
+    "description": "<c=@flavor>\"That's not really made of blood, is it?\"<br>—Anonymous Child</c>",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 528,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36569,
+    "chat_link": "[&AgHZjgAA]",
+    "icon": "https://render.guildwars2.com/file/5044509F3DB0F391576CCAD891BC654DC5FE79B3/63600.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 162,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 120
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 85
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 85
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Amulet of the Dead",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Masterwork",
+    "vendor_value": 264,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36570,
+    "chat_link": "[&AgHajgAA]",
+    "icon": "https://render.guildwars2.com/file/0921674EB12510D9559C553F96E762CCDF96C835/63599.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 279.956,
+      "infix_upgrade": {
+        "id": 162,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 98
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 70
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 70
+          }
+        ]
+      },
+      "suffix_item_id": 24520,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Amulet of the Dead",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 396,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36571,
+    "chat_link": "[&AgHbjgAA]",
+    "icon": "https://render.guildwars2.com/file/0921674EB12510D9559C553F96E762CCDF96C835/63599.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 301.824,
+      "infix_upgrade": {
+        "id": 162,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 106
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 75
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 75
+          }
+        ]
+      },
+      "suffix_item_id": 24543,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Wraithlord Chains",
+    "description": "<c=@flavor>Dark and ethereal. They're almost intangible.</c>",
+    "type": "Back",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 2329,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36572,
+    "chat_link": "[&AgHcjgAA]",
+    "icon": "https://render.guildwars2.com/file/03B65C435B15EB2C10E04F3454B03718AAF3AE90/61004.png",
+    "details": {
+      "infusion_slots": [],
+      "attribute_adjustment": 85.36,
+      "infix_upgrade": {
+        "id": 153,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 30
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 21
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 21
+          }
+        ]
+      },
+      "suffix_item_id": 24496,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Risen Spineguard",
+    "type": "Back",
+    "level": 80,
+    "rarity": "Masterwork",
+    "vendor_value": 132,
+    "default_skin": 2329,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36573,
+    "chat_link": "[&AgHdjgAA]",
+    "icon": "https://render.guildwars2.com/file/03B65C435B15EB2C10E04F3454B03718AAF3AE90/61004.png",
+    "details": {
+      "infusion_slots": [],
+      "attribute_adjustment": 69.989,
+      "infix_upgrade": {
+        "id": 153,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 24
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 17
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 17
+          }
+        ]
+      },
+      "suffix_item_id": 24512,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Risen Spineguard",
+    "type": "Back",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 198,
+    "default_skin": 2329,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36574,
+    "chat_link": "[&AgHejgAA]",
+    "icon": "https://render.guildwars2.com/file/03B65C435B15EB2C10E04F3454B03718AAF3AE90/61004.png",
+    "details": {
+      "infusion_slots": [],
+      "attribute_adjustment": 75.456,
+      "infix_upgrade": {
+        "id": 153,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 26
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 19
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 19
+          }
+        ]
+      },
+      "suffix_item_id": 24496,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "The Replicator",
+    "description": "<c=@flavor>A mostly faithful reproduction of Tazza's design, though it doesn't work.</c>",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 528,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36575,
+    "chat_link": "[&AgHfjgAA]",
+    "icon": "https://render.guildwars2.com/file/13B161C32BE5DF4A5A637E78C10A61555AD917E3/222384.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 156,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 85
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 85
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 120
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Dissonance Amplifier",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Masterwork",
+    "vendor_value": 264,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36576,
+    "chat_link": "[&AgHgjgAA]",
+    "icon": "https://render.guildwars2.com/file/5380F0DE942303D76A529BF7EB09F96AB6492721/222368.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 279.956,
+      "infix_upgrade": {
+        "id": 156,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 70
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 70
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 98
+          }
+        ]
+      },
+      "suffix_item_id": 24516,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Dissonance Amplifier",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 396,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36577,
+    "chat_link": "[&AgHhjgAA]",
+    "icon": "https://render.guildwars2.com/file/5380F0DE942303D76A529BF7EB09F96AB6492721/222368.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 301.824,
+      "infix_upgrade": {
+        "id": 156,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 75
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 75
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 106
+          }
+        ]
+      },
+      "suffix_item_id": 24499,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Revolutionary Flyers",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Masterwork",
+    "vendor_value": 165,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36579,
+    "chat_link": "[&AgHjjgAA]",
+    "icon": "https://render.guildwars2.com/file/09D5CC42680FED30CE9A5AC2EB7EFCA93F522B06/66843.png",
+    "details": {
+      "type": "Accessory",
+      "infusion_slots": [],
+      "attribute_adjustment": 174.973,
+      "infix_upgrade": {
+        "id": 162,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 61
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 44
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 44
+          }
+        ]
+      },
+      "suffix_item_id": 24520,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Revolutionary Flyers",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 248,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36580,
+    "chat_link": "[&AgHkjgAA]",
+    "icon": "https://render.guildwars2.com/file/09D5CC42680FED30CE9A5AC2EB7EFCA93F522B06/66843.png",
+    "details": {
+      "type": "Accessory",
+      "infusion_slots": [],
+      "attribute_adjustment": 188.64,
+      "infix_upgrade": {
+        "id": 162,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 66
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 47
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 47
+          }
+        ]
+      },
+      "suffix_item_id": 24543,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Husk of the Destroyer",
+    "description": "<c=@flavor>It glows with hatred.</c>",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36581,
+    "chat_link": "[&AgHljgAA]",
+    "icon": "https://render.guildwars2.com/file/03E1C357EA05636A0801DF6FF94201CD67E001C9/511747.png",
+    "details": {
+      "type": "Ring",
+      "infusion_slots": [],
+      "attribute_adjustment": 256.08,
+      "infix_upgrade": {
+        "id": 160,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 64
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 64
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 90
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Band of the Moliarchy",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Masterwork",
+    "vendor_value": 198,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36582,
+    "chat_link": "[&AgHmjgAA]",
+    "icon": "https://render.guildwars2.com/file/5FC42F5F68A079925F4A1C6050FFD14C51AAAF9A/63590.png",
+    "details": {
+      "type": "Ring",
+      "infusion_slots": [],
+      "attribute_adjustment": 209.967,
+      "infix_upgrade": {
+        "id": 160,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 52
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 52
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 73
+          }
+        ]
+      },
+      "suffix_item_id": 24512,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Band of the Moliarchy",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 297,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36583,
+    "chat_link": "[&AgHnjgAA]",
+    "icon": "https://render.guildwars2.com/file/5FC42F5F68A079925F4A1C6050FFD14C51AAAF9A/63590.png",
+    "details": {
+      "type": "Ring",
+      "infusion_slots": [],
+      "attribute_adjustment": 226.368,
+      "infix_upgrade": {
+        "id": 160,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 57
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 57
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 79
+          }
+        ]
+      },
+      "suffix_item_id": 24496,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Arbor's Embrace",
+    "description": "<c=@flavor>One size grows to fit all.</c>",
+    "type": "Back",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 2329,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 36584,
+    "chat_link": "[&AgHojgAA]",
+    "icon": "https://render.guildwars2.com/file/03B65C435B15EB2C10E04F3454B03718AAF3AE90/61004.png",
+    "details": {
+      "infusion_slots": [],
+      "attribute_adjustment": 85.36,
+      "infix_upgrade": {
+        "id": 156,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 21
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 21
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 30
+          }
+        ]
+      },
+      "suffix_item_id": 24499,
+      "secondary_suffix_item_id": ""
+    }
+  }
+]

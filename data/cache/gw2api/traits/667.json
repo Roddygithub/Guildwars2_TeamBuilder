@@ -1,0 +1,36 @@
+{
+  "id": 667,
+  "tier": 2,
+  "order": 0,
+  "name": "Membrane illlusoire",
+  "description": "Vous bénéficiez d'Aura du chaos quand vous utilisez votre deuxième compétence de brisure. L'Aura du chaos augmente vos dégâts par altération pendant un bref instant.",
+  "slot": "Minor",
+  "facts": [
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/FEF378D8A91D0523A04A380ED0547F0BF944A967/2261518.png",
+      "duration": 4,
+      "status": "Aura du chaos",
+      "description": "Si vous êtes touché, vous bénéficiez d'avantages aléatoires et vos ennemis subissent des altérations aléatoires.",
+      "apply_count": 1
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/0DF6A27A24B01D069DCD7609ADD305C7C557A82A/1012472.png",
+      "duration": 5,
+      "status": "Membrane illlusoire",
+      "description": "Augmente vos dégâts par altération.",
+      "apply_count": 1
+    },
+    {
+      "text": "Durée maximale de l'effet",
+      "type": "Time",
+      "icon": "https://render.guildwars2.com/file/7B2193ACCF77E56C13E608191B082D68AA0FAA71/156659.png",
+      "duration": 15
+    }
+  ],
+  "specialization": 45,
+  "icon": "https://render.guildwars2.com/file/0DF6A27A24B01D069DCD7609ADD305C7C557A82A/1012472.png"
+}

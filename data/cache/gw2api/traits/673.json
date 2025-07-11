@@ -1,0 +1,99 @@
+{
+  "id": 673,
+  "tier": 2,
+  "order": 0,
+  "name": "Angoisse favorable",
+  "description": "Vous convertissez les altérations de dégâts en avantages chaque fois que vous bénéficiez de Distorsion ou êtes neutralisé.<br><c=@reminder>Cette aptitude ne s'active qu'une fois par intervalle en étant neutralisée.<br>Les effets suivants neutralisent la cible : Étourdissement, Stupeur, Repoussement, Attraction, Renversement, Noyade, Flottaison, Projection, Incitation et Peur.</c>",
+  "slot": "Major",
+  "facts": [
+    {
+      "text": "Recharge",
+      "type": "Recharge",
+      "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+      "value": 35
+    },
+    {
+      "text": "Altérations converties",
+      "type": "Number",
+      "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png",
+      "value": 2
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "PrefixedBuff",
+      "icon": "https://render.guildwars2.com/file/58E92EBAF0DB4DA7C4AC04D9B22BCA5ECF0100DE/102843.png",
+      "duration": 10,
+      "status": "Vigueur",
+      "description": "Régénération d'endurance augmentée de 50%. La durée est cumulable.",
+      "apply_count": 1,
+      "prefix": {
+        "text": "Apply Buff/Condition",
+        "icon": "https://render.guildwars2.com/file/79FF0046A5F9ADA3B4C4EC19ADB4CB124D5F0021/102848.png",
+        "status": "Saignement",
+        "description": "Inflige des dégâts à chaque seconde. Intensité cumulable."
+      }
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "PrefixedBuff",
+      "icon": "https://render.guildwars2.com/file/DFB4D1B50AE4D6A275B349E15B179261EE3EB0AF/102854.png",
+      "duration": 5,
+      "status": "Égide",
+      "description": "Bloque la prochaine attaque. La durée est cumulable.",
+      "apply_count": 1,
+      "prefix": {
+        "text": "Apply Buff/Condition",
+        "icon": "https://render.guildwars2.com/file/B47BF5803FED2718D7474EAF9617629AD068EE10/102849.png",
+        "status": "En feu",
+        "description": "Inflige des dégâts à chaque seconde. Intensité cumulable."
+      }
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "PrefixedBuff",
+      "icon": "https://render.guildwars2.com/file/D104A6B9344A2E2096424A3C300E46BC2926E4D7/2440718.png",
+      "duration": 5,
+      "status": "Résolution",
+      "description": "Dégâts par altération subis réduits de 33%. La durée est cumulable.",
+      "apply_count": 1,
+      "prefix": {
+        "text": "Apply Buff/Condition",
+        "icon": "https://render.guildwars2.com/file/289AA0A4644F0E044DED3D3F39CED958E1DDFF53/102880.png",
+        "status": "Confusion",
+        "description": "Dégâts subis à l'activation d'une compétence. Intensité cumulable."
+      }
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "PrefixedBuff",
+      "icon": "https://render.guildwars2.com/file/F69996772B9E18FD18AD0AABAB25D7E3FC42F261/102835.png",
+      "duration": 5,
+      "status": "Régénération",
+      "description": "Vous regagnez de la santé à chaque seconde. La durée est cumulable.",
+      "apply_count": 1,
+      "prefix": {
+        "text": "Apply Buff/Condition",
+        "icon": "https://render.guildwars2.com/file/559B0AF9FB5E1243D2649FAAE660CCB338AACC19/102840.png",
+        "status": "Empoisonné",
+        "description": "Inflige des dégâts à chaque seconde et réduit l'efficacité de guérison de 33%. Intensité cumulable."
+      }
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "PrefixedBuff",
+      "icon": "https://render.guildwars2.com/file/2FA9DF9D6BC17839BBEA14723F1C53D645DDB5E1/102852.png",
+      "duration": 10,
+      "status": "Pouvoir",
+      "description": "Les dégâts infligés sont augmentés. Intensité cumulable.",
+      "apply_count": 3,
+      "prefix": {
+        "text": "Apply Buff/Condition",
+        "icon": "https://render.guildwars2.com/file/10BABF2708CA3575730AC662A2E72EC292565B08/598887.png",
+        "status": "Tourment",
+        "description": "Inflige des dégâts à chaque seconde. Inflige des dégâts supplémentaires aux ennemis qui ne bougent pas. L'intensité est cumulable."
+      }
+    }
+  ],
+  "specialization": 45,
+  "icon": "https://render.guildwars2.com/file/67E22C14059400490834D1AF7F2C69A75D31E6AA/1012465.png"
+}

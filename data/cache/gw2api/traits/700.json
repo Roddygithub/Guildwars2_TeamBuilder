@@ -1,0 +1,48 @@
+{
+  "id": 700,
+  "tier": 1,
+  "order": 2,
+  "name": "Discipline du duelliste",
+  "description": "Vos attaques au pistolet et celles de vos illusions ont une chance d'infliger Saignement. Interrompre un ennemi recharge vos compétences de pistolet.<br><c=@reminder>Cette aptitude ne réduit le temps de recharge des ennemis possédant une barre de défiance qu'une seule fois par intervalle.</c>",
+  "slot": "Major",
+  "facts": [
+    {
+      "text": "Pourcentage rechargé lors d'Interruption",
+      "type": "Percent",
+      "icon": "https://render.guildwars2.com/file/AAB7C5387A08367C2F023F19FEE70E1556AD4375/1770202.png",
+      "percent": 25
+    },
+    {
+      "text": "Chance d'infliger Saignement",
+      "type": "Percent",
+      "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png",
+      "percent": 100
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/79FF0046A5F9ADA3B4C4EC19ADB4CB124D5F0021/102848.png",
+      "duration": 3,
+      "status": "Saignement",
+      "description": "Inflige des dégâts à chaque seconde. Intensité cumulable.",
+      "apply_count": 1
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/79FF0046A5F9ADA3B4C4EC19ADB4CB124D5F0021/102848.png",
+      "duration": 2,
+      "status": "Saignement",
+      "description": "Inflige des dégâts à chaque seconde. Intensité cumulable.",
+      "apply_count": 1
+    },
+    {
+      "text": "Intervalle",
+      "type": "Time",
+      "icon": "https://render.guildwars2.com/file/B75E91EB22E0DFCC1D08030204055946506D56F6/1770206.png",
+      "duration": 3
+    }
+  ],
+  "specialization": 1,
+  "icon": "https://render.guildwars2.com/file/154231A3A76B322079386C6404702A6FB2179192/1012500.png"
+}

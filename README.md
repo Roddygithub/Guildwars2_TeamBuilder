@@ -1,26 +1,21 @@
-# Guild Wars 2 WvW Team Builder
+# Guild Wars 2 Team Builder
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/
-YOUR_NETLIFY_SITE_ID/deploy-status)]
-(https://app.netlify.com/sites/YOUR_NETLIFY_SITE_NAME/deploys)
-[![GitHub stars](https://img.shields.io/github/stars/Roddygithub/Guildwars2_TeamBuilder?style=social)](https://github.com/Roddygithub/Guildwars2_TeamBuilder/stargazers)
-[![GitHub issues](https://img.shields.io/github/issues/Roddygithub/Guildwars2_TeamBuilder)](https://github.com/Roddygithub/Guildwars2_TeamBuilder/issues)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/YOUR_NETLIFY_SITE_ID/deploy-status)](https://app.netlify.com/sites/YOUR_NETLIFY_SITE_NAME/deploys)
 
 Un outil avancé pour optimiser les compositions d'équipe dans Guild Wars 2, spécialement conçu pour le mode Monde contre Monde (WvW).
 
-## 🚀 Fonctionnalités
+## 🚀 Fonctionnalités (en développement)
 
-- 🎯 **Génération intelligente de builds** basée sur des algorithmes d'optimisation avancés
-- 🤖 **Algorithme génétique** pour trouver les meilleures combinaisons de builds
-- 🤝 **Synergies automatiques** entre les membres de l'équipe
-- 🎮 **Support multi-mode** : Zerg, Havoc, Roaming, GvG
-- 📊 **Analyse détaillée** des forces et faiblesses des compositions
+- 🎯 **Génération de builds optimisés** basée sur des solveurs de contraintes
+- 🧩 **Modélisation complète** des données GW2 (équipements, compétences, traits)
+- 🤝 **Analyse des synergies** entre les membres de l'équipe
+- 🛡️ **Support des rôles** : DPS, Support, Heal, Boon Support, etc.
 - 🔄 **Intégration** avec l'API officielle de Guild Wars 2
-- 🌐 **Application web complète** avec interface utilisateur moderne
-- 🚀 **Déploiement facile** avec Netlify
+- 🌐 **Application web** avec interface utilisateur moderne
+- ⚡ **Déploiement simplifié** avec Netlify Functions
 
 ## 🛠 Prérequis
 

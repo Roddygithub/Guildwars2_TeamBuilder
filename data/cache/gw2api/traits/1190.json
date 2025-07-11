@@ -1,0 +1,27 @@
+{
+  "id": 1190,
+  "tier": 2,
+  "order": 2,
+  "name": "Coup de pression",
+  "description": "Vous infligez Tourment aux ennemis interrompus.<br><c=@reminder>Cette aptitude n'affecte les ennemis possédant une barre de défiance qu'une seule fois par intervalle.</c>",
+  "slot": "Major",
+  "facts": [
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/10BABF2708CA3575730AC662A2E72EC292565B08/598887.png",
+      "duration": 8,
+      "status": "Tourment",
+      "description": "Inflige des dégâts à chaque seconde. Inflige des dégâts supplémentaires aux ennemis qui ne bougent pas. L'intensité est cumulable.",
+      "apply_count": 2
+    },
+    {
+      "text": "Intervalle",
+      "type": "Time",
+      "icon": "https://render.guildwars2.com/file/B75E91EB22E0DFCC1D08030204055946506D56F6/1770206.png",
+      "duration": 3
+    }
+  ],
+  "specialization": 44,
+  "icon": "https://render.guildwars2.com/file/22BAF280A66B3FD257B9FA2E911264AE1DC234EF/1012767.png"
+}

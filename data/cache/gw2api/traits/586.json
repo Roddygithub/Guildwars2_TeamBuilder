@@ -1,0 +1,56 @@
+{
+  "id": 586,
+  "tier": 3,
+  "order": 1,
+  "name": "Focus de moine",
+  "description": "Les compétences de <c=@abilitytype>méditation</c> vous soignent et octroient Fureur aux alliés à proximité.",
+  "slot": "Major",
+  "facts": [
+    {
+      "text": "Guérison",
+      "type": "AttributeAdjust",
+      "icon": "https://render.guildwars2.com/file/D4347C52157B040943051D7E09DEAD7AF63D4378/156662.png",
+      "value": 1960,
+      "target": "Healing"
+    },
+    {
+      "text": "Guérison",
+      "type": "AttributeAdjust",
+      "icon": "https://render.guildwars2.com/file/D4347C52157B040943051D7E09DEAD7AF63D4378/156662.png",
+      "value": 1720,
+      "target": "Healing"
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/96D90DF84CAFE008233DD1C2606A12C1A0E68048/102842.png",
+      "duration": 4,
+      "status": "Fureur",
+      "description": "Chances de coup critique augmentées ; durée cumulable.",
+      "apply_count": 1
+    },
+    {
+      "text": "Rayon",
+      "type": "Distance",
+      "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+      "distance": 240
+    },
+    {
+      "text": "Nombre de cibles",
+      "type": "Number",
+      "icon": "https://render.guildwars2.com/file/BBE8191A494B0352259C10EADFDACCE177E6DA5B/1770208.png",
+      "value": 5
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/D104A6B9344A2E2096424A3C300E46BC2926E4D7/2440718.png",
+      "duration": 4,
+      "status": "Résolution",
+      "description": "Dégâts par altération subis réduits de 33%. La durée est cumulable.",
+      "apply_count": 1
+    }
+  ],
+  "specialization": 13,
+  "icon": "https://render.guildwars2.com/file/01FC7AF9B1CDFF61160FE3BDF63D52C50225EA9E/1012433.png"
+}

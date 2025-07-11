@@ -1,0 +1,27 @@
+{
+  "id": 1215,
+  "tier": 3,
+  "order": 1,
+  "name": "Assassin discret",
+  "description": "Vous obtenez des chances supplémentaires de porter un coup critique lorsque vous êtes en mode furtif. Ce bonus persiste brièvement après qu'on vous ait révélé.",
+  "slot": "Major",
+  "facts": [
+    {
+      "text": "Augmentation de chance de coup critique",
+      "type": "Percent",
+      "icon": "https://render.guildwars2.com/file/C2CEA567E0C43C199C782809544721AA12A6DF0A/2229323.png",
+      "percent": 100
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/03E22FDC6642C0F4BFD197DA5470A97910EB1877/1012733.png",
+      "duration": 4,
+      "status": "Assassin discret",
+      "description": "Votre chance de coup critique est augmentée.",
+      "apply_count": 1
+    }
+  ],
+  "specialization": 35,
+  "icon": "https://render.guildwars2.com/file/03E22FDC6642C0F4BFD197DA5470A97910EB1877/1012733.png"
+}

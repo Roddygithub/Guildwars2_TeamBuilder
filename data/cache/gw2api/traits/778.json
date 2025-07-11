@@ -1,0 +1,106 @@
+{
+  "id": 778,
+  "tier": 3,
+  "order": 2,
+  "name": "Transfusion",
+  "description": "Les marques peuvent être activées par les alliés pour soigner ces derniers, et elles leur confèrent des effets de soutien supplémentaires. Vous créez Engelures à votre emplacement lorsque vous utilisez votre quatrième compétence de linceul.",
+  "slot": "Major",
+  "facts": [
+    {
+      "text": "Guérison",
+      "type": "AttributeAdjust",
+      "icon": "https://render.guildwars2.com/file/D4347C52157B040943051D7E09DEAD7AF63D4378/156662.png",
+      "value": 404,
+      "target": "Healing"
+    },
+    {
+      "text": "Guérison",
+      "type": "AttributeAdjust",
+      "icon": "https://render.guildwars2.com/file/D4347C52157B040943051D7E09DEAD7AF63D4378/156662.png",
+      "value": 404,
+      "target": "Healing"
+    },
+    {
+      "text": "Guérison",
+      "type": "AttributeAdjust",
+      "icon": "https://render.guildwars2.com/file/D4347C52157B040943051D7E09DEAD7AF63D4378/156662.png",
+      "value": 280,
+      "target": "Healing"
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "PrefixedBuff",
+      "icon": "https://render.guildwars2.com/file/58E92EBAF0DB4DA7C4AC04D9B22BCA5ECF0100DE/102843.png",
+      "duration": 4,
+      "status": "Vigueur",
+      "description": "Régénération d'endurance augmentée de 50%. La durée est cumulable.",
+      "apply_count": 1,
+      "prefix": {
+        "text": "Apply Buff/Condition",
+        "icon": "https://render.guildwars2.com/file/F205B3A517DF27E3323D2FBCFE6C0FA3430242F9/103813.png",
+        "status": "Marque de sang",
+        "description": "<c=@abilitytype>Marque.</c> Vous tracez une marque qui inflige Saignement aux ennemis une fois déclenchée, et confère Régénération à vos alliés."
+      }
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "PrefixedBuff",
+      "icon": "https://render.guildwars2.com/file/58E92EBAF0DB4DA7C4AC04D9B22BCA5ECF0100DE/102843.png",
+      "duration": 2,
+      "status": "Vigueur",
+      "description": "Régénération d'endurance augmentée de 50%. La durée est cumulable.",
+      "apply_count": 1,
+      "prefix": {
+        "text": "Apply Buff/Condition",
+        "icon": "https://render.guildwars2.com/file/F205B3A517DF27E3323D2FBCFE6C0FA3430242F9/103813.png",
+        "status": "Marque de sang",
+        "description": "<c=@abilitytype>Marque.</c> Vous tracez une marque qui inflige Saignement aux ennemis une fois déclenchée, et confère Régénération à vos alliés."
+      }
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "PrefixedBuff",
+      "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png",
+      "duration": 0,
+      "description": "",
+      "apply_count": 0,
+      "prefix": {
+        "text": "Apply Buff/Condition",
+        "icon": "https://render.guildwars2.com/file/A33F6E0F51AD229AD57ED83D7AC040225DFD0FEA/103138.png",
+        "status": "Engelures",
+        "description": "<c=@abilitytype>Marque.</c> Vous tracez une marque qui inflige Givre et Empoisonnement aux ennemis une fois déclenchée."
+      }
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "PrefixedBuff",
+      "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png",
+      "duration": 0,
+      "description": "10%",
+      "apply_count": 0,
+      "prefix": {
+        "text": "Apply Buff/Condition",
+        "icon": "https://render.guildwars2.com/file/DF024691B5A2CD0D78CDF3EAEB0394F878FD6EC4/103814.png",
+        "status": "Marque putride",
+        "description": "<c=@abilitytype>Marque.</c> Vous tracez une marque qui inflige des dégâts aux ennemis et leur transfère vos altérations une fois déclenchée."
+      }
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "PrefixedBuff",
+      "icon": "https://render.guildwars2.com/file/3D3A1C2D6D791C05179AB871902D28782C65C244/415959.png",
+      "duration": 4,
+      "status": "Stabilité",
+      "description": "Immunisé contre les altérations Renversement, Repoussement, Attraction, Projection, Étourdissement, Stupeur, Flottaison, Noyade, Peur ou Incitation.",
+      "apply_count": 3,
+      "prefix": {
+        "text": "Apply Buff/Condition",
+        "icon": "https://render.guildwars2.com/file/0D7FDAA90B6C043A31333E630C55C8547CC09EC2/103821.png",
+        "status": "Empreinte du Faucheur",
+        "description": "<c=@abilitytype>Marque.</c> Vous tracez une marque qui inflige Peur aux ennemis une fois déclenchée."
+      }
+    }
+  ],
+  "specialization": 19,
+  "icon": "https://render.guildwars2.com/file/7732E03BF4E6CD02BAFF0DDC04780A6F177549CE/1012542.png"
+}

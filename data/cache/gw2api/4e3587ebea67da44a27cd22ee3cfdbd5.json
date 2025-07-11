@@ -1,0 +1,6158 @@
+[
+  {
+    "name": "Recipe: Steelstar's Musket",
+    "description": "A recipe to make an ascended rifle with Diviner's (+Power, +Concentration, +Ferocity, and +Precision) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 89941,
+    "chat_link": "[&AgFVXwEA]",
+    "icon": "https://render.guildwars2.com/file/7178B149E19C65A5FEF44FFB71EBFA0968946B99/849335.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 13119
+    }
+  },
+  {
+    "name": "Recipe: Steelstar's Wristguards",
+    "description": "A recipe to make ascended light gloves with Diviner's (+Power, +Concentration, +Ferocity, and +Precision) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 89942,
+    "chat_link": "[&AgFWXwEA]",
+    "icon": "https://render.guildwars2.com/file/EEC8F3F85DA3B3920C4ADAD9D81DBCA62711FFE5/849280.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 13029
+    }
+  },
+  {
+    "name": "Chasing Tales: Feed the Pyre",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 89944,
+    "chat_link": "[&AgFYXwEA]",
+    "icon": "https://render.guildwars2.com/file/2792760729B66EE74A2034B70CE244BCC76101CD/2083237.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Steelstar's Spire",
+    "description": "<c=@flavor>Crafted in the style of dwarven weaponsmith Frodak Steelstar.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 4244,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 89945,
+    "chat_link": "[&AgFZXwEA]",
+    "icon": "https://render.guildwars2.com/file/F86C3CD9FA20D20EE920590517993211C6F9B99C/631650.png",
+    "details": {
+      "type": "Staff",
+      "damage_type": "Physical",
+      "min_power": 1034,
+      "max_power": 1166,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 717.024,
+      "infix_upgrade": {
+        "id": 1539,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 215
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 118
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 118
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 215
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Diviner's Pearl Rod",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 3995,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 89946,
+    "chat_link": "[&AgFaXwEA]",
+    "icon": "https://render.guildwars2.com/file/09C51476177A48D86C44965D3034F4A8EA073A48/67794.png",
+    "details": {
+      "type": "Scepter",
+      "damage_type": "Physical",
+      "min_power": 895,
+      "max_power": 1010,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 1539,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 102
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 56
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 56
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 102
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Shard of Spero",
+    "description": "Used to craft the legendary longbow precursor Spero.\nCombine in the Mystic Forge with Mystic Runestones, a Gift of Wood, and a Gift of the Mists to create the Gift of Pharus.",
+    "type": "CraftingMaterial",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 83,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 89947,
+    "chat_link": "[&AgFbXwEA]",
+    "icon": "https://render.guildwars2.com/file/C30D43491455391048047E1A0DC351CFF4093B37/2083169.png"
+  },
+  {
+    "name": "Steelstar's Short Bow",
+    "description": "<c=@flavor>Crafted in the style of dwarven weaponsmith Frodak Steelstar.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 4151,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 89949,
+    "chat_link": "[&AgFdXwEA]",
+    "icon": "https://render.guildwars2.com/file/3D7A68807006A225D124A4315DDAFB10AA07CE0F/631634.png",
+    "details": {
+      "type": "ShortBow",
+      "damage_type": "Physical",
+      "min_power": 950,
+      "max_power": 1050,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 717.024,
+      "infix_upgrade": {
+        "id": 1539,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 215
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 118
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 118
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 215
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Recipe: Steelstar's Striders",
+    "description": "A recipe to make ascended medium boots with Diviner's (+Power, +Concentration, +Ferocity, and +Precision) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 89950,
+    "chat_link": "[&AgFeXwEA]",
+    "icon": "https://render.guildwars2.com/file/3153B6543A4502614239094397322C4EEA0FAA48/849295.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 13018
+    }
+  },
+  {
+    "name": "Recipe: Diviner's Leggings",
+    "description": "A recipe to make exotic medium leggings with Diviner's (+Power, +Concentration, +Ferocity, and +Precision) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 128,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 89951,
+    "chat_link": "[&AgFfXwEA]",
+    "icon": "https://render.guildwars2.com/file/2D1AE5B60CDBBC50075CA20EE6191EC4707DBF44/849310.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 13039
+    }
+  },
+  {
+    "name": "Chasing Tales: Call to Action",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 89953,
+    "chat_link": "[&AgFhXwEA]",
+    "icon": "https://render.guildwars2.com/file/92722912D79EE80C7BFFCC0691424DBAA2421446/2083240.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Recipe: Diviner's Trident",
+    "description": "A recipe to make an exotic trident with Diviner's (+Power, +Concentration, +Ferocity, and +Precision) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 128,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 89955,
+    "chat_link": "[&AgFjXwEA]",
+    "icon": "https://render.guildwars2.com/file/593C1FA6EC60BC403AEFE64DAE09BA096BDE981A/849328.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 13075
+    }
+  },
+  {
+    "name": "Vision of Elegos the Harmless",
+    "type": "CraftingMaterial",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 89957,
+    "chat_link": "[&AgFlXwEA]",
+    "icon": "https://render.guildwars2.com/file/95A3F26F0607736DF1F2756D023B9B0D79220838/2083231.png"
+  },
+  {
+    "name": "Serpentite Orichalcum Earring",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 330,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 89958,
+    "chat_link": "[&AgFmXwEA]",
+    "icon": "https://render.guildwars2.com/file/1DB39D44DF06ED10B931641A0599C7A5AE70C872/1203063.png",
+    "details": {
+      "type": "Accessory",
+      "infusion_slots": [],
+      "attribute_adjustment": 213.4,
+      "infix_upgrade": {
+        "id": 1539,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 64
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 35
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 35
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 64
+          }
+        ]
+      },
+      "suffix_item_id": 89696,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Diviner's Pearl Needler",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 3952,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 89961,
+    "chat_link": "[&AgFpXwEA]",
+    "icon": "https://render.guildwars2.com/file/655E24F31AFA03C0699AAAD6BCA7FF317D2B2849/67754.png",
+    "details": {
+      "type": "ShortBow",
+      "damage_type": "Physical",
+      "min_power": 905,
+      "max_power": 1000,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "infix_upgrade": {
+        "id": 1539,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 205
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 113
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 113
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 205
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Dragonsblood Warhorn",
+    "description": "A warhorn roughly forged from Brand crystal using techniques learned from Forge Master Hilina.",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 8572,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 89963,
+    "chat_link": "[&AgFrXwEA]",
+    "icon": "https://render.guildwars2.com/file/54660D67E028143B5EDE11D426136F3723B40E50/2083238.png",
+    "details": {
+      "type": "Warhorn",
+      "damage_type": "Choking",
+      "min_power": 814,
+      "max_power": 900,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 1539,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 102
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 56
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 56
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 102
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Recipe: Spero",
+    "description": "Unlocks the recipe to craft Spero.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 89965,
+    "chat_link": "[&AgFtXwEA]",
+    "icon": "https://render.guildwars2.com/file/1A060693BEC1773D0F07514442E81F60CF270D07/849330.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 13081,
+      "extra_recipe_ids": [
+        11851,
+        11847,
+        11854,
+        11849,
+        11852,
+        11867,
+        11850,
+        10442,
+        11987
+      ]
+    }
+  },
+  {
+    "name": "Caithe's Crystal Bloom Sword Skin",
+    "description": "Double-click to apply this look to any other sword.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 89966,
+    "chat_link": "[&AgFuXwEA]",
+    "icon": "https://render.guildwars2.com/file/FD5D036070334CD9A9F7D2E13DB5BA20C2AF26A1/2083369.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        8586
+      ]
+    }
+  },
+  {
+    "name": "Vision of Harkon Hakson the Maelstrom",
+    "type": "CraftingMaterial",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 89967,
+    "chat_link": "[&AgFvXwEA]",
+    "icon": "https://render.guildwars2.com/file/EA32A6E629C2F8E87BDB77B3309C152F01971659/2083195.png"
+  },
+  {
+    "name": "Recipe: Steelstar's Trident",
+    "description": "A recipe to make an ascended trident with Diviner's (+Power, +Concentration, +Ferocity, and +Precision) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 89968,
+    "chat_link": "[&AgFwXwEA]",
+    "icon": "https://render.guildwars2.com/file/01330C982F9439EA15BF43627DB50AB798746340/849323.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 13089
+    }
+  },
+  {
+    "name": "Steelstar's Visage",
+    "description": "<c=@flavor>Crafted in the style of dwarven weaponsmith Frodak Steelstar.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 124,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 89969,
+    "chat_link": "[&AgFxXwEA]",
+    "icon": "https://render.guildwars2.com/file/0EBB9F33579CC54CC39F685868FFD79D7A0FEEDC/699204.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Medium",
+      "defense": 102,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 179.256,
+      "infix_upgrade": {
+        "id": 1539,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 54
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 30
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 30
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 54
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Logan's Pact Marshal Outfit",
+    "description": "Double-click to wear this outfit.\n\nOutfits are full sets of clothing that hide other armor. This will not change individual armor pieces, and you will still receive your current armor stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 89971,
+    "chat_link": "[&AgFzXwEA]",
+    "icon": "https://render.guildwars2.com/file/1FAE7CEC6F2C701C2377564A539C09DC774FB255/2083355.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Outfit"
+    }
+  },
+  {
+    "name": "Turai Ossa Mini Reward Box",
+    "description": "This box contains a mini of Turai Ossa, dragonite ore, empyreal fragments, obsidian shards, and mystic clovers.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 89972,
+    "chat_link": "[&AgF0XwEA]",
+    "icon": "https://render.guildwars2.com/file/6B91360962B27D26EE5012C017EAA77B485BFDDC/1313126.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Recipe: Diviner's Impaler",
+    "description": "A recipe to make an exotic spear with Diviner's (+Power, +Concentration, +Ferocity, and +Precision) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 128,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 89973,
+    "chat_link": "[&AgF1XwEA]",
+    "icon": "https://render.guildwars2.com/file/043DA2FD01D8DD0B03C369B9B2020CC81138FFCF/849287.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 13054
+    }
+  },
+  {
+    "name": "Recipe: Diviner's Wristguards",
+    "description": "A recipe to make exotic light gloves with Diviner's (+Power, +Concentration, +Ferocity, and +Precision) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 128,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 89975,
+    "chat_link": "[&AgF3XwEA]",
+    "icon": "https://render.guildwars2.com/file/2165062CDCFBAAA0173AB39DF7EB10A2120816D0/849293.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 13072
+    }
+  },
+  {
+    "name": "Chasing Tales: Shattering Storm",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 89976,
+    "chat_link": "[&AgF4XwEA]",
+    "icon": "https://render.guildwars2.com/file/EC043CDA41FD51F8769075A95E61B0B30D017D93/2083204.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Chasing Tales: Purging Flame",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 89977,
+    "chat_link": "[&AgF5XwEA]",
+    "icon": "https://render.guildwars2.com/file/2792760729B66EE74A2034B70CE244BCC76101CD/2083237.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Chasing Tales: Direct Approach",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 89981,
+    "chat_link": "[&AgF9XwEA]",
+    "icon": "https://render.guildwars2.com/file/EADB19BA0C18D6731B4F1F346B01050C2B92C1E0/2083213.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Diviner's Exalted Masque",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 240,
+    "default_skin": 185,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 89982,
+    "chat_link": "[&AgF+XwEA]",
+    "icon": "https://render.guildwars2.com/file/0F2101315C12A3E75263224DEA3B946FFD0801E0/61523.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Light",
+      "defense": 73,
+      "infusion_slots": [],
+      "attribute_adjustment": 170.72,
+      "infix_upgrade": {
+        "id": 1539,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 51
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 28
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 28
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 51
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Vision of Mouglon the Watchful",
+    "type": "CraftingMaterial",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 89983,
+    "chat_link": "[&AgF/XwEA]",
+    "icon": "https://render.guildwars2.com/file/EADB19BA0C18D6731B4F1F346B01050C2B92C1E0/2083213.png"
+  },
+  {
+    "name": "Steelstar's Grips",
+    "description": "<c=@flavor>Crafted in the style of dwarven weaponsmith Frodak Steelstar.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 120,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 89985,
+    "chat_link": "[&AgGBXwEA]",
+    "icon": "https://render.guildwars2.com/file/E3BCBC4053466DEBC50B0B0894996353DE03C749/699205.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Medium",
+      "defense": 165,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "infix_upgrade": {
+        "id": 1539,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 40
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 22
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 22
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 40
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Recipe: Steelstar's Visor",
+    "description": "A recipe to make an ascended heavy helm with Diviner's (+Power, +Concentration, +Ferocity, and +Precision) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 89986,
+    "chat_link": "[&AgGCXwEA]",
+    "icon": "https://render.guildwars2.com/file/AC1C3075784E0C4235BD9E22E1752D6B49D66F0F/849281.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 13042
+    }
+  },
+  {
+    "name": "Chasing Tales: Preemptive Strike",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 89987,
+    "chat_link": "[&AgGDXwEA]",
+    "icon": "https://render.guildwars2.com/file/9F62D09CEA6FDBCDF65A3D1AEF2402E6DE40D818/2083219.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Dragonsblood Pistol",
+    "description": "A pistol roughly forged from Brand crystal using techniques learned from Forge Master Hilina.",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 8611,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 89989,
+    "chat_link": "[&AgGFXwEA]",
+    "icon": "https://render.guildwars2.com/file/7AE295B597CC6C6D923E0EFCF90F31CA5DDE764D/2083214.png",
+    "details": {
+      "type": "Pistol",
+      "damage_type": "Choking",
+      "min_power": 876,
+      "max_power": 1029,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 1539,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 102
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 56
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 56
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 102
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Recipe: Diviner's Visor",
+    "description": "A recipe to make an exotic heavy helm with Diviner's (+Power, +Concentration, +Ferocity, and +Precision) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 128,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 89990,
+    "chat_link": "[&AgGGXwEA]",
+    "icon": "https://render.guildwars2.com/file/0235F4DFF0183339CEB32FAD37522770D6AA55D0/849311.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 13062
+    }
+  },
+  {
+    "name": "Rival Skies Axe Set",
+    "description": "Double-click to open.\nThis set contains the Fiery Blade Axe skin and Icy Blade Axe skin.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 89994,
+    "chat_link": "[&AgGKXwEA]",
+    "icon": "https://render.guildwars2.com/file/3A40585CD5211B57390920E62DE73ED7BEF874F5/2083243.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Recipe: Steelstar's Visage",
+    "description": "A recipe to make an ascended medium helm with Diviner's (+Power, +Concentration, +Ferocity, and +Precision) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 89995,
+    "chat_link": "[&AgGLXwEA]",
+    "icon": "https://render.guildwars2.com/file/AC1C3075784E0C4235BD9E22E1752D6B49D66F0F/849281.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 13114
+    }
+  },
+  {
+    "name": "Chasing Tales: Like a Wounded Beast",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 89996,
+    "chat_link": "[&AgGMXwEA]",
+    "icon": "https://render.guildwars2.com/file/EA32A6E629C2F8E87BDB77B3309C152F01971659/2083195.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Chasing Tales: Baverne the Hunter (Rifle)",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 89997,
+    "chat_link": "[&AgGNXwEA]",
+    "icon": "https://render.guildwars2.com/file/6AE42F721C601C3E02716A34C52138B22F687601/1894646.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Shrine Guardian Outfit",
+    "description": "Double-click to wear this outfit.\n\nOutfits are full sets of clothing that hide other armor. This will not change individual armor pieces, and you will still receive your current armor stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 89998,
+    "chat_link": "[&AgGOXwEA]",
+    "icon": "https://render.guildwars2.com/file/3C277440FAE15143133468C27C804221479B5925/2100812.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Outfit"
+    }
+  },
+  {
+    "name": "Superior Rune of Fireworks",
+    "description": "<c=@abilitytype>Element: </c>Brilliance<br>Double-click to apply to a piece of armor.",
+    "type": "UpgradeComponent",
+    "level": 60,
+    "rarity": "Exotic",
+    "vendor_value": 216,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 89999,
+    "chat_link": "[&AgGPXwEA]",
+    "icon": "https://render.guildwars2.com/file/CECC01C8220163A9646171B0BAA528B73DE3D527/2100803.png",
+    "details": {
+      "type": "Rune",
+      "flags": [
+        "HeavyArmor",
+        "LightArmor",
+        "MediumArmor"
+      ],
+      "infusion_upgrade_flags": [],
+      "bonuses": [
+        "+25 Power",
+        "+5% Boon Duration",
+        "+50 Power",
+        "+10% Boon Duration",
+        "+100 Power",
+        "+10% Boon Duration"
+      ],
+      "attribute_adjustment": 0,
+      "infix_upgrade": {
+        "id": 112,
+        "attributes": []
+      },
+      "suffix": ""
+    }
+  },
+  {
+    "name": "Recipe: Rune of Fireworks",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 108,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90000,
+    "chat_link": "[&AgGQXwEA]",
+    "icon": "https://render.guildwars2.com/file/64F6762697317B5472056E11A3B2310E273BA16C/849265.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 13131
+    }
+  },
+  {
+    "name": "Mini Festive Lantern",
+    "description": "Double-click to summon this mini to follow you around. Only one mini may be in use at a time.\nCombine in the Mystic Forge to create a Mini Glowing Lantern.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 90001,
+    "chat_link": "[&AgGRXwEA]",
+    "icon": "https://render.guildwars2.com/file/7DEBE71470BA62D5780F40752821F429B129750D/2100807.png",
+    "details": {
+      "minipet_id": 748
+    }
+  },
+  {
+    "name": "Boar Statue",
+    "description": "A decoration schematic that is processed by the guild's assembly device to make the decoration.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90002,
+    "chat_link": "[&AgGSXwEA]",
+    "icon": "https://render.guildwars2.com/file/AFAE6842DD31F93248786D769749166A2E325C94/2100804.png",
+    "details": {
+      "type": "Generic",
+      "guild_upgrade_id": 1027
+    }
+  },
+  {
+    "name": "Staff of Fortune Skin",
+    "description": "Double-click to apply this look to any other staff.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90003,
+    "chat_link": "[&AgGTXwEA]",
+    "icon": "https://render.guildwars2.com/file/A1B6FC06C01EBD070C460242254E00290A734D97/2100836.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        8622
+      ]
+    }
+  },
+  {
+    "name": "Lucky Great Boar Lantern",
+    "type": "Back",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 8888,
+    "default_skin": 8624,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90004,
+    "chat_link": "[&AgGUXwEA]",
+    "icon": "https://render.guildwars2.com/file/56CFBDF9394B183209A913C6F40F3C9509AD697C/2100789.png",
+    "details": {
+      "infusion_slots": [],
+      "attribute_adjustment": 85.36,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539,
+        1717,
+        1687,
+        1826
+      ],
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Lucky Boar Lantern",
+    "type": "Back",
+    "level": 65,
+    "rarity": "Rare",
+    "vendor_value": 888,
+    "default_skin": 8623,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90006,
+    "chat_link": "[&AgGWXwEA]",
+    "icon": "https://render.guildwars2.com/file/48D558EC7E345701ECBC4701C5E3DA10011AC424/2100788.png",
+    "details": {
+      "infusion_slots": [],
+      "attribute_adjustment": 56.034,
+      "secondary_suffix_item_id": "",
+      "stat_choices": [
+        144,
+        145,
+        152,
+        142,
+        146,
+        149,
+        755
+      ]
+    }
+  },
+  {
+    "name": "Mini Fortunate Lantern",
+    "description": "Double-click to summon this mini to follow you around. Only one mini may be in use at a time.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90007,
+    "chat_link": "[&AgGXXwEA]",
+    "icon": "https://render.guildwars2.com/file/C3CF9D3172C604AE0AA7BC54C6CB11194F50D301/2100809.png",
+    "details": {
+      "minipet_id": 745
+    }
+  },
+  {
+    "name": "Unopened Endless Desert Mystery Tonic",
+    "description": "Transform into a random creature from the Elonian desert.\n\nAccount bound on use.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "NoUnderwater",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 90008,
+    "chat_link": "[&AgGYXwEA]",
+    "icon": "https://render.guildwars2.com/file/97E0EC51C86E462B417BCB07B617A101E24FDE49/1862167.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Mini Shrine Guardian",
+    "description": "Double-click to summon this mini to follow you around. Only one mini may be in use at a time.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90009,
+    "chat_link": "[&AgGZXwEA]",
+    "icon": "https://render.guildwars2.com/file/27B0562AEE087B15B32A90EFB8A5A3E6C847197F/2100320.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Minipet"
+    }
+  },
+  {
+    "name": "Exalted Shoulders Skin",
+    "description": "This will replace the appearance of one shoulder armor of any weight class and unlock the skin in your account wardrobe.\n\nThis shoulder skin has no stats of its own.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90010,
+    "chat_link": "[&AgGaXwEA]",
+    "icon": "https://render.guildwars2.com/file/FB2513F9790B5C6C41C70E057553D8BCB1995B6D/2100811.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        8617,
+        8618,
+        8621
+      ]
+    }
+  },
+  {
+    "name": "Visage of the Great Boar Firework",
+    "description": "Double-click to activate a one-time firework. Cannot be used in WvW.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "NoUnderwater",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 90011,
+    "chat_link": "[&AgGbXwEA]",
+    "icon": "https://render.guildwars2.com/file/4AABE9D20E0F30B030D9015DB5396540043DE113/2100806.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Mini Glowing Lantern",
+    "description": "Double-click to summon this mini to follow you around. Only one mini may be in use at a time.\nCombine in the Mystic Forge to create a Mini Fortunate Lantern.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90012,
+    "chat_link": "[&AgGcXwEA]",
+    "icon": "https://render.guildwars2.com/file/7DAA2D13D4617F181B9DD106E60B011DAE0D7016/2100808.png",
+    "details": {
+      "minipet_id": 746
+    }
+  },
+  {
+    "name": "Golden Boar Figurine",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Junk",
+    "vendor_value": 8888,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90014,
+    "chat_link": "[&AgGeXwEA]",
+    "icon": "https://render.guildwars2.com/file/4060489CC802675740A056E85903599658946542/2100805.png"
+  },
+  {
+    "name": "Wings of Love Backpack Skin",
+    "description": "This will replace the appearance of one back slot item of any weight class and unlock the skin in your account wardrobe.\n\nThis back slot skin has no stats of its own.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90015,
+    "chat_link": "[&AgGfXwEA]",
+    "icon": "https://render.guildwars2.com/file/92202B17922AC8190BD42915C9564521FF0DB34C/2107141.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        8627
+      ]
+    }
+  },
+  {
+    "name": "Club Chair",
+    "description": "Double-click to unlock this item in your wardrobe.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "NoUnderwater",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90016,
+    "chat_link": "[&AgGgXwEA]",
+    "icon": "https://render.guildwars2.com/file/D7E3C73074345E0E3CAE48644BB7EFBE1A127767/2107151.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Tournament of Legends: Magic or Might",
+    "description": "Double-click to receive your rewards.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90017,
+    "chat_link": "[&AgGhXwEA]",
+    "icon": "https://render.guildwars2.com/file/6E9FA3C99A223677280CD9154A3FB50E2B43AE5B/66895.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Tournament of Legends: Precursor Choice Box",
+    "description": "Double-click to receive your rewards.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90018,
+    "chat_link": "[&AgGiXwEA]",
+    "icon": "https://render.guildwars2.com/file/6E9FA3C99A223677280CD9154A3FB50E2B43AE5B/66895.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Legendary Choice Box",
+    "description": "Double-click to receive your rewards.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Legendary",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 90019,
+    "chat_link": "[&AgGjXwEA]",
+    "icon": "https://render.guildwars2.com/file/6E9FA3C99A223677280CD9154A3FB50E2B43AE5B/66895.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Flying Boar Glider",
+    "description": "This will unlock the glider skin in your account wardrobe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90020,
+    "chat_link": "[&AgGkXwEA]",
+    "icon": "https://render.guildwars2.com/file/CBA0E3EC19E17407B770A87062FAE40117E111E2/2107150.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "GliderSkin"
+    }
+  },
+  {
+    "name": "Tournament of Legends: Mastery or Fortune",
+    "description": "Double-click to receive your rewards.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90021,
+    "chat_link": "[&AgGlXwEA]",
+    "icon": "https://render.guildwars2.com/file/6E9FA3C99A223677280CD9154A3FB50E2B43AE5B/66895.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Defiant Glass Staff Skin",
+    "description": "Double-click to apply this look to any other staff.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 90022,
+    "chat_link": "[&AgGmXwEA]",
+    "icon": "https://render.guildwars2.com/file/D3C26102585E74735A74E05B36646F36E096EABF/2109734.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        8635
+      ]
+    }
+  },
+  {
+    "name": "Defiant Glass Sword Skin",
+    "description": "Double-click to apply this look to any other sword.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 90023,
+    "chat_link": "[&AgGnXwEA]",
+    "icon": "https://render.guildwars2.com/file/41E33B3A917A73FF1B652E0AD7E877032C01B61B/2109735.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        8634
+      ]
+    }
+  },
+  {
+    "name": "Defiant Glass Shield Skin",
+    "description": "Double-click to apply this look to any other shield.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 90024,
+    "chat_link": "[&AgGoXwEA]",
+    "icon": "https://render.guildwars2.com/file/D17AF9C1E3ED425F7A0D1FA554C865A7EBC2A9B9/2109732.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        8630
+      ]
+    }
+  },
+  {
+    "name": "Armistice Bastion Pass",
+    "description": "This pass provides permanent access to the Armistice Bastion, a neutral ground in the never-ending Mist War.\n• Quick Travel to All Cities\n• Access to WvW Maps and Team Chat\n• Crafting Stations\n• Bank and Guild-Bank Access\n• Mystic Forge\n• Merchants\n• And more! All within easy reach, for those who enjoy the ultimate convenience.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90025,
+    "chat_link": "[&AgGpXwEA]",
+    "icon": "https://render.guildwars2.com/file/15FB79FCD99EC30EAC26BD1411F5747B23476919/2109721.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Defiant Glass Warhorn Skin",
+    "description": "Double-click to apply this look to any other warhorn.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 90026,
+    "chat_link": "[&AgGqXwEA]",
+    "icon": "https://render.guildwars2.com/file/D9DF7FC7DE09DF6C6B91523A08EC772563D7F55B/2109737.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        8631
+      ]
+    }
+  },
+  {
+    "name": "Defiant Glass Focus Skin",
+    "description": "Double-click to apply this look to any other focus.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 90027,
+    "chat_link": "[&AgGrXwEA]",
+    "icon": "https://render.guildwars2.com/file/210946D6FEE129A123E5FB1F333F6577F63F5C48/2109725.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        8629
+      ]
+    }
+  },
+  {
+    "name": "Warclaw Armor Bolts",
+    "description": "Double-click to gain 5 WvW Skirmish Claim Tickets.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90028,
+    "chat_link": "[&AgGsXwEA]",
+    "icon": "https://render.guildwars2.com/file/A93BE96F550F232805A5B1B554A33A5675A7FD50/2109668.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Assault Warclaw Skin",
+    "description": "Double-click to unlock this warclaw mount skin for your account.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90029,
+    "chat_link": "[&AgGtXwEA]",
+    "icon": "https://render.guildwars2.com/file/547FA19F26185161FF532F13C8ACEED711B7B5BB/2110060.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Ms"
+    }
+  },
+  {
+    "name": "Warclaw Leg Armor",
+    "description": "Double-click to gain 5 WvW Skirmish Claim Tickets.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90030,
+    "chat_link": "[&AgGuXwEA]",
+    "icon": "https://render.guildwars2.com/file/44FE5DE4536F130824ACDBBF52AC23396A7C9492/2109671.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Defiant Glass Short Bow Skin",
+    "description": "Double-click to apply this look to any other short bow.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 90032,
+    "chat_link": "[&AgGwXwEA]",
+    "icon": "https://render.guildwars2.com/file/C00C56DA74A30742400AD9F2803996AC525D1B0A/2109733.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        8636
+      ]
+    }
+  },
+  {
+    "name": "Reunited",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90033,
+    "chat_link": "[&AgGxXwEA]",
+    "icon": "https://render.guildwars2.com/file/93F03B3C725542CCB220C0B56A662A32CA135197/222612.png"
+  },
+  {
+    "name": "Warclaw",
+    "description": "Double-click to unlock the warclaw mount.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage"
+    ],
+    "restrictions": [],
+    "id": 90035,
+    "chat_link": "[&AgGzXwEA]",
+    "icon": "https://render.guildwars2.com/file/41A0E0F39B9FBC69711E0D2B7C47CA57E793312C/2109667.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Armistice Bastion Pass (2 weeks)",
+    "description": "This pass provides temporary access to the Armistice Bastion, a neutral ground in the never-ending Mist War.\n• Quick Travel to All Cities\n• Access to WvW Maps and Team Chat\n• Crafting Stations\n• Bank and Guild-Bank Access\n• Mystic Forge\n• Merchants\n• And more! All within easy reach, for those who enjoy the ultimate convenience.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90036,
+    "chat_link": "[&AgG0XwEA]",
+    "icon": "https://render.guildwars2.com/file/0106EF1357F901D67BB6DA2A0AA791EF9C5D929C/2109720.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Etherbound Package",
+    "description": "This package contains the Etherbound Glider and Etherbound Backpiece.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90037,
+    "chat_link": "[&AgG1XwEA]",
+    "icon": "https://render.guildwars2.com/file/9397F419AACDBDBDD7C390AEA30F4DF2322ABB54/2109719.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        8638
+      ]
+    }
+  },
+  {
+    "name": "Warclaw Horn Spikes",
+    "description": "Double-click to gain 5 WvW Skirmish Claim Tickets.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90038,
+    "chat_link": "[&AgG2XwEA]",
+    "icon": "https://render.guildwars2.com/file/67E3DC2DD107D8F6D2041C95B50CF07C780BF122/2109670.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Defiant Glass Axe Skin",
+    "description": "Double-click to apply this look to any other axe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 90039,
+    "chat_link": "[&AgG3XwEA]",
+    "icon": "https://render.guildwars2.com/file/01E30656C123A32E43FA0DC90B260CC6E2AB2AAC/2109722.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        8632
+      ]
+    }
+  },
+  {
+    "name": "Outrider Warclaw Skin",
+    "description": "Double-click to unlock this warclaw mount skin for your account.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90040,
+    "chat_link": "[&AgG4XwEA]",
+    "icon": "https://render.guildwars2.com/file/03D4BB64FD0FC857D045D053E14624B19CCCB098/2110071.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Ms"
+    }
+  },
+  {
+    "name": "Warclaw Emblem",
+    "description": "Double-click to gain 5 WvW Skirmish Claim Tickets.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90041,
+    "chat_link": "[&AgG5XwEA]",
+    "icon": "https://render.guildwars2.com/file/9AD600FB28295D7DF7D747F76B9B52797E3561B3/2109669.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Further Studies",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90042,
+    "chat_link": "[&AgG6XwEA]",
+    "icon": "https://render.guildwars2.com/file/93F03B3C725542CCB220C0B56A662A32CA135197/222612.png"
+  },
+  {
+    "name": "Etherbound Backpiece",
+    "description": "This will replace the appearance of any back item and unlock the skin in your account wardrobe. \n\nThis backpack skin has no stats of its own.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90044,
+    "chat_link": "[&AgG8XwEA]",
+    "icon": "https://render.guildwars2.com/file/ED24EB72A8025F3AFD1303E29121A6ABA27EF217/2109676.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        8638
+      ]
+    }
+  },
+  {
+    "name": "Rules of the Mists",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90045,
+    "chat_link": "[&AgG9XwEA]",
+    "icon": "https://render.guildwars2.com/file/93F03B3C725542CCB220C0B56A662A32CA135197/222612.png"
+  },
+  {
+    "name": "Warclaw",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90048,
+    "chat_link": "[&AgHAXwEA]",
+    "icon": "https://render.guildwars2.com/file/93F03B3C725542CCB220C0B56A662A32CA135197/222612.png"
+  },
+  {
+    "name": "Defiant Glass Hammer Skin",
+    "description": "Double-click to apply this look to any other hammer.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 90049,
+    "chat_link": "[&AgHBXwEA]",
+    "icon": "https://render.guildwars2.com/file/2538C69025240E203E9D753C40A6E0B8A8654202/2109727.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        8637
+      ]
+    }
+  },
+  {
+    "name": "Mysterious Armor",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90050,
+    "chat_link": "[&AgHCXwEA]",
+    "icon": "https://render.guildwars2.com/file/93F03B3C725542CCB220C0B56A662A32CA135197/222612.png"
+  },
+  {
+    "name": "Warclaw Helmet",
+    "description": "Double-click to gain 5 WvW Skirmish Claim Tickets.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90051,
+    "chat_link": "[&AgHDXwEA]",
+    "icon": "https://render.guildwars2.com/file/C90B63643906F05C2BDBED4BE775423AC9C05263/2109672.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Defiant Glass Pistol Skin",
+    "description": "Double-click to apply this look to any other pistol.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 90052,
+    "chat_link": "[&AgHEXwEA]",
+    "icon": "https://render.guildwars2.com/file/90EDA495CED50025CD5E1B5178286153803DD957/2109729.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        8639
+      ]
+    }
+  },
+  {
+    "name": "Warclaw Saddle",
+    "description": "Double-click to gain 5 WvW Skirmish Claim Tickets.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90053,
+    "chat_link": "[&AgHFXwEA]",
+    "icon": "https://render.guildwars2.com/file/DAFF0DBC19EAD40D9C07670E685ED164D40D92B1/2109674.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Spirit of the Armor",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90054,
+    "chat_link": "[&AgHGXwEA]",
+    "icon": "https://render.guildwars2.com/file/93F03B3C725542CCB220C0B56A662A32CA135197/222612.png"
+  },
+  {
+    "name": "Warclaw Gorget",
+    "description": "Double-click to gain 5 WvW Skirmish Claim Tickets.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90055,
+    "chat_link": "[&AgHHXwEA]",
+    "icon": "https://render.guildwars2.com/file/922273753A67E1087375185723789190CC10E848/2109673.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Defiant Glass Torch Skin",
+    "description": "Double-click to apply this look to any other torch.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 90056,
+    "chat_link": "[&AgHIXwEA]",
+    "icon": "https://render.guildwars2.com/file/39070315D2789A00C55E7D98C003B8E8C8E86A21/2109736.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        8640
+      ]
+    }
+  },
+  {
+    "name": "Warclaw Certificate of Ownership",
+    "description": "Double-click to gain 5 WvW Skirmish Claim Tickets.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90057,
+    "chat_link": "[&AgHJXwEA]",
+    "icon": "https://render.guildwars2.com/file/41A0E0F39B9FBC69711E0D2B7C47CA57E793312C/2109667.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Defiant Glass Dagger Skin",
+    "description": "Double-click to apply this look to any other dagger.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 90058,
+    "chat_link": "[&AgHKXwEA]",
+    "icon": "https://render.guildwars2.com/file/02E401A7FD2BB4B69D723693B30CCC7B20E4A5F6/2109724.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        8643
+      ]
+    }
+  },
+  {
+    "name": "Defiant Glass Scepter Skin",
+    "description": "Double-click to apply this look to any other scepter.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 90059,
+    "chat_link": "[&AgHLXwEA]",
+    "icon": "https://render.guildwars2.com/file/FB7F3E40A60B190EDF7E2B54A45A6CC511B0BC65/2109731.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        8642
+      ]
+    }
+  },
+  {
+    "name": "Defiant Glass Rifle Skin",
+    "description": "Double-click to apply this look to any other rifle.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 90061,
+    "chat_link": "[&AgHNXwEA]",
+    "icon": "https://render.guildwars2.com/file/FF5696A6DFE44E4BB875E397EE305E73D7F5A242/2109730.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        8641
+      ]
+    }
+  },
+  {
+    "name": "Etherbound Glider",
+    "description": "This will unlock the glider skin in your account wardrobe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90062,
+    "chat_link": "[&AgHOXwEA]",
+    "icon": "https://render.guildwars2.com/file/9397F419AACDBDBDD7C390AEA30F4DF2322ABB54/2109719.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "GliderSkin"
+    }
+  },
+  {
+    "name": "Branded Warclaw Skin",
+    "description": "Double-click to unlock this warclaw mount skin for your account.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90063,
+    "chat_link": "[&AgHPXwEA]",
+    "icon": "https://render.guildwars2.com/file/BFFFD4805F0B16082013B402DBF65ABFB5E438BE/2109996.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Ms"
+    }
+  },
+  {
+    "name": "The Warclaw (Incomplete)",
+    "description": "Some pages appear to be missing from this book.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90064,
+    "chat_link": "[&AgHQXwEA]",
+    "icon": "https://render.guildwars2.com/file/924E992B2217CFCAC6CA0F06663FA99C6629CDAB/220885.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Vanguard Warclaw Skin",
+    "description": "Double-click to unlock this warclaw mount skin for your account.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90065,
+    "chat_link": "[&AgHRXwEA]",
+    "icon": "https://render.guildwars2.com/file/4CE10BAE99BA773842DD5A9A5C95CC640AB9951D/2110070.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Ms"
+    }
+  },
+  {
+    "name": "Armistice Bastion Pass (2 weeks)",
+    "description": "This pass provides temporary access to the Armistice Bastion, a neutral ground in the never-ending Mist War.\n• Quick Travel to All Cities\n• Access to WvW Maps and Team Chat\n• Crafting Stations\n• Bank and Guild-Bank Access\n• Mystic Forge\n• Merchants\n• And more! All within easy reach, for those who enjoy the ultimate convenience.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90067,
+    "chat_link": "[&AgHTXwEA]",
+    "icon": "https://render.guildwars2.com/file/0106EF1357F901D67BB6DA2A0AA791EF9C5D929C/2109720.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Defiant Glass Longbow Skin",
+    "description": "Double-click to apply this look to any other longbow.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 90069,
+    "chat_link": "[&AgHVXwEA]",
+    "icon": "https://render.guildwars2.com/file/03F7240945055896E4E25D4AD7581D350EBD9D2A/2109723.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        8628
+      ]
+    }
+  },
+  {
+    "name": "Warclaw Tail Armor",
+    "description": "Double-click to gain 5 WvW Skirmish Claim Tickets.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90070,
+    "chat_link": "[&AgHWXwEA]",
+    "icon": "https://render.guildwars2.com/file/02F912C823472460C1007BE59D710DE7346E2057/2109675.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Sample Ability Reset Guide",
+    "description": "Instantly reset all WvW ability points when bought. One per character.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 90071,
+    "chat_link": "[&AgHXXwEA]",
+    "icon": "https://render.guildwars2.com/file/13B31F2D344198B306675F4ABBAF30E4C141E53F/1766011.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Wyvern Roost Scepter Skin",
+    "description": "Double-click to apply this look to any other scepter.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90072,
+    "chat_link": "[&AgHYXwEA]",
+    "icon": "https://render.guildwars2.com/file/C515312901139F54DD16B179DE52445EF27761BB/2109897.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        8645
+      ]
+    }
+  },
+  {
+    "name": "Defiant Glass Greatsword Skin",
+    "description": "Double-click to apply this look to any other greatsword.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 90073,
+    "chat_link": "[&AgHZXwEA]",
+    "icon": "https://render.guildwars2.com/file/7DBF0CD078D841BE6E2113C619A2A7387FF904D9/2109726.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        8633
+      ]
+    }
+  },
+  {
+    "name": "Defiant Glass Mace Skin",
+    "description": "Double-click to apply this look to any other mace.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 90074,
+    "chat_link": "[&AgHaXwEA]",
+    "icon": "https://render.guildwars2.com/file/0FE956080E55E7433D02C920A35D0E6A3393C95C/2109728.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        8644
+      ]
+    }
+  },
+  {
+    "name": "The Warclaw",
+    "description": "Double-click to read. Can be repurchased from Elvie the Warclaw Tender.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90075,
+    "chat_link": "[&AgHbXwEA]",
+    "icon": "https://render.guildwars2.com/file/924E992B2217CFCAC6CA0F06663FA99C6629CDAB/220885.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Embermane Warclaw Skin",
+    "description": "Double-click to unlock this warclaw mount skin for your account.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90076,
+    "chat_link": "[&AgHcXwEA]",
+    "icon": "https://render.guildwars2.com/file/CCFE08DC20A4A56402A35A09ED0A0FF3FAA0E967/2109995.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Ms"
+    }
+  },
+  {
+    "name": "Fractal State",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90077,
+    "chat_link": "[&AgHdXwEA]",
+    "icon": "https://render.guildwars2.com/file/93F03B3C725542CCB220C0B56A662A32CA135197/222612.png"
+  },
+  {
+    "name": "Super Ice Wall",
+    "description": "Deposit this decoration in the guild's decoration storage.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90078,
+    "chat_link": "[&AgHeXwEA]",
+    "icon": "https://render.guildwars2.com/file/0E43DF4B7A0FA19B210FB8DD1E0A16BF1CEFDE3A/2117557.png",
+    "details": {
+      "type": "Generic",
+      "guild_upgrade_id": 1031
+    }
+  },
+  {
+    "name": "Sacred Dye Kit",
+    "description": "Contains one random armor dye from a pool of 25 colors that includes six exclusive colors.\n\nDyes can be unlocked for unlimited use to color armor on all characters. Dye bottles can also be recycled in the Mystic Forge.\n\n<c=#FFC957>All dyes have an equal chance to drop.</c>",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90079,
+    "chat_link": "[&AgHfXwEA]",
+    "icon": "https://render.guildwars2.com/file/7E1EE85B665A5FBD410BD1DB941D39E04A2A57E5/2117606.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Mythic Cake",
+    "description": "PROGENY TIP: Rescue the trespasser frozen by a YETI!",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90080,
+    "chat_link": "[&AgHgXwEA]",
+    "icon": "https://render.guildwars2.com/file/FCCB3B01051530B60E5C476D09DB50F21280ADB9/2117550.png"
+  },
+  {
+    "name": "Epic Apple",
+    "description": "PROGENY TIP: A BEE DOG can reach the secret tree in the HUB!",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90081,
+    "chat_link": "[&AgHhXwEA]",
+    "icon": "https://render.guildwars2.com/file/B4727AB325FDAF66BED8DDC672560953E89DF001/2117551.png"
+  },
+  {
+    "name": "Mini Super Adventure Gourdon",
+    "description": "Double-click to summon this mini to follow you around. Only one mini may be in use at a time.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90082,
+    "chat_link": "[&AgHiXwEA]",
+    "icon": "https://render.guildwars2.com/file/800B2FDDA635E4FEE62DF358DC4B13FC68CE4A56/2117558.png",
+    "details": {
+      "minipet_id": 749
+    }
+  },
+  {
+    "name": "Super Short Cliff Face",
+    "description": "Deposit this decoration in the guild's decoration storage.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90083,
+    "chat_link": "[&AgHjXwEA]",
+    "icon": "https://render.guildwars2.com/file/A8315734A6D9131CBAE5441EDA075DD016BC31E7/2117553.png",
+    "details": {
+      "type": "Generic",
+      "guild_upgrade_id": 1028
+    }
+  },
+  {
+    "name": "Defiant Glass Backpack Skin",
+    "description": "This will replace the appearance of any back item and unlock the skin in your account wardrobe. \n\nThis backpack skin has no stats of its own.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90084,
+    "chat_link": "[&AgHkXwEA]",
+    "icon": "https://render.guildwars2.com/file/A45777001501046BEF5B2B01FE3F0C0F313896BF/2117603.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        8649
+      ]
+    }
+  },
+  {
+    "name": "Legion Jetpack",
+    "description": "This will replace the appearance of any back item and unlock the skin in your account wardrobe. \n\nThis backpack skin has no stats of its own.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90085,
+    "chat_link": "[&AgHlXwEA]",
+    "icon": "https://render.guildwars2.com/file/569993737B1DBAB598F5C01CA007E95CB89B7104/2117559.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        8647
+      ]
+    }
+  },
+  {
+    "name": "Cerulean Sky Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 90086,
+    "chat_link": "[&AgHmXwEA]",
+    "icon": "https://render.guildwars2.com/file/FFE3A6302A0409148059239E05C9064D5DAF1E04/561734.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 1637
+    }
+  },
+  {
+    "name": "Super Cliff Face",
+    "description": "Deposit this decoration in the guild's decoration storage.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90087,
+    "chat_link": "[&AgHnXwEA]",
+    "icon": "https://render.guildwars2.com/file/A325BCC7A8327802220E66B959020BB59F31085B/2117552.png",
+    "details": {
+      "type": "Generic",
+      "guild_upgrade_id": 1029
+    }
+  },
+  {
+    "name": "Super Snowy Cliff Face",
+    "description": "Deposit this decoration in the guild's decoration storage.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90088,
+    "chat_link": "[&AgHoXwEA]",
+    "icon": "https://render.guildwars2.com/file/CE4C5BCA010BB933CA741FACE0A14735BEC907F4/2117555.png",
+    "details": {
+      "type": "Generic",
+      "guild_upgrade_id": 1032
+    }
+  },
+  {
+    "name": "Super Tall Cliff Face",
+    "description": "Deposit this decoration in the guild's decoration storage.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90089,
+    "chat_link": "[&AgHpXwEA]",
+    "icon": "https://render.guildwars2.com/file/DEECB813AFB2690EE8B87D251D650228536DD873/2117554.png",
+    "details": {
+      "type": "Generic",
+      "guild_upgrade_id": 1030
+    }
+  },
+  {
+    "name": "Super Adventure Bonus: Bronze",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90090,
+    "chat_link": "[&AgHqXwEA]",
+    "icon": "https://render.guildwars2.com/file/35CAA47D4873225E16432055221ABB5BB97C48CC/2117547.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Super Adventure Box Chair",
+    "description": "Double-click to unlock this item in your wardrobe.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "NoUnderwater",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90091,
+    "chat_link": "[&AgHrXwEA]",
+    "icon": "https://render.guildwars2.com/file/C89506FF106B114F649205FC04C6B3D206669F3C/2117604.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Legendary Cheese",
+    "description": "PROGENY TIP: Buried next to a RACING CACTUS!",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90092,
+    "chat_link": "[&AgHsXwEA]",
+    "icon": "https://render.guildwars2.com/file/A7C0F8E3F90EC1570CE202B435B63517BDADFCBA/2117548.png"
+  },
+  {
+    "name": "Legion Jetpack Glider",
+    "description": "This will unlock the glider skin in your account wardrobe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90093,
+    "chat_link": "[&AgHtXwEA]",
+    "icon": "https://render.guildwars2.com/file/A14D61B918F9FB80EE7D01CF5ADAEFCBF35751EB/2117560.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "GliderSkin"
+    }
+  },
+  {
+    "name": "Dawn Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 90094,
+    "chat_link": "[&AgHuXwEA]",
+    "icon": "https://render.guildwars2.com/file/FFE3A6302A0409148059239E05C9064D5DAF1E04/561734.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 1634
+    }
+  },
+  {
+    "name": "Celestial Blue Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 90095,
+    "chat_link": "[&AgHvXwEA]",
+    "icon": "https://render.guildwars2.com/file/FFE3A6302A0409148059239E05C9064D5DAF1E04/561734.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 1636
+    }
+  },
+  {
+    "name": "Carapace Armor Box",
+    "description": "This armor box contains unique armor skins, Dragonite Ore, Empyreal Fragments, Obsidian Shards, Mystic Clovers, and Testimonies of Heroics.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90096,
+    "chat_link": "[&AgHwXwEA]",
+    "icon": "https://render.guildwars2.com/file/21E0CCFD196D174B0132CCE10909EFE560221DFC/771003.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Secret Key",
+    "description": "PROGENY TIP: Climb down carefully in the HUB!",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90097,
+    "chat_link": "[&AgHxXwEA]",
+    "icon": "https://render.guildwars2.com/file/6A3F01BDA898D20C600121743E9EFB0AB1394BA7/631457.png"
+  },
+  {
+    "name": "Defiant Glass Outfit",
+    "description": "Double-click to wear this outfit.\n\nOutfits are full sets of clothing that hide other armor. This will not change individual armor pieces, and you will still receive your current armor stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90098,
+    "chat_link": "[&AgHyXwEA]",
+    "icon": "https://render.guildwars2.com/file/78BFD535C07B68F8EE2AA1D1191D2A0E184506EF/2117652.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Outfit"
+    }
+  },
+  {
+    "name": "Radiant Gold Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 90099,
+    "chat_link": "[&AgHzXwEA]",
+    "icon": "https://render.guildwars2.com/file/FFE3A6302A0409148059239E05C9064D5DAF1E04/561734.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 1638
+    }
+  },
+  {
+    "name": "Incredible Prize",
+    "description": "PROGENY TIP: The PRIZE DISPENSER is set up at the end of the RAPIDS!",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90100,
+    "chat_link": "[&AgH0XwEA]",
+    "icon": "https://render.guildwars2.com/file/71F657404DD26303EDBD62F82ABA1C736664F8D0/960286.png"
+  },
+  {
+    "name": "Super Snow Floor",
+    "description": "Deposit this decoration in the guild's decoration storage.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90101,
+    "chat_link": "[&AgH1XwEA]",
+    "icon": "https://render.guildwars2.com/file/E038BE26B0BEF64E3FE1D0C762B3BD68740B3790/2117556.png",
+    "details": {
+      "type": "Generic",
+      "guild_upgrade_id": 1033
+    }
+  },
+  {
+    "name": "Super Assassin Backpack",
+    "description": "<c=@flavor>An out-of-the-Box product of Moto's state-of-the-art solid holography.</c>",
+    "type": "Back",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 330,
+    "default_skin": 7201,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "NotUpgradeable",
+      "Unique",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90102,
+    "chat_link": "[&AgH2XwEA]",
+    "icon": "https://render.guildwars2.com/file/BC3649652D6E5DD3926C9BC12DE36680237DBEF9/1664053.png",
+    "details": {
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ],
+          "item_id": 78028
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 89.628,
+      "stat_choices": [
+        584,
+        656,
+        658,
+        1119,
+        657,
+        1038,
+        1097,
+        659,
+        690,
+        583,
+        585,
+        1037,
+        586,
+        1035,
+        588,
+        1114,
+        1128,
+        1163,
+        1066,
+        1064,
+        660,
+        1430,
+        1436,
+        591,
+        581,
+        592,
+        1263,
+        1271,
+        1265,
+        1270,
+        1262,
+        1268,
+        1264,
+        1267,
+        1269,
+        1366,
+        1367,
+        1374,
+        1549,
+        1566,
+        1691,
+        1706,
+        1827
+      ],
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Radiant Brass Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 90103,
+    "chat_link": "[&AgH3XwEA]",
+    "icon": "https://render.guildwars2.com/file/FFE3A6302A0409148059239E05C9064D5DAF1E04/561734.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 1635
+    }
+  },
+  {
+    "name": "Fabled Drumstick",
+    "description": "PROGENY TIP: Use a SECRET SONG to reach the picnic in the CLIFFS!",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90104,
+    "chat_link": "[&AgH4XwEA]",
+    "icon": "https://render.guildwars2.com/file/6EF7F9EC0E3A9215A7FDBC711F5ABA7FCA43ACE6/2117549.png"
+  },
+  {
+    "name": "Auspicious Hat",
+    "description": "PROGENY TIP: Use the BOMB to open a cave in the SUNNY GLADE!",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90105,
+    "chat_link": "[&AgH5XwEA]",
+    "icon": "https://render.guildwars2.com/file/BFA0010B0F68AADA250766B5750D62A6FB05B507/631444.png"
+  },
+  {
+    "name": "Super Adventure Bonus: Gold",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90106,
+    "chat_link": "[&AgH6XwEA]",
+    "icon": "https://render.guildwars2.com/file/37B662BF9C17CD0D5D06DC42CE9C0892F3B01742/1663861.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Cerulean Night Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 90107,
+    "chat_link": "[&AgH7XwEA]",
+    "icon": "https://render.guildwars2.com/file/FFE3A6302A0409148059239E05C9064D5DAF1E04/561734.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 1633
+    }
+  },
+  {
+    "name": "Majestic Crown",
+    "description": "PROGENY TIP: You can drain the IMPROPER WATER using the BOMB!",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90108,
+    "chat_link": "[&AgH8XwEA]",
+    "icon": "https://render.guildwars2.com/file/F14C06005748B4FC30A94DB8A69891070557B860/631443.png"
+  },
+  {
+    "name": "Extra Tiara",
+    "description": "PROGENY TIP: Buried at the top of the tree at the very beginning!",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90109,
+    "chat_link": "[&AgH9XwEA]",
+    "icon": "https://render.guildwars2.com/file/DCF5DD1E4D0BBD027D08237CDCB00791A29DC33C/631436.png"
+  },
+  {
+    "name": "Super Adventure Bonus: Silver",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90110,
+    "chat_link": "[&AgH+XwEA]",
+    "icon": "https://render.guildwars2.com/file/F4F8074F923F90ACE8CFB532F005E34AB264F909/2117546.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Incredible Reward",
+    "description": "PROGENY TIP: Use the BOMB to find the SECRET CANNON at the start of the KINGDOM OF FUNGUS!",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90112,
+    "chat_link": "[&AgEAYAEA]",
+    "icon": "https://render.guildwars2.com/file/71F657404DD26303EDBD62F82ABA1C736664F8D0/960286.png"
+  },
+  {
+    "name": "Ritualist Outfit",
+    "description": "Double-click to wear this outfit.\n\nOutfits are full sets of clothing that hide other armor. This will not change individual armor pieces, and you will still receive your current armor stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90113,
+    "chat_link": "[&AgEBYAEA]",
+    "icon": "https://render.guildwars2.com/file/CCF55D3CFBCCAE060C73483213EC01E4A0B02EE3/2124136.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Outfit"
+    }
+  },
+  {
+    "name": "Branded Riftstone",
+    "description": "Double-click to open a rift to the Mists.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90114,
+    "chat_link": "[&AgECYAEA]",
+    "icon": "https://render.guildwars2.com/file/BB5A9ED4F79E43D257D8D1A1BC41F826BBE19A55/2124119.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Riftstone Satchel",
+    "description": "Double-click to open.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 256,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90115,
+    "chat_link": "[&AgEDYAEA]",
+    "icon": "https://render.guildwars2.com/file/1C51A32C61D94839C917C3F51A1A1709FA383BE8/2124117.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Lost Cow's Reunion",
+    "description": "Return the lost cow to its owner in Diessa Plateau.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90116,
+    "chat_link": "[&AgEEYAEA]",
+    "icon": "https://render.guildwars2.com/file/7056017FCDF3E273CB3F2ECE66DBE435B25B7631/66786.png"
+  },
+  {
+    "name": "Riftstalker's Core",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 8652,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90117,
+    "chat_link": "[&AgEFYAEA]",
+    "icon": "https://render.guildwars2.com/file/D7A03C4F01B7E63F205AF316D16D9E2E296E3D72/2124167.png",
+    "details": {
+      "type": "Scepter",
+      "damage_type": "Physical",
+      "min_power": 895,
+      "max_power": 1010,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539,
+        1717,
+        1687,
+        1826
+      ],
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Lost Cat",
+    "description": "A missing belonging found inside a rift in the Mists.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90118,
+    "chat_link": "[&AgEGYAEA]",
+    "icon": "https://render.guildwars2.com/file/D048B33A0266139B6A9C9ECA18C2BCADB91C9D34/1766401.png"
+  },
+  {
+    "name": "Lost Rifle's Reunion",
+    "description": "Return the lost rifle to its owner in the Iron Marches.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90119,
+    "chat_link": "[&AgEHYAEA]",
+    "icon": "https://render.guildwars2.com/file/C00439EF2BE3B9E5F86299D9F47E32C0D40AD6C4/63109.png"
+  },
+  {
+    "name": "Lost Golem",
+    "description": "A missing belonging found inside a rift in the Mists.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90120,
+    "chat_link": "[&AgEIYAEA]",
+    "icon": "https://render.guildwars2.com/file/D048B33A0266139B6A9C9ECA18C2BCADB91C9D34/1766401.png"
+  },
+  {
+    "name": "Mini Blue Skimmer Pup",
+    "description": "Surprisingly, newborn skimmer pups don't need any parental care after birth.<br>Combine 3 Mini Blue Skimmer Pups with 2 Unidentified Dyes in the Mystic Forge to create a Mini Green Skimmer Pup.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 90121,
+    "chat_link": "[&AgEJYAEA]",
+    "icon": "https://render.guildwars2.com/file/17CA9B59F179ED1F90BFED14B0CBCB53C7E9F264/2123976.png",
+    "details": {
+      "minipet_id": 759
+    }
+  },
+  {
+    "name": "Mini Green Skimmer Pup",
+    "description": "Surprisingly, newborn skimmer pups don't need any parental care after birth.<br>Combine 1 Blue and 2 Green Mini Skimmer Pups with 4 Unidentified Dyes in the Mystic Forge to create a Mini Orange Skimmer Pup.<br>Combine 1 Orange and 2 Blue Mini Skimmer Pups with 4 Unidentified Dyes in the Mystic Forge to create a Mini Purple Skimmer Pup.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 90122,
+    "chat_link": "[&AgEKYAEA]",
+    "icon": "https://render.guildwars2.com/file/08D3E5B2D598CD7005969D9BD6B3403DBD15C457/2123988.png",
+    "details": {
+      "minipet_id": 756
+    }
+  },
+  {
+    "name": "Lost Dolyak",
+    "description": "A missing belonging found inside a rift in the Mists.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90123,
+    "chat_link": "[&AgELYAEA]",
+    "icon": "https://render.guildwars2.com/file/D048B33A0266139B6A9C9ECA18C2BCADB91C9D34/1766401.png"
+  },
+  {
+    "name": "Mini Lantern Skimmer Pup",
+    "description": "While several species of skimmers exhibit bioluminescent properties, the Lantern's glowing features eclipse all of its other brethren when it comes to sheer brightness.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 90124,
+    "chat_link": "[&AgEMYAEA]",
+    "icon": "https://render.guildwars2.com/file/96E59D46523B983D440965F6CCD7EBF0ABE81106/2124004.png",
+    "details": {
+      "minipet_id": 758
+    }
+  },
+  {
+    "name": "Lost Statue",
+    "description": "A missing belonging found inside a rift in the Mists.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90125,
+    "chat_link": "[&AgENYAEA]",
+    "icon": "https://render.guildwars2.com/file/D048B33A0266139B6A9C9ECA18C2BCADB91C9D34/1766401.png"
+  },
+  {
+    "name": "Lost Cow",
+    "description": "A missing belonging found inside a rift in the Mists.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90126,
+    "chat_link": "[&AgEOYAEA]",
+    "icon": "https://render.guildwars2.com/file/D048B33A0266139B6A9C9ECA18C2BCADB91C9D34/1766401.png"
+  },
+  {
+    "name": "Ritualist Staff Skin",
+    "description": "Double-click to apply this look to any other staff.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90127,
+    "chat_link": "[&AgEPYAEA]",
+    "icon": "https://render.guildwars2.com/file/C209639B753B192D927FCBE048246517039896EC/2124162.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        8651
+      ]
+    }
+  },
+  {
+    "name": "Riftstalker's Sunderer",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 8655,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90128,
+    "chat_link": "[&AgEQYAEA]",
+    "icon": "https://render.guildwars2.com/file/3D38AD1F10B62B6BE465FA3C0906BA68DF936905/2124129.png",
+    "details": {
+      "type": "Greatsword",
+      "damage_type": "Physical",
+      "min_power": 995,
+      "max_power": 1100,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539,
+        1717,
+        1687,
+        1826
+      ],
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Lost Greatsword's Reunion",
+    "description": "Return the lost greatsword to its owner in Lornar's Pass.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90129,
+    "chat_link": "[&AgERYAEA]",
+    "icon": "https://render.guildwars2.com/file/D82CC45CC9B206AADFD6A9F392426B75115D794B/66790.png"
+  },
+  {
+    "name": "Riftstalker's Talon",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 8650,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90130,
+    "chat_link": "[&AgESYAEA]",
+    "icon": "https://render.guildwars2.com/file/9D92D39B16AE0ADCAC37113F387AD39EEA2F2918/2124184.png",
+    "details": {
+      "type": "Sword",
+      "damage_type": "Physical",
+      "min_power": 905,
+      "max_power": 1000,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539,
+        1717,
+        1687,
+        1826
+      ],
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Lost Statue's Reunion",
+    "description": "Return the lost statue to its owner in Kessex Hills.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90131,
+    "chat_link": "[&AgETYAEA]",
+    "icon": "https://render.guildwars2.com/file/927747D7FF36EC5D7807AA80FF307D0A6D78F661/66789.png"
+  },
+  {
+    "name": "Lost Dolyak's Reunion",
+    "description": "Return the lost dolyak to its owner in Snowden Drifts.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90132,
+    "chat_link": "[&AgEUYAEA]",
+    "icon": "https://render.guildwars2.com/file/B79A06ABD63013093A4ABC380425A439AE48A967/66787.png"
+  },
+  {
+    "name": "Mini Skimmer Pup Reward Chest",
+    "description": "Contains 5 Black Lion Miniature Claim Tickets and 5 Black Lion Chest Keys.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 192,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90133,
+    "chat_link": "[&AgEVYAEA]",
+    "icon": "https://render.guildwars2.com/file/E1BBB0CCDFFF63C3C958C229732707D0BAB21611/603243.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Mini Purple Skimmer Pup",
+    "description": "Surprisingly, newborn skimmer pups don't need any parental care after birth.<br>Combine 1 Blue, 1 Green, and 1 Purple Mini Skimmer Pup with 8 Unidentified Dyes in the Mystic Forge to create a Mini Black Skimmer Pup.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 90134,
+    "chat_link": "[&AgEWYAEA]",
+    "icon": "https://render.guildwars2.com/file/1656AA4DBBC2B73F0C027816C4AE731115512FFE/2124016.png",
+    "details": {
+      "minipet_id": 753
+    }
+  },
+  {
+    "name": "Lost Rifle",
+    "description": "A missing belonging found inside a rift in the Mists.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90135,
+    "chat_link": "[&AgEXYAEA]",
+    "icon": "https://render.guildwars2.com/file/D048B33A0266139B6A9C9ECA18C2BCADB91C9D34/1766401.png"
+  },
+  {
+    "name": "Elonian Adversaries Dye Package",
+    "description": "This package contains the following items:\n* Elonian Landscape Dye Kit\n* Elonian Beasts Dye Kit\n* Awakened Dye Kit\n* Zhaitan Dye Kit\n* Kralkatorrik Dye Kit",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 12,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90136,
+    "chat_link": "[&AgEYYAEA]",
+    "icon": "https://render.guildwars2.com/file/3063039A536A590CEE2D5AB3F5D20B77E90A0CBC/2124137.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Ritualist Staff Skin",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90137,
+    "chat_link": "[&AgEZYAEA]",
+    "icon": "https://render.guildwars2.com/file/C209639B753B192D927FCBE048246517039896EC/2124162.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        8651
+      ]
+    }
+  },
+  {
+    "name": "Mini Gold Skimmer Pup",
+    "description": "Surprisingly, newborn skimmer pups don't need any parental care after birth.<br>Combine 1 Black and 2 Gold Mini Skimmer Pups with 20 Unidentified Dyes in the Mystic Forge to create a Mini Lantern Skimmer Pup.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 90139,
+    "chat_link": "[&AgEbYAEA]",
+    "icon": "https://render.guildwars2.com/file/35CFED4BFF1D9D112B0A01720D10B35A4253FB5D/2123982.png",
+    "details": {
+      "minipet_id": 755
+    }
+  },
+  {
+    "name": "Riftstalker Carapace",
+    "description": "This unusual material can be used in the Mystic Forge to craft Riftstalker weaponry.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 9000,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage"
+    ],
+    "restrictions": [],
+    "id": 90141,
+    "chat_link": "[&AgEdYAEA]",
+    "icon": "https://render.guildwars2.com/file/433FC255015B6EC8A65AD5268058D8F515E1787A/2124118.png"
+  },
+  {
+    "name": "Mini Black Skimmer Pup",
+    "description": "Surprisingly, newborn skimmer pups don't need any parental care after birth.<br>Combine 1 Black and 2 Orange Mini Skimmer Pups with 12 Unidentified Dyes in the Mystic Forge to create a Mini Gold Skimmer Pup.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 90142,
+    "chat_link": "[&AgEeYAEA]",
+    "icon": "https://render.guildwars2.com/file/7B187B57CB76B79B28AC676D45BA4E66FE735780/2123970.png",
+    "details": {
+      "minipet_id": 750
+    }
+  },
+  {
+    "name": "Mini Silver Skimmer Pup",
+    "description": "Surprisingly, newborn skimmer pups don't need any parental care after birth.<br>Combine 1 White, 1 Black, and 1 Silver Mini Skimmer Pup with 20 Unidentified Dyes in the Mystic Forge to create a Mini Iceberg Skimmer Pup.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 90143,
+    "chat_link": "[&AgEfYAEA]",
+    "icon": "https://render.guildwars2.com/file/BD5F997ABC701DF4BB18C3A3DA333CAAA496BE9F/2124020.png",
+    "details": {
+      "minipet_id": 751
+    }
+  },
+  {
+    "name": "Lost Golem's Reunion",
+    "description": "Return the lost golem to its owner in Brisban Wildlands.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90144,
+    "chat_link": "[&AgEgYAEA]",
+    "icon": "https://render.guildwars2.com/file/C00439EF2BE3B9E5F86299D9F47E32C0D40AD6C4/63109.png"
+  },
+  {
+    "name": "Mini Iceberg Skimmer Pup",
+    "description": "Unlike many of its sibling species, icy waters and frigid temperatures are no problem for this arctic skimmer.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 90145,
+    "chat_link": "[&AgEhYAEA]",
+    "icon": "https://render.guildwars2.com/file/C710C822674966D0183CF1C9FCA377F0670EDD5D/2123998.png",
+    "details": {
+      "minipet_id": 752
+    }
+  },
+  {
+    "name": "Mini White Skimmer Pup",
+    "description": "Surprisingly, newborn skimmer pups don't need any parental care after birth.<br>Combine 1 Purple and 2 White Mini Skimmer Pups with 12 Unidentified Dyes in the Mystic Forge to create a Mini Silver Skimmer Pup.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 90146,
+    "chat_link": "[&AgEiYAEA]",
+    "icon": "https://render.guildwars2.com/file/325AC1344ABF6434A0E36D766927EFF10A4F0E1F/2124026.png",
+    "details": {
+      "minipet_id": 757
+    }
+  },
+  {
+    "name": "Lost Cat's Reunion",
+    "description": "Return the lost cat to its owner in Dredgehaunt Cliffs.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90147,
+    "chat_link": "[&AgEjYAEA]",
+    "icon": "https://render.guildwars2.com/file/9B2F7DF8C5BE57A257D16FB64AD474B63F1FC2AE/66788.png"
+  },
+  {
+    "name": "Maguuma Pact Operation Portal Device",
+    "description": "Double-click to bring up the Portal Device interface. Allows the monitoring of Pact operations in Heart of Maguuma, toggling of alerts, and portal travel to join Pact forces.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 192,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90148,
+    "chat_link": "[&AgEkYAEA]",
+    "icon": "https://render.guildwars2.com/file/0F59B4F9A4BB4F0EC3661DACDFC7C2D9C06F1722/2124135.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Mini Orange Skimmer Pup",
+    "description": "Surprisingly, newborn skimmer pups don't need any parental care after birth.<br>Combine 1 Blue, 1 Green, and 1 Orange Mini Skimmer Pup with 8 Unidentified Dyes in the Mystic Forge to create a Mini White Skimmer Pup.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 90149,
+    "chat_link": "[&AgElYAEA]",
+    "icon": "https://render.guildwars2.com/file/79009EC5E42D50EFE04DF3F72BEBA246A37B697C/2124010.png",
+    "details": {
+      "minipet_id": 754
+    }
+  },
+  {
+    "name": "Lost Greatsword",
+    "description": "A missing belonging found inside a rift in the Mists.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90150,
+    "chat_link": "[&AgEmYAEA]",
+    "icon": "https://render.guildwars2.com/file/D048B33A0266139B6A9C9ECA18C2BCADB91C9D34/1766401.png"
+  },
+  {
+    "name": "Branded Shield Skin",
+    "description": "Double-click to apply this look to any other shield.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 90151,
+    "chat_link": "[&AgEnYAEA]",
+    "icon": "https://render.guildwars2.com/file/664DBE927EAEA71C68334B0DF0FC2E5E7DB02B44/2127559.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        8671
+      ]
+    }
+  },
+  {
+    "name": "Glowing Purple Mask",
+    "description": "Double-click to apply this look to any other helmet. This skin will be unlocked in your wardrobe for future use.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90152,
+    "chat_link": "[&AgEoYAEA]",
+    "icon": "https://render.guildwars2.com/file/7A5B06BAB604287E046AB213D8AD35EE4C49D35B/2128007.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        8657,
+        8670,
+        8677
+      ]
+    }
+  },
+  {
+    "name": "Branded Dagger Skin",
+    "description": "Double-click to apply this look to any other dagger.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 90153,
+    "chat_link": "[&AgEpYAEA]",
+    "icon": "https://render.guildwars2.com/file/98C9B27FE4C449C8D8F62A05570D49F2EC7E483E/2127550.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        8679
+      ]
+    }
+  },
+  {
+    "name": "Branded Axe Skin",
+    "description": "Double-click to apply this look to any other axe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 90154,
+    "chat_link": "[&AgEqYAEA]",
+    "icon": "https://render.guildwars2.com/file/C7F6C1CAB21CE5706D3E0ED908380EB7DA977FB6/2127549.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        8662
+      ]
+    }
+  },
+  {
+    "name": "Branded Scepter Skin",
+    "description": "Double-click to apply this look to any other scepter.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 90155,
+    "chat_link": "[&AgErYAEA]",
+    "icon": "https://render.guildwars2.com/file/0CEA53074976A1EAF8C52A150ED780011A4AE711/2127558.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        8675
+      ]
+    }
+  },
+  {
+    "name": "Branded Sword Skin",
+    "description": "Double-click to apply this look to any other sword.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 90156,
+    "chat_link": "[&AgEsYAEA]",
+    "icon": "https://render.guildwars2.com/file/9898564FDCE64396B60BA096CC5CBEF10A2BBDEB/2127562.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        8673
+      ]
+    }
+  },
+  {
+    "name": "War Eternal Supply Drop: Week One",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90157,
+    "chat_link": "[&AgEtYAEA]",
+    "icon": "https://render.guildwars2.com/file/0BD0B16DB79479E14BED2EA0192F16B348C96833/2127447.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Branded Short Bow Skin",
+    "description": "Double-click to apply this look to any other short bow.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 90158,
+    "chat_link": "[&AgEuYAEA]",
+    "icon": "https://render.guildwars2.com/file/5AC606263CD354194D702DC81C490C26D3D7CF1A/2127560.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        8665
+      ]
+    }
+  },
+  {
+    "name": "War Eternal Supply Drop: Week Four",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90159,
+    "chat_link": "[&AgEvYAEA]",
+    "icon": "https://render.guildwars2.com/file/05B45C7D5C9C7879A6943DF4CDE967183C6EF3AC/2127450.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "War Eternal Supply Drop: Week Two",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90160,
+    "chat_link": "[&AgEwYAEA]",
+    "icon": "https://render.guildwars2.com/file/57BB93DE6B32E9CBDD010C183739C05E6C10CA41/2127448.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Branded Rifle Skin",
+    "description": "Double-click to apply this look to any other rifle.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 90161,
+    "chat_link": "[&AgExYAEA]",
+    "icon": "https://render.guildwars2.com/file/24EC515D08143AEFED350F0DD76C68F01C660FBE/2127557.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        8676
+      ]
+    }
+  },
+  {
+    "name": "Desert King Backpack and Glider Combo",
+    "description": "This package contains the Desert King Glider and Desert King Reliquary Backpiece.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90162,
+    "chat_link": "[&AgEyYAEA]",
+    "icon": "https://render.guildwars2.com/file/DD15C9F0F6535D9E6C2B0DD31911AE36A180B9EB/2010184.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        8184
+      ]
+    }
+  },
+  {
+    "name": "Exotic Breeds Mount Select License",
+    "description": "Gain a mount skin of your choice from the Black Lion Stables. Right-click to preview available mount skins.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 999,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90163,
+    "chat_link": "[&AgEzYAEA]",
+    "icon": "https://render.guildwars2.com/file/AEEAB26C6E08E670473621D467B37F045D9BCDEE/2127444.png",
+    "details": {
+      "type": "MountRandomUnlock"
+    }
+  },
+  {
+    "name": "Branded Greatsword Skin",
+    "description": "Double-click to apply this look to any other greatsword.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 90164,
+    "chat_link": "[&AgE0YAEA]",
+    "icon": "https://render.guildwars2.com/file/090CE555B7B3C10DDADD0BDD45B44907D4436E05/2127552.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        8661
+      ]
+    }
+  },
+  {
+    "name": "Exotic Breeds Mount Adoption License",
+    "description": "Gain a random mount skin that you do not already own from the Black Lion Stables. Right-click to preview available mount skins.\n\n<c=#F8C56E>All unobtained skins have an equal chance of dropping.</c>",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 999,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90165,
+    "chat_link": "[&AgE1YAEA]",
+    "icon": "https://render.guildwars2.com/file/376DDDB756645C032918C21EA1290FBC74024D14/2127443.png",
+    "details": {
+      "type": "MountRandomUnlock"
+    }
+  },
+  {
+    "name": "Scaled Dragon Wings Backpack Glider Combo",
+    "description": "This package contains the Scaled Dragon Wings Glider and Scaled Dragon Wings Backpack.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90166,
+    "chat_link": "[&AgE2YAEA]",
+    "icon": "https://render.guildwars2.com/file/023FAC1A9E4809147806F7CE0A43C12F36F5AEA4/2051634.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        8434
+      ]
+    }
+  },
+  {
+    "name": "Bonus Box of Goods",
+    "description": "Double-click to open.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 192,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90167,
+    "chat_link": "[&AgE3YAEA]",
+    "icon": "https://render.guildwars2.com/file/EBE999557B0F2D07AAAA26A2EBEBCC9E04300066/2127427.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "War Eternal Supply Drop: Week Three",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90168,
+    "chat_link": "[&AgE4YAEA]",
+    "icon": "https://render.guildwars2.com/file/17C1E560E6B7005D1ACF9B7094B7EF05F2700F0C/2127449.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Etherbound Greaves Skin",
+    "description": "Double-click to apply this look to any other boots.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90169,
+    "chat_link": "[&AgE5YAEA]",
+    "icon": "https://render.guildwars2.com/file/D2118077C45291FDF5274D03096309FD515351C9/2140906.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        8658,
+        8659,
+        8672
+      ]
+    }
+  },
+  {
+    "name": "Branded Pistol Skin",
+    "description": "Double-click to apply this look to any other pistol.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 90170,
+    "chat_link": "[&AgE6YAEA]",
+    "icon": "https://render.guildwars2.com/file/D4AA38BF6F5EB8E945ACFFC9714539160AE1E1CD/2127556.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        8663
+      ]
+    }
+  },
+  {
+    "name": "Branded Staff Skin",
+    "description": "Double-click to apply this look to any other staff.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 90172,
+    "chat_link": "[&AgE8YAEA]",
+    "icon": "https://render.guildwars2.com/file/62999C0DDA6BF2D09EFA2D48042F7FD85F523E75/2127561.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        8660
+      ]
+    }
+  },
+  {
+    "name": "Etherbound Gauntlets Skin",
+    "description": "Double-click to apply this look to any other gloves.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 90173,
+    "chat_link": "[&AgE9YAEA]",
+    "icon": "https://render.guildwars2.com/file/C5BA110E050DC3971373392EF3C35F6A4604290C/2127445.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        8666,
+        8669,
+        8678
+      ]
+    }
+  }
+]

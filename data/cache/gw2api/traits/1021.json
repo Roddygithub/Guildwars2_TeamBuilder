@@ -1,0 +1,60 @@
+{
+  "id": 1021,
+  "tier": 1,
+  "order": 0,
+  "name": "Forme de pierre",
+  "description": "Vous utilisez Signe de pierre mineur lorsque vous utilisez une compétence d'élite. Lorsque vous activez un <c=@abilitytype>signe</c>, vous bénéficiez de Pouvoir et Fureur.",
+  "slot": "Major",
+  "facts": [
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/96D90DF84CAFE008233DD1C2606A12C1A0E68048/102842.png",
+      "duration": 6,
+      "status": "Fureur",
+      "description": "Chances de coup critique augmentées ; durée cumulable.",
+      "apply_count": 1
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/2FA9DF9D6BC17839BBEA14723F1C53D645DDB5E1/102852.png",
+      "duration": 15,
+      "status": "Pouvoir",
+      "description": "Les dégâts infligés sont augmentés. Intensité cumulable.",
+      "apply_count": 3
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/2FA9DF9D6BC17839BBEA14723F1C53D645DDB5E1/102852.png",
+      "duration": 8,
+      "status": "Pouvoir",
+      "description": "Les dégâts infligés sont augmentés. Intensité cumulable.",
+      "apply_count": 3
+    }
+  ],
+  "skills": [
+    {
+      "name": "Signe de pierre mineur",
+      "facts": [
+        {
+          "text": "Apply Buff/Condition",
+          "type": "Buff",
+          "icon": "https://render.guildwars2.com/file/0419F0A9D9494B4273F31FA1E92A551AA67246B8/102886.png",
+          "duration": 5,
+          "status": "Signe de pierre",
+          "description": "Les attaques subies n'infligent aucun dégât.",
+          "apply_count": 1
+        }
+      ],
+      "description": "Signe. Votre familier et vous ne subissez aucun dégât à cause des attaques, mais vous êtes toujours sensibles aux altérations et effets de contrôle.",
+      "icon": "https://render.guildwars2.com/file/0419F0A9D9494B4273F31FA1E92A551AA67246B8/102886.png",
+      "flags": [],
+      "id": 42470,
+      "chat_link": "[&BualAAA=]"
+    }
+  ],
+  "specialization": 8,
+  "icon": "https://render.guildwars2.com/file/205F4491B806F7ECF6BE0B9F18C266FDAAE4635A/1769987.png"
+}

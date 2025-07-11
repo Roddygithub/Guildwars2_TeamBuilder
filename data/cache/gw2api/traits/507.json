@@ -1,0 +1,67 @@
+{
+  "id": 507,
+  "tier": 1,
+  "order": 2,
+  "name": "Distributeur de bombes en auto-défense",
+  "description": "Vous lâchez une bombe fumigène lorsque vous êtes neutralisé.<br><c=@reminder>Les effets suivants neutralisent la cible : Étourdissement, Stupeur, Repoussement, Attraction, Renversement, Noyade, Flottaison, Projection, Incitation ou Peur.</c>",
+  "slot": "Major",
+  "skills": [
+    {
+      "name": "Bombe fumigène",
+      "facts": [
+        {
+          "text": "Recharge",
+          "type": "Recharge",
+          "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+          "value": 20
+        },
+        {
+          "text": "Apply Buff/Condition",
+          "type": "Buff",
+          "icon": "https://render.guildwars2.com/file/09770136BB76FD0DBE1CC4267DEED54774CB20F6/102837.png",
+          "duration": 3,
+          "status": "Aveugle",
+          "description": "L'attaque suivante rate. L'intensité est cumulable.",
+          "apply_count": 1
+        },
+        {
+          "text": "Durée",
+          "type": "Time",
+          "icon": "https://render.guildwars2.com/file/7B2193ACCF77E56C13E608191B082D68AA0FAA71/156659.png",
+          "duration": 6
+        },
+        {
+          "text": "Intervalle",
+          "type": "Time",
+          "icon": "https://render.guildwars2.com/file/B75E91EB22E0DFCC1D08030204055946506D56F6/1770206.png",
+          "duration": 2
+        },
+        {
+          "text": "Rayon",
+          "type": "Distance",
+          "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+          "distance": 240
+        },
+        {
+          "text": "Pulsations",
+          "type": "Number",
+          "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png",
+          "value": 3
+        },
+        {
+          "text": "Combo Field",
+          "type": "ComboField",
+          "icon": "https://render.guildwars2.com/file/59E0DB6A699810641C959926ADFEF73E08CC255B/156655.png",
+          "field_type": "Smoke"
+        }
+      ],
+      "description": "Vous posez une bombe à retardement qui produit un nuage de fumée et aveugle les ennemis à proximité.",
+      "icon": "https://render.guildwars2.com/file/02A02091B1EBDB782719EB6AE56F01E6372C500D/103091.png",
+      "flags": [],
+      "id": 13551,
+      "chat_link": "[&Bu80AAA=]"
+    }
+  ],
+  "specialization": 47,
+  "icon": "https://render.guildwars2.com/file/5580D97E0BC8B7AD57783CAD2CE6E64F0F3AD45F/1012368.png"
+}

@@ -1,0 +1,118 @@
+{
+  "id": 899,
+  "tier": 2,
+  "order": 0,
+  "name": "Frisson de la mort",
+  "description": "Lance Frissons glacés mineurs sur un ennemi lorsqu'une attaque le cible et que sa vie est en dessous d'un certain seuil.",
+  "slot": "Major",
+  "facts": [
+    {
+      "text": "Seuil de Santé",
+      "type": "Percent",
+      "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+      "percent": 50
+    }
+  ],
+  "skills": [
+    {
+      "name": "Frissons glacés mineurs",
+      "facts": [
+        {
+          "text": "Range",
+          "type": "Range",
+          "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+          "value": 1200
+        },
+        {
+          "text": "Recharge",
+          "type": "Recharge",
+          "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+          "value": 20
+        },
+        {
+          "text": "Dégâts – Trois avantages",
+          "type": "Damage",
+          "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+          "hit_count": 1,
+          "dmg_multiplier": 2.1
+        },
+        {
+          "text": "Dégâts – Deux avantages",
+          "type": "Damage",
+          "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+          "hit_count": 1,
+          "dmg_multiplier": 1.5
+        },
+        {
+          "text": "Dégâts – Un avantage",
+          "type": "Damage",
+          "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+          "hit_count": 1,
+          "dmg_multiplier": 0.9
+        },
+        {
+          "text": "Dégâts – Aucun avantage",
+          "type": "Damage",
+          "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+          "hit_count": 1,
+          "dmg_multiplier": 0.6
+        },
+        {
+          "text": "Dégâts – Trois avantages",
+          "type": "Damage",
+          "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+          "hit_count": 1,
+          "dmg_multiplier": 0.105
+        },
+        {
+          "text": "Dégâts – Deux avantages",
+          "type": "Damage",
+          "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+          "hit_count": 1,
+          "dmg_multiplier": 0.075
+        },
+        {
+          "text": "Dégâts – Un avantage",
+          "type": "Damage",
+          "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+          "hit_count": 1,
+          "dmg_multiplier": 0.045
+        },
+        {
+          "text": "Dégâts – Aucun avantage",
+          "type": "Damage",
+          "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+          "hit_count": 1,
+          "dmg_multiplier": 0.03
+        },
+        {
+          "text": "Apply Buff/Condition",
+          "type": "Buff",
+          "icon": "https://render.guildwars2.com/file/28C4EC547A3516AF0242E826772DA43A5EAC3DF3/102839.png",
+          "duration": 5,
+          "status": "Givré",
+          "description": "Vitesse de déplacement réduite de 66%. Temps de recharge de la compétence augmenté de 66%. La durée est cumulable.",
+          "apply_count": 1
+        },
+        {
+          "text": "Avantages supprimés",
+          "type": "Number",
+          "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png",
+          "value": 3
+        },
+        {
+          "text": "Ne peut pas infliger de coups critiques.",
+          "type": "NoData",
+          "icon": "https://render.guildwars2.com/file/63015872E20761F5E76F803A90666FBE4E262BC9/536051.png"
+        }
+      ],
+      "description": "Inflige Givre à votre cible et supprime jusqu'à trois avantages. Inflige des dégâts supplémentaires en fonction du nombre d'avantages supprimés.",
+      "icon": "https://render.guildwars2.com/file/365608D62CC05CD6030EA30FEFD6D7D52EB002E7/103808.png",
+      "flags": [],
+      "id": 13906,
+      "chat_link": "[&BlI2AAA=]"
+    }
+  ],
+  "specialization": 53,
+  "icon": "https://render.guildwars2.com/file/FED2475CCB0936A368AB44DA729EE0AFACBBBE06/1012597.png"
+}

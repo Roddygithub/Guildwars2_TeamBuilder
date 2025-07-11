@@ -1,0 +1,5301 @@
+[
+  {
+    "name": "Vial of Hylek Absinthe",
+    "type": "Consumable",
+    "level": 10,
+    "rarity": "Basic",
+    "vendor_value": 4,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "BulkConsume"
+    ],
+    "restrictions": [],
+    "id": 8511,
+    "chat_link": "[&AgE/IQAA]",
+    "icon": "https://render.guildwars2.com/file/5BD1B66E30EC565F36352528A12DB260D1D205B1/63153.png",
+    "details": {
+      "type": "Booze"
+    }
+  },
+  {
+    "name": "Stein of Halla's Mighty Brew",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 16,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "BulkConsume",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8512,
+    "chat_link": "[&AgFAIQAA]",
+    "icon": "https://render.guildwars2.com/file/D0D82C22BD0892D55DD12CA00DC453294B312FF2/63146.png",
+    "details": {
+      "type": "Booze"
+    }
+  },
+  {
+    "name": "Stein of Darkbrown Ale",
+    "type": "Consumable",
+    "level": 11,
+    "rarity": "Basic",
+    "vendor_value": 4,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "BulkConsume",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8513,
+    "chat_link": "[&AgFBIQAA]",
+    "icon": "https://render.guildwars2.com/file/D92A6B09614BCD0DC5BD30159374C3222A7B5E2D/63101.png",
+    "details": {
+      "type": "Booze"
+    }
+  },
+  {
+    "name": "Bottle of Experimental Ooze Booze",
+    "type": "Consumable",
+    "level": 8,
+    "rarity": "Basic",
+    "vendor_value": 3,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "BulkConsume"
+    ],
+    "restrictions": [],
+    "id": 8515,
+    "chat_link": "[&AgFDIQAA]",
+    "icon": "https://render.guildwars2.com/file/48AB995DC8D9081B420C709C37D125CAA7A323C0/63154.png",
+    "details": {
+      "type": "Booze"
+    }
+  },
+  {
+    "name": "Stein of Amber Ale",
+    "type": "Consumable",
+    "level": 11,
+    "rarity": "Basic",
+    "vendor_value": 4,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "BulkConsume",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8516,
+    "chat_link": "[&AgFEIQAA]",
+    "icon": "https://render.guildwars2.com/file/D92A6B09614BCD0DC5BD30159374C3222A7B5E2D/63101.png",
+    "details": {
+      "type": "Booze"
+    }
+  },
+  {
+    "name": "Slice of Rainbow Cake",
+    "type": "Consumable",
+    "level": 8,
+    "rarity": "Basic",
+    "vendor_value": 5,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8517,
+    "chat_link": "[&AgFFIQAA]",
+    "icon": "https://render.guildwars2.com/file/D16A0A243F911A3F3EA733973D670B034D619B4A/63075.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "20% Chance to Steal Life on Critical Hit\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Cupcake",
+    "type": "Consumable",
+    "level": 13,
+    "rarity": "Basic",
+    "vendor_value": 6,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8518,
+    "chat_link": "[&AgFGIQAA]",
+    "icon": "https://render.guildwars2.com/file/2DCDFC430F560533ADF00C14EFB0A1DD93057BDB/63076.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "28% Chance to Steal Life on Critical Hit\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Experimental Remnant",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Basic",
+    "vendor_value": 16,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8519,
+    "chat_link": "[&AgFHIQAA]",
+    "icon": "https://render.guildwars2.com/file/0BFBBB54FE485DBCF55615156603E53F02440437/222718.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "50% to Gain Swiftness on Kill\n+4% Damage While Moving\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Aquatic Elixir",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 3,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8520,
+    "chat_link": "[&AgFIIQAA]",
+    "icon": "https://render.guildwars2.com/file/C23FA1EA0827E97312D6064F4A08B402FE9943B9/63071.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "20% Chance to Gain Swiftness on Kill\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Drake Steak",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8521,
+    "chat_link": "[&AgFJIQAA]",
+    "icon": "https://render.guildwars2.com/file/4690803550A9F42A1600187C9C20C3AAC291FEB9/63133.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "+3% Burning Duration\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Flask of Raptor Juice",
+    "type": "Consumable",
+    "level": 8,
+    "rarity": "Basic",
+    "vendor_value": 3,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "BulkConsume",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8522,
+    "chat_link": "[&AgFKIQAA]",
+    "icon": "https://render.guildwars2.com/file/AEFD3923051104E1090D79CC570071F0F7C21B05/63064.png",
+    "details": {
+      "type": "Booze"
+    }
+  },
+  {
+    "name": "Bottle of Sunken Wine",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 16,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "BulkConsume",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8523,
+    "chat_link": "[&AgFLIQAA]",
+    "icon": "https://render.guildwars2.com/file/343496556E3E9273E499AEFDC0CB466B5935006A/63135.png",
+    "details": {
+      "type": "Booze"
+    }
+  },
+  {
+    "name": "Flask of Firewater",
+    "type": "Consumable",
+    "level": 5,
+    "rarity": "Basic",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "BulkConsume",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8524,
+    "chat_link": "[&AgFMIQAA]",
+    "icon": "https://render.guildwars2.com/file/F41349690FB0BC3A4A129428C2F4706C09F2DD7C/63134.png",
+    "details": {
+      "type": "Booze"
+    }
+  },
+  {
+    "name": "Moa Haunch",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8525,
+    "chat_link": "[&AgFNIQAA]",
+    "icon": "https://render.guildwars2.com/file/12C67B490141660F0034A9D8DCEFCC6EBC0A6143/223193.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "+40 Power for 30 Seconds on Kill\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Stick of Mystery Meat",
+    "type": "Consumable",
+    "level": 13,
+    "rarity": "Basic",
+    "vendor_value": 6,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8527,
+    "chat_link": "[&AgFPIQAA]",
+    "icon": "https://render.guildwars2.com/file/AE3E9CF8B75AEC5A6E9F2D6657C004B60D402C3B/63077.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "+30 Power\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Bottle of Victoria's Red Wine",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 4,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "BulkConsume",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8528,
+    "chat_link": "[&AgFQIQAA]",
+    "icon": "https://render.guildwars2.com/file/E745C51C0D067B030A6629C80A9B08A4B0146556/63083.png",
+    "details": {
+      "type": "Booze"
+    }
+  },
+  {
+    "name": "Bottle of Barradin Family Wine",
+    "type": "Consumable",
+    "level": 11,
+    "rarity": "Basic",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "BulkConsume",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8529,
+    "chat_link": "[&AgFRIQAA]",
+    "icon": "https://render.guildwars2.com/file/9D54A4C17F1F640E7F04CAB4E3284372206FBA99/63063.png",
+    "details": {
+      "type": "Booze"
+    }
+  },
+  {
+    "name": "Jug of Autumn Nectar",
+    "type": "Consumable",
+    "level": 5,
+    "rarity": "Basic",
+    "vendor_value": 4,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8530,
+    "chat_link": "[&AgFSIQAA]",
+    "icon": "https://render.guildwars2.com/file/C80267A147F544D9706F2731536A526A21A0D9F6/63078.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "-4% Incoming Condition Duration\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Seared Beef Steak",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 3,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8531,
+    "chat_link": "[&AgFTIQAA]",
+    "icon": "https://render.guildwars2.com/file/A60F6A14B6BCBFF7D6FA227C5EB1C4514ECA4C4D/63132.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "+20 condition damage\n+10% experience from kills"
+    }
+  },
+  {
+    "name": "Wolf Offering",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 4,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8532,
+    "chat_link": "[&AgFUIQAA]",
+    "icon": "https://render.guildwars2.com/file/143ABBD5F42B08B09D42C7080815237E2F10F658/63087.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 600000,
+      "apply_count": 0,
+      "name": "Blessing of Wolf",
+      "icon": "https://render.guildwars2.com/file/FE0855240DA9DAA2DBF47F08016738CA210B4F96/102876.png",
+      "description": "Your Vitality is increased."
+    }
+  },
+  {
+    "name": "Cooked Crawdad",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8533,
+    "chat_link": "[&AgFVIQAA]",
+    "icon": "https://render.guildwars2.com/file/7B181DE6B8406B2E5707F2A3AE80371B25FFD3AB/63145.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "-6% Incoming Damage While Stunned, Knocked Down, or Knocked Back\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Cooked Fish Steak",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8534,
+    "chat_link": "[&AgFWIQAA]",
+    "icon": "https://render.guildwars2.com/file/7B181DE6B8406B2E5707F2A3AE80371B25FFD3AB/63145.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "-8% Incoming Stun Duration\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Grumble Cake",
+    "description": "<c=@flavor>Goes down rough...</c>",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage"
+    ],
+    "restrictions": [],
+    "id": 8535,
+    "chat_link": "[&AgFXIQAA]",
+    "icon": "https://render.guildwars2.com/file/2603D225A7B05FCA96EF31E94468EB03F9C9C945/223215.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "+20 Vitality\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Bear Offering",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 3,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8536,
+    "chat_link": "[&AgFYIQAA]",
+    "icon": "https://render.guildwars2.com/file/1F0595F2252BEFA1396235A0A56DFD499C95D455/63085.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 600000,
+      "apply_count": 0,
+      "name": "Blessing of Bear",
+      "icon": "https://render.guildwars2.com/file/7605BAF9BD0C0F2A352339046627DE44DE309A29/102875.png",
+      "description": "Your toughness is increased."
+    }
+  },
+  {
+    "name": "Bit of Enchanted Clam Bait",
+    "type": "Consumable",
+    "level": 66,
+    "rarity": "Basic",
+    "vendor_value": 15,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8537,
+    "chat_link": "[&AgFZIQAA]",
+    "icon": "https://render.guildwars2.com/file/6C2143352D3E0B4B45A3E01CE2FAFAB8D0D77C51/63364.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": " -18% Incoming Damage while Stunned, Knocked Down, or Knocked Back\n-14% Incoming Condition Duration\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Snow Leopard Offering",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 3,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8538,
+    "chat_link": "[&AgFaIQAA]",
+    "icon": "https://render.guildwars2.com/file/21D34B0364B2136838627953590392F80C1FEFCA/63116.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 600000,
+      "apply_count": 0,
+      "name": "Blessing of Snow Leopard",
+      "icon": "https://render.guildwars2.com/file/F0E759D09FBBAEFB0773732223A7EE22EB09B5EB/102877.png",
+      "description": "Your power is increased."
+    }
+  },
+  {
+    "name": "Stein of Light Ale",
+    "type": "Consumable",
+    "level": 11,
+    "rarity": "Basic",
+    "vendor_value": 4,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "BulkConsume",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8539,
+    "chat_link": "[&AgFbIQAA]",
+    "icon": "https://render.guildwars2.com/file/D92A6B09614BCD0DC5BD30159374C3222A7B5E2D/63101.png",
+    "details": {
+      "type": "Booze"
+    }
+  },
+  {
+    "name": "Slice of Watermelon",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8540,
+    "chat_link": "[&AgFcIQAA]",
+    "icon": "https://render.guildwars2.com/file/D0C7010C0AA60B5793BBDEDF3A2F15C20909F3F2/63074.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "+20% Downed Health\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Ogre Pet Snack",
+    "type": "Consumable",
+    "level": 7,
+    "rarity": "Fine",
+    "vendor_value": 9,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8541,
+    "chat_link": "[&AgFdIQAA]",
+    "icon": "https://render.guildwars2.com/file/4690803550A9F42A1600187C9C20C3AAC291FEB9/63133.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "+20 condition damage\n+10% experience from kills"
+    }
+  },
+  {
+    "name": "Raven Offering",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 3,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8542,
+    "chat_link": "[&AgFeIQAA]",
+    "icon": "https://render.guildwars2.com/file/67B96EB0AAC8B63B025464247EA803701C637058/63117.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 600000,
+      "apply_count": 0,
+      "name": "Blessing of Raven",
+      "icon": "https://render.guildwars2.com/file/1EC8BAFE5DA74CB64E7EE4BAB2AE35316CAC241F/102878.png",
+      "description": "Your attacks are more precise."
+    }
+  },
+  {
+    "name": "Strip of Boar Jerky",
+    "type": "Consumable",
+    "level": 5,
+    "rarity": "Basic",
+    "vendor_value": 4,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8543,
+    "chat_link": "[&AgFfIQAA]",
+    "icon": "https://render.guildwars2.com/file/BF7014629DA8B4C7BCBBAF26B2B10EB86C4BC90F/63105.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "+20 Vitality\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Boiled Crawdad",
+    "type": "Consumable",
+    "level": 33,
+    "rarity": "Basic",
+    "vendor_value": 9,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8544,
+    "chat_link": "[&AgFgIQAA]",
+    "icon": "https://render.guildwars2.com/file/0D58AC75D4C3BE195CBD7CE714B00A5CDDD92E66/63080.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "+50 Toughness\n+40 Precision\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Griffon Egg",
+    "type": "Consumable",
+    "level": 17,
+    "rarity": "Basic",
+    "vendor_value": 7,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8545,
+    "chat_link": "[&AgFhIQAA]",
+    "icon": "https://render.guildwars2.com/file/5FC1B2D9C0BC0365CB6E5C943D2E7E1F58520241/63158.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "+60 Power for 30 Seconds on Kill \n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Blueberry Muffin",
+    "type": "Consumable",
+    "level": 9,
+    "rarity": "Basic",
+    "vendor_value": 5,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8548,
+    "chat_link": "[&AgFkIQAA]",
+    "icon": "https://render.guildwars2.com/file/F27FA19808E8032307CF312DDE05E8BBB14343B4/219424.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "+20 Toughness\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Flask of Meatoberfest Ale",
+    "type": "Consumable",
+    "level": 11,
+    "rarity": "Basic",
+    "vendor_value": 4,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "BulkConsume",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8549,
+    "chat_link": "[&AgFlIQAA]",
+    "icon": "https://render.guildwars2.com/file/D10D01490B3696490FD727FF69ECD20D10307277/63099.png",
+    "details": {
+      "type": "Booze"
+    }
+  },
+  {
+    "name": "Bottle of Putrid Wine",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 4,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "BulkConsume"
+    ],
+    "restrictions": [],
+    "id": 8550,
+    "chat_link": "[&AgFmIQAA]",
+    "icon": "https://render.guildwars2.com/file/A9FF23FB2544B52CF5726048637A13A179DE4445/63082.png",
+    "details": {
+      "type": "Booze"
+    }
+  },
+  {
+    "name": "Grawl Snack",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8552,
+    "chat_link": "[&AgFoIQAA]",
+    "icon": "https://render.guildwars2.com/file/6001550DAF4E24209C13A553196ACECB6AE50845/63120.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "-4% Incoming Condition Duration\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Bottle of Red Wine",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 4,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "BulkConsume"
+    ],
+    "restrictions": [],
+    "id": 8553,
+    "chat_link": "[&AgFpIQAA]",
+    "icon": "https://render.guildwars2.com/file/E745C51C0D067B030A6629C80A9B08A4B0146556/63083.png",
+    "details": {
+      "type": "Booze"
+    }
+  },
+  {
+    "name": "Magical Fruit",
+    "type": "Consumable",
+    "level": 10,
+    "rarity": "Basic",
+    "vendor_value": 5,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8554,
+    "chat_link": "[&AgFqIQAA]",
+    "icon": "https://render.guildwars2.com/file/41587C0470070F03D33936A0C6640DCA77E4D6EB/223883.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "+40 Condition Damage for 30 Seconds on Kill\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Stein of Celebratory Drink",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 5,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "BulkConsume",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8556,
+    "chat_link": "[&AgFsIQAA]",
+    "icon": "https://render.guildwars2.com/file/D0D82C22BD0892D55DD12CA00DC453294B312FF2/63146.png",
+    "details": {
+      "type": "Booze"
+    }
+  },
+  {
+    "name": "Fish Steak",
+    "type": "Consumable",
+    "level": 13,
+    "rarity": "Basic",
+    "vendor_value": 6,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8557,
+    "chat_link": "[&AgFtIQAA]",
+    "icon": "https://render.guildwars2.com/file/D73E64D9801DDA9D27213DCFFB12F228EB3F1B65/63084.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "+30 Vitality\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Pickled Wurm Egg",
+    "type": "Consumable",
+    "level": 9,
+    "rarity": "Basic",
+    "vendor_value": 5,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8558,
+    "chat_link": "[&AgFuIQAA]",
+    "icon": "https://render.guildwars2.com/file/4690803550A9F42A1600187C9C20C3AAC291FEB9/63133.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "+20 Power\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Poached Griffon Egg",
+    "type": "Consumable",
+    "level": 18,
+    "rarity": "Basic",
+    "vendor_value": 7,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8559,
+    "chat_link": "[&AgFvIQAA]",
+    "icon": "https://render.guildwars2.com/file/BCD0C06CF8AF03D7370B9F217D12D937AB220F2E/63081.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "30% Chance to Gain Might on Dodge\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Strip of Dolyak Jerky",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 3,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8560,
+    "chat_link": "[&AgFwIQAA]",
+    "icon": "https://render.guildwars2.com/file/BF7014629DA8B4C7BCBBAF26B2B10EB86C4BC90F/63105.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "20% Chance to Gain Might on Dodge\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Variloo's Swift Algae Snack",
+    "type": "Consumable",
+    "level": 69,
+    "rarity": "Basic",
+    "vendor_value": 16,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8561,
+    "chat_link": "[&AgFxIQAA]",
+    "icon": "https://render.guildwars2.com/file/0C3403141401AE00EDF43ED0C172A9FCA8C2AFD4/66860.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "+80% Downed Health\n+14% Damage While Downed\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Rabbit Offering",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8562,
+    "chat_link": "[&AgFyIQAA]",
+    "icon": "https://render.guildwars2.com/file/F06472A03B49AA6C9256195FC43B49BEA26595D0/62859.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "+20% Downed Health\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Blackened Fish Steak",
+    "type": "Consumable",
+    "level": 13,
+    "rarity": "Basic",
+    "vendor_value": 6,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8563,
+    "chat_link": "[&AgFzIQAA]",
+    "icon": "https://render.guildwars2.com/file/D73E64D9801DDA9D27213DCFFB12F228EB3F1B65/63084.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "+30 Toughness\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Bowl of Wurm Meat Stew",
+    "type": "Consumable",
+    "level": 5,
+    "rarity": "Basic",
+    "vendor_value": 4,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8564,
+    "chat_link": "[&AgF0IQAA]",
+    "icon": "https://render.guildwars2.com/file/1F0595F2252BEFA1396235A0A56DFD499C95D455/63085.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "-4% Incoming Condition Duration\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Bowl of Kraitweed Salad",
+    "type": "Consumable",
+    "level": 13,
+    "rarity": "Basic",
+    "vendor_value": 6,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8565,
+    "chat_link": "[&AgF1IQAA]",
+    "icon": "https://render.guildwars2.com/file/93661A035F55E8395B3EC001DD3855C0F5744A17/63147.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "30% Chance to Remove a Condition on Using a Heal Skill\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Bowl of Kappa Soup",
+    "type": "Consumable",
+    "level": 13,
+    "rarity": "Basic",
+    "vendor_value": 6,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8566,
+    "chat_link": "[&AgF2IQAA]",
+    "icon": "https://render.guildwars2.com/file/F9B90101B4EA1778BF3B6034B360B9E03131FB19/63086.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "30% Chance to Gain Might on Dodge\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Bottle of Standard Research Issue Aged Wine",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 16,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "BulkConsume",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8567,
+    "chat_link": "[&AgF3IQAA]",
+    "icon": "https://render.guildwars2.com/file/5080B00373D7994CAC32660A3F636C983CDDD804/63091.png",
+    "details": {
+      "type": "Booze"
+    }
+  },
+  {
+    "name": "Bottle of Remi-Trundle Lager",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 4,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "BulkConsume"
+    ],
+    "restrictions": [],
+    "id": 8568,
+    "chat_link": "[&AgF4IQAA]",
+    "icon": "https://render.guildwars2.com/file/E745C51C0D067B030A6629C80A9B08A4B0146556/63083.png",
+    "details": {
+      "type": "Booze"
+    }
+  },
+  {
+    "name": "Bowl of Overlake Soup",
+    "type": "Consumable",
+    "level": 13,
+    "rarity": "Fine",
+    "vendor_value": 11,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8569,
+    "chat_link": "[&AgF5IQAA]",
+    "icon": "https://render.guildwars2.com/file/F9B90101B4EA1778BF3B6034B360B9E03131FB19/63086.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "+30 Condition Damage\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Bowl of Skalefin Soup",
+    "type": "Consumable",
+    "level": 33,
+    "rarity": "Basic",
+    "vendor_value": 9,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8570,
+    "chat_link": "[&AgF6IQAA]",
+    "icon": "https://render.guildwars2.com/file/143ABBD5F42B08B09D42C7080815237E2F10F658/63087.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "+50 Precision\n+40 Ferocity\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Loaf of Shaemoor Bread",
+    "type": "Consumable",
+    "level": 5,
+    "rarity": "Basic",
+    "vendor_value": 4,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8571,
+    "chat_link": "[&AgF7IQAA]",
+    "icon": "https://render.guildwars2.com/file/5FF179044A0DC9D491333A1A6760054E0E3B6F09/63111.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "-8% Incoming Stun Duration\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Curry Bun",
+    "type": "Consumable",
+    "level": 23,
+    "rarity": "Basic",
+    "vendor_value": 8,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8572,
+    "chat_link": "[&AgF8IQAA]",
+    "icon": "https://render.guildwars2.com/file/784436C2F6F2AC59974DD01DD46CEC00BDC0376F/63088.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "+30 Vitality\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Loaf of Travelers Bread",
+    "type": "Consumable",
+    "level": 9,
+    "rarity": "Basic",
+    "vendor_value": 5,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8573,
+    "chat_link": "[&AgF9IQAA]",
+    "icon": "https://render.guildwars2.com/file/5FF179044A0DC9D491333A1A6760054E0E3B6F09/63111.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "+20 Vitality\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Bottle of Silent Liqueur",
+    "description": "Triple distilled in silence. You shake the bottle, but hear nothing.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 4,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "BulkConsume"
+    ],
+    "restrictions": [],
+    "id": 8574,
+    "chat_link": "[&AgF+IQAA]",
+    "icon": "https://render.guildwars2.com/file/E745C51C0D067B030A6629C80A9B08A4B0146556/63083.png",
+    "details": {
+      "type": "Booze"
+    }
+  },
+  {
+    "name": "Red Bean Cake",
+    "type": "Consumable",
+    "level": 33,
+    "rarity": "Basic",
+    "vendor_value": 9,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8575,
+    "chat_link": "[&AgF/IQAA]",
+    "icon": "https://render.guildwars2.com/file/D4F83B2022E963E20E9C98DECBF691172F6A93A8/63079.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "+50 Vitality\n+40 Toughness\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Bottle of Rice Wine",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "BulkConsume"
+    ],
+    "restrictions": [],
+    "id": 8576,
+    "chat_link": "[&AgGAIQAA]",
+    "icon": "https://render.guildwars2.com/file/CD065203FA490A7157DC0FDE7506F3CB93E89D0D/63089.png",
+    "details": {
+      "type": "Booze"
+    }
+  },
+  {
+    "name": "Jar of Juniberry Jam",
+    "type": "Consumable",
+    "level": 13,
+    "rarity": "Basic",
+    "vendor_value": 6,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8577,
+    "chat_link": "[&AgGBIQAA]",
+    "icon": "https://render.guildwars2.com/file/79423808FFCDC32AFBA1EA23259BA7C9DB76F5BD/63090.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "+30 Condition Damage\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Bottle of Juniberry Gin",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "BulkConsume"
+    ],
+    "restrictions": [],
+    "id": 8578,
+    "chat_link": "[&AgGCIQAA]",
+    "icon": "https://render.guildwars2.com/file/5080B00373D7994CAC32660A3F636C983CDDD804/63091.png",
+    "details": {
+      "type": "Booze"
+    }
+  },
+  {
+    "name": "Stein of Hunter's Ale",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "BulkConsume"
+    ],
+    "restrictions": [],
+    "id": 8579,
+    "chat_link": "[&AgGDIQAA]",
+    "icon": "https://render.guildwars2.com/file/5B6A00A7056C0DC8DA7448C0B1FC07560C6AD5B7/63092.png",
+    "details": {
+      "type": "Booze"
+    }
+  },
+  {
+    "name": "Peeled Spikeroot Fruit",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 3,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8580,
+    "chat_link": "[&AgGEIQAA]",
+    "icon": "https://render.guildwars2.com/file/0CE279A37A7DA00401246F40D80379F5C5CCF4A2/63104.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "+20 condition damage\n+10% experience from kills"
+    }
+  },
+  {
+    "name": "Quaggan Fish Snack",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 3,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8581,
+    "chat_link": "[&AgGFIQAA]",
+    "icon": "https://render.guildwars2.com/file/0CE279A37A7DA00401246F40D80379F5C5CCF4A2/63104.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "+20 Vitality\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Roasted Aloe Seed",
+    "type": "Consumable",
+    "level": 5,
+    "rarity": "Basic",
+    "vendor_value": 4,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8582,
+    "chat_link": "[&AgGGIQAA]",
+    "icon": "https://render.guildwars2.com/file/1DE25E0E5CF43A49FF4F0B59CEA12F73416C6C4B/63093.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "20% Chance to Remove a Condition on Using a Heal Skill\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Jug of Hard Apple Cider",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "BulkConsume"
+    ],
+    "restrictions": [],
+    "id": 8583,
+    "chat_link": "[&AgGHIQAA]",
+    "icon": "https://render.guildwars2.com/file/9995D3ED4F139D289C02C258C1F6953B2742173A/63060.png",
+    "details": {
+      "type": "Booze"
+    }
+  },
+  {
+    "name": "Stick of Cotton Candy",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8584,
+    "chat_link": "[&AgGIIQAA]",
+    "icon": "https://render.guildwars2.com/file/355A00F552A291B4C0CC1D5BE8470C1D06E7A11F/63094.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "Gain Health Every Second\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Loaf of Kodan Bread",
+    "type": "Consumable",
+    "level": 13,
+    "rarity": "Basic",
+    "vendor_value": 6,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8585,
+    "chat_link": "[&AgGJIQAA]",
+    "icon": "https://render.guildwars2.com/file/5FF179044A0DC9D491333A1A6760054E0E3B6F09/63111.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "-16% Incoming Stun Duration\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Bottle of Wine",
+    "type": "Consumable",
+    "level": 11,
+    "rarity": "Basic",
+    "vendor_value": 4,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "BulkConsume",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8586,
+    "chat_link": "[&AgGKIQAA]",
+    "icon": "https://render.guildwars2.com/file/E745C51C0D067B030A6629C80A9B08A4B0146556/63083.png",
+    "details": {
+      "type": "Booze"
+    }
+  },
+  {
+    "name": "Drottot's Poached Egg",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 3,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8587,
+    "chat_link": "[&AgGLIQAA]",
+    "icon": "https://render.guildwars2.com/file/BCD0C06CF8AF03D7370B9F217D12D937AB220F2E/63081.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "+20 Power\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Stranglebloom Heart",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8588,
+    "chat_link": "[&AgGMIQAA]",
+    "icon": "https://render.guildwars2.com/file/9FECEB6E9096F51B48D25A060D0C0E5216CBD6C6/63095.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "+20 Healing\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Stein of Ancient Dwarven Ale",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "BulkConsume"
+    ],
+    "restrictions": [],
+    "id": 8591,
+    "chat_link": "[&AgGPIQAA]",
+    "icon": "https://render.guildwars2.com/file/D92A6B09614BCD0DC5BD30159374C3222A7B5E2D/63101.png",
+    "details": {
+      "type": "Booze"
+    }
+  },
+  {
+    "name": "Flask of Blood Whiskey",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "BulkConsume"
+    ],
+    "restrictions": [],
+    "id": 8592,
+    "chat_link": "[&AgGQIQAA]",
+    "icon": "https://render.guildwars2.com/file/10FCC67CB707410190FD42A1D7066A0678CCBD93/63098.png",
+    "details": {
+      "type": "Booze"
+    }
+  },
+  {
+    "name": "Draught of Hunter's Ale",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "BulkConsume"
+    ],
+    "restrictions": [],
+    "id": 8593,
+    "chat_link": "[&AgGRIQAA]",
+    "icon": "https://render.guildwars2.com/file/D10D01490B3696490FD727FF69ECD20D10307277/63099.png",
+    "details": {
+      "type": "Booze"
+    }
+  },
+  {
+    "name": "Jug of Friesson's Ale",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "BulkConsume"
+    ],
+    "restrictions": [],
+    "id": 8594,
+    "chat_link": "[&AgGSIQAA]",
+    "icon": "https://render.guildwars2.com/file/CDDAD80F43DD91C35B99C513CB47DA07A9D7F4CA/63100.png",
+    "details": {
+      "type": "Booze"
+    }
+  },
+  {
+    "name": "Crab Cake",
+    "type": "Consumable",
+    "level": 49,
+    "rarity": "Basic",
+    "vendor_value": 12,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8595,
+    "chat_link": "[&AgGTIQAA]",
+    "icon": "https://render.guildwars2.com/file/0D58AC75D4C3BE195CBD7CE714B00A5CDDD92E66/63080.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "+60 Vitality\n+120 Power When Health below 50%\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Stein of Highlander Beer",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "BulkConsume",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8596,
+    "chat_link": "[&AgGUIQAA]",
+    "icon": "https://render.guildwars2.com/file/D92A6B09614BCD0DC5BD30159374C3222A7B5E2D/63101.png",
+    "details": {
+      "type": "Booze"
+    }
+  },
+  {
+    "name": "Jug of Martini",
+    "type": "Consumable",
+    "level": 11,
+    "rarity": "Basic",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "BulkConsume",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8598,
+    "chat_link": "[&AgGWIQAA]",
+    "icon": "https://render.guildwars2.com/file/5080B00373D7994CAC32660A3F636C983CDDD804/63091.png",
+    "details": {
+      "type": "Booze"
+    }
+  },
+  {
+    "name": "Seraph Spicy Ration",
+    "type": "Consumable",
+    "level": 23,
+    "rarity": "Basic",
+    "vendor_value": 8,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8599,
+    "chat_link": "[&AgGXIQAA]",
+    "icon": "https://render.guildwars2.com/file/FD3B9CF7AB1DCE34610D76017E56AA5618529E7E/222604.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "Gain Health Every Second\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Bottle of Vintage Wine",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 8,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "BulkConsume"
+    ],
+    "restrictions": [],
+    "id": 8600,
+    "chat_link": "[&AgGYIQAA]",
+    "icon": "https://render.guildwars2.com/file/116B302CC6143B753304B771760EB9735918B4FB/63102.png",
+    "details": {
+      "type": "Booze"
+    }
+  },
+  {
+    "name": "Slice of Ice Worm Sashimi",
+    "type": "Consumable",
+    "level": 58,
+    "rarity": "Basic",
+    "vendor_value": 14,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8601,
+    "chat_link": "[&AgGZIQAA]",
+    "icon": "https://render.guildwars2.com/file/D73E64D9801DDA9D27213DCFFB12F228EB3F1B65/63084.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "+80 Precision\n+60 Vitality\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Bottle of Spider Brew",
+    "type": "Consumable",
+    "level": 20,
+    "rarity": "Fine",
+    "vendor_value": 14,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "BulkConsume",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8602,
+    "chat_link": "[&AgGaIQAA]",
+    "icon": "https://render.guildwars2.com/file/6FFF955822D0C9ACF2EDFF0B0C114C57D691FAE5/66531.png",
+    "details": {
+      "type": "Food"
+    }
+  },
+  {
+    "name": "Stein of Cold Beer",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 8,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "BulkConsume",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8604,
+    "chat_link": "[&AgGcIQAA]",
+    "icon": "https://render.guildwars2.com/file/DA6721301F17CB4F5428F20F3C97B7737979B269/63108.png",
+    "details": {
+      "type": "Booze"
+    }
+  },
+  {
+    "name": "Bowl of Meaty Wurm Surprise",
+    "type": "Consumable",
+    "level": 5,
+    "rarity": "Basic",
+    "vendor_value": 4,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8605,
+    "chat_link": "[&AgGdIQAA]",
+    "icon": "https://render.guildwars2.com/file/1F0595F2252BEFA1396235A0A56DFD499C95D455/63085.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 2,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "+3% Burning Duration\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Jug of Confiscated Booze",
+    "type": "Consumable",
+    "level": 20,
+    "rarity": "Fine",
+    "vendor_value": 14,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "BulkConsume"
+    ],
+    "restrictions": [],
+    "id": 8606,
+    "chat_link": "[&AgGeIQAA]",
+    "icon": "https://render.guildwars2.com/file/AD9247A55E4E6A295151F6732E5C1A77901E14AA/62768.png",
+    "details": {
+      "type": "Booze"
+    }
+  },
+  {
+    "name": "Shiverpeak Popper",
+    "type": "Consumable",
+    "level": 33,
+    "rarity": "Basic",
+    "vendor_value": 9,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8607,
+    "chat_link": "[&AgGfIQAA]",
+    "icon": "https://render.guildwars2.com/file/AE3E9CF8B75AEC5A6E9F2D6657C004B60D402C3B/63077.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 2,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "Gain Health Every Second\n+40 Vitality\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Bowl of Ice Wurm Bisque",
+    "type": "Consumable",
+    "level": 23,
+    "rarity": "Basic",
+    "vendor_value": 8,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8608,
+    "chat_link": "[&AgGgIQAA]",
+    "icon": "https://render.guildwars2.com/file/59015F1735317FC31F9C04CB05505E0BA6980443/63103.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 2,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "+30 Precision\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Stein of Celebratory Beer",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 8,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "BulkConsume",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8609,
+    "chat_link": "[&AgGhIQAA]",
+    "icon": "https://render.guildwars2.com/file/DA6721301F17CB4F5428F20F3C97B7737979B269/63108.png",
+    "details": {
+      "type": "Booze"
+    }
+  },
+  {
+    "name": "Stein of Brackwater Ale",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 13,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "BulkConsume"
+    ],
+    "restrictions": [],
+    "id": 8610,
+    "chat_link": "[&AgGiIQAA]",
+    "icon": "https://render.guildwars2.com/file/D92A6B09614BCD0DC5BD30159374C3222A7B5E2D/63101.png",
+    "details": {
+      "type": "Booze"
+    }
+  },
+  {
+    "name": "Delicious Cave Spore",
+    "type": "Consumable",
+    "level": 13,
+    "rarity": "Basic",
+    "vendor_value": 6,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8611,
+    "chat_link": "[&AgGjIQAA]",
+    "icon": "https://render.guildwars2.com/file/02C8490298FE3913CDF15B30126275DBC8FD94F9/66919.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "+30 Healing\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Strip of Venison Jerky",
+    "type": "Consumable",
+    "level": 23,
+    "rarity": "Basic",
+    "vendor_value": 8,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8612,
+    "chat_link": "[&AgGkIQAA]",
+    "icon": "https://render.guildwars2.com/file/BF7014629DA8B4C7BCBBAF26B2B10EB86C4BC90F/63105.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "+30 Vitality\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Slice of Vigil Hard Tack",
+    "type": "Consumable",
+    "level": 48,
+    "rarity": "Basic",
+    "vendor_value": 12,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8613,
+    "chat_link": "[&AgGlIQAA]",
+    "icon": "https://render.guildwars2.com/file/BCF42D6B66493C04052F633CA0FF109CE02BA25F/455548.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "Gain Health Every Second\n+50 Vitality\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Moa Egg Omelet",
+    "type": "Consumable",
+    "level": 13,
+    "rarity": "Basic",
+    "vendor_value": 6,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8614,
+    "chat_link": "[&AgGmIQAA]",
+    "icon": "https://render.guildwars2.com/file/950558031F21800DC0A7AA395FF0CEAD159A5503/63106.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "-8% Incoming Condition Duration\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Bowl of Fly Soup",
+    "type": "Consumable",
+    "level": 50,
+    "rarity": "Basic",
+    "vendor_value": 12,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8615,
+    "chat_link": "[&AgGnIQAA]",
+    "icon": "https://render.guildwars2.com/file/BCB5AD905BC4C60A707C6699621CEBF8B42829AD/219354.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "+60 Expertise\n+50 Condition Damage\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Blessing of Azantil",
+    "type": "Consumable",
+    "level": 51,
+    "rarity": "Basic",
+    "vendor_value": 13,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8616,
+    "chat_link": "[&AgGoIQAA]",
+    "icon": "https://render.guildwars2.com/file/776A5C6E3BCE1D19D799DC7911D8FCE47FF74F91/63278.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "+60 Toughness\n+50 Precision\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Poached Salmon Filet",
+    "type": "Consumable",
+    "level": 5,
+    "rarity": "Basic",
+    "vendor_value": 4,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8617,
+    "chat_link": "[&AgGpIQAA]",
+    "icon": "https://render.guildwars2.com/file/D73E64D9801DDA9D27213DCFFB12F228EB3F1B65/63084.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "+20 Toughness\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Shiverpeak Ration",
+    "type": "Consumable",
+    "level": 23,
+    "rarity": "Basic",
+    "vendor_value": 8,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8618,
+    "chat_link": "[&AgGqIQAA]",
+    "icon": "https://render.guildwars2.com/file/6001550DAF4E24209C13A553196ACECB6AE50845/63120.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "Gain Health Every Second\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Flask of Special Reserve Blood Whiskey",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "BulkConsume"
+    ],
+    "restrictions": [],
+    "id": 8621,
+    "chat_link": "[&AgGtIQAA]",
+    "icon": "https://render.guildwars2.com/file/10FCC67CB707410190FD42A1D7066A0678CCBD93/63098.png",
+    "details": {
+      "type": "Booze"
+    }
+  },
+  {
+    "name": "Dredge Worker Ration",
+    "type": "Consumable",
+    "level": 41,
+    "rarity": "Basic",
+    "vendor_value": 11,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8622,
+    "chat_link": "[&AgGuIQAA]",
+    "icon": "https://render.guildwars2.com/file/6001550DAF4E24209C13A553196ACECB6AE50845/63120.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "Gain Health Every Second\n+40 Vitality\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Standard Pact Ration",
+    "type": "Consumable",
+    "level": 58,
+    "rarity": "Basic",
+    "vendor_value": 14,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8623,
+    "chat_link": "[&AgGvIQAA]",
+    "icon": "https://render.guildwars2.com/file/AEFD3923051104E1090D79CC570071F0F7C21B05/63064.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "Gain Health Every Second\n+60 Vitality\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Stein of Hearty Ale",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "BulkConsume"
+    ],
+    "restrictions": [],
+    "id": 8624,
+    "chat_link": "[&AgGwIQAA]",
+    "icon": "https://render.guildwars2.com/file/5B6A00A7056C0DC8DA7448C0B1FC07560C6AD5B7/63092.png",
+    "details": {
+      "type": "Booze"
+    }
+  },
+  {
+    "name": "Stein of Stout Ale",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 10,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "BulkConsume",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8625,
+    "chat_link": "[&AgGxIQAA]",
+    "icon": "https://render.guildwars2.com/file/5B6A00A7056C0DC8DA7448C0B1FC07560C6AD5B7/63092.png",
+    "details": {
+      "type": "Booze"
+    }
+  },
+  {
+    "name": "Bowl of Gladiator Gruel",
+    "type": "Consumable",
+    "level": 37,
+    "rarity": "Basic",
+    "vendor_value": 10,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8626,
+    "chat_link": "[&AgGyIQAA]",
+    "icon": "https://render.guildwars2.com/file/7F0E43F40322405AD8A490C81826EB5F0B4F2A19/63143.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "+50 Toughness\n+40 Precision\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Flask of Gladiator Swill",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 10,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "BulkConsume",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8627,
+    "chat_link": "[&AgGzIQAA]",
+    "icon": "https://render.guildwars2.com/file/10FCC67CB707410190FD42A1D7066A0678CCBD93/63098.png",
+    "details": {
+      "type": "Booze"
+    }
+  },
+  {
+    "name": "Murrellow Stimulant Snack",
+    "type": "Consumable",
+    "level": 34,
+    "rarity": "Basic",
+    "vendor_value": 10,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8628,
+    "chat_link": "[&AgG0IQAA]",
+    "icon": "https://render.guildwars2.com/file/7D70420B60279BB1019EE840FD0B493CB41EF993/66820.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "+50 Healing\n+40 Precision\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Icy Fish Snack",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Basic",
+    "vendor_value": 16,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8629,
+    "chat_link": "[&AgG1IQAA]",
+    "icon": "https://render.guildwars2.com/file/D73E64D9801DDA9D27213DCFFB12F228EB3F1B65/63084.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "+80 Vitality\n+160 Power while Health Is Below 50%\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Flask of Recovered Brew",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 16,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "BulkConsume",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8630,
+    "chat_link": "[&AgG2IQAA]",
+    "icon": "https://render.guildwars2.com/file/F41349690FB0BC3A4A129428C2F4706C09F2DD7C/63134.png",
+    "details": {
+      "type": "Booze"
+    }
+  },
+  {
+    "name": "Jug of Moletariate Cocktail",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 16,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "BulkConsume",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8631,
+    "chat_link": "[&AgG3IQAA]",
+    "icon": "https://render.guildwars2.com/file/AD9247A55E4E6A295151F6732E5C1A77901E14AA/62768.png",
+    "details": {
+      "type": "Booze"
+    }
+  },
+  {
+    "name": "Mined Edible Root",
+    "type": "Consumable",
+    "level": 68,
+    "rarity": "Basic",
+    "vendor_value": 16,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8632,
+    "chat_link": "[&AgG4IQAA]",
+    "icon": "https://render.guildwars2.com/file/7D70420B60279BB1019EE840FD0B493CB41EF993/66820.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "80% Chance to Gain Health on Kill\n+60 Healing Power\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Crab Food",
+    "type": "Consumable",
+    "level": 39,
+    "rarity": "Fine",
+    "vendor_value": 20,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8633,
+    "chat_link": "[&AgG5IQAA]",
+    "icon": "https://render.guildwars2.com/file/03369D00A52807A7FCD8D3A5C31428152412037C/63281.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "+50 Condition Damage\n+40 Vitality\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Pirate Hard Tack",
+    "type": "Consumable",
+    "level": 41,
+    "rarity": "Fine",
+    "vendor_value": 21,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8634,
+    "chat_link": "[&AgG6IQAA]",
+    "icon": "https://render.guildwars2.com/file/BCF42D6B66493C04052F633CA0FF109CE02BA25F/455548.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "Gain Health Every Second\n+40 Vitality\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Medical Pack",
+    "description": "Double-click to gain a med pack",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 11,
+    "game_types": [
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8636,
+    "chat_link": "[&AgG8IQAA]",
+    "icon": "https://render.guildwars2.com/file/6E9FA3C99A223677280CD9154A3FB50E2B43AE5B/66895.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Healing Salve",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 5,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8637,
+    "chat_link": "[&AgG9IQAA]",
+    "icon": "https://render.guildwars2.com/file/1C0AF9FCE9CCF6C844E3280DDD23AE36060A0AD8/63068.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "Gain Health Every Second\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Kodan Incense",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 5,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8638,
+    "chat_link": "[&AgG+IQAA]",
+    "icon": "https://render.guildwars2.com/file/1C0AF9FCE9CCF6C844E3280DDD23AE36060A0AD8/63068.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "+20 Precision\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Ghost Owl Feather",
+    "description": "You become an owl.\n<c=@flavor>\"Remember Owl\"</c>",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 21,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "NoUnderwater",
+      "SoulBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 8639,
+    "chat_link": "[&AgG/IQAA]",
+    "icon": "https://render.guildwars2.com/file/CD641E313C19ACDDAE34CDC52B48181EC763089F/63110.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Grawl Snowman Potion",
+    "description": "You become a Grawl Snowman for 5 min.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 22,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 8640,
+    "chat_link": "[&AgHAIQAA]",
+    "icon": "https://render.guildwars2.com/file/1275404EE30C0FDCC1EE6AB3A70136FB020158D7/66150.png",
+    "details": {
+      "type": "Utility"
+    }
+  },
+  {
+    "name": "Mystery Box",
+    "description": "<c=@flavor>\"Life is a mystery\"</c>",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 22,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8641,
+    "chat_link": "[&AgHBIQAA]",
+    "icon": "https://render.guildwars2.com/file/2F652176DC6678EF3001D10CA5DD5C7BCEA6263D/63113.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Quaggan Bag of Goods",
+    "description": "<c=@flavor>\"Here is some extra Stuff\"</c>",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 22,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8642,
+    "chat_link": "[&AgHCIQAA]",
+    "icon": "https://render.guildwars2.com/file/065CEC6B786D79C1374AC7123F033261AB146703/63114.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Snowball",
+    "description": "Double-click to gain a snowball.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 5,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8643,
+    "chat_link": "[&AgHDIQAA]",
+    "icon": "https://render.guildwars2.com/file/1D05D1EE04E16E69710E1EAB11AC466BBF105778/219347.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Potion of Jackalope Transformation",
+    "description": "Double-click to become a jackalope for 5 minutes.",
+    "type": "Consumable",
+    "level": 10,
+    "rarity": "Masterwork",
+    "vendor_value": 15,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 8644,
+    "chat_link": "[&AgHEIQAA]",
+    "icon": "https://render.guildwars2.com/file/79DA6A310F020315361533F80906F1A9DA7C5DE6/63121.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Potion of Wolf Transformation",
+    "description": "Double-click to become a wolf.",
+    "type": "Consumable",
+    "level": 10,
+    "rarity": "Masterwork",
+    "vendor_value": 15,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 8645,
+    "chat_link": "[&AgHFIQAA]",
+    "icon": "https://render.guildwars2.com/file/0D4F74142AC8CE39002CBEADF252011944C655EE/63096.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Jafri's Package of Snowballs",
+    "description": "Open this package to create several snowballs that can hit anyone else holding a snowball.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 25,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8646,
+    "chat_link": "[&AgHGIQAA]",
+    "icon": "https://render.guildwars2.com/file/1D05D1EE04E16E69710E1EAB11AC466BBF105778/219347.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Smoke Bomb",
+    "description": "Double-click to gain a Smoke Bomb.\n<c=@flavor>\"Make everyone cough like a pro.\"</c>",
+    "type": "Consumable",
+    "level": 10,
+    "rarity": "Basic",
+    "vendor_value": 4,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8647,
+    "chat_link": "[&AgHHIQAA]",
+    "icon": "https://render.guildwars2.com/file/AD9247A55E4E6A295151F6732E5C1A77901E14AA/62768.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Molachev Cocktail",
+    "description": "Double-click to gain a Molachev Cocktail.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 2,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8648,
+    "chat_link": "[&AgHIIQAA]",
+    "icon": "https://render.guildwars2.com/file/AD9247A55E4E6A295151F6732E5C1A77901E14AA/62768.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Ghost Bomb",
+    "description": "Double-click to a bomb.",
+    "type": "Consumable",
+    "level": 10,
+    "rarity": "Basic",
+    "vendor_value": 4,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8650,
+    "chat_link": "[&AgHKIQAA]",
+    "icon": "https://render.guildwars2.com/file/93719EC76AF9B666F1195E7FB9530EFF4C152504/63122.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Explorers Kit",
+    "type": "Consumable",
+    "level": 10,
+    "rarity": "Basic",
+    "vendor_value": 4,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8651,
+    "chat_link": "[&AgHLIQAA]",
+    "icon": "https://render.guildwars2.com/file/9F09ACD431CE4906631E271E650ABB0454F90705/63123.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 3600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "12% Chance to Gain Swiftness on Kill"
+    }
+  },
+  {
+    "name": "Ettin Club",
+    "description": "Double-click to gain an Ettin club.",
+    "type": "Consumable",
+    "level": 10,
+    "rarity": "Basic",
+    "vendor_value": 4,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8652,
+    "chat_link": "[&AgHMIQAA]",
+    "icon": "https://render.guildwars2.com/file/4974BF12CB5CCB35F196D0AC05BE925507D99A92/433384.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Mine",
+    "description": "Double-click to gain a mine.",
+    "type": "Consumable",
+    "level": 10,
+    "rarity": "Basic",
+    "vendor_value": 4,
+    "game_types": [
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8653,
+    "chat_link": "[&AgHNIQAA]",
+    "icon": "https://render.guildwars2.com/file/FE3280996C7B53BDB497143268031C117592DD14/62483.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Pot of Hylek Poison",
+    "description": "",
+    "type": "Consumable",
+    "level": 10,
+    "rarity": "Basic",
+    "vendor_value": 4,
+    "game_types": [
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8654,
+    "chat_link": "[&AgHOIQAA]",
+    "icon": "https://render.guildwars2.com/file/1C0AF9FCE9CCF6C844E3280DDD23AE36060A0AD8/63068.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Experimental Teleportation Gun",
+    "description": "Double-click to gain an Experimental Teleportation Gun.",
+    "type": "Consumable",
+    "level": 10,
+    "rarity": "Basic",
+    "vendor_value": 4,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8655,
+    "chat_link": "[&AgHPIQAA]",
+    "icon": "https://render.guildwars2.com/file/50113CEAABC198949852AE1979C1B9F6E000AA4B/63882.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Potion of Ettin Essence",
+    "description": "Double-click to become an ettin.\n<c=@flavor>\"We made this to help us study them.\" —Bramm</c>",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 35,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 8656,
+    "chat_link": "[&AgHQIQAA]",
+    "icon": "https://render.guildwars2.com/file/1E27AFC874C5490E1C2C54EC5CB87A0E3E5645A8/63062.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Cannonball",
+    "description": "Double-click to gain a cannonball.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 9,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8658,
+    "chat_link": "[&AgHSIQAA]",
+    "icon": "https://render.guildwars2.com/file/0759C04469062C150B34010A15534E21A49A2C55/61968.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Boulder",
+    "description": "Double-click to gain a rock.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 5,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8659,
+    "chat_link": "[&AgHTIQAA]",
+    "icon": "https://render.guildwars2.com/file/C15F220F0B4DAAE4FEC6673B4B9E3037F9E0114A/63125.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Peg Leg",
+    "description": "Double-click to gain a peg leg you can bash things with.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 9,
+    "game_types": [
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8660,
+    "chat_link": "[&AgHUIQAA]",
+    "icon": "https://render.guildwars2.com/file/365903EF113AAD5FF6E5F77F1E46CE1072046A3D/63126.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Ettin Gunk",
+    "description": "Double-click to gain gunk you can throw.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 15,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "Unique",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8661,
+    "chat_link": "[&AgHVIQAA]",
+    "icon": "https://render.guildwars2.com/file/93719EC76AF9B666F1195E7FB9530EFF4C152504/63122.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Rusty Scrap",
+    "description": "Double-click to gain a piece of rusty scrap.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 10,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8662,
+    "chat_link": "[&AgHWIQAA]",
+    "icon": "https://render.guildwars2.com/file/A64CDE12565E07F00470D710377A5EAB5E953816/62264.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Wooden Plank",
+    "description": "Double-click to gain a wood plank.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 10,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8663,
+    "chat_link": "[&AgHXIQAA]",
+    "icon": "https://render.guildwars2.com/file/6CFF221BAA7877C54B243D1DE9C8A211BB6AE170/65938.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Metal Rod",
+    "description": "Double-click to gain a metal rod.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 10,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8664,
+    "chat_link": "[&AgHYIQAA]",
+    "icon": "https://render.guildwars2.com/file/6E350F079207B60BFBD5A54A9F14E667677E0016/66184.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Boulder",
+    "description": "Double-click to gain a boulder.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 10,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8665,
+    "chat_link": "[&AgHZIQAA]",
+    "icon": "https://render.guildwars2.com/file/5E3FF900B17CD8A0C214E60507299FD1D6DA6308/219348.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Blessing Of Bear",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 10,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8666,
+    "chat_link": "[&AgHaIQAA]",
+    "icon": "https://render.guildwars2.com/file/31A44AEE094653092EBBFF47606C5A9177191653/219349.png",
+    "details": {
+      "type": "Generic",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "+20 Power\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Stout Ale Keg",
+    "description": "Double-click to gain a keg of stout ale.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 10,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8667,
+    "chat_link": "[&AgHbIQAA]",
+    "icon": "https://render.guildwars2.com/file/661F2AC76A27B81C0029126D0C4ADDFEF56A2668/62167.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Jotun Greatsword",
+    "description": "Double-click to gain a Jotun greatsword",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 10,
+    "game_types": [
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8668,
+    "chat_link": "[&AgHcIQAA]",
+    "icon": "https://render.guildwars2.com/file/5707BD10066A231505CEA06704A879636BF416D5/68500.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Sonic Rifle",
+    "description": "Double-click to gain a sonic rifle.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 11,
+    "game_types": [
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8669,
+    "chat_link": "[&AgHdIQAA]",
+    "icon": "https://render.guildwars2.com/file/05909FE40ACD31F0201E02DD7E03C41ABD9CC401/66196.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Murellow Tonic",
+    "description": "Double-click to transform into a Murellow.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 11,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 8670,
+    "chat_link": "[&AgHeIQAA]",
+    "icon": "https://render.guildwars2.com/file/6001550DAF4E24209C13A553196ACECB6AE50845/63120.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Dolyak Tincture",
+    "description": "Double-click to transform into a furry lovable dolyak.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 16,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 8671,
+    "chat_link": "[&AgHfIQAA]",
+    "icon": "https://render.guildwars2.com/file/6001550DAF4E24209C13A553196ACECB6AE50845/63120.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Wooden Plank",
+    "description": "Double-click to gain a wood plank.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 16,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8672,
+    "chat_link": "[&AgHgIQAA]",
+    "icon": "https://render.guildwars2.com/file/6CFF221BAA7877C54B243D1DE9C8A211BB6AE170/65938.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Dredge Rifle",
+    "description": "Double-click to gain a Dredge Rifle.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 16,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8674,
+    "chat_link": "[&AgHiIQAA]",
+    "icon": "https://render.guildwars2.com/file/CE77194AB7CDCAFA226CF575CD2101C95A68DCE8/574936.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Ball of Gunk",
+    "description": "Double-click to use gunk.",
+    "type": "Consumable",
+    "level": 22,
+    "rarity": "Basic",
+    "vendor_value": 7,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8675,
+    "chat_link": "[&AgHjIQAA]",
+    "icon": "https://render.guildwars2.com/file/A9900F02F8CB0CB124FD5E94979855BDBEDA77F7/65897.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Underwater Net",
+    "description": "Double-click to gain an underwater net.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 5,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "Unique",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8676,
+    "chat_link": "[&AgHkIQAA]",
+    "icon": "https://render.guildwars2.com/file/004C3CE9A7969F2D73DEC703AEFCE0C7697757B7/223409.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Plank",
+    "description": "Double-click to use plank.",
+    "type": "Consumable",
+    "level": 22,
+    "rarity": "Basic",
+    "vendor_value": 7,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8677,
+    "chat_link": "[&AgHlIQAA]",
+    "icon": "https://render.guildwars2.com/file/6CFF221BAA7877C54B243D1DE9C8A211BB6AE170/65938.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Rock",
+    "description": "Double-click to gain a rock to throw.",
+    "type": "Consumable",
+    "level": 22,
+    "rarity": "Basic",
+    "vendor_value": 7,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8678,
+    "chat_link": "[&AgHmIQAA]",
+    "icon": "https://render.guildwars2.com/file/3728DC6E10FA4DADCD3B0918A70FAE9DEA96BDD4/65962.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Bottle",
+    "description": "Double-click to use bottle.",
+    "type": "Consumable",
+    "level": 22,
+    "rarity": "Basic",
+    "vendor_value": 7,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "Unique",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8679,
+    "chat_link": "[&AgHnIQAA]",
+    "icon": "https://render.guildwars2.com/file/0D04C8CF44F1B1441697C35255CE62D76EE12D79/223723.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Gear",
+    "description": "Double-click to use gear.",
+    "type": "Consumable",
+    "level": 22,
+    "rarity": "Basic",
+    "vendor_value": 7,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8680,
+    "chat_link": "[&AgHoIQAA]",
+    "icon": "https://render.guildwars2.com/file/FC637AA3031B585F5B025B12670C6CD5A5C1BA51/63130.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "MedKit",
+    "description": "Double-click to use medkit.",
+    "type": "Consumable",
+    "level": 22,
+    "rarity": "Basic",
+    "vendor_value": 7,
+    "game_types": [
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8681,
+    "chat_link": "[&AgHpIQAA]",
+    "icon": "https://render.guildwars2.com/file/666209104CCB024D53359C0EA0A299076E610771/65704.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Cattle Prod",
+    "description": "Double-click to gain a Cattle Prod bundle item.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 5,
+    "game_types": [
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8682,
+    "chat_link": "[&AgHqIQAA]",
+    "icon": "https://render.guildwars2.com/file/E4F9C809C0714A07E820A3F2E37E94BADFA66FF4/63128.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Clean Refreshing Drink",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 6,
+    "game_types": [
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8683,
+    "chat_link": "[&AgHrIQAA]",
+    "icon": "https://render.guildwars2.com/file/C6A3FFF06BB4D50050D3B1FE75E3AACBFA0F8009/63129.png",
+    "details": {
+      "type": "Generic",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Purity",
+      "icon": "https://render.guildwars2.com/file/C6A3FFF06BB4D50050D3B1FE75E3AACBFA0F8009/63129.png",
+      "description": "Conditions applied to you have 10% reduced duration."
+    }
+  },
+  {
+    "name": "Charr Mine",
+    "description": "Double-click to gain a Charr Mine bundle item.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 6,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8684,
+    "chat_link": "[&AgHsIQAA]",
+    "icon": "https://render.guildwars2.com/file/FC637AA3031B585F5B025B12670C6CD5A5C1BA51/63130.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Fire Bomb",
+    "description": "Double-click to gain a Molachev Cocktail bundle item.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 5,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8685,
+    "chat_link": "[&AgHtIQAA]",
+    "icon": "https://render.guildwars2.com/file/0DBB98F2690B1A744E49CAD4E5BE940D661299B1/63131.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Ash Legion Spy Kit",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 4,
+    "game_types": [
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8686,
+    "chat_link": "[&AgHuIQAA]",
+    "icon": "https://render.guildwars2.com/file/6229333F2070430675F3440BE9FC801A3EE42014/543776.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Flaming Effigy Piece",
+    "description": "Double-click to gain a piece of a flaming effigy.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 3,
+    "game_types": [
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8687,
+    "chat_link": "[&AgHvIQAA]",
+    "icon": "https://render.guildwars2.com/file/FA56C5DD5D7494F25D980E432BA129F44209ED0E/63136.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Pile of Junk",
+    "description": "Double-click to rummage through the junk.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 17,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8689,
+    "chat_link": "[&AgHxIQAA]",
+    "icon": "https://render.guildwars2.com/file/D9C8AAED4B80010B809E465D90E81634D62EEF16/63137.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Fireworks",
+    "description": "You gain fireworks",
+    "type": "Consumable",
+    "level": 10,
+    "rarity": "Fine",
+    "vendor_value": 9,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8690,
+    "chat_link": "[&AgHyIQAA]",
+    "icon": "https://render.guildwars2.com/file/0B14BB6F00DC32751041D1AB07F827C451E85E3D/63138.png",
+    "details": {
+      "type": "Utility"
+    }
+  },
+  {
+    "name": "Bovine Potion",
+    "description": "You become a cow for 5m",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 20,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 8691,
+    "chat_link": "[&AgHzIQAA]",
+    "icon": "https://render.guildwars2.com/file/EE980B9AA5BEB900A49622B9B959E9A8A0249DFF/63139.png",
+    "details": {
+      "type": "Utility"
+    }
+  },
+  {
+    "name": "Wooden Plank",
+    "description": "You gain a plank",
+    "type": "Consumable",
+    "level": 10,
+    "rarity": "Fine",
+    "vendor_value": 9,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8692,
+    "chat_link": "[&AgH0IQAA]",
+    "icon": "https://render.guildwars2.com/file/365903EF113AAD5FF6E5F77F1E46CE1072046A3D/63126.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Plank",
+    "description": "You gain a plank",
+    "type": "Consumable",
+    "level": 10,
+    "rarity": "Fine",
+    "vendor_value": 9,
+    "game_types": [
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8693,
+    "chat_link": "[&AgH1IQAA]",
+    "icon": "https://render.guildwars2.com/file/365903EF113AAD5FF6E5F77F1E46CE1072046A3D/63126.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Explosive Charge",
+    "description": "Double-click to gain an Explosive Charge.\n<c=@flavor>\"Blow your enemies to smithereens.\"</c>",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 2,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8695,
+    "chat_link": "[&AgH3IQAA]",
+    "icon": "https://render.guildwars2.com/file/FE3280996C7B53BDB497143268031C117592DD14/62483.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Skale Venom",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 2,
+    "game_types": [
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8696,
+    "chat_link": "[&AgH4IQAA]",
+    "icon": "https://render.guildwars2.com/file/0160D1F436C230733DC4235D4947275840B40822/63161.png",
+    "details": {
+      "type": "Generic",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Skale Venom",
+      "icon": "https://render.guildwars2.com/file/A71B05C116B677EF620780B3D5BC58287EBC6D4B/104078.png",
+      "description": "You have a 10% chance to inflict weakness and vulnerability for 5 seconds when you hit a foe."
+    }
+  },
+  {
+    "name": "Medical Kit",
+    "description": "Double-click to gain a portable Medical Kit.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 2,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8697,
+    "chat_link": "[&AgH5IQAA]",
+    "icon": "https://render.guildwars2.com/file/73090436997D49C05FAFD4462757971CADC2E6B4/63155.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Ogre Pet Whistle",
+    "description": "Double-click to call an ogre pet to aid you for 5 minutes.",
+    "type": "Consumable",
+    "level": 59,
+    "rarity": "Basic",
+    "vendor_value": 13,
+    "game_types": [
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8698,
+    "chat_link": "[&AgH6IQAA]",
+    "icon": "https://render.guildwars2.com/file/EBA905F8E06B409ABD17DB990D5E6F5162BFB315/455549.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Ogre Pet Tonic",
+    "description": "Double-click to transform into an ogre pet for 5 minutes.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 49,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 8699,
+    "chat_link": "[&AgH7IQAA]",
+    "icon": "https://render.guildwars2.com/file/9B32F3B6A202023A10F1E9EC457A0EC1D809DC9A/219350.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Potion of Ascalonian Mages",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 26,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 8700,
+    "chat_link": "[&AgH8IQAA]",
+    "icon": "https://render.guildwars2.com/file/007169B13E3F7D9ED9FE7DC7DB78060977026492/63124.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Charrzooka",
+    "description": "Double-click to gain a Charrzooka",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 13,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8701,
+    "chat_link": "[&AgH9IQAA]",
+    "icon": "https://render.guildwars2.com/file/73090436997D49C05FAFD4462757971CADC2E6B4/63155.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Fire Elemental Powder",
+    "description": "Double-click to summon a pet fire elemental for 5 minutes. Can only be used once every 30 minutes.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 13,
+    "game_types": [
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8702,
+    "chat_link": "[&AgH+IQAA]",
+    "icon": "https://render.guildwars2.com/file/F90EEC96BB0C70D5CC2F30BA2E0B45B8326965A8/219351.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Deployable Thumper Turret",
+    "description": "Double-click to use this kit to deploy a thumper turret.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 13,
+    "game_types": [
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8703,
+    "chat_link": "[&AgH/IQAA]",
+    "icon": "https://render.guildwars2.com/file/730A99AC6A69DD0F5352DAD56A91FC09D76F0D39/62860.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Deployable Mortar Kit",
+    "description": "Double-click to use this kit to deploy a mortar.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 13,
+    "game_types": [
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8704,
+    "chat_link": "[&AgEAIgAA]",
+    "icon": "https://render.guildwars2.com/file/730A99AC6A69DD0F5352DAD56A91FC09D76F0D39/62860.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Effigy Fragment",
+    "description": "Double-click to activate your effigy fragment.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 13,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8705,
+    "chat_link": "[&AgEBIgAA]",
+    "icon": "https://render.guildwars2.com/file/FA56C5DD5D7494F25D980E432BA129F44209ED0E/63136.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Ogre Pet Tonic",
+    "description": "Double-click to experience nature from a different perpective.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 50,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 8706,
+    "chat_link": "[&AgECIgAA]",
+    "icon": "https://render.guildwars2.com/file/9B32F3B6A202023A10F1E9EC457A0EC1D809DC9A/219350.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Charrzooka",
+    "description": "Double-click to gain a Charrzooka.\n<c=@flavor>\"Explosively simple!\"</c>",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 2,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8707,
+    "chat_link": "[&AgEDIgAA]",
+    "icon": "https://render.guildwars2.com/file/0C26440D74AFBEA29F087FB2F2CF40E13F543561/63057.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Smoke Bomb",
+    "description": "Double-click to gain a Smoke Bomb.\n<c=@flavor>\"Make everyone cough like a pro.\"</c>",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 2,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8708,
+    "chat_link": "[&AgEEIgAA]",
+    "icon": "https://render.guildwars2.com/file/FE3280996C7B53BDB497143268031C117592DD14/62483.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Grawl Ritual Totem",
+    "description": "Double-click to gain a Grawl Ritual Totem",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 10,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8709,
+    "chat_link": "[&AgEFIgAA]",
+    "icon": "https://render.guildwars2.com/file/7D22375A92039A341B79017AF3650BF00B5B9D39/65681.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Fighting Pit Training Sword",
+    "description": "Double-click to gain a Fighting Pit Training Sword",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 10,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8710,
+    "chat_link": "[&AgEGIgAA]",
+    "icon": "https://render.guildwars2.com/file/4208D4020193450C234C0DC55F7EFCFAB236007B/66216.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Jar of Harpy Pheromones",
+    "description": "Double-click to gain a Jar of Harpy Pheromones",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 11,
+    "game_types": [
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8711,
+    "chat_link": "[&AgEHIgAA]",
+    "icon": "https://render.guildwars2.com/file/D15B7C2E9D741CD9F39C1EAF76D924F3DA25AB1F/222792.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Shiny Stolen Gear",
+    "description": "Double-click to gain a Shiny Stolen Gear",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 11,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8712,
+    "chat_link": "[&AgEIIgAA]",
+    "icon": "https://render.guildwars2.com/file/A64CDE12565E07F00470D710377A5EAB5E953816/62264.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Charrzooka",
+    "description": "Double-click to gain a Charrzooka",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 11,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8713,
+    "chat_link": "[&AgEJIgAA]",
+    "icon": "https://render.guildwars2.com/file/0C26440D74AFBEA29F087FB2F2CF40E13F543561/63057.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Ascalon Tome",
+    "description": "Double-click to gain an Ascalon Tome",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 10,
+    "game_types": [
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8714,
+    "chat_link": "[&AgEKIgAA]",
+    "icon": "https://render.guildwars2.com/file/031CBF0F0A4780304A1BC81B0F68FFCDFCC41343/220883.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Mine",
+    "description": "Double-click to gain a Mine",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 10,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8715,
+    "chat_link": "[&AgELIgAA]",
+    "icon": "https://render.guildwars2.com/file/FE3280996C7B53BDB497143268031C117592DD14/62483.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Growth Tonic",
+    "description": "Double-click to grow in size.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 38,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 8717,
+    "chat_link": "[&AgENIgAA]",
+    "icon": "https://render.guildwars2.com/file/026CB2B3FDFF0D2331F1C7502CE109E96E180F0A/222724.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Hazmat Suit Transformation Tonic",
+    "description": "Double-click to transform into an Asura Hazmat Suit.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 40,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 8718,
+    "chat_link": "[&AgEOIgAA]",
+    "icon": "https://render.guildwars2.com/file/C21F9BD11EF6CD709DC818F8D19F7975E90AC308/63166.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Cannonball",
+    "description": "Double-click to gain a cannonball\n<c=@flavor>\"Give it a good throw!\"</c>",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 2,
+    "game_types": [
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8720,
+    "chat_link": "[&AgEQIgAA]",
+    "icon": "https://render.guildwars2.com/file/0759C04469062C150B34010A15534E21A49A2C55/61968.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Plank",
+    "description": "Double-click to gain a plank.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 16,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8721,
+    "chat_link": "[&AgERIgAA]",
+    "icon": "https://render.guildwars2.com/file/F6950EBB26C9E7E40560234F06059D1944DD7CA5/433572.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Orrian Driftwood",
+    "description": "Double-click to gain driftwood.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 16,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8722,
+    "chat_link": "[&AgESIgAA]",
+    "icon": "https://render.guildwars2.com/file/4D80EB58D2C83705292201DF58B3C76FDEB405C9/65906.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Net",
+    "description": "Double-click to gain a net.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 16,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8723,
+    "chat_link": "[&AgETIgAA]",
+    "icon": "https://render.guildwars2.com/file/CB6C73BB2A5E0ECF9C359194737D59D2A006136D/63511.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Cannonball",
+    "description": "Double-click to gain a cannonball.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 16,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8724,
+    "chat_link": "[&AgEUIgAA]",
+    "icon": "https://render.guildwars2.com/file/0759C04469062C150B34010A15534E21A49A2C55/61968.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Golem Transformation Tincture",
+    "description": "Double-click to transform into a Golem.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 16,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 8725,
+    "chat_link": "[&AgEVIgAA]",
+    "icon": "https://render.guildwars2.com/file/72E638C510AC04A068DDBC3C7B3C49D1A860C114/222670.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Cannonball",
+    "description": "Double-click to gain a cannonball.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 16,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8727,
+    "chat_link": "[&AgEXIgAA]",
+    "icon": "https://render.guildwars2.com/file/FE3280996C7B53BDB497143268031C117592DD14/62483.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Experimental Laser Weapon Variant VL-992",
+    "description": "Double-click to gain an experimental asura gun.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 16,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8728,
+    "chat_link": "[&AgEYIgAA]",
+    "icon": "https://render.guildwars2.com/file/50113CEAABC198949852AE1979C1B9F6E000AA4B/63882.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Quaggan Tonic",
+    "description": "Double-click to transform into an extremely adorable Quaggan.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 16,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 8729,
+    "chat_link": "[&AgEZIgAA]",
+    "icon": "https://render.guildwars2.com/file/5F3D98C8CFF353535A10530E3F38C5E8E3BDF50B/66557.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Spy Kit",
+    "description": "Double-click to gain a super secret spy kit full of secrets and mysteries.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 16,
+    "game_types": [
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8730,
+    "chat_link": "[&AgEaIgAA]",
+    "icon": "https://render.guildwars2.com/file/E5CFCDEC7DCA7B95DF10094B2241240A783CE1EE/63173.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Power Matrix",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 16,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8732,
+    "chat_link": "[&AgEcIgAA]",
+    "icon": "https://render.guildwars2.com/file/6403060B50D222D6DF6B1479A34EA7930A401914/66581.png",
+    "details": {
+      "type": "Generic"
+    }
+  }
+]

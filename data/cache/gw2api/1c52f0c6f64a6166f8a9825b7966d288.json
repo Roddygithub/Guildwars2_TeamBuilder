@@ -1,0 +1,6778 @@
+[
+  {
+    "name": "Unknown Track 04",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103453,
+    "chat_link": "[&AgEdlAEA]",
+    "icon": "https://render.guildwars2.com/file/C0FB13FB0EDEA8E56676A05F80E3FDC5E92E98E1/66945.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Recipe: Silver Vale Guardian Trophy",
+    "description": "Unlocks this homestead decoration for crafting.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103454,
+    "chat_link": "[&AgEelAEA]",
+    "icon": "https://render.guildwars2.com/file/59520696CF7A72FCAEDC717F220D93780401E60C/3321135.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 14576
+    }
+  },
+  {
+    "name": "Homestead Recipe Book: Trees",
+    "description": "A book of homestead decoration recipes needed to craft trees.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103458,
+    "chat_link": "[&AgEilAEA]",
+    "icon": "https://render.guildwars2.com/file/095B9410F480575B7EAF9CDA9F05163FB8530251/220884.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 14604,
+      "extra_recipe_ids": [
+        14421,
+        14505,
+        14629,
+        14619,
+        14843,
+        14509,
+        14275,
+        14572,
+        14421,
+        14455,
+        14661,
+        14897,
+        14228,
+        14812,
+        14817,
+        14591,
+        14455
+      ]
+    }
+  },
+  {
+    "name": "Recipe: Titanplate Medium Gloves",
+    "description": "Double-click to learn a crafting recipe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 6000,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103459,
+    "chat_link": "[&AgEjlAEA]",
+    "icon": "https://render.guildwars2.com/file/2165062CDCFBAAA0173AB39DF7EB10A2120816D0/849293.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 14636
+    }
+  },
+  {
+    "name": "Pale Branch Spear",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 12492,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103460,
+    "chat_link": "[&AgEklAEA]",
+    "icon": "https://render.guildwars2.com/file/3AC997740935C974F6B0AC6B52ED2B33CA1101FB/3375598.png",
+    "details": {
+      "type": "Harpoon",
+      "damage_type": "Physical",
+      "min_power": 905,
+      "max_power": 1000,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "infix_upgrade": {
+        "id": 1085,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 205
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 113
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 205
+          },
+          {
+            "attribute": "ConditionDuration",
+            "modifier": 113
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Homestead Upgrade: Wood Trade Efficiency",
+    "description": "Significantly improves the efficiency of trading logs for Homestead Fiber.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage"
+    ],
+    "restrictions": [],
+    "id": 103462,
+    "chat_link": "[&AgEmlAEA]",
+    "icon": "https://render.guildwars2.com/file/6401271B8061C14ECBF86480BE02397F2B07AF7F/1998829.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Polychromatic Medium Jacket",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 12512,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103463,
+    "chat_link": "[&AgEnlAEA]",
+    "icon": "https://render.guildwars2.com/file/0FDD9803DE3F1B72D100F36004610A187EAAB597/3376776.png",
+    "details": {
+      "type": "Coat",
+      "weight_class": "Medium",
+      "defense": 338,
+      "infusion_slots": [],
+      "attribute_adjustment": 384.12,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539,
+        1717,
+        1687,
+        1826
+      ],
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Janthir Wilds Launch Supply Drop: Week Three",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103465,
+    "chat_link": "[&AgEplAEA]",
+    "icon": "https://render.guildwars2.com/file/93421564A7A471310BCF9E0D722C39FBFCC2EA05/2191171.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Void Corrupted Short Bow Skin",
+    "description": "Double-click to apply this look to any other short bow.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 103466,
+    "chat_link": "[&AgEqlAEA]",
+    "icon": "https://render.guildwars2.com/file/AD71D6A2F27C0B4170BE7AF411F347A6E5084D7E/3375972.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12408
+      ]
+    }
+  },
+  {
+    "name": "Void Corrupted Shield Skin",
+    "description": "Double-click to apply this look to any other shield.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 103470,
+    "chat_link": "[&AgEulAEA]",
+    "icon": "https://render.guildwars2.com/file/1F23239E661D0966550A579EEB4502D80FC8064F/3375962.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12368
+      ]
+    }
+  },
+  {
+    "name": "Magi's Ursan Ornamented Staff",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 297,
+    "default_skin": 12481,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103471,
+    "chat_link": "[&AgEvlAEA]",
+    "icon": "https://render.guildwars2.com/file/BDBCF215C62820285ECD7648AAFDD05C932E6EF0/3375356.png",
+    "details": {
+      "type": "Staff",
+      "damage_type": "Physical",
+      "min_power": 872,
+      "max_power": 984,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 603.648,
+      "infix_upgrade": {
+        "id": 156,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 151
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 151
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 211
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Scrap of Janthir Wilds Mastery",
+    "description": "Grants a small amount of Janthir Wilds Mastery experience.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103472,
+    "chat_link": "[&AgEwlAEA]",
+    "icon": "https://render.guildwars2.com/file/AF34CEEB237632AF0F555DDAB3912F010E901E1E/1201864.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Bog Queen Combat Tonic",
+    "description": "Transform into the Bog Queen.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 103474,
+    "chat_link": "[&AgEylAEA]",
+    "icon": "https://render.guildwars2.com/file/7E300072B7350D1094480D3A9E38163B1A769560/3629203.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Recipe: Bronze Chak Gerent Trophy",
+    "description": "Unlocks this homestead decoration for crafting.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103478,
+    "chat_link": "[&AgE2lAEA]",
+    "icon": "https://render.guildwars2.com/file/59520696CF7A72FCAEDC717F220D93780401E60C/3321135.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 14437
+    }
+  },
+  {
+    "name": "Wild Roar Mount Adoption License",
+    "description": "Gain a random mount skin that you do not already own from the Black Lion Stables. Right-click to preview available mount skins.\n\n<c=#F8C56E>All unobtained skins have an equal chance of dropping.</c>",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 999,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103482,
+    "chat_link": "[&AgE6lAEA]",
+    "icon": "https://render.guildwars2.com/file/B5945BDE4942A2C0309E6826B61FECA709FE5873/3375188.png",
+    "details": {
+      "type": "MountRandomUnlock"
+    }
+  },
+  {
+    "name": "Onyx Spider's Warhorn Skin",
+    "description": "Double-click to apply this look to any other warhorn.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103483,
+    "chat_link": "[&AgE7lAEA]",
+    "icon": "https://render.guildwars2.com/file/80EBC72DB5D599F522420A77A9EBC5BC6B1F5D23/3375557.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12452
+      ]
+    }
+  },
+  {
+    "name": "Recipe: Gold Siege the Stronghold Trophy",
+    "description": "Unlocks this homestead decoration for crafting.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103485,
+    "chat_link": "[&AgE9lAEA]",
+    "icon": "https://render.guildwars2.com/file/59520696CF7A72FCAEDC717F220D93780401E60C/3321135.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 14337
+    }
+  },
+  {
+    "name": "Mastery Point",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage"
+    ],
+    "restrictions": [],
+    "id": 103488,
+    "chat_link": "[&AgFAlAEA]",
+    "icon": "https://render.guildwars2.com/file/703546BC5880F9F0025969D82D782DDA92DC3407/3375056.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Void Corrupted Sword Skin",
+    "description": "Double-click to apply this look to any other sword.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 103493,
+    "chat_link": "[&AgFFlAEA]",
+    "icon": "https://render.guildwars2.com/file/146B293A5519FB0DAFD75DF36362A2B26423DD3C/3376003.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12570
+      ]
+    }
+  },
+  {
+    "name": "Janthir Wilds Creatures Loot Box",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103494,
+    "chat_link": "[&AgFGlAEA]",
+    "icon": "https://render.guildwars2.com/file/C87FF074456D2CCA56DCD89D35084501B00E6636/780323.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Woad Light Helm",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 330,
+    "default_skin": 12504,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103495,
+    "chat_link": "[&AgFHlAEA]",
+    "icon": "https://render.guildwars2.com/file/A00D0411B77E0BEB659034AED9BF4E654257479A/3376798.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Light",
+      "defense": 73,
+      "infusion_slots": [],
+      "attribute_adjustment": 170.72,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539,
+        1717,
+        1687,
+        1826
+      ],
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Recipe: Bronze Tequatl Trophy",
+    "description": "Unlocks this homestead decoration for crafting.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103506,
+    "chat_link": "[&AgFSlAEA]",
+    "icon": "https://render.guildwars2.com/file/59520696CF7A72FCAEDC717F220D93780401E60C/3321135.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 14574
+    }
+  },
+  {
+    "name": "Relic of Sorrow",
+    "description": "After using an elite skill, create an area that protects allies and destroys enemy projectiles.",
+    "type": "Relic",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "SoulBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 103507,
+    "chat_link": "[&AgFTlAEA]",
+    "icon": "https://render.guildwars2.com/file/08DED07BF6DF37E69A08D1C49D9C45D81BD8A5CA/3255567.png"
+  },
+  {
+    "name": "Queen Parrotfish",
+    "description": "Double-click to convert to materials.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 192,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103511,
+    "chat_link": "[&AgFXlAEA]",
+    "icon": "https://render.guildwars2.com/file/95032BA24A64DE470CBA417D00324767D50D0764/3374948.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Recipe: Bronze Deimos Trophy",
+    "description": "Unlocks this homestead decoration for crafting.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103512,
+    "chat_link": "[&AgFYlAEA]",
+    "icon": "https://render.guildwars2.com/file/59520696CF7A72FCAEDC717F220D93780401E60C/3321135.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 14559
+    }
+  },
+  {
+    "name": "Glyph of the Herbalist",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage"
+    ],
+    "restrictions": [],
+    "id": 103514,
+    "chat_link": "[&AgFalAEA]",
+    "icon": "https://render.guildwars2.com/file/28F04FBF79AB1509162FAB5E5003E94C1F69E871/2022142.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Polychromatic Boot Box",
+    "description": "Double-click to open.\nChoose a weight class of Polychromatic armor. (This will unlock the skin on all weights.)",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103516,
+    "chat_link": "[&AgFclAEA]",
+    "icon": "https://render.guildwars2.com/file/6BA91E0A08689B40B09ECC3FB3C4589493E6C167/603245.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Squeaker",
+    "description": "It squeaks softly when pressed. This item has no value outside of its collection.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103517,
+    "chat_link": "[&AgFdlAEA]",
+    "icon": "https://render.guildwars2.com/file/026D6D5100450D12D7CA3EBFD6B231A7D62F0F6D/1767529.png"
+  },
+  {
+    "name": "Tier 2",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage"
+    ],
+    "restrictions": [],
+    "id": 103518,
+    "chat_link": "[&AgFelAEA]",
+    "icon": "https://render.guildwars2.com/file/49069F403CE4354C4415A02B5E2697172165D104/3374903.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Kodan Cache Key",
+    "description": "Used to open locked kodan caches.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 103530,
+    "chat_link": "[&AgFqlAEA]",
+    "icon": "https://render.guildwars2.com/file/03C10F16F618B0170D5810DFDC2CC8557B4AD60A/3374822.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Homestead Upgrade: Ore Trade Capacity",
+    "description": "Increases the maximum number of trades of ore for Homestead Metal allowed per week.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage"
+    ],
+    "restrictions": [],
+    "id": 103531,
+    "chat_link": "[&AgFrlAEA]",
+    "icon": "https://render.guildwars2.com/file/73477E184315E753F00D3DACBE65EA216CB7D127/1876174.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Plant Fiber",
+    "description": "They might be good for making a stuffed animal. This item has no value outside of its collection.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103533,
+    "chat_link": "[&AgFtlAEA]",
+    "icon": "https://render.guildwars2.com/file/0993E86F6F071509EFDFB4040EB0B65D13B4D2B4/222884.png"
+  },
+  {
+    "name": "Recipe: Bronze Slothasor Trophy",
+    "description": "Unlocks this homestead decoration for crafting.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103541,
+    "chat_link": "[&AgF1lAEA]",
+    "icon": "https://render.guildwars2.com/file/59520696CF7A72FCAEDC717F220D93780401E60C/3321135.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 14359
+    }
+  },
+  {
+    "name": "Void Corrupted Staff Skin",
+    "description": "Double-click to apply this look to any other staff.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 103543,
+    "chat_link": "[&AgF3lAEA]",
+    "icon": "https://render.guildwars2.com/file/53E5BDBF0A175995BE4F6211300E251EE0F84DEA/3375992.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12379
+      ]
+    }
+  },
+  {
+    "name": "Rot Stalker Shoulder Skin",
+    "description": "Double-click to apply this appearance to your current shoulder armor. This will unlock the skin in your wardrobe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103544,
+    "chat_link": "[&AgF4lAEA]",
+    "icon": "https://render.guildwars2.com/file/D7ECE1067A0FE907EB7ABDD1FE4C55B15C33B50E/3376803.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12366,
+        12400,
+        12401
+      ]
+    }
+  },
+  {
+    "name": "Recipe: Gold Vale Guardian Trophy",
+    "description": "Unlocks this homestead decoration for crafting.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103545,
+    "chat_link": "[&AgF5lAEA]",
+    "icon": "https://render.guildwars2.com/file/59520696CF7A72FCAEDC717F220D93780401E60C/3321135.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 14834
+    }
+  },
+  {
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Junk",
+    "vendor_value": 10,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "NotUpgradeable",
+      "SoulbindOnAcquire",
+      "Unique",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103547,
+    "name": "",
+    "chat_link": "[&AgF7lAEA]",
+    "icon": "https://render.guildwars2.com/file/6D0AA296D7402CDE6F9BEB513F7007DEAD9B38B0/648139.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Titanplate Shoulders Recipe Book",
+    "description": "Double-click to choose a recipe for crafting a single weight of Titanplate Shoulders.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103550,
+    "chat_link": "[&AgF+lAEA]",
+    "icon": "https://render.guildwars2.com/file/D2E203D80177DBEF0853033032EDDFC7B050B834/904657.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Flame Legion Darksteel",
+    "description": "<c=@flavor>Slabs of experimental lava-forged metal.</c>\nPurchased from Sava Quicksnarl at the Amduat Point renown heart in Fireheart Rise.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103552,
+    "chat_link": "[&AgGAlAEA]",
+    "icon": "https://render.guildwars2.com/file/EDC02674C339C0D5B0B8C9370013394ED6270FA7/65910.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Recipe: Silver Dhuum Trophy",
+    "description": "Unlocks this homestead decoration for crafting.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103553,
+    "chat_link": "[&AgGBlAEA]",
+    "icon": "https://render.guildwars2.com/file/59520696CF7A72FCAEDC717F220D93780401E60C/3321135.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 14259
+    }
+  },
+  {
+    "name": "Unknown Track 03",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103554,
+    "chat_link": "[&AgGClAEA]",
+    "icon": "https://render.guildwars2.com/file/3DB4A867BC18AD1D7BFE1C91EC9EC7C1B13B7F01/65900.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Onyx Spider's Short Bow Skin",
+    "description": "Double-click to apply this look to any other short bow.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103556,
+    "chat_link": "[&AgGElAEA]",
+    "icon": "https://render.guildwars2.com/file/005C0A5DEFE579AE70FF4EA4722EE5DD144BD77B/3375504.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12461
+      ]
+    }
+  },
+  {
+    "name": "Wild Roar Mount Select License",
+    "description": "Gain a mount skin of your choice from the Black Lion Stables. Right-click to preview available mount skins.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 999,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103568,
+    "chat_link": "[&AgGQlAEA]",
+    "icon": "https://render.guildwars2.com/file/CB6835D526AA30703805D6D4CCD4B9D303CD7A50/3375189.png",
+    "details": {
+      "type": "MountRandomUnlock"
+    }
+  },
+  {
+    "name": "Magi's Full Moon Rifle",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 297,
+    "default_skin": 12573,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103569,
+    "chat_link": "[&AgGRlAEA]",
+    "icon": "https://render.guildwars2.com/file/D5E1EA9312F7F0FDE011E40B4AB3947E6391F846/3375720.png",
+    "details": {
+      "type": "Rifle",
+      "damage_type": "Physical",
+      "min_power": 873,
+      "max_power": 1067,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 603.648,
+      "infix_upgrade": {
+        "id": 156,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 151
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 151
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 211
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Relic of the Claw",
+    "description": "Deal increased strike damage for a duration after you disable a foe.",
+    "type": "Relic",
+    "level": 60,
+    "rarity": "Exotic",
+    "vendor_value": 200,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103574,
+    "chat_link": "[&AgGWlAEA]",
+    "icon": "https://render.guildwars2.com/file/19B5DB56E495C70754A8BE3621CADC0FD7402845/3375220.png"
+  },
+  {
+    "name": "Wood Rune Ring",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 495,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NotUpgradeable",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103576,
+    "chat_link": "[&AgGYlAEA]",
+    "icon": "https://render.guildwars2.com/file/EC0D96DBFD693D125F0A287F9B3D3FFED05C1E43/3376081.png",
+    "details": {
+      "type": "Ring",
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 268.884,
+      "stat_choices": [
+        584,
+        656,
+        658,
+        1119,
+        657,
+        1038,
+        1097,
+        659,
+        690,
+        583,
+        585,
+        1037,
+        586,
+        1035,
+        588,
+        1114,
+        1128,
+        1163,
+        1066,
+        1064,
+        660,
+        1430,
+        1436,
+        591,
+        581,
+        592,
+        1263,
+        1271,
+        1265,
+        1270,
+        1262,
+        1268,
+        1264,
+        1267,
+        1269,
+        1366,
+        1367,
+        1374,
+        1549,
+        1566,
+        1691,
+        1706,
+        1827
+      ],
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Recipe: Titanplate Heavy Gauntlets",
+    "description": "Double-click to learn a crafting recipe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 6000,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103577,
+    "chat_link": "[&AgGZlAEA]",
+    "icon": "https://render.guildwars2.com/file/2165062CDCFBAAA0173AB39DF7EB10A2120816D0/849293.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 14187
+    }
+  },
+  {
+    "name": "Standing Stones Timepiece",
+    "description": "<c=@flavor>This back item is used for crafting Janthir Wilds legendaries. Remnants can be purchased from renown heart vendors in Lowland Shore.</c>",
+    "type": "Back",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 12543,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103578,
+    "chat_link": "[&AgGalAEA]",
+    "icon": "https://render.guildwars2.com/file/72A918142BC560C10DCA573390F212C331A5C003/3374703.png",
+    "details": {
+      "infusion_slots": [],
+      "attribute_adjustment": 85.36,
+      "secondary_suffix_item_id": "",
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539,
+        1717,
+        1687,
+        1826
+      ]
+    }
+  },
+  {
+    "name": "Shard of the Homestead",
+    "description": "Combine 250 Refined Metal, 250 Refined Wood, 250 Refined Fiber, and 250 Shards of the Homestead to create the Gift of Embracing Refuge.\n\nThis item is purchased from Deft Lahar in your homestead.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Legendary",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 103587,
+    "chat_link": "[&AgGjlAEA]",
+    "icon": "https://render.guildwars2.com/file/459DA54BE5F1B74CE322BB9A2000C107FE78DB50/3441843.png"
+  },
+  {
+    "name": "Void Corrupted Rifle Skin",
+    "description": "Double-click to apply this look to any other rifle.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 103588,
+    "chat_link": "[&AgGklAEA]",
+    "icon": "https://render.guildwars2.com/file/2B283C09A0EBBFC578A1BCD25D50ECC67D38910F/3375942.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12360
+      ]
+    }
+  },
+  {
+    "name": "Rot Stalker Leggings Skin",
+    "description": "Double-click to apply this appearance to your current leggings. This will unlock the skin in your wardrobe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103589,
+    "chat_link": "[&AgGllAEA]",
+    "icon": "https://render.guildwars2.com/file/041F07640CA7C7A4D80290B5276CAF2CB66C4FE1/3442844.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12389,
+        12471,
+        12519
+      ]
+    }
+  },
+  {
+    "name": "Bag of Loot",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 66,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103591,
+    "chat_link": "[&AgGnlAEA]",
+    "icon": "https://render.guildwars2.com/file/70F67BE580E740231D5F23C2B85317D5E2072CD7/1894640.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Black Lion Plush Bear Head Pal Recipe",
+    "description": "This activates the decorations recipe for your homestead instance. One decoration will be immediately available to use.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103594,
+    "chat_link": "[&AgGqlAEA]",
+    "icon": "https://render.guildwars2.com/file/A66906D648299FFA7839590777B735627A5CF2B6/3423518.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 14902
+    }
+  },
+  {
+    "name": "Blissful Boots Skin",
+    "description": "Double-click to apply this appearance to your current boots. This will unlock the skin in your wardrobe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103595,
+    "chat_link": "[&AgGrlAEA]",
+    "icon": "https://render.guildwars2.com/file/E0792605D125B932B476B1CF606B6379436BBB47/3423524.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12582,
+        12584,
+        12597
+      ]
+    }
+  },
+  {
+    "name": "Set of Wayfinder's Versatile Table Recipes",
+    "description": "Use this item to unlock recipes used to craft additional copies of each version of the Wayfinder's Versatile Table.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103596,
+    "chat_link": "[&AgGslAEA]",
+    "icon": "https://render.guildwars2.com/file/59520696CF7A72FCAEDC717F220D93780401E60C/3321135.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 14903,
+      "extra_recipe_ids": [
+        14901,
+        14905,
+        14906
+      ]
+    }
+  },
+  {
+    "name": "Luminous Partisan",
+    "description": "Double-click to apply this look to any other spear.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103597,
+    "chat_link": "[&AgGtlAEA]",
+    "icon": "https://render.guildwars2.com/file/9BAC18640B17319B57CC4A926305EDB50B042C39/1765838.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12598
+      ]
+    }
+  },
+  {
+    "name": "Weekly PvP Tournament Reward Box",
+    "description": "Contains 50 Ascended Shards of Glory and 5 PvP League tickets.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103598,
+    "chat_link": "[&AgGulAEA]",
+    "icon": "https://render.guildwars2.com/file/ADD9E51CCE4646A3134794B58048B7FFBD3DE858/2149900.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Holy Barrage Mining Tool",
+    "description": "Used to mine all metals. Unlimited use.",
+    "type": "Gathering",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 192,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103599,
+    "chat_link": "[&AgGvlAEA]",
+    "icon": "https://render.guildwars2.com/file/094E720B5C507EA03991BA49B34C640F07D1052D/3423529.png",
+    "details": {
+      "type": "Mining"
+    }
+  },
+  {
+    "name": "Blissful Skirt Skin",
+    "description": "Double-click to apply this appearance to your current leg armor. This will unlock the skin in your wardrobe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103600,
+    "chat_link": "[&AgGwlAEA]",
+    "icon": "https://render.guildwars2.com/file/5EB11A7CE4FBC8E461A4024C5F7AF2D30EE9C3DF/3423525.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12585,
+        12591,
+        12593
+      ]
+    }
+  },
+  {
+    "name": "The Spearmarshal's Gift",
+    "description": "<c=@flavor>Contains your choice of an account-bound Sunspear weapon. Double-click to choose a reward.</c>",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103601,
+    "chat_link": "[&AgGxlAEA]",
+    "icon": "https://render.guildwars2.com/file/C8246DDA51367909C74D2F68FFE6502B587607C8/1748126.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Black Lion Plush Choya Pal Recipe",
+    "description": "This activates the decorations recipe for your homestead instance. One decoration will be immediately available to use.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103602,
+    "chat_link": "[&AgGylAEA]",
+    "icon": "https://render.guildwars2.com/file/64420C150FC996454448AFE9E175FB035B373314/3423520.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 14900
+    }
+  },
+  {
+    "name": "Tofu Container",
+    "description": "Contains a Block of Tofu and Piles of Soybeans.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103603,
+    "chat_link": "[&AgGzlAEA]",
+    "icon": "https://render.guildwars2.com/file/666209104CCB024D53359C0EA0A299076E610771/65704.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Sunspear",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 12595,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103604,
+    "chat_link": "[&AgG0lAEA]",
+    "icon": "https://render.guildwars2.com/file/2015D11A9D0BC64D3897A34307C717985A0BE636/1767393.png",
+    "details": {
+      "type": "Harpoon",
+      "damage_type": "Physical",
+      "min_power": 905,
+      "max_power": 1000,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "infix_upgrade": {
+        "id": 1364,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 205
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 113
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 205
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 113
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Variety PvP Tournament Reward Box",
+    "description": "Contains 50 Ascended Shards of Glory, 5 PvP League tickets, and 5 tournament vouchers.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103605,
+    "chat_link": "[&AgG1lAEA]",
+    "icon": "https://render.guildwars2.com/file/E729D3E5A77BC8FD62377226BC6ECF0FA65D4F5D/2149901.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Darkspear",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 12594,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103606,
+    "chat_link": "[&AgG2lAEA]",
+    "icon": "https://render.guildwars2.com/file/710F30DF6B490927E2E2451AE2116F94A57609C7/1895022.png",
+    "details": {
+      "type": "Harpoon",
+      "damage_type": "Physical",
+      "min_power": 905,
+      "max_power": 1000,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "infix_upgrade": {
+        "id": 1344,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 205
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 113
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 113
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 205
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Envelope of 5 League Tickets",
+    "description": "",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103607,
+    "chat_link": "[&AgG3lAEA]",
+    "icon": "https://render.guildwars2.com/file/0353F00163D9D841CA07C33D6F9665066DF331F6/1925533.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Dragon Decade Spear Skin",
+    "description": "Double-click to apply this look to any other spear.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103608,
+    "chat_link": "[&AgG4lAEA]",
+    "icon": "https://render.guildwars2.com/file/FD0E2E28611934352D6D9C9D5161329B09A10DD6/2718722.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12589
+      ]
+    }
+  },
+  {
+    "name": "Panda Warclaw Skin",
+    "description": "Double-click to unlock this warclaw mount skin for your account.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103609,
+    "chat_link": "[&AgG5lAEA]",
+    "icon": "https://render.guildwars2.com/file/E66FC7040A51439BD706F99D4504735274475497/3423523.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Ms"
+    }
+  },
+  {
+    "name": "Desert-Spiced Coffee Container",
+    "description": "Contains a Pitcher of Desert-Spiced Coffee and Handfuls of Red Lentils.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103610,
+    "chat_link": "[&AgG6lAEA]",
+    "icon": "https://render.guildwars2.com/file/666209104CCB024D53359C0EA0A299076E610771/65704.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Holy Barrage Harvesting Tool",
+    "description": "Used to harvest all plants. Unlimited use.",
+    "type": "Gathering",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 192,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103611,
+    "chat_link": "[&AgG7lAEA]",
+    "icon": "https://render.guildwars2.com/file/6ED3F750C56F08DE51310F6E2A0F5EF56298B6A6/3423527.png",
+    "details": {
+      "type": "Foraging"
+    }
+  },
+  {
+    "name": "Flax Fiber Container",
+    "description": "Contains Flax Fibers and Handfuls of Red Lentils.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103612,
+    "chat_link": "[&AgG8lAEA]",
+    "icon": "https://render.guildwars2.com/file/666209104CCB024D53359C0EA0A299076E610771/65704.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Title: Push Beta Tester",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Legendary",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 103613,
+    "chat_link": "[&AgG9lAEA]",
+    "icon": "https://render.guildwars2.com/file/16D70F7A5C06D415E50EEF07986C46FBDB4D1E80/222818.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Holy Barrage Logging Tool",
+    "description": "Perfect for use on all types of trees. Unlimited use.",
+    "type": "Gathering",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 192,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103614,
+    "chat_link": "[&AgG+lAEA]",
+    "icon": "https://render.guildwars2.com/file/FBF5B05BD3AE90F6F71A193B636360277C960C35/3423528.png",
+    "details": {
+      "type": "Logging"
+    }
+  },
+  {
+    "name": "Black Lion Plush Bird Pal Recipe",
+    "description": "This activates the decorations recipe for your homestead instance. One decoration will be immediately available to use.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103615,
+    "chat_link": "[&AgG/lAEA]",
+    "icon": "https://render.guildwars2.com/file/44C77CC42D5531486A58BE304C182CB2554AE03E/3423519.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 14907
+    }
+  },
+  {
+    "name": "Acclaimed Militia Chestpiece Skin",
+    "description": "Double-click to apply this appearance to your current chest armor. This will unlock the skin in your wardrobe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103616,
+    "chat_link": "[&AgHAlAEA]",
+    "icon": "https://render.guildwars2.com/file/3C1C34C2F599BD0B1EBB9065CF9F319537F100CF/3423526.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12583,
+        12587,
+        12596
+      ]
+    }
+  },
+  {
+    "name": "Title: Object in Motion",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Legendary",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 103617,
+    "chat_link": "[&AgHBlAEA]",
+    "icon": "https://render.guildwars2.com/file/16D70F7A5C06D415E50EEF07986C46FBDB4D1E80/222818.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Black Lion Plush Quaggan Pal Recipe",
+    "description": "This activates the decorations recipe for your homestead instance. One decoration will be immediately available to use.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103619,
+    "chat_link": "[&AgHDlAEA]",
+    "icon": "https://render.guildwars2.com/file/A3D6EB0D37097A0A45500FF5E3FAF24013E37543/3423521.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 14904
+    }
+  },
+  {
+    "name": "Mystical Beast Rifle Skin",
+    "description": "Double-click to apply this look to any other rifle.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 103620,
+    "chat_link": "[&AgHElAEA]",
+    "icon": "https://render.guildwars2.com/file/58E4D57A57DB3937F9CA3C9801E1B250DBEE0A27/3429280.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12603
+      ]
+    }
+  },
+  {
+    "name": "Mystical Beast Sword Skin",
+    "description": "Double-click to apply this look to any other sword.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 103621,
+    "chat_link": "[&AgHFlAEA]",
+    "icon": "https://render.guildwars2.com/file/2DE92F14626D58472C40EFCA4B79632CA90325BE/3429357.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12636
+      ]
+    }
+  },
+  {
+    "name": "Graceful Bladed Right Wing Glider Skin",
+    "description": "This will unlock the glider skin in your account wardrobe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103622,
+    "chat_link": "[&AgHGlAEA]",
+    "icon": "https://render.guildwars2.com/file/70022E6C2342ADDA7FA6D30457CC35FF6F0BC517/3429151.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "GliderSkin"
+    }
+  },
+  {
+    "name": "Clawing Shadow Plate",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 12617,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103623,
+    "chat_link": "[&AgHHlAEA]",
+    "icon": "https://render.guildwars2.com/file/C9107AE80CDF4A53EE44E80D5B3165CD97BB0ED9/3429780.png",
+    "details": {
+      "type": "Coat",
+      "weight_class": "Medium",
+      "defense": 338,
+      "infusion_slots": [],
+      "attribute_adjustment": 384.12,
+      "infix_upgrade": {
+        "id": 1067,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 96
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 96
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 134
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Candy Core Mace",
+    "description": "<c=@flavor>Candy corn containment is downright dangerous. To weaponize that containment is downright diabolical.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 12606,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103624,
+    "chat_link": "[&AgHIlAEA]",
+    "icon": "https://render.guildwars2.com/file/0B062AE5BD7B320C4152C5250E13D05E113A33D2/3429616.png",
+    "details": {
+      "type": "Mace",
+      "damage_type": "Physical",
+      "min_power": 895,
+      "max_power": 1010,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 1067,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 85
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 85
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 120
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Guardian Angel Pedestal Chair",
+    "description": "Double-click to unlock this item in your wardrobe.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "NoUnderwater",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103625,
+    "chat_link": "[&AgHJlAEA]",
+    "icon": "https://render.guildwars2.com/file/BD06B500044F906C2C4FD07DABCBE768759DAF19/3429170.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Recipe: Antique Bell",
+    "description": "Unlocks this homestead decoration for crafting.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103626,
+    "chat_link": "[&AgHKlAEA]",
+    "icon": "https://render.guildwars2.com/file/59520696CF7A72FCAEDC717F220D93780401E60C/3321135.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 14916
+    }
+  },
+  {
+    "name": "Haunted Bell",
+    "description": "A decoration schematic that is processed by the guild's assembly device to make the decoration.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103627,
+    "chat_link": "[&AgHLlAEA]",
+    "icon": "https://render.guildwars2.com/file/0F4B2819CA055B203DA9102B021D25D003A2EA63/3429951.png",
+    "details": {
+      "type": "Generic",
+      "guild_upgrade_id": 1295
+    }
+  },
+  {
+    "name": "Recipe: Gargoyle",
+    "description": "Unlocks this homestead decoration for crafting.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103628,
+    "chat_link": "[&AgHMlAEA]",
+    "icon": "https://render.guildwars2.com/file/59520696CF7A72FCAEDC717F220D93780401E60C/3321135.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 14928
+    }
+  },
+  {
+    "name": "Mystical Beast Warhorn Skin",
+    "description": "Double-click to apply this look to any other warhorn.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 103629,
+    "chat_link": "[&AgHNlAEA]",
+    "icon": "https://render.guildwars2.com/file/4B4AE3237A9C1DA7995DA31B13A90A1F07D97C67/3429381.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12599
+      ]
+    }
+  },
+  {
+    "name": "Candy Core Longbow",
+    "description": "<c=@flavor>Candy corn containment is downright dangerous. To weaponize that containment is downright diabolical.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 12634,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103630,
+    "chat_link": "[&AgHOlAEA]",
+    "icon": "https://render.guildwars2.com/file/EFBD0EC06D9E8000036EF99DF7390DF492017DAF/3429532.png",
+    "details": {
+      "type": "LongBow",
+      "damage_type": "Physical",
+      "min_power": 920,
+      "max_power": 1080,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "infix_upgrade": {
+        "id": 1067,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 171
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 171
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 239
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Candy Core Hammer",
+    "description": "<c=@flavor>Candy corn containment is downright dangerous. To weaponize that containment is downright diabolical.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 12633,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103631,
+    "chat_link": "[&AgHPlAEA]",
+    "icon": "https://render.guildwars2.com/file/07EC6857A63A9276ADB2E47C3F49A1C6567164FC/3429600.png",
+    "details": {
+      "type": "Hammer",
+      "damage_type": "Physical",
+      "min_power": 985,
+      "max_power": 1111,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "infix_upgrade": {
+        "id": 1067,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 171
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 171
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 239
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Graceful Bladed Left Wing Backpack and Glider Combo",
+    "description": "This package contains a glider skin and a matching backpack skin.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103632,
+    "chat_link": "[&AgHQlAEA]",
+    "icon": "https://render.guildwars2.com/file/B8212FDB5735AE6C9A23A64715E75C6D4A95F60A/3429150.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12630
+      ]
+    }
+  },
+  {
+    "name": "Meditative Garden Homestead Package",
+    "description": "Contains decorations and recipes for your homestead instance. One of each decoration will be immediately available to use.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103633,
+    "chat_link": "[&AgHRlAEA]",
+    "icon": "https://render.guildwars2.com/file/42C20766FC3205F3E43E6B71316CD8EAFCABC154/3429034.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Graceful Bladed Left Wing Glider Skin",
+    "description": "This will unlock the glider skin in your account wardrobe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103634,
+    "chat_link": "[&AgHSlAEA]",
+    "icon": "https://render.guildwars2.com/file/B8212FDB5735AE6C9A23A64715E75C6D4A95F60A/3429150.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "GliderSkin"
+    }
+  },
+  {
+    "name": "Mystical Beast Greatsword Skin",
+    "description": "Double-click to apply this look to any other greatsword.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 103635,
+    "chat_link": "[&AgHTlAEA]",
+    "icon": "https://render.guildwars2.com/file/A805F2450EE72EC23231072AA7BF5BFD9ED020B3/3429240.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12623
+      ]
+    }
+  },
+  {
+    "name": "Mystical Beast Mace Skin",
+    "description": "Double-click to apply this look to any other mace.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 103636,
+    "chat_link": "[&AgHUlAEA]",
+    "icon": "https://render.guildwars2.com/file/DF311DFCBE969AC405FB60373231FAADADA927BD/3429264.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12642
+      ]
+    }
+  },
+  {
+    "name": "Candy Core Axe",
+    "description": "<c=@flavor>Candy corn containment is downright dangerous. To weaponize that containment is downright diabolical.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 12605,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103637,
+    "chat_link": "[&AgHVlAEA]",
+    "icon": "https://render.guildwars2.com/file/02E9AF5B54089E452BC19A93BC100DFF1C3294E1/3429516.png",
+    "details": {
+      "type": "Axe",
+      "damage_type": "Physical",
+      "min_power": 857,
+      "max_power": 1048,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 1067,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 85
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 85
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 120
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Black Lion Meditative Sand Circle Recipe",
+    "description": "This activates the decorations recipe for your homestead instance. One decoration will be immediately available to use.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103638,
+    "chat_link": "[&AgHWlAEA]",
+    "icon": "https://render.guildwars2.com/file/7FA968442AB50DA3B846ED1CCCB5F1929268F8B5/3429037.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 14921
+    }
+  },
+  {
+    "name": "Candy Core Short Bow",
+    "description": "<c=@flavor>Candy corn containment is downright dangerous. To weaponize that containment is downright diabolical.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 12635,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103640,
+    "chat_link": "[&AgHYlAEA]",
+    "icon": "https://render.guildwars2.com/file/98FFB493FFB2D3DA7B1914089E352E0E17C13E05/3429692.png",
+    "details": {
+      "type": "ShortBow",
+      "damage_type": "Physical",
+      "min_power": 905,
+      "max_power": 1000,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "infix_upgrade": {
+        "id": 1067,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 171
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 171
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 239
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Graceful Bladed Wings Backpack and Glider Combo",
+    "description": "This package contains a glider skin and a matching backpack skin.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103641,
+    "chat_link": "[&AgHZlAEA]",
+    "icon": "https://render.guildwars2.com/file/5A4337D7799CC377FE4DF67579CF0A579DE3F92F/3429149.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12644
+      ]
+    }
+  },
+  {
+    "name": "Homestead Recipe Book: Halloween, Volume 9",
+    "description": "A book of homestead decoration recipes needed to craft Halloween items.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103642,
+    "chat_link": "[&AgHalAEA]",
+    "icon": "https://render.guildwars2.com/file/095B9410F480575B7EAF9CDA9F05163FB8530251/220884.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 14429,
+      "extra_recipe_ids": [
+        14389,
+        14826,
+        14254
+      ]
+    }
+  },
+  {
+    "name": "Sanguine Staff",
+    "description": "<c=@flavor>Those with steadfast hearts stand tall.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 12614,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103643,
+    "chat_link": "[&AgHblAEA]",
+    "icon": "https://render.guildwars2.com/file/F6120917CA63E9069C154408C73D3A9A0C7A767C/3429491.png",
+    "details": {
+      "type": "Staff",
+      "damage_type": "Physical",
+      "min_power": 985,
+      "max_power": 1111,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "infix_upgrade": {
+        "id": 1067,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 171
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 171
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 239
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Gargoyle",
+    "description": "A decoration schematic that is processed by the guild's assembly device to make the decoration.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103644,
+    "chat_link": "[&AgHclAEA]",
+    "icon": "https://render.guildwars2.com/file/B17BB8BFD5EBD9732CE8E2FC09D1D4C4CE5F5307/3429925.png",
+    "details": {
+      "type": "Generic",
+      "guild_upgrade_id": 1297
+    }
+  },
+  {
+    "name": "Clawing Shadow Plate",
+    "description": "Double-click to choose a piece of light, medium, or heavy armor.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 256,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103645,
+    "chat_link": "[&AgHdlAEA]",
+    "icon": "https://render.guildwars2.com/file/C9107AE80CDF4A53EE44E80D5B3165CD97BB0ED9/3429780.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Homestead Recipe Book: Halloween, Volume 4",
+    "description": "A book of homestead decoration recipes needed to craft Halloween items.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103646,
+    "chat_link": "[&AgHelAEA]",
+    "icon": "https://render.guildwars2.com/file/095B9410F480575B7EAF9CDA9F05163FB8530251/220884.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 14833,
+      "extra_recipe_ids": [
+        14898,
+        14665,
+        14114,
+        14728,
+        14700
+      ]
+    }
+  },
+  {
+    "name": "Mini Pummel Spider",
+    "description": "Double-click to summon this mini to follow you around. Only one mini may be in use at a time.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103647,
+    "chat_link": "[&AgHflAEA]",
+    "icon": "https://render.guildwars2.com/file/E4DC9AC9A53A4BD4A7BAEFA871799E94D196FFE9/3429043.png",
+    "details": {
+      "minipet_id": 936
+    }
+  },
+  {
+    "name": "Flowing Silk Glider Skin",
+    "description": "This will unlock the glider skin in your account wardrobe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103648,
+    "chat_link": "[&AgHglAEA]",
+    "icon": "https://render.guildwars2.com/file/F53EDF92F86C7A350DD3C19B2863A5FBC00E07B5/3429116.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "GliderSkin"
+    }
+  },
+  {
+    "name": "Candy Core Dagger",
+    "description": "<c=@flavor>Candy corn containment is downright dangerous. To weaponize that containment is downright diabolical.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 12643,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103649,
+    "chat_link": "[&AgHhlAEA]",
+    "icon": "https://render.guildwars2.com/file/F045E66F27489C3BF70A2ECB12131F011CA7E3A1/3429549.png",
+    "details": {
+      "type": "Dagger",
+      "damage_type": "Physical",
+      "min_power": 924,
+      "max_power": 981,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 1067,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 85
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 85
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 120
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Mystical Beast Scepter Skin",
+    "description": "Double-click to apply this look to any other scepter.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 103650,
+    "chat_link": "[&AgHilAEA]",
+    "icon": "https://render.guildwars2.com/file/2CF5C49F03140D0BCBEB7DA9C3EC0CDC6EFD5902/3429293.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12631
+      ]
+    }
+  },
+  {
+    "name": "Black Lion Meditative Bamboo Fence Recipe",
+    "description": "This activates the decorations recipe for your homestead instance. One decoration will be immediately available to use.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103651,
+    "chat_link": "[&AgHjlAEA]",
+    "icon": "https://render.guildwars2.com/file/CC7FACBCB636B4515A4456BF741C7CE304B01461/3429032.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 14917
+    }
+  },
+  {
+    "name": "Candy Core Torch",
+    "description": "<c=@flavor>Candy corn containment is downright dangerous. To weaponize that containment is downright diabolical.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 12608,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103652,
+    "chat_link": "[&AgHklAEA]",
+    "icon": "https://render.guildwars2.com/file/964196C0C39AE07F980F0D3B6B4C1E6F177E316C/3429758.png",
+    "details": {
+      "type": "Torch",
+      "damage_type": "Physical",
+      "min_power": 789,
+      "max_power": 926,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 1067,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 85
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 85
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 120
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Clawing Shadow Plate",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 12601,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103653,
+    "chat_link": "[&AgHllAEA]",
+    "icon": "https://render.guildwars2.com/file/C9107AE80CDF4A53EE44E80D5B3165CD97BB0ED9/3429780.png",
+    "details": {
+      "type": "Coat",
+      "weight_class": "Light",
+      "defense": 314,
+      "infusion_slots": [],
+      "attribute_adjustment": 384.12,
+      "infix_upgrade": {
+        "id": 1067,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 96
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 96
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 134
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Mystical Beast Torch Skin",
+    "description": "Double-click to apply this look to any other torch.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 103654,
+    "chat_link": "[&AgHmlAEA]",
+    "icon": "https://render.guildwars2.com/file/0C807FF174E9D5EF9855255AFF5A7292B3F7FBA5/3429369.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12626
+      ]
+    }
+  },
+  {
+    "name": "Mystical Beast Staff Skin",
+    "description": "Double-click to apply this look to any other staff.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 103655,
+    "chat_link": "[&AgHnlAEA]",
+    "icon": "https://render.guildwars2.com/file/F9EAAA953E0D059E0618062A92A23D2D7AC9B648/3429344.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12602
+      ]
+    }
+  },
+  {
+    "name": "Graceful Bladed Left Wing Backpack Skin",
+    "description": "This will replace the appearance of one back slot item of any weight class and unlock the skin in your account wardrobe.\n\nThis back slot skin has no stats of its own.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103656,
+    "chat_link": "[&AgHolAEA]",
+    "icon": "https://render.guildwars2.com/file/58F75C0337A46F7DA9FF384E60E0747E7E7099CB/3429154.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12630
+      ]
+    }
+  },
+  {
+    "name": "Sanguine Focus",
+    "description": "<c=@flavor>The heart wants what it wants.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 12613,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103657,
+    "chat_link": "[&AgHplAEA]",
+    "icon": "https://render.guildwars2.com/file/B7D3AF024D55D5BA0009E5ED2E59527FB0EA3853/3429473.png",
+    "details": {
+      "type": "Focus",
+      "damage_type": "Physical",
+      "min_power": 832,
+      "max_power": 883,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 1067,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 85
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 85
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 120
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Mystical Beast Axe Skin",
+    "description": "Double-click to apply this look to any other axe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 103658,
+    "chat_link": "[&AgHqlAEA]",
+    "icon": "https://render.guildwars2.com/file/F60E2C140DB918B905E39E7E7F77C0337F249BA4/3429186.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12629
+      ]
+    }
+  },
+  {
+    "name": "Portable Hot Springs Chair",
+    "description": "Double-click to unlock this item in your wardrobe.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "NoUnderwater",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103659,
+    "chat_link": "[&AgHrlAEA]",
+    "icon": "https://render.guildwars2.com/file/962EED799CCA05C764FA063858BF6F4B7947C2AC/3429167.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Candy Core Sword",
+    "description": "<c=@flavor>Candy corn containment is downright dangerous. To weaponize that containment is downright diabolical.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 12641,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103661,
+    "chat_link": "[&AgHtlAEA]",
+    "icon": "https://render.guildwars2.com/file/F70CFE21969FBB2C56BFB3DA50E2D87C9B1CCDD2/3429743.png",
+    "details": {
+      "type": "Sword",
+      "damage_type": "Physical",
+      "min_power": 905,
+      "max_power": 1000,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 1067,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 85
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 85
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 120
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Antique Bell",
+    "description": "A decoration schematic that is processed by the guild's assembly device to make the decoration.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103662,
+    "chat_link": "[&AgHulAEA]",
+    "icon": "https://render.guildwars2.com/file/76FCD7034CE832CF170DDD3FE0F0C9A35D62F90B/3429947.png",
+    "details": {
+      "type": "Generic",
+      "guild_upgrade_id": 1296
+    }
+  },
+  {
+    "name": "Mystical Beast Longbow Skin",
+    "description": "Double-click to apply this look to any other longbow.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 103663,
+    "chat_link": "[&AgHvlAEA]",
+    "icon": "https://render.guildwars2.com/file/06B3F659B13D95CF4EFE6C5349E509F1993FA965/3429199.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12612
+      ]
+    }
+  },
+  {
+    "name": "Black Lion Meditative Sand Lines Recipe",
+    "description": "This activates the decorations recipe for your homestead instance. One decoration will be immediately available to use.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103665,
+    "chat_link": "[&AgHxlAEA]",
+    "icon": "https://render.guildwars2.com/file/55DFFFB7235BBF2490AB2B1077DADB786C6B2A99/3429038.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 14924
+    }
+  },
+  {
+    "name": "Mystical Beast Focus Skin",
+    "description": "Double-click to apply this look to any other focus.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 103666,
+    "chat_link": "[&AgHylAEA]",
+    "icon": "https://render.guildwars2.com/file/233320DC2B020D1548451513089A0A7C0D4BEA5C/3429228.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12611
+      ]
+    }
+  },
+  {
+    "name": "Candy Core Staff",
+    "description": "<c=@flavor>Candy corn containment is downright dangerous. To weaponize that containment is downright diabolical.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 12619,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103667,
+    "chat_link": "[&AgHzlAEA]",
+    "icon": "https://render.guildwars2.com/file/7E6A94D6A6E079DEC2F6AEE6EBB212291941B098/3429725.png",
+    "details": {
+      "type": "Staff",
+      "damage_type": "Physical",
+      "min_power": 985,
+      "max_power": 1111,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "infix_upgrade": {
+        "id": 1067,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 171
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 171
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 239
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Graceful Bladed Wings Backpack Skin",
+    "description": "This will replace the appearance of one back slot item of any weight class and unlock the skin in your account wardrobe.\n\nThis back slot skin has no stats of its own.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103668,
+    "chat_link": "[&AgH0lAEA]",
+    "icon": "https://render.guildwars2.com/file/99AB58061390CFEA5B951036B70B7E4323163A03/3429152.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12644
+      ]
+    }
+  },
+  {
+    "name": "Black Lion Meditative Lucky Rock Recipe",
+    "description": "This activates the decorations recipe for your homestead instance. One decoration will be immediately available to use.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103669,
+    "chat_link": "[&AgH1lAEA]",
+    "icon": "https://render.guildwars2.com/file/057056994032E099C6560CE6A19CAB1CF9073127/3429035.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 14926
+    }
+  },
+  {
+    "name": "Black Lion Meditative Long Bamboo Fence Recipe",
+    "description": "This activates the decorations recipe for your homestead instance. One decoration will be immediately available to use.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103670,
+    "chat_link": "[&AgH2lAEA]",
+    "icon": "https://render.guildwars2.com/file/FA76AFB5AF56063602F6D44925BF05190AAE9790/3429033.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 14912
+    }
+  },
+  {
+    "name": "Mystical Beast Short Bow Skin",
+    "description": "Double-click to apply this look to any other short bow.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 103672,
+    "chat_link": "[&AgH4lAEA]",
+    "icon": "https://render.guildwars2.com/file/C52F5EFFFD37B60BB9C972BC7F64F77E297DF27D/3429317.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12620
+      ]
+    }
+  },
+  {
+    "name": "Graceful Bladed Wings Glider Skin",
+    "description": "This will unlock the glider skin in your account wardrobe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103673,
+    "chat_link": "[&AgH5lAEA]",
+    "icon": "https://render.guildwars2.com/file/5A4337D7799CC377FE4DF67579CF0A579DE3F92F/3429149.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "GliderSkin"
+    }
+  },
+  {
+    "name": "Recipe: Haunted Bell",
+    "description": "Unlocks this homestead decoration for crafting.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103674,
+    "chat_link": "[&AgH6lAEA]",
+    "icon": "https://render.guildwars2.com/file/59520696CF7A72FCAEDC717F220D93780401E60C/3321135.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 14910
+    }
+  },
+  {
+    "name": "Black Lion Meditative Stone Lantern Recipe",
+    "description": "This activates the decorations recipe for your homestead instance. One decoration will be immediately available to use.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103675,
+    "chat_link": "[&AgH7lAEA]",
+    "icon": "https://render.guildwars2.com/file/10FFA4FD1A4F5EDBE1D2A127B94209FBD4E02D70/3429039.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 14922
+    }
+  },
+  {
+    "name": "Sanguine Shield",
+    "description": "<c=@flavor>A full heart offers refuge.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 12600,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103676,
+    "chat_link": "[&AgH8lAEA]",
+    "icon": "https://render.guildwars2.com/file/9651F70AFA68CBFD440BB6A39CC507A16DD9FD59/3429483.png",
+    "details": {
+      "type": "Shield",
+      "damage_type": "Physical",
+      "min_power": 806,
+      "max_power": 909,
+      "defense": 61,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 1067,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 85
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 85
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 120
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Mystical Beast Spear Skin",
+    "description": "Double-click to apply this look to any other spear.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 103677,
+    "chat_link": "[&AgH9lAEA]",
+    "icon": "https://render.guildwars2.com/file/5EBCFD95443B03DB3E26F64C08D193B94109EF35/3429331.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12618
+      ]
+    }
+  },
+  {
+    "name": "Mystical Beast Shield Skin",
+    "description": "Double-click to apply this look to any other shield.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 103678,
+    "chat_link": "[&AgH+lAEA]",
+    "icon": "https://render.guildwars2.com/file/5AA80E63220478010F0955E06D21F0B82D4C45CB/3429305.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12637
+      ]
+    }
+  },
+  {
+    "name": "Recipe: Warclaw Rental Post",
+    "description": "Unlocks this homestead decoration for crafting.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103679,
+    "chat_link": "[&AgH/lAEA]",
+    "icon": "https://render.guildwars2.com/file/59520696CF7A72FCAEDC717F220D93780401E60C/3321135.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 14925
+    }
+  },
+  {
+    "name": "Graceful Bladed Right Wing Backpack Skin",
+    "description": "This will replace the appearance of one back slot item of any weight class and unlock the skin in your account wardrobe.\n\nThis back slot skin has no stats of its own.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103680,
+    "chat_link": "[&AgEAlQEA]",
+    "icon": "https://render.guildwars2.com/file/DE04C8EF64E82C02A510474AEDB9BD1DA816FB50/3429161.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12639
+      ]
+    }
+  },
+  {
+    "name": "Homestead Recipe Book: Halloween, Volume 5",
+    "description": "A book of homestead decoration recipes needed to craft Halloween items.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103681,
+    "chat_link": "[&AgEBlQEA]",
+    "icon": "https://render.guildwars2.com/file/095B9410F480575B7EAF9CDA9F05163FB8530251/220884.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 14766,
+      "extra_recipe_ids": [
+        14547,
+        14534,
+        14686
+      ]
+    }
+  },
+  {
+    "name": "Candy Core Shield",
+    "description": "<c=@flavor>Candy corn containment is downright dangerous. To weaponize that containment is downright diabolical.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 12622,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103682,
+    "chat_link": "[&AgEClQEA]",
+    "icon": "https://render.guildwars2.com/file/A6C558589EAACE1C050609473508E4F6F221CA2F/3429676.png",
+    "details": {
+      "type": "Shield",
+      "damage_type": "Physical",
+      "min_power": 806,
+      "max_power": 909,
+      "defense": 61,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 1067,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 85
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 85
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 120
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Candy Core Chest",
+    "description": "<c=@flavor>Double-click to choose an account-bound reward.</c>",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 256,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103685,
+    "chat_link": "[&AgEFlQEA]",
+    "icon": "https://render.guildwars2.com/file/273302049ED798F17AAAB9F4983F76B7CF67C627/3429030.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Recipe: Flame-Bearing Gargoyle",
+    "description": "Unlocks this homestead decoration for crafting.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103686,
+    "chat_link": "[&AgEGlQEA]",
+    "icon": "https://render.guildwars2.com/file/59520696CF7A72FCAEDC717F220D93780401E60C/3321135.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 14920
+    }
+  },
+  {
+    "name": "Homestead Recipe Book: Halloween, Volume 3",
+    "description": "A book of homestead decoration recipes needed to craft Halloween items.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103687,
+    "chat_link": "[&AgEHlQEA]",
+    "icon": "https://render.guildwars2.com/file/095B9410F480575B7EAF9CDA9F05163FB8530251/220884.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 14486,
+      "extra_recipe_ids": [
+        14485,
+        14597,
+        14641,
+        14364,
+        14609
+      ]
+    }
+  },
+  {
+    "name": "Courtly Weapon Chest",
+    "description": "<c=@flavor>Double-click to choose a weapon.</c>",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103688,
+    "chat_link": "[&AgEIlQEA]",
+    "icon": "https://render.guildwars2.com/file/B5A8994BD8E654A00C1B395CBA4EB7085A17D053/924578.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Mystical Beast Hammer Skin",
+    "description": "Double-click to apply this look to any other hammer.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 103689,
+    "chat_link": "[&AgEJlQEA]",
+    "icon": "https://render.guildwars2.com/file/CC6E2BB9332F190731B165065ADBBA58EB127B24/3429252.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12615
+      ]
+    }
+  },
+  {
+    "name": "Candy Core Warhorn",
+    "description": "<c=@flavor>Candy corn containment is downright dangerous. To weaponize that containment is downright diabolical.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 12621,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103690,
+    "chat_link": "[&AgEKlQEA]",
+    "icon": "https://render.guildwars2.com/file/9E3E76E376A4EB3D4FC701A90FDF057C07334B6E/3429775.png",
+    "details": {
+      "type": "Warhorn",
+      "damage_type": "Physical",
+      "min_power": 814,
+      "max_power": 900,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 1067,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 85
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 85
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 120
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Homestead Recipe Book: Halloween, Volume 7",
+    "description": "A book of homestead decoration recipes needed to craft Halloween items.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103691,
+    "chat_link": "[&AgELlQEA]",
+    "icon": "https://render.guildwars2.com/file/095B9410F480575B7EAF9CDA9F05163FB8530251/220884.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 14267,
+      "extra_recipe_ids": [
+        14347,
+        14097,
+        14783
+      ]
+    }
+  },
+  {
+    "name": "Flame-Bearing Gargoyle",
+    "description": "A decoration schematic that is processed by the guild's assembly device to make the decoration.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103692,
+    "chat_link": "[&AgEMlQEA]",
+    "icon": "https://render.guildwars2.com/file/40C3051E170397119A0EC4C5304B493CA9A5ACD3/3429924.png",
+    "details": {
+      "type": "Generic",
+      "guild_upgrade_id": 1294
+    }
+  },
+  {
+    "name": "Clawing Shadow Plate",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 12616,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103693,
+    "chat_link": "[&AgENlQEA]",
+    "icon": "https://render.guildwars2.com/file/C9107AE80CDF4A53EE44E80D5B3165CD97BB0ED9/3429780.png",
+    "details": {
+      "type": "Coat",
+      "weight_class": "Heavy",
+      "defense": 363,
+      "infusion_slots": [],
+      "attribute_adjustment": 384.12,
+      "infix_upgrade": {
+        "id": 1067,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 96
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 96
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 134
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Black Lion Meditative Favored Rock Recipe",
+    "description": "This activates the decorations recipe for your homestead instance. One decoration will be immediately available to use.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103695,
+    "chat_link": "[&AgEPlQEA]",
+    "icon": "https://render.guildwars2.com/file/5B107F1094DAEDA45E230AA729C97550CA6F02D6/3429036.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 14913
+    }
+  },
+  {
+    "name": "Extra Life Victory Cache",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103696,
+    "chat_link": "[&AgEQlQEA]",
+    "icon": "https://render.guildwars2.com/file/B5A8994BD8E654A00C1B395CBA4EB7085A17D053/924578.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "\"/Breakdance\" Emote Tome",
+    "description": "Consuming this tome will give you access to a new emote!",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103697,
+    "chat_link": "[&AgERlQEA]",
+    "icon": "https://render.guildwars2.com/file/EECD3D13040474E574440C5C269ACBC2BA423ED3/3429171.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Candy Core Pistol",
+    "description": "<c=@flavor>Candy corn containment is downright dangerous. To weaponize that containment is downright diabolical.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 12640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103698,
+    "chat_link": "[&AgESlQEA]",
+    "icon": "https://render.guildwars2.com/file/337DBAF31038CC49C1C7EEC22400CAE7C8C1F718/3429630.png",
+    "details": {
+      "type": "Pistol",
+      "damage_type": "Physical",
+      "min_power": 876,
+      "max_power": 1029,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 1067,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 85
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 85
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 120
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Black Lion Meditative Windswept Tree Recipe",
+    "description": "This activates the decorations recipe for your homestead instance. One decoration will be immediately available to use.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103699,
+    "chat_link": "[&AgETlQEA]",
+    "icon": "https://render.guildwars2.com/file/DEB9A790C3096D2F33BE2C0D121B25B40025073D/3429040.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 14915
+    }
+  },
+  {
+    "name": "Mystical Beast Weapon Choice",
+    "description": "Use this item to select and unlock a Mystical Beast weapon skin of your choice for your account.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103700,
+    "chat_link": "[&AgEUlQEA]",
+    "icon": "https://render.guildwars2.com/file/AD789EE8C56C94EC610C202FB25B6CFE593D14BE/2236640.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Candy Core Spear",
+    "description": "<c=@flavor>Candy corn containment is downright dangerous. To weaponize that containment is downright diabolical.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 12607,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103701,
+    "chat_link": "[&AgEVlQEA]",
+    "icon": "https://render.guildwars2.com/file/53B462C2C17418C342D3A27E1A49CF4E06FF1449/3429708.png",
+    "details": {
+      "type": "Harpoon",
+      "damage_type": "Physical",
+      "min_power": 905,
+      "max_power": 1000,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "infix_upgrade": {
+        "id": 1067,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 171
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 171
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 239
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Trader's Grim Machine Chest",
+    "description": "<c=@flavor>Double-click to choose an account-bound reward.</c>",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 256,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 103702,
+    "chat_link": "[&AgEWlQEA]",
+    "icon": "https://render.guildwars2.com/file/BC05500CF92FA7D79A2243F3E47FF3D6F0C2955F/3172127.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Graceful Bladed Right Wing Backpack and Glider Combo",
+    "description": "This package contains a glider skin and a matching backpack skin.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103703,
+    "chat_link": "[&AgEXlQEA]",
+    "icon": "https://render.guildwars2.com/file/70022E6C2342ADDA7FA6D30457CC35FF6F0BC517/3429151.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12639
+      ]
+    }
+  },
+  {
+    "name": "Flowing Silk Backpack Skin",
+    "description": "This will replace the appearance of one back slot item of any weight class and unlock the skin in your account wardrobe.\n\nThis back slot skin has no stats of its own.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103704,
+    "chat_link": "[&AgEYlQEA]",
+    "icon": "https://render.guildwars2.com/file/5E33A1D4CCED931CBF6DA8B8E57D3B1E16A90B97/3429115.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12625
+      ]
+    }
+  },
+  {
+    "name": "Mystical Beast Pistol Skin",
+    "description": "Double-click to apply this look to any other pistol.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 103705,
+    "chat_link": "[&AgEZlQEA]",
+    "icon": "https://render.guildwars2.com/file/5CC4C1911B3359329011D168F1A7535C3119D4EA/3429265.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12632
+      ]
+    }
+  },
+  {
+    "name": "Candy Core Rifle",
+    "description": "<c=@flavor>Candy corn containment is downright dangerous. To weaponize that containment is downright diabolical.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 12638,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103706,
+    "chat_link": "[&AgEalQEA]",
+    "icon": "https://render.guildwars2.com/file/CCD554D2BDD9330D050B251C0755359D43290F96/3429644.png",
+    "details": {
+      "type": "Rifle",
+      "damage_type": "Physical",
+      "min_power": 986,
+      "max_power": 1205,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "infix_upgrade": {
+        "id": 1067,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 171
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 171
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 239
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Alluring Silk Outfit",
+    "description": "Double-click to wear this outfit.\n\nOutfits are full sets of clothing that hide other armor. This will not change individual armor pieces, and you will still receive your current armor stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103707,
+    "chat_link": "[&AgEblQEA]",
+    "icon": "https://render.guildwars2.com/file/ADFA0E8073A19201AB16CD06511C6614961F547C/3429172.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Outfit"
+    }
+  },
+  {
+    "name": "Homestead Recipe Book: Halloween, Volume 6",
+    "description": "A book of homestead decoration recipes needed to craft Halloween items.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103708,
+    "chat_link": "[&AgEclQEA]",
+    "icon": "https://render.guildwars2.com/file/095B9410F480575B7EAF9CDA9F05163FB8530251/220884.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 14821,
+      "extra_recipe_ids": [
+        14672,
+        14218,
+        14684
+      ]
+    }
+  },
+  {
+    "name": "Candy Core Focus",
+    "description": "<c=@flavor>Candy corn containment is downright dangerous. To weaponize that containment is downright diabolical.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 12610,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103709,
+    "chat_link": "[&AgEdlQEA]",
+    "icon": "https://render.guildwars2.com/file/F69EB56F799C00969DF1349A9C7CD9F93F7F7D02/3429564.png",
+    "details": {
+      "type": "Focus",
+      "damage_type": "Physical",
+      "min_power": 832,
+      "max_power": 883,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 1067,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 85
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 85
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 120
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Candy Core Scepter",
+    "description": "<c=@flavor>Candy corn containment is downright dangerous. To weaponize that containment is downright diabolical.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 12609,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103710,
+    "chat_link": "[&AgEelQEA]",
+    "icon": "https://render.guildwars2.com/file/3C06BB3F7DECD4E8624CDCADC815D9932609E870/3429660.png",
+    "details": {
+      "type": "Scepter",
+      "damage_type": "Physical",
+      "min_power": 895,
+      "max_power": 1010,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 1067,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 85
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 85
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 120
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Warclaw Rental Post",
+    "description": "A decoration schematic that is processed by the guild's assembly device to make the decoration.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103711,
+    "chat_link": "[&AgEflQEA]",
+    "icon": "https://render.guildwars2.com/file/0136330F31093D086952FC0274DB28092F9216F4/3429041.png",
+    "details": {
+      "type": "Generic",
+      "guild_upgrade_id": 1293
+    }
+  },
+  {
+    "name": "Candy Core Greatsword",
+    "description": "<c=@flavor>Candy corn containment is downright dangerous. To weaponize that containment is downright diabolical.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 12624,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103712,
+    "chat_link": "[&AgEglQEA]",
+    "icon": "https://render.guildwars2.com/file/CCC20816101F007E49737D47702B416E600A6B62/3429583.png",
+    "details": {
+      "type": "Greatsword",
+      "damage_type": "Physical",
+      "min_power": 995,
+      "max_power": 1100,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "infix_upgrade": {
+        "id": 1067,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 171
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 171
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 239
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Black Lion Meditative Bamboo Fountain Recipe",
+    "description": "This activates the decorations recipe for your homestead instance. One decoration will be immediately available to use.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103713,
+    "chat_link": "[&AgEhlQEA]",
+    "icon": "https://render.guildwars2.com/file/803D01E0A30EEB1EE3C8369A58FA08045B565F6E/3429031.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 14914
+    }
+  },
+  {
+    "name": "Mystical Beast Dagger Skin",
+    "description": "Double-click to apply this look to any other dagger.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 103714,
+    "chat_link": "[&AgEilQEA]",
+    "icon": "https://render.guildwars2.com/file/A290F5A8BAB70171FA00660528D806D13DAF7A5C/3429215.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12628
+      ]
+    }
+  },
+  {
+    "name": "Homestead Recipe Book: Halloween, Volume 8",
+    "description": "A book of homestead decoration recipes needed to craft Halloween items.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103715,
+    "chat_link": "[&AgEjlQEA]",
+    "icon": "https://render.guildwars2.com/file/095B9410F480575B7EAF9CDA9F05163FB8530251/220884.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 14688,
+      "extra_recipe_ids": [
+        14464,
+        14600,
+        14374
+      ]
+    }
+  },
+  {
+    "name": "Black Lion Material Bag: Janthir Wilds",
+    "description": "Contains a selection of crafting materials—hand selected for quality by highly trained Black Lion Buyers or gathered by licensed Black Lion Hunters from all across the world.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103716,
+    "chat_link": "[&AgEklQEA]",
+    "icon": "https://render.guildwars2.com/file/5C94EF9F6BA4040BDA51A06914C2E6EEE07D0718/1729433.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Foefire Greatsword Skin",
+    "description": "Double-click to apply this look to any other greatsword.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 103717,
+    "chat_link": "[&AgEllQEA]",
+    "icon": "https://render.guildwars2.com/file/C8C0DD00D3EFE1336A4C025280E098E8F272ED3C/3436669.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12650
+      ]
+    }
+  },
+  {
+    "name": "Foefire Focus Skin",
+    "description": "Double-click to apply this look to any other focus.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 103718,
+    "chat_link": "[&AgEmlQEA]",
+    "icon": "https://render.guildwars2.com/file/9DD32D1E66CA2F18C60663F5C50BCE4C9C1B01C4/3436668.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12668
+      ]
+    }
+  },
+  {
+    "name": "Mini Blazing Cuckoo Hatchling",
+    "description": "This little hatchling's first flight might be mistaken for a shooting star.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 103719,
+    "chat_link": "[&AgEnlQEA]",
+    "icon": "https://render.guildwars2.com/file/44220C5F76521935A741FA68B008A45BA46B9111/3436603.png",
+    "details": {
+      "minipet_id": 946
+    }
+  },
+  {
+    "name": "Mini Blue Cuckoo Hatchling",
+    "description": "Hatched with care.<br>Combine 3 Blue Cuckoo Hatchlings with 2 Unidentified Dyes in the Mystic Forge to create a Light Blue and Purple Cuckoo Hatchling.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 103720,
+    "chat_link": "[&AgEolQEA]",
+    "icon": "https://render.guildwars2.com/file/DF0DC10C96AFA901EC050BA74A46E011CF510473/3436600.png",
+    "details": {
+      "minipet_id": 943
+    }
+  },
+  {
+    "name": "Foefire Longbow Skin",
+    "description": "Double-click to apply this look to any other longbow.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 103721,
+    "chat_link": "[&AgEplQEA]",
+    "icon": "https://render.guildwars2.com/file/40A13769DC071D9A1D75CAFBF61CB1001A64A280/3436643.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12654
+      ]
+    }
+  },
+  {
+    "name": "Foefire Scepter Skin",
+    "description": "Double-click to apply this look to any other scepter.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 103722,
+    "chat_link": "[&AgEqlQEA]",
+    "icon": "https://render.guildwars2.com/file/39070AD675AFE1BDCE25462CFDFD97BA2E42962B/3436732.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12671
+      ]
+    }
+  },
+  {
+    "name": "Mini Red and White Cuckoo Hatchling",
+    "description": "Hatched with care.<br>Combine 2 Red and White Cuckoo Hatchlings and 1 Blue Cuckoo Hatchling with 12 Unidentified Dyes in the Mystic Forge to create a White Cuckoo Hatchling.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 103723,
+    "chat_link": "[&AgErlQEA]",
+    "icon": "https://render.guildwars2.com/file/71EEF2E5C5E801C5DCBEB058373C0F96ABB8A65D/3436605.png",
+    "details": {
+      "minipet_id": 939
+    }
+  },
+  {
+    "name": "Foefire Staff Skin",
+    "description": "Double-click to apply this look to any other staff.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 103724,
+    "chat_link": "[&AgEslQEA]",
+    "icon": "https://render.guildwars2.com/file/C2D16DFF1A05A262FF95E3FBA7050AEF26E178D1/3436781.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12670
+      ]
+    }
+  },
+  {
+    "name": "Mini Silver and Gold Cuckoo Hatchling",
+    "description": "Hatched with care.<br>Combine 1 Silver and Gold, 1 Red and White, and 1 Black and Green Cuckoo Hatchling with 20 Unidentified Dyes in the Mystic Forge to create a Blazing Cuckoo Hatchling.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 103725,
+    "chat_link": "[&AgEtlQEA]",
+    "icon": "https://render.guildwars2.com/file/323DA4BA219FF1C85CE40FAC78CFF46DEC02DA93/3436606.png",
+    "details": {
+      "minipet_id": 941
+    }
+  },
+  {
+    "name": "Foefire Axe Skin",
+    "description": "Double-click to apply this look to any other axe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 103726,
+    "chat_link": "[&AgEulQEA]",
+    "icon": "https://render.guildwars2.com/file/61614335C5BB017349F8C5C63C351B9F26610331/3436630.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12665
+      ]
+    }
+  },
+  {
+    "name": "Mystic Visionary Cape",
+    "description": "This will replace the appearance of one back slot item of any weight class and unlock the skin in your account wardrobe.\n\nThis back slot skin has no stats of its own.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 6250,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103727,
+    "chat_link": "[&AgEvlQEA]",
+    "icon": "https://render.guildwars2.com/file/7823FA442CD3F4A91203516E70D8AF4204FB56AB/3436613.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12646
+      ]
+    }
+  },
+  {
+    "name": "Dapper Pants Skin",
+    "description": "Double-click to apply this appearance to your current leg armor. This will unlock the skin in your wardrobe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103728,
+    "chat_link": "[&AgEwlQEA]",
+    "icon": "https://render.guildwars2.com/file/D6779ED8A5E27B93B667C60FF32375D2750FABBB/3436612.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12651,
+        12656,
+        12660
+      ]
+    }
+  },
+  {
+    "name": "Mini Celestial Cuckoo Hatchling",
+    "description": "The result of a tiny wish on a tiny star.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 103729,
+    "chat_link": "[&AgExlQEA]",
+    "icon": "https://render.guildwars2.com/file/25BD386638C89909FF0A2930B307197040A011C5/3436602.png",
+    "details": {
+      "minipet_id": 942
+    }
+  },
+  {
+    "name": "Mini Black and Green Cuckoo Hatchling",
+    "description": "Hatched with care.<br>Combine 2 Black and Green Cuckoo Hatchlings and 1 Light Blue and Purple Cuckoo Hatchling with 8 Unidentified Dyes in the Mystic Forge to create a Yellow Cuckoo Hatchling.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 103730,
+    "chat_link": "[&AgEylQEA]",
+    "icon": "https://render.guildwars2.com/file/B92D03A0D39C20FED50E04B7F004BEFB3978A5EC/3436599.png",
+    "details": {
+      "minipet_id": 938
+    }
+  },
+  {
+    "name": "Foefire Mace Skin",
+    "description": "Double-click to apply this look to any other mace.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 103731,
+    "chat_link": "[&AgEzlQEA]",
+    "icon": "https://render.guildwars2.com/file/91BE206163585915D89150731330102D43D4F8ED/3436694.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12663
+      ]
+    }
+  },
+  {
+    "name": "Foefire Sword Skin",
+    "description": "Double-click to apply this look to any other sword.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 103732,
+    "chat_link": "[&AgE0lQEA]",
+    "icon": "https://render.guildwars2.com/file/B8D9AEE1F904FC00DE01FB48522B07BE5F27A0A8/3436794.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12669
+      ]
+    }
+  },
+  {
+    "name": "Mini Cuckoo Hatchling Reward Chest",
+    "description": "Contains 5 Black Lion Miniature Claim Tickets and 5 Black Lion Chest Keys.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 192,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103733,
+    "chat_link": "[&AgE1lQEA]",
+    "icon": "https://render.guildwars2.com/file/E1BBB0CCDFFF63C3C958C229732707D0BAB21611/603243.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Dapper Coat Skin",
+    "description": "Double-click to apply this appearance to your current chest armor. This will unlock the skin in your wardrobe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103734,
+    "chat_link": "[&AgE2lQEA]",
+    "icon": "https://render.guildwars2.com/file/73D84A3040210795D7FF4EB576F07A4CCCEF06EA/3436611.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12652,
+        12657,
+        12664
+      ]
+    }
+  },
+  {
+    "name": "Dapper Wingtips Skin",
+    "description": "Double-click to apply this appearance to your current boots. This will unlock the skin in your wardrobe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103735,
+    "chat_link": "[&AgE3lQEA]",
+    "icon": "https://render.guildwars2.com/file/55A3A0C355C43A4742BC5916A754A16395BF565A/3436610.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12647,
+        12648,
+        12659
+      ]
+    }
+  },
+  {
+    "name": "Mini White Cuckoo Hatchling",
+    "description": "Hatched with care.<br>Combine 1 Yellow, 1 White, and 1 Brown Cuckoo Hatchling with 20 Unidentified Dyes in the Mystic Forge to create a Celestial Cuckoo Hatchling.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 103736,
+    "chat_link": "[&AgE4lQEA]",
+    "icon": "https://render.guildwars2.com/file/6AA8A17E40D7F8DA192CB473A3734BFCAAB50E9C/3436607.png",
+    "details": {
+      "minipet_id": 937
+    }
+  },
+  {
+    "name": "Foefire Warhorn Skin",
+    "description": "Double-click to apply this look to any other warhorn.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 103737,
+    "chat_link": "[&AgE5lQEA]",
+    "icon": "https://render.guildwars2.com/file/030B02B603BC991755ECD5E20F15E9342C07610B/3436820.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12666
+      ]
+    }
+  },
+  {
+    "name": "Mini Light Blue and Purple Cuckoo Hatchling",
+    "description": "Hatched with care.<br>Combine 2 Blue Cuckoo Hatchlings and 1 Light Blue and Purple Cuckoo Hatchling with 4 Unidentified Dyes in the Mystic Forge to create a Brown Cuckoo Hatchling.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 103738,
+    "chat_link": "[&AgE6lQEA]",
+    "icon": "https://render.guildwars2.com/file/F9299108D094086BFC3340669F00F248C29C9FED/3436604.png",
+    "details": {
+      "minipet_id": 940
+    }
+  },
+  {
+    "name": "Mini Yellow Cuckoo Hatchling",
+    "description": "Hatched with care.<br>Combine 1 Yellow, 1 Blue, and 1 Light Blue and Purple Cuckoo Hatchling with 8 Unidentified Dyes in the Mystic Forge to create a Red and White Cuckoo Hatchling. Combine 1 Brown and 2 Yellow Cuckoo Hatchlings with 12 Unidentified Dyes in the Mystic Forge to create a Silver and Gold Cuckoo Hatchling.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 103739,
+    "chat_link": "[&AgE7lQEA]",
+    "icon": "https://render.guildwars2.com/file/284DE195DBDB9196C89CC8449362E073D5B406D3/3436608.png",
+    "details": {
+      "minipet_id": 944
+    }
+  },
+  {
+    "name": "Foefire Dagger Skin",
+    "description": "Double-click to apply this look to any other dagger.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 103740,
+    "chat_link": "[&AgE8lQEA]",
+    "icon": "https://render.guildwars2.com/file/9302565FFCF51BF4FB1C740BA54D4E581CDF4901/3436655.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12661
+      ]
+    }
+  },
+  {
+    "name": "Foefire Shield Skin",
+    "description": "Double-click to apply this look to any other shield.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 103741,
+    "chat_link": "[&AgE9lQEA]",
+    "icon": "https://render.guildwars2.com/file/0BB0D4753778D1090D9CDA6AD602D549AA2D3215/3436744.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12653
+      ]
+    }
+  },
+  {
+    "name": "Foefire Spear Skin",
+    "description": "Double-click to apply this look to any other spear.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 103742,
+    "chat_link": "[&AgE+lQEA]",
+    "icon": "https://render.guildwars2.com/file/CD22C9E8670E30C3C265C0B2E8EFF9FA330D0355/3436768.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12649
+      ]
+    }
+  },
+  {
+    "name": "Foefire Short Bow Skin",
+    "description": "Double-click to apply this look to any other short bow.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 103743,
+    "chat_link": "[&AgE/lQEA]",
+    "icon": "https://render.guildwars2.com/file/FFC7AED907200E1603AA456FD6FDB5A42B4F806D/3436756.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12655
+      ]
+    }
+  },
+  {
+    "name": "Foefire Pistol Skin",
+    "description": "Double-click to apply this look to any other pistol.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 103744,
+    "chat_link": "[&AgFAlQEA]",
+    "icon": "https://render.guildwars2.com/file/0AACBCFB4A6E0C55CD360D701CCBD791A3243C52/3436706.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12667
+      ]
+    }
+  },
+  {
+    "name": "Mini Brown Cuckoo Hatchling",
+    "description": "Hatched with care.<br>Combine 2 Brown Cuckoo Hatchlings and 1 Blue Cuckoo Hatchling with 4 Unidentified Dyes in the Mystic Forge to create a Black and Green Cuckoo Hatchling.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 103745,
+    "chat_link": "[&AgFBlQEA]",
+    "icon": "https://render.guildwars2.com/file/919CC90402B050A0AC5E0ADA620FA304A3976409/3436601.png",
+    "details": {
+      "minipet_id": 945
+    }
+  },
+  {
+    "name": "Foefire Hammer Skin",
+    "description": "Double-click to apply this look to any other hammer.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 103746,
+    "chat_link": "[&AgFClQEA]",
+    "icon": "https://render.guildwars2.com/file/BC6E690E06BF332805DE329A11BE7C42DD75B27C/3436682.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12645
+      ]
+    }
+  },
+  {
+    "name": "Foefire Rifle Skin",
+    "description": "Double-click to apply this look to any other rifle.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 103747,
+    "chat_link": "[&AgFDlQEA]",
+    "icon": "https://render.guildwars2.com/file/FF352380E456E759B1514D4AB323D6AB994DF048/3436719.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12662
+      ]
+    }
+  },
+  {
+    "name": "Foefire Torch Skin",
+    "description": "Double-click to apply this look to any other torch.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 103748,
+    "chat_link": "[&AgFElQEA]",
+    "icon": "https://render.guildwars2.com/file/99B94BE2577D007FA90A0E750BFDDD42FA613AE3/3436806.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        12658
+      ]
+    }
+  },
+  {
+    "name": "Steamwork Skyscale Skin",
+    "description": "Double-click to unlock this skyscale mount skin for your account.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 103749,
+    "chat_link": "[&AgFFlQEA]",
+    "icon": "https://render.guildwars2.com/file/EE1E5C5D39A0CCB4FA9C4045242D9B3C3BA1E6DF/3436609.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Ms"
+    }
+  }
+]

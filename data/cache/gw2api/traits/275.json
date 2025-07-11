@@ -1,0 +1,35 @@
+{
+  "id": 275,
+  "tier": 2,
+  "order": 0,
+  "name": "Force tellurique",
+  "description": "Vous obtenez des Dégâts par altération en fonction de votre Robustesse. Lorsque vous infligez Immobilisation à un ennemi, vous lui infligez également Saignement.<br><c=@reminder>Le Saignement ne peut être infligé à une cible qu'une fois par intervalle.</c>",
+  "slot": "Major",
+  "facts": [
+    {
+      "text": "Conversion de caractéristiques",
+      "type": "BuffConversion",
+      "icon": "https://render.guildwars2.com/file/0120CB042BFC2EA6A45BC3DB45155FECDDDE1910/2229318.png",
+      "percent": 10,
+      "source": "Toughness",
+      "target": "ConditionDamage"
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/79FF0046A5F9ADA3B4C4EC19ADB4CB124D5F0021/102848.png",
+      "duration": 10,
+      "status": "Saignement",
+      "description": "Inflige des dégâts à chaque seconde. Intensité cumulable.",
+      "apply_count": 3
+    },
+    {
+      "text": "Intervalle",
+      "type": "Time",
+      "icon": "https://render.guildwars2.com/file/B75E91EB22E0DFCC1D08030204055946506D56F6/1770206.png",
+      "duration": 3
+    }
+  ],
+  "specialization": 26,
+  "icon": "https://render.guildwars2.com/file/567BA00AEB795B5021E5924CC3511DE3AAC26438/1012297.png"
+}

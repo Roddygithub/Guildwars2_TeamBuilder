@@ -1,0 +1,66 @@
+{
+  "id": 909,
+  "tier": 2,
+  "order": 2,
+  "name": "Signes de souffrance",
+  "description": "Les <c=@abilitytype>signes</c> volent de la santé aux ennemis affectés et dissipent leurs avantages. La guérison du siphon est réduite à chaque cible touchée après la première.",
+  "slot": "Major",
+  "facts": [
+    {
+      "text": "Avantages supprimés",
+      "type": "Number",
+      "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png",
+      "value": 2
+    },
+    {
+      "text": "Avantages supprimés",
+      "type": "Number",
+      "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png",
+      "value": 1
+    },
+    {
+      "text": "Dégâts du Siphon de vie",
+      "type": "AttributeAdjust",
+      "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+      "value": 1413,
+      "target": "Power"
+    },
+    {
+      "text": "Dégâts du Siphon de vie",
+      "type": "AttributeAdjust",
+      "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+      "value": 997,
+      "target": "Power"
+    },
+    {
+      "text": "Guérison du Siphon de vie à la première attaque",
+      "type": "AttributeAdjust",
+      "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+      "value": 1413,
+      "target": "Healing"
+    },
+    {
+      "text": "Guérison d'attaque supplémentaire",
+      "type": "AttributeAdjust",
+      "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+      "value": 237,
+      "target": "Healing"
+    },
+    {
+      "text": "Guérison du Siphon de vie à la première attaque",
+      "type": "AttributeAdjust",
+      "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+      "value": 997,
+      "target": "Healing"
+    },
+    {
+      "text": "Guérison d'attaque supplémentaire",
+      "type": "AttributeAdjust",
+      "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+      "value": 108,
+      "target": "Healing"
+    }
+  ],
+  "specialization": 53,
+  "icon": "https://render.guildwars2.com/file/EEB462072294673B6ADC280A2374216047529798/1012600.png"
+}

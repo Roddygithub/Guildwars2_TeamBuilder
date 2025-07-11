@@ -1,0 +1,75 @@
+{
+  "id": 621,
+  "tier": 1,
+  "order": 0,
+  "name": "Vertu inspirée",
+  "description": "Les <c=@abilitytype>vertus</c> confèrent des avantages aux alliés lors de leur activation. Vous infligez des dégâts de frappe supplémentaires pour chaque avantage dont vous bénéficiez.",
+  "slot": "Minor",
+  "facts": [
+    {
+      "text": "Dégâts bonus par avantage",
+      "type": "Percent",
+      "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png",
+      "percent": 1
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "PrefixedBuff",
+      "icon": "https://render.guildwars2.com/file/2FA9DF9D6BC17839BBEA14723F1C53D645DDB5E1/102852.png",
+      "duration": 5,
+      "status": "Pouvoir",
+      "description": "Les dégâts infligés sont augmentés. Intensité cumulable.",
+      "apply_count": 3,
+      "prefix": {
+        "text": "Apply Buff/Condition",
+        "icon": "https://render.guildwars2.com/file/0E4C27902671FBCB33713E3677604B0880EF0D60/103034.png",
+        "status": "Vertu de justice",
+        "description": "<c=@abilitytype>Vertu :</c> inflige Brûlure toutes les cinq attaques.<br><c=@abilitytype>Activation :</c>Vos alliés et vous, inflige Brûlure lors de votre prochaine attaque."
+      }
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "PrefixedBuff",
+      "icon": "https://render.guildwars2.com/file/F69996772B9E18FD18AD0AABAB25D7E3FC42F261/102835.png",
+      "duration": 5,
+      "status": "Régénération",
+      "description": "Vous regagnez de la santé à chaque seconde. La durée est cumulable.",
+      "apply_count": 1,
+      "prefix": {
+        "text": "Apply Buff/Condition",
+        "icon": "https://render.guildwars2.com/file/F12B07B5466A51AB2BFD2C0CB8F3994D3F9E610C/103652.png",
+        "status": "Vertu de résolution",
+        "description": "<c=@abilitytype>Vertu :</c> régénère la santé.</c><br><c=@abilitytype>Activation :</c> vous soignez vos alliés à proximité ainsi que vous-même."
+      }
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "PrefixedBuff",
+      "icon": "https://render.guildwars2.com/file/CD77D1FAB7B270223538A8F8ECDA1CFB044D65F4/102834.png",
+      "duration": 5,
+      "status": "Protection",
+      "description": "Dégâts de frappe subis réduits de 33%. La durée est cumulable.",
+      "apply_count": 1,
+      "prefix": {
+        "text": "Apply Buff/Condition",
+        "icon": "https://render.guildwars2.com/file/1B55CBCB3E1165FD5D0C7BC3CBEEB65C5BD9D07C/103258.png",
+        "status": "Vertu de courage",
+        "description": "<c=@abilitytype>Vertu :</c> vous obtenez Égide à intervalles réguliers.<br><c=@abilitytype>Activation :</c> vous confère Égide, ainsi qu'à vos alliés à proximité."
+      }
+    },
+    {
+      "text": "Nombre de cibles",
+      "type": "Number",
+      "icon": "https://render.guildwars2.com/file/BBE8191A494B0352259C10EADFDACCE177E6DA5B/1770208.png",
+      "value": 5
+    },
+    {
+      "text": "Rayon",
+      "type": "Distance",
+      "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+      "distance": 1200
+    }
+  ],
+  "specialization": 46,
+  "icon": "https://render.guildwars2.com/file/6FF2B9A0099D3C75FBE97D36CBCC0470F63DFE06/1012447.png"
+}

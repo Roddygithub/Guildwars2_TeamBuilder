@@ -1,0 +1,42 @@
+{
+  "id": 1000,
+  "tier": 2,
+  "order": 1,
+  "name": "Vue perçante",
+  "description": "Les compétences d'armes de rôdeur infligent des dégâts de frappe supplémentaires. Les dégâts augmentent davantage pour les ennemis touchés au-delà du seuil de portée.",
+  "slot": "Major",
+  "facts": [
+    {
+      "text": "Augmentation des dégâts",
+      "type": "Percent",
+      "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+      "percent": 5
+    },
+    {
+      "text": "Augmentation des dégâts",
+      "type": "Percent",
+      "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+      "percent": 10
+    },
+    {
+      "text": "Augmentation des dégâts au-dessus du seuil",
+      "type": "Percent",
+      "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+      "percent": 10
+    },
+    {
+      "text": "Augmentation des dégâts au-dessus du seuil",
+      "type": "Percent",
+      "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+      "percent": 15
+    },
+    {
+      "text": "Seuil de portée",
+      "type": "Number",
+      "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png",
+      "value": 600
+    }
+  ],
+  "specialization": 8,
+  "icon": "https://render.guildwars2.com/file/6F338058C9CEAC7F35740F1F384E01F4C7D45428/1012622.png"
+}

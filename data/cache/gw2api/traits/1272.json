@@ -1,0 +1,28 @@
+{
+  "id": 1272,
+  "tier": 2,
+  "order": 1,
+  "name": "Tolérance éprouvée",
+  "description": "Vous obtenez de la Férocité en fonction de votre Précision.",
+  "slot": "Major",
+  "facts": [
+    {
+      "text": "Conversion de caractéristiques",
+      "type": "BuffConversion",
+      "icon": "https://render.guildwars2.com/file/0658D833944E69E62E08EB18A0B5407F722125BC/2229320.png",
+      "percent": 10,
+      "source": "Precision",
+      "target": "CritDamage"
+    },
+    {
+      "text": "Conversion de caractéristiques",
+      "type": "BuffConversion",
+      "icon": "https://render.guildwars2.com/file/0658D833944E69E62E08EB18A0B5407F722125BC/2229320.png",
+      "percent": 15,
+      "source": "Precision",
+      "target": "CritDamage"
+    }
+  ],
+  "specialization": 35,
+  "icon": "https://render.guildwars2.com/file/1B7D0D46BBD9CEB13AE1DD294BDE30E417A432E4/1012730.png"
+}
