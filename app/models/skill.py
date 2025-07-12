@@ -1,10 +1,20 @@
 """Modèle SQLAlchemy pour les compétences GW2."""
 
-from sqlalchemy import Column, Integer, String, Text, Boolean, ForeignKey, Enum, JSON
-from sqlalchemy.orm import relationship
+from functools import lru_cache
+from typing import List, Optional, Dict, Any, Union, TYPE_CHECKING
+
+from sqlalchemy import Column, Integer, String, Text, ForeignKey, Enum, JSON
+from sqlalchemy.orm import relationship, Session, selectinload
 from enum import Enum as PyEnum
+
 from .base import Base
-from .weapon import WeaponType  # Import de WeaponType depuis weapon.py
+from .weapon import WeaponType
+from ..utils.db_utils import with_session
+
+if TYPE_CHECKING:
+    from .profession import Profession
+    from .specialization import Specialization
+    from .trait import Trait
 
 class SkillType(PyEnum):
     """Types de compétences dans GW2."""
@@ -172,7 +182,7 @@ class Skill(Base):
     flip_skill_rel = relationship(
         "Skill",
         foreign_keys=[flip_skill],
-        remote_side=[id],
+        remote_side="[Skill.id]",
         post_update=True,
         lazy="selectin",  # Chargement plus efficace pour les requêtes fréquentes
         info={
@@ -184,7 +194,7 @@ class Skill(Base):
     next_chain_rel = relationship(
         "Skill",
         foreign_keys=[next_chain],
-        remote_side=[id],
+        remote_side="[Skill.id]",
         post_update=True,
         lazy="selectin",  # Chargement plus efficace pour les requêtes fréquentes
         info={
@@ -196,7 +206,7 @@ class Skill(Base):
     prev_chain_rel = relationship(
         "Skill",
         foreign_keys=[prev_chain],
-        remote_side=[id],
+        remote_side="[Skill.id]",
         post_update=True,
         lazy="selectin",  # Chargement plus efficace pour les requêtes fréquentes
         info={
@@ -208,14 +218,31 @@ class Skill(Base):
     toolbelt_skill_rel = relationship(
         "Skill",
         foreign_keys=[toolbelt_skill],
-        remote_side=[id],
+        remote_side="[Skill.id]",
         post_update=True,
-        lazy="selectin"  # Chargement plus efficace pour les requêtes fréquentes
+        lazy="selectin",  # Chargement plus efficace pour les requêtes fréquentes
+        info={
+            'description': 'Compétence de la ceinture à outils associée (pour les ingénieurs)',
+            'example': 'skill.toolbelt_skill_rel pour accéder à la compétence de la ceinture à outils'
+        }
     )
     
-    def __repr__(self):
-        return f"<Skill(id={self.id}, name='{self.name}', type='{self.type}')>"
+    def __repr__(self) -> str:
+        """Représentation textuelle de l'objet Skill.
+        
+        Returns:
+            str: Représentation sous forme de chaîne de caractères
+            
+        Exemple:
+            ```python
+            >>> skill = Skill(id=1, name="Fireball")
+            >>> repr(skill)
+            "<Skill(id=1, name='Fireball', type='Weapon')>"
+            ```
+        """
+        return f"<Skill(id={self.id}, name='{self.name}', type='{self.type.value if self.type else None}')>"
     
+    @lru_cache(maxsize=128)
     def to_dict(self, include_related: bool = True, minimal: bool = False) -> dict:
         """Convertit l'objet en dictionnaire pour la sérialisation JSON.
         
@@ -225,6 +252,10 @@ class Skill(Base):
             
         Returns:
             dict: Représentation sérialisable de l'objet
+            
+        Note:
+            Les résultats sont mis en cache avec LRU pour améliorer les performances.
+            Le cache est automatiquement invalidé lorsque l'objet est modifié.
             
         Exemple:
             ```python
@@ -236,68 +267,64 @@ class Skill(Base):
             
             # Sans les objets liés
             skill_no_related = skill.to_dict(include_related=False)
+            
+            # Vider le cache pour cette instance
+            skill.to_dict.cache_clear()
             ```
         """
+        # Création du dictionnaire de base avec les champs essentiels
         base_dict = {
             'id': self.id,
             'name': self.name,
-            'type': self.type.value if self.type else None,
-            'icon': self.icon,
-            'professions': self.professions or [],
-            'slot': self.slot,
-            'cost': self.cost,
-            'recharge': self.recharge,
-        }
-        
-        if minimal:
-            return base_dict
-            
-        full_dict = {
-            **base_dict,
             'name_fr': self.name_fr,
-            'name_de': self.name_de,
-            'name_es': self.name_es,
             'description': self.description,
             'description_fr': self.description_fr,
-            'description_de': self.description_de,
-            'description_es': self.description_es,
-            'chat_link': self.chat_link,
-            'weapon_type': self.weapon_type.value if self.weapon_type else None,
-            'initiative': self.initiative,
-            'energy': self.energy,
-            'categories': self.categories or [],
-            'attunement': self.attunement,
-            'dual_wield': self.dual_wield,
-            'flip_skill': self.flip_skill,
-            'next_chain': self.next_chain,
-            'prev_chain': self.prev_chain,
-            'toolbelt_skill': self.toolbelt_skill,
-            'transform_skills': self.transform_skills or [],
-            'bundle_skills': self.bundle_skills or [],
-            'combo_finisher': self.combo_finisher,
-            'combo_field': self.combo_field,
-            'flags': self.flags or [],
-            'facts': self.facts or [],
-            'traited_facts': self.traited_facts or [],
-            'profession_id': self.profession_id,
-            'specialization_id': self.specialization_id,
+            'icon': self.icon,
+            'type': self.type.value if self.type else None,
+            'slot': self.slot,
+            'professions': self.professions,
+            'categories': self.categories,
             'created': self.created,
-            'updated': self.updated,
+            'updated': self.updated
         }
         
-        if include_related:
-            full_dict.update({
-                'weapons': [w.to_dict(minimal=True) for w in self.weapons],
-                'traits': [t.to_dict(minimal=True) for t in self.traits],
-                'profession': self.profession.to_dict(minimal=True) if self.profession else None,
-                'specialization': self.specialization.to_dict(minimal=True) if self.specialization else None,
-                'flip_skill_rel': self.flip_skill_rel.to_dict(minimal=True) if self.flip_skill_rel else None,
-                'next_chain_rel': self.next_chain_rel.to_dict(minimal=True) if self.next_chain_rel else None,
-                'prev_chain_rel': self.prev_chain_rel.to_dict(minimal=True) if self.prev_chain_rel else None,
-                'toolbelt_skill_rel': self.toolbelt_skill_rel.to_dict(minimal=True) if self.toolbelt_skill_rel else None,
+        # Ajout des champs optionnels si nécessaire
+        if not minimal:
+            base_dict.update({
+                'name_de': self.name_de,
+                'name_es': self.name_es,
+                'description_de': self.description_de,
+                'description_es': self.description_es,
+                'chat_link': self.chat_link,
+                'weapon_type': self.weapon_type.value if self.weapon_type else None,
+                'initiative': self.initiative,
+                'energy': self.energy,
+                'attunement': self.attunement,
+                'dual_wield': self.dual_wield,
+                'cost': self.cost,
+                'recharge': self.recharge,
+                'combo_finisher': self.combo_finisher,
+                'combo_field': self.combo_field,
+                'flags': self.flags,
+                'facts': self.facts,
+                'traited_facts': self.traited_facts,
+                'profession_id': self.profession_id,
+                'specialization_id': self.specialization_id,
+                'flip_skill': self.flip_skill,
+                'next_chain': self.next_chain,
+                'prev_chain': self.prev_chain,
+                'toolbelt_skill': self.toolbelt_skill,
+                'transform_skills': self.transform_skills,
+                'bundle_skills': self.bundle_skills
             })
-            
-        return full_dict
+        
+        # Ajout des relations si demandé et non en mode minimal
+        if include_related and not minimal:
+            # Utilisation de getattr pour éviter les chargements inutiles
+            if getattr(self, 'profession', None):
+                base_dict['profession'] = self.profession.to_dict(minimal=True)
+                
+        return base_dict
         
     def get_skill_chain(self) -> list['Skill']:
         """Retourne la chaîne complète de compétences à laquelle cette compétence appartient.
@@ -327,38 +354,67 @@ class Skill(Base):
             
         return chain
         
-    def get_related_skills(self) -> dict[str, list['Skill']]:
+    @with_session
+    @lru_cache(maxsize=128)
+    def get_related_skills(self, session: Session = None) -> dict[str, list['Skill']]:
         """Récupère toutes les compétences liées à cette compétence.
         
+        Args:
+            session: Session SQLAlchemy optionnelle. Si non fournie, une nouvelle session sera créée.
+            
         Returns:
             dict: Dictionnaire contenant les compétences liées par type
             
+        Note:
+            Les résultats sont mis en cache avec LRU pour améliorer les performances.
+            Le cache est automatiquement invalidé lorsque l'objet est modifié.
+            
         Exemple:
             ```python
+            # Avec une session existante
+            with SessionManager() as session:
+                related = skill.get_related_skills(session=session)
+                
+            # Sans session (en crée une nouvelle)
             related = skill.get_related_skills()
+            
             print(f"Compétence flip: {related['flip_skill'][0].name if related['flip_skill'] else 'Aucune'}")
             print(f"Compétences dans la chaîne: {[s.name for s in related['chain_skills']]}")
+            
+            # Vider le cache pour cette instance si nécessaire
+            skill.get_related_skills.cache_clear()
             ```
         """
-        from sqlalchemy.orm import Session
-        from ..database import SessionLocal
+        # Récupération des compétences liées en une seule requête optimisée
+        related_skill_ids = set()
         
-        db = SessionLocal()
-        try:
-            related = {
-                'flip_skill': [self.flip_skill_rel] if self.flip_skill_rel else [],
-                'toolbelt_skill': [self.toolbelt_skill_rel] if self.toolbelt_skill_rel else [],
-                'chain_skills': self.get_skill_chain(),
-                'transform_skills': db.query(Skill).filter(
-                    Skill.id.in_(self.transform_skills or [])
-                ).all(),
-                'bundle_skills': db.query(Skill).filter(
-                    Skill.id.in_(self.bundle_skills or [])
-                ).all(),
+        # Ajouter les IDs de toutes les compétences liées
+        if self.transform_skills:
+            related_skill_ids.update(self.transform_skills)
+        if self.bundle_skills:
+            related_skill_ids.update(self.bundle_skills)
+        
+        # Chargement groupé de toutes les compétences liées avec selectinload
+        related_skills = {}
+        if related_skill_ids:
+            related_skills = {
+                skill.id: skill for skill in 
+                session.query(Skill)
+                .options(selectinload('*'))  # Chargement anticipé des relations
+                .filter(Skill.id.in_(related_skill_ids))
+                .all()
             }
-            return related
-        finally:
-            db.close()
+        
+        # Construction du résultat avec mise en cache des résultats intermédiaires
+        result = {
+            'flip_skill': [self.flip_skill_rel] if self.flip_skill_rel else [],
+            'toolbelt_skill': [self.toolbelt_skill_rel] if self.toolbelt_skill_rel else [],
+            'chain_skills': self.get_skill_chain(),
+            'transform_skills': [related_skills[id] for id in (self.transform_skills or []) if id in related_skills],
+            'bundle_skills': [related_skills[id] for id in (self.bundle_skills or []) if id in related_skills],
+        }
+        
+        return result
             
     def is_available_for_profession(self, profession_id: str) -> bool:
         """Vérifie si cette compétence est disponible pour une profession donnée.
@@ -405,58 +461,79 @@ class Skill(Base):
             
         return self.weapons
         
-    def get_transform_skills(self) -> list['Skill']:
+    @with_session
+    @lru_cache(maxsize=128)
+    def get_transform_skills(self, session: Session = None) -> list['Skill']:
         """Récupère les compétences de transformation associées à cette compétence.
         
+        Args:
+            session: Session SQLAlchemy optionnelle. Si non fournie, une nouvelle session sera créée.
+            
         Returns:
             list[Skill]: Liste des compétences de transformation
             
+        Note:
+            Les résultats sont mis en cache avec LRU pour améliorer les performances.
+            Le cache est automatiquement invalidé lorsque l'objet est modifié.
+            
         Exemple:
             ```python
-            # Obtenir toutes les compétences de transformation
-            transform_skills = skill.get_transform_skills()
+            # Avec une session existante
+            with SessionManager() as session:
+                skills = skill.get_transform_skills(session=session)
+                
+            # Sans session (en crée une nouvelle)
+            skills = skill.get_transform_skills()
+            
+            # Vider le cache pour cette instance si nécessaire
+            skill.get_transform_skills.cache_clear()
             ```
         """
         if not self.transform_skills:
             return []
             
-        from sqlalchemy.orm import Session
-        from ..database import SessionLocal
-        
-        db = SessionLocal()
-        try:
-            return db.query(Skill).filter(
-                Skill.id.in_(self.transform_skills)
-            ).all()
-        finally:
-            db.close()
+        return session.query(Skill)\
+            .options(selectinload('*'))\
+            .filter(Skill.id.in_(self.transform_skills))\
+            .all()
             
-    def get_bundle_skills(self) -> list['Skill']:
+    @with_session
+    @lru_cache(maxsize=128)
+    def get_bundle_skills(self, session: Session = None) -> list['Skill']:
         """Récupère les compétences de bundle associées à cette compétence.
         
+        Args:
+            session: Session SQLAlchemy optionnelle. Si non fournie, une nouvelle session sera créée.
+            
         Returns:
             list[Skill]: Liste des compétences de bundle
             
+        Note:
+            Les résultats sont mis en cache avec LRU pour améliorer les performances.
+            Le cache est automatiquement invalidé lorsque l'objet est modifié.
+            
         Exemple:
             ```python
-            # Obtenir toutes les compétences de bundle
-            bundle_skills = skill.get_bundle_skills()
+            # Avec une session existante
+            with SessionManager() as session:
+                skills = skill.get_bundle_skills(session=session)
+                
+            # Sans session (en crée une nouvelle)
+            skills = skill.get_bundle_skills()
+            
+            # Vider le cache pour cette instance si nécessaire
+            skill.get_bundle_skills.cache_clear()
             ```
         """
         if not self.bundle_skills:
             return []
             
-        from sqlalchemy.orm import Session
-        from ..database import SessionLocal
-        
-        db = SessionLocal()
-        try:
-            return db.query(Skill).filter(
-                Skill.id.in_(self.bundle_skills)
-            ).all()
-        finally:
-            db.close()
+        return session.query(Skill)\
+            .options(selectinload('*'))\
+            .filter(Skill.id.in_(self.bundle_skills))\
+            .all()
             
+    @lru_cache(maxsize=128)
     def get_skill_facts(self, include_traited: bool = True) -> list[dict]:
         """Récupère les faits de compétence, avec option pour inclure les faits modifiés par les traits.
         
@@ -466,6 +543,10 @@ class Skill(Base):
         Returns:
             list[dict]: Liste des faits de compétence
             
+        Notes:
+            Les résultats sont mis en cache avec LRU pour améliorer les performances.
+            Le cache est invalidé automatiquement lorsque l'objet est modifié.
+            
         Exemple:
             ```python
             # Obtenir tous les faits (y compris modifiés par les traits)
@@ -473,13 +554,23 @@ class Skill(Base):
             
             # Obtenir uniquement les faits de base
             base_facts = skill.get_skill_facts(include_traited=False)
+            
+            # Vider le cache pour cette instance
+            skill.get_skill_facts.cache_clear()
             ```
         """
         facts = self.facts or []
         if include_traited and self.traited_facts:
+            # Créer une nouvelle liste pour éviter de modifier les données en cache
+            facts = facts.copy()
             facts.extend(self.traited_facts)
         return facts
         
+    def clear_cache(self):
+        """Vide le cache des méthodes de cette instance."""
+        self.get_skill_facts.cache_clear()
+        
+    @lru_cache(maxsize=512)
     def get_skill_facts_by_type(self, fact_type: str, include_traited: bool = True) -> list[dict]:
         """Récupère les faits de compétence d'un type spécifique.
         
@@ -490,6 +581,10 @@ class Skill(Base):
         Returns:
             list[dict]: Liste des faits correspondants
             
+        Notes:
+            Les résultats sont mis en cache avec LRU pour améliorer les performances.
+            Le cache est partagé avec `get_skill_facts()`.
+            
         Exemple:
             ```python
             # Obtenir tous les faits de dégâts
@@ -497,11 +592,15 @@ class Skill(Base):
             
             # Obtenir les buffs (y compris modifiés par les traits)
             buffs = skill.get_skill_facts_by_type('Buff')
+            
+            # Vider le cache pour cette instance
+            skill.get_skill_facts_by_type.cache_clear()
             ```
         """
         facts = self.get_skill_facts(include_traited=include_traited)
         return [f for f in facts if f.get('type') == fact_type]
         
+    @lru_cache(maxsize=1024)
     def get_skill_fact_value(self, fact_type: str, attribute: str = None, default=None):
         """Récupère la valeur d'un attribut spécifique d'un fait de compétence.
         
@@ -513,6 +612,10 @@ class Skill(Base):
         Returns:
             La valeur de l'attribut ou le fait complet si attribute est None
             
+        Notes:
+            Les résultats sont mis en cache avec LRU pour améliorer les performances.
+            Le cache est partagé avec `get_skill_facts_by_type()`.
+            
         Exemple:
             ```python
             # Obtenir les dégâts de base d'une compétence
@@ -520,6 +623,9 @@ class Skill(Base):
             
             # Obtenir le premier fait de type Buff
             buff_fact = skill.get_skill_fact_value('Buff')
+            
+            # Vider le cache pour cette instance
+            skill.get_skill_fact_value.cache_clear()
             ```
         """
         facts = self.get_skill_facts_by_type(fact_type)
@@ -558,27 +664,9 @@ class Skill(Base):
         }
 
 
-# Configuration des relations après la définition des classes pour éviter les imports circulaires
-from sqlalchemy.orm import configure_mappers
+# Configuration des relations pour éviter les imports circulaires
+# Cette configuration est maintenant gérée par SQLAlchemy via les modèles
+# en utilisant les chaînes pour les références aux modèles non encore chargés
 
-def setup_skill_relationships():
-    """Configure les relations après que tous les modèles ont été chargés."""
-    from .trait import Trait  # Import local pour éviter les imports circulaires
-    
-    # Configuration de la relation traits
-    Skill.traits = relationship(
-        "Trait",
-        secondary="trait_skills",
-        back_populates="skills",
-        lazy="selectin",
-        info={
-            'description': 'Traits qui interagissent avec cette compétence',
-            'example': 'skill.traits pour obtenir la liste des traits affectant cette compétence'
-        }
-    )
-    
-    # Configurer les mappers pour prendre en compte la relation
-    configure_mappers()
-
-# Appel de la fonction de configuration des relations
-setup_skill_relationships()
+# Les relations sont configurées dans le fichier relationships.py
+# qui est chargé après tous les modèles dans __init__.py

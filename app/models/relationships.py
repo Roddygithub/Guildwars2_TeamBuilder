@@ -20,19 +20,38 @@ from .weapon import Weapon
 from .armor import Armor
 from .trinket import Trinket
 from .upgrade_component import UpgradeComponent
+from .skill import Skill
+from .trait import Trait
+from .profession import Profession
+from .specialization import Specialization
+from .profession_weapon import ProfessionWeaponType, ProfessionWeaponSkill
 
-def validate_relationship(relationship_name: str, model_class: Type, related_class: Type) -> bool:
+def validate_relationship(relationship_name: str, model_class, related_class) -> bool:
     """Valide qu'une relation existe entre deux classes de modèles.
     
     Args:
         relationship_name: Nom de la relation à valider
-        model_class: Classe du modèle source
-        related_class: Classe du modèle cible
+        model_class: Classe du modèle source ou nom du modèle sous forme de chaîne
+        related_class: Classe du modèle cible ou nom du modèle sous forme de chaîne
         
     Returns:
         bool: True si la relation est valide, False sinon
     """
     try:
+        # Si model_class est une chaîne, on essaie de le résoudre depuis les globals
+        if isinstance(model_class, str):
+            model_class = globals().get(model_class)
+            if model_class is None:
+                logger.error(f"Impossible de résoudre la classe de modèle '{model_class}' depuis les globals")
+                return False
+        
+        # Si related_class est une chaîne, on essaie de le résoudre depuis les globals
+        if isinstance(related_class, str):
+            related_class = globals().get(related_class)
+            if related_class is None:
+                logger.error(f"Impossible de résoudre la classe de modèle liée '{related_class}' depuis les globals")
+                return False
+        
         # Vérifie que la relation existe dans la classe source
         if not hasattr(model_class, relationship_name):
             logger.error(f"La relation '{relationship_name}' n'existe pas dans la classe {model_class.__name__}")
@@ -70,7 +89,25 @@ def setup_relationships() -> None:
     Raises:
         RuntimeError: Si une erreur survient lors de la configuration des relations
     """
-    logger.info("Configuration des relations SQLAlchemy...")
+    logger.info("Début de la configuration des relations SQLAlchemy...")
+    
+    # Log des modèles importés
+    logger.debug("Modèles importés:")
+    for name, obj in globals().items():
+        if hasattr(obj, '__module__') and obj.__module__.startswith('app.models'):
+            logger.debug(f"- {name} ({obj.__module__})")
+            
+    # Vérification des attributs des modèles
+    logger.debug("Vérification des attributs des modèles...")
+    model_names = ["Item", "Weapon", "Skill", "Trait", "ProfessionWeaponType", "ProfessionWeaponSkill"]
+    for name in model_names:
+        if name in globals():
+            model = globals()[name]
+            logger.debug(f"Attributs de {name}: {dir(model)}")
+        else:
+            logger.warning(f"Modèle non trouvé: {name}")
+    
+    logger.info("Configuration des relations...")
     # Relations pour Item
     Item.stats = relationship(
         "ItemStats", 
@@ -119,26 +156,205 @@ def setup_relationships() -> None:
     ItemStat.item = relationship("Item", back_populates="stat_mappings")
     ItemStat.statistics = relationship("ItemStats", back_populates="stat_mappings")
     
-    # Relations pour Weapon
-    Weapon.item = relationship("Item", back_populates="weapon", uselist=False)
-    Weapon.profession_weapons = relationship(
-        "ProfessionWeapon",
-        back_populates="weapon",
-        cascade="all, delete-orphan"
-    )
+    # Relations pour Weapon (utiliser des chaînes pour éviter les problèmes d'importation circulaire)
+    if 'Weapon' in globals():
+        Weapon = globals()['Weapon']
+        Weapon.item = relationship("Item", back_populates="weapon", uselist=False)
+        
+        # Relation avec les compétences de l'arme
+        Weapon.skills = relationship(
+            "Skill",
+            secondary="weapon_skills",
+            back_populates="weapons",
+            lazy="selectin",
+            overlaps="weapons,skills"
+        )
+        
+        # Relation avec les types d'armes de profession
+        # Relation simplifiée - ne référence que le type d'arme, pas la spécialisation
+        Weapon.profession_weapon_types = relationship(
+            "ProfessionWeaponType",
+            primaryjoin="Weapon.type == foreign(remote(ProfessionWeaponType.weapon_type))",
+            viewonly=True,
+            overlaps="weapon_skills"
+        )
+    else:
+        logger.warning("La classe Weapon n'est pas disponible pour la configuration des relations")
     
     # Relations pour Armor
-    Armor.item = relationship("Item", back_populates="armor", uselist=False)
+    Armor.item = relationship(
+        "Item", 
+        back_populates="armor", 
+        uselist=False,
+        overlaps="armor,armor"
+    )
     
     # Relations pour Trinket
-    Trinket.item = relationship("Item", back_populates="trinket", uselist=False)
+    Trinket.item = relationship(
+        "Item", 
+        back_populates="trinket", 
+        uselist=False,
+        overlaps="trinket,trinket"
+    )
     
     # Relations pour UpgradeComponent
-    UpgradeComponent.item = relationship("Item", back_populates="upgrade_component", uselist=False)
+    UpgradeComponent.item = relationship(
+        "Item", 
+        back_populates="upgrade_component", 
+        uselist=False,
+        overlaps="upgrade_component,upgrade_component"
+    )
+    
+    # Relations pour Skill
+    if 'Skill' in globals():
+        Skill = globals()['Skill']
+        
+        # Relation avec Profession
+        if hasattr(Skill, 'profession_id'):
+            Skill.profession = relationship(
+                "Profession",
+                back_populates="skills",
+                foreign_keys="[Skill.profession_id]",
+                lazy="selectin"
+            )
+        
+        # Relation avec Specialization
+        if hasattr(Skill, 'specialization_id'):
+            Skill.specialization = relationship(
+                "Specialization",
+                back_populates="skills",
+                foreign_keys="[Skill.specialization_id]",
+                lazy="selectin"
+            )
+        
+        # Relation avec Weapon (many-to-many via weapon_skills)
+        Skill.weapons = relationship(
+            "Weapon",
+            secondary="weapon_skills",
+            back_populates="skills",
+            lazy="selectin",
+            overlaps="skills,weapons"
+        )
+    
+    # Relations pour Trait (configuration différée)
+    if 'Trait' in globals():
+        Trait = globals()['Trait']
+        
+        # Relation avec Specialization
+        if hasattr(Trait, 'specialization_id'):
+            Trait.specialization = relationship(
+                "Specialization",
+                back_populates="traits",
+                foreign_keys="[Trait.specialization_id]",
+                lazy="selectin"
+            )
+        else:
+            logger.warning("Impossible de configurer la relation Trait.specialization: colonne specialization_id manquante dans le modèle Trait")
+    
+    # Relations pour ProfessionWeaponType (configuration différée)
+    if 'ProfessionWeaponType' in globals():
+        ProfessionWeaponType = globals()['ProfessionWeaponType']
+        
+        # Relation avec Weapon
+        if hasattr(ProfessionWeaponType, 'weapon_id'):
+            ProfessionWeaponType.weapon = relationship(
+                "Weapon",
+                back_populates="profession_weapon_types",
+                foreign_keys="[ProfessionWeaponType.weapon_id]"
+            )
+        
+        # Relation avec ProfessionWeaponSkill (déjà définie dans le modèle avec viewonly=True et overlaps)
+    
+    # Relations pour ProfessionWeaponSkill
+    if 'ProfessionWeaponSkill' in globals():
+        ProfessionWeaponSkill = globals()['ProfessionWeaponSkill']
+        
+        # Relation avec ProfessionWeapon
+        if hasattr(ProfessionWeaponSkill, 'profession_weapon_id'):
+            ProfessionWeaponSkill.profession_weapon = relationship(
+                "ProfessionWeapon",
+                back_populates="skills"
+            )
+        
+        # Relation avec Skill
+        if hasattr(ProfessionWeaponSkill, 'skill_id'):
+            ProfessionWeaponSkill.skill = relationship(
+                "Skill",
+                back_populates="profession_weapon_skills",
+                overlaps="profession_weapon_skills,profession_weapon_types"
+            )
+    
+    # Ajout de la relation manquante dans Skill
+    if 'Skill' in globals() and 'ProfessionWeaponSkill' in globals():
+        Skill = globals()['Skill']
+        Skill.profession_weapon_skills = relationship(
+            "ProfessionWeaponSkill",
+            back_populates="skill",
+            foreign_keys="[ProfessionWeaponSkill.skill_id]",
+            overlaps="skill,profession_weapon_types,profession_weapon_skills"
+        )
+    
+    # Configuration des relations pour le modèle Trait
+    if 'Skill' in globals() and 'Trait' in globals():
+        Skill = globals()['Skill']
+        Trait = globals()['Trait']
+        
+        # Configuration de la relation many-to-many entre Skill et Trait
+        # via la table d'association trait_skills
+        Skill.traits = relationship(
+            "Trait",
+            secondary="trait_skills",
+            back_populates="skills",
+            viewonly=True
+        )
+        
+        # Configuration de la relation inverse dans Trait
+        Trait.skills = relationship(
+            "Skill",
+            secondary="trait_skills",
+            back_populates="traits",
+            viewonly=True
+        )
+    else:
+        logger.warning("Impossible de configurer la relation entre Skill et Trait: modèles non chargés")
+    
+    # Configuration des relations pour le modèle ProfessionWeaponType
+    if 'ProfessionWeaponType' in globals():
+        ProfessionWeaponType = globals()['ProfessionWeaponType']
+        
+        # Relation inverse pour les compétences de type arme de profession
+        ProfessionWeaponType.weapon_skills = relationship(
+            "ProfessionWeaponSkill",
+            back_populates="weapon_type",
+            cascade="all, delete-orphan",
+            foreign_keys="[ProfessionWeaponSkill.weapon_type_id]"
+        )
+        
+        # Relation avec la profession
+        ProfessionWeaponType.profession = relationship(
+            "Profession",
+            back_populates="weapon_types"
+        )
+        
+        # Relation avec la spécialisation
+        ProfessionWeaponType.specialization = relationship(
+            "Specialization",
+            back_populates="weapon_types"
+        )
+    else:
+        logger.warning("Impossible de configurer les relations pour ProfessionWeaponType")
     
     try:
         # Configuration des mappers SQLAlchemy
-        logger.info("Configuration des mappers SQLAlchemy...")
+        logger.info("Début de la configuration des mappers SQLAlchemy...")
+        
+        # Log des relations configurées
+        logger.debug("Relations configurées:")
+        for name, obj in globals().items():
+            if hasattr(obj, 'property') and hasattr(obj.property, 'mapper'):
+                logger.debug(f"- {name}: {obj.property}")
+        
+        logger.info("Appel à configure_mappers()...")
         configure_mappers()
         logger.info("Configuration des mappers terminée avec succès")
         
@@ -174,6 +390,12 @@ def validate_critical_relationships() -> None:
         (UpgradeComponent, 'item', Item, 'UpgradeComponent.item'),
         (Item, 'stats', ItemStats, 'Item.stats'),
         (ItemStats, 'items', Item, 'ItemStats.items'),
+        (Skill, 'profession', 'Profession', 'Skill.profession'),
+        (Skill, 'specialization', 'Specialization', 'Skill.specialization'),
+        (Skill, 'weapons', Weapon, 'Skill.weapons'),
+        (Trait, 'specialization', 'Specialization', 'Trait.specialization'),
+        ('ProfessionWeaponType', 'skills', 'ProfessionWeaponSkill', 'ProfessionWeaponType.skills'),
+        ('Skill', 'profession_weapon_types', 'ProfessionWeaponSkill', 'Skill.profession_weapon_types'),
     ]
     
     # Validation de chaque relation critique

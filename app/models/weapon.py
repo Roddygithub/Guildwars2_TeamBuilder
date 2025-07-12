@@ -1,9 +1,32 @@
-"""Modèle SQLAlchemy pour les armes GW2."""
+"""Modèle SQLAlchemy pour les armes GW2.
 
+Ce module définit le modèle Weapon pour les armes dans Guild Wars 2, avec des optimisations
+pour les performances, y compris la mise en cache et le chargement par lots.
+"""
+
+import logging
+from functools import lru_cache
+from typing import List, Dict, Any, Optional, TypeVar, Type, TYPE_CHECKING
 from sqlalchemy import Column, Integer, String, Text, Boolean, ForeignKey, JSON, Enum, Float, Table
-from sqlalchemy.orm import relationship
+from sqlalchemy.orm import relationship, Session, joinedload
 from enum import Enum as PyEnum
+
+from ..utils.db_utils import with_session
 from .base import Base
+from .item import Rarity
+
+if TYPE_CHECKING:
+    from .skill import Skill
+    from .profession import Profession
+    from .specialization import Specialization
+    from .item import Item, Rarity
+    from .upgrade_component import UpgradeComponent
+
+# Type variable pour les méthodes de classe
+T = TypeVar('T', bound='Weapon')
+
+# Configuration du logging
+logger = logging.getLogger(__name__)
 
 class WeaponType(PyEnum):
     """Types d'armes dans GW2.
@@ -75,7 +98,12 @@ class WeaponFlag(PyEnum):
     NO_MAINHAND = "NoMainhand"
 
 class Weapon(Base):
-    """Modèle représentant une arme GW2.
+    """Modèle représentant une arme GW2 avec des optimisations de performances.
+    
+    Ce modèle utilise plusieurs techniques d'optimisation :
+    - Gestion automatique des sessions via @with_session
+    - Mise en cache des requêtes fréquentes avec @lru_cache
+    - Chargement par lots des relations pour éviter le problème N+1
     
     Attributes:
         id (int): Identifiant unique de l'arme
@@ -99,14 +127,16 @@ class Weapon(Base):
         game_types (List[str]): Types de jeu où l'arme est utilisable (PvE, PvP, WvW)
         flags (List[WeaponFlag]): Drapeaux de propriétés spéciales
         restrictions (List[str]): Restrictions d'utilisation (professions, etc.)
-        rarity (str): Rareté de l'arme (Junk, Basic, Fine, Masterwork, Rare, Exotic, Ascended, Legendary)
+        rarity (Rarity): Rareté de l'arme (Junk, Basic, Fine, Masterwork, Rare, Exotic, Ascended, Legendary)
         level (int): Niveau requis pour utiliser l'arme
         default_skin (int): ID du skin par défaut
         details (dict): Détails spécifiques à l'arme (dégâts par seconde, etc.)
         
-        # Relations
-        profession_weapons: relation avec les armes de profession
-        skills: compétences associées à cette arme
+    Relations:
+        profession_weapons: Relation avec les armes de profession
+        skills: Compétences associées à cette arme (many-to-many)
+        upgrades: Composants d'amélioration compatibles (many-to-many)
+        item: Objet Item associé à cette arme (one-to-one)
     """
     __tablename__ = 'weapons'
     
@@ -118,7 +148,7 @@ class Weapon(Base):
     icon = Column(String(255))
     chat_link = Column(String(100), nullable=True)
     type = Column(Enum(WeaponType), nullable=False, index=True)
-    damage_type = Column(Enum(DamageType), nullable=True)
+    damage_type = Column(Enum(DamageType, values_callable=lambda x: [e.value for e in DamageType]), nullable=True)
     min_power = Column(Integer, nullable=True)
     max_power = Column(Integer, nullable=True)
     defense = Column(Integer, nullable=True)
@@ -131,7 +161,7 @@ class Weapon(Base):
     game_types = Column(JSON, nullable=True)  # Liste de types de jeu
     flags = Column(JSON, nullable=True)  # Liste de WeaponFlag
     restrictions = Column(JSON, nullable=True)  # Liste de restrictions
-    rarity = Column(String(20), nullable=False, index=True)
+    rarity = Column(Enum(Rarity), nullable=False, index=True)
     level = Column(Integer, nullable=False, default=0, index=True)
     default_skin = Column(Integer, nullable=True)
     details = Column(JSON, nullable=True)  # Détails spécifiques
@@ -164,9 +194,149 @@ class Weapon(Base):
     def __repr__(self):
         return f"<Weapon(id={self.id}, name='{self.name}', type='{self.type}')>"
     
-    def to_dict(self):
-        """Convertit l'objet en dictionnaire pour la sérialisation JSON."""
-        return {
+    def clear_cache(self):
+        """Vide le cache pour cette instance."""
+        # Invalide les caches pour cette instance
+        self.get_skills_by_type.cache_clear()
+        self.get_profession_weapons.cache_clear()
+    
+    @classmethod
+    def get_by_id(cls: Type[T], weapon_id: int, session: Optional[Session] = None) -> Optional[T]:
+        """Récupère une arme par son ID avec chargement optimisé des relations.
+        
+        Args:
+            weapon_id: ID de l'arme à récupérer
+            session: Session SQLAlchemy (optionnelle)
+            
+        Returns:
+            Weapon: L'arme trouvée ou None
+        """
+        @with_session
+        def _get_weapon(session: Session) -> Optional[T]:
+            return session.query(cls).options(
+                joinedload(cls.profession_weapons)
+                    .joinedload(ProfessionWeapon.weapon_type)
+                    .joinedload(ProfessionWeaponType.weapon_skills)
+                    .joinedload(ProfessionWeapon.skill),
+                joinedload(cls.skills),
+                joinedload(cls.upgrades),
+                joinedload(cls.item)
+            ).get(weapon_id)
+            
+        return _get_weapon(session=session)
+    
+    @with_session
+    def get_skills_by_type(self, skill_type: str, session: Session = None) -> List['Skill']:
+        """Récupère les compétences de l'arme par type avec mise en cache.
+        
+        Args:
+            skill_type: Type de compétence à filtrer (ex: 'weapon', 'heal')
+            session: Session SQLAlchemy (optionnelle)
+            
+        Returns:
+            List[Skill]: Liste des compétences correspondant au type
+        """
+        # Utilisation de l'ID de l'arme comme clé de cache
+        cache_key = f"{self.id}_{skill_type}"
+        
+        @lru_cache(maxsize=128)
+        def _get_skills(weapon_id: int, skill_type: str) -> List['Skill']:
+            from .skill import Skill
+            
+            # Récupère les IDs des compétences liées à cette arme
+            skill_ids = [skill.id for skill in self.skills]
+            
+            if not skill_ids:
+                return []
+                
+            # Filtre par type de compétence
+            return session.query(Skill).filter(
+                Skill.id.in_(skill_ids),
+                Skill.type == skill_type
+            ).all()
+            
+        # Invalide le cache si nécessaire
+        if not hasattr(self, '_skills_cache'):
+            self._skills_cache = {}
+            
+        if cache_key not in self._skills_cache:
+            self._skills_cache[cache_key] = _get_skills(self.id, skill_type)
+            
+        return self._skills_cache[cache_key]
+    
+    @with_session
+    def get_profession_weapons(self, session: Session = None) -> List[Dict[str, Any]]:
+        """Récupère les informations sur les professions qui peuvent utiliser cette arme.
+        
+        Returns:
+            List[Dict]: Liste des informations sur les professions et spécialisations
+        """
+        from .profession import Profession
+        from .specialization import Specialization
+        
+        # Vérifie si le cache existe et est valide
+        if hasattr(self, '_profession_weapons_cache'):
+            return self._profession_weapons_cache
+            
+        # Récupère les relations profession_weapons avec chargement optimisé
+        result = session.query(ProfessionWeapon, Profession, Specialization).\
+            join(Profession, Profession.id == ProfessionWeapon.profession_id).\
+            outerjoin(Specialization, Specialization.id == ProfessionWeapon.specialization_id).\
+            filter(ProfessionWeapon.weapon_id == self.id).\
+            all()
+        
+        # Formate les résultats
+        profession_weapons = []
+        for pw, prof, spec in result:
+            pw_data = {
+                'profession': prof.to_dict(),
+                'slot': pw.slot,
+                'specialization': spec.to_dict() if spec else None,
+                'weapon_type': pw.weapon_type.weapon_type if pw.weapon_type else None,
+                'hand': pw.weapon_type.hand if pw.weapon_type else None,
+                'is_elite': pw.weapon_type.is_elite if pw.weapon_type else False
+            }
+            profession_weapons.append(pw_data)
+        
+        # Met en cache le résultat
+        self._profession_weapons_cache = profession_weapons
+        return profession_weapons
+    
+    @classmethod
+    def batch_load_by_ids(
+        cls: Type[T], 
+        weapon_ids: List[int], 
+        session: Optional[Session] = None
+    ) -> Dict[int, T]:
+        """Charge plusieurs armes par leurs IDs en une seule requête.
+        
+        Args:
+            weapon_ids: Liste des IDs d'armes à charger
+            session: Session SQLAlchemy (optionnelle)
+            
+        Returns:
+            Dict[int, Weapon]: Dictionnaire {id: weapon} des armes trouvées
+        """
+        @with_session
+        def _batch_load(session: Session) -> Dict[int, T]:
+            if not weapon_ids:
+                return {}
+                
+            weapons = session.query(cls).filter(cls.id.in_(weapon_ids)).all()
+            return {weapon.id: weapon for weapon in weapons}
+            
+        return _batch_load(session=session)
+    
+    def to_dict(self, include_related: bool = True) -> Dict[str, Any]:
+        """Convertit l'objet en dictionnaire pour la sérialisation JSON.
+        
+        Args:
+            include_related: Si True, inclut les objets liés (professions, compétences, etc.)
+            
+        Returns:
+            Dict: Représentation de l'arme sous forme de dictionnaire
+        """
+        result = {
             'id': self.id,
             'name': self.name,
             'name_fr': self.name_fr,
@@ -186,13 +356,33 @@ class Weapon(Base):
             'secondary_suffix_item_id': self.secondary_suffix_item_id,
             'stat_choices': self.stat_choices or [],
             'game_types': self.game_types or [],
-            'flags': self.flags or [],
+            'flags': [f.value if hasattr(f, 'value') else f for f in (self.flags or [])],
             'restrictions': self.restrictions or [],
             'rarity': self.rarity,
             'level': self.level,
             'default_skin': self.default_skin,
             'details': self.details or {}
         }
+        
+        if include_related:
+            # Charge les relations si nécessaire (avec lazy loading)
+            try:
+                if self.skills:
+                    result['skills'] = [s.to_dict(include_related=False) for s in self.skills]
+                
+                if hasattr(self, 'profession_weapons'):
+                    result['profession_weapons'] = self.get_profession_weapons()
+                
+                if hasattr(self, 'upgrades') and self.upgrades:
+                    result['upgrades'] = [u.to_dict(include_related=False) for u in self.upgrades]
+                    
+                if hasattr(self, 'item') and self.item:
+                    result['item'] = self.item.to_dict(include_related=False)
+                    
+            except Exception as e:
+                logger.warning(f"Erreur lors du chargement des relations pour l'arme {self.id}: {e}")
+        
+        return result
 
 
 # Table d'association pour la relation many-to-many entre armes et compétences

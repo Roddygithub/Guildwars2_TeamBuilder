@@ -764,9 +764,10 @@ else:
 from sqlalchemy.orm import configure_mappers
 
 def setup_trait_relationships():
-    """Configure les relations après que tous les modèles ont été chargés."""
-    from .skill import Skill  # Import local pour éviter les imports circulaires
+    """Configure les relations pour le modèle Trait.
     
+    Cette fonction est appelée depuis relationships.py après l'import de tous les modèles.
+    """
     # Configuration de la relation skills
     Trait.skills = relationship(
         "Skill",
@@ -781,11 +782,14 @@ def setup_trait_relationships():
         }
     )
     
-    # Configurer les mappers pour prendre en compte la relation
-    configure_mappers()
-
-# Appel de la fonction de configuration des relations
-setup_trait_relationships()
+    # Configuration de la relation inverse dans Skill (si nécessaire)
+    if 'Skill' in globals() and hasattr(Skill, 'traits'):
+        Skill.traits = relationship(
+            "Trait",
+            secondary="trait_skills",
+            back_populates="skills",
+            viewonly=True
+        )
 
 # Ajout d'un gestionnaire d'événements pour valider les données avant l'insertion/mise à jour
 @event.listens_for(Trait, 'before_insert')

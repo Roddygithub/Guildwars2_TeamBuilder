@@ -15,7 +15,7 @@ from datetime import datetime, timedelta
 import aiohttp
 from sqlalchemy.orm import Session
 
-from app.core.config import settings
+from ..config import settings
 from app.models import Base
 
 # Type générique pour les modèles SQLAlchemy
