@@ -1,0 +1,34 @@
+{
+  "id": 328,
+  "tier": 1,
+  "order": 1,
+  "name": "Conjurateur",
+  "description": "Vous bénéficiez d'Aura de feu quand un allié ramasse une arme conjurée.",
+  "slot": "Major",
+  "facts": [
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/2E7050E44690AFE0A396FA0DAD526699392743F3/2261521.png",
+      "duration": 4,
+      "status": "Aura de feu",
+      "description": "Un bouclier ardent vous enveloppe et inflige Brûlure aux ennemis. Il gagne en puissance à chaque fois que vous êtes touché (1 seconde de temps de recharge par attaquant).",
+      "apply_count": 1
+    }
+  ],
+  "traited_facts": [
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/2E7050E44690AFE0A396FA0DAD526699392743F3/2261521.png",
+      "duration": 5,
+      "status": "Aura de feu",
+      "description": "Un bouclier ardent vous enveloppe et inflige Brûlure aux ennemis. Il gagne en puissance à chaque fois que vous êtes touché (1 seconde de temps de recharge par attaquant).",
+      "apply_count": 1,
+      "requires_trait": 340,
+      "overrides": 0
+    }
+  ],
+  "specialization": 31,
+  "icon": "https://render.guildwars2.com/file/6BE466F790D5410D2E10512B1F0A523EEEB776B0/1012307.png"
+}

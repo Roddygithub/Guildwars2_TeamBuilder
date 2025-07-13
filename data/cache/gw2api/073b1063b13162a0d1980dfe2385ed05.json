@@ -1,0 +1,7336 @@
+[
+  {
+    "name": "Jormag Right Eye Infusion",
+    "description": "Double-click to apply to an unused infusion slot. May cause slight discomfort.",
+    "type": "UpgradeComponent",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 10000,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 94946,
+    "chat_link": "[&AgHicgEA]",
+    "icon": "https://render.guildwars2.com/file/3A07E9A22A7BC340A7CD0BAB2C435EDE42F0614D/2433077.png",
+    "details": {
+      "type": "Default",
+      "flags": [
+        "ShortBow",
+        "HeavyArmor",
+        "LightArmor",
+        "Dagger",
+        "MediumArmor",
+        "Focus",
+        "Greatsword",
+        "Hammer",
+        "Trinket",
+        "Harpoon",
+        "Mace",
+        "Pistol",
+        "Rifle",
+        "Scepter",
+        "Shield",
+        "Speargun",
+        "Axe",
+        "Staff",
+        "Sword",
+        "Torch",
+        "Trident",
+        "Warhorn",
+        "LongBow"
+      ],
+      "infusion_upgrade_flags": [
+        "Infusion"
+      ],
+      "attribute_adjustment": 0,
+      "infix_upgrade": {
+        "id": 1650,
+        "buff": {
+          "skill_id": 62315,
+          "description": "+5 Power\n+9 Agony Resistance"
+        },
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 5
+          },
+          {
+            "attribute": "AgonyResistance",
+            "modifier": 9
+          }
+        ]
+      },
+      "suffix": ""
+    }
+  },
+  {
+    "name": "Dragonscale Cape",
+    "type": "Back",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 330,
+    "default_skin": 9991,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NotUpgradeable",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 94947,
+    "chat_link": "[&AgHjcgEA]",
+    "icon": "https://render.guildwars2.com/file/FC6E6203A6B3A5F799404A7051AD5E60AA0E09FD/2433099.png",
+    "details": {
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 89.628,
+      "stat_choices": [
+        584,
+        656,
+        658,
+        1119,
+        657,
+        1038,
+        1097,
+        659,
+        690,
+        583,
+        585,
+        1037,
+        586,
+        1035,
+        588,
+        1114,
+        1128,
+        1163,
+        1066,
+        1064,
+        660,
+        1430,
+        1436,
+        591,
+        581,
+        592,
+        1263,
+        1271,
+        1265,
+        1270,
+        1262,
+        1268,
+        1264,
+        1267,
+        1269,
+        1366,
+        1367,
+        1374,
+        1549,
+        1566,
+        1691,
+        1706,
+        1827
+      ],
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Jormag Right Eye Infusion",
+    "description": "Double-click to apply to an unused infusion slot. May cause slight discomfort.",
+    "type": "UpgradeComponent",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 10000,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 94948,
+    "chat_link": "[&AgHkcgEA]",
+    "icon": "https://render.guildwars2.com/file/3A07E9A22A7BC340A7CD0BAB2C435EDE42F0614D/2433077.png",
+    "details": {
+      "type": "Default",
+      "flags": [
+        "ShortBow",
+        "HeavyArmor",
+        "LightArmor",
+        "Dagger",
+        "MediumArmor",
+        "Focus",
+        "Greatsword",
+        "Hammer",
+        "Trinket",
+        "Harpoon",
+        "Mace",
+        "Pistol",
+        "Rifle",
+        "Scepter",
+        "Shield",
+        "Speargun",
+        "Axe",
+        "Staff",
+        "Sword",
+        "Torch",
+        "Trident",
+        "Warhorn",
+        "LongBow"
+      ],
+      "infusion_upgrade_flags": [
+        "Infusion"
+      ],
+      "attribute_adjustment": 0,
+      "infix_upgrade": {
+        "id": 1661,
+        "buff": {
+          "skill_id": 62278,
+          "description": "+5 Concentration\n+9 Agony Resistance"
+        },
+        "attributes": [
+          {
+            "attribute": "BoonDuration",
+            "modifier": 5
+          },
+          {
+            "attribute": "AgonyResistance",
+            "modifier": 9
+          }
+        ]
+      },
+      "suffix": ""
+    }
+  },
+  {
+    "name": "Jormag Left Eye Infusion",
+    "description": "Double-click to apply to an unused infusion slot. May cause slight discomfort.",
+    "type": "UpgradeComponent",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 10000,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 94949,
+    "chat_link": "[&AgHlcgEA]",
+    "icon": "https://render.guildwars2.com/file/E6C14E380D0227433290C80B2DEA0B7F71A2B266/2433076.png",
+    "details": {
+      "type": "Default",
+      "flags": [
+        "ShortBow",
+        "HeavyArmor",
+        "LightArmor",
+        "Dagger",
+        "MediumArmor",
+        "Focus",
+        "Greatsword",
+        "Hammer",
+        "Trinket",
+        "Harpoon",
+        "Mace",
+        "Pistol",
+        "Rifle",
+        "Scepter",
+        "Shield",
+        "Speargun",
+        "Axe",
+        "Staff",
+        "Sword",
+        "Torch",
+        "Trident",
+        "Warhorn",
+        "LongBow"
+      ],
+      "infusion_upgrade_flags": [
+        "Infusion"
+      ],
+      "attribute_adjustment": 0,
+      "infix_upgrade": {
+        "id": 1653,
+        "buff": {
+          "skill_id": 62362,
+          "description": "+5 Healing\n+9 Agony Resistance"
+        },
+        "attributes": [
+          {
+            "attribute": "Healing",
+            "modifier": 5
+          },
+          {
+            "attribute": "AgonyResistance",
+            "modifier": 9
+          }
+        ]
+      },
+      "suffix": ""
+    }
+  },
+  {
+    "name": "Seraph Wings Backpack and Glider Combo",
+    "description": "This package contains a glider skin and a matching backpack skin.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 94950,
+    "chat_link": "[&AgHmcgEA]",
+    "icon": "https://render.guildwars2.com/file/B6AE06062B0AE5EB0ACB0BA6AD0B1F469676E10F/2433161.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9992
+      ]
+    }
+  },
+  {
+    "name": "Primordus Left Eye Infusion",
+    "description": "Double-click to apply to an unused infusion slot. May cause slight discomfort.",
+    "type": "UpgradeComponent",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 10000,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 94951,
+    "chat_link": "[&AgHncgEA]",
+    "icon": "https://render.guildwars2.com/file/497107FC62B268BB1453DE39C0D9CC781CE8A80A/2433078.png",
+    "details": {
+      "type": "Default",
+      "flags": [
+        "ShortBow",
+        "HeavyArmor",
+        "LightArmor",
+        "Dagger",
+        "MediumArmor",
+        "Focus",
+        "Greatsword",
+        "Hammer",
+        "Trinket",
+        "Harpoon",
+        "Mace",
+        "Pistol",
+        "Rifle",
+        "Scepter",
+        "Shield",
+        "Speargun",
+        "Axe",
+        "Staff",
+        "Sword",
+        "Torch",
+        "Trident",
+        "Warhorn",
+        "LongBow"
+      ],
+      "infusion_upgrade_flags": [
+        "Infusion"
+      ],
+      "attribute_adjustment": 0,
+      "infix_upgrade": {
+        "id": 1644,
+        "buff": {
+          "skill_id": 62411,
+          "description": "+5 Expertise\n+9 Agony Resistance"
+        },
+        "attributes": [
+          {
+            "attribute": "ConditionDuration",
+            "modifier": 5
+          },
+          {
+            "attribute": "AgonyResistance",
+            "modifier": 9
+          }
+        ]
+      },
+      "suffix": ""
+    }
+  },
+  {
+    "name": "Primordus Right Eye Infusion",
+    "description": "Double-click to apply to an unused infusion slot. May cause slight discomfort.",
+    "type": "UpgradeComponent",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 10000,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 94952,
+    "chat_link": "[&AgHocgEA]",
+    "icon": "https://render.guildwars2.com/file/F86B9BD3A92D2D31211274F908F0CC91B0DCD055/2433079.png",
+    "details": {
+      "type": "Default",
+      "flags": [
+        "ShortBow",
+        "HeavyArmor",
+        "LightArmor",
+        "Dagger",
+        "MediumArmor",
+        "Focus",
+        "Greatsword",
+        "Hammer",
+        "Trinket",
+        "Harpoon",
+        "Mace",
+        "Pistol",
+        "Rifle",
+        "Scepter",
+        "Shield",
+        "Speargun",
+        "Axe",
+        "Staff",
+        "Sword",
+        "Torch",
+        "Trident",
+        "Warhorn",
+        "LongBow"
+      ],
+      "infusion_upgrade_flags": [
+        "Infusion"
+      ],
+      "attribute_adjustment": 0,
+      "infix_upgrade": {
+        "id": 1666,
+        "buff": {
+          "skill_id": 62210,
+          "description": "+5 Vitality\n+9 Agony Resistance"
+        },
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 5
+          },
+          {
+            "attribute": "AgonyResistance",
+            "modifier": 9
+          }
+        ]
+      },
+      "suffix": ""
+    }
+  },
+  {
+    "name": "Eitrite Chain Links",
+    "description": "Chain links capable of withstanding extreme temperature changes.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 94953,
+    "chat_link": "[&AgHpcgEA]",
+    "icon": "https://render.guildwars2.com/file/F3FAECF295DA26D21BF6F43D432BA5EE16A50710/2433109.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Jormag Left Eye Infusion",
+    "description": "Double-click to apply to an unused infusion slot. May cause slight discomfort.",
+    "type": "UpgradeComponent",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 10000,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 94954,
+    "chat_link": "[&AgHqcgEA]",
+    "icon": "https://render.guildwars2.com/file/E6C14E380D0227433290C80B2DEA0B7F71A2B266/2433076.png",
+    "details": {
+      "type": "Default",
+      "flags": [
+        "ShortBow",
+        "HeavyArmor",
+        "LightArmor",
+        "Dagger",
+        "MediumArmor",
+        "Focus",
+        "Greatsword",
+        "Hammer",
+        "Trinket",
+        "Harpoon",
+        "Mace",
+        "Pistol",
+        "Rifle",
+        "Scepter",
+        "Shield",
+        "Speargun",
+        "Axe",
+        "Staff",
+        "Sword",
+        "Torch",
+        "Trident",
+        "Warhorn",
+        "LongBow"
+      ],
+      "infusion_upgrade_flags": [
+        "Infusion"
+      ],
+      "attribute_adjustment": 0,
+      "infix_upgrade": {
+        "id": 1663,
+        "buff": {
+          "skill_id": 62188,
+          "description": "+5 Condition Damage\n+9 Agony Resistance"
+        },
+        "attributes": [
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 5
+          },
+          {
+            "attribute": "AgonyResistance",
+            "modifier": 9
+          }
+        ]
+      },
+      "suffix": ""
+    }
+  },
+  {
+    "name": "Primordus Right Eye Infusion",
+    "description": "Double-click to apply to an unused infusion slot. May cause slight discomfort.",
+    "type": "UpgradeComponent",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 10000,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 94955,
+    "chat_link": "[&AgHrcgEA]",
+    "icon": "https://render.guildwars2.com/file/F86B9BD3A92D2D31211274F908F0CC91B0DCD055/2433079.png",
+    "details": {
+      "type": "Default",
+      "flags": [
+        "ShortBow",
+        "HeavyArmor",
+        "LightArmor",
+        "Dagger",
+        "MediumArmor",
+        "Focus",
+        "Greatsword",
+        "Hammer",
+        "Trinket",
+        "Harpoon",
+        "Mace",
+        "Pistol",
+        "Rifle",
+        "Scepter",
+        "Shield",
+        "Speargun",
+        "Axe",
+        "Staff",
+        "Sword",
+        "Torch",
+        "Trident",
+        "Warhorn",
+        "LongBow"
+      ],
+      "infusion_upgrade_flags": [
+        "Infusion"
+      ],
+      "attribute_adjustment": 0,
+      "infix_upgrade": {
+        "id": 1665,
+        "buff": {
+          "skill_id": 62323,
+          "description": "+5 Power\n+9 Agony Resistance"
+        },
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 5
+          },
+          {
+            "attribute": "AgonyResistance",
+            "modifier": 9
+          }
+        ]
+      },
+      "suffix": ""
+    }
+  },
+  {
+    "name": "Dragon Eye Infusion Box",
+    "description": "Double-click to open.\nChoose a Dragon Eye Infusion. Earned from reaching the first tier of the \"Champions\" Mastery achievement.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 94956,
+    "chat_link": "[&AgHscgEA]",
+    "icon": "https://render.guildwars2.com/file/F8491D1EF30B0727DED5CCA7F279DEFAF2F23727/2433073.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Primordus Left Eye Infusion",
+    "description": "Double-click to apply to an unused infusion slot. May cause slight discomfort.",
+    "type": "UpgradeComponent",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 10000,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 94957,
+    "chat_link": "[&AgHtcgEA]",
+    "icon": "https://render.guildwars2.com/file/497107FC62B268BB1453DE39C0D9CC781CE8A80A/2433078.png",
+    "details": {
+      "type": "Default",
+      "flags": [
+        "ShortBow",
+        "HeavyArmor",
+        "LightArmor",
+        "Dagger",
+        "MediumArmor",
+        "Focus",
+        "Greatsword",
+        "Hammer",
+        "Trinket",
+        "Harpoon",
+        "Mace",
+        "Pistol",
+        "Rifle",
+        "Scepter",
+        "Shield",
+        "Speargun",
+        "Axe",
+        "Staff",
+        "Sword",
+        "Torch",
+        "Trident",
+        "Warhorn",
+        "LongBow"
+      ],
+      "infusion_upgrade_flags": [
+        "Infusion"
+      ],
+      "attribute_adjustment": 0,
+      "infix_upgrade": {
+        "id": 1662,
+        "buff": {
+          "skill_id": 62438,
+          "description": "+5 Toughness\n+9 Agony Resistance"
+        },
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 5
+          },
+          {
+            "attribute": "AgonyResistance",
+            "modifier": 9
+          }
+        ]
+      },
+      "suffix": ""
+    }
+  },
+  {
+    "name": "Jormag Right Eye Infusion",
+    "description": "Double-click to apply to an unused infusion slot. May cause slight discomfort.",
+    "type": "UpgradeComponent",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 10000,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 94958,
+    "chat_link": "[&AgHucgEA]",
+    "icon": "https://render.guildwars2.com/file/3A07E9A22A7BC340A7CD0BAB2C435EDE42F0614D/2433077.png",
+    "details": {
+      "type": "Default",
+      "flags": [
+        "ShortBow",
+        "HeavyArmor",
+        "LightArmor",
+        "Dagger",
+        "MediumArmor",
+        "Focus",
+        "Greatsword",
+        "Hammer",
+        "Trinket",
+        "Harpoon",
+        "Mace",
+        "Pistol",
+        "Rifle",
+        "Scepter",
+        "Shield",
+        "Speargun",
+        "Axe",
+        "Staff",
+        "Sword",
+        "Torch",
+        "Trident",
+        "Warhorn",
+        "LongBow"
+      ],
+      "infusion_upgrade_flags": [
+        "Infusion"
+      ],
+      "attribute_adjustment": 0,
+      "infix_upgrade": {
+        "id": 1675,
+        "buff": {
+          "skill_id": 62263,
+          "description": "+5 Condition Damage\n+9 Agony Resistance"
+        },
+        "attributes": [
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 5
+          },
+          {
+            "attribute": "AgonyResistance",
+            "modifier": 9
+          }
+        ]
+      },
+      "suffix": ""
+    }
+  },
+  {
+    "name": "Prismaticite Clasp",
+    "description": "This clasp glows with multiple magics.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 94959,
+    "chat_link": "[&AgHvcgEA]",
+    "icon": "https://render.guildwars2.com/file/F773513A12E4AD06D977EA2F6ABAA5BEB8B7B031/2433169.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Tyrian Defense Seal",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 94960,
+    "chat_link": "[&AgHwcgEA]",
+    "icon": "https://render.guildwars2.com/file/490E7AE3CFFA21116035A01AA30A052A05676A2F/2351432.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Junk",
+    "vendor_value": 10,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "NotUpgradeable",
+      "SoulbindOnAcquire",
+      "Unique",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 94961,
+    "chat_link": "[&AgHxcgEA]",
+    "icon": "https://render.guildwars2.com/file/6D0AA296D7402CDE6F9BEB513F7007DEAD9B38B0/648139.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Jormag Right Eye Infusion",
+    "description": "Double-click to apply to an unused infusion slot. May cause slight discomfort.",
+    "type": "UpgradeComponent",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 10000,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 94962,
+    "chat_link": "[&AgHycgEA]",
+    "icon": "https://render.guildwars2.com/file/3A07E9A22A7BC340A7CD0BAB2C435EDE42F0614D/2433077.png",
+    "details": {
+      "type": "Default",
+      "flags": [
+        "ShortBow",
+        "HeavyArmor",
+        "LightArmor",
+        "Dagger",
+        "MediumArmor",
+        "Focus",
+        "Greatsword",
+        "Hammer",
+        "Trinket",
+        "Harpoon",
+        "Mace",
+        "Pistol",
+        "Rifle",
+        "Scepter",
+        "Shield",
+        "Speargun",
+        "Axe",
+        "Staff",
+        "Sword",
+        "Torch",
+        "Trident",
+        "Warhorn",
+        "LongBow"
+      ],
+      "infusion_upgrade_flags": [
+        "Infusion"
+      ],
+      "attribute_adjustment": 0,
+      "infix_upgrade": {
+        "id": 1655,
+        "buff": {
+          "skill_id": 62282,
+          "description": "+5 Toughness\n+9 Agony Resistance"
+        },
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 5
+          },
+          {
+            "attribute": "AgonyResistance",
+            "modifier": 9
+          }
+        ]
+      },
+      "suffix": ""
+    }
+  },
+  {
+    "name": "Jormag Left Eye Infusion",
+    "description": "Double-click to apply to an unused infusion slot. May cause slight discomfort.",
+    "type": "UpgradeComponent",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 10000,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 94963,
+    "chat_link": "[&AgHzcgEA]",
+    "icon": "https://render.guildwars2.com/file/E6C14E380D0227433290C80B2DEA0B7F71A2B266/2433076.png",
+    "details": {
+      "type": "Default",
+      "flags": [
+        "ShortBow",
+        "HeavyArmor",
+        "LightArmor",
+        "Dagger",
+        "MediumArmor",
+        "Focus",
+        "Greatsword",
+        "Hammer",
+        "Trinket",
+        "Harpoon",
+        "Mace",
+        "Pistol",
+        "Rifle",
+        "Scepter",
+        "Shield",
+        "Speargun",
+        "Axe",
+        "Staff",
+        "Sword",
+        "Torch",
+        "Trident",
+        "Warhorn",
+        "LongBow"
+      ],
+      "infusion_upgrade_flags": [
+        "Infusion"
+      ],
+      "attribute_adjustment": 0,
+      "infix_upgrade": {
+        "id": 1668,
+        "buff": {
+          "skill_id": 62180,
+          "description": "+5 Toughness\n+9 Agony Resistance"
+        },
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 5
+          },
+          {
+            "attribute": "AgonyResistance",
+            "modifier": 9
+          }
+        ]
+      },
+      "suffix": ""
+    }
+  },
+  {
+    "name": "Primordus Left Eye Infusion",
+    "description": "Double-click to apply to an unused infusion slot. May cause slight discomfort.",
+    "type": "UpgradeComponent",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 10000,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 94964,
+    "chat_link": "[&AgH0cgEA]",
+    "icon": "https://render.guildwars2.com/file/497107FC62B268BB1453DE39C0D9CC781CE8A80A/2433078.png",
+    "details": {
+      "type": "Default",
+      "flags": [
+        "ShortBow",
+        "HeavyArmor",
+        "LightArmor",
+        "Dagger",
+        "MediumArmor",
+        "Focus",
+        "Greatsword",
+        "Hammer",
+        "Trinket",
+        "Harpoon",
+        "Mace",
+        "Pistol",
+        "Rifle",
+        "Scepter",
+        "Shield",
+        "Speargun",
+        "Axe",
+        "Staff",
+        "Sword",
+        "Torch",
+        "Trident",
+        "Warhorn",
+        "LongBow"
+      ],
+      "infusion_upgrade_flags": [
+        "Infusion"
+      ],
+      "attribute_adjustment": 0,
+      "infix_upgrade": {
+        "id": 1648,
+        "buff": {
+          "skill_id": 62387,
+          "description": "+5 Condition Damage\n+9 Agony Resistance"
+        },
+        "attributes": [
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 5
+          },
+          {
+            "attribute": "AgonyResistance",
+            "modifier": 9
+          }
+        ]
+      },
+      "suffix": ""
+    }
+  },
+  {
+    "name": "Primordus Left Eye Infusion",
+    "description": "Double-click to apply to an unused infusion slot. May cause slight discomfort.",
+    "type": "UpgradeComponent",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 10000,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 94965,
+    "chat_link": "[&AgH1cgEA]",
+    "icon": "https://render.guildwars2.com/file/497107FC62B268BB1453DE39C0D9CC781CE8A80A/2433078.png",
+    "details": {
+      "type": "Default",
+      "flags": [
+        "ShortBow",
+        "HeavyArmor",
+        "LightArmor",
+        "Dagger",
+        "MediumArmor",
+        "Focus",
+        "Greatsword",
+        "Hammer",
+        "Trinket",
+        "Harpoon",
+        "Mace",
+        "Pistol",
+        "Rifle",
+        "Scepter",
+        "Shield",
+        "Speargun",
+        "Axe",
+        "Staff",
+        "Sword",
+        "Torch",
+        "Trident",
+        "Warhorn",
+        "LongBow"
+      ],
+      "infusion_upgrade_flags": [
+        "Infusion"
+      ],
+      "attribute_adjustment": 0,
+      "infix_upgrade": {
+        "id": 1670,
+        "buff": {
+          "skill_id": 62353,
+          "description": "+5 Concentration\n+9 Agony Resistance"
+        },
+        "attributes": [
+          {
+            "attribute": "BoonDuration",
+            "modifier": 5
+          },
+          {
+            "attribute": "AgonyResistance",
+            "modifier": 9
+          }
+        ]
+      },
+      "suffix": ""
+    }
+  },
+  {
+    "name": "Ice Reaver Helm Skin",
+    "description": "Double-click to apply this look to any other helmet. This skin will be unlocked in your wardrobe for future use.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 94967,
+    "chat_link": "[&AgH3cgEA]",
+    "icon": "https://render.guildwars2.com/file/4550B15BA8A6E148E22BCBE7F346B8A4BABA5044/2433164.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9989,
+        9996,
+        9997
+      ]
+    }
+  },
+  {
+    "name": "Jormag Left Eye Infusion",
+    "description": "Double-click to apply to an unused infusion slot. May cause slight discomfort.",
+    "type": "UpgradeComponent",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 10000,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 94969,
+    "chat_link": "[&AgH5cgEA]",
+    "icon": "https://render.guildwars2.com/file/E6C14E380D0227433290C80B2DEA0B7F71A2B266/2433076.png",
+    "details": {
+      "type": "Default",
+      "flags": [
+        "ShortBow",
+        "HeavyArmor",
+        "LightArmor",
+        "Dagger",
+        "MediumArmor",
+        "Focus",
+        "Greatsword",
+        "Hammer",
+        "Trinket",
+        "Harpoon",
+        "Mace",
+        "Pistol",
+        "Rifle",
+        "Scepter",
+        "Shield",
+        "Speargun",
+        "Axe",
+        "Staff",
+        "Sword",
+        "Torch",
+        "Trident",
+        "Warhorn",
+        "LongBow"
+      ],
+      "infusion_upgrade_flags": [
+        "Infusion"
+      ],
+      "attribute_adjustment": 0,
+      "infix_upgrade": {
+        "id": 1672,
+        "buff": {
+          "skill_id": 62355,
+          "description": "+5 Expertise\n+9 Agony Resistance"
+        },
+        "attributes": [
+          {
+            "attribute": "ConditionDuration",
+            "modifier": 5
+          },
+          {
+            "attribute": "AgonyResistance",
+            "modifier": 9
+          }
+        ]
+      },
+      "suffix": ""
+    }
+  },
+  {
+    "name": "Primordus Left Eye Infusion",
+    "description": "Double-click to apply to an unused infusion slot. May cause slight discomfort.",
+    "type": "UpgradeComponent",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 10000,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 94970,
+    "chat_link": "[&AgH6cgEA]",
+    "icon": "https://render.guildwars2.com/file/497107FC62B268BB1453DE39C0D9CC781CE8A80A/2433078.png",
+    "details": {
+      "type": "Default",
+      "flags": [
+        "ShortBow",
+        "HeavyArmor",
+        "LightArmor",
+        "Dagger",
+        "MediumArmor",
+        "Focus",
+        "Greatsword",
+        "Hammer",
+        "Trinket",
+        "Harpoon",
+        "Mace",
+        "Pistol",
+        "Rifle",
+        "Scepter",
+        "Shield",
+        "Speargun",
+        "Axe",
+        "Staff",
+        "Sword",
+        "Torch",
+        "Trident",
+        "Warhorn",
+        "LongBow"
+      ],
+      "infusion_upgrade_flags": [
+        "Infusion"
+      ],
+      "attribute_adjustment": 0,
+      "infix_upgrade": {
+        "id": 1646,
+        "buff": {
+          "skill_id": 62234,
+          "description": "+5 Vitality\n+9 Agony Resistance"
+        },
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 5
+          },
+          {
+            "attribute": "AgonyResistance",
+            "modifier": 9
+          }
+        ]
+      },
+      "suffix": ""
+    }
+  },
+  {
+    "name": "Primordus Right Eye Infusion",
+    "description": "Double-click to apply to an unused infusion slot. May cause slight discomfort.",
+    "type": "UpgradeComponent",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 10000,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 94971,
+    "chat_link": "[&AgH7cgEA]",
+    "icon": "https://render.guildwars2.com/file/F86B9BD3A92D2D31211274F908F0CC91B0DCD055/2433079.png",
+    "details": {
+      "type": "Default",
+      "flags": [
+        "ShortBow",
+        "HeavyArmor",
+        "LightArmor",
+        "Dagger",
+        "MediumArmor",
+        "Focus",
+        "Greatsword",
+        "Hammer",
+        "Trinket",
+        "Harpoon",
+        "Mace",
+        "Pistol",
+        "Rifle",
+        "Scepter",
+        "Shield",
+        "Speargun",
+        "Axe",
+        "Staff",
+        "Sword",
+        "Torch",
+        "Trident",
+        "Warhorn",
+        "LongBow"
+      ],
+      "infusion_upgrade_flags": [
+        "Infusion"
+      ],
+      "attribute_adjustment": 0,
+      "infix_upgrade": {
+        "id": 1647,
+        "buff": {
+          "skill_id": 62203,
+          "description": "+5 Precision\n+9 Agony Resistance"
+        },
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 5
+          },
+          {
+            "attribute": "AgonyResistance",
+            "modifier": 9
+          }
+        ]
+      },
+      "suffix": ""
+    }
+  },
+  {
+    "name": "Jormag Right Eye Infusion",
+    "description": "Double-click to apply to an unused infusion slot. May cause slight discomfort.",
+    "type": "UpgradeComponent",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 10000,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 94972,
+    "chat_link": "[&AgH8cgEA]",
+    "icon": "https://render.guildwars2.com/file/3A07E9A22A7BC340A7CD0BAB2C435EDE42F0614D/2433077.png",
+    "details": {
+      "type": "Default",
+      "flags": [
+        "ShortBow",
+        "HeavyArmor",
+        "LightArmor",
+        "Dagger",
+        "MediumArmor",
+        "Focus",
+        "Greatsword",
+        "Hammer",
+        "Trinket",
+        "Harpoon",
+        "Mace",
+        "Pistol",
+        "Rifle",
+        "Scepter",
+        "Shield",
+        "Speargun",
+        "Axe",
+        "Staff",
+        "Sword",
+        "Torch",
+        "Trident",
+        "Warhorn",
+        "LongBow"
+      ],
+      "infusion_upgrade_flags": [
+        "Infusion"
+      ],
+      "attribute_adjustment": 0,
+      "infix_upgrade": {
+        "id": 1660,
+        "buff": {
+          "skill_id": 62312,
+          "description": "+5 Expertise\n+9 Agony Resistance"
+        },
+        "attributes": [
+          {
+            "attribute": "ConditionDuration",
+            "modifier": 5
+          },
+          {
+            "attribute": "AgonyResistance",
+            "modifier": 9
+          }
+        ]
+      },
+      "suffix": ""
+    }
+  },
+  {
+    "name": "Draconic Aether Cleanser",
+    "description": "Absorbs harmful dragon aether and biodegrades into soil.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 94973,
+    "chat_link": "[&AgH9cgEA]",
+    "icon": "https://render.guildwars2.com/file/00950975C3A0EFBE7AC7E567CFF29750730A0699/2433102.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Spellfire Torch Skin",
+    "description": "Double-click to apply this look to any other torch.\nThis will also unlock this skin for your wardrobe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 94974,
+    "chat_link": "[&AgH+cgEA]",
+    "icon": "https://render.guildwars2.com/file/045DD3327DA5DB5A46717EBD5EA3BAB6DDCFA921/2433167.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9995
+      ]
+    }
+  },
+  {
+    "name": "Saga's End Draconic Core",
+    "description": "Causes the visual effects of your active dragon essence Boons to be visible in all maps.<br><c=@flavor>A lingering force circles eternally within the orb, flowing between ice and fire.</c>",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 413,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "NotUpgradeable",
+      "Unique",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 94975,
+    "chat_link": "[&AgH/cgEA]",
+    "icon": "https://render.guildwars2.com/file/B540C97ED3EF0CE674A55ED50B3F570F6465E838/2433072.png",
+    "details": {
+      "type": "Accessory",
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 224.07,
+      "stat_choices": [
+        584,
+        656,
+        658,
+        1119,
+        657,
+        1038,
+        1097,
+        659,
+        690,
+        583,
+        585,
+        1037,
+        586,
+        1035,
+        588,
+        1114,
+        1128,
+        1163,
+        1066,
+        1064,
+        660,
+        1430,
+        1436,
+        591,
+        581,
+        592,
+        1263,
+        1271,
+        1265,
+        1270,
+        1262,
+        1268,
+        1264,
+        1267,
+        1269,
+        1366,
+        1367,
+        1374,
+        1549,
+        1566,
+        1691,
+        1706,
+        1827
+      ],
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Primordus Right Eye Infusion",
+    "description": "Double-click to apply to an unused infusion slot. May cause slight discomfort.",
+    "type": "UpgradeComponent",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 10000,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 94977,
+    "chat_link": "[&AgEBcwEA]",
+    "icon": "https://render.guildwars2.com/file/F86B9BD3A92D2D31211274F908F0CC91B0DCD055/2433079.png",
+    "details": {
+      "type": "Default",
+      "flags": [
+        "ShortBow",
+        "HeavyArmor",
+        "LightArmor",
+        "Dagger",
+        "MediumArmor",
+        "Focus",
+        "Greatsword",
+        "Hammer",
+        "Trinket",
+        "Harpoon",
+        "Mace",
+        "Pistol",
+        "Rifle",
+        "Scepter",
+        "Shield",
+        "Speargun",
+        "Axe",
+        "Staff",
+        "Sword",
+        "Torch",
+        "Trident",
+        "Warhorn",
+        "LongBow"
+      ],
+      "infusion_upgrade_flags": [
+        "Infusion"
+      ],
+      "attribute_adjustment": 0,
+      "infix_upgrade": {
+        "id": 1664,
+        "buff": {
+          "skill_id": 62225,
+          "description": "+5 Toughness\n+9 Agony Resistance"
+        },
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 5
+          },
+          {
+            "attribute": "AgonyResistance",
+            "modifier": 9
+          }
+        ]
+      },
+      "suffix": ""
+    }
+  },
+  {
+    "name": "Primordus Left Eye Infusion",
+    "description": "Double-click to apply to an unused infusion slot. May cause slight discomfort.",
+    "type": "UpgradeComponent",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 10000,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 94978,
+    "chat_link": "[&AgECcwEA]",
+    "icon": "https://render.guildwars2.com/file/497107FC62B268BB1453DE39C0D9CC781CE8A80A/2433078.png",
+    "details": {
+      "type": "Default",
+      "flags": [
+        "ShortBow",
+        "HeavyArmor",
+        "LightArmor",
+        "Dagger",
+        "MediumArmor",
+        "Focus",
+        "Greatsword",
+        "Hammer",
+        "Trinket",
+        "Harpoon",
+        "Mace",
+        "Pistol",
+        "Rifle",
+        "Scepter",
+        "Shield",
+        "Speargun",
+        "Axe",
+        "Staff",
+        "Sword",
+        "Torch",
+        "Trident",
+        "Warhorn",
+        "LongBow"
+      ],
+      "infusion_upgrade_flags": [
+        "Infusion"
+      ],
+      "attribute_adjustment": 0,
+      "infix_upgrade": {
+        "id": 1659,
+        "buff": {
+          "skill_id": 62361,
+          "description": "+5 Power\n+9 Agony Resistance"
+        },
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 5
+          },
+          {
+            "attribute": "AgonyResistance",
+            "modifier": 9
+          }
+        ]
+      },
+      "suffix": ""
+    }
+  },
+  {
+    "name": "Jormag Right Eye Infusion",
+    "description": "Double-click to apply to an unused infusion slot. May cause slight discomfort.",
+    "type": "UpgradeComponent",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 10000,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 94979,
+    "chat_link": "[&AgEDcwEA]",
+    "icon": "https://render.guildwars2.com/file/3A07E9A22A7BC340A7CD0BAB2C435EDE42F0614D/2433077.png",
+    "details": {
+      "type": "Default",
+      "flags": [
+        "ShortBow",
+        "HeavyArmor",
+        "LightArmor",
+        "Dagger",
+        "MediumArmor",
+        "Focus",
+        "Greatsword",
+        "Hammer",
+        "Trinket",
+        "Harpoon",
+        "Mace",
+        "Pistol",
+        "Rifle",
+        "Scepter",
+        "Shield",
+        "Speargun",
+        "Axe",
+        "Staff",
+        "Sword",
+        "Torch",
+        "Trident",
+        "Warhorn",
+        "LongBow"
+      ],
+      "infusion_upgrade_flags": [
+        "Infusion"
+      ],
+      "attribute_adjustment": 0,
+      "infix_upgrade": {
+        "id": 1657,
+        "buff": {
+          "skill_id": 62439,
+          "description": "+5 Precision\n+9 Agony Resistance"
+        },
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 5
+          },
+          {
+            "attribute": "AgonyResistance",
+            "modifier": 9
+          }
+        ]
+      },
+      "suffix": ""
+    }
+  },
+  {
+    "name": "Jormag Left Eye Infusion",
+    "description": "Double-click to apply to an unused infusion slot. May cause slight discomfort.",
+    "type": "UpgradeComponent",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 10000,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 94980,
+    "chat_link": "[&AgEEcwEA]",
+    "icon": "https://render.guildwars2.com/file/E6C14E380D0227433290C80B2DEA0B7F71A2B266/2433076.png",
+    "details": {
+      "type": "Default",
+      "flags": [
+        "ShortBow",
+        "HeavyArmor",
+        "LightArmor",
+        "Dagger",
+        "MediumArmor",
+        "Focus",
+        "Greatsword",
+        "Hammer",
+        "Trinket",
+        "Harpoon",
+        "Mace",
+        "Pistol",
+        "Rifle",
+        "Scepter",
+        "Shield",
+        "Speargun",
+        "Axe",
+        "Staff",
+        "Sword",
+        "Torch",
+        "Trident",
+        "Warhorn",
+        "LongBow"
+      ],
+      "infusion_upgrade_flags": [
+        "Infusion"
+      ],
+      "attribute_adjustment": 0,
+      "infix_upgrade": {
+        "id": 1656,
+        "buff": {
+          "skill_id": 62269,
+          "description": "+5 Precision\n+9 Agony Resistance"
+        },
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 5
+          },
+          {
+            "attribute": "AgonyResistance",
+            "modifier": 9
+          }
+        ]
+      },
+      "suffix": ""
+    }
+  },
+  {
+    "name": "Mini Braham, Champion of Primordus",
+    "description": "Double-click to summon this mini to follow you around. Only one mini may be in use at a time.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 94981,
+    "chat_link": "[&AgEFcwEA]",
+    "icon": "https://render.guildwars2.com/file/5B6B7D4C0FEFADD2127B241FF436FCB780A05B0B/2433110.png",
+    "details": {
+      "minipet_id": 818
+    }
+  },
+  {
+    "name": "Pristine Dragon's Right Eye",
+    "description": "Combine in the Mystic Forge with an Amalgamated Draconic Lodestone, Ectoplasms, and Corrupted or Destroyer Lodestones to create a Dragon Eye Infusion.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage"
+    ],
+    "restrictions": [],
+    "id": 94982,
+    "chat_link": "[&AgEGcwEA]",
+    "icon": "https://render.guildwars2.com/file/46F20CEF420F94AEC808F902FB0E2EC06EC42EC1/2433075.png"
+  },
+  {
+    "name": "Forming a New Legion",
+    "description": "Plays the selected song while in Lion's Arch.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 94983,
+    "chat_link": "[&AgEHcwEA]",
+    "icon": "https://render.guildwars2.com/file/50D54ED6D7C12F4A483E9A263526DA6023CA9790/1770183.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Full Collection",
+    "description": "Plays the selected song while in Lion's Arch.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 94984,
+    "chat_link": "[&AgEIcwEA]",
+    "icon": "https://render.guildwars2.com/file/FBB8F6BB7E7106B75CED4D792D0A53CD2B1C9CB6/2440722.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Steel Tactics",
+    "description": "Plays the selected song while in Lion's Arch.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 94985,
+    "chat_link": "[&AgEJcwEA]",
+    "icon": "https://render.guildwars2.com/file/1E3A6F91ABCE49EE30D7EC2DEB11536DA00F6D0B/2440721.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Across the Sea of Sorrow",
+    "description": "Plays the selected song while in Lion's Arch.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 94986,
+    "chat_link": "[&AgEKcwEA]",
+    "icon": "https://render.guildwars2.com/file/0A02B608484ABEE11DE4F2FC00C53AB1D2AE02F4/1770181.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Ice Reaver Chestguard Skin",
+    "description": "Double-click to apply this appearance to your current chest armor. This will unlock the skin in your wardrobe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 94987,
+    "chat_link": "[&AgELcwEA]",
+    "icon": "https://render.guildwars2.com/file/301DE64461524FD7F0DDA512C9B04101117D326C/2440677.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9998,
+        10002,
+        10004
+      ]
+    }
+  },
+  {
+    "name": "Jormag Speaks",
+    "description": "Plays the selected song while in Lion's Arch.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 94989,
+    "chat_link": "[&AgENcwEA]",
+    "icon": "https://render.guildwars2.com/file/5271272CDC4E9040762F03C27C26DC1E09A5B971/2440719.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Forging Steel",
+    "description": "Plays the selected song while in Lion's Arch.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 94990,
+    "chat_link": "[&AgEOcwEA]",
+    "icon": "https://render.guildwars2.com/file/92B6B69C5E6F151609539B50240FE894C5B83B9D/1770182.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Cute Demon Wings Backpack",
+    "description": "This will replace the appearance of one back slot item of any weight class and unlock the skin in your account wardrobe.\n\nThis back slot skin has no stats of its own.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 94991,
+    "chat_link": "[&AgEPcwEA]",
+    "icon": "https://render.guildwars2.com/file/5D02649B4F3F40B19620BF62C51094C094B00B07/2440675.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9999
+      ]
+    }
+  },
+  {
+    "name": "Edge of the Mists",
+    "description": "Plays the selected song while in Lion's Arch.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 94992,
+    "chat_link": "[&AgEQcwEA]",
+    "icon": "https://render.guildwars2.com/file/1592E1155C176CD612533680312F0E411FC63698/2440720.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "The Lunatic Court",
+    "description": "Plays the selected song while in Lion's Arch.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 94993,
+    "chat_link": "[&AgERcwEA]",
+    "icon": "https://render.guildwars2.com/file/92B6B69C5E6F151609539B50240FE894C5B83B9D/1770182.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Cute Demon Wings Glider",
+    "description": "This will unlock the glider skin in your account wardrobe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 94994,
+    "chat_link": "[&AgEScwEA]",
+    "icon": "https://render.guildwars2.com/file/A05EE04040D8F877DF6478967BFCDF9B4BA03F93/2440676.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "GliderSkin"
+    }
+  },
+  {
+    "name": "Wintersday in Lion's Arch",
+    "description": "Plays the selected song while in Lion's Arch.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 94995,
+    "chat_link": "[&AgETcwEA]",
+    "icon": "https://render.guildwars2.com/file/5271272CDC4E9040762F03C27C26DC1E09A5B971/2440719.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Ice Reaver Legguards Skin",
+    "description": "Double-click to apply this appearance to your current leg armor. This will unlock the skin in your wardrobe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 94996,
+    "chat_link": "[&AgEUcwEA]",
+    "icon": "https://render.guildwars2.com/file/3122BBBBB00A6279A420940B80715695E27565D1/2440678.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        10000,
+        10001,
+        10003
+      ]
+    }
+  },
+  {
+    "name": "TT6-B Devourer",
+    "description": "Plays the selected song while in Lion's Arch.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 94997,
+    "chat_link": "[&AgEVcwEA]",
+    "icon": "https://render.guildwars2.com/file/50D54ED6D7C12F4A483E9A263526DA6023CA9790/1770183.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "The Icebrood Saga",
+    "description": "Plays the selected song while in Lion's Arch.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 94998,
+    "chat_link": "[&AgEWcwEA]",
+    "icon": "https://render.guildwars2.com/file/0A02B608484ABEE11DE4F2FC00C53AB1D2AE02F4/1770181.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Pact Fleet Weapon Cache",
+    "description": "<c=@flavor>Contains your choice of an account-bound Pact Fleet weapon skin. Double-click to choose a reward.</c>",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 256,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 94999,
+    "chat_link": "[&AgEXcwEA]",
+    "icon": "https://render.guildwars2.com/file/6BA91E0A08689B40B09ECC3FB3C4589493E6C167/603245.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Story Unlock: \"One Path Ends\"",
+    "description": "Instantly unlocks the episode \"One Path Ends.\"",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 4,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95000,
+    "chat_link": "[&AgEYcwEA]",
+    "icon": "https://render.guildwars2.com/file/42E3A60E361EA8FD6D6ECD3FE4F70DCCD628BC50/222826.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Title Scroll: Community Hero",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Legendary",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 95001,
+    "chat_link": "[&AgEZcwEA]",
+    "icon": "https://render.guildwars2.com/file/16D70F7A5C06D415E50EEF07986C46FBDB4D1E80/222818.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Shatterspark Shoulders Skin",
+    "description": "This will replace the appearance of one shoulder armor of any weight class and unlock the skin in your account wardrobe.\n\nThis shoulder skin has no stats of its own.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95002,
+    "chat_link": "[&AgEacwEA]",
+    "icon": "https://render.guildwars2.com/file/B3A71852917118BCC969215BB401A9A8DB0549F9/2449374.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        10006,
+        10007,
+        10008
+      ]
+    }
+  },
+  {
+    "name": "Story Unlock: \"Point of No Return\"",
+    "description": "Instantly unlocks the episode \"Point of No Return.\"",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 4,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95003,
+    "chat_link": "[&AgEbcwEA]",
+    "icon": "https://render.guildwars2.com/file/42E3A60E361EA8FD6D6ECD3FE4F70DCCD628BC50/222826.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Story Unlock: \"Seeds of Truth\"",
+    "description": "Instantly unlocks the episode \"Seeds of Truth.\"",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 4,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95004,
+    "chat_link": "[&AgEccwEA]",
+    "icon": "https://render.guildwars2.com/file/42E3A60E361EA8FD6D6ECD3FE4F70DCCD628BC50/222826.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Story Unlock: \"The Head of the Snake\"",
+    "description": "Instantly unlocks the episode \"The Head of the Snake.\"",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 4,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95005,
+    "chat_link": "[&AgEdcwEA]",
+    "icon": "https://render.guildwars2.com/file/42E3A60E361EA8FD6D6ECD3FE4F70DCCD628BC50/222826.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Title Scroll: Community Drift Master",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Legendary",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 95006,
+    "chat_link": "[&AgEecwEA]",
+    "icon": "https://render.guildwars2.com/file/16D70F7A5C06D415E50EEF07986C46FBDB4D1E80/222818.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Fragment of Prismatic Light",
+    "description": "Unlocks your choice of an End of Dragons Legendary Precursor weapon. Redeemable in End of Dragons.\nOnce this item has been acquired, it can be safely sold or discarded.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Legendary",
+    "vendor_value": 50000,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 95007,
+    "chat_link": "[&AgEfcwEA]",
+    "icon": "https://render.guildwars2.com/file/A498C01B3B7E272C3D55BDC6C646760F9A56147E/2449373.png"
+  },
+  {
+    "name": "Story Unlock: \"The Dragon's Reach, Part 1\"",
+    "description": "Instantly unlocks the episode \"The Dragon's Reach, Part 1.\"",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 4,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95008,
+    "chat_link": "[&AgEgcwEA]",
+    "icon": "https://render.guildwars2.com/file/42E3A60E361EA8FD6D6ECD3FE4F70DCCD628BC50/222826.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Story Unlock: \"A Crack in the Ice\"",
+    "description": "Instantly unlocks the episode \"A Crack in the Ice.\"",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 4,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95009,
+    "chat_link": "[&AgEhcwEA]",
+    "icon": "https://render.guildwars2.com/file/42E3A60E361EA8FD6D6ECD3FE4F70DCCD628BC50/222826.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Story Unlock: \"Gates of Maguuma\"",
+    "description": "Instantly unlocks the episode \"Gates of Maguuma.\"",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 4,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95010,
+    "chat_link": "[&AgEicwEA]",
+    "icon": "https://render.guildwars2.com/file/42E3A60E361EA8FD6D6ECD3FE4F70DCCD628BC50/222826.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Story Unlock: \"Out of the Shadows\"",
+    "description": "Instantly unlocks the episode \"Out of the Shadows.\"",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 4,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95011,
+    "chat_link": "[&AgEjcwEA]",
+    "icon": "https://render.guildwars2.com/file/42E3A60E361EA8FD6D6ECD3FE4F70DCCD628BC50/222826.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Story Unlock: \"Entanglement\"",
+    "description": "Instantly unlocks the episode \"Entanglement.\"",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 4,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95012,
+    "chat_link": "[&AgEkcwEA]",
+    "icon": "https://render.guildwars2.com/file/42E3A60E361EA8FD6D6ECD3FE4F70DCCD628BC50/222826.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Fractal Troubleshooter's Star",
+    "description": "<c=@flavor>This badge deputizes the bearer as a Consortium Troubleshooter (Unpaid) for purposes of fractal stabilization.</c>",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 413,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "NotUpgradeable",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95013,
+    "chat_link": "[&AgElcwEA]",
+    "icon": "https://render.guildwars2.com/file/001DD0CE6CC0A1D17E0E47E66B1041C29E2DA04F/1767530.png",
+    "details": {
+      "type": "Accessory",
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ],
+          "item_id": 49433
+        }
+      ],
+      "attribute_adjustment": 224.07,
+      "infix_upgrade": {
+        "id": 591,
+        "buff": {
+          "skill_id": 15744,
+          "description": "+32 Power\n+18 Ferocity\n+18 Vitality"
+        },
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 110
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 56
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 18
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 74
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Story Unlock: \"Flashpoint\"",
+    "description": "Instantly unlocks the episode \"Flashpoint.\"",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 4,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95014,
+    "chat_link": "[&AgEmcwEA]",
+    "icon": "https://render.guildwars2.com/file/42E3A60E361EA8FD6D6ECD3FE4F70DCCD628BC50/222826.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Title Scroll: Community Warlord",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Legendary",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 95015,
+    "chat_link": "[&AgEncwEA]",
+    "icon": "https://render.guildwars2.com/file/16D70F7A5C06D415E50EEF07986C46FBDB4D1E80/222818.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "32-Slot Hero's Trusty Backpack",
+    "description": "32 Slots",
+    "type": "Bag",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 320,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95018,
+    "chat_link": "[&AgEqcwEA]",
+    "icon": "https://render.guildwars2.com/file/9B0CA8A203A364C7EE6ED0CB94407FAF324A8031/699321.png",
+    "details": {
+      "no_sell_or_sort": false,
+      "size": 32
+    }
+  },
+  {
+    "name": "Ley Line Weapon Cache",
+    "description": "<c=@flavor>Contains your choice of an account-bound Ley Line weapon skin. Double-click to choose a reward.</c>",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 256,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95019,
+    "chat_link": "[&AgErcwEA]",
+    "icon": "https://render.guildwars2.com/file/6BA91E0A08689B40B09ECC3FB3C4589493E6C167/603245.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Single-Use Fractal Gate Portal Scroll",
+    "description": "Double-click to teleport to the Fractals of the Mists entrance in Lion's Arch. This item cannot be used while in combat.",
+    "type": "Consumable",
+    "level": 2,
+    "rarity": "Masterwork",
+    "vendor_value": 64,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95020,
+    "chat_link": "[&AgEscwEA]",
+    "icon": "https://render.guildwars2.com/file/A8435D60DC9E2945E4582FAEAE2B775FD2D62F94/1201962.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Story Unlock: \"Echoes of the Past\"",
+    "description": "Instantly unlocks the episode \"Echoes of the Past.\"",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 4,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95021,
+    "chat_link": "[&AgEtcwEA]",
+    "icon": "https://render.guildwars2.com/file/42E3A60E361EA8FD6D6ECD3FE4F70DCCD628BC50/222826.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Story Unlock: \"Tangled Paths\"",
+    "description": "Instantly unlocks the episode \"Tangled Paths.\"",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 4,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95022,
+    "chat_link": "[&AgEucwEA]",
+    "icon": "https://render.guildwars2.com/file/42E3A60E361EA8FD6D6ECD3FE4F70DCCD628BC50/222826.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Story Unlock: \"The Dragon's Reach, Part 2\"",
+    "description": "Instantly unlocks the episode \"The Dragon's Reach, Part 2.\"",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 4,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95023,
+    "chat_link": "[&AgEvcwEA]",
+    "icon": "https://render.guildwars2.com/file/42E3A60E361EA8FD6D6ECD3FE4F70DCCD628BC50/222826.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Mossback Skimmer Skin",
+    "description": "Double-click to unlock this skimmer mount skin for your account.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95024,
+    "chat_link": "[&AgEwcwEA]",
+    "icon": "https://render.guildwars2.com/file/3B3D9FFE9FBD18F7FC089CA03E15E4F3330E1C91/2449463.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Ms"
+    }
+  },
+  {
+    "name": "Story Unlock: \"Rising Flames\"",
+    "description": "Instantly unlocks the episode \"Rising Flames.\"",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 4,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95025,
+    "chat_link": "[&AgExcwEA]",
+    "icon": "https://render.guildwars2.com/file/42E3A60E361EA8FD6D6ECD3FE4F70DCCD628BC50/222826.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Fractal Gate Portal Scroll",
+    "description": "Double-click to teleport to the Fractals of the Mists entrance in Lion's Arch. This item cannot be used while in combat.",
+    "type": "Gizmo",
+    "level": 2,
+    "rarity": "Ascended",
+    "vendor_value": 320,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95026,
+    "chat_link": "[&AgEycwEA]",
+    "icon": "https://render.guildwars2.com/file/A8435D60DC9E2945E4582FAEAE2B775FD2D62F94/1201962.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Starborn Cape",
+    "description": "This will replace the appearance of one back slot item of any weight class and unlock the skin in your account wardrobe.\n\nThis back slot skin has no stats of its own.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 6250,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95029,
+    "chat_link": "[&AgE1cwEA]",
+    "icon": "https://render.guildwars2.com/file/092F1F20FA2CE1B06814C46602B4090A0C9EB3FA/2449375.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        10005
+      ]
+    }
+  },
+  {
+    "name": "Elemental Fury Glider",
+    "description": "This will unlock the glider skin in your account wardrobe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95030,
+    "chat_link": "[&AgE2cwEA]",
+    "icon": "https://render.guildwars2.com/file/415F3A68A59CF60C6098DE159C0C328054DA0E6C/2453961.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "GliderSkin"
+    }
+  },
+  {
+    "name": "Pharaoh's Regalia Outfit",
+    "description": "Double-click to wear this outfit.\n\nOutfits are full sets of clothing that hide other armor. This will not change individual armor pieces, and you will still receive your current armor stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95031,
+    "chat_link": "[&AgE3cwEA]",
+    "icon": "https://render.guildwars2.com/file/474A37461BB6D521C740AB23E0E09D16B9B8EFF1/2453962.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Outfit"
+    }
+  },
+  {
+    "name": "Royal Anubis Jackal Skin",
+    "description": "Double-click to unlock this jackal mount skin for your account.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95032,
+    "chat_link": "[&AgE4cwEA]",
+    "icon": "https://render.guildwars2.com/file/982C93C7333751C6F21A9DE068A4EE03692BCF5A/2453981.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Ms"
+    }
+  },
+  {
+    "name": "Elemental Fury Backpack",
+    "description": "This will replace the appearance of one back slot item of any weight class and unlock the skin in your account wardrobe.\n\nThis back slot skin has no stats of its own.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95033,
+    "chat_link": "[&AgE5cwEA]",
+    "icon": "https://render.guildwars2.com/file/29D698DEB4E80CF5AF09273992A3CF21B9C9F77D/2453941.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        10010
+      ]
+    }
+  },
+  {
+    "name": "Elemental Fury Backpack and Glider Combo",
+    "description": "This package contains a glider skin and a matching backpack skin.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95034,
+    "chat_link": "[&AgE6cwEA]",
+    "icon": "https://render.guildwars2.com/file/29D698DEB4E80CF5AF09273992A3CF21B9C9F77D/2453941.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        10010
+      ]
+    }
+  },
+  {
+    "name": "Maguuma Sword Skin",
+    "description": "Double-click to apply this look to any other sword.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 95035,
+    "chat_link": "[&AgE7cwEA]",
+    "icon": "https://render.guildwars2.com/file/DABA4D644BDE02A93C40E1EEFD5D761EABCB7403/2461129.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        10022
+      ]
+    }
+  },
+  {
+    "name": "Mini Jhavi Jorasdottir",
+    "description": "Double-click to summon this mini to follow you around. Only one mini may be in use at a time.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95036,
+    "chat_link": "[&AgE8cwEA]",
+    "icon": "https://render.guildwars2.com/file/DB390CC5D60A074231E815340E5A9CD31D719FBC/2460969.png",
+    "details": {
+      "minipet_id": 819
+    }
+  },
+  {
+    "name": "Maguuma Axe Skin",
+    "description": "Double-click to apply this look to any other axe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 95037,
+    "chat_link": "[&AgE9cwEA]",
+    "icon": "https://render.guildwars2.com/file/97FE4DCA330396050C50B71BF928A06618B94E7E/2461008.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        10037
+      ]
+    }
+  },
+  {
+    "name": "Maguuma Longbow Skin",
+    "description": "Double-click to apply this look to any other longbow.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 95038,
+    "chat_link": "[&AgE+cwEA]",
+    "icon": "https://render.guildwars2.com/file/24170B0DEF4144D9FD4D0A6720930159C414FB01/2461018.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        10025
+      ]
+    }
+  },
+  {
+    "name": "Maguuma Greatsword Skin",
+    "description": "Double-click to apply this look to any other greatsword.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 95039,
+    "chat_link": "[&AgE/cwEA]",
+    "icon": "https://render.guildwars2.com/file/30A6E3994316A6C701321C09CB3CF2C2F46C5F07/2461058.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        10036
+      ]
+    }
+  },
+  {
+    "name": "Commander's Holographic Dragon Gloves",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 238,
+    "default_skin": 10026,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95040,
+    "chat_link": "[&AgFAcwEA]",
+    "icon": "https://render.guildwars2.com/file/579FD9B300F32129BC4329FA25B718D6A092684F/2461198.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Heavy",
+      "defense": 182,
+      "infusion_slots": [],
+      "attribute_adjustment": 128.04,
+      "infix_upgrade": {
+        "id": 1131,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 38
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 38
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 21
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 21
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Dragon Bash Kite",
+    "description": "Deposit this decoration in the guild's decoration storage.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95041,
+    "chat_link": "[&AgFBcwEA]",
+    "icon": "https://render.guildwars2.com/file/E60A5AE75408D810AD30D32942F219FE48056522/2460964.png",
+    "details": {
+      "type": "Generic",
+      "guild_upgrade_id": 1183
+    }
+  },
+  {
+    "name": "Dragon Bash Pylon",
+    "description": "Deposit this decoration in the guild's decoration storage.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95042,
+    "chat_link": "[&AgFCcwEA]",
+    "icon": "https://render.guildwars2.com/file/58EFBB96ACE219052E35701273B7B702E8D84F65/2460967.png",
+    "details": {
+      "type": "Generic",
+      "guild_upgrade_id": 1184
+    }
+  },
+  {
+    "name": "Pyre Horns Helm Skin",
+    "description": "Double-click to apply this look to any other helmet. This skin will be unlocked in your wardrobe for future use.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95043,
+    "chat_link": "[&AgFDcwEA]",
+    "icon": "https://render.guildwars2.com/file/68E4B5B53776041F1E330C6DDEC470703EC43C51/2460976.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        10019,
+        10020,
+        10038
+      ]
+    }
+  },
+  {
+    "name": "Commander's Holographic Dragon Gloves",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 238,
+    "default_skin": 10021,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95044,
+    "chat_link": "[&AgFEcwEA]",
+    "icon": "https://render.guildwars2.com/file/579FD9B300F32129BC4329FA25B718D6A092684F/2461198.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Medium",
+      "defense": 157,
+      "infusion_slots": [],
+      "attribute_adjustment": 128.04,
+      "infix_upgrade": {
+        "id": 1131,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 38
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 38
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 21
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 21
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Frozen Ash",
+    "description": "The byproduct of a world-shaking clash.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Junk",
+    "vendor_value": 50000,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95045,
+    "chat_link": "[&AgFFcwEA]",
+    "icon": "https://render.guildwars2.com/file/129C6899D93818CAFAB9185638D11B574D202F62/2460974.png"
+  },
+  {
+    "name": "Maguuma Rifle Skin",
+    "description": "Double-click to apply this look to any other rifle.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 95046,
+    "chat_link": "[&AgFGcwEA]",
+    "icon": "https://render.guildwars2.com/file/9B20B2922FDEBA1801221A04F2A4069A20733AD0/2461089.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        10015
+      ]
+    }
+  },
+  {
+    "name": "Maguuma Pistol Skin",
+    "description": "Double-click to apply this look to any other pistol.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 95047,
+    "chat_link": "[&AgFHcwEA]",
+    "icon": "https://render.guildwars2.com/file/38071F0E99A2475B5045E5244CE9D6AF0E1BB2C8/2461079.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        10024
+      ]
+    }
+  },
+  {
+    "name": "Maguuma Short Bow Skin",
+    "description": "Double-click to apply this look to any other short bow.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 95048,
+    "chat_link": "[&AgFIcwEA]",
+    "icon": "https://render.guildwars2.com/file/2A45A6010DA30EC10C93242D0A134A246A114F74/2461019.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        10014
+      ]
+    }
+  },
+  {
+    "name": "Dragon Bash Firework Launcher",
+    "description": "Deposit this decoration in the guild's decoration storage.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95049,
+    "chat_link": "[&AgFJcwEA]",
+    "icon": "https://render.guildwars2.com/file/BD3F9C57C5C7C23C09E456E10D0A99A033D017B3/2460966.png",
+    "details": {
+      "type": "Generic",
+      "guild_upgrade_id": 1186
+    }
+  },
+  {
+    "name": "Shatterspark Gloves Skin",
+    "description": "Double-click to apply this appearance to your current gloves. This will unlock the skin in your wardrobe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95050,
+    "chat_link": "[&AgFKcwEA]",
+    "icon": "https://render.guildwars2.com/file/531725A5B9CE110E78B7E718D53F3CB5612EC901/2460972.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        10016,
+        10018,
+        10031
+      ]
+    }
+  },
+  {
+    "name": "Maguuma Dagger Skin",
+    "description": "Double-click to apply this look to any other dagger.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 95051,
+    "chat_link": "[&AgFLcwEA]",
+    "icon": "https://render.guildwars2.com/file/1BC2437DD4F355B908A450F4AD74FABF691A16BB/2461038.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        10030
+      ]
+    }
+  },
+  {
+    "name": "Holographic Dragon Glove Box",
+    "description": "Double-click to choose a piece of light, medium, or heavy armor.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95052,
+    "chat_link": "[&AgFMcwEA]",
+    "icon": "https://render.guildwars2.com/file/579FD9B300F32129BC4329FA25B718D6A092684F/2461198.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Mini Destroyer of the Last King",
+    "description": "Double-click to summon this mini to follow you around. Only one mini may be in use at a time.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95053,
+    "chat_link": "[&AgFNcwEA]",
+    "icon": "https://render.guildwars2.com/file/80A59C38C705E095347C0BACED362F3235560BFB/2460970.png",
+    "details": {
+      "minipet_id": 820
+    }
+  },
+  {
+    "name": "Maguuma Staff Skin",
+    "description": "Double-click to apply this look to any other staff.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 95054,
+    "chat_link": "[&AgFOcwEA]",
+    "icon": "https://render.guildwars2.com/file/681FDD065ADF214A1751BFB11AE6657C03E67AE0/2461119.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        10017
+      ]
+    }
+  },
+  {
+    "name": "Maguuma Torch Skin",
+    "description": "Double-click to apply this look to any other torch.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 95055,
+    "chat_link": "[&AgFPcwEA]",
+    "icon": "https://render.guildwars2.com/file/FD73E87608087373EA0129DBD7C1DCF07F6D0A26/2461139.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        10013
+      ]
+    }
+  },
+  {
+    "name": "Summer Light",
+    "description": "<c=@flavor>New life envelops the horizon.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 10033,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95056,
+    "chat_link": "[&AgFQcwEA]",
+    "icon": "https://render.guildwars2.com/file/6850D361B75D6A5A9C6F77BEC971A254DE5DDF0D/2461183.png",
+    "details": {
+      "type": "Rifle",
+      "damage_type": "Physical",
+      "min_power": 986,
+      "max_power": 1205,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "infix_upgrade": {
+        "id": 1162,
+        "buff": {
+          "skill_id": 33399
+        },
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 230
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 125
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 230
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 125
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Broken Dragon's Tooth",
+    "description": "Even dragons should know better than to bite directly into a Jorbreaker.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Junk",
+    "vendor_value": 10000,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95057,
+    "chat_link": "[&AgFRcwEA]",
+    "icon": "https://render.guildwars2.com/file/4D093FE075DFBA930815F49329C89B6EC96A4223/2460973.png"
+  },
+  {
+    "name": "Maguuma Warhorn Skin",
+    "description": "Double-click to apply this look to any other warhorn.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 95058,
+    "chat_link": "[&AgFScwEA]",
+    "icon": "https://render.guildwars2.com/file/9905BD23CC5B0BA7E05D720FF39BA216FD9365BE/2461150.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        10034
+      ]
+    }
+  },
+  {
+    "name": "Journey's Call",
+    "description": "<c=@flavor>A prophecy is fulfilled, and new legends mark a beginning.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 10032,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95059,
+    "chat_link": "[&AgFTcwEA]",
+    "icon": "https://render.guildwars2.com/file/4020FFAB5251F696054B5B311DFE5B28EE197AC5/2461195.png",
+    "details": {
+      "type": "Warhorn",
+      "damage_type": "Physical",
+      "min_power": 814,
+      "max_power": 900,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 1162,
+        "buff": {
+          "skill_id": 33399
+        },
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 127
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 68
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 127
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 68
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Dreamwalker Longbow Skin",
+    "description": "Double-click to apply this look to any other longbow.\nThis will also unlock this skin for your wardrobe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95060,
+    "chat_link": "[&AgFUcwEA]",
+    "icon": "https://render.guildwars2.com/file/300A597C50B952FF674224149E1A356106471480/2460975.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        10012
+      ]
+    }
+  },
+  {
+    "name": "Commander's Holographic Dragon Gloves",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 238,
+    "default_skin": 10028,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95061,
+    "chat_link": "[&AgFVcwEA]",
+    "icon": "https://render.guildwars2.com/file/579FD9B300F32129BC4329FA25B718D6A092684F/2461198.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Light",
+      "defense": 133,
+      "infusion_slots": [],
+      "attribute_adjustment": 128.04,
+      "infix_upgrade": {
+        "id": 1131,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 38
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 38
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 21
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 21
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Dragon Bash Windcatcher",
+    "description": "Deposit this decoration in the guild's decoration storage.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95062,
+    "chat_link": "[&AgFWcwEA]",
+    "icon": "https://render.guildwars2.com/file/97DCC2B87A73556DF05CEB71243E2FBD6F03FDBE/2460965.png",
+    "details": {
+      "type": "Generic",
+      "guild_upgrade_id": 1187
+    }
+  },
+  {
+    "name": "Maguuma Hammer Skin",
+    "description": "Double-click to apply this look to any other hammer.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 95063,
+    "chat_link": "[&AgFXcwEA]",
+    "icon": "https://render.guildwars2.com/file/280A2319E5271CF3B0F3A53F7E06F52A5474AFD6/2461068.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        10035
+      ]
+    }
+  },
+  {
+    "name": "Arcane Battlestaff Skin",
+    "description": "Double-click to apply this look to any other staff.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95064,
+    "chat_link": "[&AgFYcwEA]",
+    "icon": "https://render.guildwars2.com/file/09BF09D000C43246F79C69744CF5B2B21AD4731D/2460971.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        10040
+      ]
+    }
+  },
+  {
+    "name": "Maguuma Mace Skin",
+    "description": "Double-click to apply this look to any other mace.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 95065,
+    "chat_link": "[&AgFZcwEA]",
+    "icon": "https://render.guildwars2.com/file/B8AA01A46BC0CD1B4F02281FB8B1750C406A3A92/2461078.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        10039
+      ]
+    }
+  },
+  {
+    "name": "Jormag Hologram Generator",
+    "description": "Deposit this decoration in the guild's decoration storage.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95066,
+    "chat_link": "[&AgFacwEA]",
+    "icon": "https://render.guildwars2.com/file/0A0B34CA4973F305CEA75B45C0ABEACA3BB446CD/2460962.png",
+    "details": {
+      "type": "Generic",
+      "guild_upgrade_id": 1185
+    }
+  },
+  {
+    "name": "Maguuma Shield Skin",
+    "description": "Double-click to apply this look to any other shield.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 95067,
+    "chat_link": "[&AgFbcwEA]",
+    "icon": "https://render.guildwars2.com/file/0DE4F6E979DD2A6DD7E5D6799A6C4671EC7E9D00/2461109.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        10029
+      ]
+    }
+  },
+  {
+    "name": "Maguuma Scepter Skin",
+    "description": "Double-click to apply this look to any other scepter.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 95068,
+    "chat_link": "[&AgFccwEA]",
+    "icon": "https://render.guildwars2.com/file/0CB3611E9A4DFAC907D3B2BF4F032E400E0EF61B/2461099.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        10041
+      ]
+    }
+  },
+  {
+    "name": "Spring Warmth",
+    "description": "<c=@flavor>A long winter ends.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 10023,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95069,
+    "chat_link": "[&AgFdcwEA]",
+    "icon": "https://render.guildwars2.com/file/0CAA22A8BE5955B4CD51D5C331B97B6709AE65F8/2461189.png",
+    "details": {
+      "type": "Staff",
+      "damage_type": "Physical",
+      "min_power": 985,
+      "max_power": 1111,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "infix_upgrade": {
+        "id": 1162,
+        "buff": {
+          "skill_id": 33399
+        },
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 230
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 125
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 230
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 125
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Maguuma Focus Skin",
+    "description": "Double-click to apply this look to any other focus.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 95070,
+    "chat_link": "[&AgFecwEA]",
+    "icon": "https://render.guildwars2.com/file/00255FB54E04BF72E7B5ECB835F6C1ED53000BB2/2461048.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        10027
+      ]
+    }
+  },
+  {
+    "name": "Plush Primo",
+    "description": "<c=@flavor>Everyone's other favorite stuffed dragon friend! Huggably warm and soft. Not talkative.</c>",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 413,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "NotUpgradeable",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95071,
+    "chat_link": "[&AgFfcwEA]",
+    "icon": "https://render.guildwars2.com/file/9E5E1D299ACC4E43CF31F880EF589FE53D3252A9/2460968.png",
+    "details": {
+      "type": "Accessory",
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 224.07,
+      "infix_upgrade": {
+        "id": 1145,
+        "buff": {
+          "skill_id": 31930
+        },
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 92
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 92
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 49
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 49
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Primordus Hologram Generator",
+    "description": "Deposit this decoration in the guild's decoration storage.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95072,
+    "chat_link": "[&AgFgcwEA]",
+    "icon": "https://render.guildwars2.com/file/DA80BEBCD11AFA4417CB00B74108D8D97A046FEA/2460963.png",
+    "details": {
+      "type": "Generic",
+      "guild_upgrade_id": 1182
+    }
+  },
+  {
+    "name": "Energy Regulator Cog",
+    "description": "<c=@flavor>Salvaged from the colossal Twisted Marionette's support equipment.</c>",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 495,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "NotUpgradeable",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95073,
+    "chat_link": "[&AgFhcwEA]",
+    "icon": "https://render.guildwars2.com/file/3913EB903EB080668012580EC0C9E5CCA99C7CDA/2467809.png",
+    "details": {
+      "type": "Ring",
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 268.884,
+      "infix_upgrade": {
+        "id": 1163,
+        "buff": {
+          "skill_id": 32559,
+          "description": "+32 Power\n+18 Precision\n+18 Healing Power"
+        },
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 126
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 85
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 85
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Howler",
+    "description": "Double click to receive your returned legendary weapon.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Legendary",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95074,
+    "chat_link": "[&AgFicwEA]",
+    "icon": "https://render.guildwars2.com/file/19E01CC637F4F370B43E132ACEBFD7C6E1570DE7/456029.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Pharus",
+    "description": "Double click to receive your returned legendary weapon.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Legendary",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95075,
+    "chat_link": "[&AgFjcwEA]",
+    "icon": "https://render.guildwars2.com/file/D2C5CF133804E1062B08370044E774F854F107F5/2083170.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Chuka and Champawat",
+    "description": "Double click to receive your returned legendary weapon.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Legendary",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95076,
+    "chat_link": "[&AgFkcwEA]",
+    "icon": "https://render.guildwars2.com/file/6AA4DCD7BFD228EF1658DE017FF114700260D316/1423757.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Frostfang",
+    "description": "Double click to receive your returned legendary weapon.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Legendary",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95077,
+    "chat_link": "[&AgFlcwEA]",
+    "icon": "https://render.guildwars2.com/file/0F9C08DE12ADD1082A103DC6EF7401281B23985E/456009.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "The Binding of Ipos",
+    "description": "Double click to receive your returned legendary weapon.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Legendary",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95079,
+    "chat_link": "[&AgFncwEA]",
+    "icon": "https://render.guildwars2.com/file/2C2D04DA23E54103AD4C082033090D78A91BA0EE/1894811.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Legendary Mistforged Trunk",
+    "description": "Double-click to open.\nChoose a piece of legendary armor to be placed in your Legendary Armory.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Legendary",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 95080,
+    "chat_link": "[&AgFocwEA]",
+    "icon": "https://render.guildwars2.com/file/BFD2CB5A0604A4425DF9CD22DF0F40C4E0AE9AAA/602790.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Memory of Sunrise",
+    "description": "Can be used in the Mystic Forge in place of Sunrise to add the greatsword Eternity to your Legendary Armory.\n<c=@warning>If you have two instances of Eternity unlocked in the armory, please contact Customer Support.</c>",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Legendary",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95081,
+    "chat_link": "[&AgFpcwEA]",
+    "icon": "https://render.guildwars2.com/file/7160900270BB9FF5FBBFD5A85F4E0750EFB32256/2467755.png"
+  },
+  {
+    "name": "Meteorlogicus",
+    "description": "Double click to receive your returned legendary weapon.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Legendary",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95082,
+    "chat_link": "[&AgFqcwEA]",
+    "icon": "https://render.guildwars2.com/file/AC940BF377C5D3EF13B2060D53EF19F1BC34BE48/456020.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Archdemon Wings Backpack Skin",
+    "description": "This will replace the appearance of one back slot item of any weight class and unlock the skin in your account wardrobe.\n\nThis back slot skin has no stats of its own.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95083,
+    "chat_link": "[&AgFrcwEA]",
+    "icon": "https://render.guildwars2.com/file/5A789F6D9999D87FB9BB065DDB405747D11B15C7/2467759.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        10045
+      ]
+    }
+  },
+  {
+    "name": "Kudzu",
+    "description": "Double click to receive your returned legendary weapon.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Legendary",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95084,
+    "chat_link": "[&AgFscwEA]",
+    "icon": "https://render.guildwars2.com/file/B604C764D3E19E391F5E24CCFBC414500606BD29/456010.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Box of Zealot's Equipment Recipes",
+    "description": "Double-click to open.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95085,
+    "chat_link": "[&AgFtcwEA]",
+    "icon": "https://render.guildwars2.com/file/EC12BE596939FA100394651B5715F33A0046EB36/711847.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Memory of Twilight",
+    "description": "Can be used in the Mystic Forge in place of Twilight to add the greatsword Eternity to your Legendary Armory.\n<c=@warning>If you have two instances of Eternity unlocked in the armory, please contact Customer Support.</c>",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Legendary",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95086,
+    "chat_link": "[&AgFucwEA]",
+    "icon": "https://render.guildwars2.com/file/B8B40BED28CCA6D3C979F8FEC117507423B4560E/2467756.png"
+  },
+  {
+    "name": "Legendary Trunk",
+    "description": "Double-click to open.\nChoose a piece of legendary armor to be placed in your Legendary Armory.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Legendary",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 95087,
+    "chat_link": "[&AgFvcwEA]",
+    "icon": "https://render.guildwars2.com/file/BFD2CB5A0604A4425DF9CD22DF0F40C4E0AE9AAA/602790.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "The Moot",
+    "description": "Double click to receive your returned legendary weapon.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Legendary",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95088,
+    "chat_link": "[&AgFwcwEA]",
+    "icon": "https://render.guildwars2.com/file/C0302BC8DDD84D20F0B73C1D702438F5534F3308/456017.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Kamohoali'i Kotaki",
+    "description": "Double click to receive your returned legendary weapon.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Legendary",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95089,
+    "chat_link": "[&AgFxcwEA]",
+    "icon": "https://render.guildwars2.com/file/4705EC549A3296F493312C4018754816175E5D28/456016.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Flames of War",
+    "description": "Double click to receive your returned legendary weapon.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Legendary",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95090,
+    "chat_link": "[&AgFycwEA]",
+    "icon": "https://render.guildwars2.com/file/0D4399FD6BC23DEF9DB32CBC49029C93682FFBC9/1676632.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Archdemon Wings Glider",
+    "description": "This will unlock the glider skin in your account wardrobe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95091,
+    "chat_link": "[&AgFzcwEA]",
+    "icon": "https://render.guildwars2.com/file/F70DD348C0A30630EFE72968703F9FAB729ACD56/2467761.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "GliderSkin"
+    }
+  },
+  {
+    "name": "Legendary Cache",
+    "description": "Double-click to open.\nChoose from a subset of first-generation weapons or backpieces to be placed in your legendary armory.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Legendary",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 95092,
+    "chat_link": "[&AgF0cwEA]",
+    "icon": "https://render.guildwars2.com/file/BFD2CB5A0604A4425DF9CD22DF0F40C4E0AE9AAA/602790.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Legendary Equipment Unlocked!",
+    "description": "This may have reached you when many legendary items were added to your armory. It is of no further consequence and will disappear in time.",
+    "type": "Trinket",
+    "level": 0,
+    "rarity": "Legendary",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "NotUpgradeable",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 95093,
+    "chat_link": "[&AgF1cwEA]",
+    "icon": "https://render.guildwars2.com/file/D3ECFB1AF398D30D1DD861926600413A36125870/1766739.png",
+    "details": {
+      "type": "Accessory",
+      "infusion_slots": [],
+      "attribute_adjustment": 10.395,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "The Dreamer",
+    "description": "Double click to receive your returned legendary weapon.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Legendary",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95097,
+    "chat_link": "[&AgF5cwEA]",
+    "icon": "https://render.guildwars2.com/file/98F0ED6A7F7A310FCE6D161C0B36B0071E4D1917/456011.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Marionette Community Goal Reward",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95098,
+    "chat_link": "[&AgF6cwEA]",
+    "icon": "https://render.guildwars2.com/file/489AD63A6803782E5CBE6B7244ED7F7C0FA0BB41/2149902.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "The Juggernaut",
+    "description": "Double click to receive your returned legendary weapon.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Legendary",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95100,
+    "chat_link": "[&AgF8cwEA]",
+    "icon": "https://render.guildwars2.com/file/F9FAEDF77052A514E876145908B3B3346314A13E/456015.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Astralaria",
+    "description": "Double click to receive your returned legendary weapon.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Legendary",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95101,
+    "chat_link": "[&AgF9cwEA]",
+    "icon": "https://render.guildwars2.com/file/13B9B1A4A85E775E267D33B6B7FA2D436DEA0BA1/1200325.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Devil-Rending Axe Skin",
+    "description": "Double-click to apply this look to any other axe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95102,
+    "chat_link": "[&AgF+cwEA]",
+    "icon": "https://render.guildwars2.com/file/A5362DD65E74704B59C636E1FD9B517C44D1F4F6/2467806.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        10042
+      ]
+    }
+  },
+  {
+    "name": "Frenzy",
+    "description": "Double click to receive your returned legendary weapon.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Legendary",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95103,
+    "chat_link": "[&AgF/cwEA]",
+    "icon": "https://render.guildwars2.com/file/67EB25E29BA73D96B34523C02B256516DD60DA06/456024.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Legendary Coffer",
+    "description": "Double-click to open.\nChoose a second-generation weapon or an alternative legendary item to be placed in your Legendary Armory.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Legendary",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 95105,
+    "chat_link": "[&AgGBcwEA]",
+    "icon": "https://render.guildwars2.com/file/BFD2CB5A0604A4425DF9CD22DF0F40C4E0AE9AAA/602790.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Archdemon Wings Backpack and Glider Combo",
+    "description": "This package contains a glider skin and a matching backpack skin.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95106,
+    "chat_link": "[&AgGCcwEA]",
+    "icon": "https://render.guildwars2.com/file/0406504B00FDC4383421D0C7D9283C0234CEF547/2467760.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        10045
+      ]
+    }
+  },
+  {
+    "name": "The Predator",
+    "description": "Double click to receive your returned legendary weapon.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Legendary",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95107,
+    "chat_link": "[&AgGDcwEA]",
+    "icon": "https://render.guildwars2.com/file/3ECD99482DD865AA7D42B2EF6AFEFA705294555C/456019.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "The Bifrost",
+    "description": "Double click to receive your returned legendary weapon.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Legendary",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95108,
+    "chat_link": "[&AgGEcwEA]",
+    "icon": "https://render.guildwars2.com/file/FD221A90427ADBD29B7E2DF8BDAF98BB16391162/456025.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Bolt",
+    "description": "Double click to receive your returned legendary weapon.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Legendary",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95109,
+    "chat_link": "[&AgGFcwEA]",
+    "icon": "https://render.guildwars2.com/file/FE47E046D10DF27508910869B5EB040F6BBBE793/456026.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Eternity",
+    "description": "Double click to receive your returned legendary weapon.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Legendary",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95110,
+    "chat_link": "[&AgGGcwEA]",
+    "icon": "https://render.guildwars2.com/file/A30DA1A1EF05BD080C95AE2EF0067BADCDD0D89D/456014.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "The Flameseeker Prophecies",
+    "description": "Double click to receive your returned legendary weapon.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Legendary",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95111,
+    "chat_link": "[&AgGHcwEA]",
+    "icon": "https://render.guildwars2.com/file/BE58181BEA0559E60873ED940D0408D0596B4464/456021.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Daydreamer's Weapon Cache",
+    "description": "<c=@flavor>Contains your choice of an account-bound Daydreamer's weapon skin. Double-click to choose a reward.</c>",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 256,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95113,
+    "chat_link": "[&AgGJcwEA]",
+    "icon": "https://render.guildwars2.com/file/6BA91E0A08689B40B09ECC3FB3C4589493E6C167/603245.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Legendary Eternal Coffer",
+    "description": "Double-click to open.\nChoose a second generation weapon or two alternative legendary items to be placed in your Legendary Armory.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Legendary",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 95114,
+    "chat_link": "[&AgGKcwEA]",
+    "icon": "https://render.guildwars2.com/file/BFD2CB5A0604A4425DF9CD22DF0F40C4E0AE9AAA/602790.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Nevermore",
+    "description": "Double click to receive your returned legendary weapon.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Legendary",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95115,
+    "chat_link": "[&AgGLcwEA]",
+    "icon": "https://render.guildwars2.com/file/5346383A9218504978A57642D9F664DB6EE9984D/1206505.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Legendary Reliquary",
+    "description": "Double-click to open.\nChoose a first-generation weapon, trinket, or backpiece to be placed in your Legendary Armory.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Legendary",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 95116,
+    "chat_link": "[&AgGMcwEA]",
+    "icon": "https://render.guildwars2.com/file/BFD2CB5A0604A4425DF9CD22DF0F40C4E0AE9AAA/602790.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Sunrise",
+    "description": "Double click to receive your returned legendary weapon.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Legendary",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95119,
+    "chat_link": "[&AgGPcwEA]",
+    "icon": "https://render.guildwars2.com/file/EFF16C4F19792627355DC294E6D7093F544921E7/456030.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Rodgort",
+    "description": "Double click to receive your returned legendary weapon.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Legendary",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95121,
+    "chat_link": "[&AgGRcwEA]",
+    "icon": "https://render.guildwars2.com/file/B1D6CB3AB4017633280ACDB36470F46829FDDD13/456027.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "The Shining Blade",
+    "description": "Double click to receive your returned legendary weapon.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Legendary",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95122,
+    "chat_link": "[&AgGScwEA]",
+    "icon": "https://render.guildwars2.com/file/DB4197185C097D04569265051654AA121F459A1D/1729769.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Single-Use Eye of the North Portal Scroll",
+    "description": "Double-click to teleport to the Eye of the North. This item cannot be used while in combat.",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Masterwork",
+    "vendor_value": 64,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95123,
+    "chat_link": "[&AgGTcwEA]",
+    "icon": "https://render.guildwars2.com/file/16E2F7B8059DF123A8E70F6D9E6830D252D106C6/2261373.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Quip",
+    "description": "Double click to receive your returned legendary weapon.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Legendary",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95125,
+    "chat_link": "[&AgGVcwEA]",
+    "icon": "https://render.guildwars2.com/file/03342FFE0E35B35D5207B65ECB0C1D06442377AB/456018.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Ghost of the Deep Spaulders Skin",
+    "description": "This will replace the appearance of one shoulder armor of any weight class and unlock the skin in your account wardrobe.\n\nThis shoulder skin has no stats of its own.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95127,
+    "chat_link": "[&AgGXcwEA]",
+    "icon": "https://render.guildwars2.com/file/4292FCC63B9C6A2C7BDBE3F692E4470B6150DA51/2467758.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        10043,
+        10044,
+        10046
+      ]
+    }
+  },
+  {
+    "name": "Box of Keeper's Equipment Recipes",
+    "description": "Double-click to open.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95128,
+    "chat_link": "[&AgGYcwEA]",
+    "icon": "https://render.guildwars2.com/file/EC12BE596939FA100394651B5715F33A0046EB36/711847.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Twilight",
+    "description": "Double click to receive your returned legendary weapon.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Legendary",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95129,
+    "chat_link": "[&AgGZcwEA]",
+    "icon": "https://render.guildwars2.com/file/CE3AF0B7B9BB6244726779F5B6A930541BA6C15F/456031.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Eternity",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Legendary",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 95130,
+    "chat_link": "[&AgGacwEA]",
+    "icon": "https://render.guildwars2.com/file/A30DA1A1EF05BD080C95AE2EF0067BADCDD0D89D/456014.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Incinerator",
+    "description": "Double click to receive your returned legendary weapon.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Legendary",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95131,
+    "chat_link": "[&AgGbcwEA]",
+    "icon": "https://render.guildwars2.com/file/D9B12A1EBEDC04047295CF0A66E43E650297D429/456012.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Story Unlock: \"A Bug in the System\"",
+    "description": "Instantly unlocks the episode \"A Bug in the System.\"",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 4,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95132,
+    "chat_link": "[&AgGccwEA]",
+    "icon": "https://render.guildwars2.com/file/42E3A60E361EA8FD6D6ECD3FE4F70DCCD628BC50/222826.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Flame Serpent Scepter Skin",
+    "description": "Double-click to apply this look to any other scepter.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95133,
+    "chat_link": "[&AgGdcwEA]",
+    "icon": "https://render.guildwars2.com/file/492A75617EF3FFBD3159EDEE3378020523D8D0CB/2472240.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        10056
+      ]
+    }
+  },
+  {
+    "name": "Flame Serpent Shield Skin",
+    "description": "Double-click to apply this look to any other shield.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95134,
+    "chat_link": "[&AgGecwEA]",
+    "icon": "https://render.guildwars2.com/file/7FCAE139E653A509095058C1FBD3CD061573071E/2472250.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        10054
+      ]
+    }
+  },
+  {
+    "name": "Flame Serpent Pistol Skin",
+    "description": "Double-click to apply this look to any other pistol.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95135,
+    "chat_link": "[&AgGfcwEA]",
+    "icon": "https://render.guildwars2.com/file/BF3747701B0B0F0ACDEF0A2774DAE8050171B6C8/2472220.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        10058
+      ]
+    }
+  },
+  {
+    "name": "Plasma Weapon Cache",
+    "description": "<c=@flavor>Contains your choice of an account-bound Plasma weapon skin. Double-click to choose a reward.</c>",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 256,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95136,
+    "chat_link": "[&AgGgcwEA]",
+    "icon": "https://render.guildwars2.com/file/6BA91E0A08689B40B09ECC3FB3C4589493E6C167/603245.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Story Unlock: \"No Quarter\"",
+    "description": "Instantly unlocks the episode \"No Quarter.\"",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 4,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95137,
+    "chat_link": "[&AgGhcwEA]",
+    "icon": "https://render.guildwars2.com/file/42E3A60E361EA8FD6D6ECD3FE4F70DCCD628BC50/222826.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Flame Serpent Hammer Skin",
+    "description": "Double-click to apply this look to any other hammer.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95138,
+    "chat_link": "[&AgGicwEA]",
+    "icon": "https://render.guildwars2.com/file/3C9B13DC69B85D27C6D63CAD796C4465FFDC0590/2472188.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        10064
+      ]
+    }
+  },
+  {
+    "name": "Story Unlock: \"Bound by Blood\"",
+    "description": "Instantly unlocks the episode \"Bound by Blood.\"",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 4,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95139,
+    "chat_link": "[&AgGjcwEA]",
+    "icon": "https://render.guildwars2.com/file/42E3A60E361EA8FD6D6ECD3FE4F70DCCD628BC50/222826.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Pact Vigilance Signet",
+    "description": "<c=@flavor>A ring indicating that the bearer has joined Pact forces to repel great monsters in the wilderness.</c>",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 495,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "NotUpgradeable",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95140,
+    "chat_link": "[&AgGkcwEA]",
+    "icon": "https://render.guildwars2.com/file/463A02BD7E6515A968A64C9CA5C8642321B97646/2472305.png",
+    "details": {
+      "type": "Ring",
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ],
+          "item_id": 49433
+        }
+      ],
+      "attribute_adjustment": 268.884,
+      "infix_upgrade": {
+        "id": 1139,
+        "buff": {
+          "skill_id": 32718,
+          "description": "+32 Condition Damage\n+18 Power\n+18 Precision"
+        },
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 106
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 106
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 56
+          },
+          {
+            "attribute": "ConditionDuration",
+            "modifier": 56
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Story Unlock: \"Whisper in the Dark\"",
+    "description": "Instantly unlocks the episode \"Whisper in the Dark.\"",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 4,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95141,
+    "chat_link": "[&AgGlcwEA]",
+    "icon": "https://render.guildwars2.com/file/42E3A60E361EA8FD6D6ECD3FE4F70DCCD628BC50/222826.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Fox Spirit Glider",
+    "description": "This will unlock the glider skin in your account wardrobe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95142,
+    "chat_link": "[&AgGmcwEA]",
+    "icon": "https://render.guildwars2.com/file/091CF5FBB7044CD62A316E4AADC5E6FFBC3FB5D5/2472112.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "GliderSkin"
+    }
+  },
+  {
+    "name": "Flame Serpent Rifle Skin",
+    "description": "Double-click to apply this look to any other rifle.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95143,
+    "chat_link": "[&AgGncwEA]",
+    "icon": "https://render.guildwars2.com/file/2329C20B9F0E072109F151FF2A1F80CBA758CCC8/2472230.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        10051
+      ]
+    }
+  },
+  {
+    "name": "Flame Serpent Longbow Skin",
+    "description": "Double-click to apply this look to any other longbow.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95144,
+    "chat_link": "[&AgGocwEA]",
+    "icon": "https://render.guildwars2.com/file/0D4BC1037A019EFD02C6CACE5DE0AE30A2CBF6E1/2472191.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        10066
+      ]
+    }
+  },
+  {
+    "name": "Story Unlock: \"Champions\"",
+    "description": "Instantly unlocks the episode \"Champions.\"",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 4,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95145,
+    "chat_link": "[&AgGpcwEA]",
+    "icon": "https://render.guildwars2.com/file/42E3A60E361EA8FD6D6ECD3FE4F70DCCD628BC50/222826.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Flame Serpent Short Bow Skin",
+    "description": "Double-click to apply this look to any other short bow.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95146,
+    "chat_link": "[&AgGqcwEA]",
+    "icon": "https://render.guildwars2.com/file/1D9E56F74C28EEC653642E1D730D9545640744B2/2472261.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        10063
+      ]
+    }
+  },
+  {
+    "name": "Story Unlock: \"A Star to Guide Us\"",
+    "description": "Instantly unlocks the episode \"A Star to Guide Us.\"",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 4,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95147,
+    "chat_link": "[&AgGrcwEA]",
+    "icon": "https://render.guildwars2.com/file/42E3A60E361EA8FD6D6ECD3FE4F70DCCD628BC50/222826.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Story Unlock: \"War Eternal\"",
+    "description": "Instantly unlocks the episode \"War Eternal.\"",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 4,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95148,
+    "chat_link": "[&AgGscwEA]",
+    "icon": "https://render.guildwars2.com/file/42E3A60E361EA8FD6D6ECD3FE4F70DCCD628BC50/222826.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Infernal Roar Warhorn Skin",
+    "description": "Double-click to apply this look to any other warhorn.\nThis will also unlock this skin for your wardrobe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95149,
+    "chat_link": "[&AgGtcwEA]",
+    "icon": "https://render.guildwars2.com/file/B245C1D7DB711FA70403511613C60D19C0AFA7A4/2472030.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        10062
+      ]
+    }
+  },
+  {
+    "name": "Flame Serpent Sword Skin",
+    "description": "Double-click to apply this look to any other sword.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95150,
+    "chat_link": "[&AgGucwEA]",
+    "icon": "https://render.guildwars2.com/file/4EF6E6CB9AC04211133114E43EA9BC792079F7DB/2472283.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        10061
+      ]
+    }
+  },
+  {
+    "name": "Shing Jea Dragon Boat Skiff Skin",
+    "description": "Double-click to unlock this skiff skin for your account.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95151,
+    "chat_link": "[&AgGvcwEA]",
+    "icon": "https://render.guildwars2.com/file/1055EEB4C9C4EEE1C8A23F08A7C6C303A01E14C0/2472117.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Ms"
+    }
+  },
+  {
+    "name": "Flame Serpent Dagger Skin",
+    "description": "Double-click to apply this look to any other dagger.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95152,
+    "chat_link": "[&AgGwcwEA]",
+    "icon": "https://render.guildwars2.com/file/9550610AEA04F0056D06A0B857FC047A9736051C/2472155.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        10060
+      ]
+    }
+  },
+  {
+    "name": "Flame Serpent Axe Skin",
+    "description": "Double-click to apply this look to any other axe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95153,
+    "chat_link": "[&AgGxcwEA]",
+    "icon": "https://render.guildwars2.com/file/AFEF387C2A070D4294D5680CCAD22625F7226F69/2472149.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        10065
+      ]
+    }
+  },
+  {
+    "name": "Story Unlock: \"Steel and Fire\"",
+    "description": "Instantly unlocks the episode \"Steel and Fire.\"",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 4,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95154,
+    "chat_link": "[&AgGycwEA]",
+    "icon": "https://render.guildwars2.com/file/42E3A60E361EA8FD6D6ECD3FE4F70DCCD628BC50/222826.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Flame Serpent Focus Skin",
+    "description": "Double-click to apply this look to any other focus.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95155,
+    "chat_link": "[&AgGzcwEA]",
+    "icon": "https://render.guildwars2.com/file/122FABABF7C6F3AB9DB904559B0F0A5D915FEDEB/2472165.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        10053
+      ]
+    }
+  },
+  {
+    "name": "Flame Serpent Greatsword Skin",
+    "description": "Double-click to apply this look to any other greatsword.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95156,
+    "chat_link": "[&AgG0cwEA]",
+    "icon": "https://render.guildwars2.com/file/632B0AED1C4BB80908C91B980207F8EE3551F9DA/2472177.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        10067
+      ]
+    }
+  },
+  {
+    "name": "Flame Serpent Staff Skin",
+    "description": "Double-click to apply this look to any other staff.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95157,
+    "chat_link": "[&AgG1cwEA]",
+    "icon": "https://render.guildwars2.com/file/020CC50853E9D37843BAE806F2D18013A4972D56/2472271.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        10050
+      ]
+    }
+  },
+  {
+    "name": "Shing Jea Mosaic Cape",
+    "description": "This will replace the appearance of one back slot item of any weight class and unlock the skin in your account wardrobe.\n\nThis back slot skin has no stats of its own.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 6250,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95158,
+    "chat_link": "[&AgG2cwEA]",
+    "icon": "https://render.guildwars2.com/file/6651053400450C40DB77B334F4BB5030EDAC18B9/2472120.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        10059
+      ]
+    }
+  },
+  {
+    "name": "Swaggering Boots Skin",
+    "description": "Double-click to apply this appearance to your current boots. This will unlock the skin in your wardrobe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95159,
+    "chat_link": "[&AgG3cwEA]",
+    "icon": "https://render.guildwars2.com/file/9330DF5F03C77931349E940C607462F4806B791C/2472119.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        10052,
+        10055,
+        10057
+      ]
+    }
+  },
+  {
+    "name": "Flame Serpent Weapon Chest",
+    "description": "Open to choose a new weapon skin to unlock for your account.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "NotUpgradeable",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95160,
+    "chat_link": "[&AgG4cwEA]",
+    "icon": "https://render.guildwars2.com/file/9D167950E9F2ACE73E45E05F3B6567BC4207C2D0/2472083.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Story Unlock: \"Jormag Rising\"",
+    "description": "Instantly unlocks the episode \"Jormag Rising.\"",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 4,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95161,
+    "chat_link": "[&AgG5cwEA]",
+    "icon": "https://render.guildwars2.com/file/42E3A60E361EA8FD6D6ECD3FE4F70DCCD628BC50/222826.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Canthan Raptor Skin",
+    "description": "Double-click to unlock this raptor mount skin for your account.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95162,
+    "chat_link": "[&AgG6cwEA]",
+    "icon": "https://render.guildwars2.com/file/1228A2E7FA0A0BDE4CF901BD6241AA13D579354E/2472356.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Ms"
+    }
+  },
+  {
+    "name": "Build and Equipment Template Bundle",
+    "description": "Contains 2 Build Template Expansions and 2 Equipment Template Expansions",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95163,
+    "chat_link": "[&AgG7cwEA]",
+    "icon": "https://render.guildwars2.com/file/CFE7CBCF4EB6665D111075E950085C1117D7B2BA/2472118.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Story Unlock: \"Shadow in the Ice\"",
+    "description": "Instantly unlocks the episode \"Shadow in the Ice.\"",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 4,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95164,
+    "chat_link": "[&AgG8cwEA]",
+    "icon": "https://render.guildwars2.com/file/42E3A60E361EA8FD6D6ECD3FE4F70DCCD628BC50/222826.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Story Unlock: \"Long Live the Lich\"",
+    "description": "Instantly unlocks the episode \"Long Live the Lich.\"",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 4,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 95165,
+    "chat_link": "[&AgG9cwEA]",
+    "icon": "https://render.guildwars2.com/file/42E3A60E361EA8FD6D6ECD3FE4F70DCCD628BC50/222826.png",
+    "details": {
+      "type": "Immediate"
+    }
+  }
+]

@@ -1,0 +1,76 @@
+{
+  "id": 622,
+  "tier": 3,
+  "order": 0,
+  "name": "Courroux persistant",
+  "description": "L'effet passif de votre 1re compétence de vertu se déclenche plus rapidement et provoque Brûlure dans une zone.",
+  "slot": "Major",
+  "facts": [
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/B47BF5803FED2718D7474EAF9617629AD068EE10/102849.png",
+      "duration": 2,
+      "status": "En feu",
+      "description": "Inflige des dégâts à chaque seconde. Intensité cumulable.",
+      "apply_count": 1
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/B47BF5803FED2718D7474EAF9617629AD068EE10/102849.png",
+      "duration": 2,
+      "status": "En feu",
+      "description": "Inflige des dégâts à chaque seconde. Intensité cumulable.",
+      "apply_count": 1
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/B47BF5803FED2718D7474EAF9617629AD068EE10/102849.png",
+      "duration": 2,
+      "status": "En feu",
+      "description": "Inflige des dégâts à chaque seconde. Intensité cumulable.",
+      "apply_count": 1
+    },
+    {
+      "text": "Nombre d'attaques à déclencher",
+      "type": "Number",
+      "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png",
+      "value": 3
+    },
+    {
+      "text": "Nombre de cibles",
+      "type": "Number",
+      "icon": "https://render.guildwars2.com/file/BBE8191A494B0352259C10EADFDACCE177E6DA5B/1770208.png",
+      "value": 5
+    },
+    {
+      "text": "Nombre de cibles",
+      "type": "Number",
+      "icon": "https://render.guildwars2.com/file/BBE8191A494B0352259C10EADFDACCE177E6DA5B/1770208.png",
+      "value": 3
+    },
+    {
+      "text": "Rayon",
+      "type": "Distance",
+      "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+      "distance": 240
+    }
+  ],
+  "traited_facts": [
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/B47BF5803FED2718D7474EAF9617629AD068EE10/102849.png",
+      "duration": 1,
+      "status": "En feu",
+      "description": "Inflige des dégâts à chaque seconde. Intensité cumulable.",
+      "apply_count": 1,
+      "requires_trait": 2089,
+      "overrides": 1
+    }
+  ],
+  "specialization": 46,
+  "icon": "https://render.guildwars2.com/file/6A76F53CD306D8E65E3774D7F09FF54326D348B5/1012444.png"
+}

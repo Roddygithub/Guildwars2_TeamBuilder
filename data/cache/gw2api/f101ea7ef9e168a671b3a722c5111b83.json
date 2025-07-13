@@ -1,0 +1,4335 @@
+[
+  {
+    "name": "Cinder Cyclone",
+    "icon": "https://render.guildwars2.com/file/7B68F6E238026D446539E99CB056477EFFCE05E2/681260.png",
+    "description": "",
+    "flags": [],
+    "id": 53727,
+    "chat_link": "[&Bt/RAAA=]"
+  },
+  {
+    "name": "Throw Axe",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 800
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 10
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/070325E519C178D502A8160523766070D30C0C19/102838.png",
+        "duration": 3,
+        "status": "Crippled",
+        "description": "Movement speed decreased by 50%; stacks duration.",
+        "apply_count": 1
+      }
+    ],
+    "description": "A projectile attack that ricochetes between enemies and cripples those who are struck.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 53749,
+    "chat_link": "[&BvXRAAA=]"
+  },
+  {
+    "name": "Phantom Blast",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 3800
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 1.7
+      }
+    ],
+    "description": "Ghostly cannon fire.",
+    "icon": "https://render.guildwars2.com/file/3E4DDF0E2AFFD44321A4AA91E8DE95FC96DE4A2A/102812.png",
+    "flags": [],
+    "id": 53758,
+    "chat_link": "[&Bv7RAAA=]"
+  },
+  {
+    "name": "Brand Squall",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 2000
+      }
+    ],
+    "description": "Deals damage to enemies. Damage is higher at the center of the tornado.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 53762,
+    "chat_link": "[&BgLSAAA=]"
+  },
+  {
+    "name": "Piranhas of the Deep",
+    "icon": "https://render.guildwars2.com/file/BFA0EBA2FC06C3D2401B9BD13BE8A8F44C0C0A67/638728.png",
+    "description": "",
+    "flags": [],
+    "id": 53784,
+    "chat_link": "[&BhjSAAA=]"
+  },
+  {
+    "name": "Brand Gust",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 4000
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 15
+      }
+    ],
+    "description": "Damages enemies with a series of chaotic blasts.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 53797,
+    "chat_link": "[&BiXSAAA=]"
+  },
+  {
+    "name": "Deathly Chill",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "description": "",
+    "flags": [],
+    "id": 53828,
+    "chat_link": "[&BkTSAAA=]"
+  },
+  {
+    "name": "Smash",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 135
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 1
+      }
+    ],
+    "description": "A smashing hammer blow.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 53847,
+    "chat_link": "[&BlfSAAA=]"
+  },
+  {
+    "name": "Roaring Brand",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "description": "",
+    "flags": [],
+    "id": 53867,
+    "chat_link": "[&BmvSAAA=]"
+  },
+  {
+    "name": "Life Siphon",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 600
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 12
+      }
+    ],
+    "description": "Siphons health from foes.",
+    "icon": "https://render.guildwars2.com/file/DC2F5B32DF6D77CF2B7C3B9AAF30381FE11A97FE/103037.png",
+    "flags": [],
+    "id": 53926,
+    "chat_link": "[&BqbSAAA=]"
+  },
+  {
+    "name": "Cadaver's Confetti",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 700
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 2
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/79FF0046A5F9ADA3B4C4EC19ADB4CB124D5F0021/102848.png",
+        "duration": 7,
+        "status": "Bleeding",
+        "description": "Deals damage every second; stacks intensity.",
+        "apply_count": 4
+      },
+      {
+        "text": "Launch",
+        "type": "Distance",
+        "icon": "https://render.guildwars2.com/file/B4087CEB5CC006172E0A09DADC5452807A0CA3F7/2440712.png",
+        "distance": 300
+      }
+    ],
+    "description": "Applies additional stacks of bleeding to foes at closer range.",
+    "icon": "https://render.guildwars2.com/file/FC0C5A43332CBCEEFB32EF5331F89650FC0AF310/103111.png",
+    "flags": [],
+    "id": 53934,
+    "chat_link": "[&Bq7SAAA=]"
+  },
+  {
+    "name": "Shared Shock",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 2000
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 1
+      }
+    ],
+    "description": "Shoots a bolt of electricity that bounces between up to four players, damaging foes in between.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 53968,
+    "chat_link": "[&BtDSAAA=]"
+  },
+  {
+    "name": "Crippling Dagger",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 900
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 6
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/070325E519C178D502A8160523766070D30C0C19/102838.png",
+        "duration": 3,
+        "status": "Crippled",
+        "description": "Movement speed decreased by 50%; stacks duration.",
+        "apply_count": 1
+      },
+      {
+        "text": "Combo Finisher",
+        "type": "ComboFinisher",
+        "icon": "https://render.guildwars2.com/file/A513F3653D33FBA4220D2D307799F8A327A36A3B/156656.png",
+        "percent": 100,
+        "finisher_type": "Projectile"
+      }
+    ],
+    "description": "Cripples nearby foes.",
+    "icon": "https://render.guildwars2.com/file/C2CB376B5702FB2EB3677C62BEB0207123D409A8/103098.png",
+    "flags": [],
+    "id": 53983,
+    "chat_link": "[&Bt/SAAA=]"
+  },
+  {
+    "name": "Double Strike",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 130
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 5
+      }
+    ],
+    "description": "Strikes foes twice.",
+    "icon": "https://render.guildwars2.com/file/3BC8295208902CAB3046C27A6C46A4E1CC6EFAFA/104065.png",
+    "flags": [],
+    "id": 54011,
+    "chat_link": "[&BvvSAAA=]"
+  },
+  {
+    "name": "Brand Squall",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 2000
+      }
+    ],
+    "description": "Deals damage to enemies. Damage is higher at the center of the tornado.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 54029,
+    "chat_link": "[&Bg3TAAA=]"
+  },
+  {
+    "name": "Grim Lagoon",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 2400
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 10
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/C0B3EB17FEA2B0C4481333F36AA619EB9ABD1CD6/514400.png",
+        "duration": 2,
+        "status": "Agony",
+        "description": "Deals damage every second; stacks intensity; reduces incoming healing and barrier application by 70% per stack; damage is reduced by agony resistance.",
+        "apply_count": 1
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/10BABF2708CA3575730AC662A2E72EC292565B08/598887.png",
+        "duration": 5,
+        "status": "Torment",
+        "description": "Deals damage every second. Deals additional damage to foes that aren't moving. Stacks intensity.",
+        "apply_count": 1
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/09770136BB76FD0DBE1CC4267DEED54774CB20F6/102837.png",
+        "duration": 5,
+        "status": "Blinded",
+        "description": "Next outgoing attack misses; stacks duration.",
+        "apply_count": 1
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/3A394C1A0A3257EB27A44842DDEEF0DF000E1241/102850.png",
+        "duration": 5,
+        "status": "Vulnerability",
+        "description": "Damage and condition damage taken are increased; stacks intensity.",
+        "apply_count": 1
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/28C4EC547A3516AF0242E826772DA43A5EAC3DF3/102839.png",
+        "duration": 5,
+        "status": "Chilled",
+        "description": "Movement speed decreased by 66%; skill cooldown increased by 66%; stacks duration.",
+        "apply_count": 1
+      }
+    ],
+    "description": "Ghostly pool that applies boons to the undead and conditions to the living.",
+    "icon": "https://render.guildwars2.com/file/B0ECF22AA1463C960EA65020D2B27C932D0996C0/681257.png",
+    "flags": [],
+    "id": 54050,
+    "chat_link": "[&BiLTAAA=]"
+  },
+  {
+    "name": "We Bleed Fire",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 1000
+      }
+    ],
+    "description": "",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 54053,
+    "chat_link": "[&BiXTAAA=]"
+  },
+  {
+    "name": "Slash",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 175
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 1
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/3A394C1A0A3257EB27A44842DDEEF0DF000E1241/102850.png",
+        "duration": 5,
+        "status": "Vulnerability",
+        "description": "Damage and condition damage taken are increased; stacks intensity.",
+        "apply_count": 1
+      }
+    ],
+    "description": "Applies vulnerability.",
+    "icon": "https://render.guildwars2.com/file/A0D6F19109A1BBB848D9C7FF1B090C1EAFC01023/103145.png",
+    "flags": [],
+    "id": 54070,
+    "chat_link": "[&BjbTAAA=]"
+  },
+  {
+    "name": "Piercing Peck",
+    "description": "Birds of prey periodically assault players. Dodging transfers the birds to nearby enemies for 4 seconds.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 54083,
+    "chat_link": "[&BkPTAAA=]"
+  },
+  {
+    "name": "Piranhas of the Deep",
+    "icon": "https://render.guildwars2.com/file/BFA0EBA2FC06C3D2401B9BD13BE8A8F44C0C0A67/638728.png",
+    "description": "",
+    "flags": [],
+    "id": 54109,
+    "chat_link": "[&Bl3TAAA=]"
+  },
+  {
+    "name": "Heartseeker",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 450
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 10
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/79FF0046A5F9ADA3B4C4EC19ADB4CB124D5F0021/102848.png",
+        "duration": 5,
+        "status": "Bleeding",
+        "description": "Deals damage every second; stacks intensity.",
+        "apply_count": 1
+      },
+      {
+        "text": "Combo Finisher",
+        "type": "ComboFinisher",
+        "icon": "https://render.guildwars2.com/file/A513F3653D33FBA4220D2D307799F8A327A36A3B/156656.png",
+        "percent": 100,
+        "finisher_type": "Leap"
+      }
+    ],
+    "description": "Inflicts bleeding.",
+    "icon": "https://render.guildwars2.com/file/7F30CC1709A64346280859937A281DF863E7CD0E/103169.png",
+    "flags": [],
+    "id": 54120,
+    "chat_link": "[&BmjTAAA=]"
+  },
+  {
+    "name": "Brandstone Slash",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 3000
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 15
+      }
+    ],
+    "description": "",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 54123,
+    "chat_link": "[&BmvTAAA=]"
+  },
+  {
+    "name": "Piranhas of the Deep",
+    "icon": "https://render.guildwars2.com/file/BFA0EBA2FC06C3D2401B9BD13BE8A8F44C0C0A67/638728.png",
+    "description": "",
+    "flags": [],
+    "id": 54125,
+    "chat_link": "[&Bm3TAAA=]"
+  },
+  {
+    "name": "Bloody Bludgeon",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 900
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 2
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/79FF0046A5F9ADA3B4C4EC19ADB4CB124D5F0021/102848.png",
+        "duration": 7,
+        "status": "Bleeding",
+        "description": "Deals damage every second; stacks intensity.",
+        "apply_count": 4
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/9AE125E930C92FEA0DD99E7EBAEDE4CF5EC556B6/433474.png",
+        "duration": 2,
+        "status": "Daze",
+        "description": "Unable to activate skills.",
+        "apply_count": 1
+      }
+    ],
+    "description": "An unblockable slam that dazes foes and inflicts additional stacks of bleeding the closer it is.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 54133,
+    "chat_link": "[&BnXTAAA=]"
+  },
+  {
+    "name": "",
+    "facts": [
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/9AE125E930C92FEA0DD99E7EBAEDE4CF5EC556B6/433474.png",
+        "duration": 2,
+        "status": "Daze",
+        "description": "Unable to activate skills.",
+        "apply_count": 1
+      }
+    ],
+    "description": "",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 54139,
+    "chat_link": "[&BnvTAAA=]"
+  },
+  {
+    "name": "Phantom Damnation",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 600
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 10
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/B47BF5803FED2718D7474EAF9617629AD068EE10/102849.png",
+        "duration": 4,
+        "status": "Burning",
+        "description": "Deals damage every second; stacks intensity.",
+        "apply_count": 1
+      }
+    ],
+    "description": "A wave attack that burns foes and enhances allies.",
+    "icon": "https://render.guildwars2.com/file/5B2FE8C77DC2B00E75415AF578E5C550DE9B0CB5/103232.png",
+    "flags": [],
+    "id": 54164,
+    "chat_link": "[&BpTTAAA=]"
+  },
+  {
+    "name": "Charge",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 1000
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 10
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/09770136BB76FD0DBE1CC4267DEED54774CB20F6/102837.png",
+        "duration": 6,
+        "status": "Blinded",
+        "description": "Next outgoing attack misses; stacks duration.",
+        "apply_count": 1
+      },
+      {
+        "text": "Knockback",
+        "type": "Distance",
+        "icon": "https://render.guildwars2.com/file/400B7FD39724FBD700B94AB8AB52B5B9167646F4/2440715.png",
+        "distance": 80
+      }
+    ],
+    "description": "Blinds and knocks foes back.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 54201,
+    "chat_link": "[&BrnTAAA=]"
+  },
+  {
+    "name": "Stormfall",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "description": "",
+    "flags": [],
+    "id": 54243,
+    "chat_link": "[&BuPTAAA=]"
+  },
+  {
+    "name": "Throw Bomb",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 1000
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 3
+      }
+    ],
+    "description": "An explosive attack.",
+    "icon": "https://render.guildwars2.com/file/5F1990FD800E015F5C5AE060A3E9C9DE639E7D47/103013.png",
+    "flags": [],
+    "id": 54261,
+    "chat_link": "[&BvXTAAA=]"
+  },
+  {
+    "name": "Buccaneer's Boot",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 130
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/070325E519C178D502A8160523766070D30C0C19/102838.png",
+        "duration": 5,
+        "status": "Crippled",
+        "description": "Movement speed decreased by 50%; stacks duration.",
+        "apply_count": 1
+      }
+    ],
+    "description": "Cripples foes.",
+    "icon": "https://render.guildwars2.com/file/AD43D7CDEBF83C23B799E94A649794181F6208DA/103124.png",
+    "flags": [],
+    "id": 54284,
+    "chat_link": "[&BgzUAAA=]"
+  },
+  {
+    "name": "Lotus Strike",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 130
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/559B0AF9FB5E1243D2649FAAE660CCB338AACC19/102840.png",
+        "duration": 6,
+        "status": "Poisoned",
+        "description": "Deals damage every second; decreases healing effectiveness by 33%; damage stacks intensity.",
+        "apply_count": 3
+      }
+    ],
+    "description": "Poisons foes.",
+    "icon": "https://render.guildwars2.com/file/A7F45F6D0FC06FB3609E7BCBD207D5950E78FAD0/104099.png",
+    "flags": [],
+    "id": 54293,
+    "chat_link": "[&BhXUAAA=]"
+  },
+  {
+    "name": "Cinder Cyclone",
+    "icon": "https://render.guildwars2.com/file/7B68F6E238026D446539E99CB056477EFFCE05E2/681260.png",
+    "description": "",
+    "flags": [],
+    "id": 54295,
+    "chat_link": "[&BhfUAAA=]"
+  },
+  {
+    "name": "Piranhas of the Deep",
+    "icon": "https://render.guildwars2.com/file/BFA0EBA2FC06C3D2401B9BD13BE8A8F44C0C0A67/638728.png",
+    "description": "",
+    "flags": [],
+    "id": 54300,
+    "chat_link": "[&BhzUAAA=]"
+  },
+  {
+    "name": "Freeze Grenade",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 1200
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 20
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/28C4EC547A3516AF0242E826772DA43A5EAC3DF3/102839.png",
+        "duration": 5,
+        "status": "Chilled",
+        "description": "Movement speed decreased by 66%; skill cooldown increased by 66%; stacks duration.",
+        "apply_count": 1
+      }
+    ],
+    "description": "A frigid blast that freezes foes.",
+    "icon": "https://render.guildwars2.com/file/D95F525D4F2898CDE205CCACE09FD35FEA78B6DD/103103.png",
+    "flags": [],
+    "id": 54324,
+    "chat_link": "[&BjTUAAA=]"
+  },
+  {
+    "name": "We Bleed Fire",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 1000
+      }
+    ],
+    "description": "",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 54348,
+    "chat_link": "[&BkzUAAA=]"
+  },
+  {
+    "name": "Cinder Cyclone",
+    "icon": "https://render.guildwars2.com/file/7B68F6E238026D446539E99CB056477EFFCE05E2/681260.png",
+    "description": "",
+    "flags": [],
+    "id": 54394,
+    "chat_link": "[&BnrUAAA=]"
+  },
+  {
+    "name": "Tail Swipe",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 210
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 2
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/79FF0046A5F9ADA3B4C4EC19ADB4CB124D5F0021/102848.png",
+        "duration": 10,
+        "status": "Bleeding",
+        "description": "Deals damage every second; stacks intensity.",
+        "apply_count": 3
+      }
+    ],
+    "description": "A sweeping tail strike that inflicts bleeding.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 54410,
+    "chat_link": "[&BorUAAA=]"
+  },
+  {
+    "name": "Disrupting Dagger",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 900
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 10
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/9AE125E930C92FEA0DD99E7EBAEDE4CF5EC556B6/433474.png",
+        "duration": 1,
+        "status": "Daze",
+        "description": "Unable to activate skills.",
+        "apply_count": 1
+      },
+      {
+        "text": "Combo Finisher",
+        "type": "ComboFinisher",
+        "icon": "https://render.guildwars2.com/file/A513F3653D33FBA4220D2D307799F8A327A36A3B/156656.png",
+        "percent": 100,
+        "finisher_type": "Projectile"
+      }
+    ],
+    "description": "Dazes its target.",
+    "icon": "https://render.guildwars2.com/file/C2CB376B5702FB2EB3677C62BEB0207123D409A8/103098.png",
+    "flags": [],
+    "id": 54413,
+    "chat_link": "[&Bo3UAAA=]"
+  },
+  {
+    "name": "Chop",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 175
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 5
+      },
+      {
+        "text": "Knockback",
+        "type": "Distance",
+        "icon": "https://render.guildwars2.com/file/400B7FD39724FBD700B94AB8AB52B5B9167646F4/2440715.png",
+        "distance": 75
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/79FF0046A5F9ADA3B4C4EC19ADB4CB124D5F0021/102848.png",
+        "duration": 5,
+        "status": "Bleeding",
+        "description": "Deals damage every second; stacks intensity.",
+        "apply_count": 1
+      }
+    ],
+    "description": "A powerful multi-attack chop.",
+    "icon": "https://render.guildwars2.com/file/EA1741F12BA0FECD2A0FECB70A2F9E90C749C22C/103146.png",
+    "flags": [],
+    "id": 54428,
+    "chat_link": "[&BpzUAAA=]"
+  },
+  {
+    "name": "Cutlass Carve",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 130
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/79FF0046A5F9ADA3B4C4EC19ADB4CB124D5F0021/102848.png",
+        "duration": 15,
+        "status": "Bleeding",
+        "description": "Deals damage every second; stacks intensity.",
+        "apply_count": 2
+      }
+    ],
+    "description": "Inflicts bleeding.",
+    "icon": "https://render.guildwars2.com/file/905B29D0F09934F0FBD954675D1C0CBC37ECEFD8/103123.png",
+    "flags": [],
+    "id": 54445,
+    "chat_link": "[&Bq3UAAA=]"
+  },
+  {
+    "name": "Scurvy Prick",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 130
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/79FF0046A5F9ADA3B4C4EC19ADB4CB124D5F0021/102848.png",
+        "duration": 15,
+        "status": "Bleeding",
+        "description": "Deals damage every second; stacks intensity.",
+        "apply_count": 3
+      }
+    ],
+    "description": "Applies bleeding to foes who are vulnerable.",
+    "icon": "https://render.guildwars2.com/file/CECBFA1662D837E8A526E475A1E701679A2662BA/103125.png",
+    "flags": [],
+    "id": 54463,
+    "chat_link": "[&Br/UAAA=]"
+  },
+  {
+    "name": "",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 2000
+      }
+    ],
+    "description": "Deals damage to enemies. Damage is higher at the center of the tornado.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 54496,
+    "chat_link": "[&BuDUAAA=]"
+  },
+  {
+    "name": "Great Bludgeoning",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 185
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/070325E519C178D502A8160523766070D30C0C19/102838.png",
+        "duration": 5,
+        "status": "Crippled",
+        "description": "Movement speed decreased by 50%; stacks duration.",
+        "apply_count": 1
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/9AE125E930C92FEA0DD99E7EBAEDE4CF5EC556B6/433474.png",
+        "duration": 1,
+        "status": "Daze",
+        "description": "Unable to activate skills.",
+        "apply_count": 1
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/3A394C1A0A3257EB27A44842DDEEF0DF000E1241/102850.png",
+        "duration": 10,
+        "status": "Vulnerability",
+        "description": "Damage and condition damage taken are increased; stacks intensity.",
+        "apply_count": 1
+      }
+    ],
+    "description": "A powerful hammer smash that dazes, cripples, and applies vulnerability.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 54532,
+    "chat_link": "[&BgTVAAA=]"
+  },
+  {
+    "name": "Steadfast Strike",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 130
+      }
+    ],
+    "description": "Enhances nearby allies.",
+    "icon": "https://render.guildwars2.com/file/0399B3F49AB8C94602BECE809EBC0FE238ECB64E/103122.png",
+    "flags": [],
+    "id": 54544,
+    "chat_link": "[&BhDVAAA=]"
+  },
+  {
+    "name": "Water Blast",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 2000
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 2
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/28C4EC547A3516AF0242E826772DA43A5EAC3DF3/102839.png",
+        "duration": 3,
+        "status": "Chilled",
+        "description": "Movement speed decreased by 66%; skill cooldown increased by 66%; stacks duration.",
+        "apply_count": 1
+      }
+    ],
+    "description": "A water projectile that forms a pool around its target, chilling foes and enhancing allies.",
+    "icon": "https://render.guildwars2.com/file/FE0B500420CE04976E45D370B0EC6EC874B1E5FE/103184.png",
+    "flags": [],
+    "id": 54581,
+    "chat_link": "[&BjXVAAA=]"
+  },
+  {
+    "name": "Brand Gust",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 4000
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 15
+      }
+    ],
+    "description": "Damages enemies with a series of chaotic blasts.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 54585,
+    "chat_link": "[&BjnVAAA=]"
+  },
+  {
+    "name": "Wraith's Lightning",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 1200
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 1
+      }
+    ],
+    "description": "A lightning blast that bounces between foes and applies quickness to the caster.",
+    "icon": "https://render.guildwars2.com/file/01D310FE65DBA378CBAFD13B2BFEDE59939C5153/102964.png",
+    "flags": [],
+    "id": 54619,
+    "chat_link": "[&BlvVAAA=]"
+  },
+  {
+    "name": "Energy Wave",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "description": "",
+    "flags": [],
+    "id": 54620,
+    "chat_link": "[&BlzVAAA=]"
+  },
+  {
+    "name": "Flame Seeker",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 1200
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 5
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/F60D1EF5271D7B9319610855676D320CD25F01C6/961397.png",
+        "duration": 5,
+        "status": "Slow",
+        "description": "Skills and actions are slower.",
+        "apply_count": 1
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/B47BF5803FED2718D7474EAF9617629AD068EE10/102849.png",
+        "duration": 3,
+        "status": "Burning",
+        "description": "Deals damage every second; stacks intensity.",
+        "apply_count": 1
+      }
+    ],
+    "description": "A bouncing projectile that buffs allies and applies conditions to foes.",
+    "icon": "https://render.guildwars2.com/file/7C3AA694D44340C00B76B414AC3168071AF292A0/103424.png",
+    "flags": [],
+    "id": 54626,
+    "chat_link": "[&BmLVAAA=]"
+  },
+  {
+    "name": "Throw Anchor",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 1000
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 10
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/070325E519C178D502A8160523766070D30C0C19/102838.png",
+        "duration": 5,
+        "status": "Crippled",
+        "description": "Movement speed decreased by 50%; stacks duration.",
+        "apply_count": 1
+      }
+    ],
+    "description": "A crippling projectile.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 54688,
+    "chat_link": "[&BqDVAAA=]"
+  },
+  {
+    "name": "Deathly Chill",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "description": "",
+    "flags": [],
+    "id": 54699,
+    "chat_link": "[&BqvVAAA=]"
+  },
+  {
+    "name": "Wild Strike",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 130
+      }
+    ],
+    "description": "A dagger strike.",
+    "icon": "https://render.guildwars2.com/file/6CA8D360E77E37AE42ACB8610EA0E2744E3BF87B/104095.png",
+    "flags": [],
+    "id": 54700,
+    "chat_link": "[&BqzVAAA=]"
+  },
+  {
+    "name": "Tail Slam",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 1000
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 10
+      },
+      {
+        "text": "Knockdown",
+        "type": "Time",
+        "icon": "https://render.guildwars2.com/file/7632087376D36B0D100F1B07BE53F154BC337D7C/2440716.png",
+        "duration": 1
+      }
+    ],
+    "description": "Knocks foes down.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 54744,
+    "chat_link": "[&BtjVAAA=]"
+  },
+  {
+    "name": "Hack",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 175
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 1
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/3A394C1A0A3257EB27A44842DDEEF0DF000E1241/102850.png",
+        "duration": 5,
+        "status": "Vulnerability",
+        "description": "Damage and condition damage taken are increased; stacks intensity.",
+        "apply_count": 1
+      }
+    ],
+    "description": "Applies vulnerability.",
+    "icon": "https://render.guildwars2.com/file/BDE6BF09D647B6FA9CA0B42A4B4DE8201C5D004F/103144.png",
+    "flags": [],
+    "id": 54748,
+    "chat_link": "[&BtzVAAA=]"
+  },
+  {
+    "name": "Teeth from the Deep",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 3000
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 15
+      }
+    ],
+    "description": "Spreads damage among foes within the attack's radius. The more targets hit, the weaker the damage.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 54749,
+    "chat_link": "[&Bt3VAAA=]"
+  },
+  {
+    "name": "Brandstone Slash",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 3000
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 15
+      }
+    ],
+    "description": "",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 54804,
+    "chat_link": "[&BhTWAAA=]"
+  },
+  {
+    "name": "Mace Smash",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 130
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 1.5
+      }
+    ],
+    "description": "A series of smashing attacks.",
+    "icon": "https://render.guildwars2.com/file/F6440A5D08EDFB78FD5A5BB31E30CD25040D3F23/103121.png",
+    "flags": [],
+    "id": 54806,
+    "chat_link": "[&BhbWAAA=]"
+  },
+  {
+    "name": "Crushing Blow",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 130
+      }
+    ],
+    "description": "A series of crushing attacks.",
+    "icon": "https://render.guildwars2.com/file/61EE97EF77FE27CB0A2A36AECD0769E334551645/102764.png",
+    "flags": [],
+    "id": 54823,
+    "chat_link": "[&BifWAAA=]"
+  },
+  {
+    "name": "Frostblades",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 450
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 10
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/28C4EC547A3516AF0242E826772DA43A5EAC3DF3/102839.png",
+        "duration": 5,
+        "status": "Chilled",
+        "description": "Movement speed decreased by 66%; skill cooldown increased by 66%; stacks duration.",
+        "apply_count": 1
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/9AE125E930C92FEA0DD99E7EBAEDE4CF5EC556B6/433474.png",
+        "duration": 1,
+        "status": "Daze",
+        "description": "Unable to activate skills.",
+        "apply_count": 1
+      },
+      {
+        "text": "Combo Finisher",
+        "type": "ComboFinisher",
+        "icon": "https://render.guildwars2.com/file/A513F3653D33FBA4220D2D307799F8A327A36A3B/156656.png",
+        "percent": 100,
+        "finisher_type": "Projectile"
+      }
+    ],
+    "description": "Chills foes.",
+    "icon": "https://render.guildwars2.com/file/01FB72EDB4F0E6B67CE0672B1A960FEBC96FC11A/103119.png",
+    "flags": [],
+    "id": 54849,
+    "chat_link": "[&BkHWAAA=]"
+  },
+  {
+    "name": "Sandstorm Shroud",
+    "facts": [
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 20
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/10BABF2708CA3575730AC662A2E72EC292565B08/598887.png",
+        "duration": 5,
+        "status": "Torment",
+        "description": "Deals damage every second. Deals additional damage to foes that aren't moving. Stacks intensity.",
+        "apply_count": 6
+      },
+      {
+        "text": "Duration",
+        "type": "Time",
+        "icon": "https://render.guildwars2.com/file/7B2193ACCF77E56C13E608191B082D68AA0FAA71/156659.png",
+        "duration": 4
+      },
+      {
+        "text": "Radius",
+        "type": "Distance",
+        "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+        "distance": 180
+      },
+      {
+        "text": "Barrier per Pulse",
+        "type": "AttributeAdjust",
+        "icon": "https://render.guildwars2.com/file/357922487919E8E84B914EAC13D5796DDDC42D14/1770209.png",
+        "value": 325,
+        "target": "Healing"
+      },
+      {
+        "text": "Barrier on Detonation",
+        "type": "AttributeAdjust",
+        "icon": "https://render.guildwars2.com/file/357922487919E8E84B914EAC13D5796DDDC42D14/1770209.png",
+        "value": 650,
+        "target": "Healing"
+      },
+      {
+        "text": "Damage",
+        "type": "Damage",
+        "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+        "hit_count": 1,
+        "dmg_multiplier": 3
+      },
+      {
+        "text": "Damage",
+        "type": "Damage",
+        "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+        "hit_count": 1,
+        "dmg_multiplier": 2
+      },
+      {
+        "text": "Number of Targets",
+        "type": "Number",
+        "icon": "https://render.guildwars2.com/file/BBE8191A494B0352259C10EADFDACCE177E6DA5B/1770208.png",
+        "value": 3
+      },
+      {
+        "text": "Number of Targets",
+        "type": "Number",
+        "icon": "https://render.guildwars2.com/file/BBE8191A494B0352259C10EADFDACCE177E6DA5B/1770208.png",
+        "value": 2
+      },
+      {
+        "text": "Boons Converted to Conditions",
+        "type": "Number",
+        "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png",
+        "value": 2
+      },
+      {
+        "text": "Life Force Cost",
+        "icon": "https://render.guildwars2.com/file/7F20920A42951A471352CE56CBD1F15257C10757/1770200.png",
+        "percent": 35
+      },
+      {
+        "text": "Barrier Radius",
+        "type": "Distance",
+        "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+        "distance": 300
+      },
+      {
+        "text": "Number of Allied Targets",
+        "type": "Number",
+        "icon": "https://render.guildwars2.com/file/BBE8191A494B0352259C10EADFDACCE177E6DA5B/1770208.png",
+        "value": 5
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/CD77D1FAB7B270223538A8F8ECDA1CFB044D65F4/102834.png",
+        "duration": 2,
+        "status": "Protection",
+        "description": "Incoming strike damage decreased by 33%; stacks duration.",
+        "apply_count": 3
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/CD77D1FAB7B270223538A8F8ECDA1CFB044D65F4/102834.png",
+        "duration": 3,
+        "status": "Protection",
+        "description": "Incoming strike damage decreased by 33%; stacks duration.",
+        "apply_count": 1
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/CD77D1FAB7B270223538A8F8ECDA1CFB044D65F4/102834.png",
+        "duration": 2,
+        "status": "Protection",
+        "description": "Incoming strike damage decreased by 33%; stacks duration.",
+        "apply_count": 1
+      }
+    ],
+    "description": "Shade. Enter the final shroud, pulsing barrier to allies around yourself and priming the shroud for a powerful detonation that damages enemies and bolsters allies.\nTargets can only be affected by the detonation once per activation.",
+    "icon": "https://render.guildwars2.com/file/67EF1250A2BE9C00B9B3F462C00696BFC1E0BFAD/2110169.png",
+    "type": "Profession",
+    "weapon_type": "None",
+    "professions": [
+      "Necromancer"
+    ],
+    "slot": "Profession_5",
+    "flags": [],
+    "specialization": 60,
+    "id": 54870,
+    "chat_link": "[&BlbWAAA=]",
+    "traited_facts": [
+      {
+        "text": "Radius",
+        "type": "Distance",
+        "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+        "distance": 300,
+        "requires_trait": 2112,
+        "overrides": 3
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/96D90DF84CAFE008233DD1C2606A12C1A0E68048/102842.png",
+        "duration": 5,
+        "status": "Fury",
+        "description": "Critical chance increased; stacks duration.",
+        "apply_count": 1,
+        "requires_trait": 803
+      },
+      {
+        "text": "Conditions Removed",
+        "type": "Number",
+        "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png",
+        "value": 1,
+        "requires_trait": 1922
+      },
+      {
+        "text": "Number of Targets",
+        "type": "Number",
+        "icon": "https://render.guildwars2.com/file/BBE8191A494B0352259C10EADFDACCE177E6DA5B/1770208.png",
+        "value": 5,
+        "requires_trait": 2112,
+        "overrides": 8
+      }
+    ]
+  },
+  {
+    "name": "Sword of Justice",
+    "facts": [
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 1
+      },
+      {
+        "text": "Count Recharge",
+        "type": "Time",
+        "icon": "https://render.guildwars2.com/file/AAB7C5387A08367C2F023F19FEE70E1556AD4375/1770202.png",
+        "duration": 15
+      },
+      {
+        "text": "Count Recharge",
+        "type": "Time",
+        "icon": "https://render.guildwars2.com/file/AAB7C5387A08367C2F023F19FEE70E1556AD4375/1770202.png",
+        "duration": 20
+      },
+      {
+        "text": "Casts",
+        "type": "Number",
+        "icon": "https://render.guildwars2.com/file/B4490FB81AA1E7C06F1B22056AE09A0F54CBE2C4/1770201.png",
+        "value": 3
+      },
+      {
+        "text": "Casts",
+        "type": "Number",
+        "icon": "https://render.guildwars2.com/file/B4490FB81AA1E7C06F1B22056AE09A0F54CBE2C4/1770201.png",
+        "value": 2
+      },
+      {
+        "text": "Damage",
+        "type": "Damage",
+        "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+        "hit_count": 4,
+        "dmg_multiplier": 0.72
+      },
+      {
+        "text": "Damage",
+        "type": "Damage",
+        "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+        "hit_count": 4,
+        "dmg_multiplier": 0.45
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/3A394C1A0A3257EB27A44842DDEEF0DF000E1241/102850.png",
+        "duration": 8,
+        "status": "Vulnerability",
+        "description": "Damage and condition damage taken are increased; stacks intensity.",
+        "apply_count": 12
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/3A394C1A0A3257EB27A44842DDEEF0DF000E1241/102850.png",
+        "duration": 6,
+        "status": "Vulnerability",
+        "description": "Damage and condition damage taken are increased; stacks intensity.",
+        "apply_count": 12
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/070325E519C178D502A8160523766070D30C0C19/102838.png",
+        "duration": 3,
+        "status": "Crippled",
+        "description": "Movement speed decreased by 50%; stacks duration.",
+        "apply_count": 1
+      },
+      {
+        "text": "Radius",
+        "type": "Distance",
+        "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+        "distance": 180
+      },
+      {
+        "text": "Number of Targets",
+        "type": "Number",
+        "icon": "https://render.guildwars2.com/file/BBE8191A494B0352259C10EADFDACCE177E6DA5B/1770208.png",
+        "value": 5
+      }
+    ],
+    "description": "Spirit Weapon. Will the Sword of Justice to appear beside your enemy and attack nearby foes.",
+    "icon": "https://render.guildwars2.com/file/98B40D09401B44949604E073F5F793C660B7ED22/103669.png",
+    "type": "Utility",
+    "weapon_type": "None",
+    "professions": [
+      "Guardian"
+    ],
+    "slot": "Utility",
+    "flags": [],
+    "id": 55019,
+    "chat_link": "[&BuvWAAA=]",
+    "categories": [
+      "SpiritWeapon"
+    ],
+    "traited_facts": [
+      {
+        "text": "Casts",
+        "type": "Number",
+        "icon": "https://render.guildwars2.com/file/B4490FB81AA1E7C06F1B22056AE09A0F54CBE2C4/1770201.png",
+        "value": 4,
+        "requires_trait": 635,
+        "overrides": 3
+      },
+      {
+        "text": "Casts",
+        "type": "Number",
+        "icon": "https://render.guildwars2.com/file/B4490FB81AA1E7C06F1B22056AE09A0F54CBE2C4/1770201.png",
+        "value": 3,
+        "requires_trait": 635,
+        "overrides": 4
+      }
+    ]
+  },
+  {
+    "name": "Glyph of the Stars",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 1200
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 48
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/045471E55B24643A19C40B0D78593007AA1BE665/1128631.png",
+        "duration": 0,
+        "status": "You do not lose health from being downed.",
+        "apply_count": 1
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/3D3A1C2D6D791C05179AB871902D28782C65C244/415959.png",
+        "duration": 2,
+        "status": "Stability",
+        "description": "Cannot be knocked down, pushed back, pulled, launched, stunned, dazed, floated, sunk, feared, or taunted.",
+        "apply_count": 1
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/F69996772B9E18FD18AD0AABAB25D7E3FC42F261/102835.png",
+        "duration": 2,
+        "status": "Regeneration",
+        "description": "Gain health every second; stacks duration.",
+        "apply_count": 1
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/58E92EBAF0DB4DA7C4AC04D9B22BCA5ECF0100DE/102843.png",
+        "duration": 2,
+        "status": "Vigor",
+        "description": "Endurance regeneration increased by 50%; stacks duration.",
+        "apply_count": 1
+      },
+      {
+        "text": "Radius",
+        "type": "Distance",
+        "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+        "distance": 360
+      },
+      {
+        "text": "Revive per Pulse",
+        "type": "Percent",
+        "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png",
+        "percent": 12
+      },
+      {
+        "text": "Number of Allied Targets",
+        "type": "Number",
+        "icon": "https://render.guildwars2.com/file/BBE8191A494B0352259C10EADFDACCE177E6DA5B/1770208.png",
+        "value": 5
+      },
+      {
+        "text": "Healing",
+        "type": "AttributeAdjust",
+        "icon": "https://render.guildwars2.com/file/D4347C52157B040943051D7E09DEAD7AF63D4378/156662.png",
+        "value": 392,
+        "target": "Healing"
+      },
+      {
+        "text": "Pulses",
+        "type": "Number",
+        "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png",
+        "value": 6
+      },
+      {
+        "text": "Revive per Pulse",
+        "type": "Percent",
+        "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png",
+        "percent": 5
+      }
+    ],
+    "description": "Glyph. Prevent health drain while downed and revive downed allies in the targeted area. Heal and grant boons to allies in that area.",
+    "icon": "https://render.guildwars2.com/file/045471E55B24643A19C40B0D78593007AA1BE665/1128631.png",
+    "type": "Elite",
+    "weapon_type": "None",
+    "professions": [
+      "Ranger"
+    ],
+    "slot": "Elite",
+    "flags": [
+      "GroundTargeted",
+      "NoUnderwater"
+    ],
+    "specialization": 5,
+    "id": 55024,
+    "chat_link": "[&BvDWAAA=]",
+    "categories": [
+      "Glyph"
+    ]
+  },
+  {
+    "name": "Sword of Justice",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 900
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 1
+      },
+      {
+        "text": "Count Recharge",
+        "type": "Time",
+        "icon": "https://render.guildwars2.com/file/AAB7C5387A08367C2F023F19FEE70E1556AD4375/1770202.png",
+        "duration": 15
+      },
+      {
+        "text": "Count Recharge",
+        "type": "Time",
+        "icon": "https://render.guildwars2.com/file/AAB7C5387A08367C2F023F19FEE70E1556AD4375/1770202.png",
+        "duration": 20
+      },
+      {
+        "text": "Casts",
+        "type": "Number",
+        "icon": "https://render.guildwars2.com/file/B4490FB81AA1E7C06F1B22056AE09A0F54CBE2C4/1770201.png",
+        "value": 3
+      },
+      {
+        "text": "Casts",
+        "type": "Number",
+        "icon": "https://render.guildwars2.com/file/B4490FB81AA1E7C06F1B22056AE09A0F54CBE2C4/1770201.png",
+        "value": 3
+      },
+      {
+        "text": "Damage",
+        "type": "Damage",
+        "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+        "hit_count": 4,
+        "dmg_multiplier": 0.72
+      },
+      {
+        "text": "Damage",
+        "type": "Damage",
+        "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+        "hit_count": 4,
+        "dmg_multiplier": 0.8
+      },
+      {
+        "text": "Damage",
+        "type": "Damage",
+        "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+        "hit_count": 4,
+        "dmg_multiplier": 0.45
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/3A394C1A0A3257EB27A44842DDEEF0DF000E1241/102850.png",
+        "duration": 8,
+        "status": "Vulnerability",
+        "description": "Damage and condition damage taken are increased; stacks intensity.",
+        "apply_count": 12
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/3A394C1A0A3257EB27A44842DDEEF0DF000E1241/102850.png",
+        "duration": 6,
+        "status": "Vulnerability",
+        "description": "Damage and condition damage taken are increased; stacks intensity.",
+        "apply_count": 12
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/070325E519C178D502A8160523766070D30C0C19/102838.png",
+        "duration": 3,
+        "status": "Crippled",
+        "description": "Movement speed decreased by 50%; stacks duration.",
+        "apply_count": 1
+      },
+      {
+        "text": "Radius",
+        "type": "Distance",
+        "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+        "distance": 180
+      },
+      {
+        "text": "Number of Targets",
+        "type": "Number",
+        "icon": "https://render.guildwars2.com/file/BBE8191A494B0352259C10EADFDACCE177E6DA5B/1770208.png",
+        "value": 5
+      }
+    ],
+    "description": "Spirit Weapon. Will the Sword of Justice to appear beside your enemy and attack nearby foes.",
+    "icon": "https://render.guildwars2.com/file/98B40D09401B44949604E073F5F793C660B7ED22/103669.png",
+    "type": "Utility",
+    "weapon_type": "None",
+    "professions": [
+      "Guardian"
+    ],
+    "slot": "Utility",
+    "flip_skill": 55019,
+    "flags": [],
+    "id": 55027,
+    "chat_link": "[&BvPWAAA=]",
+    "categories": [
+      "SpiritWeapon"
+    ],
+    "traited_facts": [
+      {
+        "text": "Casts",
+        "type": "Number",
+        "icon": "https://render.guildwars2.com/file/B4490FB81AA1E7C06F1B22056AE09A0F54CBE2C4/1770201.png",
+        "value": 4,
+        "requires_trait": 635,
+        "overrides": 4
+      },
+      {
+        "text": "Casts",
+        "type": "Number",
+        "icon": "https://render.guildwars2.com/file/B4490FB81AA1E7C06F1B22056AE09A0F54CBE2C4/1770201.png",
+        "value": 4,
+        "requires_trait": 635,
+        "overrides": 5
+      }
+    ]
+  },
+  {
+    "name": "Ancient Echo",
+    "facts": [
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 20
+      },
+      {
+        "text": "Energy Gain",
+        "type": "Number",
+        "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png",
+        "value": 25
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "PrefixedBuff",
+        "icon": "https://render.guildwars2.com/file/BD6C4CEEC95711F20FC62A4CA310C5A6574F9664/2261523.png",
+        "duration": 5,
+        "status": "Unblockable",
+        "description": "Your attacks can't be blocked.",
+        "apply_count": 2,
+        "prefix": {
+          "text": "Apply Buff/Condition",
+          "icon": "https://render.guildwars2.com/file/67CDD35F6BC3072E0837715A5E0A90646529BAA2/1030005.png",
+          "status": "Legendary Assassin Stance",
+          "description": "Currently invoking the power of Shiro Tagachi."
+        }
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "PrefixedBuff",
+        "icon": "https://render.guildwars2.com/file/01BC005B3C1F590D7075523EEA27361D31D69803/1012988.png",
+        "duration": 0,
+        "status": "Tranquil",
+        "description": "Your next centaur skill is empowered.",
+        "apply_count": 1,
+        "prefix": {
+          "text": "Apply Buff/Condition",
+          "icon": "https://render.guildwars2.com/file/0E091B41C047DD5A1BCA6B9193C73E6B29524C5D/1983636.png",
+          "status": "Legendary Centaur Stance",
+          "description": "Currently invoking the power of Ventari."
+        }
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "PrefixedBuff",
+        "icon": "https://render.guildwars2.com/file/D8AEB219F1A057F3F4E47E5E54A12BBABFC8474F/961437.png",
+        "duration": 3,
+        "status": "Rite of the Great Dwarf",
+        "description": "Gain 50% damage reduction. You are still susceptible to conditions and control effects.",
+        "apply_count": 1,
+        "prefix": {
+          "text": "Apply Buff/Condition",
+          "icon": "https://render.guildwars2.com/file/03C66FA8A89697A0C4D309484172080E3A1141EF/961410.png",
+          "status": "Legendary Dwarf Stance",
+          "description": "Currently invoking the power of King Jalis Ironhammer."
+        }
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "PrefixedBuff",
+        "icon": "https://render.guildwars2.com/file/50BAC1B8E10CFAB9E749A5D910D4A9DCF29EBB7C/961398.png",
+        "duration": 3,
+        "status": "Resistance",
+        "description": "Nondamaging conditions currently on you are ineffective; stacks duration.",
+        "apply_count": 1,
+        "prefix": {
+          "text": "Apply Buff/Condition",
+          "icon": "https://render.guildwars2.com/file/1A1407F7D34E5ED41B59A25F39EBF728CC926423/961413.png",
+          "status": "Legendary Demon Stance",
+          "description": "Currently invoking the power of Mallyx the Unyielding."
+        }
+      }
+    ],
+    "description": "Refresh your bond with your channeled legend, gaining energy and legend-specific effects.",
+    "icon": "https://render.guildwars2.com/file/1D64DDAE58CA483FF80EBD6ED01861E95A4B0F77/2128020.png",
+    "type": "Profession",
+    "weapon_type": "None",
+    "professions": [
+      "Revenant"
+    ],
+    "slot": "Profession_2",
+    "flags": [],
+    "id": 55029,
+    "chat_link": "[&BvXWAAA=]"
+  },
+  {
+    "name": "Shield of the Avenger",
+    "facts": [
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 1
+      },
+      {
+        "text": "Dome Radius",
+        "type": "Distance",
+        "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+        "distance": 180
+      },
+      {
+        "text": "Explosion Radius",
+        "type": "Distance",
+        "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+        "distance": 360
+      },
+      {
+        "text": "Duration",
+        "type": "Time",
+        "icon": "https://render.guildwars2.com/file/7B2193ACCF77E56C13E608191B082D68AA0FAA71/156659.png",
+        "duration": 5
+      },
+      {
+        "text": "Count Recharge",
+        "type": "Time",
+        "icon": "https://render.guildwars2.com/file/AAB7C5387A08367C2F023F19FEE70E1556AD4375/1770202.png",
+        "duration": 25
+      },
+      {
+        "text": "Casts",
+        "type": "Number",
+        "icon": "https://render.guildwars2.com/file/B4490FB81AA1E7C06F1B22056AE09A0F54CBE2C4/1770201.png",
+        "value": 3
+      },
+      {
+        "text": "Damage",
+        "type": "Damage",
+        "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+        "hit_count": 1,
+        "dmg_multiplier": 0.5
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/6CB0E64AF9AA292E332A38C1770CE577E2CDE0E8/102853.png",
+        "duration": 6,
+        "status": "Weakness",
+        "description": "Endurance regeneration decreased by 50%. 50% of hits are Glancing Blows (50% damage). Stacks duration.",
+        "apply_count": 1
+      },
+      {
+        "text": "Number of Targets",
+        "type": "Number",
+        "icon": "https://render.guildwars2.com/file/BBE8191A494B0352259C10EADFDACCE177E6DA5B/1770208.png",
+        "value": 5
+      }
+    ],
+    "description": "Spirit Weapon. Command the Shield of the Avenger to form a protective dome, and then shatter, flying out to weaken nearby foes.",
+    "icon": "https://render.guildwars2.com/file/CFBE4110635CD25B68EE194E7DBE25166DAAA197/103673.png",
+    "type": "Utility",
+    "weapon_type": "None",
+    "professions": [
+      "Guardian"
+    ],
+    "slot": "Utility",
+    "flags": [],
+    "id": 55035,
+    "chat_link": "[&BvvWAAA=]",
+    "categories": [
+      "SpiritWeapon"
+    ],
+    "traited_facts": [
+      {
+        "text": "Casts",
+        "type": "Number",
+        "icon": "https://render.guildwars2.com/file/B4490FB81AA1E7C06F1B22056AE09A0F54CBE2C4/1770201.png",
+        "value": 4,
+        "requires_trait": 635,
+        "overrides": 5
+      }
+    ]
+  },
+  {
+    "name": "Shield of the Avenger",
+    "facts": [
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 1
+      },
+      {
+        "text": "Duration",
+        "type": "Time",
+        "icon": "https://render.guildwars2.com/file/7B2193ACCF77E56C13E608191B082D68AA0FAA71/156659.png",
+        "duration": 5
+      },
+      {
+        "text": "Count Recharge",
+        "type": "Time",
+        "icon": "https://render.guildwars2.com/file/AAB7C5387A08367C2F023F19FEE70E1556AD4375/1770202.png",
+        "duration": 25
+      },
+      {
+        "text": "Casts",
+        "type": "Number",
+        "icon": "https://render.guildwars2.com/file/B4490FB81AA1E7C06F1B22056AE09A0F54CBE2C4/1770201.png",
+        "value": 3
+      },
+      {
+        "text": "Damage",
+        "type": "Damage",
+        "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+        "hit_count": 1,
+        "dmg_multiplier": 0.5
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/6CB0E64AF9AA292E332A38C1770CE577E2CDE0E8/102853.png",
+        "duration": 6,
+        "status": "Weakness",
+        "description": "Endurance regeneration decreased by 50%. 50% of hits are Glancing Blows (50% damage). Stacks duration.",
+        "apply_count": 1
+      },
+      {
+        "text": "Number of Targets",
+        "type": "Number",
+        "icon": "https://render.guildwars2.com/file/BBE8191A494B0352259C10EADFDACCE177E6DA5B/1770208.png",
+        "value": 5
+      },
+      {
+        "text": "Dome Radius",
+        "type": "Distance",
+        "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+        "distance": 180
+      },
+      {
+        "text": "Explosion Radius",
+        "type": "Distance",
+        "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+        "distance": 360
+      }
+    ],
+    "description": "Spirit Weapon. Command the Shield of the Avenger to form a protective dome, and then shatter, flying out to weaken nearby foes.",
+    "icon": "https://render.guildwars2.com/file/CFBE4110635CD25B68EE194E7DBE25166DAAA197/103673.png",
+    "type": "Utility",
+    "weapon_type": "None",
+    "professions": [
+      "Guardian"
+    ],
+    "slot": "Utility",
+    "flip_skill": 55035,
+    "flags": [],
+    "id": 55037,
+    "chat_link": "[&Bv3WAAA=]",
+    "categories": [
+      "SpiritWeapon"
+    ],
+    "traited_facts": [
+      {
+        "text": "Casts",
+        "type": "Number",
+        "icon": "https://render.guildwars2.com/file/B4490FB81AA1E7C06F1B22056AE09A0F54CBE2C4/1770201.png",
+        "value": 4,
+        "requires_trait": 635,
+        "overrides": 3
+      }
+    ]
+  },
+  {
+    "name": "Hammer of Wisdom",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 900
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 8
+      },
+      {
+        "text": "Count Recharge",
+        "type": "Time",
+        "icon": "https://render.guildwars2.com/file/AAB7C5387A08367C2F023F19FEE70E1556AD4375/1770202.png",
+        "duration": 20
+      },
+      {
+        "text": "Count Recharge",
+        "type": "Time",
+        "icon": "https://render.guildwars2.com/file/AAB7C5387A08367C2F023F19FEE70E1556AD4375/1770202.png",
+        "duration": 24
+      },
+      {
+        "text": "Damage",
+        "type": "Damage",
+        "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+        "hit_count": 1,
+        "dmg_multiplier": 1.2
+      },
+      {
+        "text": "Damage",
+        "type": "Damage",
+        "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+        "hit_count": 1,
+        "dmg_multiplier": 0.01
+      },
+      {
+        "text": "Sink",
+        "type": "Time",
+        "icon": "https://render.guildwars2.com/file/6837AAE7291A9A0EDBD937C4D1017CB73D8045FB/2440714.png",
+        "duration": 2
+      },
+      {
+        "text": "Combo Finisher",
+        "type": "ComboFinisher",
+        "icon": "https://render.guildwars2.com/file/A513F3653D33FBA4220D2D307799F8A327A36A3B/156656.png",
+        "percent": 100,
+        "finisher_type": "Blast"
+      },
+      {
+        "text": "Number of Targets",
+        "type": "Number",
+        "icon": "https://render.guildwars2.com/file/BBE8191A494B0352259C10EADFDACCE177E6DA5B/1770208.png",
+        "value": 3
+      },
+      {
+        "text": "Casts",
+        "type": "Number",
+        "icon": "https://render.guildwars2.com/file/B4490FB81AA1E7C06F1B22056AE09A0F54CBE2C4/1770201.png",
+        "value": 2
+      }
+    ],
+    "description": "Spirit Weapon. Order the Hammer of Wisdom to knock down your foe.",
+    "icon": "https://render.guildwars2.com/file/99430A49F97BA45EF101E611A69193D57BF70A7D/103655.png",
+    "type": "Utility",
+    "weapon_type": "None",
+    "professions": [
+      "Guardian"
+    ],
+    "slot": "Utility",
+    "flip_skill": 55053,
+    "flags": [],
+    "id": 55040,
+    "chat_link": "[&BgDXAAA=]",
+    "categories": [
+      "SpiritWeapon"
+    ],
+    "traited_facts": [
+      {
+        "text": "Casts",
+        "type": "Number",
+        "icon": "https://render.guildwars2.com/file/B4490FB81AA1E7C06F1B22056AE09A0F54CBE2C4/1770201.png",
+        "value": 3,
+        "requires_trait": 635,
+        "overrides": 9
+      }
+    ]
+  },
+  {
+    "name": "Glyph of the Stars",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 1200
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 48
+      },
+      {
+        "text": "Radius",
+        "type": "Distance",
+        "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+        "distance": 360
+      },
+      {
+        "text": "Pulses",
+        "type": "Number",
+        "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png",
+        "value": 6
+      },
+      {
+        "text": "Conditions Removed",
+        "type": "Number",
+        "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png",
+        "value": 2
+      },
+      {
+        "text": "Number of Allied Targets",
+        "type": "Number",
+        "icon": "https://render.guildwars2.com/file/BBE8191A494B0352259C10EADFDACCE177E6DA5B/1770208.png",
+        "value": 5
+      },
+      {
+        "text": "Healing",
+        "type": "AttributeAdjust",
+        "icon": "https://render.guildwars2.com/file/D4347C52157B040943051D7E09DEAD7AF63D4378/156662.png",
+        "value": 293,
+        "target": "Healing"
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/3D3A1C2D6D791C05179AB871902D28782C65C244/415959.png",
+        "duration": 2,
+        "status": "Stability",
+        "description": "Cannot be knocked down, pushed back, pulled, launched, stunned, dazed, floated, sunk, feared, or taunted.",
+        "apply_count": 1
+      },
+      {
+        "text": "Combo Field",
+        "type": "ComboField",
+        "icon": "https://render.guildwars2.com/file/59E0DB6A699810641C959926ADFEF73E08CC255B/156655.png",
+        "field_type": "Water"
+      }
+    ],
+    "description": "Glyph. Heal allies, cleanse conditions, and grant stability to allies in the area.",
+    "icon": "https://render.guildwars2.com/file/E04535E0710904BE9841BAC49922200E39B9B413/1128636.png",
+    "type": "Elite",
+    "weapon_type": "None",
+    "professions": [
+      "Ranger"
+    ],
+    "slot": "Elite",
+    "flags": [
+      "GroundTargeted",
+      "NoUnderwater"
+    ],
+    "specialization": 5,
+    "id": 55046,
+    "chat_link": "[&BgbXAAA=]",
+    "categories": [
+      "Glyph"
+    ]
+  },
+  {
+    "name": "Soul Grasp",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 1200
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 3
+      },
+      {
+        "text": "Count Recharge",
+        "type": "Time",
+        "icon": "https://render.guildwars2.com/file/AAB7C5387A08367C2F023F19FEE70E1556AD4375/1770202.png",
+        "duration": 12
+      },
+      {
+        "text": "Count Recharge",
+        "type": "Time",
+        "icon": "https://render.guildwars2.com/file/AAB7C5387A08367C2F023F19FEE70E1556AD4375/1770202.png",
+        "duration": 15
+      },
+      {
+        "text": "Maximum Count",
+        "type": "Number",
+        "icon": "https://render.guildwars2.com/file/B4490FB81AA1E7C06F1B22056AE09A0F54CBE2C4/1770201.png",
+        "value": 3
+      },
+      {
+        "text": "Maximum Count",
+        "type": "Number",
+        "icon": "https://render.guildwars2.com/file/B4490FB81AA1E7C06F1B22056AE09A0F54CBE2C4/1770201.png",
+        "value": 2
+      },
+      {
+        "text": "Life Force",
+        "type": "Percent",
+        "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png",
+        "percent": 11
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/3A394C1A0A3257EB27A44842DDEEF0DF000E1241/102850.png",
+        "duration": 6,
+        "status": "Vulnerability",
+        "description": "Damage and condition damage taken are increased; stacks intensity.",
+        "apply_count": 5
+      },
+      {
+        "text": "Life Siphon Damage",
+        "type": "AttributeAdjust",
+        "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+        "value": 440,
+        "target": "Power"
+      },
+      {
+        "text": "Life Siphon Damage",
+        "type": "AttributeAdjust",
+        "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+        "value": 440,
+        "target": "Power"
+      },
+      {
+        "text": "Life Siphon Healing",
+        "type": "AttributeAdjust",
+        "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+        "value": 1003,
+        "target": "Healing"
+      }
+    ],
+    "description": "Release a disembodied hand to draw life force from your foe.",
+    "icon": "https://render.guildwars2.com/file/FA5ADFEE0A3C38BC6B9A0E301E6DEFFF9C763A54/103137.png",
+    "type": "Weapon",
+    "weapon_type": "Focus",
+    "professions": [
+      "Necromancer"
+    ],
+    "slot": "Weapon_4",
+    "flags": [
+      "NoUnderwater"
+    ],
+    "id": 55050,
+    "chat_link": "[&BgrXAAA=]",
+    "traited_facts": [
+      {
+        "text": "Count Recharge",
+        "type": "Time",
+        "icon": "https://render.guildwars2.com/file/AAB7C5387A08367C2F023F19FEE70E1556AD4375/1770202.png",
+        "duration": 10,
+        "requires_trait": 914,
+        "overrides": 2
+      },
+      {
+        "text": "Count Recharge",
+        "type": "Time",
+        "icon": "https://render.guildwars2.com/file/AAB7C5387A08367C2F023F19FEE70E1556AD4375/1770202.png",
+        "duration": 12,
+        "requires_trait": 914,
+        "overrides": 3
+      }
+    ]
+  },
+  {
+    "name": "Hammer of Wisdom",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 900
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 8
+      },
+      {
+        "text": "Damage",
+        "type": "Damage",
+        "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+        "hit_count": 1,
+        "dmg_multiplier": 1.2
+      },
+      {
+        "text": "Damage",
+        "type": "Damage",
+        "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+        "hit_count": 1,
+        "dmg_multiplier": 0.01
+      },
+      {
+        "text": "Sink",
+        "type": "Time",
+        "icon": "https://render.guildwars2.com/file/6837AAE7291A9A0EDBD937C4D1017CB73D8045FB/2440714.png",
+        "duration": 2
+      },
+      {
+        "text": "Combo Finisher",
+        "type": "ComboFinisher",
+        "icon": "https://render.guildwars2.com/file/A513F3653D33FBA4220D2D307799F8A327A36A3B/156656.png",
+        "percent": 100,
+        "finisher_type": "Blast"
+      },
+      {
+        "text": "Number of Targets",
+        "type": "Number",
+        "icon": "https://render.guildwars2.com/file/BBE8191A494B0352259C10EADFDACCE177E6DA5B/1770208.png",
+        "value": 1
+      },
+      {
+        "text": "Casts",
+        "type": "Number",
+        "icon": "https://render.guildwars2.com/file/B4490FB81AA1E7C06F1B22056AE09A0F54CBE2C4/1770201.png",
+        "value": 2
+      }
+    ],
+    "description": "Spirit Weapon. Order the Hammer of Wisdom to knock down your foe.",
+    "icon": "https://render.guildwars2.com/file/99430A49F97BA45EF101E611A69193D57BF70A7D/103655.png",
+    "type": "Utility",
+    "weapon_type": "None",
+    "professions": [
+      "Guardian"
+    ],
+    "slot": "Utility",
+    "flags": [],
+    "id": 55053,
+    "chat_link": "[&Bg3XAAA=]",
+    "categories": [
+      "SpiritWeapon"
+    ],
+    "traited_facts": [
+      {
+        "text": "Casts",
+        "type": "Number",
+        "icon": "https://render.guildwars2.com/file/B4490FB81AA1E7C06F1B22056AE09A0F54CBE2C4/1770201.png",
+        "value": 3,
+        "requires_trait": 635,
+        "overrides": 7
+      },
+      {
+        "text": "Count Recharge",
+        "type": "Time",
+        "icon": "https://render.guildwars2.com/file/AAB7C5387A08367C2F023F19FEE70E1556AD4375/1770202.png",
+        "duration": 20,
+        "requires_trait": 635
+      },
+      {
+        "text": "Count Recharge",
+        "type": "Time",
+        "icon": "https://render.guildwars2.com/file/AAB7C5387A08367C2F023F19FEE70E1556AD4375/1770202.png",
+        "duration": 24,
+        "requires_trait": 635
+      }
+    ]
+  },
+  {
+    "name": "Wisp of Will",
+    "facts": [
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 7
+      }
+    ],
+    "description": "",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 55131,
+    "chat_link": "[&BlvXAAA=]"
+  },
+  {
+    "name": "Unearthly Fissure",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 4000
+      }
+    ],
+    "description": "",
+    "icon": "https://render.guildwars2.com/file/5A7A35F3F260F09FE5C54111FBC219934070A00A/103946.png",
+    "flags": [],
+    "id": 55244,
+    "chat_link": "[&BszXAAA=]"
+  },
+  {
+    "name": "Hungering Miasma",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 700
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 20
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/070325E519C178D502A8160523766070D30C0C19/102838.png",
+        "duration": 2,
+        "status": "Crippled",
+        "description": "Movement speed decreased by 50%; stacks duration.",
+        "apply_count": 1
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/559B0AF9FB5E1243D2649FAAE660CCB338AACC19/102840.png",
+        "duration": 5,
+        "status": "Poisoned",
+        "description": "Deals damage every second; decreases healing effectiveness by 33%; damage stacks intensity.",
+        "apply_count": 3
+      }
+    ],
+    "description": "The Eater of Souls regurgitates its stomach, spreading a viscous ooze on the ground.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 55258,
+    "chat_link": "[&BtrXAAA=]"
+  },
+  {
+    "name": "Barrage",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 7000
+      }
+    ],
+    "description": "",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 55316,
+    "chat_link": "[&BhTYAAA=]"
+  },
+  {
+    "name": "Ambush",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 1500
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 20
+      }
+    ],
+    "description": "A teleporting attack.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 55342,
+    "chat_link": "[&Bi7YAAA=]"
+  },
+  {
+    "name": "Ice Bomb",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 200
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 20
+      }
+    ],
+    "description": "",
+    "icon": "https://render.guildwars2.com/file/5768E4562820674064E06BA30DB994D762F4561D/103044.png",
+    "flags": [],
+    "id": 55406,
+    "chat_link": "[&Bm7YAAA=]"
+  },
+  {
+    "name": "Crushing Blow",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 250
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 15
+      }
+    ],
+    "description": "A basic melee knockback.",
+    "icon": "https://render.guildwars2.com/file/7CF5FFD35624B6D243B97CE4344018C3F1E6ACB7/103682.png",
+    "flags": [],
+    "id": 55549,
+    "chat_link": "[&Bv3YAAA=]"
+  },
+  {
+    "name": "Slash",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 100
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 3
+      }
+    ],
+    "description": "A basic melee attack.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 55596,
+    "chat_link": "[&BizZAAA=]"
+  },
+  {
+    "name": "Unearthly Fissure",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 500
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 15
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/10BABF2708CA3575730AC662A2E72EC292565B08/598887.png",
+        "duration": 10,
+        "status": "Torment",
+        "description": "Deals damage every second. Deals additional damage to foes that aren't moving. Stacks intensity.",
+        "apply_count": 6
+      }
+    ],
+    "description": "",
+    "icon": "https://render.guildwars2.com/file/5A7A35F3F260F09FE5C54111FBC219934070A00A/103946.png",
+    "flags": [],
+    "id": 55845,
+    "chat_link": "[&BiXaAAA=]"
+  },
+  {
+    "name": "Wisp of Will",
+    "facts": [
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 7
+      }
+    ],
+    "description": "",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 55907,
+    "chat_link": "[&BmPaAAA=]"
+  },
+  {
+    "name": "Mark of Anguish",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 1500
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 8
+      }
+    ],
+    "description": "A teleporting attack.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 55941,
+    "chat_link": "[&BoXaAAA=]"
+  },
+  {
+    "name": "",
+    "icon": "https://render.guildwars2.com/file/E43730AD49A903C3A1B4F27E41DE04EA51A775EC/156636.png",
+    "description": "",
+    "flags": [],
+    "id": 56012,
+    "chat_link": "[&BszaAAA=]"
+  },
+  {
+    "name": "Force of Havoc",
+    "description": "Qadim hurls a wave of energy that leaves behind a persistent damage field. If a pylon is hit, he takes its power.",
+    "icon": "https://render.guildwars2.com/file/E43730AD49A903C3A1B4F27E41DE04EA51A775EC/156636.png",
+    "flags": [],
+    "id": 56017,
+    "chat_link": "[&BtHaAAA=]"
+  },
+  {
+    "name": "Energized Affliction",
+    "description": "Energy inflicts damage upon the wielder and their allies.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 56020,
+    "chat_link": "[&BtTaAAA=]"
+  },
+  {
+    "name": "Quantum Quake",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 2000
+      }
+    ],
+    "description": "Adina channels deadly earth beams and scatters them around the arena.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 56035,
+    "chat_link": "[&BuPaAAA=]"
+  },
+  {
+    "name": "Unbearable Power",
+    "description": "Linking to an energy source causes damage.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 56038,
+    "chat_link": "[&BubaAAA=]"
+  },
+  {
+    "name": "Blinding Radiance",
+    "description": "",
+    "flags": [],
+    "id": 56040,
+    "chat_link": "[&BujaAAA=]"
+  },
+  {
+    "name": "Sand Geyser",
+    "facts": [
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/392DC06DB4E50627B0DDF13A449D666B3B30A16D/1770068.png",
+        "duration": 7,
+        "status": "Radiant Blindness",
+        "description": "All outgoing attacks are rendered useless.",
+        "apply_count": 1
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/79FF0046A5F9ADA3B4C4EC19ADB4CB124D5F0021/102848.png",
+        "duration": 10,
+        "status": "Bleeding",
+        "description": "Deals damage every second; stacks intensity.",
+        "apply_count": 5
+      }
+    ],
+    "description": "",
+    "flags": [],
+    "id": 56042,
+    "chat_link": "[&BuraAAA=]"
+  },
+  {
+    "name": "",
+    "description": "",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 56047,
+    "chat_link": "[&Bu/aAAA=]"
+  },
+  {
+    "name": "Terraform",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 2000
+      }
+    ],
+    "description": "Adina sends out a shock wave that transforms the arena into a new shape.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 56049,
+    "chat_link": "[&BvHaAAA=]"
+  },
+  {
+    "name": "Dynamic Deterrent",
+    "facts": [
+      {
+        "text": "Launch",
+        "type": "Distance",
+        "icon": "https://render.guildwars2.com/file/B4087CEB5CC006172E0A09DADC5452807A0CA3F7/2440712.png",
+        "distance": 350
+      }
+    ],
+    "description": "Sabir unleashes a line of electricity that knocks foes back.",
+    "icon": "https://render.guildwars2.com/file/E43730AD49A903C3A1B4F27E41DE04EA51A775EC/156636.png",
+    "flags": [],
+    "id": 56055,
+    "chat_link": "[&BvfaAAA=]"
+  },
+  {
+    "name": "Brandstone Slash",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 3000
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 15
+      }
+    ],
+    "description": "",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 56056,
+    "chat_link": "[&BvjaAAA=]"
+  },
+  {
+    "name": "",
+    "description": "",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 56064,
+    "chat_link": "[&BgDbAAA=]"
+  },
+  {
+    "name": "Chaotic Surcharge",
+    "description": "Energy orbs overload Qadim, causing a power discharge that deals damage to all foes.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 56068,
+    "chat_link": "[&BgTbAAA=]"
+  },
+  {
+    "name": "",
+    "description": "",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 56070,
+    "chat_link": "[&BgbbAAA=]"
+  },
+  {
+    "name": "",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "description": "",
+    "flags": [],
+    "id": 56072,
+    "chat_link": "[&BgjbAAA=]"
+  },
+  {
+    "name": "",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 4000
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 0.8
+      }
+    ],
+    "description": "",
+    "icon": "https://render.guildwars2.com/file/E43730AD49A903C3A1B4F27E41DE04EA51A775EC/156636.png",
+    "flags": [],
+    "id": 56077,
+    "chat_link": "[&Bg3bAAA=]"
+  },
+  {
+    "name": "Ether Strikes",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 7000
+      }
+    ],
+    "description": "Qadim launches out a flurry of energy in a cone shape.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 56078,
+    "chat_link": "[&Bg7bAAA=]"
+  },
+  {
+    "name": "((907503))",
+    "description": "((907332))",
+    "icon": "https://render.guildwars2.com/file/E43730AD49A903C3A1B4F27E41DE04EA51A775EC/156636.png",
+    "flags": [],
+    "id": 56083,
+    "chat_link": "[&BhPbAAA=]"
+  },
+  {
+    "name": "",
+    "icon": "https://render.guildwars2.com/file/E43730AD49A903C3A1B4F27E41DE04EA51A775EC/156636.png",
+    "description": "",
+    "flags": [],
+    "id": 56092,
+    "chat_link": "[&BhzbAAA=]"
+  },
+  {
+    "name": "Exponential Repercussion",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 5000
+      }
+    ],
+    "description": "Energies from Qadim and the pylon combine, causing a violent reaction.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 56093,
+    "chat_link": "[&Bh3bAAA=]"
+  },
+  {
+    "name": "Walloping Wind",
+    "description": "Sabir summons powerful winds to blow foes away.",
+    "icon": "https://render.guildwars2.com/file/E43730AD49A903C3A1B4F27E41DE04EA51A775EC/156636.png",
+    "flags": [],
+    "id": 56094,
+    "chat_link": "[&Bh7bAAA=]"
+  },
+  {
+    "name": "Ruinous Nova",
+    "description": "Using the power of the pylons, Qadim unleashes a cataclysmic force upon his foes.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 56098,
+    "chat_link": "[&BiLbAAA=]"
+  },
+  {
+    "name": "((918748))",
+    "icon": "https://render.guildwars2.com/file/E43730AD49A903C3A1B4F27E41DE04EA51A775EC/156636.png",
+    "description": "",
+    "flags": [],
+    "id": 56105,
+    "chat_link": "[&BinbAAA=]"
+  },
+  {
+    "name": "Diamond Palisade",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 2000
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/D104A6B9344A2E2096424A3C300E46BC2926E4D7/2440718.png",
+        "duration": 8,
+        "status": "Resolution",
+        "description": "Incoming condition damage decreased by 33%; stacks duration.",
+        "apply_count": 1
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/2FA9DF9D6BC17839BBEA14723F1C53D645DDB5E1/102852.png",
+        "duration": 15,
+        "status": "Might",
+        "description": "Increased outgoing damage; stacks intensity.",
+        "apply_count": 5
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/CD77D1FAB7B270223538A8F8ECDA1CFB044D65F4/102834.png",
+        "duration": 12,
+        "status": "Protection",
+        "description": "Incoming strike damage decreased by 33%; stacks duration.",
+        "apply_count": 1
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/392DC06DB4E50627B0DDF13A449D666B3B30A16D/1770068.png",
+        "duration": 10,
+        "status": "Radiant Blindness",
+        "description": "All outgoing attacks are rendered useless.",
+        "apply_count": 1
+      }
+    ],
+    "description": "Adina turns her skin into diamond, reflecting projectiles and applying boons to herself. After two seconds, her skin will cast Radiant Blindness to those who are not facing away.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 56114,
+    "chat_link": "[&BjLbAAA=]"
+  },
+  {
+    "name": "",
+    "description": "",
+    "flags": [],
+    "id": 56128,
+    "chat_link": "[&BkDbAAA=]"
+  },
+  {
+    "name": "Force of Retaliation",
+    "description": "A concussive wave of energy deals damage as it punches outward.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 56134,
+    "chat_link": "[&BkbbAAA=]"
+  },
+  {
+    "name": "Stalagmites",
+    "description": "Adina conjures stalagmites that cannot be evaded or blocked. They will detonate if anyone gets close, inflicting heavy damage and destroying the underlying pillar.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 56141,
+    "chat_link": "[&Bk3bAAA=]"
+  },
+  {
+    "name": "((910547))",
+    "description": "Upon being fractured, the pylon deals significant damage to the entire raid party.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 56143,
+    "chat_link": "[&Bk/bAAA=]"
+  },
+  {
+    "name": "Chaos Called",
+    "description": "Qadim raises damaging energy along specific surfaces.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 56145,
+    "chat_link": "[&BlHbAAA=]"
+  },
+  {
+    "name": "",
+    "icon": "https://render.guildwars2.com/file/E43730AD49A903C3A1B4F27E41DE04EA51A775EC/156636.png",
+    "description": "",
+    "flags": [],
+    "id": 56148,
+    "chat_link": "[&BlTbAAA=]"
+  },
+  {
+    "name": "((910093))",
+    "description": "((909200))",
+    "icon": "https://render.guildwars2.com/file/E43730AD49A903C3A1B4F27E41DE04EA51A775EC/156636.png",
+    "flags": [],
+    "id": 56162,
+    "chat_link": "[&BmLbAAA=]"
+  },
+  {
+    "name": "Brandstone Impact",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 7000
+      }
+    ],
+    "description": "",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 56173,
+    "chat_link": "[&Bm3bAAA=]"
+  },
+  {
+    "name": "Boulder Barrage",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 5000
+      }
+    ],
+    "description": "Bombards random foes with boulders that can be blocked by pillars. The boulders damage pillars.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 56179,
+    "chat_link": "[&BnPbAAA=]"
+  },
+  {
+    "name": "Residual Impact",
+    "description": "Residual energy left over after impact. Particularly deadly.",
+    "icon": "https://render.guildwars2.com/file/C201170E43B8C805BC0795FD3B08B703E530B677/2156524.png",
+    "flags": [],
+    "id": 56180,
+    "chat_link": "[&BnTbAAA=]"
+  },
+  {
+    "name": "",
+    "description": "",
+    "flags": [],
+    "id": 56187,
+    "chat_link": "[&BnvbAAA=]"
+  },
+  {
+    "name": "",
+    "icon": "https://render.guildwars2.com/file/E43730AD49A903C3A1B4F27E41DE04EA51A775EC/156636.png",
+    "description": "",
+    "flags": [],
+    "id": 56194,
+    "chat_link": "[&BoLbAAA=]"
+  },
+  {
+    "name": "Dynamic Deterrent",
+    "description": "Sabir unleashes a line of electricity that knocks foes back.",
+    "icon": "https://render.guildwars2.com/file/E43730AD49A903C3A1B4F27E41DE04EA51A775EC/156636.png",
+    "flags": [],
+    "id": 56196,
+    "chat_link": "[&BoTbAAA=]"
+  },
+  {
+    "name": "Unbridled Chaos",
+    "description": "Shower of Chaos deals residual damage over time.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 56199,
+    "chat_link": "[&BofbAAA=]"
+  },
+  {
+    "name": "Dire Drafts",
+    "description": "",
+    "flags": [],
+    "id": 56202,
+    "chat_link": "[&BorbAAA=]"
+  },
+  {
+    "name": "Tremor Wave",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 2000
+      }
+    ],
+    "description": "Adina sets off a terrain cascade that pulls anyone caught in it and destroys the furthest pillar along the cascade.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 56206,
+    "chat_link": "[&Bo7bAAA=]"
+  },
+  {
+    "name": "Chaotic Overflow",
+    "description": "Unwieldy energy flows beyond the target and latches on to nearby foes.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 56218,
+    "chat_link": "[&BprbAAA=]"
+  },
+  {
+    "name": "",
+    "icon": "https://render.guildwars2.com/file/E43730AD49A903C3A1B4F27E41DE04EA51A775EC/156636.png",
+    "description": "",
+    "flags": [],
+    "id": 56222,
+    "chat_link": "[&Bp7bAAA=]"
+  },
+  {
+    "name": "",
+    "icon": "https://render.guildwars2.com/file/E43730AD49A903C3A1B4F27E41DE04EA51A775EC/156636.png",
+    "description": "",
+    "flags": [],
+    "id": 56232,
+    "chat_link": "[&BqjbAAA=]"
+  },
+  {
+    "name": "Cleansed Conductor",
+    "facts": [
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/514B5C1C503548FC71182EAC979A936DA6253717/2156519.png",
+        "duration": 0,
+        "status": "Kinetic Abundance",
+        "description": "Grants boons and applies Erratic Energy to the attacked target.",
+        "apply_count": 1
+      }
+    ],
+    "icon": "https://render.guildwars2.com/file/C123E73F1854F9A1660201F85D14CE63A8BA22F2/1451817.png",
+    "description": "",
+    "flags": [],
+    "id": 56237,
+    "chat_link": "[&Bq3bAAA=]"
+  },
+  {
+    "name": "",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 5000
+      }
+    ],
+    "description": "",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 56242,
+    "chat_link": "[&BrLbAAA=]"
+  },
+  {
+    "name": "",
+    "icon": "https://render.guildwars2.com/file/E43730AD49A903C3A1B4F27E41DE04EA51A775EC/156636.png",
+    "description": "",
+    "flags": [],
+    "id": 56246,
+    "chat_link": "[&BrbbAAA=]"
+  },
+  {
+    "name": "Exponential Repercussion",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 5000
+      }
+    ],
+    "description": "Energies from Qadim and the pylon combine, causing a violent reaction.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 56254,
+    "chat_link": "[&Br7bAAA=]"
+  },
+  {
+    "name": "Tempest's Spike",
+    "facts": [
+      {
+        "text": "Stun",
+        "type": "Time",
+        "icon": "https://render.guildwars2.com/file/1999B9DB355005D2DD19F66DFFBAA6D466057508/522727.png",
+        "duration": 2
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/C19D125EF74E717AC62D330228A8A45D1CC00224/2156520.png",
+        "duration": 0,
+        "status": "Violent Currents",
+        "description": "Electrical currents surge through you, increasing incoming and outgoing damage. Stacks 5 times.\nOutgoing Damage +5%\nIncoming Damage +5%",
+        "apply_count": 1
+      }
+    ],
+    "description": "Unleashes a bolt of lightning from the tornado, stunning the nearest foes.",
+    "icon": "https://render.guildwars2.com/file/E43730AD49A903C3A1B4F27E41DE04EA51A775EC/156636.png",
+    "flags": [],
+    "id": 56273,
+    "chat_link": "[&BtHbAAA=]"
+  },
+  {
+    "name": "",
+    "description": "",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 56277,
+    "chat_link": "[&BtXbAAA=]"
+  },
+  {
+    "name": "Tectonic Upheaval",
+    "description": "Adina raises a pillar that kills nearby foes and sends out a shock wave that cripples and immobilizes those who don't jump over it.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 56288,
+    "chat_link": "[&BuDbAAA=]"
+  },
+  {
+    "name": "",
+    "icon": "https://render.guildwars2.com/file/E43730AD49A903C3A1B4F27E41DE04EA51A775EC/156636.png",
+    "description": "",
+    "flags": [],
+    "id": 56303,
+    "chat_link": "[&Bu/bAAA=]"
+  },
+  {
+    "name": "Storm's Edge",
+    "facts": [
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/C19D125EF74E717AC62D330228A8A45D1CC00224/2156520.png",
+        "duration": 0,
+        "status": "Violent Currents",
+        "description": "Electrical currents surge through you, increasing incoming and outgoing damage. Stacks 5 times.\nOutgoing Damage +5%\nIncoming Damage +5%",
+        "apply_count": 1
+      }
+    ],
+    "description": "Cardinal Sabir follows up his right-hand swing with a left swing, dealing damage in an arc.",
+    "icon": "https://render.guildwars2.com/file/E43730AD49A903C3A1B4F27E41DE04EA51A775EC/156636.png",
+    "flags": [],
+    "id": 56307,
+    "chat_link": "[&BvPbAAA=]"
+  },
+  {
+    "name": "Eclipsed Backlash",
+    "description": "The anomaly overloads with energy and deals massive damage to all foes.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 56316,
+    "chat_link": "[&BvzbAAA=]"
+  },
+  {
+    "name": "Caustic Chaos",
+    "facts": [
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/609EB6A5A39827A1410773EFACFFBB7F98AB08FF/2039773.png",
+        "duration": 10,
+        "status": "Chaos Corrosion",
+        "description": "Incoming Caustic Chaos damage is massively increased.",
+        "apply_count": 1
+      }
+    ],
+    "description": "Qadim steadily fires projectiles, hitting all foes near the target. Applies Chaos Corrosion.",
+    "icon": "https://render.guildwars2.com/file/E43730AD49A903C3A1B4F27E41DE04EA51A775EC/156636.png",
+    "flags": [],
+    "id": 56332,
+    "chat_link": "[&BgzcAAA=]"
+  },
+  {
+    "name": "",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 1200
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 0.8
+      }
+    ],
+    "description": "",
+    "icon": "https://render.guildwars2.com/file/E43730AD49A903C3A1B4F27E41DE04EA51A775EC/156636.png",
+    "flags": [],
+    "id": 56338,
+    "chat_link": "[&BhLcAAA=]"
+  },
+  {
+    "name": "Venomous Voltage",
+    "facts": [
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/397A613651BFCA2832B6469CE34735580A2C120E/102844.png",
+        "duration": 1,
+        "status": "Immobile",
+        "description": "Unable to move; stacks duration.",
+        "apply_count": 1
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/C19D125EF74E717AC62D330228A8A45D1CC00224/2156520.png",
+        "duration": 0,
+        "status": "Violent Currents",
+        "description": "Electrical currents surge through you, increasing incoming and outgoing damage. Stacks 5 times.\nOutgoing Damage +5%\nIncoming Damage +5%",
+        "apply_count": 1
+      }
+    ],
+    "description": "The voltaic wisp immobilizes foes with steady streams of paralyzing shocks from its tail.",
+    "icon": "https://render.guildwars2.com/file/E43730AD49A903C3A1B4F27E41DE04EA51A775EC/156636.png",
+    "flags": [],
+    "id": 56340,
+    "chat_link": "[&BhTcAAA=]"
+  },
+  {
+    "name": "",
+    "description": "",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 56341,
+    "chat_link": "[&BhXcAAA=]"
+  },
+  {
+    "name": "",
+    "icon": "https://render.guildwars2.com/file/E43730AD49A903C3A1B4F27E41DE04EA51A775EC/156636.png",
+    "description": "",
+    "flags": [],
+    "id": 56349,
+    "chat_link": "[&Bh3cAAA=]"
+  },
+  {
+    "name": "Seismic Suffering",
+    "description": "Seismic activity that damages foes.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 56351,
+    "chat_link": "[&Bh/cAAA=]"
+  },
+  {
+    "name": "Stone Claw",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 2000
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 3.3
+      },
+      {
+        "text": "Knockback",
+        "type": "Distance",
+        "icon": "https://render.guildwars2.com/file/400B7FD39724FBD700B94AB8AB52B5B9167646F4/2440715.png",
+        "distance": 200
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/79FF0046A5F9ADA3B4C4EC19ADB4CB124D5F0021/102848.png",
+        "duration": 12,
+        "status": "Bleeding",
+        "description": "Deals damage every second; stacks intensity.",
+        "apply_count": 5
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/6CB0E64AF9AA292E332A38C1770CE577E2CDE0E8/102853.png",
+        "duration": 8,
+        "status": "Weakness",
+        "description": "Endurance regeneration decreased by 50%. 50% of hits are Glancing Blows (50% damage). Stacks duration.",
+        "apply_count": 1
+      }
+    ],
+    "description": "The elemental hand fires missiles that knock back foes and apply conditions.",
+    "icon": "https://render.guildwars2.com/file/C4FF54E61DF5902F15B8B4901A6AA41B2E5C1E73/103033.png",
+    "flags": [],
+    "id": 56354,
+    "chat_link": "[&BiLcAAA=]"
+  },
+  {
+    "name": "",
+    "description": "",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 56359,
+    "chat_link": "[&BifcAAA=]"
+  },
+  {
+    "name": "Fury of the Storm",
+    "description": "Powerful lightning bolts bombard those outside of the eye of the storm.",
+    "icon": "https://render.guildwars2.com/file/E43730AD49A903C3A1B4F27E41DE04EA51A775EC/156636.png",
+    "flags": [],
+    "id": 56372,
+    "chat_link": "[&BjTcAAA=]"
+  },
+  {
+    "name": "Residual Impact",
+    "description": "Residual energy left over after impact. Particularly deadly.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 56378,
+    "chat_link": "[&BjrcAAA=]"
+  },
+  {
+    "name": "Quantum Quake",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 2000
+      }
+    ],
+    "description": "Adina channels deadly earth beams and scatters them around the arena.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 56381,
+    "chat_link": "[&Bj3cAAA=]"
+  },
+  {
+    "name": "((911196))",
+    "description": "((912354))",
+    "icon": "https://render.guildwars2.com/file/E43730AD49A903C3A1B4F27E41DE04EA51A775EC/156636.png",
+    "flags": [],
+    "id": 56387,
+    "chat_link": "[&BkPcAAA=]"
+  },
+  {
+    "name": "Perilous Pulse",
+    "description": "Creates a tremor that knocks out foes and destroys raised pillars within its area of effect.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 56390,
+    "chat_link": "[&BkbcAAA=]"
+  },
+  {
+    "name": "Electrical Repulsion",
+    "facts": [
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/C19D125EF74E717AC62D330228A8A45D1CC00224/2156520.png",
+        "duration": 0,
+        "status": "Violent Currents",
+        "description": "Electrical currents surge through you, increasing incoming and outgoing damage. Stacks 5 times.\nOutgoing Damage +5%\nIncoming Damage +5%",
+        "apply_count": 1
+      }
+    ],
+    "icon": "https://render.guildwars2.com/file/5AF8170865B353E26127E10E34EFE8B90B9096D6/1451806.png",
+    "description": "",
+    "flags": [],
+    "id": 56391,
+    "chat_link": "[&BkfcAAA=]"
+  },
+  {
+    "name": "((909022))",
+    "description": "((908933))",
+    "icon": "https://render.guildwars2.com/file/E43730AD49A903C3A1B4F27E41DE04EA51A775EC/156636.png",
+    "flags": [],
+    "id": 56412,
+    "chat_link": "[&BlzcAAA=]"
+  },
+  {
+    "name": "Quantum Quake",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 2000
+      }
+    ],
+    "description": "Adina channels deadly earth beams and scatters them around the arena.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 56414,
+    "chat_link": "[&Bl7cAAA=]"
+  },
+  {
+    "name": "",
+    "icon": "https://render.guildwars2.com/file/E43730AD49A903C3A1B4F27E41DE04EA51A775EC/156636.png",
+    "description": "",
+    "flags": [],
+    "id": 56420,
+    "chat_link": "[&BmTcAAA=]"
+  },
+  {
+    "name": "Bolt Break",
+    "description": "Sabir unleashes a series of lightning strikes that targets all foes.",
+    "icon": "https://render.guildwars2.com/file/E43730AD49A903C3A1B4F27E41DE04EA51A775EC/156636.png",
+    "flags": [],
+    "id": 56431,
+    "chat_link": "[&Bm/cAAA=]"
+  },
+  {
+    "name": "Volatile Fusion",
+    "description": "The combination of energies results in a deadly explosion.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 56435,
+    "chat_link": "[&BnPcAAA=]"
+  },
+  {
+    "name": "Force of Havoc",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 3000
+      }
+    ],
+    "description": "Qadim hurls a wave of energy that leaves behind a persistent damage field. If a pylon is hit, he takes its power.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 56441,
+    "chat_link": "[&BnncAAA=]"
+  },
+  {
+    "name": "",
+    "description": "",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 56444,
+    "chat_link": "[&BnzcAAA=]"
+  },
+  {
+    "name": "Electrospark",
+    "facts": [
+      {
+        "text": "Daze",
+        "type": "Time",
+        "icon": "https://render.guildwars2.com/file/9AE125E930C92FEA0DD99E7EBAEDE4CF5EC556B6/433474.png",
+        "duration": 1
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/070325E519C178D502A8160523766070D30C0C19/102838.png",
+        "duration": 5,
+        "status": "Crippled",
+        "description": "Movement speed decreased by 50%; stacks duration.",
+        "apply_count": 1
+      }
+    ],
+    "description": "The voltaic wisp channels electricity into its tail, leaving time-delayed explosions behind.",
+    "icon": "https://render.guildwars2.com/file/E43730AD49A903C3A1B4F27E41DE04EA51A775EC/156636.png",
+    "flags": [],
+    "id": 56451,
+    "chat_link": "[&BoPcAAA=]"
+  },
+  {
+    "name": "Stone Fist",
+    "description": "Adina hurls forth a damaging cascade of stone and applies might to herself.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 56455,
+    "chat_link": "[&BofcAAA=]"
+  },
+  {
+    "name": "Unbridled Chaos",
+    "facts": [
+      {
+        "text": "Movement Speed Increase",
+        "type": "Percent",
+        "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png",
+        "percent": 30
+      },
+      {
+        "text": "Damage Increase",
+        "type": "Percent",
+        "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+        "percent": 30
+      }
+    ],
+    "icon": "https://render.guildwars2.com/file/11089CFF98086A316D09116537FE0D0A2ED28030/1896037.png",
+    "description": "",
+    "flags": [],
+    "id": 56467,
+    "chat_link": "[&BpPcAAA=]"
+  },
+  {
+    "name": "Electro-Repulsion",
+    "icon": "https://render.guildwars2.com/file/5AF8170865B353E26127E10E34EFE8B90B9096D6/1451806.png",
+    "description": "",
+    "flags": [],
+    "id": 56474,
+    "chat_link": "[&BprcAAA=]"
+  },
+  {
+    "name": "Brandstone Slash",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 3000
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 15
+      }
+    ],
+    "description": "",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 56487,
+    "chat_link": "[&BqfcAAA=]"
+  },
+  {
+    "name": "((911703))",
+    "description": "((910362))",
+    "icon": "https://render.guildwars2.com/file/E43730AD49A903C3A1B4F27E41DE04EA51A775EC/156636.png",
+    "flags": [],
+    "id": 56492,
+    "chat_link": "[&BqzcAAA=]"
+  },
+  {
+    "name": "Stone Fist",
+    "description": "Adina hurls forth a damaging cascade of stone and applies might to herself.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 56496,
+    "chat_link": "[&BrDcAAA=]"
+  },
+  {
+    "name": "Stone Volley",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 2000
+      }
+    ],
+    "description": "Adina shoots rocks that explode upon impact, causing shrapnel pieces to blind those they hit and to deal high damage.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 56501,
+    "chat_link": "[&BrXcAAA=]"
+  },
+  {
+    "name": "((907353))",
+    "description": "((907833))",
+    "icon": "https://render.guildwars2.com/file/E43730AD49A903C3A1B4F27E41DE04EA51A775EC/156636.png",
+    "flags": [],
+    "id": 56502,
+    "chat_link": "[&BrbcAAA=]"
+  },
+  {
+    "name": "Shocking Barrage",
+    "facts": [
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/6CB0E64AF9AA292E332A38C1770CE577E2CDE0E8/102853.png",
+        "duration": 5,
+        "status": "Weakness",
+        "description": "Endurance regeneration decreased by 50%. 50% of hits are Glancing Blows (50% damage). Stacks duration.",
+        "apply_count": 1
+      }
+    ],
+    "description": "Violent currents stimulate the tornado's expanding waves of charged projectiles.",
+    "icon": "https://render.guildwars2.com/file/E43730AD49A903C3A1B4F27E41DE04EA51A775EC/156636.png",
+    "flags": [],
+    "id": 56513,
+    "chat_link": "[&BsHcAAA=]"
+  },
+  {
+    "name": "Diamond Palisade",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 5000
+      }
+    ],
+    "description": "Adina turns her skin into diamond, reflecting projectiles and applying boons to herself. After two seconds, her skin will cast Radiant Blindness to those who are not facing away.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 56516,
+    "chat_link": "[&BsTcAAA=]"
+  },
+  {
+    "name": "Stone Fist",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 2000
+      }
+    ],
+    "description": "Adina hurls forth a damaging cascade of stone and applies might to herself.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 56521,
+    "chat_link": "[&BsncAAA=]"
+  },
+  {
+    "name": "Bolt Break",
+    "facts": [
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/C19D125EF74E717AC62D330228A8A45D1CC00224/2156520.png",
+        "duration": 0,
+        "status": "Violent Currents",
+        "description": "Electrical currents surge through you, increasing incoming and outgoing damage. Stacks 5 times.\nOutgoing Damage +5%\nIncoming Damage +5%",
+        "apply_count": 1
+      }
+    ],
+    "description": "Sabir unleashes a series of lightning strikes that target all foes.",
+    "icon": "https://render.guildwars2.com/file/E43730AD49A903C3A1B4F27E41DE04EA51A775EC/156636.png",
+    "flags": [],
+    "id": 56523,
+    "chat_link": "[&BsvcAAA=]"
+  },
+  {
+    "name": "Rain of Chaos",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 5000
+      }
+    ],
+    "description": "Qadim unleashes a barrage of energy upon the target's position.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 56527,
+    "chat_link": "[&Bs/cAAA=]"
+  },
+  {
+    "name": "",
+    "description": "",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 56528,
+    "chat_link": "[&BtDcAAA=]"
+  },
+  {
+    "name": "",
+    "description": "",
+    "flags": [],
+    "id": 56529,
+    "chat_link": "[&BtHcAAA=]"
+  },
+  {
+    "name": "Brandstorm Lightning",
+    "description": "A bolt of power pierces through the barrier above Ahdashim and deals great damage to those in range of its strike.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 56537,
+    "chat_link": "[&BtncAAA=]"
+  },
+  {
+    "name": "Pylon Debris Field",
+    "description": "Debris left over from an exploded pylon. Deals damage in an area.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 56541,
+    "chat_link": "[&Bt3cAAA=]"
+  },
+  {
+    "name": "Caustic Chaos",
+    "description": "Qadim steadily fires projectiles, hitting all foes near the target. Applies Chaos Corrosion.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 56543,
+    "chat_link": "[&Bt/cAAA=]"
+  },
+  {
+    "name": "Residual Impact",
+    "description": "Residual energy left over after impact. Particularly deadly.",
+    "icon": "https://render.guildwars2.com/file/C201170E43B8C805BC0795FD3B08B703E530B677/2156524.png",
+    "flags": [],
+    "id": 56551,
+    "chat_link": "[&BufcAAA=]"
+  },
+  {
+    "name": "((910081))",
+    "description": "((909637))",
+    "icon": "https://render.guildwars2.com/file/E43730AD49A903C3A1B4F27E41DE04EA51A775EC/156636.png",
+    "flags": [],
+    "id": 56552,
+    "chat_link": "[&BujcAAA=]"
+  },
+  {
+    "name": "Recharging",
+    "icon": "https://render.guildwars2.com/file/160E9D583AA97D012042D9A92F77F8F0DFFEBE6C/436370.png",
+    "description": "",
+    "flags": [],
+    "id": 56555,
+    "chat_link": "[&BuvcAAA=]"
+  },
+  {
+    "name": "Tectonic Upheaval",
+    "description": "Adina raises a pillar that kills nearby foes and sends out a shock wave that cripples and immobilizes those who don't jump over it.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 56558,
+    "chat_link": "[&Bu7cAAA=]"
+  },
+  {
+    "name": "",
+    "icon": "https://render.guildwars2.com/file/E43730AD49A903C3A1B4F27E41DE04EA51A775EC/156636.png",
+    "description": "",
+    "flags": [],
+    "id": 56569,
+    "chat_link": "[&BvncAAA=]"
+  },
+  {
+    "name": "",
+    "icon": "https://render.guildwars2.com/file/E43730AD49A903C3A1B4F27E41DE04EA51A775EC/156636.png",
+    "description": "",
+    "flags": [],
+    "id": 56579,
+    "chat_link": "[&BgPdAAA=]"
+  },
+  {
+    "name": "Boulder Barrage",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 5000
+      }
+    ],
+    "description": "Bombards random allies with boulders that can be blocked by pillars. Boulders will damage the pillars.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 56580,
+    "chat_link": "[&BgTdAAA=]"
+  },
+  {
+    "name": "Eroding Curse",
+    "facts": [
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 6.5
+      }
+    ],
+    "description": "The earthen hand curses its foes, increasing the damage they take.",
+    "icon": "https://render.guildwars2.com/file/AF051AD0A0DD499F774A437B085A24C55D46E755/102857.png",
+    "flags": [],
+    "id": 56586,
+    "chat_link": "[&BgrdAAA=]"
+  },
+  {
+    "name": "",
+    "description": "",
+    "flags": [],
+    "id": 56588,
+    "chat_link": "[&BgzdAAA=]"
+  },
+  {
+    "name": "Energy Eclipse",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 4000
+      }
+    ],
+    "description": "The anomaly unleashes its new power.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 56590,
+    "chat_link": "[&Bg7dAAA=]"
+  },
+  {
+    "name": "Shower of Chaos",
+    "facts": [
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/11089CFF98086A316D09116537FE0D0A2ED28030/1896037.png",
+        "duration": 15,
+        "status": "Unbridled Chaos",
+        "description": "Shower of Chaos deals residual damage over time.",
+        "apply_count": 1
+      }
+    ],
+    "description": "Energy orbs erupt from Qadim and detonate upon landing, damaging and applying Unbridled Chaos to all foes.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 56598,
+    "chat_link": "[&BhbdAAA=]"
+  },
+  {
+    "name": "Sand Call",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 200
+      }
+    ],
+    "description": "Adina's defiance bar must be broken or she will kill all her foes. She can only be broken from the rotating blue region.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 56599,
+    "chat_link": "[&BhfdAAA=]"
+  },
+  {
+    "name": "",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "description": "",
+    "flags": [],
+    "id": 56611,
+    "chat_link": "[&BiPdAAA=]"
+  },
+  {
+    "name": "Residual Impact",
+    "description": "Residual energy left over after impact. Particularly deadly.",
+    "icon": "https://render.guildwars2.com/file/C201170E43B8C805BC0795FD3B08B703E530B677/2156524.png",
+    "flags": [],
+    "id": 56614,
+    "chat_link": "[&BibdAAA=]"
+  },
+  {
+    "name": "((912947))",
+    "description": "((914123))",
+    "icon": "https://render.guildwars2.com/file/E43730AD49A903C3A1B4F27E41DE04EA51A775EC/156636.png",
+    "flags": [],
+    "id": 56617,
+    "chat_link": "[&BindAAA=]"
+  },
+  {
+    "name": "Storm's Edge",
+    "facts": [
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/C19D125EF74E717AC62D330228A8A45D1CC00224/2156520.png",
+        "duration": 0,
+        "status": "Violent Currents",
+        "description": "Electrical currents surge through you, increasing incoming and outgoing damage. Stacks 5 times.\nOutgoing Damage +5%\nIncoming Damage +5%",
+        "apply_count": 1
+      }
+    ],
+    "description": "Cardinal Sabir swings his right-hand sword, sending out electrical projectiles in an arc.",
+    "icon": "https://render.guildwars2.com/file/E43730AD49A903C3A1B4F27E41DE04EA51A775EC/156636.png",
+    "flags": [],
+    "id": 56620,
+    "chat_link": "[&BizdAAA=]"
+  },
+  {
+    "name": "Chain Lightning",
+    "facts": [
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/C19D125EF74E717AC62D330228A8A45D1CC00224/2156520.png",
+        "duration": 0,
+        "status": "Violent Currents",
+        "description": "Electrical currents surge through you, increasing incoming and outgoing damage. Stacks 5 times.\nOutgoing Damage +5%\nIncoming Damage +5%",
+        "apply_count": 2
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/2FA9DF9D6BC17839BBEA14723F1C53D645DDB5E1/102852.png",
+        "duration": 30,
+        "status": "Might",
+        "description": "Increased outgoing damage; stacks intensity.",
+        "apply_count": 5
+      }
+    ],
+    "description": "Cardinal Sabir channels electricity into his hands, launching chain lightning at his foes.",
+    "icon": "https://render.guildwars2.com/file/E43730AD49A903C3A1B4F27E41DE04EA51A775EC/156636.png",
+    "flags": [],
+    "id": 56629,
+    "chat_link": "[&BjXdAAA=]"
+  },
+  {
+    "name": "Stone Claw",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 2000
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 3.3
+      },
+      {
+        "text": "Knockback",
+        "type": "Distance",
+        "icon": "https://render.guildwars2.com/file/400B7FD39724FBD700B94AB8AB52B5B9167646F4/2440715.png",
+        "distance": 200
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/79FF0046A5F9ADA3B4C4EC19ADB4CB124D5F0021/102848.png",
+        "duration": 12,
+        "status": "Bleeding",
+        "description": "Deals damage every second; stacks intensity.",
+        "apply_count": 5
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/6CB0E64AF9AA292E332A38C1770CE577E2CDE0E8/102853.png",
+        "duration": 8,
+        "status": "Weakness",
+        "description": "Endurance regeneration decreased by 50%. 50% of hits are Glancing Blows (50% damage). Stacks duration.",
+        "apply_count": 1
+      }
+    ],
+    "description": "The elemental hand fires missiles that knock back foes and apply conditions.",
+    "icon": "https://render.guildwars2.com/file/C4FF54E61DF5902F15B8B4901A6AA41B2E5C1E73/103033.png",
+    "flags": [],
+    "id": 56638,
+    "chat_link": "[&Bj7dAAA=]"
+  },
+  {
+    "name": "Bolt Break",
+    "description": "Sabir unleashes a series of lightning strikes that targets all foes.",
+    "icon": "https://render.guildwars2.com/file/E43730AD49A903C3A1B4F27E41DE04EA51A775EC/156636.png",
+    "flags": [],
+    "id": 56642,
+    "chat_link": "[&BkLdAAA=]"
+  },
+  {
+    "name": "Unbridled Tempest",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 2000
+      },
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 5
+      }
+    ],
+    "description": "An expanding wave of violent electricity that deals lethal damage.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 56643,
+    "chat_link": "[&BkPdAAA=]"
+  },
+  {
+    "name": "Boulder Barrage",
+    "facts": [
+      {
+        "text": "Range",
+        "type": "Range",
+        "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+        "value": 5000
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/392DC06DB4E50627B0DDF13A449D666B3B30A16D/1770068.png",
+        "duration": 10,
+        "status": "Radiant Blindness",
+        "description": "All outgoing attacks are rendered useless.",
+        "apply_count": 1
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/79FF0046A5F9ADA3B4C4EC19ADB4CB124D5F0021/102848.png",
+        "duration": 20,
+        "status": "Bleeding",
+        "description": "Deals damage every second; stacks intensity.",
+        "apply_count": 3
+      }
+    ],
+    "description": "Bombards random foes with boulders that can be blocked by pillars. Boulders will damage the pillars and down players with Radiant Blindness and bleeding.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 56648,
+    "chat_link": "[&BkjdAAA=]"
+  },
+  {
+    "name": "Stalagmites",
+    "facts": [
+      {
+        "text": "Unblockable",
+        "type": "Unblockable",
+        "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png",
+        "value": true
+      }
+    ],
+    "description": "Adina conjures stalagmites that cannot be evaded or blocked. They will detonate if anyone gets close, inflicting heavy damage and destroying the underlying pillar.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 56649,
+    "chat_link": "[&BkndAAA=]"
+  },
+  {
+    "name": "((907732))",
+    "description": "((907397))",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 56652,
+    "chat_link": "[&BkzdAAA=]"
+  },
+  {
+    "name": "",
+    "icon": "https://render.guildwars2.com/file/E43730AD49A903C3A1B4F27E41DE04EA51A775EC/156636.png",
+    "description": "",
+    "flags": [],
+    "id": 56653,
+    "chat_link": "[&Bk3dAAA=]"
+  },
+  {
+    "name": "Poisoned Power",
+    "facts": [
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/DC4B190B7601AE06454E2178574606D51F2B4F1D/2156518.png",
+        "duration": 0,
+        "status": "Enfeebled Force",
+        "description": "Applies conditions and reduces outgoing damage by 10%.",
+        "apply_count": 1
+      }
+    ],
+    "icon": "https://render.guildwars2.com/file/5AF8170865B353E26127E10E34EFE8B90B9096D6/1451806.png",
+    "description": "",
+    "flags": [],
+    "id": 56655,
+    "chat_link": "[&Bk/dAAA=]"
+  },
+  {
+    "name": "Brandstorm Lightning",
+    "description": "A bolt of power pierces through the barrier above Ahdashim and deals great damage to those it strikes.",
+    "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+    "flags": [],
+    "id": 56656,
+    "chat_link": "[&BlDdAAA=]"
+  }
+]

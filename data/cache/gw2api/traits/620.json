@@ -1,0 +1,34 @@
+{
+  "id": 620,
+  "tier": 3,
+  "order": 0,
+  "name": "Puissance de la vertu",
+  "description": "Vous obtenez des Dégâts par altération basés sur votre Vitalité. Le temps de recharge des <c=@abilitytype>vertus</c> est réduit.",
+  "slot": "Minor",
+  "facts": [
+    {
+      "text": "Conversion de caractéristiques",
+      "type": "BuffConversion",
+      "icon": "https://render.guildwars2.com/file/0120CB042BFC2EA6A45BC3DB45155FECDDDE1910/2229318.png",
+      "percent": 13,
+      "source": "Vitality",
+      "target": "ConditionDamage"
+    },
+    {
+      "text": "Réduction du temps de recharge",
+      "type": "Percent",
+      "icon": "https://render.guildwars2.com/file/AAB7C5387A08367C2F023F19FEE70E1556AD4375/1770202.png",
+      "percent": 15
+    },
+    {
+      "text": "Conversion de caractéristiques",
+      "type": "BuffConversion",
+      "icon": "https://render.guildwars2.com/file/0120CB042BFC2EA6A45BC3DB45155FECDDDE1910/2229318.png",
+      "percent": 7,
+      "source": "Vitality",
+      "target": "ConditionDamage"
+    }
+  ],
+  "specialization": 46,
+  "icon": "https://render.guildwars2.com/file/4BA068C09760BD341196A463B7B1D1E1AC3E6098/1012449.png"
+}

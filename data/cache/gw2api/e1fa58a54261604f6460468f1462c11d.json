@@ -1,0 +1,7730 @@
+[
+  {
+    "name": "Toxic Spore Skin",
+    "description": "Double-click to imbue another back-slot item's stats into this appearance (one-time ability).",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 250,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 48905,
+    "chat_link": "[&AgEJvwAA]",
+    "icon": "https://render.guildwars2.com/file/C16CC2EF78E86BBBC60422036BB9641606A6E65C/665775.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        2356
+      ]
+    }
+  },
+  {
+    "name": "Scroll of Knowledge",
+    "description": "Double-click to gain 5 spirit shards.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "NotUpgradeable",
+      "Unique",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 48906,
+    "chat_link": "[&AgEKvwAA]",
+    "icon": "https://render.guildwars2.com/file/5BDCEEE81224A00505033BF153A95948596AB53F/222828.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Superior Rune of Antitoxin",
+    "description": "<c=@abilitytype>Element: </c>Skill<br>Double-click to apply to a piece of armor.",
+    "type": "UpgradeComponent",
+    "level": 60,
+    "rarity": "Exotic",
+    "vendor_value": 216,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 48907,
+    "chat_link": "[&AgELvwAA]",
+    "icon": "https://render.guildwars2.com/file/0747F00D03B499F1CEE2075F9FFE9F4998C6D2B6/665777.png",
+    "details": {
+      "type": "Rune",
+      "flags": [
+        "HeavyArmor",
+        "LightArmor",
+        "MediumArmor"
+      ],
+      "infusion_upgrade_flags": [],
+      "bonuses": [
+        "+25 Condition Damage",
+        "-5% Incoming Condition Duration",
+        "+50 Condition Damage",
+        "-10% Incoming Condition Duration",
+        "+100 Condition Damage",
+        "+125 Vitality"
+      ],
+      "attribute_adjustment": 0,
+      "infix_upgrade": {
+        "id": 112,
+        "attributes": []
+      },
+      "suffix": "of Antitoxin"
+    }
+  },
+  {
+    "name": "Recipe: Superior Rune of Antitoxin",
+    "description": "Double-click to learn a recipe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 108,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 48908,
+    "chat_link": "[&AgEMvwAA]",
+    "icon": "https://render.guildwars2.com/file/64F6762697317B5472056E11A3B2310E273BA16C/849265.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 7834
+    }
+  },
+  {
+    "name": "Recipe: Superior Rune of Antitoxin",
+    "description": "Double-click to learn a recipe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 108,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 48909,
+    "chat_link": "[&AgENvwAA]",
+    "icon": "https://render.guildwars2.com/file/64F6762697317B5472056E11A3B2310E273BA16C/849265.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 7835
+    }
+  },
+  {
+    "name": "Recipe: Superior Rune of Antitoxin",
+    "description": "Double-click to learn a recipe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 108,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 48910,
+    "chat_link": "[&AgEOvwAA]",
+    "icon": "https://render.guildwars2.com/file/64F6762697317B5472056E11A3B2310E273BA16C/849265.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 7833
+    }
+  },
+  {
+    "name": "Superior Sigil of Torment",
+    "description": "<c=@abilitytype>Element: </c>Pain<br>Double-click to apply to a weapon.",
+    "type": "UpgradeComponent",
+    "level": 60,
+    "rarity": "Exotic",
+    "vendor_value": 216,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 48911,
+    "chat_link": "[&AgEPvwAA]",
+    "icon": "https://render.guildwars2.com/file/E42EB6198022E5B4D71C5EE41465DD4EB84A0465/665778.png",
+    "details": {
+      "type": "Sigil",
+      "flags": [
+        "ShortBow",
+        "Dagger",
+        "Focus",
+        "Greatsword",
+        "Hammer",
+        "Harpoon",
+        "Mace",
+        "Pistol",
+        "Rifle",
+        "Scepter",
+        "Shield",
+        "Speargun",
+        "Axe",
+        "Staff",
+        "Sword",
+        "Torch",
+        "Trident",
+        "Warhorn",
+        "LongBow"
+      ],
+      "infusion_upgrade_flags": [],
+      "attribute_adjustment": 0,
+      "infix_upgrade": {
+        "id": 763,
+        "buff": {
+          "skill_id": 21824,
+          "description": "Inflict 2 stacks of torment for 5 seconds to enemies around your target upon landing a critical hit. <br><c=@reminder>(Cooldown: 5 Seconds)</c>"
+        },
+        "attributes": []
+      },
+      "suffix": "of Torment"
+    }
+  },
+  {
+    "name": "Recipe: Superior Sigil of Torment",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 58,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 48912,
+    "chat_link": "[&AgEQvwAA]",
+    "icon": "https://render.guildwars2.com/file/066F0AB6170D56AAC780AC68CA04C3EBF20C18D7/849268.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 7836
+    }
+  },
+  {
+    "name": "Recipe: Superior Sigil of Torment",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 58,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 48913,
+    "chat_link": "[&AgERvwAA]",
+    "icon": "https://render.guildwars2.com/file/066F0AB6170D56AAC780AC68CA04C3EBF20C18D7/849268.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 7837
+    }
+  },
+  {
+    "name": "Recipe: Superior Sigil of Torment",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 58,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 48914,
+    "chat_link": "[&AgESvwAA]",
+    "icon": "https://render.guildwars2.com/file/066F0AB6170D56AAC780AC68CA04C3EBF20C18D7/849268.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 7838
+    }
+  },
+  {
+    "name": "Toxic Sharpening Stone",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Fine",
+    "vendor_value": 33,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 48915,
+    "chat_link": "[&AgETvwAA]",
+    "icon": "https://render.guildwars2.com/file/09B6025D01199D77CACA2980A159D2C30F9D3256/665779.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "Gain Power Equal to 6% of Your Condition Damage\nGain Power Equal to 8% of Your Expertise\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Toxic Maintenance Oil",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Fine",
+    "vendor_value": 33,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 48916,
+    "chat_link": "[&AgEUvwAA]",
+    "icon": "https://render.guildwars2.com/file/7AB4D4BBBF563E0B5796C7CD645BDAB7BF9753B4/665780.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "Gain Concentration Equal to 3% of Your Power\nGain Concentration Equal to 6% of Your Condition Damage\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Toxic Tuning Crystal",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Fine",
+    "vendor_value": 33,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 48917,
+    "chat_link": "[&AgEVvwAA]",
+    "icon": "https://render.guildwars2.com/file/CAE216F71766AD4407ECD8C70894792DE41B0366/665781.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "Gain Condition Damage Equal to 3% of Your Power\nGain Condition Damage Equal to 3% of Your Precision\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Recipe: Toxic Sharpening Stone",
+    "description": "Double-click to learn a recipe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 27,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 48918,
+    "chat_link": "[&AgEWvwAA]",
+    "icon": "https://render.guildwars2.com/file/066D559192F1D71D3EF85F5121CE807E1B64E000/849422.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 7840
+    }
+  },
+  {
+    "name": "Recipe: Toxic Maintenance Oil",
+    "description": "Double-click to learn a recipe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 27,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 48919,
+    "chat_link": "[&AgEXvwAA]",
+    "icon": "https://render.guildwars2.com/file/066D559192F1D71D3EF85F5121CE807E1B64E000/849422.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 7841
+    }
+  },
+  {
+    "name": "Recipe: Toxic Tuning Crystal",
+    "description": "Double-click to learn a recipe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 27,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 48920,
+    "chat_link": "[&AgEYvwAA]",
+    "icon": "https://render.guildwars2.com/file/066D559192F1D71D3EF85F5121CE807E1B64E000/849422.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 7839
+    }
+  },
+  {
+    "name": "Bowl of Marjory's Experimental Chili",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Fine",
+    "vendor_value": 33,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 48921,
+    "chat_link": "[&AgEZvwAA]",
+    "icon": "https://render.guildwars2.com/file/1C01E3FC4C220148A7DBF813D57BEC0421A7A538/665782.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "+50 Power\n+50 Condition Damage\nGain Might When Using a Heal Skill\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Recipe: Marjory's Experimental Chili",
+    "description": "Double-click to learn a recipe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 27,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 48922,
+    "chat_link": "[&AgEavwAA]",
+    "icon": "https://render.guildwars2.com/file/B609EB03A009033D5655159232E2B9436EB8B630/849269.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 7842
+    }
+  },
+  {
+    "name": "Krait Obelisk Shard Transcriber",
+    "description": "This device is designed to transcribe the unique energy signatures of the krait obelisk shards for further study.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 48923,
+    "chat_link": "[&AgEbvwAA]",
+    "icon": "https://render.guildwars2.com/file/02F191D77DDAC53C9D74EA0D0B33B357D0B80BCE/499504.png"
+  },
+  {
+    "name": "Blacklight Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 48924,
+    "chat_link": "[&AgEcvwAA]",
+    "icon": "https://render.guildwars2.com/file/FFE3A6302A0409148059239E05C9064D5DAF1E04/561734.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 1254
+    }
+  },
+  {
+    "name": "Cobolt Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 48925,
+    "chat_link": "[&AgEdvwAA]",
+    "icon": "https://render.guildwars2.com/file/FFE3A6302A0409148059239E05C9064D5DAF1E04/561734.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 1249
+    }
+  },
+  {
+    "name": "Cyanide Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 48926,
+    "chat_link": "[&AgEevwAA]",
+    "icon": "https://render.guildwars2.com/file/FFE3A6302A0409148059239E05C9064D5DAF1E04/561734.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 1252
+    }
+  },
+  {
+    "name": "Limonite Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 48927,
+    "chat_link": "[&AgEfvwAA]",
+    "icon": "https://render.guildwars2.com/file/FFE3A6302A0409148059239E05C9064D5DAF1E04/561734.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 1251
+    }
+  },
+  {
+    "name": "Vincent Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 48928,
+    "chat_link": "[&AgEgvwAA]",
+    "icon": "https://render.guildwars2.com/file/FFE3A6302A0409148059239E05C9064D5DAF1E04/561734.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 1253
+    }
+  },
+  {
+    "name": "Violite Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 48929,
+    "chat_link": "[&AgEhvwAA]",
+    "icon": "https://render.guildwars2.com/file/FFE3A6302A0409148059239E05C9064D5DAF1E04/561734.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 1250
+    }
+  },
+  {
+    "name": "Consortium Harvesting Sickle",
+    "description": "Used to harvest all plants. Unlimited use.",
+    "type": "Gathering",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 48930,
+    "chat_link": "[&AgEivwAA]",
+    "icon": "https://render.guildwars2.com/file/17EED9D8F570EF1EF00045533F65CD791EA4D0FB/582347.png",
+    "details": {
+      "type": "Foraging"
+    }
+  },
+  {
+    "name": "Chop-It-All Logging Axe",
+    "description": "Perfect for use on all types of trees. Unlimited use.",
+    "type": "Gathering",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 48931,
+    "chat_link": "[&AgEjvwAA]",
+    "icon": "https://render.guildwars2.com/file/15CF97BA7DC573E2BCA852FF1364721B98531470/598608.png",
+    "details": {
+      "type": "Logging"
+    }
+  },
+  {
+    "name": "Bone Pick",
+    "description": "Used to mine all metals. Unlimited use.",
+    "type": "Gathering",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 48932,
+    "chat_link": "[&AgEkvwAA]",
+    "icon": "https://render.guildwars2.com/file/9827C507181C6B305EA026C2F1EB7448AA390CD5/638367.png",
+    "details": {
+      "type": "Mining"
+    }
+  },
+  {
+    "name": "Molten Alliance Mining Pick",
+    "description": "Used to mine all metals. Unlimited use.",
+    "type": "Gathering",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 48933,
+    "chat_link": "[&AgElvwAA]",
+    "icon": "https://render.guildwars2.com/file/ACF90CA6BCD9CEEFD4D0DCEF2AA87C97B50BDC56/561815.png",
+    "details": {
+      "type": "Mining"
+    }
+  },
+  {
+    "name": "Jack-in-the-Box Scythe",
+    "description": "Used to harvest all plants. Unlimited use.",
+    "type": "Gathering",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 48934,
+    "chat_link": "[&AgEmvwAA]",
+    "icon": "https://render.guildwars2.com/file/B8FAB3CF449D4BF50BD29AEA7B1A753F7E5CE792/643281.png",
+    "details": {
+      "type": "Foraging"
+    }
+  },
+  {
+    "name": "Great Jungle Wurm 3 Pack",
+    "description": "Contains 1 of each of these miniatures:\n• Mini Amber Great Jungle Wurm\n• Mini Crimson Great Jungle Wurm\n• Mini Cobalt Great Jungle Wurm\n\nEach mini can be activated from your inventory to follow you around the world.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 48936,
+    "chat_link": "[&AgEovwAA]",
+    "icon": "https://render.guildwars2.com/file/6A2AC1F20D745298A26444277F3FDA680E7EE1A0/711987.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Wurmslayer's Warfists",
+    "description": "<c=@flavor>Marked with signs of your battle with the great jungle wurms.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 1997,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 48937,
+    "chat_link": "[&AgEpvwAA]",
+    "icon": "https://render.guildwars2.com/file/66562CD0EC47180702EB1AD30FBEE0BB6649940B/711893.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Heavy",
+      "defense": 191,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539,
+        1717,
+        1687,
+        1826
+      ],
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Wurmslayer's Wristguards",
+    "description": "<c=@flavor>Marked with signs of your battle with the great jungle wurms.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 1996,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 48939,
+    "chat_link": "[&AgErvwAA]",
+    "icon": "https://render.guildwars2.com/file/0DB2E916E9259C0AB749510141374CC70FC77CB2/711894.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Light",
+      "defense": 140,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539,
+        1717,
+        1687,
+        1826
+      ],
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Wurmslayer's Grips",
+    "description": "<c=@flavor>Marked with signs of your battle with the great jungle wurms.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 2000,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 48941,
+    "chat_link": "[&AgEtvwAA]",
+    "icon": "https://render.guildwars2.com/file/0B18A5405F26B3191DCBB20DBFFF1EAD087EB6A1/711895.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Medium",
+      "defense": 165,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539,
+        1717,
+        1687,
+        1826
+      ],
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Mask of the Wanderer Skin",
+    "description": "Double-click to imbue another helmet item's stats into this appearance (one-time ability).",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 48944,
+    "chat_link": "[&AgEwvwAA]",
+    "icon": "https://render.guildwars2.com/file/BAC8329490384EDB7D52A99ACACD605E0C465ED0/699317.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1250,
+        1251,
+        1252
+      ]
+    }
+  },
+  {
+    "name": "Mask of the Wanderer",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "default_skin": 1250,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 48946,
+    "chat_link": "[&AgEyvwAA]",
+    "icon": "https://render.guildwars2.com/file/BAC8329490384EDB7D52A99ACACD605E0C465ED0/699317.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Medium",
+      "defense": 9,
+      "infusion_slots": [],
+      "attribute_adjustment": 6.324,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Mask of the Wanderer",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "default_skin": 1252,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 48950,
+    "chat_link": "[&AgE2vwAA]",
+    "icon": "https://render.guildwars2.com/file/BAC8329490384EDB7D52A99ACACD605E0C465ED0/699317.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Heavy",
+      "defense": 11,
+      "infusion_slots": [],
+      "attribute_adjustment": 6.324,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Gathering Booster",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 48951,
+    "chat_link": "[&AgE3vwAA]",
+    "icon": "https://render.guildwars2.com/file/BA031F002EE7F00CC3D9D6D4770DDC33B84A723D/674830.png",
+    "details": {
+      "type": "Generic",
+      "duration_ms": 3600000,
+      "apply_count": 1,
+      "name": "Gathering Boost",
+      "icon": "https://render.guildwars2.com/file/36435FCC05151BA46EB9ED23D7085BBAF00B3B60/665805.png",
+      "description": "Gain 10 seconds of swiftness when gathering.\n33% chance at extra resources when gathering."
+    }
+  },
+  {
+    "name": "Permanent Toxic Offshoot Finisher",
+    "description": "Propagate a toxic growth from the remains of your recently departed foe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 48952,
+    "chat_link": "[&AgE4vwAA]",
+    "icon": "https://render.guildwars2.com/file/141C46C748CF5E6907303FE6A89E34BEADDD0AA7/665806.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Content"
+    }
+  },
+  {
+    "name": "Limited-Use Toxic Offshoot Finisher",
+    "description": "Propagate a toxic growth from the remains of your recently departed foe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 48953,
+    "chat_link": "[&AgE5vwAA]",
+    "icon": "https://render.guildwars2.com/file/141C46C748CF5E6907303FE6A89E34BEADDD0AA7/665806.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Content"
+    }
+  },
+  {
+    "name": "Toxic Dye Kit",
+    "description": "Double-click to gain one random toxic-inspired color. Includes a chance at 1 of 6 exclusive colors.\n\n<c=#FFC957>All dyes have an equal chance to drop.</c>",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 48954,
+    "chat_link": "[&AgE6vwAA]",
+    "icon": "https://render.guildwars2.com/file/9CA420D41AC95B0507CE2F5BBFF9E0BBE8C44E3E/665807.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Dreamcleaver Logging Axe",
+    "description": "Perfect for use on all types of trees. Unlimited use.",
+    "type": "Gathering",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 192,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 48955,
+    "chat_link": "[&AgE7vwAA]",
+    "icon": "https://render.guildwars2.com/file/0334AF66EB5E182C4C0FB2576A31B8A25292E951/665808.png",
+    "details": {
+      "type": "Logging"
+    }
+  },
+  {
+    "name": "Dreamthistle Axe",
+    "type": "Weapon",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 3775,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 48956,
+    "chat_link": "[&AgE8vwAA]",
+    "icon": "https://render.guildwars2.com/file/54C0DD2804017AAD22C8E633C56C4539FE5A386D/665812.png",
+    "details": {
+      "type": "Axe",
+      "damage_type": "Physical",
+      "min_power": 145,
+      "max_power": 178,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 13.392,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Dreamthistle Axe Skin",
+    "description": "Double-click to apply this look to any other axe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 48958,
+    "chat_link": "[&AgE+vwAA]",
+    "icon": "https://render.guildwars2.com/file/54C0DD2804017AAD22C8E633C56C4539FE5A386D/665812.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        3775
+      ]
+    }
+  },
+  {
+    "name": "Dreamthistle Dagger Skin",
+    "description": "Double-click to apply this look to any other dagger.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 48961,
+    "chat_link": "[&AgFBvwAA]",
+    "icon": "https://render.guildwars2.com/file/334E7DD0B36392245B46A6EA4ED9550302E6E20B/665814.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        3723
+      ]
+    }
+  },
+  {
+    "name": "Dreamthistle Focus Skin",
+    "description": "Double-click to apply this look to any other focus.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 48964,
+    "chat_link": "[&AgFEvwAA]",
+    "icon": "https://render.guildwars2.com/file/97B21CD232CE030E6704D2AAB3011B4506FCC30E/665815.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        3704
+      ]
+    }
+  },
+  {
+    "name": "Dreamthistle Greatsword",
+    "type": "Weapon",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 3709,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 48965,
+    "chat_link": "[&AgFFvwAA]",
+    "icon": "https://render.guildwars2.com/file/189122095EDFBAFD76FED4E9186114F82D08D128/665816.png",
+    "details": {
+      "type": "Greatsword",
+      "damage_type": "Physical",
+      "min_power": 169,
+      "max_power": 187,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 26.784,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Dreamthistle Greatsword Skin",
+    "description": "Double-click to apply this look to any other greatsword.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 48967,
+    "chat_link": "[&AgFHvwAA]",
+    "icon": "https://render.guildwars2.com/file/189122095EDFBAFD76FED4E9186114F82D08D128/665816.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        3709
+      ]
+    }
+  },
+  {
+    "name": "Dreamthistle Hammer Skin",
+    "description": "Double-click to apply this look to any other hammer.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 48970,
+    "chat_link": "[&AgFKvwAA]",
+    "icon": "https://render.guildwars2.com/file/E2C2C67DE27056F66DD9013A47D72D6091A9E0F0/665817.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        3813
+      ]
+    }
+  },
+  {
+    "name": "Dreamthistle Longbow Skin",
+    "description": "Double-click to apply this look to any other longbow.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 48973,
+    "chat_link": "[&AgFNvwAA]",
+    "icon": "https://render.guildwars2.com/file/DCC6E5F60E372638CD285391D731E9B409AEB032/665819.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        3706
+      ]
+    }
+  },
+  {
+    "name": "Dreamthistle Mace Skin",
+    "description": "Double-click to apply this look to any other mace.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 48976,
+    "chat_link": "[&AgFQvwAA]",
+    "icon": "https://render.guildwars2.com/file/5AEB920F12CAB701F91A04B4AE099073FB41255C/665820.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        3707
+      ]
+    }
+  },
+  {
+    "name": "Dreamthistle Pistol",
+    "type": "Weapon",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 3776,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 48977,
+    "chat_link": "[&AgFRvwAA]",
+    "icon": "https://render.guildwars2.com/file/292D6F6974311EE637B6AC0C782967DCC324E8D5/665821.png",
+    "details": {
+      "type": "Pistol",
+      "damage_type": "Physical",
+      "min_power": 149,
+      "max_power": 174,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 13.392,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Dreamthistle Pistol Skin",
+    "description": "Double-click to apply this look to any other pistol.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 48979,
+    "chat_link": "[&AgFTvwAA]",
+    "icon": "https://render.guildwars2.com/file/292D6F6974311EE637B6AC0C782967DCC324E8D5/665821.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        3776
+      ]
+    }
+  },
+  {
+    "name": "Dreamthistle Rifle Skin",
+    "description": "Double-click to apply this look to any other rifle.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 48982,
+    "chat_link": "[&AgFWvwAA]",
+    "icon": "https://render.guildwars2.com/file/E5A555DDFA6F72060B6E4022C7F0A4C173B07A96/665823.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        3796
+      ]
+    }
+  },
+  {
+    "name": "Dreamthistle Scepter Skin",
+    "description": "Double-click to apply this look to any other scepter.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 48985,
+    "chat_link": "[&AgFZvwAA]",
+    "icon": "https://render.guildwars2.com/file/000A040449649106F91F24F4031C63EFE6EA5D09/665825.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        3788
+      ]
+    }
+  },
+  {
+    "name": "Dreamthistle Shield Skin",
+    "description": "Double-click to apply this look to any other shield.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 48988,
+    "chat_link": "[&AgFcvwAA]",
+    "icon": "https://render.guildwars2.com/file/34D12A497736EA551662E3EA025CDB1060A925B3/665826.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        3717
+      ]
+    }
+  },
+  {
+    "name": "Dreamthistle Short Bow Skin",
+    "description": "Double-click to apply this look to any other short bow.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 48991,
+    "chat_link": "[&AgFfvwAA]",
+    "icon": "https://render.guildwars2.com/file/67FB0820EC74A8D26B01B85F6544756DA24206A7/665827.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        3745
+      ]
+    }
+  },
+  {
+    "name": "Dreamthistle Staff Skin",
+    "description": "Double-click to apply this look to any other staff.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 48994,
+    "chat_link": "[&AgFivwAA]",
+    "icon": "https://render.guildwars2.com/file/E627C7F3BF389EB8EBC5CA4A9629093AAD560459/665829.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        3731
+      ]
+    }
+  },
+  {
+    "name": "Dreamthistle Sword Skin",
+    "description": "Double-click to apply this look to any other sword.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 48997,
+    "chat_link": "[&AgFlvwAA]",
+    "icon": "https://render.guildwars2.com/file/46D358EF3AA3040CC6ECB046300BF59979AD4EC1/665830.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        3750
+      ]
+    }
+  },
+  {
+    "name": "Dreamthistle Torch Skin",
+    "description": "Double-click to apply this look to any other torch.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 49000,
+    "chat_link": "[&AgFovwAA]",
+    "icon": "https://render.guildwars2.com/file/ECB01A0C6C1229DF09A24E5E906C000D2BECDCE7/665831.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        3727
+      ]
+    }
+  },
+  {
+    "name": "Dreamthistle Warhorn Skin",
+    "description": "Double-click to apply this look to any other warhorn.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 49003,
+    "chat_link": "[&AgFrvwAA]",
+    "icon": "https://render.guildwars2.com/file/6C80ACECC70904BD7C6BA0B9D213761E4968651E/665834.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        3744
+      ]
+    }
+  },
+  {
+    "name": "Dreamthistle Trident",
+    "type": "Weapon",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 3738,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49004,
+    "chat_link": "[&AgFsvwAA]",
+    "icon": "https://render.guildwars2.com/file/AF2202140BC30CDCCAE84F73E15EFDF243AAD272/665836.png",
+    "details": {
+      "type": "Trident",
+      "damage_type": "Physical",
+      "min_power": 154,
+      "max_power": 170,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 26.784,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Dreamthistle Trident",
+    "type": "Weapon",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "default_skin": 3738,
+    "game_types": [
+      "Pvp",
+      "PvpLobby"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49005,
+    "chat_link": "[&AgFtvwAA]",
+    "icon": "https://render.guildwars2.com/file/AF2202140BC30CDCCAE84F73E15EFDF243AAD272/665836.png",
+    "details": {
+      "type": "Trident",
+      "damage_type": "Physical",
+      "min_power": 905,
+      "max_power": 1000,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Dreamthistle Trident Skin",
+    "description": "Double-click to apply this look to any other trident.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 49006,
+    "chat_link": "[&AgFuvwAA]",
+    "icon": "https://render.guildwars2.com/file/AF2202140BC30CDCCAE84F73E15EFDF243AAD272/665836.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        3738
+      ]
+    }
+  },
+  {
+    "name": "Dreamthistle Harpoon Gun Skin",
+    "description": "Double-click to apply this look to any other harpoon gun.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 49009,
+    "chat_link": "[&AgFxvwAA]",
+    "icon": "https://render.guildwars2.com/file/0CA0C1300F74B42F0C9D264C66069765119D49BD/665838.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        3741
+      ]
+    }
+  },
+  {
+    "name": "Dreamthistle Spear Skin",
+    "description": "Double-click to apply this look to any other spear.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 49012,
+    "chat_link": "[&AgF0vwAA]",
+    "icon": "https://render.guildwars2.com/file/00ED51D4F343AFC666AD96DCAE9D72A98017F9CB/665840.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        3759
+      ]
+    }
+  },
+  {
+    "name": "Marjory's Axe",
+    "description": "<c=@flavor>Marjory Delaqua inherited this axe from Mendel, a boy she failed to protect.</c>",
+    "type": "Weapon",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 3780,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49013,
+    "chat_link": "[&AgF1vwAA]",
+    "icon": "https://render.guildwars2.com/file/C92CE7F75EAB42380FC57507A034DBCE9E15F919/665841.png",
+    "details": {
+      "type": "Axe",
+      "damage_type": "Physical",
+      "min_power": 145,
+      "max_power": 178,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 13.392,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Marjory's Axe Skin",
+    "description": "Double-click to apply this look to any other axe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49015,
+    "chat_link": "[&AgF3vwAA]",
+    "icon": "https://render.guildwars2.com/file/C92CE7F75EAB42380FC57507A034DBCE9E15F919/665841.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        3780
+      ]
+    }
+  },
+  {
+    "name": "Marjory's Dagger",
+    "description": "<c=@flavor>Marjory Delaqua promised Mendel she'd protect this dagger, though she couldn't protect him.</c>",
+    "type": "Weapon",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 3823,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49016,
+    "chat_link": "[&AgF4vwAA]",
+    "icon": "https://render.guildwars2.com/file/52D10FE1277A6B3C7F0795CADE9CC5D1F22B5DF4/665842.png",
+    "details": {
+      "type": "Dagger",
+      "damage_type": "Physical",
+      "min_power": 157,
+      "max_power": 166,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 13.392,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Marjory's Dagger Skin",
+    "description": "Double-click to apply this look to any other dagger.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49018,
+    "chat_link": "[&AgF6vwAA]",
+    "icon": "https://render.guildwars2.com/file/52D10FE1277A6B3C7F0795CADE9CC5D1F22B5DF4/665842.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        3823
+      ]
+    }
+  },
+  {
+    "name": "Kasmeer's Staff",
+    "description": "<c=@flavor>Lady Kasmeer Meade has only this staff to remember her mother and grandmother by.</c>",
+    "type": "Weapon",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 3815,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49019,
+    "chat_link": "[&AgF7vwAA]",
+    "icon": "https://render.guildwars2.com/file/B972E0B0BBD76B7F2F4609D80C29C6EFC2B632C7/665843.png",
+    "details": {
+      "type": "Staff",
+      "damage_type": "Physical",
+      "min_power": 167,
+      "max_power": 188,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 26.784,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Kasmeer's Staff",
+    "description": "<c=@flavor>Lady Kasmeer Meade has only this staff to remember her mother and grandmother by.</c>",
+    "type": "Weapon",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "default_skin": 3815,
+    "game_types": [
+      "Pvp",
+      "PvpLobby"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49020,
+    "chat_link": "[&AgF8vwAA]",
+    "icon": "https://render.guildwars2.com/file/B972E0B0BBD76B7F2F4609D80C29C6EFC2B632C7/665843.png",
+    "details": {
+      "type": "Staff",
+      "damage_type": "Physical",
+      "min_power": 985,
+      "max_power": 1111,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Kasmeer's Staff Skin",
+    "description": "Double-click to apply this look to any other staff.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49021,
+    "chat_link": "[&AgF9vwAA]",
+    "icon": "https://render.guildwars2.com/file/B972E0B0BBD76B7F2F4609D80C29C6EFC2B632C7/665843.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        3815
+      ]
+    }
+  },
+  {
+    "name": "Toxic Pauldron",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "default_skin": 1325,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49022,
+    "chat_link": "[&AgF+vwAA]",
+    "icon": "https://render.guildwars2.com/file/AEFFC856E1DDA531576427D40C0E6F4A5B73E574/665844.png",
+    "details": {
+      "type": "Shoulders",
+      "weight_class": "Heavy",
+      "defense": 11,
+      "infusion_slots": [],
+      "attribute_adjustment": 4.743,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 2
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Toxic Mantle Skin",
+    "description": "Double-click to apply this look to any other shoulder piece.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49024,
+    "chat_link": "[&AgGAvwAA]",
+    "icon": "https://render.guildwars2.com/file/AEFFC856E1DDA531576427D40C0E6F4A5B73E574/665844.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1325,
+        1326,
+        1327
+      ]
+    }
+  },
+  {
+    "name": "Toxic Mantle",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "default_skin": 1326,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49025,
+    "chat_link": "[&AgGBvwAA]",
+    "icon": "https://render.guildwars2.com/file/AEFFC856E1DDA531576427D40C0E6F4A5B73E574/665844.png",
+    "details": {
+      "type": "Shoulders",
+      "weight_class": "Light",
+      "defense": 7,
+      "infusion_slots": [],
+      "attribute_adjustment": 4.743,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 2
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Toxic Shoulderpad",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "default_skin": 1327,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49027,
+    "chat_link": "[&AgGDvwAA]",
+    "icon": "https://render.guildwars2.com/file/AEFFC856E1DDA531576427D40C0E6F4A5B73E574/665844.png",
+    "details": {
+      "type": "Shoulders",
+      "weight_class": "Medium",
+      "defense": 9,
+      "infusion_slots": [],
+      "attribute_adjustment": 4.743,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 2
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Toxic Gauntlets",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "default_skin": 1328,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49029,
+    "chat_link": "[&AgGFvwAA]",
+    "icon": "https://render.guildwars2.com/file/995A0DC591A260446AF2B1F549C95436D4B65344/665845.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Heavy",
+      "defense": 17,
+      "infusion_slots": [],
+      "attribute_adjustment": 4.743,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 2
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Toxic Gloves Skin",
+    "description": "Double-click to apply this look to any other gloves.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49031,
+    "chat_link": "[&AgGHvwAA]",
+    "icon": "https://render.guildwars2.com/file/995A0DC591A260446AF2B1F549C95436D4B65344/665845.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1328,
+        1329,
+        1330
+      ]
+    }
+  },
+  {
+    "name": "Toxic Gloves",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "default_skin": 1329,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49032,
+    "chat_link": "[&AgGIvwAA]",
+    "icon": "https://render.guildwars2.com/file/995A0DC591A260446AF2B1F549C95436D4B65344/665845.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Light",
+      "defense": 13,
+      "infusion_slots": [],
+      "attribute_adjustment": 4.743,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 2
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Toxic Armguard",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "default_skin": 1330,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49034,
+    "chat_link": "[&AgGKvwAA]",
+    "icon": "https://render.guildwars2.com/file/995A0DC591A260446AF2B1F549C95436D4B65344/665845.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Medium",
+      "defense": 15,
+      "infusion_slots": [],
+      "attribute_adjustment": 4.743,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 2
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Bag of Coins",
+    "description": "Double-click to open.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49037,
+    "chat_link": "[&AgGNvwAA]",
+    "icon": "https://render.guildwars2.com/file/3BF274D1A323C002CDCFE80724912CDB7C78ABEE/62857.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Shell Pouch",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 256,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49038,
+    "chat_link": "[&AgGOvwAA]",
+    "icon": "https://render.guildwars2.com/file/C007CABA2A4CA303B10C733246C352276D080762/619524.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Heirloom Seed Pouch",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 256,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49039,
+    "chat_link": "[&AgGPvwAA]",
+    "icon": "https://render.guildwars2.com/file/74921BC51FFC732180CAD2019266B1F3A1E97999/619516.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Mysterious Blue Key",
+    "description": "Combine the 3 colored keys to be able to open the tri-key chest within the tower rubble. This key is primarily found in the western area of Kessex Hills.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 49129,
+    "chat_link": "[&AgHpvwAA]",
+    "icon": "https://render.guildwars2.com/file/7D71011EB2F21C674725F9CD7AC2A37DA4D972DF/674807.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Mysterious Green Key",
+    "description": "Combine the 3 colored keys to be able to open the tri-key chest within the tower rubble. This key is primarily found in the central area of Kessex Hills.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 49130,
+    "chat_link": "[&AgHqvwAA]",
+    "icon": "https://render.guildwars2.com/file/18494052323E3D0F776F707D184A6575BA6A52BA/674808.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Mysterious Pink Key",
+    "description": "Combine the 3 colored keys to be able to open the tri-key chest within the tower rubble. This key is primarily found in the eastern area of Kessex Hills.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 49131,
+    "chat_link": "[&AgHrvwAA]",
+    "icon": "https://render.guildwars2.com/file/41C00CA047D6CA65AF57C8C711FBFFB34D990B06/674809.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Tricolor Key",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49132,
+    "chat_link": "[&AgHsvwAA]",
+    "icon": "https://render.guildwars2.com/file/0D2FACB7EBAA534CA1090F57B6CC4971597119F1/674810.png"
+  },
+  {
+    "name": "Infinite Toxic Krait Tonic",
+    "description": "Double-click to transform into a toxic krait. You will be unable to fight while transformed.",
+    "type": "Gizmo",
+    "level": 1,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 49133,
+    "chat_link": "[&AgHtvwAA]",
+    "icon": "https://render.guildwars2.com/file/C6A3FFF06BB4D50050D3B1FE75E3AACBFA0F8009/63129.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Recipe: Infinite Toxic Krait Tonic",
+    "description": "Double-click to learn a recipe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 108,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 49134,
+    "chat_link": "[&AgHuvwAA]",
+    "icon": "https://render.guildwars2.com/file/43DEC3E72F73B6D8063EE1EA485F5B60DBFDB96B/849415.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 7843
+    }
+  },
+  {
+    "name": "Molten Iron Scrap",
+    "description": "Not merely some random scrap—this iron has been shaped for some purpose.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49135,
+    "chat_link": "[&AgHvvwAA]",
+    "icon": "https://render.guildwars2.com/file/647A80CEB2BDC014BA564CA2CC54CFCFA525675C/561730.png"
+  },
+  {
+    "name": "Aetherblade Data",
+    "description": "This Aetherblade data crystal waits to be plugged into some sort of device.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49136,
+    "chat_link": "[&AgHwvwAA]",
+    "icon": "https://render.guildwars2.com/file/045C05C2F83A59FC4B6F15073465C5D3040E4DF5/65674.png"
+  },
+  {
+    "name": "Watchwork Core",
+    "description": "This still-intact power core has a crystal input socket at one end.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49137,
+    "chat_link": "[&AgHxvwAA]",
+    "icon": "https://render.guildwars2.com/file/3A4C1B1ABDC2F7C307E40A74D3E00ED0A3D1C057/625771.png"
+  },
+  {
+    "name": "Dried Toxic Spore",
+    "description": "This sample retrieved from a dried-out toxic pod still appears to resonate with residual energy.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49138,
+    "chat_link": "[&AgHyvwAA]",
+    "icon": "https://render.guildwars2.com/file/78B90364F0FA4806E6600DD260BE2EBC51D1431D/665773.png"
+  },
+  {
+    "name": "Sturdy Stick",
+    "description": "A strong, useful length of wood.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49139,
+    "chat_link": "[&AgHzvwAA]",
+    "icon": "https://render.guildwars2.com/file/365903EF113AAD5FF6E5F77F1E46CE1072046A3D/63126.png"
+  },
+  {
+    "name": "Dry Roots",
+    "description": "A collection of dry roots that could be tied around something.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49140,
+    "chat_link": "[&AgH0vwAA]",
+    "icon": "https://render.guildwars2.com/file/4EDBC2B2B23EAEE766FF2395ABDE462C4B0FE166/65907.png"
+  },
+  {
+    "name": "Makeshift Torch Handle",
+    "description": "The dried roots wound around this sturdy stick's end are ready to be soaked in fuel.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49141,
+    "chat_link": "[&AgH1vwAA]",
+    "icon": "https://render.guildwars2.com/file/5B92FF4408386F02FB75F2034F2DCDBF53DDA206/66218.png"
+  },
+  {
+    "name": "Makeshift Torch",
+    "description": "The oil-soaked roots wound around this stick's end could make an excellent torch.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49143,
+    "chat_link": "[&AgH3vwAA]",
+    "icon": "https://render.guildwars2.com/file/5B92FF4408386F02FB75F2034F2DCDBF53DDA206/66218.png"
+  },
+  {
+    "name": "Unopened Endless Mystery Tonic",
+    "description": "It smells like singed fur and feathers. Use this item to transform into...something. The bottle seems to be self-replenishing.\n\nAccount bound on use.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "NoUnderwater",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 49145,
+    "chat_link": "[&AgH5vwAA]",
+    "icon": "https://render.guildwars2.com/file/5F3D98C8CFF353535A10530E3F38C5E8E3BDF50B/66557.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Unopened Endless Mystery Tonic",
+    "description": "It smells like some sort of furniture polish. Use this item to transform into...something. The bottle seems to be self-replenishing.\n\nAccount bound on use.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 49146,
+    "chat_link": "[&AgH6vwAA]",
+    "icon": "https://render.guildwars2.com/file/FCFF0C9BA7F598FA96DCDC13B16C01E26407CDBF/66558.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Unopened Endless Mystery Tonic",
+    "description": "It smells of the forest. Use this item to transform into...something. The bottle seems to be self-replenishing.\n\nAccount bound on use.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 49147,
+    "chat_link": "[&AgH7vwAA]",
+    "icon": "https://render.guildwars2.com/file/1275404EE30C0FDCC1EE6AB3A70136FB020158D7/66150.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Royal Terrace Pass",
+    "description": "Grants access to the Royal Terrace in Divinity's Reach. Double-click to travel to the Royal Terrace.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49149,
+    "chat_link": "[&AgH9vwAA]",
+    "icon": "https://render.guildwars2.com/file/470C33B838D5541D39C91DD5C65A53EFB9BCEB79/699314.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Wurmslayer's Pauldrons",
+    "description": "<c=@flavor>Marked with signs of your battle with the great jungle wurms.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 0,
+    "default_skin": 2001,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49150,
+    "chat_link": "[&AgH+vwAA]",
+    "icon": "https://render.guildwars2.com/file/1B01AE00EC9EAE021ACADEC4137B25D3965460CB/711896.png",
+    "details": {
+      "type": "Shoulders",
+      "weight_class": "Heavy",
+      "defense": 127,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539,
+        1717,
+        1687,
+        1826
+      ],
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Wurmslayer's Epaulets",
+    "description": "<c=@flavor>Marked with signs of your battle with the great jungle wurms.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 0,
+    "default_skin": 1998,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49153,
+    "chat_link": "[&AgEBwAAA]",
+    "icon": "https://render.guildwars2.com/file/11B6F5116F08ECEA98AFE074B0C76B412A68A304/711897.png",
+    "details": {
+      "type": "Shoulders",
+      "weight_class": "Light",
+      "defense": 77,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539,
+        1717,
+        1687,
+        1826
+      ],
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Wurmslayer's Shoulderguard",
+    "description": "<c=@flavor>Marked with signs of your battle with the great jungle wurms.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 1999,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49155,
+    "chat_link": "[&AgEDwAAA]",
+    "icon": "https://render.guildwars2.com/file/B864503EE34EF42E01D1BA48630D18AE0C7700A5/711898.png",
+    "details": {
+      "type": "Shoulders",
+      "weight_class": "Medium",
+      "defense": 102,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539,
+        1717,
+        1687,
+        1826
+      ],
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Mask of the Silent Skin",
+    "description": "Double-click to imbue another helmet item's stats into this appearance (one-time ability).",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49157,
+    "chat_link": "[&AgEFwAAA]",
+    "icon": "https://render.guildwars2.com/file/CC4B96BCF4DAF0DFD7B165011B012068FCA10FBB/711988.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1049,
+        1050,
+        1051
+      ]
+    }
+  },
+  {
+    "name": "Permanent Ascalonian-Leader Finisher",
+    "description": "A ghostly captain commands a phantom army to trample your opponents with this finishing move in PvP and WvW.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 49164,
+    "chat_link": "[&AgEMwAAA]",
+    "icon": "https://render.guildwars2.com/file/35AC9C7C7C560EAEC202505D3CA07A5D069CDE2A/711979.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Content"
+    }
+  },
+  {
+    "name": "Permanent Mystical Dragon Finisher",
+    "description": "Bring a mystical end to your opponents with this finishing move in PvP or WvW.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49165,
+    "chat_link": "[&AgENwAAA]",
+    "icon": "https://render.guildwars2.com/file/7143E9DEDDB40E0701673E0C5A75E8BF786E23BC/779875.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Content"
+    }
+  },
+  {
+    "name": "Permanent Skritt-Scavenger Finisher",
+    "description": "A skritt thief rifles through your opponent's pockets with this finishing move in PvP and WvW.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 49169,
+    "chat_link": "[&AgERwAAA]",
+    "icon": "https://render.guildwars2.com/file/9EF204F14C0DF37202EE5C940A582D1C55FF3ECA/919370.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Content"
+    }
+  },
+  {
+    "name": "Hoard of Ascended Materials",
+    "description": "Double-click to open. Contains 1 Empyreal Star, 1 Dragonite Ingot, and 1 Bloodstone Brick.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49206,
+    "chat_link": "[&AgE2wAAA]",
+    "icon": "https://render.guildwars2.com/file/F65D7736D39BA408AB9480C976D7081ED7BCF83D/222564.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Ascended Weapon Chest",
+    "description": "Double-click to choose a box of ascended weapons.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 320,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49207,
+    "chat_link": "[&AgE3wAAA]",
+    "icon": "https://render.guildwars2.com/file/E1C5D2E7206D58DA48C80D08B20106B923FF0825/619510.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Ascended Armor Chest",
+    "description": "Double-click to choose a box of ascended armor.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 320,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49208,
+    "chat_link": "[&AgE4wAAA]",
+    "icon": "https://render.guildwars2.com/file/E1C5D2E7206D58DA48C80D08B20106B923FF0825/619510.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Recipe: Superior Rune of Resistance",
+    "description": "Double-click to learn a recipe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 108,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49209,
+    "chat_link": "[&AgE5wAAA]",
+    "icon": "https://render.guildwars2.com/file/64F6762697317B5472056E11A3B2310E273BA16C/849265.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 7845
+    }
+  },
+  {
+    "name": "Recipe: Superior Sigil of Momentum",
+    "description": "Double-click to learn a recipe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 108,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49210,
+    "chat_link": "[&AgE6wAAA]",
+    "icon": "https://render.guildwars2.com/file/066F0AB6170D56AAC780AC68CA04C3EBF20C18D7/849268.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 7844
+    }
+  },
+  {
+    "name": "Fractal Weapon Crate",
+    "description": "Double-click to choose a fractal weapon skin.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 256,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49218,
+    "chat_link": "[&AgFCwAAA]",
+    "icon": "https://render.guildwars2.com/file/6204473F5133BC10C90503F6E835CE089A6D9D93/888384.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Fractal Longbow",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 6900,
+    "default_skin": 4462,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49220,
+    "chat_link": "[&AgFEwAAA]",
+    "icon": "https://render.guildwars2.com/file/EEAF09F704D7034774E6E99E9E6E9AAAD8A3F253/511921.png",
+    "details": {
+      "type": "LongBow",
+      "damage_type": "Physical",
+      "min_power": 920,
+      "max_power": 1080,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Fractal Axe",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 4500,
+    "game_types": [
+      "Pvp",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49257,
+    "chat_link": "[&AgFpwAAA]",
+    "icon": "https://render.guildwars2.com/file/A4346AFDF0403125D87359AF084342261998C714/511909.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        4477
+      ]
+    }
+  },
+  {
+    "name": "Fractal Longbow",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 6900,
+    "game_types": [
+      "Pvp",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49258,
+    "chat_link": "[&AgFqwAAA]",
+    "icon": "https://render.guildwars2.com/file/EEAF09F704D7034774E6E99E9E6E9AAAD8A3F253/511921.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        4462
+      ]
+    }
+  },
+  {
+    "name": "Fractal Short Bow",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 6900,
+    "game_types": [
+      "Pvp",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49259,
+    "chat_link": "[&AgFrwAAA]",
+    "icon": "https://render.guildwars2.com/file/B0E52F5A909105CF3B31E3EAEF6AD17A706EB0AD/511927.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        4393
+      ]
+    }
+  },
+  {
+    "name": "Fractal Dagger",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 4500,
+    "game_types": [
+      "Pvp",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49260,
+    "chat_link": "[&AgFswAAA]",
+    "icon": "https://render.guildwars2.com/file/06965226E2C241D41BC7B414CC1A23222B0B3867/511929.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        4521
+      ]
+    }
+  },
+  {
+    "name": "Fractal Focus",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 4500,
+    "game_types": [
+      "Pvp",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49261,
+    "chat_link": "[&AgFtwAAA]",
+    "icon": "https://render.guildwars2.com/file/CFA27A9993BB2D1BEA971BD79773D9655B685297/511935.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        4438
+      ]
+    }
+  },
+  {
+    "name": "Fractal Greatsword",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 6900,
+    "game_types": [
+      "Pvp",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49262,
+    "chat_link": "[&AgFuwAAA]",
+    "icon": "https://render.guildwars2.com/file/AD081D79F93EE16B146B226DD75969BA25A15DE2/511941.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        4489
+      ]
+    }
+  },
+  {
+    "name": "Fractal Hammer",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 6900,
+    "game_types": [
+      "Pvp",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49263,
+    "chat_link": "[&AgFvwAAA]",
+    "icon": "https://render.guildwars2.com/file/AEA7204CFEA95F667E66EB185644911EFADD6ACC/511947.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        4519
+      ]
+    }
+  },
+  {
+    "name": "Fractal Mace",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 4500,
+    "game_types": [
+      "Pvp",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49264,
+    "chat_link": "[&AgFwwAAA]",
+    "icon": "https://render.guildwars2.com/file/300209BC61991D45AC420F6105C253D379AFD5AE/511959.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        4478
+      ]
+    }
+  },
+  {
+    "name": "Fractal Pistol",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 4500,
+    "game_types": [
+      "Pvp",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49265,
+    "chat_link": "[&AgFxwAAA]",
+    "icon": "https://render.guildwars2.com/file/3790B4D21191621E0AABFD413D072BEE23104405/511961.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        4466
+      ]
+    }
+  },
+  {
+    "name": "Fractal Rifle",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 6900,
+    "game_types": [
+      "Pvp",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49266,
+    "chat_link": "[&AgFywAAA]",
+    "icon": "https://render.guildwars2.com/file/7E6B0518379FFF33A79C6BD2230E091E601F5105/511963.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        4500
+      ]
+    }
+  },
+  {
+    "name": "Fractal Scepter",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 4500,
+    "game_types": [
+      "Pvp",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49267,
+    "chat_link": "[&AgFzwAAA]",
+    "icon": "https://render.guildwars2.com/file/D642E1A4EB660B03619D51E2AD6F62F7B8ADD75F/511965.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        4479
+      ]
+    }
+  },
+  {
+    "name": "Fractal Shield",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 4500,
+    "game_types": [
+      "Pvp",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49268,
+    "chat_link": "[&AgF0wAAA]",
+    "icon": "https://render.guildwars2.com/file/46DB0327B8A25F0569014B50D97202BFC3903BE1/511967.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        4510
+      ]
+    }
+  },
+  {
+    "name": "Fractal Harpoon",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 4500,
+    "game_types": [
+      "Pvp",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49269,
+    "chat_link": "[&AgF1wAAA]",
+    "icon": "https://render.guildwars2.com/file/1CB024F89FF07E9E0606C3FC4BF4CE92362DCAEB/511973.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        4495
+      ]
+    }
+  },
+  {
+    "name": "Fractal Speargun",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 4500,
+    "game_types": [
+      "Pvp",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49270,
+    "chat_link": "[&AgF2wAAA]",
+    "icon": "https://render.guildwars2.com/file/F0D1030479A7BB42630E22C74015A1184990CF7C/511953.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        4437
+      ]
+    }
+  },
+  {
+    "name": "Fractal Staff",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 6900,
+    "game_types": [
+      "Pvp",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49271,
+    "chat_link": "[&AgF3wAAA]",
+    "icon": "https://render.guildwars2.com/file/28CCDB0E3FF2911BAE76574365709C3D4C1F4D57/511979.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        4531
+      ]
+    }
+  },
+  {
+    "name": "Fractal Sword",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 4500,
+    "game_types": [
+      "Pvp",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49272,
+    "chat_link": "[&AgF4wAAA]",
+    "icon": "https://render.guildwars2.com/file/6D9C292C2AEC38A60903173FF3341BBE006735E0/511981.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        4539
+      ]
+    }
+  },
+  {
+    "name": "Fractal Torch",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 4500,
+    "game_types": [
+      "Pvp",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49273,
+    "chat_link": "[&AgF5wAAA]",
+    "icon": "https://render.guildwars2.com/file/674E4C12320CD6CD7EE7F62C2D0B724E625508D7/511983.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        4392
+      ]
+    }
+  },
+  {
+    "name": "Fractal Trident",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 4500,
+    "game_types": [
+      "Pvp",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49274,
+    "chat_link": "[&AgF6wAAA]",
+    "icon": "https://render.guildwars2.com/file/A5CAF34349BC7646AA40B59914AB93FB99000715/511989.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        4427
+      ]
+    }
+  },
+  {
+    "name": "Fractal Warhorn",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 4500,
+    "game_types": [
+      "Pvp",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49275,
+    "chat_link": "[&AgF7wAAA]",
+    "icon": "https://render.guildwars2.com/file/08C85DFF6B684F26B067E54EE290F649FFF0ED75/511991.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        4405
+      ]
+    }
+  },
+  {
+    "name": "Endless Fractal Tonic",
+    "description": "It smells like some sort of furniture polish. Use this item to transform into...something. You'll never know what until you try.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49277,
+    "chat_link": "[&AgF9wAAA]",
+    "icon": "https://render.guildwars2.com/file/AE4C703E2B78E5777123132C47B3F0E311ACD35E/681018.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Tixx's Toybox",
+    "description": "Double-click to open and choose between one of Tixx's toy miniatures or a Generous Wintersday Gift.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49286,
+    "chat_link": "[&AgGGwAAA]",
+    "icon": "https://render.guildwars2.com/file/2C5CC521500764E6CDDA46D064143A38A49567F6/681020.png",
+    "details": {
+      "type": "GiftBox"
+    }
+  },
+  {
+    "name": "Generous Wintersday Gift",
+    "description": "Contains Wintersday Gifts.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 11,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 49287,
+    "chat_link": "[&AgGHwAAA]",
+    "icon": "https://render.guildwars2.com/file/420CE6DF804B1429750A115F9B6CEDA504A036F4/526220.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Mini Fawn",
+    "description": "Double-click to summon this mini to follow you around. Only one mini may be in use at a time.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49291,
+    "chat_link": "[&AgGLwAAA]",
+    "icon": "https://render.guildwars2.com/file/E52B4240470CE01FB2F87139C256284BB07ECFFE/681021.png",
+    "details": {
+      "minipet_id": 209
+    }
+  },
+  {
+    "name": "Mini Arctic Fox Kit",
+    "description": "Double-click to summon this mini to follow you around. Only one mini may be in use at a time.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49292,
+    "chat_link": "[&AgGMwAAA]",
+    "icon": "https://render.guildwars2.com/file/7A6F3DC80A961A2DBC7EB64D693008ABC1255960/681022.png",
+    "details": {
+      "minipet_id": 210
+    }
+  },
+  {
+    "name": "Mini Puppy",
+    "description": "Double-click to summon this mini to follow you around. Only one mini may be in use at a time.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49293,
+    "chat_link": "[&AgGNwAAA]",
+    "icon": "https://render.guildwars2.com/file/C805A20144A24C954203579E314838FEDC96D839/681023.png",
+    "details": {
+      "minipet_id": 211
+    }
+  },
+  {
+    "name": "Mini Dolyak Calf",
+    "description": "Double-click to summon this mini to follow you around. Only one mini may be in use at a time.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49294,
+    "chat_link": "[&AgGOwAAA]",
+    "icon": "https://render.guildwars2.com/file/B762EADCBB01980DB6A5BC18C334757380C99274/681024.png",
+    "details": {
+      "minipet_id": 212
+    }
+  },
+  {
+    "name": "Recipe: Endless Toy Ventari Tonic",
+    "description": "Double-click to learn a recipe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 81,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage"
+    ],
+    "restrictions": [],
+    "id": 49295,
+    "chat_link": "[&AgGPwAAA]",
+    "icon": "https://render.guildwars2.com/file/390201BE2439AB7208B018E644F9344ADE90D47B/849419.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 7846
+    }
+  },
+  {
+    "name": "Recipe: Endless Toy Soldier Tonic",
+    "description": "Double-click to learn a recipe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 81,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage"
+    ],
+    "restrictions": [],
+    "id": 49296,
+    "chat_link": "[&AgGQwAAA]",
+    "icon": "https://render.guildwars2.com/file/390201BE2439AB7208B018E644F9344ADE90D47B/849419.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 7847
+    }
+  },
+  {
+    "name": "Recipe: Endless Princess Doll Tonic",
+    "description": "Double-click to learn a recipe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 81,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage"
+    ],
+    "restrictions": [],
+    "id": 49297,
+    "chat_link": "[&AgGRwAAA]",
+    "icon": "https://render.guildwars2.com/file/390201BE2439AB7208B018E644F9344ADE90D47B/849419.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 7848
+    }
+  },
+  {
+    "name": "Recipe: Endless Plush Griffon Tonic",
+    "description": "Double-click to learn a recipe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 81,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage"
+    ],
+    "restrictions": [],
+    "id": 49298,
+    "chat_link": "[&AgGSwAAA]",
+    "icon": "https://render.guildwars2.com/file/390201BE2439AB7208B018E644F9344ADE90D47B/849419.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 7849
+    }
+  },
+  {
+    "name": "Recipe: Endless Toy Golem Tonic",
+    "description": "Double-click to learn a recipe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 81,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage"
+    ],
+    "restrictions": [],
+    "id": 49299,
+    "chat_link": "[&AgGTwAAA]",
+    "icon": "https://render.guildwars2.com/file/390201BE2439AB7208B018E644F9344ADE90D47B/849419.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 7850
+    }
+  },
+  {
+    "name": "Thresher-Sickle 5000",
+    "description": "Used to harvest all plants. Unlimited use.",
+    "type": "Gathering",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49308,
+    "chat_link": "[&AgGcwAAA]",
+    "icon": "https://render.guildwars2.com/file/F1C5657FB4F6F269E4763FA754055C9A4D127311/740325.png",
+    "details": {
+      "type": "Foraging"
+    }
+  },
+  {
+    "name": "Tormented Axe",
+    "type": "Weapon",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 3680,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49312,
+    "chat_link": "[&AgGgwAAA]",
+    "icon": "https://render.guildwars2.com/file/E1C543971303CD80E27D76D4A94E1BBBE8FE9DF9/757354.png",
+    "details": {
+      "type": "Axe",
+      "damage_type": "Physical",
+      "min_power": 145,
+      "max_power": 178,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 13.392,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Tormented Axe Skin",
+    "description": "Double-click to apply this look to any other axe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 49314,
+    "chat_link": "[&AgGiwAAA]",
+    "icon": "https://render.guildwars2.com/file/E1C543971303CD80E27D76D4A94E1BBBE8FE9DF9/757354.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        3680
+      ]
+    }
+  },
+  {
+    "name": "Tormented Dagger Skin",
+    "description": "Double-click to apply this look to any other dagger.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 49317,
+    "chat_link": "[&AgGlwAAA]",
+    "icon": "https://render.guildwars2.com/file/5D9DBC197B131D953ACC12AB044510EFC9FE4796/757362.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        3668
+      ]
+    }
+  },
+  {
+    "name": "Tormented Focus Skin",
+    "description": "Double-click to apply this look to any other focus.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 49320,
+    "chat_link": "[&AgGowAAA]",
+    "icon": "https://render.guildwars2.com/file/A26BDC23040FBBAA23E89D0E9221CA1E3CAA49FC/757370.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        3676
+      ]
+    }
+  },
+  {
+    "name": "Tormented Greatsword",
+    "type": "Weapon",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 3679,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49321,
+    "chat_link": "[&AgGpwAAA]",
+    "icon": "https://render.guildwars2.com/file/52A096B36207160504379B6D0060042E46EC5F7D/757378.png",
+    "details": {
+      "type": "Greatsword",
+      "damage_type": "Physical",
+      "min_power": 169,
+      "max_power": 187,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 26.784,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Tormented Greatsword Skin",
+    "description": "Double-click to apply this look to any other greatsword.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 49323,
+    "chat_link": "[&AgGrwAAA]",
+    "icon": "https://render.guildwars2.com/file/52A096B36207160504379B6D0060042E46EC5F7D/757378.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        3679
+      ]
+    }
+  },
+  {
+    "name": "Tormented Hammer Skin",
+    "description": "Double-click to apply this look to any other hammer.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 49326,
+    "chat_link": "[&AgGuwAAA]",
+    "icon": "https://render.guildwars2.com/file/1342346AE0FB599E68609ECAFA7B4543080748F5/757386.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        3666
+      ]
+    }
+  },
+  {
+    "name": "Tormented Longbow Skin",
+    "description": "Double-click to apply this look to any other longbow.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 49329,
+    "chat_link": "[&AgGxwAAA]",
+    "icon": "https://render.guildwars2.com/file/674E6843EFE7EE285B75BAAAAD19A36BD452CEAB/757394.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        3681
+      ]
+    }
+  },
+  {
+    "name": "Tormented Mace Skin",
+    "description": "Double-click to apply this look to any other mace.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 49332,
+    "chat_link": "[&AgG0wAAA]",
+    "icon": "https://render.guildwars2.com/file/73F4DA2305C223AC6F6F9C6BE704159A7F9AFDB2/757402.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        3677
+      ]
+    }
+  },
+  {
+    "name": "Tormented Pistol Skin",
+    "description": "Double-click to apply this look to any other pistol.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 49335,
+    "chat_link": "[&AgG3wAAA]",
+    "icon": "https://render.guildwars2.com/file/17DF073E72A46603C1D2BE56B307C90C9A010070/757410.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        3663
+      ]
+    }
+  },
+  {
+    "name": "Tormented Rifle Skin",
+    "description": "Double-click to apply this look to any other rifle.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 49338,
+    "chat_link": "[&AgG6wAAA]",
+    "icon": "https://render.guildwars2.com/file/242808C6951CB7D03E5296657D1CF88010B71A0D/757418.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        3661
+      ]
+    }
+  },
+  {
+    "name": "Tormented Scepter Skin",
+    "description": "Double-click to apply this look to any other scepter.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 49341,
+    "chat_link": "[&AgG9wAAA]",
+    "icon": "https://render.guildwars2.com/file/C3E3043E3571CD39962D5F3E2B4276DAC7B16C25/757426.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        3683
+      ]
+    }
+  },
+  {
+    "name": "Tormented Shield Skin",
+    "description": "Double-click to apply this look to any other shield.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 49344,
+    "chat_link": "[&AgHAwAAA]",
+    "icon": "https://render.guildwars2.com/file/72AA90D4089AAB5B207B135E0A569645EBFF4539/757434.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        3685
+      ]
+    }
+  },
+  {
+    "name": "Tormented Short Bow Skin",
+    "description": "Double-click to apply this look to any other short bow.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 49347,
+    "chat_link": "[&AgHDwAAA]",
+    "icon": "https://render.guildwars2.com/file/AC14147E6148ABC3AAE9A57538D17604F222E666/757443.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        3682
+      ]
+    }
+  },
+  {
+    "name": "Tormented Staff Skin",
+    "description": "Double-click to apply this look to any other staff.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 49350,
+    "chat_link": "[&AgHGwAAA]",
+    "icon": "https://render.guildwars2.com/file/2EE919E52146C5A035EA5EE275D15EED4B9773A8/757451.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        3667
+      ]
+    }
+  },
+  {
+    "name": "Tormented Sword Skin",
+    "description": "Double-click to apply this look to any other sword.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 49353,
+    "chat_link": "[&AgHJwAAA]",
+    "icon": "https://render.guildwars2.com/file/C5CD310F20F9E26202B71B94F5B8FFF5BAC9F978/757459.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        3670
+      ]
+    }
+  },
+  {
+    "name": "Tormented Torch Skin",
+    "description": "Double-click to apply this look to any other torch.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 49356,
+    "chat_link": "[&AgHMwAAA]",
+    "icon": "https://render.guildwars2.com/file/1E4CE3FD9C75C5F6CC4FE9D7F5AB57431E614D06/757467.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        3674
+      ]
+    }
+  },
+  {
+    "name": "Tormented Warhorn Skin",
+    "description": "Double-click to apply this look to any other warhorn.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 49359,
+    "chat_link": "[&AgHPwAAA]",
+    "icon": "https://render.guildwars2.com/file/22260808DFF4400B36BECA9D75747B0F0CF0501E/757476.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        3684
+      ]
+    }
+  },
+  {
+    "name": "Black Lion Trading Satchel",
+    "description": "18 Slots",
+    "type": "Bag",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 60,
+    "game_types": [
+      "Pvp",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49361,
+    "chat_link": "[&AgHRwAAA]",
+    "icon": "https://render.guildwars2.com/file/34D1F91F1525EDA9B3D39707FCB606653545F643/681055.png",
+    "details": {
+      "no_sell_or_sort": false,
+      "size": 18
+    }
+  },
+  {
+    "name": "Koss on Koss (Infused)",
+    "description": "<c=@flavor>First edition. This book appears to be written in the author's own hand.</c>",
+    "type": "Back",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 330,
+    "default_skin": 2376,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "NotUpgradeable",
+      "Unique",
+      "AccountBindOnUse",
+      "Infused"
+    ],
+    "restrictions": [],
+    "id": 49362,
+    "chat_link": "[&AgHSwAAA]",
+    "icon": "https://render.guildwars2.com/file/22D31C930DFAFC955209201535DABB6C956DD7F0/511798.png",
+    "details": {
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 89.628,
+      "infix_upgrade": {
+        "id": 601,
+        "buff": {
+          "skill_id": 15757,
+          "description": "+32 Power\n+18 Toughness\n+18 Vitality\n+5 Agony Resistance"
+        },
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 63
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 40
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 40
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    },
+    "upgrades_from": [
+      {
+        "upgrade": "Infusion",
+        "item_id": 37001
+      }
+    ]
+  },
+  {
+    "name": "Bowyer's Delight (Infused)",
+    "description": "",
+    "type": "Back",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 330,
+    "default_skin": 2341,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "NotUpgradeable",
+      "Unique",
+      "AccountBindOnUse",
+      "Infused"
+    ],
+    "restrictions": [],
+    "id": 49363,
+    "chat_link": "[&AgHTwAAA]",
+    "icon": "https://render.guildwars2.com/file/E61D97DD6D7B3872DB13A9D237A1CB3D80381E60/61756.png",
+    "details": {
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 89.628,
+      "infix_upgrade": {
+        "id": 601,
+        "buff": {
+          "skill_id": 15757,
+          "description": "+32 Power\n+18 Toughness\n+18 Vitality\n+5 Agony Resistance"
+        },
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 63
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 40
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 40
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    },
+    "upgrades_from": [
+      {
+        "upgrade": "Infusion",
+        "item_id": 37006
+      }
+    ]
+  },
+  {
+    "name": "There with Yakkington: A Traveler's Tale (Infused)",
+    "description": "<c=@flavor>First edition. This book appears to be written in the author's own hand.</c>",
+    "type": "Back",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 330,
+    "default_skin": 2376,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "NotUpgradeable",
+      "Unique",
+      "AccountBindOnUse",
+      "Infused"
+    ],
+    "restrictions": [],
+    "id": 49364,
+    "chat_link": "[&AgHUwAAA]",
+    "icon": "https://render.guildwars2.com/file/22D31C930DFAFC955209201535DABB6C956DD7F0/511798.png",
+    "details": {
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 89.628,
+      "stat_choices": [
+        584,
+        656,
+        658,
+        1119,
+        657,
+        1038,
+        1097,
+        659,
+        690,
+        583,
+        585,
+        1037,
+        586,
+        1035,
+        588,
+        1114,
+        1128,
+        1163,
+        1066,
+        1064,
+        660,
+        1430,
+        1436,
+        591,
+        581,
+        592,
+        1263,
+        1271,
+        1265,
+        1270,
+        1262,
+        1268,
+        1264,
+        1267,
+        1269,
+        1366,
+        1367,
+        1374,
+        1549,
+        1566,
+        1691,
+        1706,
+        1827
+      ],
+      "secondary_suffix_item_id": ""
+    },
+    "upgrades_from": [
+      {
+        "upgrade": "Infusion",
+        "item_id": 37003
+      }
+    ]
+  },
+  {
+    "name": "Quiver of a Thousand Arrows (Infused)",
+    "description": "",
+    "type": "Back",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 330,
+    "default_skin": 2341,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "NotUpgradeable",
+      "Unique",
+      "AccountBindOnUse",
+      "Infused"
+    ],
+    "restrictions": [],
+    "id": 49365,
+    "chat_link": "[&AgHVwAAA]",
+    "icon": "https://render.guildwars2.com/file/E61D97DD6D7B3872DB13A9D237A1CB3D80381E60/61756.png",
+    "details": {
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 89.628,
+      "stat_choices": [
+        584,
+        656,
+        658,
+        1119,
+        657,
+        1038,
+        1097,
+        659,
+        690,
+        583,
+        585,
+        1037,
+        586,
+        1035,
+        588,
+        1114,
+        1128,
+        1163,
+        1066,
+        1064,
+        660,
+        1430,
+        1436,
+        591,
+        581,
+        592,
+        1263,
+        1271,
+        1265,
+        1270,
+        1262,
+        1268,
+        1264,
+        1267,
+        1269,
+        1366,
+        1367,
+        1374,
+        1549,
+        1566,
+        1691,
+        1706,
+        1827
+      ],
+      "secondary_suffix_item_id": ""
+    },
+    "upgrades_from": [
+      {
+        "upgrade": "Infusion",
+        "item_id": 37000
+      }
+    ]
+  },
+  {
+    "name": "Symon's History of Ascalon (Infused)",
+    "description": "<c=@flavor>First edition. This book appears to be written in the author's own hand.</c>",
+    "type": "Back",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 330,
+    "default_skin": 2318,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "NotUpgradeable",
+      "Unique",
+      "AccountBindOnUse",
+      "Infused"
+    ],
+    "restrictions": [],
+    "id": 49366,
+    "chat_link": "[&AgHWwAAA]",
+    "icon": "https://render.guildwars2.com/file/E341B6DDF3EC255B066947E2D04731D2A0139629/223715.png",
+    "details": {
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 89.628,
+      "infix_upgrade": {
+        "id": 602,
+        "buff": {
+          "skill_id": 15759,
+          "description": "+32 Toughness\n+18 Power\n+18 Ferocity\n+5 Agony Resistance"
+        },
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 40
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 63
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 40
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    },
+    "upgrades_from": [
+      {
+        "upgrade": "Infusion",
+        "item_id": 37005
+      }
+    ]
+  },
+  {
+    "name": "Sights Be True (Infused)",
+    "description": "",
+    "type": "Back",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 330,
+    "default_skin": 2341,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "NotUpgradeable",
+      "Unique",
+      "AccountBindOnUse",
+      "Infused"
+    ],
+    "restrictions": [],
+    "id": 49367,
+    "chat_link": "[&AgHXwAAA]",
+    "icon": "https://render.guildwars2.com/file/E61D97DD6D7B3872DB13A9D237A1CB3D80381E60/61756.png",
+    "details": {
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 89.628,
+      "infix_upgrade": {
+        "id": 602,
+        "buff": {
+          "skill_id": 15759,
+          "description": "+32 Toughness\n+18 Power\n+18 Ferocity\n+5 Agony Resistance"
+        },
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 40
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 63
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 40
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    },
+    "upgrades_from": [
+      {
+        "upgrade": "Infusion",
+        "item_id": 37002
+      }
+    ]
+  },
+  {
+    "name": "Tome of the Rubicon (Infused)",
+    "description": "<c=@flavor>First edition. This book appears to be written in the author's own hand.</c>",
+    "type": "Back",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 330,
+    "default_skin": 2326,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "NotUpgradeable",
+      "Unique",
+      "AccountBindOnUse",
+      "Infused"
+    ],
+    "restrictions": [],
+    "id": 49368,
+    "chat_link": "[&AgHYwAAA]",
+    "icon": "https://render.guildwars2.com/file/25C37674CBFDFABDBBE5323577B03D62B4A7DE19/223719.png",
+    "details": {
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 89.628,
+      "infix_upgrade": {
+        "id": 594,
+        "buff": {
+          "skill_id": 15752,
+          "description": "+32 Condition Damage\n+18 Precision\n+18 Toughness\n+5 Agony Resistance"
+        },
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 40
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 40
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 63
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    },
+    "upgrades_from": [
+      {
+        "upgrade": "Infusion",
+        "item_id": 37007
+      }
+    ]
+  },
+  {
+    "name": "Endless Quiver (Infused)",
+    "description": "",
+    "type": "Back",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 330,
+    "default_skin": 2341,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "NotUpgradeable",
+      "Unique",
+      "AccountBindOnUse",
+      "Infused"
+    ],
+    "restrictions": [],
+    "id": 49369,
+    "chat_link": "[&AgHZwAAA]",
+    "icon": "https://render.guildwars2.com/file/E61D97DD6D7B3872DB13A9D237A1CB3D80381E60/61756.png",
+    "details": {
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 89.628,
+      "infix_upgrade": {
+        "id": 594,
+        "buff": {
+          "skill_id": 15752,
+          "description": "+32 Condition Damage\n+18 Precision\n+18 Toughness\n+5 Agony Resistance"
+        },
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 40
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 40
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 63
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    },
+    "upgrades_from": [
+      {
+        "upgrade": "Infusion",
+        "item_id": 37004
+      }
+    ]
+  },
+  {
+    "name": "Book of Secrets (Infused)",
+    "description": "<c=@flavor>First edition. This book appears to be written in the author's own hand.</c>",
+    "type": "Back",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 330,
+    "default_skin": 2325,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "NotUpgradeable",
+      "Unique",
+      "AccountBindOnUse",
+      "Infused"
+    ],
+    "restrictions": [],
+    "id": 49370,
+    "chat_link": "[&AgHawAAA]",
+    "icon": "https://render.guildwars2.com/file/7B6AAFCE03BC3461207425B1FC91DB463AC3F79D/511799.png",
+    "details": {
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 89.628,
+      "infix_upgrade": {
+        "id": 599,
+        "buff": {
+          "skill_id": 15755,
+          "description": "+32 Power\n+18 Ferocity\n+18 Precision\n+5 Agony Resistance"
+        },
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 63
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 40
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 40
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    },
+    "upgrades_from": [
+      {
+        "upgrade": "Infusion",
+        "item_id": 37009
+      }
+    ]
+  },
+  {
+    "name": "Quiver of Swift Flight (Infused)",
+    "description": "",
+    "type": "Back",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 330,
+    "default_skin": 2341,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "NotUpgradeable",
+      "Unique",
+      "AccountBindOnUse",
+      "Infused"
+    ],
+    "restrictions": [],
+    "id": 49371,
+    "chat_link": "[&AgHbwAAA]",
+    "icon": "https://render.guildwars2.com/file/E61D97DD6D7B3872DB13A9D237A1CB3D80381E60/61756.png",
+    "details": {
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 89.628,
+      "infix_upgrade": {
+        "id": 599,
+        "buff": {
+          "skill_id": 15755,
+          "description": "+32 Power\n+18 Ferocity\n+18 Precision\n+5 Agony Resistance"
+        },
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 63
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 40
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 40
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    },
+    "upgrades_from": [
+      {
+        "upgrade": "Infusion",
+        "item_id": 37008
+      }
+    ]
+  },
+  {
+    "name": "Beta Fractal Capacitor (Infused)",
+    "description": "",
+    "type": "Back",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 330,
+    "default_skin": 2378,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "NotUpgradeable",
+      "Unique",
+      "AccountBindOnUse",
+      "Infused"
+    ],
+    "restrictions": [],
+    "id": 49372,
+    "chat_link": "[&AgHcwAAA]",
+    "icon": "https://render.guildwars2.com/file/A4970276A9E49524A944C3CD66F3D7E237485CFF/511806.png",
+    "details": {
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 89.628,
+      "infix_upgrade": {
+        "id": 601,
+        "buff": {
+          "skill_id": 15757,
+          "description": "+32 Power\n+18 Toughness\n+18 Vitality\n+5 Agony Resistance"
+        },
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 63
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 40
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 40
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    },
+    "upgrades_from": [
+      {
+        "upgrade": "Infusion",
+        "item_id": 37055
+      }
+    ]
+  },
+  {
+    "name": "Beta Fractal Capacitor (Infused)",
+    "description": "",
+    "type": "Back",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 330,
+    "default_skin": 2378,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "NotUpgradeable",
+      "Unique",
+      "AccountBindOnUse",
+      "Infused"
+    ],
+    "restrictions": [],
+    "id": 49373,
+    "chat_link": "[&AgHdwAAA]",
+    "icon": "https://render.guildwars2.com/file/A4970276A9E49524A944C3CD66F3D7E237485CFF/511806.png",
+    "details": {
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 89.628,
+      "infix_upgrade": {
+        "id": 601,
+        "buff": {
+          "skill_id": 15757,
+          "description": "+32 Power\n+18 Toughness\n+18 Vitality\n+5 Agony Resistance"
+        },
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 63
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 40
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 40
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    },
+    "upgrades_from": [
+      {
+        "upgrade": "Infusion",
+        "item_id": 37025
+      }
+    ]
+  },
+  {
+    "name": "Beta Fractal Capacitor (Infused)",
+    "description": "",
+    "type": "Back",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 330,
+    "default_skin": 2378,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "NotUpgradeable",
+      "Unique",
+      "AccountBindOnUse",
+      "Infused"
+    ],
+    "restrictions": [],
+    "id": 49374,
+    "chat_link": "[&AgHewAAA]",
+    "icon": "https://render.guildwars2.com/file/A4970276A9E49524A944C3CD66F3D7E237485CFF/511806.png",
+    "details": {
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 89.628,
+      "secondary_suffix_item_id": "",
+      "stat_choices": [
+        584,
+        656,
+        658,
+        1119,
+        657,
+        1038,
+        1097,
+        659,
+        690,
+        583,
+        585,
+        1037,
+        586,
+        1035,
+        588,
+        1114,
+        1128,
+        1163,
+        1066,
+        1064,
+        660,
+        1430,
+        1436,
+        591,
+        581,
+        592,
+        1263,
+        1271,
+        1265,
+        1270,
+        1262,
+        1268,
+        1264,
+        1267,
+        1269,
+        1366,
+        1367,
+        1374,
+        1549,
+        1566,
+        1691,
+        1706,
+        1827
+      ]
+    },
+    "upgrades_from": [
+      {
+        "upgrade": "Infusion",
+        "item_id": 37056
+      }
+    ]
+  },
+  {
+    "name": "Beta Fractal Capacitor (Infused)",
+    "description": "",
+    "type": "Back",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 330,
+    "default_skin": 2378,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "NotUpgradeable",
+      "Unique",
+      "AccountBindOnUse",
+      "Infused"
+    ],
+    "restrictions": [],
+    "id": 49375,
+    "chat_link": "[&AgHfwAAA]",
+    "icon": "https://render.guildwars2.com/file/A4970276A9E49524A944C3CD66F3D7E237485CFF/511806.png",
+    "details": {
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 89.628,
+      "stat_choices": [
+        584,
+        656,
+        658,
+        1119,
+        657,
+        1038,
+        1097,
+        659,
+        690,
+        583,
+        585,
+        1037,
+        586,
+        1035,
+        588,
+        1114,
+        1128,
+        1163,
+        1066,
+        1064,
+        660,
+        1430,
+        1436,
+        591,
+        581,
+        592,
+        1263,
+        1271,
+        1265,
+        1270,
+        1262,
+        1268,
+        1264,
+        1267,
+        1269,
+        1366,
+        1367,
+        1374,
+        1549,
+        1566,
+        1691,
+        1706,
+        1827
+      ],
+      "secondary_suffix_item_id": ""
+    },
+    "upgrades_from": [
+      {
+        "upgrade": "Infusion",
+        "item_id": 37026
+      }
+    ]
+  },
+  {
+    "name": "Beta Fractal Capacitor (Infused)",
+    "description": "",
+    "type": "Back",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 330,
+    "default_skin": 2378,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "NotUpgradeable",
+      "Unique",
+      "AccountBindOnUse",
+      "Infused"
+    ],
+    "restrictions": [],
+    "id": 49376,
+    "chat_link": "[&AgHgwAAA]",
+    "icon": "https://render.guildwars2.com/file/A4970276A9E49524A944C3CD66F3D7E237485CFF/511806.png",
+    "details": {
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 89.628,
+      "infix_upgrade": {
+        "id": 602,
+        "buff": {
+          "skill_id": 15759,
+          "description": "+32 Toughness\n+18 Power\n+18 Ferocity\n+5 Agony Resistance"
+        },
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 40
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 63
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 40
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    },
+    "upgrades_from": [
+      {
+        "upgrade": "Infusion",
+        "item_id": 37057
+      }
+    ]
+  },
+  {
+    "name": "Beta Fractal Capacitor (Infused)",
+    "description": "",
+    "type": "Back",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 330,
+    "default_skin": 2378,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "NotUpgradeable",
+      "Unique",
+      "AccountBindOnUse",
+      "Infused"
+    ],
+    "restrictions": [],
+    "id": 49377,
+    "chat_link": "[&AgHhwAAA]",
+    "icon": "https://render.guildwars2.com/file/A4970276A9E49524A944C3CD66F3D7E237485CFF/511806.png",
+    "details": {
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 89.628,
+      "infix_upgrade": {
+        "id": 602,
+        "buff": {
+          "skill_id": 15759,
+          "description": "+32 Toughness\n+18 Power\n+18 Ferocity\n+5 Agony Resistance"
+        },
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 40
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 63
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 40
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    },
+    "upgrades_from": [
+      {
+        "upgrade": "Infusion",
+        "item_id": 37027
+      }
+    ]
+  },
+  {
+    "name": "Beta Fractal Capacitor (Infused)",
+    "description": "",
+    "type": "Back",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 330,
+    "default_skin": 2378,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "NotUpgradeable",
+      "Unique",
+      "AccountBindOnUse",
+      "Infused"
+    ],
+    "restrictions": [],
+    "id": 49378,
+    "chat_link": "[&AgHiwAAA]",
+    "icon": "https://render.guildwars2.com/file/A4970276A9E49524A944C3CD66F3D7E237485CFF/511806.png",
+    "details": {
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 89.628,
+      "infix_upgrade": {
+        "id": 594,
+        "buff": {
+          "skill_id": 15752,
+          "description": "+32 Condition Damage\n+18 Precision\n+18 Toughness\n+5 Agony Resistance"
+        },
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 40
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 40
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 63
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    },
+    "upgrades_from": [
+      {
+        "upgrade": "Infusion",
+        "item_id": 37058
+      }
+    ]
+  },
+  {
+    "name": "Beta Fractal Capacitor (Infused)",
+    "description": "",
+    "type": "Back",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 330,
+    "default_skin": 2378,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "NotUpgradeable",
+      "Unique",
+      "AccountBindOnUse",
+      "Infused"
+    ],
+    "restrictions": [],
+    "id": 49379,
+    "chat_link": "[&AgHjwAAA]",
+    "icon": "https://render.guildwars2.com/file/A4970276A9E49524A944C3CD66F3D7E237485CFF/511806.png",
+    "details": {
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 89.628,
+      "infix_upgrade": {
+        "id": 594,
+        "buff": {
+          "skill_id": 15752,
+          "description": "+32 Condition Damage\n+18 Precision\n+18 Toughness\n+5 Agony Resistance"
+        },
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 40
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 40
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 63
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    },
+    "upgrades_from": [
+      {
+        "upgrade": "Infusion",
+        "item_id": 37028
+      }
+    ]
+  },
+  {
+    "name": "Beta Fractal Capacitor (Infused)",
+    "description": "",
+    "type": "Back",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 330,
+    "default_skin": 2378,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "NotUpgradeable",
+      "Unique",
+      "AccountBindOnUse",
+      "Infused"
+    ],
+    "restrictions": [],
+    "id": 49380,
+    "chat_link": "[&AgHkwAAA]",
+    "icon": "https://render.guildwars2.com/file/A4970276A9E49524A944C3CD66F3D7E237485CFF/511806.png",
+    "details": {
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 89.628,
+      "infix_upgrade": {
+        "id": 599,
+        "buff": {
+          "skill_id": 15755,
+          "description": "+32 Power\n+18 Ferocity\n+18 Precision\n+5 Agony Resistance"
+        },
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 63
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 40
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 40
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    },
+    "upgrades_from": [
+      {
+        "upgrade": "Infusion",
+        "item_id": 37059
+      }
+    ]
+  },
+  {
+    "name": "Beta Fractal Capacitor (Infused)",
+    "description": "",
+    "type": "Back",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 330,
+    "default_skin": 2378,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "NotUpgradeable",
+      "Unique",
+      "AccountBindOnUse",
+      "Infused"
+    ],
+    "restrictions": [],
+    "id": 49381,
+    "chat_link": "[&AgHlwAAA]",
+    "icon": "https://render.guildwars2.com/file/A4970276A9E49524A944C3CD66F3D7E237485CFF/511806.png",
+    "details": {
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 89.628,
+      "infix_upgrade": {
+        "id": 599,
+        "buff": {
+          "skill_id": 15755,
+          "description": "+32 Power\n+18 Ferocity\n+18 Precision\n+5 Agony Resistance"
+        },
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 63
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 40
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 40
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    },
+    "upgrades_from": [
+      {
+        "upgrade": "Infusion",
+        "item_id": 37029
+      }
+    ]
+  },
+  {
+    "name": "Fractal Capacitor (Infused)",
+    "description": "",
+    "type": "Back",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 330,
+    "default_skin": 2379,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "NotUpgradeable",
+      "Unique",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49382,
+    "chat_link": "[&AgHmwAAA]",
+    "icon": "https://render.guildwars2.com/file/97F9726E527DD5D24F434AD679F15C3CDAF238EA/511808.png",
+    "details": {
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 89.628,
+      "infix_upgrade": {
+        "id": 601,
+        "buff": {
+          "skill_id": 15757,
+          "description": "+32 Power\n+18 Toughness\n+18 Vitality\n+5 Agony Resistance"
+        },
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 63
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 40
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 40
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Fractal Capacitor (Infused)",
+    "description": "",
+    "type": "Back",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 330,
+    "default_skin": 2379,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "NotUpgradeable",
+      "Unique",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49383,
+    "chat_link": "[&AgHnwAAA]",
+    "icon": "https://render.guildwars2.com/file/97F9726E527DD5D24F434AD679F15C3CDAF238EA/511808.png",
+    "details": {
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 89.628,
+      "infix_upgrade": {
+        "id": 601,
+        "buff": {
+          "skill_id": 15757,
+          "description": "+32 Power\n+18 Toughness\n+18 Vitality\n+5 Agony Resistance"
+        },
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 63
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 40
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 40
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Fractal Capacitor (Infused)",
+    "description": "",
+    "type": "Back",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 330,
+    "default_skin": 2379,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "NotUpgradeable",
+      "Unique",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49384,
+    "chat_link": "[&AgHowAAA]",
+    "icon": "https://render.guildwars2.com/file/97F9726E527DD5D24F434AD679F15C3CDAF238EA/511808.png",
+    "details": {
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 89.628,
+      "stat_choices": [
+        584,
+        656,
+        658,
+        1119,
+        657,
+        1038,
+        1097,
+        659,
+        690,
+        583,
+        585,
+        1037,
+        586,
+        1035,
+        588,
+        1114,
+        1128,
+        1163,
+        1066,
+        1064,
+        660,
+        1430,
+        1436,
+        591,
+        581,
+        592,
+        1263,
+        1271,
+        1265,
+        1270,
+        1262,
+        1268,
+        1264,
+        1267,
+        1269,
+        1366,
+        1367,
+        1374,
+        1549,
+        1566,
+        1691,
+        1706,
+        1827
+      ],
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Fractal Capacitor (Infused)",
+    "description": "",
+    "type": "Back",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 330,
+    "default_skin": 2379,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "NotUpgradeable",
+      "Unique",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49385,
+    "chat_link": "[&AgHpwAAA]",
+    "icon": "https://render.guildwars2.com/file/97F9726E527DD5D24F434AD679F15C3CDAF238EA/511808.png",
+    "details": {
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 89.628,
+      "stat_choices": [
+        584,
+        656,
+        658,
+        1119,
+        657,
+        1038,
+        1097,
+        659,
+        690,
+        583,
+        585,
+        1037,
+        586,
+        1035,
+        588,
+        1114,
+        1128,
+        1163,
+        1066,
+        1064,
+        660,
+        1430,
+        1436,
+        591,
+        581,
+        592,
+        1263,
+        1271,
+        1265,
+        1270,
+        1262,
+        1268,
+        1264,
+        1267,
+        1269,
+        1366,
+        1367,
+        1374,
+        1549,
+        1566,
+        1691,
+        1706,
+        1827
+      ],
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Fractal Capacitor (Infused)",
+    "description": "",
+    "type": "Back",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 330,
+    "default_skin": 2379,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "NotUpgradeable",
+      "Unique",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49386,
+    "chat_link": "[&AgHqwAAA]",
+    "icon": "https://render.guildwars2.com/file/97F9726E527DD5D24F434AD679F15C3CDAF238EA/511808.png",
+    "details": {
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 89.628,
+      "infix_upgrade": {
+        "id": 602,
+        "buff": {
+          "skill_id": 15759,
+          "description": "+32 Toughness\n+18 Power\n+18 Ferocity\n+5 Agony Resistance"
+        },
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 40
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 63
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 40
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Fractal Capacitor (Infused)",
+    "description": "",
+    "type": "Back",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 330,
+    "default_skin": 2379,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "NotUpgradeable",
+      "Unique",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49387,
+    "chat_link": "[&AgHrwAAA]",
+    "icon": "https://render.guildwars2.com/file/97F9726E527DD5D24F434AD679F15C3CDAF238EA/511808.png",
+    "details": {
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 89.628,
+      "infix_upgrade": {
+        "id": 602,
+        "buff": {
+          "skill_id": 15759,
+          "description": "+32 Toughness\n+18 Power\n+18 Ferocity\n+5 Agony Resistance"
+        },
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 40
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 63
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 40
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Fractal Capacitor (Infused)",
+    "description": "",
+    "type": "Back",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 330,
+    "default_skin": 2379,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "NotUpgradeable",
+      "Unique",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49388,
+    "chat_link": "[&AgHswAAA]",
+    "icon": "https://render.guildwars2.com/file/97F9726E527DD5D24F434AD679F15C3CDAF238EA/511808.png",
+    "details": {
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 89.628,
+      "infix_upgrade": {
+        "id": 594,
+        "buff": {
+          "skill_id": 15752,
+          "description": "+32 Condition Damage\n+18 Precision\n+18 Toughness\n+5 Agony Resistance"
+        },
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 40
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 40
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 63
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Fractal Capacitor (Infused)",
+    "description": "",
+    "type": "Back",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 330,
+    "default_skin": 2379,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "NotUpgradeable",
+      "Unique",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49389,
+    "chat_link": "[&AgHtwAAA]",
+    "icon": "https://render.guildwars2.com/file/97F9726E527DD5D24F434AD679F15C3CDAF238EA/511808.png",
+    "details": {
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 89.628,
+      "infix_upgrade": {
+        "id": 594,
+        "buff": {
+          "skill_id": 15752,
+          "description": "+32 Condition Damage\n+18 Precision\n+18 Toughness\n+5 Agony Resistance"
+        },
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 40
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 40
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 63
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Fractal Capacitor (Infused)",
+    "description": "",
+    "type": "Back",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 330,
+    "default_skin": 2379,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "NotUpgradeable",
+      "Unique",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49390,
+    "chat_link": "[&AgHuwAAA]",
+    "icon": "https://render.guildwars2.com/file/97F9726E527DD5D24F434AD679F15C3CDAF238EA/511808.png",
+    "details": {
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 89.628,
+      "infix_upgrade": {
+        "id": 599,
+        "buff": {
+          "skill_id": 15755,
+          "description": "+32 Power\n+18 Ferocity\n+18 Precision\n+5 Agony Resistance"
+        },
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 63
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 40
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 40
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Fractal Capacitor (Infused)",
+    "description": "",
+    "type": "Back",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 330,
+    "default_skin": 2379,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "NotUpgradeable",
+      "Unique",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49391,
+    "chat_link": "[&AgHvwAAA]",
+    "icon": "https://render.guildwars2.com/file/97F9726E527DD5D24F434AD679F15C3CDAF238EA/511808.png",
+    "details": {
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 89.628,
+      "infix_upgrade": {
+        "id": 599,
+        "buff": {
+          "skill_id": 15755,
+          "description": "+32 Power\n+18 Ferocity\n+18 Precision\n+5 Agony Resistance"
+        },
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 63
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 40
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 40
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Ascended Jewelry Box",
+    "description": "Double-click to choose an ascended ring.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 320,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 49392,
+    "chat_link": "[&AgHwwAAA]",
+    "icon": "https://render.guildwars2.com/file/9E0BAFF636D296EF96FB9CF37F3CB425A92CC7F0/619517.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Royal Signet of Doric (Infused)",
+    "description": "",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 495,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NotUpgradeable",
+      "Unique",
+      "AccountBindOnUse",
+      "Infused"
+    ],
+    "restrictions": [],
+    "id": 49394,
+    "chat_link": "[&AgHywAAA]",
+    "icon": "https://render.guildwars2.com/file/F96BD9BAB00592D001EB5B36350E0AD1AA09EFA4/511817.png",
+    "details": {
+      "type": "Ring",
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 268.884,
+      "infix_upgrade": {
+        "id": 601,
+        "buff": {
+          "skill_id": 15757,
+          "description": "+32 Power\n+18 Toughness\n+18 Vitality\n+5 Agony Resistance"
+        },
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 126
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 85
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 85
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    },
+    "upgrades_into": [
+      {
+        "upgrade": "Attunement",
+        "item_id": 71346
+      }
+    ],
+    "upgrades_from": [
+      {
+        "upgrade": "Infusion",
+        "item_id": 37076
+      }
+    ]
+  },
+  {
+    "name": "Lost Seal of Usoku (Infused)",
+    "description": "",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 495,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NotUpgradeable",
+      "Unique",
+      "AccountBindOnUse",
+      "Infused"
+    ],
+    "restrictions": [],
+    "id": 49395,
+    "chat_link": "[&AgHzwAAA]",
+    "icon": "https://render.guildwars2.com/file/016D1DF853B6B97B5D165EC0BE9F0597FAA1125E/511829.png",
+    "details": {
+      "type": "Ring",
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 268.884,
+      "infix_upgrade": {
+        "id": 601,
+        "buff": {
+          "skill_id": 15757,
+          "description": "+32 Power\n+18 Toughness\n+18 Vitality\n+5 Agony Resistance"
+        },
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 126
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 85
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 85
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    },
+    "upgrades_into": [
+      {
+        "upgrade": "Attunement",
+        "item_id": 72423
+      }
+    ],
+    "upgrades_from": [
+      {
+        "upgrade": "Infusion",
+        "item_id": 37089
+      }
+    ]
+  }
+]

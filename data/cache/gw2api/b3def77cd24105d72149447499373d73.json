@@ -1,0 +1,6992 @@
+[
+  {
+    "name": "Aetherblade Light Armor Skin",
+    "description": "This full set of light armor skins can replace the appearance of light armor pieces, once per slot. The skins will also be unlocked in your account wardrobe.\n\nSkins have no stats of their own.\nCan only be used by characters who wear light armor.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 42870,
+    "chat_link": "[&AgF2pwAA]",
+    "icon": "https://render.guildwars2.com/file/2C03E12D440E9CB90399EB740F471ACB71C41CF3/591611.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Aetherblade Heavy Warboots",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1316,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 42871,
+    "chat_link": "[&AgF3pwAA]",
+    "icon": "https://render.guildwars2.com/file/C9EB150946DA52793E6B48F66FA6B5F924C154C6/591612.png",
+    "details": {
+      "type": "Boots",
+      "weight_class": "Heavy",
+      "defense": 18,
+      "infusion_slots": [],
+      "attribute_adjustment": 5.346,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 2
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Aetherblade Heavy Warboot Skin",
+    "description": "Double-click to apply this look to any other heavy boots.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 42872,
+    "chat_link": "[&AgF4pwAA]",
+    "icon": "https://render.guildwars2.com/file/C9EB150946DA52793E6B48F66FA6B5F924C154C6/591612.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1316
+      ]
+    }
+  },
+  {
+    "name": "Aetherblade Heavy Warplate Skin",
+    "description": "Double-click to apply this look to any other heavy armor.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 42874,
+    "chat_link": "[&AgF6pwAA]",
+    "icon": "https://render.guildwars2.com/file/5C3355F6AA1B532CA1D608F732E7047F3876E944/591613.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1313
+      ]
+    }
+  },
+  {
+    "name": "Aetherblade Heavy Gauntlets",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1319,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 42875,
+    "chat_link": "[&AgF7pwAA]",
+    "icon": "https://render.guildwars2.com/file/22EB015E9B1C6DA6DD4EA13119040BCAB548D6C0/591614.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Heavy",
+      "defense": 18,
+      "infusion_slots": [],
+      "attribute_adjustment": 5.346,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 2
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Dragon's Fortune Fireworks",
+    "description": "Grants you a bundle item that has 10 charges of red-, blue-, green-, and yellow-colored fireworks and a one-time Dragon Finale firework that grants a 50% Magic Find boost to all nearby allies.<br><c=@flavor>\"Fortune favors the bold!\"</c>",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 42876,
+    "chat_link": "[&AgF8pwAA]",
+    "icon": "https://render.guildwars2.com/file/D59E5AE5194621F239C7A8AC2752F8B73E704CD9/591615.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Metabolic Primer",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 42877,
+    "chat_link": "[&AgF9pwAA]",
+    "icon": "https://render.guildwars2.com/file/5B96A524973EA37AF14AC27BF22507377C264332/699308.png",
+    "details": {
+      "type": "Generic",
+      "duration_ms": 43200000,
+      "apply_count": 1,
+      "name": "Metabolic Primer",
+      "icon": "https://render.guildwars2.com/file/F9090B7DF4CA3DDDE5616B74F29C91E805FAE408/643282.png",
+      "description": "Any food eaten while the primer is active will have the same remaining time as the primer, rounded up to the next hour. The metabolic primer does not stack."
+    }
+  },
+  {
+    "name": "Aetherblade Heavy Gauntlet Skin",
+    "description": "Double-click to apply this look to any other heavy gloves.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 42878,
+    "chat_link": "[&AgF+pwAA]",
+    "icon": "https://render.guildwars2.com/file/22EB015E9B1C6DA6DD4EA13119040BCAB548D6C0/591614.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1319
+      ]
+    }
+  },
+  {
+    "name": "Polla",
+    "description": "<c=@flavor>\"This well-worn doll belonged to Cobiah Marriner's little sister, Biviane, who had her young life taken from her under the piers of Lion's Arch.\"</c>",
+    "type": "Trinket",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 5,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "Unique",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 42879,
+    "chat_link": "[&AgF/pwAA]",
+    "icon": "https://render.guildwars2.com/file/CF17721B6D466EB160EB2C506BF81B0A09216D1E/591616.png",
+    "details": {
+      "type": "Accessory",
+      "infusion_slots": [],
+      "attribute_adjustment": 6.825,
+      "infix_upgrade": {
+        "id": 740,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 1
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 1
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 1
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 1
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Aetherblade Heavy Warhelm",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1322,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 42880,
+    "chat_link": "[&AgGApwAA]",
+    "icon": "https://render.guildwars2.com/file/A40F1E44CF9834CECD5534ECBE90DA1A05AE0E5D/591617.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Heavy",
+      "defense": 12,
+      "infusion_slots": [],
+      "attribute_adjustment": 7.128,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 2
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Aetherblade Heavy Warhelm Skin",
+    "description": "Double-click to apply this look to any other heavy helmet.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 42881,
+    "chat_link": "[&AgGBpwAA]",
+    "icon": "https://render.guildwars2.com/file/A40F1E44CF9834CECD5534ECBE90DA1A05AE0E5D/591617.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1322
+      ]
+    }
+  },
+  {
+    "name": "Aetherblade Heavy Legplate Skin",
+    "description": "Double-click to apply this look to any other heavy leggings.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 42883,
+    "chat_link": "[&AgGDpwAA]",
+    "icon": "https://render.guildwars2.com/file/DE7C42F156CE4EC642F4EDD7AA00FC19441B492B/591618.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1308
+      ]
+    }
+  },
+  {
+    "name": "Aetherblade Heavy Pauldrons",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1307,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 42884,
+    "chat_link": "[&AgGEpwAA]",
+    "icon": "https://render.guildwars2.com/file/9F0D4B074D6EB1DD9F3545DB182FCBD3B0CF7077/591619.png",
+    "details": {
+      "type": "Shoulders",
+      "weight_class": "Heavy",
+      "defense": 12,
+      "infusion_slots": [],
+      "attribute_adjustment": 5.346,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 2
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Aetherblade Heavy Pauldron Skin",
+    "description": "Double-click to apply this look to any other heavy shoulders.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 42885,
+    "chat_link": "[&AgGFpwAA]",
+    "icon": "https://render.guildwars2.com/file/9F0D4B074D6EB1DD9F3545DB182FCBD3B0CF7077/591619.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1307
+      ]
+    }
+  },
+  {
+    "name": "Aetherblade Light Shoes",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1317,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 42886,
+    "chat_link": "[&AgGGpwAA]",
+    "icon": "https://render.guildwars2.com/file/A1A678F5969894974C247B1403001944BCF6A9D8/591620.png",
+    "details": {
+      "type": "Boots",
+      "weight_class": "Light",
+      "defense": 14,
+      "infusion_slots": [],
+      "attribute_adjustment": 5.346,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 2
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Aetherblade Light Shoe Skin",
+    "description": "Double-click to apply this look to any other light boots.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 42887,
+    "chat_link": "[&AgGHpwAA]",
+    "icon": "https://render.guildwars2.com/file/A1A678F5969894974C247B1403001944BCF6A9D8/591620.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1317
+      ]
+    }
+  },
+  {
+    "name": "Marriner's Horn",
+    "description": "Double-click to pull out a horn and play for your friends.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "NoUnderwater",
+      "DeleteWarning",
+      "AccountBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 42888,
+    "chat_link": "[&AgGIpwAA]",
+    "icon": "https://render.guildwars2.com/file/21CDE31E53E0055C9DB4D8071A57EF755F4647C6/591621.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Aetherblade Light Vest",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1314,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 42889,
+    "chat_link": "[&AgGJpwAA]",
+    "icon": "https://render.guildwars2.com/file/08F7FABB574B361EA10E2898EBEE1E5FA1C9E8FF/591622.png",
+    "details": {
+      "type": "Coat",
+      "weight_class": "Light",
+      "defense": 32,
+      "infusion_slots": [],
+      "attribute_adjustment": 16.038,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 6
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Aetherblade Light Vest Skin",
+    "description": "Double-click to apply this look to any other light armor.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 42890,
+    "chat_link": "[&AgGKpwAA]",
+    "icon": "https://render.guildwars2.com/file/08F7FABB574B361EA10E2898EBEE1E5FA1C9E8FF/591622.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1314
+      ]
+    }
+  },
+  {
+    "name": "Aetherblade Light Glove Skin",
+    "description": "Double-click to apply this look to any other light gloves.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 42892,
+    "chat_link": "[&AgGMpwAA]",
+    "icon": "https://render.guildwars2.com/file/7ED4FCC6135FE17DD82978DF0BBB944B58CE62F6/591623.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1320
+      ]
+    }
+  },
+  {
+    "name": "Aetherblade Light Goggles Skin",
+    "description": "Double-click to apply this look to any other light helmet.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 42894,
+    "chat_link": "[&AgGOpwAA]",
+    "icon": "https://render.guildwars2.com/file/56C10550B055FD01E6AC3247081733045593F14D/591624.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1323
+      ]
+    }
+  },
+  {
+    "name": "Aetherblade Light Pant Skin",
+    "description": "Double-click to apply this look to any other light leggings.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 42896,
+    "chat_link": "[&AgGQpwAA]",
+    "icon": "https://render.guildwars2.com/file/430F07BF366309C0C2046553B90BFCA391701D77/591625.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1310
+      ]
+    }
+  },
+  {
+    "name": "Dragon Bash Mini Pack",
+    "description": "Double-click to receive a Mini Holographic Branded Minotaur, Mini Holographic Axe-Wielding Destroyer, and a Mini Holographic Corrupted Wolf.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 42897,
+    "chat_link": "[&AgGRpwAA]",
+    "icon": "https://render.guildwars2.com/file/55230DF1BDB980FE050461CE6EF3A95BCBA55BA8/591626.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Rich Dragon Coffer",
+    "description": "Double-click to open.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 42899,
+    "chat_link": "[&AgGTpwAA]",
+    "icon": "https://render.guildwars2.com/file/D6C1CD21C197B9A5F9DA0F6DBA21005572F04BBF/591628.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Aetherblade Light Mantle Skin",
+    "description": "Double-click to apply this look to any other light shoulders.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 42900,
+    "chat_link": "[&AgGUpwAA]",
+    "icon": "https://render.guildwars2.com/file/B64F0F0214D62B50B86C3F9003076B1E2C07FB47/591627.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1309
+      ]
+    }
+  },
+  {
+    "name": "Aetherblade Medium Boot Skin",
+    "description": "Double-click to apply this look to any other medium boots.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 42902,
+    "chat_link": "[&AgGWpwAA]",
+    "icon": "https://render.guildwars2.com/file/0406FF683258B5E8DA9C796DDB02D04D5BFF2540/591629.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1318
+      ]
+    }
+  },
+  {
+    "name": "Aetherblade Medium Jerkin",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1315,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 42903,
+    "chat_link": "[&AgGXpwAA]",
+    "icon": "https://render.guildwars2.com/file/DEEB351C3655AFDD1B604894D8A612080A0AE92A/591630.png",
+    "details": {
+      "type": "Coat",
+      "weight_class": "Medium",
+      "defense": 34,
+      "infusion_slots": [],
+      "attribute_adjustment": 16.038,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 6
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Aetherblade Medium Jerkin Skin",
+    "description": "Double-click to apply this look to any other medium armor.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 42904,
+    "chat_link": "[&AgGYpwAA]",
+    "icon": "https://render.guildwars2.com/file/DEEB351C3655AFDD1B604894D8A612080A0AE92A/591630.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1315
+      ]
+    }
+  },
+  {
+    "name": "Aetherblade Medium Armguard Skin",
+    "description": "Double-click to apply this look to any other medium gloves.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 42906,
+    "chat_link": "[&AgGapwAA]",
+    "icon": "https://render.guildwars2.com/file/041A37017E5B58AC0AF1B80DB50172160D4F714B/591631.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1321
+      ]
+    }
+  },
+  {
+    "name": "Aetherblade Medium Helmet",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1324,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 42907,
+    "chat_link": "[&AgGbpwAA]",
+    "icon": "https://render.guildwars2.com/file/14EC0273A02E6F7FB55598930B5FBA0F23324BFB/591632.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Medium",
+      "defense": 10,
+      "infusion_slots": [],
+      "attribute_adjustment": 7.128,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 2
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Aetherblade Medium Helmet Skin",
+    "description": "Double-click to apply this look to any other medium helmet.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 42908,
+    "chat_link": "[&AgGcpwAA]",
+    "icon": "https://render.guildwars2.com/file/14EC0273A02E6F7FB55598930B5FBA0F23324BFB/591632.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1324
+      ]
+    }
+  },
+  {
+    "name": "Aetherblade Medium Legging Skin",
+    "description": "Double-click to apply this look to any other medium leggings.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 42910,
+    "chat_link": "[&AgGepwAA]",
+    "icon": "https://render.guildwars2.com/file/72BE08483EF5AD6775907BC261CBF2A32ADA6743/591633.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1311
+      ]
+    }
+  },
+  {
+    "name": "Aetherblade Medium Shoulderpads",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1312,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 42911,
+    "chat_link": "[&AgGfpwAA]",
+    "icon": "https://render.guildwars2.com/file/45DDD72B553C714E37DF5007AF0966A3037C5A71/591634.png",
+    "details": {
+      "type": "Shoulders",
+      "weight_class": "Medium",
+      "defense": 10,
+      "infusion_slots": [],
+      "attribute_adjustment": 5.346,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 2
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Aetherblade Medium Shoulderpad Skin",
+    "description": "Double-click to apply this look to any other medium shoulders.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 42912,
+    "chat_link": "[&AgGgpwAA]",
+    "icon": "https://render.guildwars2.com/file/45DDD72B553C714E37DF5007AF0966A3037C5A71/591634.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1312
+      ]
+    }
+  },
+  {
+    "name": "Aetherblade Light Shoes",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "default_skin": 1317,
+    "game_types": [
+      "Pvp",
+      "PvpLobby"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 42919,
+    "chat_link": "[&AgGnpwAA]",
+    "icon": "https://render.guildwars2.com/file/A1A678F5969894974C247B1403001944BCF6A9D8/591620.png",
+    "details": {
+      "type": "Boots",
+      "weight_class": "Light",
+      "defense": 133,
+      "infusion_slots": [],
+      "attribute_adjustment": 128.04,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Aetherblade Light Vest",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "default_skin": 1314,
+    "game_types": [
+      "Pvp",
+      "PvpLobby"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 42920,
+    "chat_link": "[&AgGopwAA]",
+    "icon": "https://render.guildwars2.com/file/08F7FABB574B361EA10E2898EBEE1E5FA1C9E8FF/591622.png",
+    "details": {
+      "type": "Coat",
+      "weight_class": "Light",
+      "defense": 314,
+      "infusion_slots": [],
+      "attribute_adjustment": 384.12,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Aetherblade Light Gloves",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "default_skin": 1320,
+    "game_types": [
+      "Pvp",
+      "PvpLobby"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 42921,
+    "chat_link": "[&AgGppwAA]",
+    "icon": "https://render.guildwars2.com/file/7ED4FCC6135FE17DD82978DF0BBB944B58CE62F6/591623.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Light",
+      "defense": 133,
+      "infusion_slots": [],
+      "attribute_adjustment": 128.04,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Aetherblade Light Goggles",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "default_skin": 1323,
+    "game_types": [
+      "Pvp",
+      "PvpLobby"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 42922,
+    "chat_link": "[&AgGqpwAA]",
+    "icon": "https://render.guildwars2.com/file/56C10550B055FD01E6AC3247081733045593F14D/591624.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Light",
+      "defense": 73,
+      "infusion_slots": [],
+      "attribute_adjustment": 170.72,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Aetherblade Light Pants",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "default_skin": 1310,
+    "game_types": [
+      "Pvp",
+      "PvpLobby"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 42923,
+    "chat_link": "[&AgGrpwAA]",
+    "icon": "https://render.guildwars2.com/file/430F07BF366309C0C2046553B90BFCA391701D77/591625.png",
+    "details": {
+      "type": "Leggings",
+      "weight_class": "Light",
+      "defense": 194,
+      "infusion_slots": [],
+      "attribute_adjustment": 256.08,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Aetherblade Light Mantle",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "default_skin": 1309,
+    "game_types": [
+      "Pvp",
+      "PvpLobby"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 42924,
+    "chat_link": "[&AgGspwAA]",
+    "icon": "https://render.guildwars2.com/file/B64F0F0214D62B50B86C3F9003076B1E2C07FB47/591627.png",
+    "details": {
+      "type": "Shoulders",
+      "weight_class": "Light",
+      "defense": 73,
+      "infusion_slots": [],
+      "attribute_adjustment": 128.04,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Aetherblade Medium Armguards",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "default_skin": 1321,
+    "game_types": [
+      "Pvp",
+      "PvpLobby"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 42927,
+    "chat_link": "[&AgGvpwAA]",
+    "icon": "https://render.guildwars2.com/file/041A37017E5B58AC0AF1B80DB50172160D4F714B/591631.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Medium",
+      "defense": 157,
+      "infusion_slots": [],
+      "attribute_adjustment": 128.04,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Aetherblade Medium Helmet",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "default_skin": 1324,
+    "game_types": [
+      "Pvp",
+      "PvpLobby"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 42928,
+    "chat_link": "[&AgGwpwAA]",
+    "icon": "https://render.guildwars2.com/file/14EC0273A02E6F7FB55598930B5FBA0F23324BFB/591632.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Medium",
+      "defense": 97,
+      "infusion_slots": [],
+      "attribute_adjustment": 170.72,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Chop-It-All Logging Axe",
+    "description": "Perfect for use on all types of trees. Unlimited use.",
+    "type": "Gathering",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 192,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "NotUpgradeable",
+      "DeleteWarning",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 42931,
+    "chat_link": "[&AgGzpwAA]",
+    "icon": "https://render.guildwars2.com/file/15CF97BA7DC573E2BCA852FF1364721B98531470/598608.png",
+    "details": {
+      "type": "Logging"
+    }
+  },
+  {
+    "name": "Material Storage Expander",
+    "description": "Double-click to increase the maximum stack size of all stored materials by 250.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 42932,
+    "chat_link": "[&AgG0pwAA]",
+    "icon": "https://render.guildwars2.com/file/C86198A5674D6B03BA74CE7DD3115B79CDF32139/674828.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CollectibleCapacity"
+    }
+  },
+  {
+    "name": "Mini Mordrem Leyleecher",
+    "description": "Double-click to summon this mini to follow you around. Only one mini may be in use at a time.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 42951,
+    "chat_link": "[&AgHHpwAA]",
+    "icon": "https://render.guildwars2.com/file/15C8BA68E214970BB468E15D715DEB630B6FEC31/841515.png",
+    "details": {
+      "minipet_id": 297
+    }
+  },
+  {
+    "name": "Mini Marjory Delaqua",
+    "description": "Double-click to summon this mini to follow you around. Only one mini may be in use at a time.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "NoUnderwater",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 42952,
+    "chat_link": "[&AgHIpwAA]",
+    "icon": "https://render.guildwars2.com/file/B042D899249B9F0AED6EDE2FA259FE65A5246DD2/740298.png",
+    "details": {
+      "minipet_id": 222
+    }
+  },
+  {
+    "name": "Mini Aetherblade Admiral",
+    "description": "Double-click to summon this mini to follow you around. Only one mini may be in use at a time.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 42953,
+    "chat_link": "[&AgHJpwAA]",
+    "icon": "https://render.guildwars2.com/file/0A9134302D18BA9C193ACBD37B335DEF71F959C6/740295.png",
+    "details": {
+      "minipet_id": 225
+    }
+  },
+  {
+    "name": "Mini Toxic Warlock",
+    "description": "Double-click to summon this mini to follow you around. Only one mini may be in use at a time.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 42954,
+    "chat_link": "[&AgHKpwAA]",
+    "icon": "https://render.guildwars2.com/file/96D7E5597E3F373D061BD66874CB482DE7E405D9/740299.png",
+    "details": {
+      "minipet_id": 220
+    }
+  },
+  {
+    "name": "Mini Molten Berserker",
+    "description": "Double-click to summon this mini to follow you around. Only one mini may be in use at a time.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 42955,
+    "chat_link": "[&AgHLpwAA]",
+    "icon": "https://render.guildwars2.com/file/CD75534094590D903901020596C678022862B80D/740300.png",
+    "details": {
+      "minipet_id": 224
+    }
+  },
+  {
+    "name": "Mini Armored Scarlet Briar",
+    "description": "Double-click to summon this mini to follow you around. Only one mini may be in use at a time.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 42956,
+    "chat_link": "[&AgHMpwAA]",
+    "icon": "https://render.guildwars2.com/file/4693F973AFCE349E70D970DE36FFA61AA31174F5/740301.png",
+    "details": {
+      "minipet_id": 226
+    }
+  },
+  {
+    "name": "Mini Snow Owl",
+    "description": "Double-click to summon this mini to follow you around. Only one mini may be in use at a time.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 42957,
+    "chat_link": "[&AgHNpwAA]",
+    "icon": "https://render.guildwars2.com/file/920F0BCD463E0AFE1F3BBA169D36F54B6211D311/771061.png",
+    "details": {
+      "minipet_id": 238
+    }
+  },
+  {
+    "name": "Mini Raven",
+    "description": "Double-click to summon this mini to follow you around. Only one mini may be in use at a time.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 42958,
+    "chat_link": "[&AgHOpwAA]",
+    "icon": "https://render.guildwars2.com/file/98EF4EED4875EEB89B0A207F4C049DD10F096C0D/771062.png",
+    "details": {
+      "minipet_id": 239
+    }
+  },
+  {
+    "name": "Mini Hawk",
+    "description": "Double-click to summon this mini to follow you around. Only one mini may be in use at a time.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 42959,
+    "chat_link": "[&AgHPpwAA]",
+    "icon": "https://render.guildwars2.com/file/CF4EDC010746AFC8960E54E5E808B308F6066EF0/771063.png",
+    "details": {
+      "minipet_id": 237
+    }
+  },
+  {
+    "name": "Mini Scruffy",
+    "description": "Double-click to summon this mini to follow you around. Only one mini may be in use at a time.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 42960,
+    "chat_link": "[&AgHQpwAA]",
+    "icon": "https://render.guildwars2.com/file/7DE5D3B06A2275F545D3D8FDEA23774A9BE695F4/849449.png",
+    "details": {
+      "minipet_id": 294
+    }
+  },
+  {
+    "name": "Lawless Shoulder Skin",
+    "description": "Double-click to apply this appearance to your current shoulder armor. This will unlock the skin in your wardrobe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 42962,
+    "chat_link": "[&AgHSpwAA]",
+    "icon": "https://render.guildwars2.com/file/3E3DB83F7DB41772452FD508FC9D0E96696D3D4F/780249.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1362,
+        1368,
+        1371
+      ]
+    }
+  },
+  {
+    "name": "Bobblehead Tonic",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 42963,
+    "chat_link": "[&AgHTpwAA]",
+    "icon": "https://render.guildwars2.com/file/A3D2DC04EE66F8E934279E042C0440D2EAC8040B/771059.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Lawless Boots Skin",
+    "description": "Double-click to apply this appearance to your current boots. This will unlock the skin in your wardrobe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 42966,
+    "chat_link": "[&AgHWpwAA]",
+    "icon": "https://render.guildwars2.com/file/F8C7F83FFE415DC8E0EDD0CFC192BC01240B6C09/780252.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1361,
+        1369,
+        1370
+      ]
+    }
+  },
+  {
+    "name": "Lightning Kite",
+    "description": "Double-click to take out your kite.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "NotUpgradeable",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 42967,
+    "chat_link": "[&AgHXpwAA]",
+    "icon": "https://render.guildwars2.com/file/924F98BEB37F090204D31F0D262CF4C22A57C673/603291.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Captain's Airship Pass (2 weeks)",
+    "description": "Grants access to the Havoc's Heir over Gendarran Fields. Redeemable at any time. Expires two weeks after first use. Double-click to use.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 42968,
+    "chat_link": "[&AgHYpwAA]",
+    "icon": "https://render.guildwars2.com/file/3B0C0B68B818DB93D2B5A4949C11CC5E6FA20DE7/740294.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Additional Crafting License",
+    "description": "Increase the number of active crafting disciplines all characters on your account can have at one time.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 42970,
+    "chat_link": "[&AgHapwAA]",
+    "icon": "https://render.guildwars2.com/file/F23275B76B74B907D8A0BE9F3BA066094CAE90FD/819619.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Flute",
+    "description": "Double-click to change your skill bar and play a flute for your friends.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 42973,
+    "chat_link": "[&AgHdpwAA]",
+    "icon": "https://render.guildwars2.com/file/C61FFFF84E10D7143920E8291B80DA75C6315A3C/603292.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Kite Fortune",
+    "description": "Double-click to get a fortune and 10 minutes of either a speed boost, magic find boost, karma boost, or experience boost.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 42974,
+    "chat_link": "[&AgHepwAA]",
+    "icon": "https://render.guildwars2.com/file/60B941CA76737D34DD100A09E5C9434AD3D632D2/603293.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Boost Enchantment Powder",
+    "description": "Repackages boosts in your inventory to take up less space and allows you to change boosts to another similar type.\n\nEach powder will grant one Enchanted Boost in exchange for the following boosts in the quantity listed in the parentheses:\n• Karma Booster (2)\n• Experience Booster (1)\n• Gathering Booster (1)\n• Crafting Booster (1)\n• Magic Find Booster (1)\n• Killstreak Experience Booster (1)\n• Armor Booster (1)\n• Strength Booster (1)\n• Speed Booster (1)\n• Rejuvenation Booster (1)\n\nDouble-click to activate.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 125,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 42976,
+    "chat_link": "[&AgHgpwAA]",
+    "icon": "https://render.guildwars2.com/file/B80CE8037A7541798002059E0DBD0A37B27108DA/819620.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Wintersday Minis 3-Pack",
+    "description": "Double-click to receive the holiday trio: Mini Fawn, Mini Puppy, and Mini Arctic Fox Kit.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 42978,
+    "chat_link": "[&AgHipwAA]",
+    "icon": "https://render.guildwars2.com/file/4B5345024E2D5A0503E04F7D923562422806FB4D/681030.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Heroic Chest",
+    "description": "Contains boosters and a legacy suit of armor.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 42979,
+    "chat_link": "[&AgHjpwAA]",
+    "icon": "https://render.guildwars2.com/file/A7AE2BB2D21619CC09FB44E878090740C20A5ED6/625926.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Bazaar Quaggan Mini Pack",
+    "description": "Double-click to receive mini Poowulpi the Persnicketous, mini Peggellegg the \"Pirate,\" and mini Kookoochoo the Incredulous.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 42981,
+    "chat_link": "[&AgHlpwAA]",
+    "icon": "https://render.guildwars2.com/file/760D01E692A9F8DC000C23E95C29A0933CC63B9B/603294.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Mini Mystical Dragon",
+    "description": "Double-click to summon this mini to follow you around. Only one mini may be in use at a time.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43006,
+    "chat_link": "[&AgH+pwAA]",
+    "icon": "https://render.guildwars2.com/file/5C729598FD034B4916706B0295CD4F057FDE45DA/779874.png",
+    "details": {
+      "minipet_id": 289
+    }
+  },
+  {
+    "name": "Flute",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 43008,
+    "chat_link": "[&AgEAqAAA]",
+    "icon": "https://render.guildwars2.com/file/C61FFFF84E10D7143920E8291B80DA75C6315A3C/603292.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Mini Egg",
+    "description": "Mini Egg",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43009,
+    "chat_link": "[&AgEBqAAA]",
+    "icon": "https://render.guildwars2.com/file/111BBF660329EF69F0AB48CBB8221CB927CD0F65/779876.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Zodiac Heavy Armor Skin",
+    "description": "This full set of heavy armor skins can replace the appearance of heavy armor pieces, once per slot. The skins will also be unlocked in your account wardrobe.\n\nSkins have no stats of their own.\nCan only be used by characters who wear heavy armor.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43016,
+    "chat_link": "[&AgEIqAAA]",
+    "icon": "https://render.guildwars2.com/file/2793703E07C7E0D15EA2EE95E6C116DA75674F0C/740302.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Zodiac Medium Armor Skin",
+    "description": "This full set of medium armor skins can replace the appearance of medium armor pieces, once per slot. The skins will also be unlocked in your account wardrobe.\n\nSkins have no stats of their own.\nCan only be used by characters who wear medium armor.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43017,
+    "chat_link": "[&AgEJqAAA]",
+    "icon": "https://render.guildwars2.com/file/CACA37AA4734936B5E062003940CAB4B11092F6C/740303.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Zodiac Light Armor Skin",
+    "description": "This full set of light armor skins can replace the appearance of light armor pieces, once per slot. The skins will also be unlocked in your account wardrobe.\n\nSkins have no stats of their own.\nCan only be used by characters who wear light armor.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43018,
+    "chat_link": "[&AgEKqAAA]",
+    "icon": "https://render.guildwars2.com/file/9A22FCFF1B3DDC290D5360DAC77595C86D36F9F8/740304.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Zodiac Heavy Warboot",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1343,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43019,
+    "chat_link": "[&AgELqAAA]",
+    "icon": "https://render.guildwars2.com/file/D616CF34D55B272A5002F8A1C1AED602F7E092FB/740305.png",
+    "details": {
+      "type": "Boots",
+      "weight_class": "Heavy",
+      "defense": 18,
+      "infusion_slots": [],
+      "attribute_adjustment": 5.346,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 2
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Zodiac Heavy Warboot Skin",
+    "description": "Double-click to apply this look to any other heavy boots.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43020,
+    "chat_link": "[&AgEMqAAA]",
+    "icon": "https://render.guildwars2.com/file/D616CF34D55B272A5002F8A1C1AED602F7E092FB/740305.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1343
+      ]
+    }
+  },
+  {
+    "name": "Zodiac Heavy Warplate",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1344,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43021,
+    "chat_link": "[&AgENqAAA]",
+    "icon": "https://render.guildwars2.com/file/593D08951199482D3DD8AE007F09025BD1287864/740306.png",
+    "details": {
+      "type": "Coat",
+      "weight_class": "Heavy",
+      "defense": 36,
+      "infusion_slots": [],
+      "attribute_adjustment": 16.038,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 6
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Zodiac Heavy Warplate Skin",
+    "description": "Double-click to apply this look to any other heavy armor.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43022,
+    "chat_link": "[&AgEOqAAA]",
+    "icon": "https://render.guildwars2.com/file/593D08951199482D3DD8AE007F09025BD1287864/740306.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1344
+      ]
+    }
+  },
+  {
+    "name": "Zodiac Heavy Gauntlets",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1345,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43023,
+    "chat_link": "[&AgEPqAAA]",
+    "icon": "https://render.guildwars2.com/file/58A0727FAEB42E947C533244F532E479135401E1/740307.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Heavy",
+      "defense": 18,
+      "infusion_slots": [],
+      "attribute_adjustment": 5.346,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 2
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Zodiac Heavy Gauntlet Skin",
+    "description": "Double-click to apply this look to any other heavy gloves.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43024,
+    "chat_link": "[&AgEQqAAA]",
+    "icon": "https://render.guildwars2.com/file/58A0727FAEB42E947C533244F532E479135401E1/740307.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1345
+      ]
+    }
+  },
+  {
+    "name": "Zodiac Heavy Warhelm",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1346,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43025,
+    "chat_link": "[&AgERqAAA]",
+    "icon": "https://render.guildwars2.com/file/F73539B3206A28182AA3381C486B975E64A076F2/740308.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Heavy",
+      "defense": 12,
+      "infusion_slots": [],
+      "attribute_adjustment": 7.128,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 2
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Zodiac Heavy Warhelm Skin",
+    "description": "Double-click to apply this look to any other heavy helmet.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43026,
+    "chat_link": "[&AgESqAAA]",
+    "icon": "https://render.guildwars2.com/file/F73539B3206A28182AA3381C486B975E64A076F2/740308.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1346
+      ]
+    }
+  },
+  {
+    "name": "Zodiac Heavy Legplates",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1347,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43027,
+    "chat_link": "[&AgETqAAA]",
+    "icon": "https://render.guildwars2.com/file/954465CF5512BC0ABE97D8417929AD67001A1AF6/740309.png",
+    "details": {
+      "type": "Leggings",
+      "weight_class": "Heavy",
+      "defense": 24,
+      "infusion_slots": [],
+      "attribute_adjustment": 10.692,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 4
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Zodiac Heavy Legplate Skin",
+    "description": "Double-click to apply this look to any other heavy leggings.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43028,
+    "chat_link": "[&AgEUqAAA]",
+    "icon": "https://render.guildwars2.com/file/954465CF5512BC0ABE97D8417929AD67001A1AF6/740309.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1347
+      ]
+    }
+  },
+  {
+    "name": "Zodiac Heavy Pauldrons",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1348,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43029,
+    "chat_link": "[&AgEVqAAA]",
+    "icon": "https://render.guildwars2.com/file/7103363125DE26136F03F4044DBD56CE60AD774F/740310.png",
+    "details": {
+      "type": "Shoulders",
+      "weight_class": "Heavy",
+      "defense": 12,
+      "infusion_slots": [],
+      "attribute_adjustment": 5.346,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 2
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Zodiac Heavy Pauldron Skin",
+    "description": "Double-click to apply this look to any other heavy shoulders.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43030,
+    "chat_link": "[&AgEWqAAA]",
+    "icon": "https://render.guildwars2.com/file/7103363125DE26136F03F4044DBD56CE60AD774F/740310.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1348
+      ]
+    }
+  },
+  {
+    "name": "Zodiac Light Shoe Skin",
+    "description": "Double-click to apply this look to any other light boots.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43032,
+    "chat_link": "[&AgEYqAAA]",
+    "icon": "https://render.guildwars2.com/file/9CCD33D3AF5CD8237ACE3E0EAB9DF1B11A67736D/740311.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1349
+      ]
+    }
+  },
+  {
+    "name": "Zodiac Light Vest Skin",
+    "description": "Double-click to apply this look to any other light armor.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43034,
+    "chat_link": "[&AgEaqAAA]",
+    "icon": "https://render.guildwars2.com/file/021048C317DFFFB6727E0955A2D6C7EFFBE9425B/740312.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1350
+      ]
+    }
+  },
+  {
+    "name": "Zodiac Light Gloves",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1351,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43035,
+    "chat_link": "[&AgEbqAAA]",
+    "icon": "https://render.guildwars2.com/file/759F44A6C6CC7BB2EF0433C2687B3A07AF71B8DB/740313.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Light",
+      "defense": 14,
+      "infusion_slots": [],
+      "attribute_adjustment": 5.346,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 2
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Zodiac Light Glove Skin",
+    "description": "Double-click to apply this look to any other light gloves.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43036,
+    "chat_link": "[&AgEcqAAA]",
+    "icon": "https://render.guildwars2.com/file/759F44A6C6CC7BB2EF0433C2687B3A07AF71B8DB/740313.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1351
+      ]
+    }
+  },
+  {
+    "name": "Zodiac Light Goggles Skin",
+    "description": "Double-click to apply this look to any other light helmet.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43038,
+    "chat_link": "[&AgEeqAAA]",
+    "icon": "https://render.guildwars2.com/file/0C6C01B15FC950086DE34907A37131231076EF98/740314.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1352
+      ]
+    }
+  },
+  {
+    "name": "Zodiac Light Pant Skin",
+    "description": "Double-click to apply this look to any other light leggings.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43040,
+    "chat_link": "[&AgEgqAAA]",
+    "icon": "https://render.guildwars2.com/file/3AD6EFC912FACA2C0BAAC0977528EE032AE10F0C/740315.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1353
+      ]
+    }
+  },
+  {
+    "name": "Zodiac Light Mantle",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1354,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43041,
+    "chat_link": "[&AgEhqAAA]",
+    "icon": "https://render.guildwars2.com/file/4AE30B47952813F22FBC6DAC62010BDCAAB4C2FC/740316.png",
+    "details": {
+      "type": "Shoulders",
+      "weight_class": "Light",
+      "defense": 8,
+      "infusion_slots": [],
+      "attribute_adjustment": 5.346,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 2
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Zodiac Light Mantle Skin",
+    "description": "Double-click to apply this look to any other light shoulders.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43042,
+    "chat_link": "[&AgEiqAAA]",
+    "icon": "https://render.guildwars2.com/file/4AE30B47952813F22FBC6DAC62010BDCAAB4C2FC/740316.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1354
+      ]
+    }
+  },
+  {
+    "name": "Zodiac Medium Boots",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1355,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43043,
+    "chat_link": "[&AgEjqAAA]",
+    "icon": "https://render.guildwars2.com/file/B20176C4779901A305F6586DE795C542B606CAAD/740317.png",
+    "details": {
+      "type": "Boots",
+      "weight_class": "Medium",
+      "defense": 16,
+      "infusion_slots": [],
+      "attribute_adjustment": 5.346,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 2
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Zodiac Medium Boot Skin",
+    "description": "Double-click to apply this look to any other medium boots.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43044,
+    "chat_link": "[&AgEkqAAA]",
+    "icon": "https://render.guildwars2.com/file/B20176C4779901A305F6586DE795C542B606CAAD/740317.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1355
+      ]
+    }
+  },
+  {
+    "name": "Zodiac Medium Jerkin",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1356,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43045,
+    "chat_link": "[&AgElqAAA]",
+    "icon": "https://render.guildwars2.com/file/7F4B4FA198BAD3CDEECD5CDB6D5A2150949D0F94/740318.png",
+    "details": {
+      "type": "Coat",
+      "weight_class": "Medium",
+      "defense": 34,
+      "infusion_slots": [],
+      "attribute_adjustment": 16.038,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 6
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Zodiac Medium Jerkin Skin",
+    "description": "Double-click to apply this look to any other medium armor.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43046,
+    "chat_link": "[&AgEmqAAA]",
+    "icon": "https://render.guildwars2.com/file/7F4B4FA198BAD3CDEECD5CDB6D5A2150949D0F94/740318.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1356
+      ]
+    }
+  },
+  {
+    "name": "Zodiac Medium Armguard Skin",
+    "description": "Double-click to apply this look to any other medium gloves.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43048,
+    "chat_link": "[&AgEoqAAA]",
+    "icon": "https://render.guildwars2.com/file/97A403EC932962C56E6C9E3D963F0BEE0780E35D/740319.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1357
+      ]
+    }
+  },
+  {
+    "name": "Zodiac Medium Helmet",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1358,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43049,
+    "chat_link": "[&AgEpqAAA]",
+    "icon": "https://render.guildwars2.com/file/212560EDD2475AB3B551C3F63DCB12EE4C14CDA7/740320.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Medium",
+      "defense": 10,
+      "infusion_slots": [],
+      "attribute_adjustment": 7.128,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 2
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Zodiac Medium Helmet Skin",
+    "description": "Double-click to apply this look to any other medium helmet.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43050,
+    "chat_link": "[&AgEqqAAA]",
+    "icon": "https://render.guildwars2.com/file/212560EDD2475AB3B551C3F63DCB12EE4C14CDA7/740320.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1358
+      ]
+    }
+  },
+  {
+    "name": "Zodiac Medium Leggings",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1359,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43051,
+    "chat_link": "[&AgErqAAA]",
+    "icon": "https://render.guildwars2.com/file/EF1AD60AF9A361EDC707D2C9F73B186EA07C6301/740321.png",
+    "details": {
+      "type": "Leggings",
+      "weight_class": "Medium",
+      "defense": 22,
+      "infusion_slots": [],
+      "attribute_adjustment": 10.692,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 4
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Zodiac Medium Legging Skin",
+    "description": "Double-click to apply this look to any other medium leggings.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43052,
+    "chat_link": "[&AgEsqAAA]",
+    "icon": "https://render.guildwars2.com/file/EF1AD60AF9A361EDC707D2C9F73B186EA07C6301/740321.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1359
+      ]
+    }
+  },
+  {
+    "name": "Zodiac Medium Shoulderpad Skin",
+    "description": "Double-click to apply this look to any other medium shoulders.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43054,
+    "chat_link": "[&AgEuqAAA]",
+    "icon": "https://render.guildwars2.com/file/C32F4C396D032CAAB809F621E962936223273F0A/740322.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1360
+      ]
+    }
+  },
+  {
+    "name": "Zodiac Light Shoes",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "default_skin": 1349,
+    "game_types": [
+      "Pvp",
+      "PvpLobby"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43061,
+    "chat_link": "[&AgE1qAAA]",
+    "icon": "https://render.guildwars2.com/file/9CCD33D3AF5CD8237ACE3E0EAB9DF1B11A67736D/740311.png",
+    "details": {
+      "type": "Boots",
+      "weight_class": "Light",
+      "defense": 133,
+      "infusion_slots": [],
+      "attribute_adjustment": 128.04,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Zodiac Light Vest",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "default_skin": 1350,
+    "game_types": [
+      "Pvp",
+      "PvpLobby"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43062,
+    "chat_link": "[&AgE2qAAA]",
+    "icon": "https://render.guildwars2.com/file/021048C317DFFFB6727E0955A2D6C7EFFBE9425B/740312.png",
+    "details": {
+      "type": "Coat",
+      "weight_class": "Light",
+      "defense": 314,
+      "infusion_slots": [],
+      "attribute_adjustment": 384.12,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Zodiac Light Gloves",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "default_skin": 1351,
+    "game_types": [
+      "Pvp",
+      "PvpLobby"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43063,
+    "chat_link": "[&AgE3qAAA]",
+    "icon": "https://render.guildwars2.com/file/759F44A6C6CC7BB2EF0433C2687B3A07AF71B8DB/740313.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Light",
+      "defense": 133,
+      "infusion_slots": [],
+      "attribute_adjustment": 128.04,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Zodiac Light Goggles",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "default_skin": 1352,
+    "game_types": [
+      "Pvp",
+      "PvpLobby"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43064,
+    "chat_link": "[&AgE4qAAA]",
+    "icon": "https://render.guildwars2.com/file/0C6C01B15FC950086DE34907A37131231076EF98/740314.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Light",
+      "defense": 73,
+      "infusion_slots": [],
+      "attribute_adjustment": 170.72,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Zodiac Light Pants",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "default_skin": 1353,
+    "game_types": [
+      "Pvp",
+      "PvpLobby"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43065,
+    "chat_link": "[&AgE5qAAA]",
+    "icon": "https://render.guildwars2.com/file/3AD6EFC912FACA2C0BAAC0977528EE032AE10F0C/740315.png",
+    "details": {
+      "type": "Leggings",
+      "weight_class": "Light",
+      "defense": 194,
+      "infusion_slots": [],
+      "attribute_adjustment": 256.08,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Zodiac Light Mantle",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "default_skin": 1354,
+    "game_types": [
+      "Pvp",
+      "PvpLobby"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43066,
+    "chat_link": "[&AgE6qAAA]",
+    "icon": "https://render.guildwars2.com/file/4AE30B47952813F22FBC6DAC62010BDCAAB4C2FC/740316.png",
+    "details": {
+      "type": "Shoulders",
+      "weight_class": "Light",
+      "defense": 73,
+      "infusion_slots": [],
+      "attribute_adjustment": 128.04,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Evon Gnashblade Support Bundle",
+    "description": "Contains a support booster and support banners for this candidate.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43073,
+    "chat_link": "[&AgFBqAAA]",
+    "icon": "https://render.guildwars2.com/file/6BD3EC55E7A00396BA10DC95F4BE0D107D80A15B/607652.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Ellen Kiel Support Bundle",
+    "description": "Contains a support booster and support banners for this candidate.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43074,
+    "chat_link": "[&AgFCqAAA]",
+    "icon": "https://render.guildwars2.com/file/31D6562827E6B917C9E6755F205D27AD9969F6FF/607653.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Instant Trait Reset",
+    "description": "Double-click to reset your traits. Single use.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43075,
+    "chat_link": "[&AgFDqAAA]",
+    "icon": "https://render.guildwars2.com/file/B251AFC4FEECE1F099906D182F2E91A1D3B849D0/643280.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Wind Kite",
+    "description": "Double-click to take out your kite.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "NotUpgradeable",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43076,
+    "chat_link": "[&AgFEqAAA]",
+    "icon": "https://render.guildwars2.com/file/6EFE433340221491B09239B80CEED423D160BD64/603297.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Black Lion Introductory Package",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43077,
+    "chat_link": "[&AgFFqAAA]",
+    "icon": "https://render.guildwars2.com/file/10C33E980EEBECD4CD600243EF9CB33D3E5BEB5D/681031.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Lion's Arch Commemorative Dye Kit",
+    "description": "Double-click to gain one of 25 random colors commemorating Lion's Arch of old. Includes six exclusive colors.\n\n<c=#FFC957>All dyes have an equal chance to drop.</c>",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43078,
+    "chat_link": "[&AgFGqAAA]",
+    "icon": "https://render.guildwars2.com/file/7F3328A7A7997C7BD4396F383C3AB017342DB298/780271.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Bloody Prince's Mask",
+    "description": "Town clothes can no longer be equipped separately.\n\nSpeak to a Black Lion Armor Trader at the trading post in any major city to exchange this item for an outfit wearable in combat.",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1212,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43087,
+    "chat_link": "[&AgFPqAAA]",
+    "icon": "https://render.guildwars2.com/file/FBD6CEEC0A4BB99B47410D26A7C3682477F52A5E/648156.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Clothing",
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 6.696,
+      "infix_upgrade": {
+        "id": 112,
+        "attributes": []
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Bloody Prince's Shirt",
+    "description": "Town clothes can no longer be equipped separately.\n\nSpeak to a Black Lion Armor Trader at the trading post in any major city to exchange this item for an outfit wearable in combat.",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1109,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43089,
+    "chat_link": "[&AgFRqAAA]",
+    "icon": "https://render.guildwars2.com/file/03E3ED13561B100F00655AD442B501FC091B4A3B/648157.png",
+    "details": {
+      "type": "Coat",
+      "weight_class": "Clothing",
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 15.066,
+      "infix_upgrade": {
+        "id": 112,
+        "attributes": []
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Bloody Prince's Outfit",
+    "description": "Contains a Bloody Prince outfit, which is usable in combat, and a Bloody Prince Staff toy for costume brawl.\n\nOutfits are full sets of clothing that hide other armor. This will not change individual armor pieces, and you will still receive your current armor stats.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43091,
+    "chat_link": "[&AgFTqAAA]",
+    "icon": "https://render.guildwars2.com/file/0297679A65D858DFC61B9C02ECC4964FDEC7AA1A/648158.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Bloody Prince's Staff Toy",
+    "description": "Town clothes can no longer be equipped separately.\n\nSpeak to a Black Lion Armor Trader to exchange this for a portable bundle item.",
+    "type": "Weapon",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 3245,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "NotUpgradeable",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43092,
+    "chat_link": "[&AgFUqAAA]",
+    "icon": "https://render.guildwars2.com/file/DCAA16650655B79ADDAD02B44B590EA9397AD3DE/648159.png",
+    "details": {
+      "type": "ToyTwoHanded",
+      "damage_type": "Physical",
+      "min_power": 0,
+      "max_power": 0,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 13.392,
+      "infix_upgrade": {
+        "id": 112,
+        "attributes": []
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Executioner Gloves",
+    "description": "Town clothes can no longer be equipped separately.\n\nSpeak to a Black Lion Armor Trader at the trading post in any major city to exchange this item for an outfit wearable in combat.",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1159,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43093,
+    "chat_link": "[&AgFVqAAA]",
+    "icon": "https://render.guildwars2.com/file/7F11490E0680A633CAFA5350CA902FEBE6326A28/648160.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Clothing",
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 5.022,
+      "infix_upgrade": {
+        "id": 112,
+        "attributes": []
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Executioner Hood",
+    "description": "Town clothes can no longer be equipped separately.\n\nSpeak to a Black Lion Armor Trader at the trading post in any major city to exchange this item for an outfit wearable in combat.",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1211,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43094,
+    "chat_link": "[&AgFWqAAA]",
+    "icon": "https://render.guildwars2.com/file/B1200670F92D80F24050D5B6EA5A4DDA091F7D79/648161.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Clothing",
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 6.696,
+      "infix_upgrade": {
+        "id": 112,
+        "attributes": []
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Executioner Boots",
+    "description": "Town clothes can no longer be equipped separately.\n\nSpeak to a Black Lion Armor Trader at the trading post in any major city to exchange this item for an outfit wearable in combat.",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1114,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43095,
+    "chat_link": "[&AgFXqAAA]",
+    "icon": "https://render.guildwars2.com/file/0604DCFA05036DD1FC1759A35ACCADB0C42A9A5B/648162.png",
+    "details": {
+      "type": "Boots",
+      "weight_class": "Clothing",
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 5.022,
+      "infix_upgrade": {
+        "id": 112,
+        "attributes": []
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Executioner Shirt",
+    "description": "Town clothes can no longer be equipped separately.\n\nSpeak to a Black Lion Armor Trader at the trading post in any major city to exchange this item for an outfit wearable in combat.",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1108,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43096,
+    "chat_link": "[&AgFYqAAA]",
+    "icon": "https://render.guildwars2.com/file/66CC3BDB0AD063DF01F7D708C5C231B573CEC559/648163.png",
+    "details": {
+      "type": "Coat",
+      "weight_class": "Clothing",
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 15.066,
+      "infix_upgrade": {
+        "id": 112,
+        "attributes": []
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Executioner's Outfit",
+    "description": "Contains an Executioner Outfit, which is usable in combat, and an Executioner Axe toy for costume brawl.\n\nOutfits are full sets of clothing that hide other armor. This will not change individual armor pieces, and you will still receive your current armor stats.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43098,
+    "chat_link": "[&AgFaqAAA]",
+    "icon": "https://render.guildwars2.com/file/606BC169F95F7FF8470DD2CE6D30016AD5B646EA/648164.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Executioner Axe Toy",
+    "description": "Town clothes can no longer be equipped separately.\n\nSpeak to a Black Lion Armor Trader to exchange this for a portable bundle item.",
+    "type": "Weapon",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 3244,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "NotUpgradeable",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43099,
+    "chat_link": "[&AgFbqAAA]",
+    "icon": "https://render.guildwars2.com/file/42A058A4DEBDDC980D9666E07B1E779839EFE32E/648165.png",
+    "details": {
+      "type": "ToyTwoHanded",
+      "damage_type": "Physical",
+      "min_power": 0,
+      "max_power": 0,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 13.392,
+      "infix_upgrade": {
+        "id": 112,
+        "attributes": []
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Phalanx Heavy-Armor Skin",
+    "description": "This full set of heavy armor skins can replace the appearance of heavy armor pieces, once per slot. The skins will also be unlocked in your account wardrobe.\n\nSkins have no stats of their own.\nCan only be used by characters who wear heavy armor.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43100,
+    "chat_link": "[&AgFcqAAA]",
+    "icon": "https://render.guildwars2.com/file/3727CC685744360817FA5CE8430BBD164F6241FD/665784.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Viper's Medium-Armor Skin",
+    "description": "This full set of medium armor skins can replace the appearance of medium armor pieces, once per slot. The skins will also be unlocked in your account wardrobe.\n\nSkins have no stats of their own.\nCan only be used by characters who wear medium armor.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43101,
+    "chat_link": "[&AgFdqAAA]",
+    "icon": "https://render.guildwars2.com/file/29FF069D1B19BC79B8B1CDD6D8DACE3E189114AC/665785.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Trickster's Light-Armor Skin",
+    "description": "This full set of light armor skins can replace the appearance of light armor pieces, once per slot. The skins will also be unlocked in your account wardrobe.\n\nSkins have no stats of their own.\nCan only be used by characters who wear light armor.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43102,
+    "chat_link": "[&AgFeqAAA]",
+    "icon": "https://render.guildwars2.com/file/B2525293D7E825EDD50124F64C0EB7436FACD2DB/665786.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Phalanx Warboots",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1113,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43103,
+    "chat_link": "[&AgFfqAAA]",
+    "icon": "https://render.guildwars2.com/file/BE1709C327E15304957DF61E96A77643B95D7333/665787.png",
+    "details": {
+      "type": "Boots",
+      "weight_class": "Heavy",
+      "defense": 18,
+      "infusion_slots": [],
+      "attribute_adjustment": 5.346,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 2
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Phalanx Heavy Warboot Skin",
+    "description": "Double-click to apply this look to any other heavy boots.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43104,
+    "chat_link": "[&AgFgqAAA]",
+    "icon": "https://render.guildwars2.com/file/BE1709C327E15304957DF61E96A77643B95D7333/665787.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1113
+      ]
+    }
+  },
+  {
+    "name": "Phalanx Warplate",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1101,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43105,
+    "chat_link": "[&AgFhqAAA]",
+    "icon": "https://render.guildwars2.com/file/AFC9F972EC3C5AB6614972335736B74C272AE217/665788.png",
+    "details": {
+      "type": "Coat",
+      "weight_class": "Heavy",
+      "defense": 36,
+      "infusion_slots": [],
+      "attribute_adjustment": 16.038,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 6
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Phalanx Heavy Warplate Skin",
+    "description": "Double-click to apply this look to any other heavy armor.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43106,
+    "chat_link": "[&AgFiqAAA]",
+    "icon": "https://render.guildwars2.com/file/AFC9F972EC3C5AB6614972335736B74C272AE217/665788.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1101
+      ]
+    }
+  },
+  {
+    "name": "Phalanx Gauntlets",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1157,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43107,
+    "chat_link": "[&AgFjqAAA]",
+    "icon": "https://render.guildwars2.com/file/6BCF0C0540052ED691EE2608AB4D016038037360/665789.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Heavy",
+      "defense": 18,
+      "infusion_slots": [],
+      "attribute_adjustment": 5.346,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 2
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Phalanx Heavy Gauntlet Skin",
+    "description": "Double-click to apply this look to any other heavy gloves.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43108,
+    "chat_link": "[&AgFkqAAA]",
+    "icon": "https://render.guildwars2.com/file/6BCF0C0540052ED691EE2608AB4D016038037360/665789.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1157
+      ]
+    }
+  },
+  {
+    "name": "Phalanx Warhelm",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1201,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43109,
+    "chat_link": "[&AgFlqAAA]",
+    "icon": "https://render.guildwars2.com/file/BB91DBCE4C53ABFD09F21743BF3FE0C1F020C5BF/665790.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Heavy",
+      "defense": 12,
+      "infusion_slots": [],
+      "attribute_adjustment": 7.128,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 2
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Phalanx Heavy Warhelm Skin",
+    "description": "Double-click to apply this look to any other heavy helmet.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43110,
+    "chat_link": "[&AgFmqAAA]",
+    "icon": "https://render.guildwars2.com/file/BB91DBCE4C53ABFD09F21743BF3FE0C1F020C5BF/665790.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1201
+      ]
+    }
+  },
+  {
+    "name": "Phalanx Legplates",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1074,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43111,
+    "chat_link": "[&AgFnqAAA]",
+    "icon": "https://render.guildwars2.com/file/2AC77F260198CE6A2F9F45B06A957DF19672431A/665791.png",
+    "details": {
+      "type": "Leggings",
+      "weight_class": "Heavy",
+      "defense": 24,
+      "infusion_slots": [],
+      "attribute_adjustment": 10.692,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 4
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Phalanx Heavy Legplate Skin",
+    "description": "Double-click to apply this look to any other heavy leggings.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43112,
+    "chat_link": "[&AgFoqAAA]",
+    "icon": "https://render.guildwars2.com/file/2AC77F260198CE6A2F9F45B06A957DF19672431A/665791.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1074
+      ]
+    }
+  },
+  {
+    "name": "Phalanx Shoulders",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1106,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43113,
+    "chat_link": "[&AgFpqAAA]",
+    "icon": "https://render.guildwars2.com/file/649675BF0D30BE03350DB67DF10C5979A2E5FD5C/665792.png",
+    "details": {
+      "type": "Shoulders",
+      "weight_class": "Heavy",
+      "defense": 12,
+      "infusion_slots": [],
+      "attribute_adjustment": 5.346,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 2
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Phalanx Heavy Shoulder Skin",
+    "description": "Double-click to apply this look to any other heavy shoulders.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43114,
+    "chat_link": "[&AgFqqAAA]",
+    "icon": "https://render.guildwars2.com/file/649675BF0D30BE03350DB67DF10C5979A2E5FD5C/665792.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1106
+      ]
+    }
+  },
+  {
+    "name": "Trickster's Shoes",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1334,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43115,
+    "chat_link": "[&AgFrqAAA]",
+    "icon": "https://render.guildwars2.com/file/5E4EAB257FB32CAECE906F034665583A960529B3/665793.png",
+    "details": {
+      "type": "Boots",
+      "weight_class": "Light",
+      "defense": 14,
+      "infusion_slots": [],
+      "attribute_adjustment": 5.346,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 2
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Trickster's Light Shoe Skin",
+    "description": "Double-click to apply this look to any other light boots.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43116,
+    "chat_link": "[&AgFsqAAA]",
+    "icon": "https://render.guildwars2.com/file/5E4EAB257FB32CAECE906F034665583A960529B3/665793.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1334
+      ]
+    }
+  },
+  {
+    "name": "Trickster's Vest",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1333,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43117,
+    "chat_link": "[&AgFtqAAA]",
+    "icon": "https://render.guildwars2.com/file/2A46475BFE0243ED4D416464D83B3DDF60E25A55/665794.png",
+    "details": {
+      "type": "Coat",
+      "weight_class": "Light",
+      "defense": 32,
+      "infusion_slots": [],
+      "attribute_adjustment": 16.038,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 6
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Trickster's Light Vest Skin",
+    "description": "Double-click to apply this look to any other light armor.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43118,
+    "chat_link": "[&AgFuqAAA]",
+    "icon": "https://render.guildwars2.com/file/2A46475BFE0243ED4D416464D83B3DDF60E25A55/665794.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1333
+      ]
+    }
+  },
+  {
+    "name": "Trickster's Gloves",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1335,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43119,
+    "chat_link": "[&AgFvqAAA]",
+    "icon": "https://render.guildwars2.com/file/DAFA1DE36CE4DDC40FF4FBC40D43153607B37123/665795.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Light",
+      "defense": 14,
+      "infusion_slots": [],
+      "attribute_adjustment": 5.346,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 2
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Trickster's Light Glove Skin",
+    "description": "Double-click to apply this look to any other light gloves.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43120,
+    "chat_link": "[&AgFwqAAA]",
+    "icon": "https://render.guildwars2.com/file/DAFA1DE36CE4DDC40FF4FBC40D43153607B37123/665795.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1335
+      ]
+    }
+  },
+  {
+    "name": "Trickster's Mask",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1336,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43121,
+    "chat_link": "[&AgFxqAAA]",
+    "icon": "https://render.guildwars2.com/file/70A1581092F5049E0192BD267C47C6B8DD711B58/665796.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Light",
+      "defense": 8,
+      "infusion_slots": [],
+      "attribute_adjustment": 7.128,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 2
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Trickster's Light Mask Skin",
+    "description": "Double-click to apply this look to any other light helmet.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43122,
+    "chat_link": "[&AgFyqAAA]",
+    "icon": "https://render.guildwars2.com/file/70A1581092F5049E0192BD267C47C6B8DD711B58/665796.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1336
+      ]
+    }
+  },
+  {
+    "name": "Trickster's Leggings",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1331,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43123,
+    "chat_link": "[&AgFzqAAA]",
+    "icon": "https://render.guildwars2.com/file/E140417AB5EE0C577690E3107D143860440B767A/665797.png",
+    "details": {
+      "type": "Leggings",
+      "weight_class": "Light",
+      "defense": 20,
+      "infusion_slots": [],
+      "attribute_adjustment": 10.692,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 4
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Trickster's Light Leggings Skin",
+    "description": "Double-click to apply this look to any other light leggings.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43124,
+    "chat_link": "[&AgF0qAAA]",
+    "icon": "https://render.guildwars2.com/file/E140417AB5EE0C577690E3107D143860440B767A/665797.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1331
+      ]
+    }
+  },
+  {
+    "name": "Trickster's Mantle",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1332,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43125,
+    "chat_link": "[&AgF1qAAA]",
+    "icon": "https://render.guildwars2.com/file/D5F40A015A1E09EE1EABCA6F004E0A77B4700303/665798.png",
+    "details": {
+      "type": "Shoulders",
+      "weight_class": "Light",
+      "defense": 8,
+      "infusion_slots": [],
+      "attribute_adjustment": 5.346,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 2
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Trickster's Light Mantle Skin",
+    "description": "Double-click to apply this look to any other light shoulders.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43126,
+    "chat_link": "[&AgF2qAAA]",
+    "icon": "https://render.guildwars2.com/file/D5F40A015A1E09EE1EABCA6F004E0A77B4700303/665798.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1332
+      ]
+    }
+  },
+  {
+    "name": "Viper's Boots",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1340,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43127,
+    "chat_link": "[&AgF3qAAA]",
+    "icon": "https://render.guildwars2.com/file/DB3B6ECB7BEB239F995D049D172F14EA1CC6920A/665799.png",
+    "details": {
+      "type": "Boots",
+      "weight_class": "Medium",
+      "defense": 16,
+      "infusion_slots": [],
+      "attribute_adjustment": 5.346,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 2
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Viper's Medium Boot Skin",
+    "description": "Double-click to apply this look to any other medium boots.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43128,
+    "chat_link": "[&AgF4qAAA]",
+    "icon": "https://render.guildwars2.com/file/DB3B6ECB7BEB239F995D049D172F14EA1CC6920A/665799.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1340
+      ]
+    }
+  },
+  {
+    "name": "Viper's Jerkin",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1339,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43129,
+    "chat_link": "[&AgF5qAAA]",
+    "icon": "https://render.guildwars2.com/file/0605FCFAE401DBF4F9F4D6FFB2109CC5C0EDE850/665800.png",
+    "details": {
+      "type": "Coat",
+      "weight_class": "Medium",
+      "defense": 34,
+      "infusion_slots": [],
+      "attribute_adjustment": 16.038,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 6
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Viper's Medium Jerkin Skin",
+    "description": "Double-click to apply this look to any other medium armor.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43130,
+    "chat_link": "[&AgF6qAAA]",
+    "icon": "https://render.guildwars2.com/file/0605FCFAE401DBF4F9F4D6FFB2109CC5C0EDE850/665800.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1339
+      ]
+    }
+  },
+  {
+    "name": "Viper's Medium Armguard Skin",
+    "description": "Double-click to apply this look to any other medium gloves.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43132,
+    "chat_link": "[&AgF8qAAA]",
+    "icon": "https://render.guildwars2.com/file/9ABA5B3BB409C078CF983CB8EF8038DC27EE3D0F/665801.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1341
+      ]
+    }
+  },
+  {
+    "name": "Viper's Monocle",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1342,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43133,
+    "chat_link": "[&AgF9qAAA]",
+    "icon": "https://render.guildwars2.com/file/3BF6F70FF22ADAE8D7C6BF25A235C95A737A1D64/665802.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Medium",
+      "defense": 10,
+      "infusion_slots": [],
+      "attribute_adjustment": 7.128,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 2
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Viper's Medium Monocle Skin",
+    "description": "Double-click to apply this look to any other medium helmet.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43134,
+    "chat_link": "[&AgF+qAAA]",
+    "icon": "https://render.guildwars2.com/file/3BF6F70FF22ADAE8D7C6BF25A235C95A737A1D64/665802.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1342
+      ]
+    }
+  },
+  {
+    "name": "Viper's Leggings",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1337,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43135,
+    "chat_link": "[&AgF/qAAA]",
+    "icon": "https://render.guildwars2.com/file/D8C771E46FAE6E5AE6AE06DA064A4E0541B12031/665803.png",
+    "details": {
+      "type": "Leggings",
+      "weight_class": "Medium",
+      "defense": 22,
+      "infusion_slots": [],
+      "attribute_adjustment": 10.692,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 4
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Viper's Medium Legging Skin",
+    "description": "Double-click to apply this look to any other medium leggings.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43136,
+    "chat_link": "[&AgGAqAAA]",
+    "icon": "https://render.guildwars2.com/file/D8C771E46FAE6E5AE6AE06DA064A4E0541B12031/665803.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1337
+      ]
+    }
+  },
+  {
+    "name": "Viper's Medium Shoulderpad Skin",
+    "description": "Double-click to apply this look to any other medium shoulders.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43138,
+    "chat_link": "[&AgGCqAAA]",
+    "icon": "https://render.guildwars2.com/file/4FEFF95B6975540659EE9D7DFF7D51DD5FE03B28/665804.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1338
+      ]
+    }
+  },
+  {
+    "name": "Phalanx Warboots",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "default_skin": 1113,
+    "game_types": [
+      "Pvp",
+      "PvpLobby"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43139,
+    "chat_link": "[&AgGDqAAA]",
+    "icon": "https://render.guildwars2.com/file/BE1709C327E15304957DF61E96A77643B95D7333/665787.png",
+    "details": {
+      "type": "Boots",
+      "weight_class": "Heavy",
+      "defense": 182,
+      "infusion_slots": [],
+      "attribute_adjustment": 128.04,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Phalanx Warplate",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "default_skin": 1101,
+    "game_types": [
+      "Pvp",
+      "PvpLobby"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43140,
+    "chat_link": "[&AgGEqAAA]",
+    "icon": "https://render.guildwars2.com/file/AFC9F972EC3C5AB6614972335736B74C272AE217/665788.png",
+    "details": {
+      "type": "Coat",
+      "weight_class": "Heavy",
+      "defense": 363,
+      "infusion_slots": [],
+      "attribute_adjustment": 384.12,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Phalanx Gauntlets",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "default_skin": 1157,
+    "game_types": [
+      "Pvp",
+      "PvpLobby"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43141,
+    "chat_link": "[&AgGFqAAA]",
+    "icon": "https://render.guildwars2.com/file/6BCF0C0540052ED691EE2608AB4D016038037360/665789.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Heavy",
+      "defense": 182,
+      "infusion_slots": [],
+      "attribute_adjustment": 128.04,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Phalanx Shoulders",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "default_skin": 1106,
+    "game_types": [
+      "Pvp",
+      "PvpLobby"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43144,
+    "chat_link": "[&AgGIqAAA]",
+    "icon": "https://render.guildwars2.com/file/649675BF0D30BE03350DB67DF10C5979A2E5FD5C/665792.png",
+    "details": {
+      "type": "Shoulders",
+      "weight_class": "Heavy",
+      "defense": 121,
+      "infusion_slots": [],
+      "attribute_adjustment": 128.04,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Trickster's Shoes",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "default_skin": 1334,
+    "game_types": [
+      "Pvp",
+      "PvpLobby"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43145,
+    "chat_link": "[&AgGJqAAA]",
+    "icon": "https://render.guildwars2.com/file/5E4EAB257FB32CAECE906F034665583A960529B3/665793.png",
+    "details": {
+      "type": "Boots",
+      "weight_class": "Light",
+      "defense": 133,
+      "infusion_slots": [],
+      "attribute_adjustment": 128.04,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Trickster's Vest",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "default_skin": 1333,
+    "game_types": [
+      "Pvp",
+      "PvpLobby"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43146,
+    "chat_link": "[&AgGKqAAA]",
+    "icon": "https://render.guildwars2.com/file/2A46475BFE0243ED4D416464D83B3DDF60E25A55/665794.png",
+    "details": {
+      "type": "Coat",
+      "weight_class": "Light",
+      "defense": 314,
+      "infusion_slots": [],
+      "attribute_adjustment": 384.12,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Trickster's Gloves",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "default_skin": 1335,
+    "game_types": [
+      "Pvp",
+      "PvpLobby"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43147,
+    "chat_link": "[&AgGLqAAA]",
+    "icon": "https://render.guildwars2.com/file/DAFA1DE36CE4DDC40FF4FBC40D43153607B37123/665795.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Light",
+      "defense": 133,
+      "infusion_slots": [],
+      "attribute_adjustment": 128.04,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Trickster's Mask",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "default_skin": 1336,
+    "game_types": [
+      "Pvp",
+      "PvpLobby"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43148,
+    "chat_link": "[&AgGMqAAA]",
+    "icon": "https://render.guildwars2.com/file/70A1581092F5049E0192BD267C47C6B8DD711B58/665796.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Light",
+      "defense": 73,
+      "infusion_slots": [],
+      "attribute_adjustment": 170.72,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Trickster's Leggings",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "default_skin": 1331,
+    "game_types": [
+      "Pvp",
+      "PvpLobby"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43149,
+    "chat_link": "[&AgGNqAAA]",
+    "icon": "https://render.guildwars2.com/file/E140417AB5EE0C577690E3107D143860440B767A/665797.png",
+    "details": {
+      "type": "Leggings",
+      "weight_class": "Light",
+      "defense": 194,
+      "infusion_slots": [],
+      "attribute_adjustment": 256.08,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Trickster's Mantle",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "default_skin": 1332,
+    "game_types": [
+      "Pvp",
+      "PvpLobby"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43150,
+    "chat_link": "[&AgGOqAAA]",
+    "icon": "https://render.guildwars2.com/file/D5F40A015A1E09EE1EABCA6F004E0A77B4700303/665798.png",
+    "details": {
+      "type": "Shoulders",
+      "weight_class": "Light",
+      "defense": 73,
+      "infusion_slots": [],
+      "attribute_adjustment": 128.04,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Braham's Heavy Armor Skin",
+    "description": "Contains a single-use armor skin for heavy helm, coat, legs, boots, shoulders and gloves.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43157,
+    "chat_link": "[&AgGVqAAA]",
+    "icon": "https://render.guildwars2.com/file/F346F56DCB0C0D48EA2955F808157F7F7A3D082E/607631.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Magitech Medium Armor Skin",
+    "description": "Contains a single-use armor skin for medium helm, coat, legs, boots, shoulders and gloves.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43158,
+    "chat_link": "[&AgGWqAAA]",
+    "icon": "https://render.guildwars2.com/file/385FE06436453DDC0E7499710EE871B990751D61/607632.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Phoenix Light Armor Skin",
+    "description": "Contains a single-use armor skin for light helm, coat, legs, boots, shoulders and gloves.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43159,
+    "chat_link": "[&AgGXqAAA]",
+    "icon": "https://render.guildwars2.com/file/373DE53305C7FF04067FD22EF23DC7594D3E0FE4/607633.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Braham's Warboots",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1092,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43160,
+    "chat_link": "[&AgGYqAAA]",
+    "icon": "https://render.guildwars2.com/file/7492E21A5E0819DA7204BA5C04A4030907C2F868/607634.png",
+    "details": {
+      "type": "Boots",
+      "weight_class": "Heavy",
+      "defense": 18,
+      "infusion_slots": [],
+      "attribute_adjustment": 5.346,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 2
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Braham's Warboot Skin",
+    "description": "Double-click to apply this look to any other heavy boots.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43161,
+    "chat_link": "[&AgGZqAAA]",
+    "icon": "https://render.guildwars2.com/file/7492E21A5E0819DA7204BA5C04A4030907C2F868/607634.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1092
+      ]
+    }
+  },
+  {
+    "name": "Braham's Chestplate",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1079,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43162,
+    "chat_link": "[&AgGaqAAA]",
+    "icon": "https://render.guildwars2.com/file/9B3979802AE3047DEAFB52056C71BA16F5DA206F/607635.png",
+    "details": {
+      "type": "Coat",
+      "weight_class": "Heavy",
+      "defense": 36,
+      "infusion_slots": [],
+      "attribute_adjustment": 16.038,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 6
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Braham's Chestplate Skin",
+    "description": "Double-click to apply this look to any other heavy armor.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43163,
+    "chat_link": "[&AgGbqAAA]",
+    "icon": "https://render.guildwars2.com/file/9B3979802AE3047DEAFB52056C71BA16F5DA206F/607635.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1079
+      ]
+    }
+  },
+  {
+    "name": "Braham's Gauntlets",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1151,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43164,
+    "chat_link": "[&AgGcqAAA]",
+    "icon": "https://render.guildwars2.com/file/7EEC03710F0419E6E1AED5B228783845A6B80E96/607636.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Heavy",
+      "defense": 18,
+      "infusion_slots": [],
+      "attribute_adjustment": 5.346,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 2
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Braham's Gauntlet Skin",
+    "description": "Double-click to apply this look to any other heavy gloves.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43165,
+    "chat_link": "[&AgGdqAAA]",
+    "icon": "https://render.guildwars2.com/file/7EEC03710F0419E6E1AED5B228783845A6B80E96/607636.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1151
+      ]
+    }
+  },
+  {
+    "name": "Braham's Warhelm Skin",
+    "description": "Double-click to apply this look to any other heavy helmet.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43167,
+    "chat_link": "[&AgGfqAAA]",
+    "icon": "https://render.guildwars2.com/file/0B06E10EED3C133328DDB5386EBE10F5EF71663B/607637.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1195
+      ]
+    }
+  },
+  {
+    "name": "Braham's Legplates",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1060,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43168,
+    "chat_link": "[&AgGgqAAA]",
+    "icon": "https://render.guildwars2.com/file/F1DA07972C07467700CAE03E0ED3143BA8503197/607638.png",
+    "details": {
+      "type": "Leggings",
+      "weight_class": "Heavy",
+      "defense": 24,
+      "infusion_slots": [],
+      "attribute_adjustment": 10.692,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 4
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Braham's Legplate Skin",
+    "description": "Double-click to apply this look to any other heavy leggings.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43169,
+    "chat_link": "[&AgGhqAAA]",
+    "icon": "https://render.guildwars2.com/file/F1DA07972C07467700CAE03E0ED3143BA8503197/607638.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1060
+      ]
+    }
+  },
+  {
+    "name": "Braham's Pauldrons",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1084,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43170,
+    "chat_link": "[&AgGiqAAA]",
+    "icon": "https://render.guildwars2.com/file/7E1D31EE3C964B0151E2EE23A2DA7E1360555707/607639.png",
+    "details": {
+      "type": "Shoulders",
+      "weight_class": "Heavy",
+      "defense": 12,
+      "infusion_slots": [],
+      "attribute_adjustment": 5.346,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 2
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Braham's Pauldron Skin",
+    "description": "Double-click to apply this look to any other heavy shoulders.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43171,
+    "chat_link": "[&AgGjqAAA]",
+    "icon": "https://render.guildwars2.com/file/7E1D31EE3C964B0151E2EE23A2DA7E1360555707/607639.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1084
+      ]
+    }
+  },
+  {
+    "name": "Phoenix Shoe Skin",
+    "description": "Double-click to apply this look to any other light boots.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43173,
+    "chat_link": "[&AgGlqAAA]",
+    "icon": "https://render.guildwars2.com/file/5EF163C36D3E5F072109709903D1F7A3294CBC66/607640.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1095
+      ]
+    }
+  },
+  {
+    "name": "Phoenix Vest",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1082,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43174,
+    "chat_link": "[&AgGmqAAA]",
+    "icon": "https://render.guildwars2.com/file/5D71C30E22CDE844B4FBD89AD9B97999D9E9476D/607641.png",
+    "details": {
+      "type": "Coat",
+      "weight_class": "Light",
+      "defense": 32,
+      "infusion_slots": [],
+      "attribute_adjustment": 16.038,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 6
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Phoenix Vest Skin",
+    "description": "Double-click to apply this look to any other light armor.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43175,
+    "chat_link": "[&AgGnqAAA]",
+    "icon": "https://render.guildwars2.com/file/5D71C30E22CDE844B4FBD89AD9B97999D9E9476D/607641.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1082
+      ]
+    }
+  },
+  {
+    "name": "Phoenix Glove Skin",
+    "description": "Double-click to apply this look to any other light gloves.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43177,
+    "chat_link": "[&AgGpqAAA]",
+    "icon": "https://render.guildwars2.com/file/CC90E2053F9EB5CF0B4A0741C0B3045F387309C8/607642.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1152
+      ]
+    }
+  },
+  {
+    "name": "Phoenix Mask Skin",
+    "description": "Double-click to apply this look to any other light helmet.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43179,
+    "chat_link": "[&AgGrqAAA]",
+    "icon": "https://render.guildwars2.com/file/659C5BC34BEF15D62105D10156BD01A3BBB01224/607643.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1196
+      ]
+    }
+  },
+  {
+    "name": "Phoenix Pants",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1062,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43180,
+    "chat_link": "[&AgGsqAAA]",
+    "icon": "https://render.guildwars2.com/file/05B5D70FF026A25901D6E668333933ADA92F03F3/607644.png",
+    "details": {
+      "type": "Leggings",
+      "weight_class": "Light",
+      "defense": 20,
+      "infusion_slots": [],
+      "attribute_adjustment": 10.692,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 4
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Phoenix Pant Skin",
+    "description": "Double-click to apply this look to any other light leggings.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43181,
+    "chat_link": "[&AgGtqAAA]",
+    "icon": "https://render.guildwars2.com/file/05B5D70FF026A25901D6E668333933ADA92F03F3/607644.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1062
+      ]
+    }
+  },
+  {
+    "name": "Phoenix Mantle Skin",
+    "description": "Double-click to apply this look to any other light shoulders.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43183,
+    "chat_link": "[&AgGvqAAA]",
+    "icon": "https://render.guildwars2.com/file/4DB740373B1A3EE606D13B37EB41F51EFB223ADC/607645.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1085
+      ]
+    }
+  },
+  {
+    "name": "Magitech Boot Skin",
+    "description": "Double-click to apply this look to any other medium boots.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43185,
+    "chat_link": "[&AgGxqAAA]",
+    "icon": "https://render.guildwars2.com/file/9F9CCE0B93E5BAEE152308F21063CCF4CB7577BA/607646.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1098
+      ]
+    }
+  },
+  {
+    "name": "Magitech Jerkin",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1087,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43186,
+    "chat_link": "[&AgGyqAAA]",
+    "icon": "https://render.guildwars2.com/file/50FFD704657397BEA0FA725B680D2513D631AC6A/607647.png",
+    "details": {
+      "type": "Coat",
+      "weight_class": "Medium",
+      "defense": 34,
+      "infusion_slots": [],
+      "attribute_adjustment": 16.038,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 6
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Magitech Jerkin Skin",
+    "description": "Double-click to apply this look to any other medium armor.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43187,
+    "chat_link": "[&AgGzqAAA]",
+    "icon": "https://render.guildwars2.com/file/50FFD704657397BEA0FA725B680D2513D631AC6A/607647.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1087
+      ]
+    }
+  },
+  {
+    "name": "Magitech Armguard Skin",
+    "description": "Double-click to apply this look to any other medium gloves.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43189,
+    "chat_link": "[&AgG1qAAA]",
+    "icon": "https://render.guildwars2.com/file/50DB7EAC06ADBF3734F5F741F1BF7CC1DF611EBF/607648.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1153
+      ]
+    }
+  },
+  {
+    "name": "Magitech Helmet",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1197,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43190,
+    "chat_link": "[&AgG2qAAA]",
+    "icon": "https://render.guildwars2.com/file/42369F19BB656B07F25FAA6BB504B8AF59066339/607649.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Medium",
+      "defense": 10,
+      "infusion_slots": [],
+      "attribute_adjustment": 7.128,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 2
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Magitech Helmet Skin",
+    "description": "Double-click to apply this look to any other medium helmet.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43191,
+    "chat_link": "[&AgG3qAAA]",
+    "icon": "https://render.guildwars2.com/file/42369F19BB656B07F25FAA6BB504B8AF59066339/607649.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1197
+      ]
+    }
+  },
+  {
+    "name": "Magitech Leggings",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1064,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 43192,
+    "chat_link": "[&AgG4qAAA]",
+    "icon": "https://render.guildwars2.com/file/E1F89BF101FEEB0D360D1E40A3CA0AB650DF0E7E/607650.png",
+    "details": {
+      "type": "Leggings",
+      "weight_class": "Medium",
+      "defense": 22,
+      "infusion_slots": [],
+      "attribute_adjustment": 10.692,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 4
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  }
+]

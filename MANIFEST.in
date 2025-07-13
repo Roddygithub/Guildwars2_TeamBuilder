@@ -1,0 +1,19 @@
+include LICENSE
+include README.md
+include requirements.txt
+include requirements-dev.txt
+include runtime.txt
+include .env.example
+
+# Inclure les fichiers statiques
+recursive-include static *
+
+# Inclure les fichiers de configuration
+global-include *.yaml *.yml
+
+# Inclure les templates et assets
+recursive-include app/templates *
+recursive-include app/static *
+
+# Inclure les fichiers de données
+global-include *.json *.csv

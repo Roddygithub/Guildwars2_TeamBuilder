@@ -1,14 +1,69 @@
 [build]
-  command = "pip install -r requirements.txt"
-  publish = "ui"
+  command = "pip install -r requirements.txt && cd ui && npm install && npm run build"
+  publish = "ui/dist"
   functions = "netlify/functions"
 
+[build.environment]
+  # Utilisation d'une version majeure de Python pour une meilleure compatibilité
+  PYTHON_VERSION = "3.10"
+  NODE_VERSION = "20"
+  NPM_VERSION = "10"
+  
+  # Python configuration
+  PIPENV_VERBOSITY = "1"
+  PIPENV_NOSPIN = "1"
+  
+  # App configuration
+  ENVIRONMENT = "production"
+  DEBUG = "false"
+  
+  # Frontend URL (update after deployment)
+  FRONTEND_URL = "https://votre-site.netlify.app"
+  
+  # Allowed origins (comma separated)
+  ALLOWED_ORIGINS = "https://votre-site.netlify.app,http://localhost:3000"
+  
+  # Database configuration (to be filled after Supabase setup)
+  # DATABASE_URL = "postgresql://postgres:PASSWORD@db.PROJECT_REF.supabase.co:5432/postgres"
+  
+  # Supabase configuration (optional)
+  # SUPABASE_URL = "https://PROJECT_REF.supabase.co"
+  # SUPABASE_ANON_KEY = "your_anon_key"
+  
+  # Secret key for sessions
+  SECRET_KEY = "kLi.6pLd*xyZmOqS2/p4@#Iyus=LBaIj/k?dIbJckH7sa1Rfo*"
+  
+  # Cache configuration (optional)
+  CACHE_TTL = "3600"
+
+[functions]
+  node_bundler = "esbuild"
+  external_node_modules = ["@fastify/static"]
+  included_files = ["app/**"]
+
+# SPA redirects
 [[redirects]]
   from = "/api/*"
   to = "/.netlify/functions/api/:splat"
   status = 200
+  force = true
 
+# Client-side routing for SPA
 [[redirects]]
   from = "/*"
-  to = "/.netlify/functions/api/:splat"
+  to = "/index.html"
   status = 200
+
+# API headers
+[[headers]]
+  for = "/api/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Access-Control-Allow-Methods = "GET, POST, PUT, DELETE, OPTIONS"
+    Access-Control-Allow-Headers = "Content-Type, Authorization"
+
+# Cache control for assets
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"

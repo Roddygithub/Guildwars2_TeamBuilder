@@ -1,0 +1,48 @@
+{
+  "id": 707,
+  "tier": 3,
+  "order": 0,
+  "name": "Maître épéiste",
+  "description": "Confère Fureur à vos alliés à proximité ainsi qu'à vous-même lorsque vous infligez un coup critique.",
+  "slot": "Minor",
+  "facts": [
+    {
+      "text": "Recharge",
+      "type": "Recharge",
+      "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+      "value": 8
+    },
+    {
+      "text": "Nombre de cibles",
+      "type": "Number",
+      "icon": "https://render.guildwars2.com/file/BBE8191A494B0352259C10EADFDACCE177E6DA5B/1770208.png",
+      "value": 5
+    },
+    {
+      "text": "Rayon",
+      "type": "Distance",
+      "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+      "distance": 360
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/96D90DF84CAFE008233DD1C2606A12C1A0E68048/102842.png",
+      "duration": 4,
+      "status": "Fureur",
+      "description": "Chances de coup critique augmentées ; durée cumulable.",
+      "apply_count": 1
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/96D90DF84CAFE008233DD1C2606A12C1A0E68048/102842.png",
+      "duration": 8,
+      "status": "Fureur",
+      "description": "Chances de coup critique augmentées ; durée cumulable.",
+      "apply_count": 1
+    }
+  ],
+  "specialization": 1,
+  "icon": "https://render.guildwars2.com/file/26D50548E5A73BECA0A794A80645E5399C4D0367/1012509.png"
+}

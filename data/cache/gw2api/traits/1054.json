@@ -1,0 +1,25 @@
+{
+  "id": 1054,
+  "tier": 2,
+  "order": 0,
+  "name": "Pureté d'esquive",
+  "description": "Vos esquives dissipent une altération vous affectant. Vous guérissez si vous dissipez ainsi une altération.",
+  "slot": "Major",
+  "facts": [
+    {
+      "text": "Altérations dissipées",
+      "type": "Number",
+      "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png",
+      "value": 1
+    },
+    {
+      "text": "Guérison",
+      "type": "AttributeAdjust",
+      "icon": "https://render.guildwars2.com/file/D4347C52157B040943051D7E09DEAD7AF63D4378/156662.png",
+      "value": 357,
+      "target": "Healing"
+    }
+  ],
+  "specialization": 25,
+  "icon": "https://render.guildwars2.com/file/C374B3F2C1BCFCB0B164FF0567FB6CC1B31B9651/1012633.png"
+}

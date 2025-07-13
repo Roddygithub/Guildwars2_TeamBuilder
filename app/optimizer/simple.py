@@ -25,7 +25,12 @@ from typing import List, Sequence, Tuple
 from sqlalchemy.orm import Session
 
 from app.database import SessionLocal
-from app.models import Profession
+# Import du modèle Profession depuis le module racine
+import sys
+from pathlib import Path
+# Ajout du répertoire parent au chemin de recherche Python
+sys.path.append(str(Path(__file__).parent.parent.parent))
+from app.models import Profession  # Import direct du modèle SQLAlchemy
 from app.scoring.engine import PlayerBuild, score_team
 from app.scoring.schema import ScoringConfig, TeamScoreResult
 
@@ -60,11 +65,68 @@ def _default_candidates(db: Session) -> List[PlayerBuild]:
         ...     assert len(builds) > 0
         ...     assert all(isinstance(build, PlayerBuild) for build in builds)
     """
-    builds: List[PlayerBuild] = []
-    for prof in db.query(Profession).all():
-        buffs, roles = _PROFESSION_METADATA.get(prof.name, (set(), {"dps"}))
-        builds.append(PlayerBuild(profession_id=prof.id, buffs=buffs, roles=roles))
-    return builds
+    import logging
+    logger = logging.getLogger(__name__)
+    
+    try:
+        logger.info("Début de la récupération des professions depuis la base de données...")
+        
+        # Vérifier si la table existe
+        from sqlalchemy import inspect
+        inspector = inspect(db.get_bind())
+        if 'professions' not in inspector.get_table_names():
+            logger.error("La table 'professions' n'existe pas dans la base de données.")
+            raise ValueError("La table 'professions' n'existe pas dans la base de données.")
+        
+        # Récupérer toutes les professions
+        professions = db.query(Profession).all()
+        logger.info(f"{len(professions)} professions récupérées depuis la base de données.")
+        
+        if not professions:
+            logger.warning("Aucune profession trouvée dans la base de données. Utilisation des valeurs par défaut.")
+            # Retourner des valeurs par défaut si la base est vide
+            return [
+                PlayerBuild(
+                    profession_id=prof_name.lower(),
+                    buffs=buffs,
+                    roles=roles,
+                    description=f"Build par défaut pour {prof_name}"
+                )
+                for prof_name, (buffs, roles) in _PROFESSION_METADATA.items()
+            ]
+        
+        # Créer les builds pour chaque profession
+        builds: List[PlayerBuild] = []
+        for prof in professions:
+            try:
+                buffs, roles = _PROFESSION_METADATA.get(prof.name, (set(), {"dps"}))
+                build = PlayerBuild(
+                    profession_id=prof.id,
+                    buffs=buffs,
+                    roles=roles,
+                    description=f"Build pour {prof.name}"
+                )
+                builds.append(build)
+                logger.debug(f"Build créé pour {prof.name} avec {len(buffs)} buffs et {len(roles)} rôles.")
+            except Exception as e:
+                logger.error(f"Erreur lors de la création du build pour {prof.name}: {str(e)}")
+                continue
+        
+        logger.info(f"{len(builds)} builds créés avec succès.")
+        return builds
+        
+    except Exception as e:
+        logger.error(f"Erreur critique dans _default_candidates: {str(e)}", exc_info=True)
+        # En cas d'échec, retourner des valeurs par défaut
+        return [
+            PlayerBuild(
+                profession_id=prof_name.lower(),
+                buffs=buffs,
+                roles=roles,
+                description=f"Build par défaut pour {prof_name} (fallback)"
+            )
+            for prof_name, (buffs, roles) in _PROFESSION_METADATA.items()
+        ]
 
 
 def optimize_team(

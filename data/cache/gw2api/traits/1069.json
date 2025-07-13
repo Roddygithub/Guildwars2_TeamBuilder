@@ -1,0 +1,27 @@
+{
+  "id": 1069,
+  "tier": 1,
+  "order": 0,
+  "name": "Bords aiguisés",
+  "description": "Vous et votre familier avez une chance d'infliger Saignement lors d'un coup critique.",
+  "slot": "Major",
+  "facts": [
+    {
+      "text": "Chance lors d'un coup critique",
+      "type": "Percent",
+      "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png",
+      "percent": 33
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/79FF0046A5F9ADA3B4C4EC19ADB4CB124D5F0021/102848.png",
+      "duration": 3,
+      "status": "Saignement",
+      "description": "Inflige des dégâts à chaque seconde. Intensité cumulable.",
+      "apply_count": 1
+    }
+  ],
+  "specialization": 30,
+  "icon": "https://render.guildwars2.com/file/C83DA0F5287448140599AC20E02756149234D05B/1012642.png"
+}

@@ -1,0 +1,50 @@
+{
+  "id": 578,
+  "tier": 2,
+  "order": 0,
+  "name": "Courroux justicier",
+  "description": "Frapper un ennemi avec l'effet de dégâts de votre 1re compétence de vertu lance Signe du courroux mineur.",
+  "slot": "Major",
+  "skills": [
+    {
+      "name": "Signe du courroux mineur",
+      "facts": [
+        {
+          "text": "Range",
+          "type": "Range",
+          "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+          "value": 1200
+        },
+        {
+          "text": "Recharge",
+          "type": "Recharge",
+          "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+          "value": 25
+        },
+        {
+          "text": "Dégât",
+          "type": "Damage",
+          "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+          "hit_count": 1,
+          "dmg_multiplier": 0.25
+        },
+        {
+          "text": "Apply Buff/Condition",
+          "type": "Buff",
+          "icon": "https://render.guildwars2.com/file/397A613651BFCA2832B6469CE34735580A2C120E/102844.png",
+          "duration": 3,
+          "status": "Immobile",
+          "description": "Incapable de bouger. La durée est cumulable.",
+          "apply_count": 1
+        }
+      ],
+      "description": "Signe. Immobilise votre cible.",
+      "icon": "https://render.guildwars2.com/file/7F660CD006085D42B5A9F16A281D0E15434A2304/103643.png",
+      "flags": [],
+      "id": 30255,
+      "chat_link": "[&Bi92AAA=]"
+    }
+  ],
+  "specialization": 16,
+  "icon": "https://render.guildwars2.com/file/CD1F3745DD010649D5F53553B695021580221DC0/1012417.png"
+}

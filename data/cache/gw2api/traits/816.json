@@ -1,0 +1,108 @@
+{
+  "id": 816,
+  "tier": 2,
+  "order": 0,
+  "name": "Maîtrise de la corruption",
+  "description": "Les compétences de corruption se rechargent plus vite et vous infligent des altérations supplémentaires.",
+  "slot": "Major",
+  "facts": [
+    {
+      "text": "Réduction du temps de recharge",
+      "type": "Percent",
+      "icon": "https://render.guildwars2.com/file/AAB7C5387A08367C2F023F19FEE70E1556AD4375/1770202.png",
+      "percent": 33
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "PrefixedBuff",
+      "icon": "https://render.guildwars2.com/file/3A394C1A0A3257EB27A44842DDEEF0DF000E1241/102850.png",
+      "duration": 4,
+      "status": "Vulnérabilité",
+      "description": "Les dégâts et Dégâts par altération sont augmentés. Intensité cumulable.",
+      "apply_count": 5,
+      "prefix": {
+        "text": "Apply Buff/Condition",
+        "icon": "https://render.guildwars2.com/file/2E59B8AD34566FB37594A703180D1F1744012B20/103806.png",
+        "status": "Absorption d'altération",
+        "description": "<c=@abilitytype>Corruption.</c> Vous absorbez vos altérations et obtenez de la santé pour chacune d'entre elles que vous consommez. Vous êtes victime de Vulnérabilité."
+      }
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "PrefixedBuff",
+      "icon": "https://render.guildwars2.com/file/10BABF2708CA3575730AC662A2E72EC292565B08/598887.png",
+      "duration": 10,
+      "status": "Tourment",
+      "description": "Inflige des dégâts à chaque seconde. Inflige des dégâts supplémentaires aux ennemis qui ne bougent pas. L'intensité est cumulable.",
+      "apply_count": 2,
+      "prefix": {
+        "text": "Apply Buff/Condition",
+        "icon": "https://render.guildwars2.com/file/F26312E5CBFE5CA12261B66E194F21A5D205F314/103795.png",
+        "status": "Le sang c'est la puissance",
+        "description": "<c=@abilitytype>Corruption.</c> Vous vous infligez Saignement pour conférer Pouvoir aux alliés proches et infliger Saignement à votre cible."
+      }
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "PrefixedBuff",
+      "icon": "https://render.guildwars2.com/file/070325E519C178D502A8160523766070D30C0C19/102838.png",
+      "duration": 2,
+      "status": "Infirmité",
+      "description": "Vitesse de déplacement réduite de 50%. La durée est cumulable.",
+      "apply_count": 1,
+      "prefix": {
+        "text": "Apply Buff/Condition",
+        "icon": "https://render.guildwars2.com/file/2B32FAFBD66F35AB51C3D97E910912AB74DD57A0/102897.png",
+        "status": "Nuage de poison corrosif",
+        "description": "<c=@abilitytype>Corruption.</c> Vous vous infligez Faiblesse et invoquez un nuage empoisonné qui recouvre la zone ciblée. Le nuage bloque les projectiles ennemis, et les ennemis à l'intérieur sont victimes d'Empoisonnement et Faiblesse."
+      }
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "PrefixedBuff",
+      "icon": "https://render.guildwars2.com/file/79FF0046A5F9ADA3B4C4EC19ADB4CB124D5F0021/102848.png",
+      "duration": 10,
+      "status": "Saignement",
+      "description": "Inflige des dégâts à chaque seconde. Intensité cumulable.",
+      "apply_count": 2,
+      "prefix": {
+        "text": "Apply Buff/Condition",
+        "icon": "https://render.guildwars2.com/file/36B89D5D0306D87CDF56FC12545ACAFCC1A969D4/103822.png",
+        "status": "Corruption d'avantage",
+        "description": "<c=@abilitytype>Corruption.</c> Vous vous infligez Empoisonnement. Transforme les avantages dont bénéficie votre ennemi en altérations négatives."
+      }
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "PrefixedBuff",
+      "icon": "https://render.guildwars2.com/file/6CB0E64AF9AA292E332A38C1770CE577E2CDE0E8/102853.png",
+      "duration": 6,
+      "status": "Faiblesse",
+      "description": "Régénération d'endurance réduite de 50%. 50% des coups sont des effleurements (50% des dégâts). Durée cumulable.",
+      "apply_count": 1,
+      "prefix": {
+        "text": "Apply Buff/Condition",
+        "icon": "https://render.guildwars2.com/file/5A9A3CED4C0C6313370E006B55500477AB1FE710/103139.png",
+        "status": "Épidémie",
+        "description": "<c=@abilitytype>Corruption.</c> Vous vous infligez Vulnérabilité. Vous propagez les altérations de l'ennemi ciblé à tous les ennemis à proximité pour une durée réduite.\n<c=@reminder>McM uniquement : n'affecte pas les structures ou les cibles bénéficiant de Résistance.</c>"
+      }
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "PrefixedBuff",
+      "icon": "https://render.guildwars2.com/file/559B0AF9FB5E1243D2649FAAE660CCB338AACC19/102840.png",
+      "duration": 4,
+      "status": "Empoisonné",
+      "description": "Inflige des dégâts à chaque seconde et réduit l'efficacité de guérison de 33%. Intensité cumulable.",
+      "apply_count": 1,
+      "prefix": {
+        "text": "Apply Buff/Condition",
+        "icon": "https://render.guildwars2.com/file/97EC4B6E302F5D79639CA519D25F9A5C2A2DDEC1/103312.png",
+        "status": "Terres pestilentes",
+        "description": "<c=@abilitytype>Corruption.</c> Vous créez un nuage toxique, qui inflige des altérations aux ennemis dans sa zone. Cette calamité inflige des altérations supplémentaires à chaque seconde tant qu'elle persiste. Vous vous infligez Saignement."
+      }
+    }
+  ],
+  "specialization": 39,
+  "icon": "https://render.guildwars2.com/file/B63DE52ADE559806E0D5BC201F2CDF5F66585F19/1012549.png"
+}

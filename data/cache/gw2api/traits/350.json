@@ -1,0 +1,45 @@
+{
+  "id": 350,
+  "tier": 1,
+  "order": 0,
+  "name": "Brouillard apaisant",
+  "description": "Vous et vos alliés à proximité récupérez de la santé quand vous êtes en affinité avec l'eau.",
+  "slot": "Minor",
+  "facts": [
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/09D12A6041622A94409F276CEEEB2C17AF35A8ED/1012327.png",
+      "duration": 10,
+      "status": "Brouillard apaisant",
+      "description": "Régénération de santé.",
+      "apply_count": 1
+    },
+    {
+      "text": "Intervalle",
+      "type": "Time",
+      "icon": "https://render.guildwars2.com/file/B75E91EB22E0DFCC1D08030204055946506D56F6/1770206.png",
+      "duration": 3
+    },
+    {
+      "text": "Nombre de cibles",
+      "type": "Number",
+      "icon": "https://render.guildwars2.com/file/BBE8191A494B0352259C10EADFDACCE177E6DA5B/1770208.png",
+      "value": 5
+    },
+    {
+      "text": "Rayon",
+      "type": "Distance",
+      "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+      "distance": 600
+    },
+    {
+      "text": "Rayon",
+      "type": "Distance",
+      "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+      "distance": 600
+    }
+  ],
+  "specialization": 17,
+  "icon": "https://render.guildwars2.com/file/09D12A6041622A94409F276CEEEB2C17AF35A8ED/1012327.png"
+}

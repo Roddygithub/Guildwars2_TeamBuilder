@@ -1,0 +1,27 @@
+{
+  "id": 515,
+  "tier": 1,
+  "order": 0,
+  "name": "Tireur d'élite",
+  "description": "Les coups critiques ont une chance d'infliger Saignement.",
+  "slot": "Minor",
+  "facts": [
+    {
+      "text": "Chance lors d'un coup critique",
+      "type": "Percent",
+      "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png",
+      "percent": 33
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/79FF0046A5F9ADA3B4C4EC19ADB4CB124D5F0021/102848.png",
+      "duration": 3,
+      "status": "Saignement",
+      "description": "Inflige des dégâts à chaque seconde. Intensité cumulable.",
+      "apply_count": 1
+    }
+  ],
+  "specialization": 38,
+  "icon": "https://render.guildwars2.com/file/4157A498F471AE4569F148A6A438C1444B1C7AE9/1012363.png"
+}

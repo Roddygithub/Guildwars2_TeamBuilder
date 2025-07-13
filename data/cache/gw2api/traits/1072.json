@@ -1,0 +1,27 @@
+{
+  "id": 1072,
+  "tier": 1,
+  "order": 1,
+  "name": "Allié puissant",
+  "description": "Votre familier et vous vous conférez Pouvoir mutuellement en infligeant un coup critique à un ennemi.",
+  "slot": "Major",
+  "facts": [
+    {
+      "text": "Recharge",
+      "type": "Recharge",
+      "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+      "value": 1
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/2FA9DF9D6BC17839BBEA14723F1C53D645DDB5E1/102852.png",
+      "duration": 6,
+      "status": "Pouvoir",
+      "description": "Les dégâts infligés sont augmentés. Intensité cumulable.",
+      "apply_count": 1
+    }
+  ],
+  "specialization": 32,
+  "icon": "https://render.guildwars2.com/file/B90D71093775FE4C2263B5C42F175FEA6C7925FE/1012606.png"
+}

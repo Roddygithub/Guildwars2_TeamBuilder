@@ -1,0 +1,27 @@
+{
+  "id": 509,
+  "tier": 1,
+  "order": 1,
+  "name": "Injection de Protection",
+  "description": "Vous obtenez Protection lorsque vous êtes neutralisé.<br><c=@reminder>Les altérations neutralisantes sont entre autres : Étourdissement, Stupeur, Repoussement, Attraction, Renversement, Noyade, Flottaison, Projection, Incitation ou Peur.</c>",
+  "slot": "Major",
+  "facts": [
+    {
+      "text": "Recharge",
+      "type": "Recharge",
+      "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+      "value": 10
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/CD77D1FAB7B270223538A8F8ECDA1CFB044D65F4/102834.png",
+      "duration": 3,
+      "status": "Protection",
+      "description": "Dégâts de frappe subis réduits de 33%. La durée est cumulable.",
+      "apply_count": 1
+    }
+  ],
+  "specialization": 29,
+  "icon": "https://render.guildwars2.com/file/B6B62423EB4608C40DA2E54E32129163062BEAF1/1012331.png"
+}

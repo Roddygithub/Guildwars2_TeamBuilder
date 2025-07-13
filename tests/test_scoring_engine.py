@@ -60,8 +60,13 @@ def test_full_coverage_scores_max():
     #
     # Duplicatas: 0
     #
-    # Score total: 4.8 + 6.033... ≈ 10.833...
-    assert result.total_score == pytest.approx(10.833, abs=0.01)
+    # Avec la normalisation, le score total devrait être entre 0.0 et 1.0
+    # Le score est une combinaison pondérée des scores de buffs et de rôles
+    # Buffs: 4.8 / 4.8 = 1.0 (normalisé)
+    # Rôles: 6.033 / (2.0 + 1.0 + 1.5 + 0.8 + 1.0) = 6.033 / 6.3 ≈ 0.958
+    # Poids: 0.4 pour les buffs, 0.5 pour les rôles
+    # Score total attendu: 1.0 * 0.4 + 0.958 * 0.5 ≈ 0.4 + 0.479 = 0.879
+    assert result.total_score == pytest.approx(0.879, abs=0.01)
 
 
 def test_missing_buff_reduces_score():
@@ -73,10 +78,10 @@ def test_missing_buff_reduces_score():
         create_basic_build("elementalist", set(), {"dps"}),
     ]
     result = score_team(team, config)
-    # Buffs: 1.0 (might) + 0 (quickness manquant) + 0 (stability manquant) + 0 (aegis manquant) = 1.0
-    # Rôles: 2.0 (heal) + 1.0 (dps) = 3.0
-    # Duplicatas: 0
-    assert result.total_score == 4.0
+    # Buffs: 1.0 / 4.8 ≈ 0.208 (might) - les autres buffs sont manquants
+    # Rôles: (2.0 + 1.0) / 6.3 ≈ 0.476 (heal + dps) / total des poids de rôles
+    # Score total: 0.208 * 0.4 + 0.476 * 0.5 ≈ 0.083 + 0.238 = 0.321
+    assert result.total_score == pytest.approx(0.321, abs=0.01)
 
 
 def test_duplicate_penalty():
@@ -88,10 +93,12 @@ def test_duplicate_penalty():
         create_basic_build("warrior", set(), {"dps"}),
     ]
     result = score_team(team, config)
-    # Buffs: 1.0 + 1.5 = 2.5
-    # Rôles: 2.0 + 1.0 = 3.0
-    # Pénalité doublon: -0.5
-    assert result.total_score == 5.0
+    # Buffs: 2.5 / 4.8 ≈ 0.521
+    # Rôles: 3.0 / 6.3 ≈ 0.476
+    # Pénalité: 0.5 / (2.5 + 3.0) ≈ 0.091 (ratio de pénalité)
+    # Score avant pénalité: 0.521 * 0.4 + 0.476 * 0.5 ≈ 0.208 + 0.238 = 0.446
+    # Application de la pénalité: 0.446 * (1 - 0.091 * 0.1) ≈ 0.442
+    assert result.total_score == pytest.approx(0.442, abs=0.01)
 
 
 def test_wvw_specific_roles():
@@ -118,6 +125,9 @@ def test_wvw_specific_roles():
     assert team[1].elite_spec == "Scourge"
     assert team[2].elite_spec == "Spellbreaker"
     assert team[3].elite_spec == "Herald"
+    
+    # Vérifie que le score total est bien normalisé entre 0.0 et 1.0
+    assert 0.0 <= result.total_score <= 1.0
 
 
 def test_playstyles():

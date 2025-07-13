@@ -1,0 +1,51 @@
+{
+  "id": 394,
+  "tier": 1,
+  "order": 0,
+  "name": "Bouclier couvrant",
+  "description": "Les compétences de bouclier confèrent Protection aux alliés à proximité. La Protection dont vous bénéficiez augmente la réduction des dégâts.",
+  "slot": "Major",
+  "facts": [
+    {
+      "text": "Protection améliorée",
+      "type": "Percent",
+      "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+      "percent": 20
+    }
+  ],
+  "skills": [
+    {
+      "name": "Protection d'allié",
+      "facts": [
+        {
+          "text": "Apply Buff/Condition",
+          "type": "Buff",
+          "icon": "https://render.guildwars2.com/file/CD77D1FAB7B270223538A8F8ECDA1CFB044D65F4/102834.png",
+          "duration": 3,
+          "status": "Protection",
+          "description": "Dégâts de frappe subis réduits de 33%. La durée est cumulable.",
+          "apply_count": 1
+        },
+        {
+          "text": "Rayon",
+          "type": "Distance",
+          "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+          "distance": 360
+        },
+        {
+          "text": "Nombre de cibles alliées",
+          "type": "Number",
+          "icon": "https://render.guildwars2.com/file/BBE8191A494B0352259C10EADFDACCE177E6DA5B/1770208.png",
+          "value": 5
+        }
+      ],
+      "description": "Confère Protection aux alliés à proximité.",
+      "icon": "https://render.guildwars2.com/file/F90CB6E3E23B6ECB761C062D92507799694CF4D2/1012366.png",
+      "flags": [],
+      "id": 13516,
+      "chat_link": "[&Bsw0AAA=]"
+    }
+  ],
+  "specialization": 47,
+  "icon": "https://render.guildwars2.com/file/F90CB6E3E23B6ECB761C062D92507799694CF4D2/1012366.png"
+}

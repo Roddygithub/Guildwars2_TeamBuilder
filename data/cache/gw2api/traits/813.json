@@ -1,0 +1,88 @@
+{
+  "id": 813,
+  "tier": 3,
+  "order": 0,
+  "name": "Linceul affaiblissant",
+  "description": "Vous lancez Intoxication mineure lorsque vous utilisez le linceul. Vos coups critiques infligent Faiblesse.",
+  "slot": "Major",
+  "facts": [
+    {
+      "text": "Recharge",
+      "type": "Recharge",
+      "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+      "value": 10
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/6CB0E64AF9AA292E332A38C1770CE577E2CDE0E8/102853.png",
+      "duration": 5,
+      "status": "Faiblesse",
+      "description": "Régénération d'endurance réduite de 50%. 50% des coups sont des effleurements (50% des dégâts). Durée cumulable.",
+      "apply_count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Intoxication inférieure",
+      "facts": [
+        {
+          "text": "Dégât",
+          "type": "Damage",
+          "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+          "hit_count": 1,
+          "dmg_multiplier": 1.5
+        },
+        {
+          "text": "Dégât",
+          "type": "Damage",
+          "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+          "hit_count": 1,
+          "dmg_multiplier": 0.5
+        },
+        {
+          "text": "Apply Buff/Condition",
+          "type": "Buff",
+          "icon": "https://render.guildwars2.com/file/79FF0046A5F9ADA3B4C4EC19ADB4CB124D5F0021/102848.png",
+          "duration": 10,
+          "status": "Saignement",
+          "description": "Inflige des dégâts à chaque seconde. Intensité cumulable.",
+          "apply_count": 2
+        },
+        {
+          "text": "Apply Buff/Condition",
+          "type": "Buff",
+          "icon": "https://render.guildwars2.com/file/6CB0E64AF9AA292E332A38C1770CE577E2CDE0E8/102853.png",
+          "duration": 6,
+          "status": "Faiblesse",
+          "description": "Régénération d'endurance réduite de 50%. 50% des coups sont des effleurements (50% des dégâts). Durée cumulable.",
+          "apply_count": 1
+        },
+        {
+          "text": "Nombre de cibles",
+          "type": "Number",
+          "icon": "https://render.guildwars2.com/file/BBE8191A494B0352259C10EADFDACCE177E6DA5B/1770208.png",
+          "value": 5
+        },
+        {
+          "text": "Rayon",
+          "type": "Distance",
+          "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+          "distance": 240
+        },
+        {
+          "text": "Ne peut pas infliger de coups critiques.",
+          "type": "NoData",
+          "icon": "https://render.guildwars2.com/file/63015872E20761F5E76F803A90666FBE4E262BC9/536051.png"
+        }
+      ],
+      "description": "Inflige Faiblesse et Saignement aux ennemis à proximité.",
+      "icon": "https://render.guildwars2.com/file/3566470D2DCB5A01CE4E1D2EF09503B07108B9BD/103010.png",
+      "flags": [],
+      "id": 13907,
+      "chat_link": "[&BlM2AAA=]"
+    }
+  ],
+  "specialization": 39,
+  "icon": "https://render.guildwars2.com/file/A0F1F39CA0A102D63CBBC95CAB7FEB0B99AE9ED6/1012552.png"
+}

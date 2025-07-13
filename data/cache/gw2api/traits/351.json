@@ -1,0 +1,38 @@
+{
+  "id": 351,
+  "tier": 2,
+  "order": 0,
+  "name": "Ondulation curative",
+  "description": "Vous soignez les alliés proches lorsque vous entrez en affinité avec l'eau.<c=@reminder>Cet effet ne s'active pas si vous entrez en affinité avec le même élément, mais il est déclenché par les compétences de surtension.</c>",
+  "slot": "Minor",
+  "facts": [
+    {
+      "text": "Guérison",
+      "type": "AttributeAdjust",
+      "icon": "https://render.guildwars2.com/file/D4347C52157B040943051D7E09DEAD7AF63D4378/156662.png",
+      "value": 1042,
+      "target": "Healing"
+    },
+    {
+      "text": "Guérison",
+      "type": "AttributeAdjust",
+      "icon": "https://render.guildwars2.com/file/D4347C52157B040943051D7E09DEAD7AF63D4378/156662.png",
+      "value": 1302,
+      "target": "Healing"
+    },
+    {
+      "text": "Nombre de cibles",
+      "type": "Number",
+      "icon": "https://render.guildwars2.com/file/BBE8191A494B0352259C10EADFDACCE177E6DA5B/1770208.png",
+      "value": 5
+    },
+    {
+      "text": "Rayon",
+      "type": "Distance",
+      "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+      "distance": 240
+    }
+  ],
+  "specialization": 17,
+  "icon": "https://render.guildwars2.com/file/0FB92AC29456276B2FC6E25EFB91DECD93C6694B/1012328.png"
+}

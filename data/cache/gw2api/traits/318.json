@@ -1,0 +1,72 @@
+{
+  "id": 318,
+  "tier": 2,
+  "order": 0,
+  "name": "Tache solaire",
+  "description": "Vous obtenez une aura de feu et infligez des dégâts aux ennemis proches quand vous entrez en affinité avec le feu.<br><c=@reminder>Se déclenche également avec les compétences de surtension.</c>",
+  "slot": "Minor",
+  "facts": [
+    {
+      "text": "Uniquement en combat",
+      "type": "NoData",
+      "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Tache solaire",
+      "facts": [
+        {
+          "text": "Dégât",
+          "type": "Damage",
+          "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+          "hit_count": 1,
+          "dmg_multiplier": 0.6
+        },
+        {
+          "text": "Nombre de cibles",
+          "type": "Number",
+          "icon": "https://render.guildwars2.com/file/BBE8191A494B0352259C10EADFDACCE177E6DA5B/1770208.png",
+          "value": 5
+        },
+        {
+          "text": "Rayon",
+          "type": "Distance",
+          "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+          "distance": 180
+        },
+        {
+          "text": "Apply Buff/Condition",
+          "type": "Buff",
+          "icon": "https://render.guildwars2.com/file/2E7050E44690AFE0A396FA0DAD526699392743F3/2261521.png",
+          "duration": 3,
+          "status": "Aura de feu",
+          "description": "Un bouclier ardent vous enveloppe et inflige Brûlure aux ennemis. Il gagne en puissance à chaque fois que vous êtes touché (1 seconde de temps de recharge par attaquant).",
+          "apply_count": 1
+        },
+        {
+          "text": "Ne peut pas infliger de coups critiques.",
+          "type": "NoData",
+          "icon": "https://render.guildwars2.com/file/63015872E20761F5E76F803A90666FBE4E262BC9/536051.png"
+        }
+      ],
+      "description": "Vous obtenez une aura de feu et infligez des dégâts aux ennemis proches.",
+      "icon": "https://render.guildwars2.com/file/1405047ED70DE30F80B1F6304A787B215BB50878/1012316.png",
+      "flags": [],
+      "id": 56883,
+      "chat_link": "[&BjPeAAA=]",
+      "traited_facts": [
+        {
+          "text": "Rayon",
+          "type": "Distance",
+          "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+          "distance": 240,
+          "requires_trait": 325,
+          "overrides": 2
+        }
+      ]
+    }
+  ],
+  "specialization": 31,
+  "icon": "https://render.guildwars2.com/file/1405047ED70DE30F80B1F6304A787B215BB50878/1012316.png"
+}

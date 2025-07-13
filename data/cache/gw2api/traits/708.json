@@ -1,0 +1,33 @@
+{
+  "id": 708,
+  "tier": 2,
+  "order": 2,
+  "name": "Finesse de l'épéiste",
+  "description": "Vous bénéficiez de charges de Férocité cumulables quand l'une de vos illusions ou vous-même frappez avec une épée à une main ou une lance aquatique. Les compétences d'épée et de lance aquatique se rechargent plus vite.",
+  "slot": "Major",
+  "facts": [
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/4DEE67F2B54D37C8ACEC0F235C94D0C140A77E0F/1012503.png",
+      "duration": 6,
+      "status": "Finesse de l'épéiste",
+      "description": "La Férocité est augmentée par charge.",
+      "apply_count": 1
+    },
+    {
+      "text": "Réduction du temps de recharge",
+      "type": "Percent",
+      "icon": "https://render.guildwars2.com/file/AAB7C5387A08367C2F023F19FEE70E1556AD4375/1770202.png",
+      "percent": 20
+    },
+    {
+      "text": "Nombre de charges maximum",
+      "type": "Number",
+      "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png",
+      "value": 10
+    }
+  ],
+  "specialization": 1,
+  "icon": "https://render.guildwars2.com/file/4DEE67F2B54D37C8ACEC0F235C94D0C140A77E0F/1012503.png"
+}

@@ -1,0 +1,74 @@
+{
+  "id": 1279,
+  "tier": 1,
+  "order": 0,
+  "name": "Toucher du serpent",
+  "description": "Larcin inflige Empoisonnement à votre cible. À terre, vos attaques infligent Empoisonnement.",
+  "slot": "Minor",
+  "facts": [
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/559B0AF9FB5E1243D2649FAAE660CCB338AACC19/102840.png",
+      "duration": 10,
+      "status": "Empoisonné",
+      "description": "Inflige des dégâts à chaque seconde et réduit l'efficacité de guérison de 33%. Intensité cumulable.",
+      "apply_count": 2
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/559B0AF9FB5E1243D2649FAAE660CCB338AACC19/102840.png",
+      "duration": 10,
+      "status": "Empoisonné",
+      "description": "Inflige des dégâts à chaque seconde et réduit l'efficacité de guérison de 33%. Intensité cumulable.",
+      "apply_count": 1
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/559B0AF9FB5E1243D2649FAAE660CCB338AACC19/102840.png",
+      "duration": 2,
+      "status": "Empoisonné",
+      "description": "Inflige des dégâts à chaque seconde et réduit l'efficacité de guérison de 33%. Intensité cumulable.",
+      "apply_count": 1
+    }
+  ],
+  "traited_facts": [
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/559B0AF9FB5E1243D2649FAAE660CCB338AACC19/102840.png",
+      "duration": 10,
+      "status": "Empoisonné",
+      "description": "Inflige des dégâts à chaque seconde et réduit l'efficacité de guérison de 33%. Intensité cumulable.",
+      "apply_count": 3,
+      "requires_trait": 1291,
+      "overrides": 0
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/559B0AF9FB5E1243D2649FAAE660CCB338AACC19/102840.png",
+      "duration": 10,
+      "status": "Empoisonné",
+      "description": "Inflige des dégâts à chaque seconde et réduit l'efficacité de guérison de 33%. Intensité cumulable.",
+      "apply_count": 2,
+      "requires_trait": 1291,
+      "overrides": 1
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/559B0AF9FB5E1243D2649FAAE660CCB338AACC19/102840.png",
+      "duration": 2,
+      "status": "Empoisonné",
+      "description": "Inflige des dégâts à chaque seconde et réduit l'efficacité de guérison de 33%. Intensité cumulable.",
+      "apply_count": 2,
+      "requires_trait": 1291,
+      "overrides": 2
+    }
+  ],
+  "specialization": 28,
+  "icon": "https://render.guildwars2.com/file/0FEE00DFE899386F321C0F719EC70FED03AB03E7/1012747.png"
+}

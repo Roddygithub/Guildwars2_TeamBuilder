@@ -1,0 +1,26 @@
+{
+  "id": 810,
+  "tier": 3,
+  "order": 0,
+  "name": "Viser les faibles",
+  "description": "Augmente les chances de coups critiques pour chaque altération subie par les ennemis. Vous obtenez des dégâts par altération en fonction de votre Précision.",
+  "slot": "Minor",
+  "facts": [
+    {
+      "text": "Augmentation de chance de coup critique",
+      "type": "Percent",
+      "icon": "https://render.guildwars2.com/file/C2CEA567E0C43C199C782809544721AA12A6DF0A/2229323.png",
+      "percent": 2
+    },
+    {
+      "text": "Conversion de caractéristiques",
+      "type": "BuffConversion",
+      "icon": "https://render.guildwars2.com/file/0120CB042BFC2EA6A45BC3DB45155FECDDDE1910/2229318.png",
+      "percent": 13,
+      "source": "Precision",
+      "target": "ConditionDamage"
+    }
+  ],
+  "specialization": 39,
+  "icon": "https://render.guildwars2.com/file/1BA35717D3954A08444578250CB32717E0F92B69/1012557.png"
+}

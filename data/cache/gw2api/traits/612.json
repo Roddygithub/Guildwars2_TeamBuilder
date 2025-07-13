@@ -1,0 +1,44 @@
+{
+  "id": 612,
+  "tier": 3,
+  "order": 2,
+  "name": "Courage inébranlable",
+  "description": "L'effet actif de votre 3e compétence de vertu dissipe Étourdissement et confère Stabilité aux alliés à proximité. Son effet passif bénéficie d'un intervalle plus court.",
+  "slot": "Major",
+  "facts": [
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/3D3A1C2D6D791C05179AB871902D28782C65C244/415959.png",
+      "duration": 4,
+      "status": "Stabilité",
+      "description": "Immunisé contre les altérations Renversement, Repoussement, Attraction, Projection, Étourdissement, Stupeur, Flottaison, Noyade, Peur ou Incitation.",
+      "apply_count": 3
+    },
+    {
+      "text": "Dissipe Étourdissement",
+      "type": "NoData",
+      "icon": "https://render.guildwars2.com/file/DCF0719729165FD8910E034CA4E0780F90582D15/156654.png"
+    },
+    {
+      "text": "Nombre de cibles",
+      "type": "Number",
+      "icon": "https://render.guildwars2.com/file/BBE8191A494B0352259C10EADFDACCE177E6DA5B/1770208.png",
+      "value": 5
+    },
+    {
+      "text": "Intervalle",
+      "type": "Time",
+      "icon": "https://render.guildwars2.com/file/B75E91EB22E0DFCC1D08030204055946506D56F6/1770206.png",
+      "duration": 30
+    },
+    {
+      "text": "Rayon",
+      "type": "Distance",
+      "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+      "distance": 600
+    }
+  ],
+  "specialization": 46,
+  "icon": "https://render.guildwars2.com/file/2602F16A45D30AECA8D3F11AB1A1FEDADBFD1120/1012446.png"
+}

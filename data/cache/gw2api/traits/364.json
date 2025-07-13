@@ -1,0 +1,111 @@
+{
+  "id": 364,
+  "tier": 2,
+  "order": 0,
+  "name": "Perturbation apaisante",
+  "description": "Les <c=@abilitytype>sortilèges</c> confèrent des avantages.",
+  "slot": "Major",
+  "facts": [
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/F69996772B9E18FD18AD0AABAB25D7E3FC42F261/102835.png",
+      "duration": 6,
+      "status": "Régénération",
+      "description": "Vous regagnez de la santé à chaque seconde. La durée est cumulable.",
+      "apply_count": 1
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "PrefixedBuff",
+      "icon": "https://render.guildwars2.com/file/58E92EBAF0DB4DA7C4AC04D9B22BCA5ECF0100DE/102843.png",
+      "duration": 6,
+      "status": "Vigueur",
+      "description": "Régénération d'endurance augmentée de 50%. La durée est cumulable.",
+      "apply_count": 1,
+      "prefix": {
+        "text": "Apply Buff/Condition",
+        "icon": "https://render.guildwars2.com/file/024A09E8342E54AEB9EDE624E4123138D21639D8/103038.png",
+        "status": "Renouveau éthéré",
+        "description": "<c=@abilitytype>Sortilège.</c> Vous vous soignez et dissipez une altération à chaque pulsation."
+      }
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "PrefixedBuff",
+      "icon": "https://render.guildwars2.com/file/96D90DF84CAFE008233DD1C2606A12C1A0E68048/102842.png",
+      "duration": 6,
+      "status": "Fureur",
+      "description": "Chances de coup critique augmentées ; durée cumulable.",
+      "apply_count": 1,
+      "prefix": {
+        "text": "Apply Buff/Condition",
+        "icon": "https://render.guildwars2.com/file/2FBB046640434531443F7920CFF205A2787932E3/103336.png",
+        "status": "Feu purifiant",
+        "description": "<c=@abilitytype>Sortilège.</c> Vous dissipez les altérations et infligez Brûlure aux ennemis. Vous obtenez Pouvoir à chaque altération dissipée."
+      }
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "PrefixedBuff",
+      "icon": "https://render.guildwars2.com/file/3D3A1C2D6D791C05179AB871902D28782C65C244/415959.png",
+      "duration": 4,
+      "status": "Stabilité",
+      "description": "Immunisé contre les altérations Renversement, Repoussement, Attraction, Projection, Étourdissement, Stupeur, Flottaison, Noyade, Peur ou Incitation.",
+      "apply_count": 2,
+      "prefix": {
+        "text": "Apply Buff/Condition",
+        "icon": "https://render.guildwars2.com/file/0A1E58F3900AB25D79A7A9FDF343F1742915775C/103341.png",
+        "status": "Apparence nébuleuse",
+        "description": "<c=@abilitytype>Sortilège.</c> Vous endossez brièvement la forme d'un nuage de vapeur invulnérable."
+      }
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "PrefixedBuff",
+      "icon": "https://render.guildwars2.com/file/50BAC1B8E10CFAB9E749A5D910D4A9DCF29EBB7C/961398.png",
+      "duration": 4,
+      "status": "Résistance",
+      "description": "Les altérations n'infligeant pas de dégâts que vous subissez sont inefficaces. La durée est cumulable.",
+      "apply_count": 1,
+      "prefix": {
+        "text": "Apply Buff/Condition",
+        "icon": "https://render.guildwars2.com/file/BEB6010EC947E8A9525899242E7F6D703D023128/103337.png",
+        "status": "Flash éclair",
+        "description": "<c=@abilitytype>Sortilège.</c> Vous téléporte jusqu'à la zone ciblée."
+      }
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "PrefixedBuff",
+      "icon": "https://render.guildwars2.com/file/DFB4D1B50AE4D6A275B349E15B179261EE3EB0AF/102854.png",
+      "duration": 4,
+      "status": "Égide",
+      "description": "Bloque la prochaine attaque. La durée est cumulable.",
+      "apply_count": 1,
+      "prefix": {
+        "text": "Apply Buff/Condition",
+        "icon": "https://render.guildwars2.com/file/C4FF5D0F0942BC27D7277CC9CB64280F451B16C5/103070.png",
+        "status": "Armure de la terre",
+        "description": "<c=@abilitytype>Sortilège.</c> Une armure de terre vous protège et vous apporte Protection et Stabilité. Vous obtenez ensuite une barrière pour chaque avantage unique en votre possession."
+      }
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "PrefixedBuff",
+      "icon": "https://render.guildwars2.com/file/CD77D1FAB7B270223538A8F8ECDA1CFB044D65F4/102834.png",
+      "duration": 6,
+      "status": "Protection",
+      "description": "Dégâts de frappe subis réduits de 33%. La durée est cumulable.",
+      "apply_count": 1,
+      "prefix": {
+        "text": "Apply Buff/Condition",
+        "icon": "https://render.guildwars2.com/file/22EDF7A7D620040CE1520552F45DE962AA625DA6/103281.png",
+        "status": "Tornade",
+        "description": "<c=@abilitytype>Sortilège.</c> Vous bénéficiez de Stabilité et vous transformez en tornade qui inflige des dégâts et Projection aux ennemis."
+      }
+    }
+  ],
+  "specialization": 17,
+  "icon": "https://render.guildwars2.com/file/CB474873D492343395726B0CD2E8E9A453D86F66/1012321.png"
+}

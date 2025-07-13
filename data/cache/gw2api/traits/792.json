@@ -1,0 +1,101 @@
+{
+  "id": 792,
+  "tier": 1,
+  "order": 0,
+  "name": "Marque de Dérobade",
+  "description": "Vous laissez une Marque de sang lorsque vous esquivez.",
+  "slot": "Minor",
+  "facts": [
+    {
+      "text": "Uniquement en combat",
+      "type": "NoData",
+      "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Marque de sang inférieure",
+      "facts": [
+        {
+          "text": "Dégât",
+          "type": "Damage",
+          "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+          "hit_count": 1,
+          "dmg_multiplier": 1.5
+        },
+        {
+          "text": "Apply Buff/Condition",
+          "type": "Buff",
+          "icon": "https://render.guildwars2.com/file/F69996772B9E18FD18AD0AABAB25D7E3FC42F261/102835.png",
+          "duration": 5,
+          "status": "Régénération",
+          "description": "Vous regagnez de la santé à chaque seconde. La durée est cumulable.",
+          "apply_count": 1
+        },
+        {
+          "text": "Apply Buff/Condition",
+          "type": "Buff",
+          "icon": "https://render.guildwars2.com/file/79FF0046A5F9ADA3B4C4EC19ADB4CB124D5F0021/102848.png",
+          "duration": 8,
+          "status": "Saignement",
+          "description": "Inflige des dégâts à chaque seconde. Intensité cumulable.",
+          "apply_count": 2
+        },
+        {
+          "text": "Nombre de cibles",
+          "type": "Number",
+          "icon": "https://render.guildwars2.com/file/BBE8191A494B0352259C10EADFDACCE177E6DA5B/1770208.png",
+          "value": 5
+        },
+        {
+          "text": "Rayon",
+          "type": "Distance",
+          "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+          "distance": 240
+        }
+      ],
+      "description": "Marque. Trace une marque qui inflige Saignements aux ennemis et confère Régénération aux alliés au passage d'un ennemi.",
+      "icon": "https://render.guildwars2.com/file/F205B3A517DF27E3323D2FBCFE6C0FA3430242F9/103813.png",
+      "flags": [],
+      "id": 13918,
+      "chat_link": "[&Bl42AAA=]",
+      "traited_facts": [
+        {
+          "text": "Apply Buff/Condition",
+          "type": "Buff",
+          "icon": "https://render.guildwars2.com/file/58E92EBAF0DB4DA7C4AC04D9B22BCA5ECF0100DE/102843.png",
+          "duration": 4,
+          "status": "Vigueur",
+          "description": "Régénération d'endurance augmentée de 50%. La durée est cumulable.",
+          "apply_count": 1,
+          "requires_trait": 778
+        },
+        {
+          "text": "Apply Buff/Condition",
+          "type": "Buff",
+          "icon": "https://render.guildwars2.com/file/58E92EBAF0DB4DA7C4AC04D9B22BCA5ECF0100DE/102843.png",
+          "duration": 2,
+          "status": "Vigueur",
+          "description": "Régénération d'endurance augmentée de 50%. La durée est cumulable.",
+          "apply_count": 1,
+          "requires_trait": 778
+        },
+        {
+          "text": "Force vitale",
+          "type": "Percent",
+          "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png",
+          "percent": 3,
+          "requires_trait": 898
+        },
+        {
+          "text": "Ne peut être bloquée",
+          "type": "NoData",
+          "icon": "https://render.guildwars2.com/file/BA65F2F5A073EB4BCC79085916B978DC0B096A0B/2248876.png",
+          "requires_trait": 898
+        }
+      ]
+    }
+  ],
+  "specialization": 19,
+  "icon": "https://render.guildwars2.com/file/34F665FF0ADC0CAED190126A0E40DEF99BFCABCB/1012543.png"
+}

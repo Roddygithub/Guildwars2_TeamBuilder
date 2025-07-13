@@ -1,0 +1,45 @@
+{
+  "id": 473,
+  "tier": 3,
+  "order": 0,
+  "name": "HGH",
+  "description": "Vos <c=@abilitytype>élixirs</c> confèrent Pouvoir et durent plus longtemps.",
+  "slot": "Major",
+  "facts": [
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/2FA9DF9D6BC17839BBEA14723F1C53D645DDB5E1/102852.png",
+      "duration": 15,
+      "status": "Pouvoir",
+      "description": "Les dégâts infligés sont augmentés. Intensité cumulable.",
+      "apply_count": 2
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/2FA9DF9D6BC17839BBEA14723F1C53D645DDB5E1/102852.png",
+      "duration": 8,
+      "status": "Pouvoir",
+      "description": "Les dégâts infligés sont augmentés. Intensité cumulable.",
+      "apply_count": 3
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/2FA9DF9D6BC17839BBEA14723F1C53D645DDB5E1/102852.png",
+      "duration": 10,
+      "status": "Pouvoir",
+      "description": "Les dégâts infligés sont augmentés. Intensité cumulable.",
+      "apply_count": 2
+    },
+    {
+      "text": "Durée augmentée",
+      "type": "Percent",
+      "icon": "https://render.guildwars2.com/file/7B2193ACCF77E56C13E608191B082D68AA0FAA71/156659.png",
+      "percent": 20
+    }
+  ],
+  "specialization": 29,
+  "icon": "https://render.guildwars2.com/file/C033BD736665A3C2514027E13F750896F594BC42/1012336.png"
+}

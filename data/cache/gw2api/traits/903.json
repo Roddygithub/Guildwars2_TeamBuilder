@@ -1,0 +1,101 @@
+{
+  "id": 903,
+  "tier": 3,
+  "order": 2,
+  "name": "Esprit malveillant",
+  "description": "Vous frappez autour de vous lorsque vous revêtez le linceul.",
+  "slot": "Major",
+  "skills": [
+    {
+      "name": "Esprit malveillant",
+      "facts": [
+        {
+          "text": "Range",
+          "type": "Range",
+          "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+          "value": 600
+        },
+        {
+          "text": "Dégât",
+          "type": "Damage",
+          "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+          "hit_count": 1,
+          "dmg_multiplier": 1
+        },
+        {
+          "text": "Dégât",
+          "type": "Damage",
+          "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+          "hit_count": 1,
+          "dmg_multiplier": 0.1
+        },
+        {
+          "text": "Apply Buff/Condition",
+          "type": "Buff",
+          "icon": "https://render.guildwars2.com/file/D104A6B9344A2E2096424A3C300E46BC2926E4D7/2440718.png",
+          "duration": 3,
+          "status": "Résolution",
+          "description": "Dégâts par altération subis réduits de 33%. La durée est cumulable.",
+          "apply_count": 1
+        },
+        {
+          "text": "Apply Buff/Condition",
+          "type": "Buff",
+          "icon": "https://render.guildwars2.com/file/070325E519C178D502A8160523766070D30C0C19/102838.png",
+          "duration": 5,
+          "status": "Infirmité",
+          "description": "Vitesse de déplacement réduite de 50%. La durée est cumulable.",
+          "apply_count": 1
+        },
+        {
+          "text": "Nombre de cibles",
+          "type": "Number",
+          "icon": "https://render.guildwars2.com/file/BBE8191A494B0352259C10EADFDACCE177E6DA5B/1770208.png",
+          "value": 5
+        },
+        {
+          "text": "Avantages supprimés",
+          "type": "Number",
+          "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png",
+          "value": 2
+        },
+        {
+          "text": "Avantages supprimés",
+          "type": "Number",
+          "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png",
+          "value": 2
+        },
+        {
+          "text": "Avantages supplémentaires supprimés",
+          "type": "Number",
+          "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png",
+          "value": 2
+        },
+        {
+          "text": "Avantages supplémentaires supprimés",
+          "type": "Number",
+          "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png",
+          "value": 1
+        },
+        {
+          "text": "Seuil de Santé",
+          "type": "Percent",
+          "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+          "percent": 50
+        },
+        {
+          "text": "Ne peut pas infliger de coups critiques.",
+          "type": "NoData",
+          "icon": "https://render.guildwars2.com/file/63015872E20761F5E76F803A90666FBE4E262BC9/536051.png"
+        }
+      ],
+      "description": "Vous infligez Infirmité aux ennemis à proximité et retirez leurs avantages. Vous bénéficiez de Résolution à chaque ennemi touché. Retire des avantages supplémentaires aux ennemis dont la santé est en dessous d'un certain seuil.",
+      "icon": "https://render.guildwars2.com/file/2A1707BB93BBF8B1A414D37BBFC5CAC90105D5DF/103567.png",
+      "flags": [],
+      "id": 29560,
+      "chat_link": "[&BnhzAAA=]"
+    }
+  ],
+  "specialization": 53,
+  "icon": "https://render.guildwars2.com/file/9775E905A6CBDF95CB106A0F95B79E74132CAF9C/1012602.png"
+}

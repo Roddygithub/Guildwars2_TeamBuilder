@@ -1,0 +1,51 @@
+{
+  "id": 733,
+  "tier": 3,
+  "order": 0,
+  "name": "Force fantasmagorique",
+  "description": "Chaque charge de Pouvoir dont vous bénéficiez augmente les dégâts de frappe infligés par les <c=@abilitytype>fantasmes</c>. Vous obtenez Pouvoir lorsque vos fantasmes deviennent des clones.",
+  "slot": "Major",
+  "facts": [
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/E002FB5DEC3A010F03F2E8A7D5000DF778215F6C/1012505.png",
+      "duration": 0,
+      "status": "Force fantasmagorique",
+      "description": "Dégâts de fantasmes augmentés par charge.",
+      "apply_count": 1
+    },
+    {
+      "text": "Nombre de charges maximum",
+      "type": "Number",
+      "icon": "https://render.guildwars2.com/file/B4490FB81AA1E7C06F1B22056AE09A0F54CBE2C4/1770201.png",
+      "value": 25
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/2FA9DF9D6BC17839BBEA14723F1C53D645DDB5E1/102852.png",
+      "duration": 10,
+      "status": "Pouvoir",
+      "description": "Les dégâts infligés sont augmentés. Intensité cumulable.",
+      "apply_count": 3
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/2FA9DF9D6BC17839BBEA14723F1C53D645DDB5E1/102852.png",
+      "duration": 6,
+      "status": "Pouvoir",
+      "description": "Les dégâts infligés sont augmentés. Intensité cumulable.",
+      "apply_count": 2
+    },
+    {
+      "text": "Rayon",
+      "type": "Distance",
+      "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+      "distance": 360
+    }
+  ],
+  "specialization": 24,
+  "icon": "https://render.guildwars2.com/file/E002FB5DEC3A010F03F2E8A7D5000DF778215F6C/1012505.png"
+}

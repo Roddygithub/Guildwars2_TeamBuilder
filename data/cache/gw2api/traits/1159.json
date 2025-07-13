@@ -1,0 +1,73 @@
+{
+  "id": 1159,
+  "tier": 1,
+  "order": 0,
+  "name": "Imprenable",
+  "description": "Vous semez des chausse-trappes mineures lorsque vous esquivez.",
+  "slot": "Major",
+  "skills": [
+    {
+      "name": "Chausse-trappes mineure",
+      "facts": [
+        {
+          "text": "Apply Buff/Condition",
+          "type": "Buff",
+          "icon": "https://render.guildwars2.com/file/79FF0046A5F9ADA3B4C4EC19ADB4CB124D5F0021/102848.png",
+          "duration": 5,
+          "status": "Saignement",
+          "description": "Inflige des dégâts à chaque seconde. Intensité cumulable.",
+          "apply_count": 1
+        },
+        {
+          "text": "Apply Buff/Condition",
+          "type": "Buff",
+          "icon": "https://render.guildwars2.com/file/79FF0046A5F9ADA3B4C4EC19ADB4CB124D5F0021/102848.png",
+          "duration": 1,
+          "status": "Saignement",
+          "description": "Inflige des dégâts à chaque seconde. Intensité cumulable.",
+          "apply_count": 1
+        },
+        {
+          "text": "Apply Buff/Condition",
+          "type": "Buff",
+          "icon": "https://render.guildwars2.com/file/070325E519C178D502A8160523766070D30C0C19/102838.png",
+          "duration": 1,
+          "status": "Infirmité",
+          "description": "Vitesse de déplacement réduite de 50%. La durée est cumulable.",
+          "apply_count": 1
+        },
+        {
+          "text": "Intervalle",
+          "type": "Time",
+          "icon": "https://render.guildwars2.com/file/B75E91EB22E0DFCC1D08030204055946506D56F6/1770206.png",
+          "duration": 1
+        },
+        {
+          "text": "Durée des chausse-trappes",
+          "type": "Time",
+          "icon": "https://render.guildwars2.com/file/7B2193ACCF77E56C13E608191B082D68AA0FAA71/156659.png",
+          "duration": 3
+        },
+        {
+          "text": "Rayon",
+          "type": "Distance",
+          "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+          "distance": 90
+        },
+        {
+          "text": "Nombre de cibles",
+          "type": "Number",
+          "icon": "https://render.guildwars2.com/file/BBE8191A494B0352259C10EADFDACCE177E6DA5B/1770208.png",
+          "value": 3
+        }
+      ],
+      "description": "Vous répandez des pointes qui infligent Infirmité et Saignement.",
+      "icon": "https://render.guildwars2.com/file/A85F59D91114D0702C3AB54A0AA81EC1CAE66CF5/103073.png",
+      "flags": [],
+      "id": 14136,
+      "chat_link": "[&Bjg3AAA=]"
+    }
+  ],
+  "specialization": 44,
+  "icon": "https://render.guildwars2.com/file/EC22A2BBEB08C71E270EA29FE6E5C80BC192BBEB/1012762.png"
+}

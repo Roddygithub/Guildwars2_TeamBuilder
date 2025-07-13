@@ -1,0 +1,33 @@
+{
+  "id": 839,
+  "tier": 2,
+  "order": 0,
+  "name": "Compréhension de l'âme",
+  "description": "Votre génération de force vitale passive pour chaque ennemi tué est augmentée. Confère <c=@abilitytype>Carapace</c> à chaque ennemi tué. Lorsque vous revêtez le linceul, vous gagnez de la force vitale pour chaque charge de <c=@abilitytype>Carapace</c>.",
+  "slot": "Minor",
+  "facts": [
+    {
+      "text": "Efficacité augmentée",
+      "type": "Percent",
+      "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+      "percent": 20
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/DC38F4623BFE773E681E37A0EAE11A364D52AACE/1012567.png",
+      "duration": 10,
+      "status": "Carapace de la mort",
+      "description": "La Robustesse est augmentée par charge.",
+      "apply_count": 1
+    },
+    {
+      "text": "Force vitale",
+      "type": "Percent",
+      "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png",
+      "percent": 0.5
+    }
+  ],
+  "specialization": 2,
+  "icon": "https://render.guildwars2.com/file/E5D7FFCF5270F6FACCF6A13324E6A26AE77C7D3C/1012568.png"
+}

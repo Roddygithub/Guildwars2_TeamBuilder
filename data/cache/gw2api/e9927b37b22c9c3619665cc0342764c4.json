@@ -1,0 +1,6382 @@
+[
+  {
+    "name": "Sweet Campfire Treat",
+    "description": "Double-click to construct a Sweet Campfire Treat for you and anyone in the area. The Sweet Campfire Treat stays active for 5 minutes.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "Unique",
+      "NoUnderwater",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92394,
+    "chat_link": "[&AgHqaAEA]",
+    "icon": "https://render.guildwars2.com/file/26970195585DFC17A3CA390407DD20C9DECC64B5/2220592.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Restored Boreal Mace",
+    "description": "A Restored Boreal weapon, crafted using materials found in Bjora Marches.",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 9025,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92395,
+    "chat_link": "[&AgHraAEA]",
+    "icon": "https://render.guildwars2.com/file/22312D42021CD91506140A447BB7197B04ECEBDC/2220615.png",
+    "details": {
+      "type": "Mace",
+      "damage_type": "Choking",
+      "min_power": 895,
+      "max_power": 1010,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 161,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 120
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 85
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 85
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Infernal Horror Springer Skin",
+    "description": "Double-click to unlock this springer mount skin for your account.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92396,
+    "chat_link": "[&AgHsaAEA]",
+    "icon": "https://render.guildwars2.com/file/34F73CECCD03C13FC0C67A0B163BB636DFDD506B/2220626.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Ms"
+    }
+  },
+  {
+    "name": "Recipe: Illuminated Boreal Mace",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 128,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92397,
+    "chat_link": "[&AgHtaAEA]",
+    "icon": "https://render.guildwars2.com/file/802E0895B53955AC0E23CAB89C01D42C6E3525AF/849289.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 13304
+    }
+  },
+  {
+    "name": "Shiverpeaks Hunter Backpack",
+    "description": "This will replace the appearance of any back item and unlock the skin in your account wardrobe. \n\nThis backpack skin has no stats of its own.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92398,
+    "chat_link": "[&AgHuaAEA]",
+    "icon": "https://render.guildwars2.com/file/E56F5741937DE7D642E65946B9315079CD9822F6/2220653.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9021
+      ]
+    }
+  },
+  {
+    "name": "Recipe: Illuminated Boreal Pistol",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 128,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92399,
+    "chat_link": "[&AgHvaAEA]",
+    "icon": "https://render.guildwars2.com/file/0FE244BAD2EF262F95F17948AA23076A2AB407EF/849299.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 13294
+    }
+  },
+  {
+    "name": "Ancient Boreal Torch Skin",
+    "description": "Double-click to apply this look to any other torch. Unlocks the ability to purchase the Restored Boreal Torch Recipe.",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92400,
+    "chat_link": "[&AgHwaAEA]",
+    "icon": "https://render.guildwars2.com/file/5326C35EF6B95154F3B51872D670F1BE320406B2/2220764.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9012
+      ]
+    }
+  },
+  {
+    "name": "Celestial Axe Skin",
+    "description": "Double-click to apply this look to any other axe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92401,
+    "chat_link": "[&AgHxaAEA]",
+    "icon": "https://render.guildwars2.com/file/C0C8AA2F0A069056437E7DB90C51C2A21E57070C/2220674.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9027
+      ]
+    }
+  },
+  {
+    "name": "Gift of the Ancestors",
+    "description": "Double-click to open. Contains a Raven Spirit Shadow that can be summoned, a Raven Statue decoration, a 24-slot bag, and a 32-slot bag recipe.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92402,
+    "chat_link": "[&AgHyaAEA]",
+    "icon": "https://render.guildwars2.com/file/3DC76BE733BDE5B9B8515CB29C39B6063AB55AED/2220567.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Recipe: Restored Boreal Shield",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 128,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92404,
+    "chat_link": "[&AgH0aAEA]",
+    "icon": "https://render.guildwars2.com/file/D201924467E3C9DF60B5F79631689F90DCE89478/849288.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 13299
+    }
+  },
+  {
+    "name": "Ancient Boreal Pistol Skin",
+    "description": "Double-click to apply this look to any other pistol. Unlocks the ability to purchase the Restored Boreal Pistol Recipe.",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92406,
+    "chat_link": "[&AgH2aAEA]",
+    "icon": "https://render.guildwars2.com/file/E278EA1C9EEAB0D8A847FE1B2E1EB8EB49479D9C/2220675.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9047
+      ]
+    }
+  },
+  {
+    "name": "Delivered Imported Blood Orange",
+    "description": "A gift from Anette Eymundrdottir. Bright Shore will be pleased.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92407,
+    "chat_link": "[&AgH3aAEA]",
+    "icon": "https://render.guildwars2.com/file/ADAB49FE33C2190245B3B331E59AADF21CAF591B/1205379.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Blue Lion Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 92408,
+    "chat_link": "[&AgH4aAEA]",
+    "icon": "https://render.guildwars2.com/file/FFE3A6302A0409148059239E05C9064D5DAF1E04/561734.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 1653
+    }
+  },
+  {
+    "name": "Ancient Boreal Scepter Skin",
+    "description": "Double-click to apply this look to any other scepter. Unlocks the ability to purchase the Restored Boreal Scepter Recipe.",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92410,
+    "chat_link": "[&AgH6aAEA]",
+    "icon": "https://render.guildwars2.com/file/48CB9DFF6CF0A4E55BE6F05C0F141E4E173A2A77/2220695.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9024
+      ]
+    }
+  },
+  {
+    "name": "Bjora Marches Portal Scroll",
+    "description": "Double-click to teleport to Bjora Marches. <c=@Warning>This item cannot be used while in combat.</c>",
+    "type": "Gizmo",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92411,
+    "chat_link": "[&AgH7aAEA]",
+    "icon": "https://render.guildwars2.com/file/456116B2CCB0341DAA64CE9121B24C9DF6F3ADC2/2220571.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Simple Boreal Canteen",
+    "description": "20 Slots",
+    "type": "Bag",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 128,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92413,
+    "chat_link": "[&AgH9aAEA]",
+    "icon": "https://render.guildwars2.com/file/471E02A5260C5B5B524BE7F85F1152D2211BE300/2220536.png",
+    "details": {
+      "no_sell_or_sort": false,
+      "size": 20
+    }
+  },
+  {
+    "name": "Surplus Delivery Box",
+    "description": "Contains surplus resources collected by your Black Lion industry team. Double-click to open.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92415,
+    "chat_link": "[&AgH/aAEA]",
+    "icon": "https://render.guildwars2.com/file/43171A0061AFFFB7BDD62E452C67694A362D4CAB/1716533.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Basic Guild Cape",
+    "description": "This will replace the appearance of one back slot item of any weight class and unlock the skin in your account wardrobe.\n\nThis back slot skin has no stats of its own.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 6250,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92416,
+    "chat_link": "[&AgEAaQEA]",
+    "icon": "https://render.guildwars2.com/file/47CF6DAAB41F974ABC37DFCC23972EA7D70111D3/2229241.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9051
+      ]
+    }
+  },
+  {
+    "name": "Salsa Eggs Benedict",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92418,
+    "chat_link": "[&AgECaQEA]",
+    "icon": "https://render.guildwars2.com/file/0C1654600B0E40F9EEC909B8950CD6140FE17FCD/2191055.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1100
+    }
+  },
+  {
+    "name": "Plate of Beef Carpaccio with Mint Garnish",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92422,
+    "chat_link": "[&AgEGaQEA]",
+    "icon": "https://render.guildwars2.com/file/62E3DF4A52B1DE6CF992C8E77A6368D411BC08A1/2191025.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1118
+    }
+  },
+  {
+    "name": "Spherified Peppercorn-Spiced Oyster Soup",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92424,
+    "chat_link": "[&AgEIaQEA]",
+    "icon": "https://render.guildwars2.com/file/683451055925A4C9503B0D52C608086A54D13750/2191077.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1133
+    }
+  },
+  {
+    "name": "Plate of Sesame Poultry Aspic",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92425,
+    "chat_link": "[&AgEJaQEA]",
+    "icon": "https://render.guildwars2.com/file/3FA8255214079ED4C83048ED72D437FEECB936A8/2191067.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1081
+    }
+  },
+  {
+    "name": "Black Lion Industry Contract",
+    "description": "This adds a Black Lion Industry Board to your home instance. The board can be used to collect basic crafting materials of your choice. Each delivery has a small chance of containing surplus goods.\nResource types include the following:\n• Cloth Scraps\n• Leather Sections\n• Metal Ore\n• Wood Logs\n• Jewels",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92427,
+    "chat_link": "[&AgELaQEA]",
+    "icon": "https://render.guildwars2.com/file/3F79F840C7FCD050E96EF2751A7E6CB26E1159BC/1716534.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Clove-Spiced Eggs Benedict",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92428,
+    "chat_link": "[&AgEMaQEA]",
+    "icon": "https://render.guildwars2.com/file/0968E3FA2BD2E6114A6D7E5D564424D51A4798EF/2191052.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1096
+    }
+  },
+  {
+    "name": "Sesame-Asparagus and Cured Meat Flatbread",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92431,
+    "chat_link": "[&AgEPaQEA]",
+    "icon": "https://render.guildwars2.com/file/70FC0F07541C377D3601D44E9939D2EE0A740509/2191046.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1103
+    }
+  },
+  {
+    "name": "Sesame Creme Brulee",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92432,
+    "chat_link": "[&AgEQaQEA]",
+    "icon": "https://render.guildwars2.com/file/685B53760D01FB0734BF726FBAFB9CCBDC973A44/2191042.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1090
+    }
+  },
+  {
+    "name": "Sesame Veggie Flatbread",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92433,
+    "chat_link": "[&AgERaQEA]",
+    "icon": "https://render.guildwars2.com/file/3DB8FFA23132A05C549AC5A8EA2D7D07C16D4BEA/2191030.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1105
+    }
+  },
+  {
+    "name": "Plate of Peppercorn-Spiced Coq Au Vin",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92435,
+    "chat_link": "[&AgETaQEA]",
+    "icon": "https://render.guildwars2.com/file/E63551700BC25C1F484BDBD422A4960B3269BACC/2191038.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1104
+    }
+  },
+  {
+    "name": "Bowl of Fruit Salad with Orange-Clove Syrup",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92436,
+    "chat_link": "[&AgEUaQEA]",
+    "icon": "https://render.guildwars2.com/file/A970FC093D572E5E03E1920AC07F7ED108F31427/2191060.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1113
+    }
+  },
+  {
+    "name": "Spherified Clove-Spiced Oyster Soup",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92437,
+    "chat_link": "[&AgEVaQEA]",
+    "icon": "https://render.guildwars2.com/file/EC5633F8390F1B3D44EFFB03669ECCB62498DCC4/2191075.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1135
+    }
+  },
+  {
+    "name": "Clove and Veggie Flatbread",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92439,
+    "chat_link": "[&AgEXaQEA]",
+    "icon": "https://render.guildwars2.com/file/07CB5E0E4058BCC85C677149C2D1C8CF0B521F9D/2191026.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1095
+    }
+  },
+  {
+    "name": "Bowl of Fruit Salad with Mint Garnish",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92440,
+    "chat_link": "[&AgEYaQEA]",
+    "icon": "https://render.guildwars2.com/file/1D44545301F3BB1C046898EA08D5906EB369DD0A/2191059.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1078
+    }
+  },
+  {
+    "name": "Plate of Poultry Aspic with Mint Garnish",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92442,
+    "chat_link": "[&AgEaaQEA]",
+    "icon": "https://render.guildwars2.com/file/48E5D0084720ED05DBB5641AFF2D7A371F30A3E0/2191064.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1110
+    }
+  },
+  {
+    "name": "Bowl of Spiced Fruit Salad",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92443,
+    "chat_link": "[&AgEbaQEA]",
+    "icon": "https://render.guildwars2.com/file/7CEC58DD0758464F3F66EFCF4C9E1152FE1D14E9/2191057.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1122
+    }
+  },
+  {
+    "name": "Strawberry Cilantro Cheesecake",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92445,
+    "chat_link": "[&AgEdaQEA]",
+    "icon": "https://render.guildwars2.com/file/E03521A65C171B4A35E5414DED9630DABA321C1F/2191035.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1091
+    }
+  },
+  {
+    "name": "Plate of Peppercorn-Spiced Beef Carpaccio",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92448,
+    "chat_link": "[&AgEgaQEA]",
+    "icon": "https://render.guildwars2.com/file/780C4F9AC90093E3A3E2A97C5F7D5A2F0C04F4E4/2191022.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1114
+    }
+  },
+  {
+    "name": "Mushroom Clove Sous-Vide Steak",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92451,
+    "chat_link": "[&AgEjaQEA]",
+    "icon": "https://render.guildwars2.com/file/B5B94CB366A5BE800FA0290054E312A9F498E752/2191073.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1123
+    }
+  },
+  {
+    "name": "Plate of Beef Carpaccio with Salsa Garnish",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92452,
+    "chat_link": "[&AgEkaQEA]",
+    "icon": "https://render.guildwars2.com/file/012F16A0E3F01C78387747FD7373269D08A2413F/2191023.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1111
+    }
+  },
+  {
+    "name": "Cilantro and Cured Meat Flatbread",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92456,
+    "chat_link": "[&AgEoaQEA]",
+    "icon": "https://render.guildwars2.com/file/13906DE02D374DBB6A013C5EF76F26FBAFD5A39A/2191050.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1089
+    }
+  },
+  {
+    "name": "Plate of Peppered Clear Truffle Ravioli",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92457,
+    "chat_link": "[&AgEpaQEA]",
+    "icon": "https://render.guildwars2.com/file/256211DC4BB3D55792027F604A4AD90871D7B596/2191082.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1088
+    }
+  },
+  {
+    "name": "Mint Strawberry Cheesecake",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92462,
+    "chat_link": "[&AgEuaQEA]",
+    "icon": "https://render.guildwars2.com/file/BAC0EB915B25A2D94917240E0EB1533A1FA59F04/2191031.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1131
+    }
+  },
+  {
+    "name": "Clove-Spiced Pear and Cured Meat Flatbread",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92467,
+    "chat_link": "[&AgEzaQEA]",
+    "icon": "https://render.guildwars2.com/file/CE437DB26797C84F9127C9D190720311EB614512/2191047.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1117
+    }
+  },
+  {
+    "name": "Plate of Sesame-Ginger Beef Carpaccio",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92468,
+    "chat_link": "[&AgE0aQEA]",
+    "icon": "https://render.guildwars2.com/file/DBDCBA174AFB1E07570F20BAA6201A35A8FB29C7/2191024.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1125
+    }
+  },
+  {
+    "name": "Mint-Pear Cured Meat Flatbread",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92469,
+    "chat_link": "[&AgE1aQEA]",
+    "icon": "https://render.guildwars2.com/file/F56EAF0DD0CFF41CE402282E37F20F4D22501358/2191048.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1085
+    }
+  },
+  {
+    "name": "Spherified Sesame Oyster Soup",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92471,
+    "chat_link": "[&AgE3aQEA]",
+    "icon": "https://render.guildwars2.com/file/FD0F3DD40B4E7CD8030FEDE79E51EBF55D2AA722/2191078.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1128
+    }
+  },
+  {
+    "name": "Dreamwalker Dagger Skin",
+    "description": "Double-click to apply this look to any other dagger.\nThis will also unlock this skin for your wardrobe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92472,
+    "chat_link": "[&AgE4aQEA]",
+    "icon": "https://render.guildwars2.com/file/76B5E92EC8710BB2F8567854077ED4FCA32D45D0/2229273.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9049
+      ]
+    }
+  },
+  {
+    "name": "Plate of Coq Au Vin with Mint Garnish",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92476,
+    "chat_link": "[&AgE8aQEA]",
+    "icon": "https://render.guildwars2.com/file/43E17EC338C6BC4FA838C21ABB53656BCF9A9609/2191037.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1080
+    }
+  },
+  {
+    "name": "Salsa-Topped Veggie Flatbread",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92478,
+    "chat_link": "[&AgE+aQEA]",
+    "icon": "https://render.guildwars2.com/file/161BD739DCBE0BA737081A079017D6F660BE5642/2191029.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1092
+    }
+  },
+  {
+    "name": "Peppercorn-Crusted Sous-Vide Steak",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92479,
+    "chat_link": "[&AgE/aQEA]",
+    "icon": "https://render.guildwars2.com/file/EBFB0A55087C48E905D4ED9E6BE549DA6D9560F4/2191071.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1094
+    }
+  },
+  {
+    "name": "Mint Creme Brulee",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92483,
+    "chat_link": "[&AgFDaQEA]",
+    "icon": "https://render.guildwars2.com/file/D9C2BEC72B7D5D9BDD80EF070ABB41970A667307/2191045.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1098
+    }
+  },
+  {
+    "name": "Plate of Clove-Spiced Clear Truffle Ravioli",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92486,
+    "chat_link": "[&AgFGaQEA]",
+    "icon": "https://render.guildwars2.com/file/CDE1220B990FB6C1EE0534317A33F66D3478C9EA/2191080.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1086
+    }
+  },
+  {
+    "name": "Spherified Cilantro Oyster Soup",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92487,
+    "chat_link": "[&AgFHaQEA]",
+    "icon": "https://render.guildwars2.com/file/9B0D0173051264281BBA4F4B10D7514DF54105E2/2191074.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1112
+    }
+  },
+  {
+    "name": "Peppered Cured Meat Flatbread",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92488,
+    "chat_link": "[&AgFIaQEA]",
+    "icon": "https://render.guildwars2.com/file/4E3BD999CA176E1AE6DD04CC17FB0A732A0E6A52/2191049.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1106
+    }
+  },
+  {
+    "name": "Clove-Spiced Creme Brulee",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92489,
+    "chat_link": "[&AgFJaQEA]",
+    "icon": "https://render.guildwars2.com/file/CF64F12FBCADE621B95D1CCCAC05D99A307427A2/2191043.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1093
+    }
+  },
+  {
+    "name": "Spiced Peppercorn Cheesecake",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92490,
+    "chat_link": "[&AgFKaQEA]",
+    "icon": "https://render.guildwars2.com/file/3BA6542DDA2737B90CBFAB711E775E9A50301DD7/2191033.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1130
+    }
+  },
+  {
+    "name": "Peppercorn-Spiced Eggs Benedict",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92492,
+    "chat_link": "[&AgFMaQEA]",
+    "icon": "https://render.guildwars2.com/file/B99C201F48A59862F97D97E65AFA399903CD0919/2191054.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1115
+    }
+  },
+  {
+    "name": "Plate of Clove-Spiced Poultry Aspic",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92496,
+    "chat_link": "[&AgFQaQEA]",
+    "icon": "https://render.guildwars2.com/file/77AE0BEB952DBF35F3323652F99DF5E5BC09081B/2191063.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1132
+    }
+  },
+  {
+    "name": "Plate of Poultry Aspic with Salsa Garnish",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92500,
+    "chat_link": "[&AgFUaQEA]",
+    "icon": "https://render.guildwars2.com/file/C8DA79B5F0940219E1ABBDF5314A35DF91AECC5D/2191066.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1107
+    }
+  },
+  {
+    "name": "Orange Clove Cheesecake",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92503,
+    "chat_link": "[&AgFXaQEA]",
+    "icon": "https://render.guildwars2.com/file/686DE6010C39502AF203BF07B4E2142E3A1FEB3C/2191032.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1116
+    }
+  },
+  {
+    "name": "Mint and Veggie Flatbread",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92505,
+    "chat_link": "[&AgFZaQEA]",
+    "icon": "https://render.guildwars2.com/file/FCB44856734BE45744C8B10509CF710BBBE13C7B/2191027.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1126
+    }
+  },
+  {
+    "name": "Spiced Pepper Creme Brulee",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92507,
+    "chat_link": "[&AgFbaQEA]",
+    "icon": "https://render.guildwars2.com/file/7408A11A9C3FD4FCE82F51DED3B8E815044A2E69/2191041.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1124
+    }
+  },
+  {
+    "name": "Eggs Benedict with Mint-Parsley Sauce",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92509,
+    "chat_link": "[&AgFdaQEA]",
+    "icon": "https://render.guildwars2.com/file/247DFE7FA45A2DF9B24E5515C3BDB96D28ED213B/2191053.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1127
+    }
+  },
+  {
+    "name": "Plate of Coq Au Vin with Salsa",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92510,
+    "chat_link": "[&AgFeaQEA]",
+    "icon": "https://render.guildwars2.com/file/5B0BE79E271153D9350BC3E14034482BEA073C5C/2191039.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1076
+    }
+  },
+  {
+    "name": "Bowl of Fruit Salad with Cilantro Garnish",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92512,
+    "chat_link": "[&AgFgaQEA]",
+    "icon": "https://render.guildwars2.com/file/9A19E7B6126064510FE3E8F8BB60F1E23FAA7B3D/2191058.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1083
+    }
+  },
+  {
+    "name": "Tournament Title Scroll: Tournament Test Subject",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Legendary",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 92514,
+    "chat_link": "[&AgFiaQEA]",
+    "icon": "https://render.guildwars2.com/file/16D70F7A5C06D415E50EEF07986C46FBDB4D1E80/222818.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Peppercorn and Veggie Flatbread",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92517,
+    "chat_link": "[&AgFlaQEA]",
+    "icon": "https://render.guildwars2.com/file/C4FB4B7A4F99042798394CAA083157D04CD33128/2191028.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1129
+    }
+  },
+  {
+    "name": "Spherified Oyster Soup with Mint Garnish",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92519,
+    "chat_link": "[&AgFnaQEA]",
+    "icon": "https://render.guildwars2.com/file/5C50FC1ABC9F9715B9D4027E207BEC6F4C0DB7E1/2191076.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1108
+    }
+  },
+  {
+    "name": "Soy-Sesame Sous-Vide Steak",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92520,
+    "chat_link": "[&AgFoaQEA]",
+    "icon": "https://render.guildwars2.com/file/F2BCC85FF89E0BFF07443DC0503780E5134735B6/2191072.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1077
+    }
+  },
+  {
+    "name": "Mango Cilantro Creme Brulee",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92521,
+    "chat_link": "[&AgFpaQEA]",
+    "icon": "https://render.guildwars2.com/file/31201665AC2EDD674BCFEA5EF1FDB7B00D6040FA/2191044.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1082
+    }
+  },
+  {
+    "name": "Plate of Sesame-Crusted Coq Au Vin",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92523,
+    "chat_link": "[&AgFraQEA]",
+    "icon": "https://render.guildwars2.com/file/4A71BF654EFFAF92CA111C5D22DB7177BAE22FD0/2191040.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1121
+    }
+  },
+  {
+    "name": "Bowl of Sesame Fruit Salad",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92524,
+    "chat_link": "[&AgFsaQEA]",
+    "icon": "https://render.guildwars2.com/file/915278527BBA0F38A8CA7926EE3B0CE2B5B83A58/2191061.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1119
+    }
+  },
+  {
+    "name": "Emblazoned Cape",
+    "description": "This will replace the appearance of one back slot item of any weight class and unlock the skin in your account wardrobe.\n\nThis back slot skin has no stats of its own.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 6250,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92526,
+    "chat_link": "[&AgFuaQEA]",
+    "icon": "https://render.guildwars2.com/file/9080FE3D0BCC01EC9B7B0A095AE132F83746D177/2229240.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9050
+      ]
+    }
+  },
+  {
+    "name": "Plate of Clear Truffle and Cilantro Ravioli",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92527,
+    "chat_link": "[&AgFvaQEA]",
+    "icon": "https://render.guildwars2.com/file/E1ABDA692331B20E9FBD6C04CB2BB7A2B8483ADD/2191079.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1120
+    }
+  },
+  {
+    "name": "Plate of Clove-Spiced Coq Au Vin",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92528,
+    "chat_link": "[&AgFwaQEA]",
+    "icon": "https://render.guildwars2.com/file/CF0A1540AA0D05EE62DF7DDD6CD20968577FD0AD/2191036.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1099
+    }
+  },
+  {
+    "name": "Sous-Vide Steak with Mint-Parsley Sauce",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92529,
+    "chat_link": "[&AgFxaQEA]",
+    "icon": "https://render.guildwars2.com/file/3C79C778073B7ACB06000B6CE9B09668D2443B03/2191070.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1084
+    }
+  },
+  {
+    "name": "Sesame Eggs Benedict",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92530,
+    "chat_link": "[&AgFyaQEA]",
+    "icon": "https://render.guildwars2.com/file/017DDDA49A1141CEBBF40C26E1C1EF7F429C71A4/2191056.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1101
+    }
+  },
+  {
+    "name": "Plate of Clear Truffle and Sesame Ravioli",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92531,
+    "chat_link": "[&AgFzaQEA]",
+    "icon": "https://render.guildwars2.com/file/1857D4F319C26B0393CD162C03A4D23C1E549204/2191083.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1097
+    }
+  },
+  {
+    "name": "Plate of Clear Truffle and Mint Ravioli",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92533,
+    "chat_link": "[&AgF1aQEA]",
+    "icon": "https://render.guildwars2.com/file/C877A47075D19F67C931CA0C9BF624939664F66E/2191081.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1079
+    }
+  },
+  {
+    "name": "Sesame Cheesecake",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92537,
+    "chat_link": "[&AgF5aQEA]",
+    "icon": "https://render.guildwars2.com/file/9A20FB034061FF773033D4A161A6F61DCC5174CD/2191034.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1134
+    }
+  },
+  {
+    "name": "Plate of Peppercorn-Spiced Poultry Aspic",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92538,
+    "chat_link": "[&AgF6aQEA]",
+    "icon": "https://render.guildwars2.com/file/6C73AD27E2CBB23D39D2B0426DCF5168ECE90E3C/2191065.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1109
+    }
+  },
+  {
+    "name": "Plate of Clove-Spiced Beef Carpaccio",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92539,
+    "chat_link": "[&AgF7aQEA]",
+    "icon": "https://render.guildwars2.com/file/52F131350853D4A1BE1E054A30E2A6204FDE6191/2191021.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1087
+    }
+  },
+  {
+    "name": "Cilantro Lime Sous-Vide Steak",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92540,
+    "chat_link": "[&AgF8aQEA]",
+    "icon": "https://render.guildwars2.com/file/D2C00407A3FFE06251BDE9DC13525FE167ABA3E6/2191069.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1102
+    }
+  },
+  {
+    "name": "Hide-and-Seek",
+    "description": "Queen Jennah seems to allow children and families to play hide-and-seek in her garden, despite the protests of the Shining Blade.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92541,
+    "chat_link": "[&AgF9aQEA]",
+    "icon": "https://render.guildwars2.com/file/A1289E0E1A314F6607C9D6ABBB0B7D452B514163/2237594.png"
+  },
+  {
+    "name": "Winter Monarch Cape",
+    "description": "This will replace the appearance of one back slot item of any weight class and unlock the skin in your account wardrobe.\n\nThis back slot skin has no stats of its own.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 6250,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92542,
+    "chat_link": "[&AgF+aQEA]",
+    "icon": "https://render.guildwars2.com/file/E07B55DB0B4EAB0FBE0731A5D609AEB9D44342AD/2236637.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9072
+      ]
+    }
+  },
+  {
+    "name": "Wintersday Adventure: Gold",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92543,
+    "chat_link": "[&AgF/aQEA]",
+    "icon": "https://render.guildwars2.com/file/2D6DA36B3062DD261E4F382664039CCFA8B2C218/1201555.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Mythic Dagger Skin",
+    "description": "Double-click to apply this look to any other dagger.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92544,
+    "chat_link": "[&AgGAaQEA]",
+    "icon": "https://render.guildwars2.com/file/51399ACEB6061608FC0517B9D2FA0190AB934202/2236718.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9081
+      ]
+    }
+  },
+  {
+    "name": "Mythic Weapon Choice",
+    "description": "Use this item to select and unlock a Mythic weapon skin of your choice for your account.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92545,
+    "chat_link": "[&AgGBaQEA]",
+    "icon": "https://render.guildwars2.com/file/AD789EE8C56C94EC610C202FB25B6CFE593D14BE/2236640.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Play Dead",
+    "description": "A key aspect of golemancy is rebuilding your golem when it breaks down. The Arcane Council of Rata Sum strongly encourages its citizens practice this virtue in a quick and efficient manner.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92546,
+    "chat_link": "[&AgGCaQEA]",
+    "icon": "https://render.guildwars2.com/file/F3C5CBB0BB990117AC5141B8D63C06D434E7754C/2237597.png"
+  },
+  {
+    "name": "Starlight Wings Backpack and Glider Combo",
+    "description": "This package contains a glider skin and a matching backpack skin.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92547,
+    "chat_link": "[&AgGDaQEA]",
+    "icon": "https://render.guildwars2.com/file/0608D69C09FD723E97EBE00E6F0CD83F5D1FBA63/2236610.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9061
+      ]
+    }
+  },
+  {
+    "name": "Wintersday Adventure: Bronze",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92548,
+    "chat_link": "[&AgGEaQEA]",
+    "icon": "https://render.guildwars2.com/file/E280B3A05B14E5110F17323B282F99974602F2C2/1201554.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Festive Sweater",
+    "description": "<c=@flavor>The height of form, function, and fashion for the wintry season.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 9062,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92549,
+    "chat_link": "[&AgGFaQEA]",
+    "icon": "https://render.guildwars2.com/file/CCE6BE1E770B96CD2DBC809D09B20DF8FB6C25F6/2237436.png",
+    "details": {
+      "type": "Coat",
+      "weight_class": "Light",
+      "defense": 314,
+      "infusion_slots": [],
+      "attribute_adjustment": 384.12,
+      "infix_upgrade": {
+        "id": 628,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 134
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 96
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 96
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Mythic Torch Skin",
+    "description": "Double-click to apply this look to any other torch.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92550,
+    "chat_link": "[&AgGGaQEA]",
+    "icon": "https://render.guildwars2.com/file/451A0CABF0E3E7F74DC7A6AADAD4BA1FED3D0CAD/2236883.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9076
+      ]
+    }
+  },
+  {
+    "name": "Mistborn Mount Adoption License",
+    "description": "Gain a random mount skin that you do not already own from the Black Lion Stables. Right-click to preview available mount skins.\n\n<c=#F8C56E>All unobtained skins have an equal chance of dropping.</c>",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 999,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92551,
+    "chat_link": "[&AgGHaQEA]",
+    "icon": "https://render.guildwars2.com/file/FF4708362F442B20987F804FD7291A5557F8EC5F/2236594.png",
+    "details": {
+      "type": "MountRandomUnlock"
+    }
+  },
+  {
+    "name": "Bringer's Rimed Verdant Shield of Ice",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 9052,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92552,
+    "chat_link": "[&AgGIaQEA]",
+    "icon": "https://render.guildwars2.com/file/58BC593A15600450E5D1B67D9A23C10A91C1AA9B/2236572.png",
+    "details": {
+      "type": "Shield",
+      "damage_type": "Physical",
+      "min_power": 806,
+      "max_power": 909,
+      "defense": 61,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 1032,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 85
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 85
+          },
+          {
+            "attribute": "ConditionDuration",
+            "modifier": 120
+          }
+        ]
+      },
+      "suffix_item_id": 24555,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Snowflake Gobbler's Blessing",
+    "description": "Has a chance to give a Wintersday Gift or a Festival Gobbler Boost. The Festival Gobbler Boost grants the following benefits for 15 minutes:\n+25% Experience from Kills\n+25% Gold from Kills\n+25% Reward Track Gain in PvP and WvW",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage"
+    ],
+    "restrictions": [],
+    "id": 92553,
+    "chat_link": "[&AgGJaQEA]",
+    "icon": "https://render.guildwars2.com/file/16E5055F060EE3CA20FE2526E05B46DA3637C4D8/2236916.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Mini Joko Funko POP!",
+    "description": "Double-click to summon this mini to follow you around. Only one mini may be in use at a time.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92554,
+    "chat_link": "[&AgGKaQEA]",
+    "icon": "https://render.guildwars2.com/file/2C13DB071EEC260A0E59BBB04EB12D7F7AA054B7/2236589.png",
+    "details": {
+      "minipet_id": 792
+    }
+  },
+  {
+    "name": "Pristine Wrapping",
+    "description": "You've done very well not to tear the paper. You're sure you'll reuse it, but you won't.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Junk",
+    "vendor_value": 50000,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92555,
+    "chat_link": "[&AgGLaQEA]",
+    "icon": "https://render.guildwars2.com/file/CFE4F1A526096A5C317B9B7004AFCCB20F73F6A6/2236919.png"
+  },
+  {
+    "name": "Mote of Candied Karma",
+    "description": "Grants a large amount of karma. Affected by karma bonuses.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "BulkConsume",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92556,
+    "chat_link": "[&AgGMaQEA]",
+    "icon": "https://render.guildwars2.com/file/E4CF61BED61BEE7B2829EDF766194CDF617A0F04/2236592.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Mini Magical Reindeer",
+    "description": "Double-click to summon this mini to follow you around. Only one mini may be in use at a time.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 256,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 92557,
+    "chat_link": "[&AgGNaQEA]",
+    "icon": "https://render.guildwars2.com/file/31A51A321E3EB86F3EAE5B22CC454C504B425B3D/2237592.png",
+    "details": {
+      "minipet_id": 791
+    }
+  },
+  {
+    "name": "Snowflake Gobbler Pack",
+    "description": "Click on this item to receive 25 Snowflakes and the Snowflake Gobbler.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "NotUpgradeable",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92558,
+    "chat_link": "[&AgGOaQEA]",
+    "icon": "https://render.guildwars2.com/file/6E633072DD0E4A527E07AEBB15B10C521C3FC251/2236917.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Fireball",
+    "description": "Hoelbrak should have a place where people are practicing their aim.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92559,
+    "chat_link": "[&AgGPaQEA]",
+    "icon": "https://render.guildwars2.com/file/D6D964AD6F784A4CEAA2D0CE7C5F542213D635D0/102890.png"
+  },
+  {
+    "name": "Festive Sweater",
+    "description": "<c=@flavor>The height of form, function, and fashion for the wintry season.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 9089,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92560,
+    "chat_link": "[&AgGQaQEA]",
+    "icon": "https://render.guildwars2.com/file/5BDEA293D2ED9F5BF6A2E470009626AB2C6E2ABD/2237435.png",
+    "details": {
+      "type": "Coat",
+      "weight_class": "Heavy",
+      "defense": 363,
+      "infusion_slots": [],
+      "attribute_adjustment": 384.12,
+      "infix_upgrade": {
+        "id": 628,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 134
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 96
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 96
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Mistborn Mount Select License",
+    "description": "Gain a mount skin of your choice from the Black Lion Stables. Right-click to preview available mount skins.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 999,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92561,
+    "chat_link": "[&AgGRaQEA]",
+    "icon": "https://render.guildwars2.com/file/6F0FB45A9AD3ABD8C4F8505DECEDD2A1D5967116/2236641.png",
+    "details": {
+      "type": "MountRandomUnlock"
+    }
+  },
+  {
+    "name": "Bringer's Rimed Verdant Staff of Ice",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 9091,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92562,
+    "chat_link": "[&AgGSaQEA]",
+    "icon": "https://render.guildwars2.com/file/FEA43BFC7A497CEDBEB53F960550F998F5E6B5D0/2236576.png",
+    "details": {
+      "type": "Staff",
+      "damage_type": "Physical",
+      "min_power": 985,
+      "max_power": 1111,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "infix_upgrade": {
+        "id": 1032,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 171
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 171
+          },
+          {
+            "attribute": "ConditionDuration",
+            "modifier": 239
+          }
+        ]
+      },
+      "suffix_item_id": 24555,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Feed",
+    "description": "Throw the skyscale a magically infused fish to devour.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92563,
+    "chat_link": "[&AgGTaQEA]",
+    "icon": "https://render.guildwars2.com/file/D25F03BB53EAA3C7BD0E1CDA68DC792A99035175/2237593.png"
+  },
+  {
+    "name": "Starlight Wings Glider",
+    "description": "This will unlock the glider skin in your account wardrobe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92564,
+    "chat_link": "[&AgGUaQEA]",
+    "icon": "https://render.guildwars2.com/file/0608D69C09FD723E97EBE00E6F0CD83F5D1FBA63/2236610.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "GliderSkin"
+    }
+  },
+  {
+    "name": "Bringer's Rimed Verdant Rifle of Ice",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 9092,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92565,
+    "chat_link": "[&AgGVaQEA]",
+    "icon": "https://render.guildwars2.com/file/C442E7FE28B5250E1E14AC1D780FCF353F086145/2236566.png",
+    "details": {
+      "type": "Rifle",
+      "damage_type": "Physical",
+      "min_power": 986,
+      "max_power": 1205,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "infix_upgrade": {
+        "id": 1032,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 171
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 171
+          },
+          {
+            "attribute": "ConditionDuration",
+            "modifier": 239
+          }
+        ]
+      },
+      "suffix_item_id": 24555,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Mini Baby Aurene Funko POP!",
+    "description": "Double-click to summon this mini to follow you around. Only one mini may be in use at a time.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92566,
+    "chat_link": "[&AgGWaQEA]",
+    "icon": "https://render.guildwars2.com/file/E8A5063AA1EE7064DD1B3DD3D99AB79005ED1D00/2236588.png",
+    "details": {
+      "minipet_id": 793
+    }
+  },
+  {
+    "name": "Peppermint Platform",
+    "description": "A decoration schematic that is processed by the guild's assembly device to make the decoration.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92567,
+    "chat_link": "[&AgGXaQEA]",
+    "icon": "https://render.guildwars2.com/file/7C00073B0A2C0B21B20F58A8BB66A20953CAFB61/2236529.png",
+    "details": {
+      "type": "Generic",
+      "guild_upgrade_id": 1139
+    }
+  },
+  {
+    "name": "Mythic Staff Skin",
+    "description": "Double-click to apply this look to any other staff.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92568,
+    "chat_link": "[&AgGYaQEA]",
+    "icon": "https://render.guildwars2.com/file/63DAF41E90113B0CF45E070E98966B946C9C4404/2236851.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9064
+      ]
+    }
+  },
+  {
+    "name": "Cracked Choir Bell",
+    "description": "\"The Black Lion Trade company apologizes for any damage items may have received in transit.\"",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Junk",
+    "vendor_value": 15000,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92569,
+    "chat_link": "[&AgGZaQEA]",
+    "icon": "https://render.guildwars2.com/file/935E7B02E64A056AC85396226AF7C50208AB132D/2236918.png"
+  },
+  {
+    "name": "Mythic Rifle Skin",
+    "description": "Double-click to apply this look to any other rifle.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92570,
+    "chat_link": "[&AgGaaQEA]",
+    "icon": "https://render.guildwars2.com/file/E3744980C77BF65921006E4650B716BB9B7A7D93/2236803.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9090
+      ]
+    }
+  },
+  {
+    "name": "Candy Cane Beam",
+    "description": "A decoration schematic that is processed by the guild's assembly device to make the decoration.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92571,
+    "chat_link": "[&AgGbaQEA]",
+    "icon": "https://render.guildwars2.com/file/67916BFC42091F7E6EE01C93C831A099F4ED0560/2236527.png",
+    "details": {
+      "type": "Generic",
+      "guild_upgrade_id": 1136
+    }
+  },
+  {
+    "name": "Mythic Pistol Skin",
+    "description": "Double-click to apply this look to any other pistol.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92573,
+    "chat_link": "[&AgGdaQEA]",
+    "icon": "https://render.guildwars2.com/file/E3CD029D1BD9CA2994B536950A94034C445C4276/2236787.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9085
+      ]
+    }
+  },
+  {
+    "name": "Volleyball",
+    "description": "Sometimes children leave a ball lying in the middle of Lion's Arch.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92574,
+    "chat_link": "[&AgGeaQEA]",
+    "icon": "https://render.guildwars2.com/file/5FD31663A55CFF565F03131B6FC2392909C15807/2237606.png"
+  },
+  {
+    "name": "Black Lion Winter's Weapons Complete Collection",
+    "description": "Use this voucher to claim a full set of Black Lion Trading Company weapons.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92575,
+    "chat_link": "[&AgGfaQEA]",
+    "icon": "https://render.guildwars2.com/file/F02DB094DEAFD27602D0739053B27AE1CAF80204/1822158.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Mythic Short Bow Skin",
+    "description": "Double-click to apply this look to any other short bow.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92576,
+    "chat_link": "[&AgGgaQEA]",
+    "icon": "https://render.guildwars2.com/file/FCF6D53275A8C8EABB1D1E0D96E902B62BACFB14/2236687.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9084
+      ]
+    }
+  },
+  {
+    "name": "Mini Rytlock Funko POP!",
+    "description": "Double-click to summon this mini to follow you around. Only one mini may be in use at a time.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92577,
+    "chat_link": "[&AgGhaQEA]",
+    "icon": "https://render.guildwars2.com/file/B8B870DCD4F3C6A72E0BD701B1A19FF692A8A40D/2236590.png",
+    "details": {
+      "minipet_id": 795
+    }
+  },
+  {
+    "name": "Mythic Hammer Skin",
+    "description": "Double-click to apply this look to any other hammer.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92578,
+    "chat_link": "[&AgGiaQEA]",
+    "icon": "https://render.guildwars2.com/file/18E55E0D4EA7A41915CEEF917BDA0D1D71FCE894/2236770.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9055
+      ]
+    }
+  },
+  {
+    "name": "Mythic Shield Skin",
+    "description": "Double-click to apply this look to any other shield.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92579,
+    "chat_link": "[&AgGjaQEA]",
+    "icon": "https://render.guildwars2.com/file/ACDB253FB73E566AB0CEB60F7D3818784D1FBF10/2236835.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9086
+      ]
+    }
+  },
+  {
+    "name": "Giant Candy Cane",
+    "description": "A decoration schematic that is processed by the guild's assembly device to make the decoration.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92581,
+    "chat_link": "[&AgGlaQEA]",
+    "icon": "https://render.guildwars2.com/file/BA1F0BE12CCDB71F165E5FDA347F6BC4A1636DA4/2236526.png",
+    "details": {
+      "type": "Generic",
+      "guild_upgrade_id": 1140
+    }
+  },
+  {
+    "name": "Pet Skyscale Whistle",
+    "description": "A pet skyscale that you can play with in the world and teach new tricks. Learning every trick will also unlock a miniature version of the skyscale. Double-click to unlock this item in your wardrobe.",
+    "type": "Consumable",
+    "level": 1,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92582,
+    "chat_link": "[&AgGmaQEA]",
+    "icon": "https://render.guildwars2.com/file/082C73B64E1F9636E576FF1FD354B664C4133750/2236525.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Scratch",
+    "description": "Scratch the skyscale under its chin.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92583,
+    "chat_link": "[&AgGnaQEA]",
+    "icon": "https://render.guildwars2.com/file/0D0BF4429114A714CA0A054691F1E6AA06B89CD8/2237598.png"
+  },
+  {
+    "name": "Bringer's Rimed Verdant Axe of Ice",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 9053,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92584,
+    "chat_link": "[&AgGoaQEA]",
+    "icon": "https://render.guildwars2.com/file/B100D75638A9053F3A58F85874E820540402C90A/2236534.png",
+    "details": {
+      "type": "Axe",
+      "damage_type": "Physical",
+      "min_power": 857,
+      "max_power": 1048,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 1032,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 85
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 85
+          },
+          {
+            "attribute": "ConditionDuration",
+            "modifier": 120
+          }
+        ]
+      },
+      "suffix_item_id": 24555,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Snowflake Gobbler",
+    "description": "Double-click to trade Snowflakes for the chance to get a Festival Gobbler Boost or Wintersday Gift.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92585,
+    "chat_link": "[&AgGpaQEA]",
+    "icon": "https://render.guildwars2.com/file/6E633072DD0E4A527E07AEBB15B10C521C3FC251/2236917.png",
+    "details": {
+      "type": "Default",
+      "vendor_ids": [
+        2186
+      ]
+    }
+  },
+  {
+    "name": "Rimed Verdant Wintersday Gift",
+    "description": "<c=@flavor>A special gift for the icy season. Double-click to choose a reward.</c>",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 32,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 92586,
+    "chat_link": "[&AgGqaQEA]",
+    "icon": "https://render.guildwars2.com/file/57DDE436CDFE1F474427DE79393E990193C56E19/2236524.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Bringer's Rimed Verdant Scepter of Ice",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 9080,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92587,
+    "chat_link": "[&AgGraQEA]",
+    "icon": "https://render.guildwars2.com/file/60B6F3F978C1F7026EB96B0BED0E060739B193B6/2236568.png",
+    "details": {
+      "type": "Scepter",
+      "damage_type": "Physical",
+      "min_power": 895,
+      "max_power": 1010,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 1032,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 85
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 85
+          },
+          {
+            "attribute": "ConditionDuration",
+            "modifier": 120
+          }
+        ]
+      },
+      "suffix_item_id": 24555,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Mythic Longbow Skin",
+    "description": "Double-click to apply this look to any other longbow.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92588,
+    "chat_link": "[&AgGsaQEA]",
+    "icon": "https://render.guildwars2.com/file/C749076DAF14431434B879B7634D955A404042CD/2236686.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9093
+      ]
+    }
+  },
+  {
+    "name": "Mini Mystical Snowflake",
+    "description": "Double-click to summon this mini to follow you around. Only one mini may be in use at a time.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 256,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 92589,
+    "chat_link": "[&AgGtaQEA]",
+    "icon": "https://render.guildwars2.com/file/77A2782ADA1A0CD95A145A63903B0669D7760A45/2236591.png",
+    "details": {
+      "minipet_id": 794
+    }
+  },
+  {
+    "name": "Bringer's Rimed Verdant Pistol of Ice",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 9067,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92590,
+    "chat_link": "[&AgGuaQEA]",
+    "icon": "https://render.guildwars2.com/file/EEC4900544523C0F4B0CD602BFD4A35BD6A02E25/2236564.png",
+    "details": {
+      "type": "Pistol",
+      "damage_type": "Physical",
+      "min_power": 876,
+      "max_power": 1029,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 1032,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 85
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 85
+          },
+          {
+            "attribute": "ConditionDuration",
+            "modifier": 120
+          }
+        ]
+      },
+      "suffix_item_id": 24555,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Fireworks",
+    "description": "The Black Citadel is the best place to learn an explosive new idea.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92591,
+    "chat_link": "[&AgGvaQEA]",
+    "icon": "https://render.guildwars2.com/file/6999BA7A689D24B45A2518AE3AA65F7860384CB8/2237599.png"
+  },
+  {
+    "name": "Mythic Warhorn Skin",
+    "description": "Double-click to apply this look to any other warhorn.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92592,
+    "chat_link": "[&AgGwaQEA]",
+    "icon": "https://render.guildwars2.com/file/D46C78F2E7E42774A3BCCA96DFF215E61F07FD26/2236900.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9078
+      ]
+    }
+  },
+  {
+    "name": "Bringer's Rimed Verdant Short Bow of Ice",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 9079,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92594,
+    "chat_link": "[&AgGyaQEA]",
+    "icon": "https://render.guildwars2.com/file/A3DC31643C7FD0B36F05C36348637FA4CAB87EFA/2236540.png",
+    "details": {
+      "type": "ShortBow",
+      "damage_type": "Physical",
+      "min_power": 905,
+      "max_power": 1000,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "infix_upgrade": {
+        "id": 1032,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 171
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 171
+          },
+          {
+            "attribute": "ConditionDuration",
+            "modifier": 239
+          }
+        ]
+      },
+      "suffix_item_id": 24555,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Festive Sweater",
+    "description": "<c=@flavor>The height of form, function, and fashion for the wintry season.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 9087,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92595,
+    "chat_link": "[&AgGzaQEA]",
+    "icon": "https://render.guildwars2.com/file/04FDA4EBDE737AB01E2C57020A5B167F52E512D8/2237437.png",
+    "details": {
+      "type": "Coat",
+      "weight_class": "Medium",
+      "defense": 338,
+      "infusion_slots": [],
+      "attribute_adjustment": 384.12,
+      "infix_upgrade": {
+        "id": 628,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 134
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 96
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 96
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Bringer's Rimed Verdant Longbow of Ice",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 9066,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92596,
+    "chat_link": "[&AgG0aQEA]",
+    "icon": "https://render.guildwars2.com/file/DC5FA34349CA9D5DACBC022DB51ABE03EFDD4D06/2236539.png",
+    "details": {
+      "type": "LongBow",
+      "damage_type": "Physical",
+      "min_power": 920,
+      "max_power": 1080,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "infix_upgrade": {
+        "id": 1032,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 171
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 171
+          },
+          {
+            "attribute": "ConditionDuration",
+            "modifier": 239
+          }
+        ]
+      },
+      "suffix_item_id": 24555,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Roar",
+    "description": "Roar alongside your skyscale companion.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92597,
+    "chat_link": "[&AgG1aQEA]",
+    "icon": "https://render.guildwars2.com/file/26FD7A62F70728743F5E030B22363D00F9E19BDE/103068.png"
+  },
+  {
+    "name": "Starlight Wings Backpack",
+    "description": "This will replace the appearance of one back slot item of any weight class and unlock the skin in your account wardrobe.\n\nThis back slot skin has no stats of its own.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92599,
+    "chat_link": "[&AgG3aQEA]",
+    "icon": "https://render.guildwars2.com/file/05A0A8E673A1B97BC5BBDCF4AB4BCA4F18FA120E/2236595.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9061
+      ]
+    }
+  },
+  {
+    "name": "Bringer's Rimed Verdant Mace of Ice",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 9060,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92600,
+    "chat_link": "[&AgG4aQEA]",
+    "icon": "https://render.guildwars2.com/file/01F0E4611EB4A9B8C09DE3F0B0E4ED03C4267B5F/2236560.png",
+    "details": {
+      "type": "Mace",
+      "damage_type": "Physical",
+      "min_power": 895,
+      "max_power": 1010,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 1032,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 85
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 85
+          },
+          {
+            "attribute": "ConditionDuration",
+            "modifier": 120
+          }
+        ]
+      },
+      "suffix_item_id": 24555,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Bringer's Rimed Verdant Dagger of Ice",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 9077,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92601,
+    "chat_link": "[&AgG5aQEA]",
+    "icon": "https://render.guildwars2.com/file/475B1C322ED1464151077C70DA55C8E8B6FB4270/2236544.png",
+    "details": {
+      "type": "Dagger",
+      "damage_type": "Physical",
+      "min_power": 924,
+      "max_power": 981,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 1032,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 85
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 85
+          },
+          {
+            "attribute": "ConditionDuration",
+            "modifier": 120
+          }
+        ]
+      },
+      "suffix_item_id": 24555,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Bringer's Rimed Verdant Warhorn of Ice",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 9075,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92602,
+    "chat_link": "[&AgG6aQEA]",
+    "icon": "https://render.guildwars2.com/file/C37C1535E10280E23BB3976C3C01955E181BB965/2236587.png",
+    "details": {
+      "type": "Warhorn",
+      "damage_type": "Physical",
+      "min_power": 814,
+      "max_power": 900,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 1032,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 85
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 85
+          },
+          {
+            "attribute": "ConditionDuration",
+            "modifier": 120
+          }
+        ]
+      },
+      "suffix_item_id": 24555,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Bringer's Rimed Verdant Blade of Ice",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 9065,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92603,
+    "chat_link": "[&AgG7aQEA]",
+    "icon": "https://render.guildwars2.com/file/0E3805FE2D7372E6A1A3CA9519787492B7C00D07/2236578.png",
+    "details": {
+      "type": "Sword",
+      "damage_type": "Physical",
+      "min_power": 905,
+      "max_power": 1000,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 1032,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 85
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 85
+          },
+          {
+            "attribute": "ConditionDuration",
+            "modifier": 120
+          }
+        ]
+      },
+      "suffix_item_id": 24555,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Wintersday Adventure: Silver",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92604,
+    "chat_link": "[&AgG8aQEA]",
+    "icon": "https://render.guildwars2.com/file/EB06E07FD75BEBF77506A278402AC5B843315F4E/1201556.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Frostfire Outfit",
+    "description": "Double-click to wear this outfit.\n\nOutfits are full sets of clothing that hide other armor. This will not change individual armor pieces, and you will still receive your current armor stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92605,
+    "chat_link": "[&AgG9aQEA]",
+    "icon": "https://render.guildwars2.com/file/3F09681F4CD9D37F533E0CC65ADB76F069450A97/2236638.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Outfit"
+    }
+  },
+  {
+    "name": "Bringer's Rimed Verdant Torch of Ice",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 9074,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92606,
+    "chat_link": "[&AgG+aQEA]",
+    "icon": "https://render.guildwars2.com/file/433BC3A56B0073A3DF061DF89998B16F6962666A/2236583.png",
+    "details": {
+      "type": "Torch",
+      "damage_type": "Physical",
+      "min_power": 789,
+      "max_power": 926,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 1032,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 85
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 85
+          },
+          {
+            "attribute": "ConditionDuration",
+            "modifier": 120
+          }
+        ]
+      },
+      "suffix_item_id": 24555,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Sit",
+    "description": "The Grove is bound to have areas that are great to take a load off.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92607,
+    "chat_link": "[&AgG/aQEA]",
+    "icon": "https://render.guildwars2.com/file/4D51CD45304B51D259CCEBEE39E879271C1C945D/2237600.png"
+  },
+  {
+    "name": "Candy Cane Ramp",
+    "description": "A decoration schematic that is processed by the guild's assembly device to make the decoration.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92608,
+    "chat_link": "[&AgHAaQEA]",
+    "icon": "https://render.guildwars2.com/file/0590AFD6AB4A05AE205B44C7E05F55E264035EAF/2236528.png",
+    "details": {
+      "type": "Generic",
+      "guild_upgrade_id": 1137
+    }
+  },
+  {
+    "name": "Mythic Axe Skin",
+    "description": "Double-click to apply this look to any other axe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92609,
+    "chat_link": "[&AgHBaQEA]",
+    "icon": "https://render.guildwars2.com/file/DEEFAE0B2CC8C994395896020709035FF3310E41/2236668.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9056
+      ]
+    }
+  },
+  {
+    "name": "Mythic Mace Skin",
+    "description": "Double-click to apply this look to any other mace.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92610,
+    "chat_link": "[&AgHCaQEA]",
+    "icon": "https://render.guildwars2.com/file/650676B664327F59B5737D0B6528B450FCF8FBFE/2236786.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9059
+      ]
+    }
+  },
+  {
+    "name": "Black Lion Wintersday Weapons Selection",
+    "description": "Use this item to select your choice of Black Lion Trading Company weapons from a special selection.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92611,
+    "chat_link": "[&AgHDaQEA]",
+    "icon": "https://render.guildwars2.com/file/3EDD940505B26511A200E2D9CF9992D840B7DF5F/2236635.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Mythic Greatsword Skin",
+    "description": "Double-click to apply this look to any other greatsword.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92612,
+    "chat_link": "[&AgHEaQEA]",
+    "icon": "https://render.guildwars2.com/file/B4AB420C687907D2F5F05F787BE7BD271496467C/2236752.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9057
+      ]
+    }
+  },
+  {
+    "name": "Frostfire Glider",
+    "description": "This will unlock the glider skin in your account wardrobe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92613,
+    "chat_link": "[&AgHFaQEA]",
+    "icon": "https://render.guildwars2.com/file/3949F1BFF2DCBAD5F20B0ED94C2063BD96717FD9/2236633.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "GliderSkin"
+    }
+  },
+  {
+    "name": "Festive Sweater",
+    "description": "<c=@flavor>A special gift for the icy season. Double-click to choose a reward.</c>",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 256,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92614,
+    "chat_link": "[&AgHGaQEA]",
+    "icon": "https://render.guildwars2.com/file/04FDA4EBDE737AB01E2C57020A5B167F52E512D8/2237437.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Peppermint Arrow",
+    "description": "A decoration schematic that is processed by the guild's assembly device to make the decoration.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92615,
+    "chat_link": "[&AgHHaQEA]",
+    "icon": "https://render.guildwars2.com/file/4858343750A647AA42DCEC1749F433C0ECBFDB0C/2236530.png",
+    "details": {
+      "type": "Generic",
+      "guild_upgrade_id": 1138
+    }
+  },
+  {
+    "name": "Bringer's Rimed Verdant Hammer of Ice",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 9069,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92616,
+    "chat_link": "[&AgHIaQEA]",
+    "icon": "https://render.guildwars2.com/file/7964088060F8FF5BD14967D64B574AF2B513C6AF/2236556.png",
+    "details": {
+      "type": "Hammer",
+      "damage_type": "Physical",
+      "min_power": 985,
+      "max_power": 1111,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "infix_upgrade": {
+        "id": 1032,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 171
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 171
+          },
+          {
+            "attribute": "ConditionDuration",
+            "modifier": 239
+          }
+        ]
+      },
+      "suffix_item_id": 24555,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Mythic Scepter Skin",
+    "description": "Double-click to apply this look to any other scepter.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92617,
+    "chat_link": "[&AgHJaQEA]",
+    "icon": "https://render.guildwars2.com/file/B0EE3364A20C085DCD0855453678BEA3663871CD/2236819.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9068
+      ]
+    }
+  },
+  {
+    "name": "Black Lion Winter's Weapons Selection",
+    "description": "Use this item to select your choice of Black Lion Trading Company weapons from a special selection.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92618,
+    "chat_link": "[&AgHKaQEA]",
+    "icon": "https://render.guildwars2.com/file/F02DB094DEAFD27602D0739053B27AE1CAF80204/1822158.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Mythic Focus Skin",
+    "description": "Double-click to apply this look to any other focus.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92619,
+    "chat_link": "[&AgHLaQEA]",
+    "icon": "https://render.guildwars2.com/file/A1AFD2012502AD106BA95BA02973D1E0407D2CBE/2236734.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9054
+      ]
+    }
+  },
+  {
+    "name": "Bringer's Rimed Verdant Greatsword of Ice",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 9058,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92620,
+    "chat_link": "[&AgHMaQEA]",
+    "icon": "https://render.guildwars2.com/file/2AA27A68634A63C2BE76E901953F01D2CEFC74FD/2236552.png",
+    "details": {
+      "type": "Greatsword",
+      "damage_type": "Physical",
+      "min_power": 995,
+      "max_power": 1100,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "infix_upgrade": {
+        "id": 1032,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 171
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 171
+          },
+          {
+            "attribute": "ConditionDuration",
+            "modifier": 239
+          }
+        ]
+      },
+      "suffix_item_id": 24555,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Bringer's Rimed Verdant Focus of Ice",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 9088,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92621,
+    "chat_link": "[&AgHNaQEA]",
+    "icon": "https://render.guildwars2.com/file/02530AB00621613E91D306D632A30C55D215C5D9/2236548.png",
+    "details": {
+      "type": "Focus",
+      "damage_type": "Physical",
+      "min_power": 832,
+      "max_power": 883,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 1032,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 85
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 85
+          },
+          {
+            "attribute": "ConditionDuration",
+            "modifier": 120
+          }
+        ]
+      },
+      "suffix_item_id": 24555,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Mythic Sword Skin",
+    "description": "Double-click to apply this look to any other sword.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92622,
+    "chat_link": "[&AgHOaQEA]",
+    "icon": "https://render.guildwars2.com/file/04330E2962F954C834686945A7A03EF6D4C1533C/2236867.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9082
+      ]
+    }
+  },
+  {
+    "name": "Mini Skyscale Pet",
+    "description": "Double-click to summon this mini to follow you around. Only one mini may be in use at a time.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92623,
+    "chat_link": "[&AgHPaQEA]",
+    "icon": "https://render.guildwars2.com/file/0A6639C4196590DFAB98FD68A5D3E61EF402F3C2/2236639.png",
+    "details": {
+      "minipet_id": 796
+    }
+  },
+  {
+    "name": "Diviner's Shining Aureate Targe of Luck",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 9124,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92624,
+    "chat_link": "[&AgHQaQEA]",
+    "icon": "https://render.guildwars2.com/file/0DD60F18792A1DBF384B9B401852BFAF1C9D6B53/2242642.png",
+    "details": {
+      "type": "Shield",
+      "damage_type": "Physical",
+      "min_power": 806,
+      "max_power": 909,
+      "defense": 61,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 1556,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 102
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 56
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 56
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 102
+          }
+        ]
+      },
+      "suffix_item_id": 24591,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Draconic Warhorn Skin",
+    "description": "Double-click to apply this look to any other warhorn.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 92625,
+    "chat_link": "[&AgHRaQEA]",
+    "icon": "https://render.guildwars2.com/file/7FD2613AD5091C4AB296E9059DA3DB0B44A1706E/2242982.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9128
+      ]
+    }
+  },
+  {
+    "name": "Draconic Hammer Skin",
+    "description": "Double-click to apply this look to any other hammer.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 92626,
+    "chat_link": "[&AgHSaQEA]",
+    "icon": "https://render.guildwars2.com/file/EA59AC9CA2EB90AD307FA5EC413404447A084CB5/2242790.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9125
+      ]
+    }
+  },
+  {
+    "name": "Draconic Axe Skin",
+    "description": "Double-click to apply this look to any other axe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 92627,
+    "chat_link": "[&AgHTaQEA]",
+    "icon": "https://render.guildwars2.com/file/A576CD09B6EE5F9C6925F8FCD8EA48702B29DA72/2242689.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9113
+      ]
+    }
+  },
+  {
+    "name": "Diviner's Shining Aureate Warhammer of Luck",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 9102,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92628,
+    "chat_link": "[&AgHUaQEA]",
+    "icon": "https://render.guildwars2.com/file/DED1A9F60E49734E20ADBD29D82C13185C6EC8C8/2242623.png",
+    "details": {
+      "type": "Hammer",
+      "damage_type": "Physical",
+      "min_power": 985,
+      "max_power": 1111,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "infix_upgrade": {
+        "id": 1556,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 205
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 113
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 113
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 205
+          }
+        ]
+      },
+      "suffix_item_id": 24591,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Diviner's Shining Aureate Highlander Greatsword of Luck",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 9121,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92629,
+    "chat_link": "[&AgHVaQEA]",
+    "icon": "https://render.guildwars2.com/file/91ACC380E0945BD8AB0EB9EA6F51501ABA223F98/2242619.png",
+    "details": {
+      "type": "Greatsword",
+      "damage_type": "Physical",
+      "min_power": 995,
+      "max_power": 1100,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "infix_upgrade": {
+        "id": 1556,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 205
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 113
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 113
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 205
+          }
+        ]
+      },
+      "suffix_item_id": 24591,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Diviner's Shining Aureate Mace of Luck",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 9099,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92631,
+    "chat_link": "[&AgHXaQEA]",
+    "icon": "https://render.guildwars2.com/file/0308B49C9220087A1C1B460736665C0DC8059198/2242625.png",
+    "details": {
+      "type": "Mace",
+      "damage_type": "Physical",
+      "min_power": 895,
+      "max_power": 1010,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 1556,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 102
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 56
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 56
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 102
+          }
+        ]
+      },
+      "suffix_item_id": 24591,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Lucky Great Rat Lantern",
+    "type": "Back",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 8888,
+    "default_skin": 9120,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92632,
+    "chat_link": "[&AgHYaQEA]",
+    "icon": "https://render.guildwars2.com/file/51140550A84CF361DED99F12C9787D9E0DEBB63A/2242564.png",
+    "details": {
+      "infusion_slots": [],
+      "attribute_adjustment": 85.36,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539,
+        1717,
+        1687,
+        1826
+      ],
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Diviner's Shining Aureate Dirk of Luck",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 9127,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92633,
+    "chat_link": "[&AgHZaQEA]",
+    "icon": "https://render.guildwars2.com/file/CFF2476AD64A9D5A4BAD4D98D459115051CD4257/2242611.png",
+    "details": {
+      "type": "Dagger",
+      "damage_type": "Physical",
+      "min_power": 924,
+      "max_power": 981,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 1556,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 102
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 56
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 56
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 102
+          }
+        ]
+      },
+      "suffix_item_id": 24591,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Glacial Logging Tool",
+    "description": "Perfect for use on all types of trees. Unlimited use.",
+    "type": "Gathering",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 192,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92634,
+    "chat_link": "[&AgHaaQEA]",
+    "icon": "https://render.guildwars2.com/file/71DFA909066D5AE204D0F3DCA098EDF105CA067B/2242668.png",
+    "details": {
+      "type": "Logging"
+    }
+  },
+  {
+    "name": "Diviner's Shining Aureate Rinblade of Luck",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 9119,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92635,
+    "chat_link": "[&AgHbaQEA]",
+    "icon": "https://render.guildwars2.com/file/280DA21B42F1AF040F1A9D0C3CAE551DD0BDE3A9/2242650.png",
+    "details": {
+      "type": "Sword",
+      "damage_type": "Physical",
+      "min_power": 905,
+      "max_power": 1000,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 1556,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 102
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 56
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 56
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 102
+          }
+        ]
+      },
+      "suffix_item_id": 24591,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Diviner's Shining Aureate Warhorn of Luck",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 9095,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92637,
+    "chat_link": "[&AgHdaQEA]",
+    "icon": "https://render.guildwars2.com/file/9B383703F3390551A11103781E379768970FDCDE/2242659.png",
+    "details": {
+      "type": "Warhorn",
+      "damage_type": "Physical",
+      "min_power": 814,
+      "max_power": 900,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 1556,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 102
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 56
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 56
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 102
+          }
+        ]
+      },
+      "suffix_item_id": 24591,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Black Lion Exclusive Mount Selection",
+    "description": "Choice of one of several Black Lion exclusive mount skins. Right-click to preview available mount skins.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92638,
+    "chat_link": "[&AgHeaQEA]",
+    "icon": "https://render.guildwars2.com/file/A89F050A06702A0305F4FB5EA44D6FAA944A5B77/2242670.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Fireworks Spaulders",
+    "description": "<c=@flavor>Always ready to celebrate in the new year.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 291,
+    "default_skin": 9111,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92639,
+    "chat_link": "[&AgHfaQEA]",
+    "icon": "https://render.guildwars2.com/file/BE78170CE4AC0D75CF0AD592AEE507BD012851BB/2243001.png",
+    "details": {
+      "type": "Shoulders",
+      "weight_class": "Medium",
+      "defense": 97,
+      "infusion_slots": [],
+      "attribute_adjustment": 128.04,
+      "infix_upgrade": {
+        "id": 559,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 21
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 21
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 21
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 21
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 21
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 21
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 21
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 21
+          },
+          {
+            "attribute": "ConditionDuration",
+            "modifier": 21
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Draconic Dagger Skin",
+    "description": "Double-click to apply this look to any other dagger.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 92640,
+    "chat_link": "[&AgHgaQEA]",
+    "icon": "https://render.guildwars2.com/file/97BA05C8C75D262D08FC30B896BA4CEB4F942DA6/2242730.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9110
+      ]
+    }
+  },
+  {
+    "name": "Draconic Rifle Skin",
+    "description": "Double-click to apply this look to any other rifle.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 92641,
+    "chat_link": "[&AgHhaQEA]",
+    "icon": "https://render.guildwars2.com/file/DDDD57015C1D2A9BD079D8690D4312DB48603EE0/2242844.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9107
+      ]
+    }
+  },
+  {
+    "name": "Diviner's Shining Aureate Virge of Luck",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 9098,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92642,
+    "chat_link": "[&AgHiaQEA]",
+    "icon": "https://render.guildwars2.com/file/300B0ED9373604D84506DCC411B024D7F19E15CC/2242638.png",
+    "details": {
+      "type": "Scepter",
+      "damage_type": "Physical",
+      "min_power": 895,
+      "max_power": 1010,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 1556,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 102
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 56
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 56
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 102
+          }
+        ]
+      },
+      "suffix_item_id": 24591,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Timekeeper's Logging Axe",
+    "description": "Used to chop down all saplings.\n\n33% chance to complete gathering instantly.",
+    "type": "Gathering",
+    "level": 60,
+    "rarity": "Fine",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "NotUpgradeable",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92643,
+    "chat_link": "[&AgHjaQEA]",
+    "icon": "https://render.guildwars2.com/file/BE3233A53D4B0B41D37F350AD707B4AC322798A9/2242666.png",
+    "details": {
+      "type": "Logging"
+    }
+  },
+  {
+    "name": "Racing in the New Year: Silver",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92644,
+    "chat_link": "[&AgHkaQEA]",
+    "icon": "https://render.guildwars2.com/file/EB06E07FD75BEBF77506A278402AC5B843315F4E/1201556.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Draconic Mace Skin",
+    "description": "Double-click to apply this look to any other mace.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 92645,
+    "chat_link": "[&AgHlaQEA]",
+    "icon": "https://render.guildwars2.com/file/6469FC2C2EFDDD145B805407F01D65F35EB305EF/2242808.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9106
+      ]
+    }
+  },
+  {
+    "name": "Fireworks Spaulders",
+    "description": "<c=@flavor>A special gift for the new year. Double-click to choose a reward.</c>",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 256,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92646,
+    "chat_link": "[&AgHmaQEA]",
+    "icon": "https://render.guildwars2.com/file/BE78170CE4AC0D75CF0AD592AEE507BD012851BB/2243001.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Draconic Longbow Skin",
+    "description": "Double-click to apply this look to any other longbow.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 92647,
+    "chat_link": "[&AgHnaQEA]",
+    "icon": "https://render.guildwars2.com/file/C7FFCD06937F59183115DD077876564F793C49AB/2242707.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9094
+      ]
+    }
+  },
+  {
+    "name": "Draconic Pistol Skin",
+    "description": "Double-click to apply this look to any other pistol.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 92648,
+    "chat_link": "[&AgHoaQEA]",
+    "icon": "https://render.guildwars2.com/file/A403C920C39F10306CDA0EAF579CE1BD9B62BF1F/2242826.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9118
+      ]
+    }
+  },
+  {
+    "name": "Mini Essence of Luck",
+    "description": "Double-click to summon this mini to follow you around. Only one mini may be in use at a time.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 256,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 92649,
+    "chat_link": "[&AgHpaQEA]",
+    "icon": "https://render.guildwars2.com/file/522C77FF7317E45E52F725F309D7E60992D05052/2243029.png",
+    "details": {
+      "minipet_id": 798
+    }
+  },
+  {
+    "name": "Draconic Shield Skin",
+    "description": "Double-click to apply this look to any other shield.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 92650,
+    "chat_link": "[&AgHqaQEA]",
+    "icon": "https://render.guildwars2.com/file/A7B3D5E366F96877EAC1BA981F49BF45A26467B1/2242880.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9130
+      ]
+    }
+  },
+  {
+    "name": "Rat Statue",
+    "description": "A decoration schematic that is processed by the guild's assembly device to make the decoration.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92651,
+    "chat_link": "[&AgHraQEA]",
+    "icon": "https://render.guildwars2.com/file/2F2C552FA3B3A3AF6306CB974772A9B768CA9911/2242597.png",
+    "details": {
+      "type": "Generic",
+      "guild_upgrade_id": 1141
+    }
+  },
+  {
+    "name": "Celestial Rat Cape",
+    "description": "This will replace the appearance of one back slot item of any weight class and unlock the skin in your account wardrobe.\n\nThis back slot skin has no stats of its own.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 6250,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92652,
+    "chat_link": "[&AgHsaQEA]",
+    "icon": "https://render.guildwars2.com/file/B90D3C2F03C6F2FDC93478F40E6A24AE1F5BE671/2242664.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9131
+      ]
+    }
+  },
+  {
+    "name": "Timekeeper's Mining Pick",
+    "description": "Used to mine all metals.\n\n33% chance to complete gathering instantly.",
+    "type": "Gathering",
+    "level": 60,
+    "rarity": "Fine",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "NotUpgradeable",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92653,
+    "chat_link": "[&AgHtaQEA]",
+    "icon": "https://render.guildwars2.com/file/AA0A9B6AD7FBBE2C04FEACC337FFA2452E80C348/2242667.png",
+    "details": {
+      "type": "Mining"
+    }
+  },
+  {
+    "name": "Golden Rat Figurine",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Junk",
+    "vendor_value": 8888,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92654,
+    "chat_link": "[&AgHuaQEA]",
+    "icon": "https://render.guildwars2.com/file/95A6DFAC5E0CD35C6964EB80A86D97AC4440E65A/2242633.png"
+  },
+  {
+    "name": "Draconic Short Bow Skin",
+    "description": "Double-click to apply this look to any other short bow.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 92655,
+    "chat_link": "[&AgHvaQEA]",
+    "icon": "https://render.guildwars2.com/file/9EE92180AC3C0469E2590D47E2077C144B73FF34/2242900.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9105
+      ]
+    }
+  },
+  {
+    "name": "Draconic Greatsword Skin",
+    "description": "Double-click to apply this look to any other greatsword.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 92656,
+    "chat_link": "[&AgHwaQEA]",
+    "icon": "https://render.guildwars2.com/file/19370F6790F5E57271E3FA1873BAA141B09E0A03/2242772.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9129
+      ]
+    }
+  },
+  {
+    "name": "Draconic Torch Skin",
+    "description": "Double-click to apply this look to any other torch.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 92657,
+    "chat_link": "[&AgHxaQEA]",
+    "icon": "https://render.guildwars2.com/file/97C8DC030EC7E23DD6665598C137D4CD19041D41/2242964.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9117
+      ]
+    }
+  },
+  {
+    "name": "Lucky Rat Lantern",
+    "type": "Back",
+    "level": 65,
+    "rarity": "Rare",
+    "vendor_value": 888,
+    "default_skin": 9097,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92658,
+    "chat_link": "[&AgHyaQEA]",
+    "icon": "https://render.guildwars2.com/file/D62DA97544AFBA47F73D014260FFC04A47D039C4/2242563.png",
+    "details": {
+      "infusion_slots": [],
+      "attribute_adjustment": 56.034,
+      "stat_choices": [
+        144,
+        145,
+        152,
+        142,
+        146,
+        149,
+        755
+      ],
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Token of the Celestial Champion",
+    "description": "Found in the final chest of Celestial Challenge or by completing Lunar New Year achievements. Grants the bearer the right to purchase additional discounted lucky envelopes.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92659,
+    "chat_link": "[&AgHzaQEA]",
+    "icon": "https://render.guildwars2.com/file/67711D644F17915EBAA63B7A30DF53B264E6121F/2242654.png"
+  },
+  {
+    "name": "Draconic Staff Skin",
+    "description": "Double-click to apply this look to any other staff.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 92660,
+    "chat_link": "[&AgH0aQEA]",
+    "icon": "https://render.guildwars2.com/file/D99CF217F5BBEB03F52BF74FEEFF600CC26EAC0F/2242921.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9103
+      ]
+    }
+  },
+  {
+    "name": "Diviner's Shining Aureate Staff of Luck",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 9104,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92661,
+    "chat_link": "[&AgH1aQEA]",
+    "icon": "https://render.guildwars2.com/file/2CD8B7607F0B02560F04C73D101009FC06C17E58/2242646.png",
+    "details": {
+      "type": "Staff",
+      "damage_type": "Physical",
+      "min_power": 985,
+      "max_power": 1111,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "infix_upgrade": {
+        "id": 1556,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 205
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 113
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 113
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 205
+          }
+        ]
+      },
+      "suffix_item_id": 24591,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Diviner's Shining Aureate Charm of Luck",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 9132,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92662,
+    "chat_link": "[&AgH2aQEA]",
+    "icon": "https://render.guildwars2.com/file/5C1E9C3B452F4C6D5BAA49611DE39E06A59739A6/2242615.png",
+    "details": {
+      "type": "Focus",
+      "damage_type": "Physical",
+      "min_power": 832,
+      "max_power": 883,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 1556,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 102
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 56
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 56
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 102
+          }
+        ]
+      },
+      "suffix_item_id": 24591,
+      "secondary_suffix_item_id": ""
+    }
+  },
+  {
+    "name": "Racing in the New Year: Bronze",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92663,
+    "chat_link": "[&AgH3aQEA]",
+    "icon": "https://render.guildwars2.com/file/E280B3A05B14E5110F17323B282F99974602F2C2/1201554.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Shining Aureate Weapon Chest",
+    "description": "<c=@flavor>A special reward for the new year. Double-click to choose a reward.</c>",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 256,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92664,
+    "chat_link": "[&AgH4aQEA]",
+    "icon": "https://render.guildwars2.com/file/C428075197D90DB0A1DD4C74567B5A7E0457EA70/2242596.png",
+    "details": {
+      "type": "Default"
+    }
+  }
+]

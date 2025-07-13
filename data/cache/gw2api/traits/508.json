@@ -1,0 +1,33 @@
+{
+  "id": 508,
+  "tier": 2,
+  "order": 0,
+  "name": "Enclos de reconstruction",
+  "description": "Vous conférez Protection aux alliés à proximité lorsque vous utilisez une compétence de soins.",
+  "slot": "Minor",
+  "facts": [
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/CD77D1FAB7B270223538A8F8ECDA1CFB044D65F4/102834.png",
+      "duration": 3,
+      "status": "Protection",
+      "description": "Dégâts de frappe subis réduits de 33%. La durée est cumulable.",
+      "apply_count": 1
+    },
+    {
+      "text": "Nombre de cibles alliées",
+      "type": "Number",
+      "icon": "https://render.guildwars2.com/file/BBE8191A494B0352259C10EADFDACCE177E6DA5B/1770208.png",
+      "value": 5
+    },
+    {
+      "text": "Rayon",
+      "type": "Distance",
+      "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+      "distance": 360
+    }
+  ],
+  "specialization": 47,
+  "icon": "https://render.guildwars2.com/file/6A76E8D3262097AFFADB54DD3C9FE4F93DBC1C5E/1012376.png"
+}

@@ -1,0 +1,30 @@
+{
+  "id": 669,
+  "tier": 2,
+  "order": 2,
+  "name": "Puissance chaotique",
+  "description": "Vous obtenez des Dégâts par altération. Lorsque vous maniez un bâton, vous gagnez des Dégâts par altération supplémentaires. Les compétences de bâton et de trident se rechargent plus vite.",
+  "slot": "Major",
+  "facts": [
+    {
+      "text": "Réduction du temps de recharge",
+      "type": "Percent",
+      "icon": "https://render.guildwars2.com/file/AAB7C5387A08367C2F023F19FEE70E1556AD4375/1770202.png",
+      "percent": 20
+    },
+    {
+      "type": "AttributeAdjust",
+      "icon": "https://render.guildwars2.com/file/0120CB042BFC2EA6A45BC3DB45155FECDDDE1910/2229318.png",
+      "value": 120,
+      "target": "ConditionDamage"
+    },
+    {
+      "type": "AttributeAdjust",
+      "icon": "https://render.guildwars2.com/file/0120CB042BFC2EA6A45BC3DB45155FECDDDE1910/2229318.png",
+      "value": 120,
+      "target": "ConditionDamage"
+    }
+  ],
+  "specialization": 45,
+  "icon": "https://render.guildwars2.com/file/4BAB6E9C6C672B740742CA1BCE8013C95F1829B6/1012467.png"
+}

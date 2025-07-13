@@ -1,0 +1,40 @@
+{
+  "id": 1160,
+  "tier": 1,
+  "order": 0,
+  "name": "Restauration protectrice",
+  "description": "Vous conférez Barrière et une aura noire aux alliés à proximité lorsque vous utilisez une compétence de Guérison.",
+  "slot": "Major",
+  "facts": [
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/9471B12401BB04730A0614E277FEFD6AE43C5251/2261519.png",
+      "duration": 4,
+      "status": "Aura noire",
+      "description": "Vous émettez une aura noire qui réduit les dégâts d'altération subis et inflige Tourment chaque fois que vous êtes touché (1 seconde de temps de recharge par attaquant).",
+      "apply_count": 1
+    },
+    {
+      "text": "Barrière",
+      "type": "AttributeAdjust",
+      "icon": "https://render.guildwars2.com/file/357922487919E8E84B914EAC13D5796DDDC42D14/1770209.png",
+      "value": 1044,
+      "target": "Healing"
+    },
+    {
+      "text": "Rayon",
+      "type": "Distance",
+      "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+      "distance": 360
+    },
+    {
+      "text": "Nombre de cibles alliées",
+      "type": "Number",
+      "icon": "https://render.guildwars2.com/file/BBE8191A494B0352259C10EADFDACCE177E6DA5B/1770208.png",
+      "value": 5
+    }
+  ],
+  "specialization": 20,
+  "icon": "https://render.guildwars2.com/file/3B7C573FBF124EC43F4102D530DE5E333F31014F/1012750.png"
+}

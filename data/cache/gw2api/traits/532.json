@@ -1,0 +1,47 @@
+{
+  "id": 532,
+  "tier": 1,
+  "order": 0,
+  "name": "Décharge statique",
+  "description": "Libère un éclair dès que vous utilisez une compétence de la ceinture utilitaire.",
+  "slot": "Major",
+  "skills": [
+    {
+      "name": "Décharge statique",
+      "facts": [
+        {
+          "text": "Range",
+          "type": "Range",
+          "icon": "https://render.guildwars2.com/file/0AAB34BEB1C9F4A25EC612DDBEACF3E20B2810FA/156666.png",
+          "value": 1200
+        },
+        {
+          "text": "Dégât",
+          "type": "Damage",
+          "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+          "hit_count": 1,
+          "dmg_multiplier": 0.33
+        },
+        {
+          "text": "Nombre de rebonds",
+          "type": "Number",
+          "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png",
+          "value": 2
+        },
+        {
+          "text": "Augmentation des dégâts critiques",
+          "type": "Percent",
+          "icon": "https://render.guildwars2.com/file/0658D833944E69E62E08EB18A0B5407F722125BC/2229320.png",
+          "percent": 100
+        }
+      ],
+      "description": "Envoie des arcs de chaînes d'éclairs frappant plusieurs ennemis. Les coups critiques infligés par cette capacité infligent plus de dégâts.",
+      "icon": "https://render.guildwars2.com/file/01D310FE65DBA378CBAFD13B2BFEDE59939C5153/102964.png",
+      "flags": [],
+      "id": 13552,
+      "chat_link": "[&BvA0AAA=]"
+    }
+  ],
+  "specialization": 21,
+  "icon": "https://render.guildwars2.com/file/0A376A98B571BCD3DAB7CD0C51343C3921AB0C34/1012378.png"
+}

@@ -1,0 +1,22 @@
+{
+  "supabase": {
+    "project_id": "votre_project_id",
+    "project_url": "https://votre_project_ref.supabase.co",
+    "public_anon_key": "votre_anon_key",
+    "public_url": "https://votre_project_ref.supabase.co",
+    "jwt_secret": "votre_jwt_secret_ou_laissez_vide_pour_en_generer_un",
+    "service_role_key": "votre_service_role_key_ultra_secret"
+  },
+  "database": {
+    "host": "db.votre_project_ref.supabase.co",
+    "port": 5432,
+    "name": "postgres",
+    "user": "postgres",
+    "password": "votre_mot_de_passe_tres_secret",
+    "ssl_mode": "require"
+  },
+  "deployment": {
+    "auto_migrate": true,
+    "migrations_path": "./migrations"
+  }
+}

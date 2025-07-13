@@ -1,0 +1,84 @@
+{
+  "id": 253,
+  "tier": 1,
+  "order": 0,
+  "name": "Précision des arcanes",
+  "description": "Vos coups critiques ont une chance d'infliger une altération en fonction de votre affinité.",
+  "slot": "Major",
+  "facts": [
+    {
+      "text": "Recharge",
+      "type": "Recharge",
+      "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+      "value": 3
+    },
+    {
+      "text": "Chance lors d'un coup critique",
+      "type": "Percent",
+      "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png",
+      "percent": 33
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "PrefixedBuff",
+      "icon": "https://render.guildwars2.com/file/B47BF5803FED2718D7474EAF9617629AD068EE10/102849.png",
+      "duration": 2,
+      "status": "En feu",
+      "description": "Inflige des dégâts à chaque seconde. Intensité cumulable.",
+      "apply_count": 1,
+      "prefix": {
+        "text": "Apply Buff/Condition",
+        "icon": "https://render.guildwars2.com/file/1C91E9C799469ACC6EAF1ACD4B0AD8ACAB0C69A2/103035.png",
+        "status": "Affinité avec le feu",
+        "description": "Lance des sorts de feu."
+      }
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "PrefixedBuff",
+      "icon": "https://render.guildwars2.com/file/3A394C1A0A3257EB27A44842DDEEF0DF000E1241/102850.png",
+      "duration": 10,
+      "status": "Vulnérabilité",
+      "description": "Les dégâts et Dégâts par altération sont augmentés. Intensité cumulable.",
+      "apply_count": 1,
+      "prefix": {
+        "text": "Apply Buff/Condition",
+        "icon": "https://render.guildwars2.com/file/737E1B9F7855B9F5D3DE1C990CD42118EF3D1C92/102820.png",
+        "status": "Affinité avec l'eau",
+        "description": "Lance des sorts d'eau."
+      }
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "PrefixedBuff",
+      "icon": "https://render.guildwars2.com/file/6CB0E64AF9AA292E332A38C1770CE577E2CDE0E8/102853.png",
+      "duration": 3,
+      "status": "Faiblesse",
+      "description": "Régénération d'endurance réduite de 50%. 50% des coups sont des effleurements (50% des dégâts). Durée cumulable.",
+      "apply_count": 1,
+      "prefix": {
+        "text": "Apply Buff/Condition",
+        "icon": "https://render.guildwars2.com/file/4857F59020DE3B0950B9C91F3D234A1C1932984A/103048.png",
+        "status": "Affinité avec l'air",
+        "description": "Lance des sorts d'air."
+      }
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "PrefixedBuff",
+      "icon": "https://render.guildwars2.com/file/79FF0046A5F9ADA3B4C4EC19ADB4CB124D5F0021/102848.png",
+      "duration": 5,
+      "status": "Saignement",
+      "description": "Inflige des dégâts à chaque seconde. Intensité cumulable.",
+      "apply_count": 1,
+      "prefix": {
+        "text": "Apply Buff/Condition",
+        "icon": "https://render.guildwars2.com/file/4B8056D9BD080DC8E74AE6A57B2B383A2D4265C9/102870.png",
+        "status": "Affinité avec la terre",
+        "description": "Lance des sorts de terre."
+      }
+    }
+  ],
+  "specialization": 37,
+  "icon": "https://render.guildwars2.com/file/1CB6B7903F10246E9405DD625380161FCD4E6C23/1012282.png"
+}

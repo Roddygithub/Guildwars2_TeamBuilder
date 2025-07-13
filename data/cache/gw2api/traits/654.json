@@ -1,0 +1,109 @@
+{
+  "id": 654,
+  "tier": 1,
+  "order": 2,
+  "name": "Restauration du protecteur",
+  "description": "Vous lancez Symbole de protection inférieur quand vous utilisez une compétence de Guérison.",
+  "slot": "Major",
+  "skills": [
+    {
+      "name": "Symbole de protection inférieur",
+      "facts": [
+        {
+          "text": "Recharge",
+          "type": "Recharge",
+          "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+          "value": 20
+        },
+        {
+          "text": "Dégât",
+          "type": "Damage",
+          "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+          "hit_count": 1,
+          "dmg_multiplier": 0.6
+        },
+        {
+          "text": "Apply Buff/Condition",
+          "type": "Buff",
+          "icon": "https://render.guildwars2.com/file/CD77D1FAB7B270223538A8F8ECDA1CFB044D65F4/102834.png",
+          "duration": 1,
+          "status": "Protection",
+          "description": "Dégâts de frappe subis réduits de 33%. La durée est cumulable.",
+          "apply_count": 1
+        },
+        {
+          "text": "Nombre de cibles",
+          "type": "Number",
+          "icon": "https://render.guildwars2.com/file/BBE8191A494B0352259C10EADFDACCE177E6DA5B/1770208.png",
+          "value": 5
+        },
+        {
+          "text": "Pulsations",
+          "type": "Number",
+          "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png",
+          "value": 2
+        },
+        {
+          "text": "Durée du Symbole",
+          "type": "Time",
+          "icon": "https://render.guildwars2.com/file/7B2193ACCF77E56C13E608191B082D68AA0FAA71/156659.png",
+          "duration": 2
+        },
+        {
+          "text": "Rayon",
+          "type": "Distance",
+          "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+          "distance": 180
+        },
+        {
+          "text": "Combo Field",
+          "type": "ComboField",
+          "icon": "https://render.guildwars2.com/file/59E0DB6A699810641C959926ADFEF73E08CC255B/156655.png",
+          "field_type": "Light"
+        }
+      ],
+      "description": "Symbole. Vous créez un symbole qui confère Protection à vous et vos alliés.",
+      "icon": "https://render.guildwars2.com/file/E56B3804B2F82E3256A82318E537D024DC57E271/103161.png",
+      "flags": [],
+      "id": 13684,
+      "chat_link": "[&BnQ1AAA=]",
+      "traited_facts": [
+        {
+          "text": "Dégât",
+          "type": "Damage",
+          "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+          "requires_trait": 649,
+          "hit_count": 1,
+          "dmg_multiplier": 0.78,
+          "overrides": 1
+        },
+        {
+          "text": "Pulsations",
+          "type": "Number",
+          "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png",
+          "value": 3,
+          "requires_trait": 558,
+          "overrides": 4
+        },
+        {
+          "text": "Durée du Symbole",
+          "type": "Time",
+          "icon": "https://render.guildwars2.com/file/7B2193ACCF77E56C13E608191B082D68AA0FAA71/156659.png",
+          "duration": 3,
+          "requires_trait": 558,
+          "overrides": 5
+        },
+        {
+          "text": "Rayon",
+          "type": "Distance",
+          "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+          "distance": 240,
+          "requires_trait": 558,
+          "overrides": 6
+        }
+      ]
+    }
+  ],
+  "specialization": 49,
+  "icon": "https://render.guildwars2.com/file/DB1111AB10B1D3FAA67EF4957A0167BB1E61C90C/1012404.png"
+}

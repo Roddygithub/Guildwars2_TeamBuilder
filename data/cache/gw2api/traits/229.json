@@ -1,0 +1,111 @@
+{
+  "id": 229,
+  "tier": 2,
+  "order": 0,
+  "name": "Inscription",
+  "description": "Bénéficiez d'avantages basés sur votre affinité actuelle quand vous lancez un <c=@abilitytype>glyphe</c>.",
+  "slot": "Major",
+  "facts": [
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/50BAC1B8E10CFAB9E749A5D910D4A9DCF29EBB7C/961398.png",
+      "duration": 3,
+      "status": "Résistance",
+      "description": "Les altérations n'infligeant pas de dégâts que vous subissez sont inefficaces. La durée est cumulable.",
+      "apply_count": 1
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "PrefixedBuff",
+      "icon": "https://render.guildwars2.com/file/2FA9DF9D6BC17839BBEA14723F1C53D645DDB5E1/102852.png",
+      "duration": 10,
+      "status": "Pouvoir",
+      "description": "Les dégâts infligés sont augmentés. Intensité cumulable.",
+      "apply_count": 1,
+      "prefix": {
+        "text": "Apply Buff/Condition",
+        "icon": "https://render.guildwars2.com/file/1C91E9C799469ACC6EAF1ACD4B0AD8ACAB0C69A2/103035.png",
+        "status": "Affinité avec le feu",
+        "description": "Lance des sorts de feu."
+      }
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "PrefixedBuff",
+      "icon": "https://render.guildwars2.com/file/2FA9DF9D6BC17839BBEA14723F1C53D645DDB5E1/102852.png",
+      "duration": 6,
+      "status": "Pouvoir",
+      "description": "Les dégâts infligés sont augmentés. Intensité cumulable.",
+      "apply_count": 3,
+      "prefix": {
+        "text": "Apply Buff/Condition",
+        "icon": "https://render.guildwars2.com/file/1C91E9C799469ACC6EAF1ACD4B0AD8ACAB0C69A2/103035.png",
+        "status": "Affinité avec le feu",
+        "description": "Lance des sorts de feu."
+      }
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "PrefixedBuff",
+      "icon": "https://render.guildwars2.com/file/F69996772B9E18FD18AD0AABAB25D7E3FC42F261/102835.png",
+      "duration": 10,
+      "status": "Régénération",
+      "description": "Vous regagnez de la santé à chaque seconde. La durée est cumulable.",
+      "apply_count": 1,
+      "prefix": {
+        "text": "Apply Buff/Condition",
+        "icon": "https://render.guildwars2.com/file/737E1B9F7855B9F5D3DE1C990CD42118EF3D1C92/102820.png",
+        "status": "Affinité avec l'eau",
+        "description": "Lance des sorts d'eau."
+      }
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "PrefixedBuff",
+      "icon": "https://render.guildwars2.com/file/F69996772B9E18FD18AD0AABAB25D7E3FC42F261/102835.png",
+      "duration": 5,
+      "status": "Régénération",
+      "description": "Vous regagnez de la santé à chaque seconde. La durée est cumulable.",
+      "apply_count": 1,
+      "prefix": {
+        "text": "Apply Buff/Condition",
+        "icon": "https://render.guildwars2.com/file/737E1B9F7855B9F5D3DE1C990CD42118EF3D1C92/102820.png",
+        "status": "Affinité avec l'eau",
+        "description": "Lance des sorts d'eau."
+      }
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "PrefixedBuff",
+      "icon": "https://render.guildwars2.com/file/20CFC14967E67F7A3FD4A4B8722B4CF5B8565E11/102836.png",
+      "duration": 10,
+      "status": "Rapidité",
+      "description": "Vitesse de déplacement augmentée de 33%. La durée est cumulable.",
+      "apply_count": 1,
+      "prefix": {
+        "text": "Apply Buff/Condition",
+        "icon": "https://render.guildwars2.com/file/4857F59020DE3B0950B9C91F3D234A1C1932984A/103048.png",
+        "status": "Affinité avec l'air",
+        "description": "Lance des sorts d'air."
+      }
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "PrefixedBuff",
+      "icon": "https://render.guildwars2.com/file/CD77D1FAB7B270223538A8F8ECDA1CFB044D65F4/102834.png",
+      "duration": 3,
+      "status": "Protection",
+      "description": "Dégâts de frappe subis réduits de 33%. La durée est cumulable.",
+      "apply_count": 1,
+      "prefix": {
+        "text": "Apply Buff/Condition",
+        "icon": "https://render.guildwars2.com/file/4B8056D9BD080DC8E74AE6A57B2B383A2D4265C9/102870.png",
+        "status": "Affinité avec la terre",
+        "description": "Lance des sorts de terre."
+      }
+    }
+  ],
+  "specialization": 41,
+  "icon": "https://render.guildwars2.com/file/0157D1D40CF9B505B907DB95149F767A6FDB09DD/1012273.png"
+}

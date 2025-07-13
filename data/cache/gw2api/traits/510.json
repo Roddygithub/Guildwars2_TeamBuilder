@@ -1,0 +1,36 @@
+{
+  "id": 510,
+  "tier": 3,
+  "order": 0,
+  "name": "Réaction réciproque",
+  "description": "Vous recevez Célérité et Stabilité lorsque vous neutralisez un ennemi.",
+  "slot": "Major",
+  "facts": [
+    {
+      "text": "Recharge",
+      "type": "Recharge",
+      "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+      "value": 1
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/D4AB6401A6D6917C3D4F230764452BCCE1035B0D/1012835.png",
+      "duration": 5,
+      "status": "Célérité",
+      "description": "Les compétences et les actions sont plus rapides.",
+      "apply_count": 1
+    },
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/3D3A1C2D6D791C05179AB871902D28782C65C244/415959.png",
+      "duration": 5,
+      "status": "Stabilité",
+      "description": "Immunisé contre les altérations Renversement, Repoussement, Attraction, Projection, Étourdissement, Stupeur, Flottaison, Noyade, Peur ou Incitation.",
+      "apply_count": 1
+    }
+  ],
+  "specialization": 38,
+  "icon": "https://render.guildwars2.com/file/68380515301D93ABD5E7A4C89748F80CD819EB3F/1012357.png"
+}

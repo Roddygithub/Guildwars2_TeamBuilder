@@ -1,0 +1,60 @@
+{
+  "id": 581,
+  "tier": 1,
+  "order": 1,
+  "name": "Avantage du châtiment",
+  "description": "Vous lancez Purge des altérations mineure quand vous utilisez une compétence de Guérison.",
+  "slot": "Major",
+  "skills": [
+    {
+      "name": "Purge d'altération inférieure",
+      "facts": [
+        {
+          "text": "Recharge",
+          "type": "Recharge",
+          "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+          "value": 16
+        },
+        {
+          "text": "Dégâts sans altération",
+          "type": "Damage",
+          "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+          "hit_count": 1,
+          "dmg_multiplier": 0.85
+        },
+        {
+          "text": "Dégâts avec altération",
+          "type": "Damage",
+          "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+          "hit_count": 1,
+          "dmg_multiplier": 1.9
+        },
+        {
+          "text": "Altérations dissipées",
+          "type": "Number",
+          "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png",
+          "value": 2
+        },
+        {
+          "text": "Rayon",
+          "type": "Distance",
+          "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+          "distance": 360
+        },
+        {
+          "text": "Nombre de cibles",
+          "type": "Number",
+          "icon": "https://render.guildwars2.com/file/BBE8191A494B0352259C10EADFDACCE177E6DA5B/1770208.png",
+          "value": 5
+        }
+      ],
+      "description": "Méditation. Vous dissipez des altérations et blessez les ennemis à proximité. Vous infligez plus de dégâts si une altération est dissipée.",
+      "icon": "https://render.guildwars2.com/file/DB5FBEBBD092642AE39C99F7CD3521EB41C0D717/103644.png",
+      "flags": [],
+      "id": 9101,
+      "chat_link": "[&Bo0jAAA=]"
+    }
+  ],
+  "specialization": 13,
+  "icon": "https://render.guildwars2.com/file/21B93A5D0C246A42957222350B45C00A14DF0DB7/1012427.png"
+}

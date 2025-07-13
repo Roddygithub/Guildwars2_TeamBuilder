@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GW2 Team Builder</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>GW2 Team Builder</h1>
+            <p>Créez des compositions d'équipe optimisées pour le WvW</p>
+        </header>
+        
+        <main>
+            <section class="team-input">
+                <h2>Configuration de l'équipe</h2>
+                <div class="form-group">
+                    <label for="teamSize">Taille de l'équipe :</label>
+                    <input type="number" id="teamSize" min="1" max="50" value="5">
+                </div>
+                <div class="form-group">
+                    <label>Style de jeu :</label>
+                    <select id="playstyle">
+                        <option value="zerg">Zerg</option>
+                        <option value="havoc">Havoc</option>
+                        <option value="roaming">Roaming</option>
+                    </select>
+                </div>
+                <button id="generateBtn">Générer l'équipe</button>
+            </section>
+
+            <section class="team-output">
+                <h2>Composition suggérée</h2>
+                <div id="teamComposition" class="team-composition">
+                    <p class="placeholder">Générez une composition pour voir les résultats</p>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>GW2 Team Builder v0.1.0</p>
+        </footer>
+    </div>
+
+    <script src="/static/js/app.js"></script>
+</body>
+</html>

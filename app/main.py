@@ -54,9 +54,13 @@ def ping() -> dict[str, str]:
     return {"status": "ok"}
 
 
-# Routers (to be added incrementally)
+# Routers
 from app.api.teams import router as teams_router
+from app.api.endpoints.builds import router as builds_router
+
+# Inclure les routeurs
 app.include_router(teams_router)
+app.include_router(builds_router)
 
 
 if __name__ == "__main__":

@@ -12,7 +12,7 @@ from typing import List
 from sqlalchemy.orm import Session
 
 from app.database import SessionLocal
-from app.models import Profession
+from app.scoring.constants import Profession
 from app.scoring.engine import PlayerBuild
 from app.data.builds_metadata import get_builds
 

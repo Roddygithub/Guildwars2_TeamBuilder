@@ -1,0 +1,41 @@
+[run]
+source = app
+omit = 
+    */tests/*
+    */__pycache__/*
+    */migrations/*
+    */alembic/*
+    */venv/*
+    */env/*
+    */.venv/*
+    */.env/*
+    */node_modules/*
+    */static/*
+    */templates/*
+    */docs/*
+    */build/*
+    */dist/*
+    */scripts/*
+    */tests/performance/*
+
+[report]
+# Seuil de couverture pour considérer un fichier comme couvert
+precision = 2
+exclude_lines =
+    # Ne pas signaler les lignes vides comme non couvertes
+    pragma: no cover
+    def __repr__
+    raise NotImplementedError
+    if __name__ == .__main__.:
+    pass
+    raise ImportError
+    @abstractmethod
+    
+# Ignorer les méthodes magiques standard
+exclude_regex =
+    ^\s*def __[a-z][a-zA-Z0-9_]*__\s*\(\s*[^)]*\)\s*:
+    ^\s*@(?:property|abstractmethod|classmethod|staticmethod)
+    ^\s*class [A-Z][a-zA-Z0-9_]*\([^)]*\):
+    ^\s*#.*$
+    ^\s*$
+    ^\s*"{3}.*"{3}\s*$

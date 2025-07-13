@@ -1,0 +1,33 @@
+{
+  "id": 281,
+  "tier": 2,
+  "order": 1,
+  "name": "Solide comme le roc",
+  "description": "Les alliés à proximité bénéficient de Stabilité quand vous entrez en affinité avec la terre.\n<c=@reminder>Remarque : cet effet ne s'active pas si vous entrez en affinité avec le même élément.</c>",
+  "slot": "Major",
+  "facts": [
+    {
+      "text": "Apply Buff/Condition",
+      "type": "Buff",
+      "icon": "https://render.guildwars2.com/file/3D3A1C2D6D791C05179AB871902D28782C65C244/415959.png",
+      "duration": 3,
+      "status": "Stabilité",
+      "description": "Immunisé contre les altérations Renversement, Repoussement, Attraction, Projection, Étourdissement, Stupeur, Flottaison, Noyade, Peur ou Incitation.",
+      "apply_count": 1
+    },
+    {
+      "text": "Nombre de cibles",
+      "type": "Number",
+      "icon": "https://render.guildwars2.com/file/BBE8191A494B0352259C10EADFDACCE177E6DA5B/1770208.png",
+      "value": 5
+    },
+    {
+      "text": "Rayon",
+      "type": "Distance",
+      "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+      "distance": 240
+    }
+  ],
+  "specialization": 26,
+  "icon": "https://render.guildwars2.com/file/4D23C1FE504D402ABF3E80F30FE396A9FA55A63E/1012298.png"
+}
