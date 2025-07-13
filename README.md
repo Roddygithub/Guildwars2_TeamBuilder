@@ -2,20 +2,43 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.115.0-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/YOUR_NETLIFY_SITE_ID/deploy-status)](https://app.netlify.com/sites/YOUR_NETLIFY_SITE_NAME/deploys)
 
 Un outil avancé pour optimiser les compositions d'équipe dans Guild Wars 2, spécialement conçu pour le mode Monde contre Monde (WvW).
 
+## 🚀 Technologies Principales
+
+- **Backend**: [FastAPI](https://fastapi.tiangolo.com/) - Framework web moderne et rapide (basé sur Starlette et Pydantic)
+- **Base de données**: PostgreSQL avec SQLAlchemy ORM
+- **Authentification**: JWT (JSON Web Tokens)
+- **Documentation API**: Intégration avec Swagger UI et ReDoc
+- **Frontend**: React avec TypeScript (dans le dossier `ui/`)
+
 ## 🚀 Fonctionnalités (en développement)
+
+### Backend (FastAPI)
+
+- 🎯 **API RESTful** avec documentation interactive (Swagger/ReDoc)
+- 🔐 **Authentification** sécurisée avec JWT
+- 🧩 **Modèles Pydantic** pour une validation des données robuste
+- ⚡ **Asynchrone** pour de meilleures performances
+- 🔄 **Intégration** avec l'API officielle de Guild Wars 2
+
+### Frontend (React)
+
+- 🌐 **Interface utilisateur moderne** et réactive
+- 📱 **Responsive design** pour tous les appareils
+- 🔄 **Gestion d'état** avec Redux ou React Query
+- 🎨 **Thème personnalisable**
+
+### Fonctionnalités GW2
 
 - 🎯 **Génération de builds optimisés** basée sur des solveurs de contraintes
 - 🧩 **Modélisation complète** des données GW2 (équipements, compétences, traits)
 - 🤝 **Analyse des synergies** entre les membres de l'équipe
 - 🛡️ **Support des rôles** : DPS, Support, Heal, Boon Support, etc.
-- 🔄 **Intégration** avec l'API officielle de Guild Wars 2
-- 🌐 **Application web** avec interface utilisateur moderne
-- ⚡ **Déploiement simplifié** avec Netlify Functions
 
 ## 🛠 Prérequis
 
@@ -43,42 +66,114 @@ Pour une documentation complète sur le déploiement et la configuration, consul
 ### Développement local
 
 1. Cloner le dépôt :
+
    ```bash
    git clone https://github.com/Roddygithub/Guildwars2_TeamBuilder.git
    cd Guildwars2_TeamBuilder
    ```
 
 2. Configurer l'environnement :
-   - Copier `.env.example` vers `.env`
-   - Mettre à jour les variables d'environnement si nécessaire
 
-3. Installer les dépendances du backend :
+   - Copier `.env.example` vers `.env`
+   - Mettre à jour les variables d'environnement, notamment :
+
+     ```ini
+     # Base de données
+     DATABASE_URL=postgresql://user:password@localhost:5432/gw2_teambuilder
+     
+     # Authentification
+     SECRET_KEY=votre_secret_key_très_long_et_sécurisée
+     ALGORITHM=HS256
+     ACCESS_TOKEN_EXPIRE_MINUTES=1440  # 24 heures
+     
+     # Configuration FastAPI
+     ENVIRONMENT=development
+     DEBUG=True
+     ```
+
+3. Créer et activer un environnement virtuel (recommandé) :
+
    ```bash
-   python -m pip install -r requirements.txt
+   python -m venv venv
+   
+   # Sur Windows :
+   .\venv\Scripts\activate
+   
+   # Sur macOS/Linux :
+   source venv/bin/activate
    ```
 
-4. Installer les dépendances du frontend :
+4. Installer les dépendances du backend :
+
+   ```bash
+   pip install --upgrade pip
+   pip install -r requirements.txt
+   ```
+
+5. Configurer la base de données :
+
+   ```bash
+   # Appliquer les migrations
+   alembic upgrade head
+   
+   # (Optionnel) Charger des données initiales
+   python scripts/seed_data.py
+   ```
+
+6. Installer les dépendances du frontend :
+
    ```bash
    cd ui
    npm install
    cd ..
    ```
 
-5. Démarrer le serveur de développement :
+7. Démarrer le serveur de développement :
+
    ```bash
    # Dans un premier terminal (backend) :
-   uvicorn app.main:app --reload --port 8001
-   
-   # Dans un second terminal (frontend) :
+   uvicorn app.main:app --reload --port 8001 --reload-dir app
+   ```
+
+   Le serveur API sera disponible à : `http://localhost:8001`
+
+   - Documentation interactive : `http://localhost:8001/docs`
+   - Documentation alternative : `http://localhost:8001/redoc`
+
+8. Démarrer le frontend (dans un autre terminal) :
+
+   ```bash
    cd ui
+   npm install
    npm run dev
    ```
 
-L'application sera disponible à l'adresse : `http://localhost:5173`
+   L'interface utilisateur sera disponible à : `http://localhost:5173`
+
+## 📚 Documentation de l'API
+
+La documentation complète de l'API est disponible via l'interface Swagger UI à l'adresse `/docs` une fois le serveur démarré.
+
+### Points de terminaison principaux
+
+- `GET /api/v1/builds` - Liste tous les builds
+- `POST /api/v1/builds` - Crée un nouveau build
+- `GET /api/v1/builds/{build_id}` - Récupère un build spécifique
+- `POST /api/v1/analyze/team` - Analyse une équipe complète
+- `POST /api/v1/auth/token` - Authentification (JWT)
+
+## 🔒 Sécurité
+
+- Toutes les routes d'API (sauf `/auth/*` et `/docs`) nécessitent une authentification
+- Les mots de passe sont hachés avec bcrypt
+- Les tokens JWT sont utilisés pour l'authentification
+- Protection contre les attaques CSRF
+- Headers de sécurité HTTP configurés
 
 ## 🚀 Déploiement sur Netlify avec Supabase
 
 ### Configuration requise
+
 - Un compte [Netlify](https://www.netlify.com/)
 - Un compte [Supabase](https://supabase.com/) (gratuit)
 - Un compte [GitHub](https://github.com/) (recommandé pour le déploiement continu)
@@ -86,18 +181,24 @@ L'application sera disponible à l'adresse : `http://localhost:5173`
 ## Configuration de Supabase
 
 1. **Créez un projet Supabase** :
+
    - Connectez-vous à [Supabase](https://supabase.com/)
    - Créez un nouveau projet dans une région proche de vos utilisateurs
    - Notez les informations de connexion (URL et mot de passe)
 
 2. **Configurez la base de données** :
+
    - Installez les dépendances requises :
+
      ```bash
      pip install -r scripts/requirements-db.txt
      ```
+
    - Exécutez le script de configuration :
+
      ```bash
-     python scripts/setup_supabase.py --database-url "postgresql://postgres:VOTRE_MOT_DE_PASSE@db.VOTRE_PROJET_REF.supabase.co:5432/postgres"
+     python scripts/setup_supabase.py --database-url \
+       "postgresql://postgres:VOTRE_MOT_DE_PASSE@db.VOTRE_PROJET_REF.supabase.co:5432/postgres"
      ```
    - Remplacez `VOTRE_MOT_DE_PASSE` et `VOTRE_PROJET_REF` par vos informations Supabase
 

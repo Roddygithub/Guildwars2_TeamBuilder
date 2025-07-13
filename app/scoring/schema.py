@@ -426,6 +426,37 @@ class RoleCoverage(BaseModel):
         }
 
 
+class GroupCoverage(BaseModel):
+    """Couverture des buffs pour un groupe spécifique.
+    
+    Attributes:
+        size: Nombre de joueurs dans le groupe.
+        buffs: Liste des buffs disponibles dans le groupe.
+        players: Liste des professions des joueurs du groupe.
+    """
+    size: int = Field(..., ge=1, description="Nombre de joueurs dans le groupe")
+    buffs: List[str] = Field(
+        default_factory=list,
+        description="Liste des buffs disponibles dans le groupe"
+    )
+    players: List[str] = Field(
+        default_factory=list,
+        description="Liste des professions des joueurs du groupe"
+    )
+    
+    # Configuration du modèle
+    model_config = ConfigDict(
+        frozen=True,
+        json_schema_extra={
+            "example": {
+                "size": 5,
+                "buffs": ["quickness", "alacrity", "might"],
+                "players": ["Firebrand", "Herald", "Scourge", "Scourge", "Scrapper"]
+            }
+        }
+    )
+
+
 class TeamScoreResult(BaseModel):
     """Résultat complet de l'évaluation d'une équipe.
     
@@ -441,6 +472,7 @@ class TeamScoreResult(BaseModel):
         role_breakdown: Détail des scores par rôle.
         buff_coverage: État de couverture de chaque buff.
         role_coverage: État de couverture de chaque rôle.
+        group_coverage: État de couverture des buffs par groupe.
         timestamp: Horodatage de l'évaluation.
     """
     total_score: float = Field(..., ge=0.0, le=1.0, description="Score global de l'équipe (0.0 à 1.0)")
@@ -468,30 +500,48 @@ class TeamScoreResult(BaseModel):
         description="État de couverture de chaque rôle"
     )
     
+    group_coverage: Dict[str, GroupCoverage] = Field(
+        default_factory=dict,
+        description="État de couverture des buffs par groupe (group_1, group_2, etc.)"
+    )
+    
     timestamp: str = Field(
         default_factory=lambda: datetime.now(UTC).isoformat(),
         description="Horodatage de l'évaluation au format ISO 8601"
     )
     
-    class Config:
-        json_encoders = {
-            BuffType: lambda x: x.value,
-            RoleType: lambda x: x.value
-        }
-        schema_extra = {
+    # Configuration du modèle
+    model_config = ConfigDict(
+        frozen=True,
+        json_schema_extra={
             "example": {
                 "total_score": 0.85,
                 "buff_score": 0.9,
-                "role_score": 0.95,
+                "role_score": 0.8,
                 "duplicate_penalty": 0.1,
                 "buff_breakdown": {"quickness": 1.0, "alacrity": 0.8},
                 "role_breakdown": {"heal": 1.0, "dps": 0.9},
                 "buff_coverage": [
-                    {"buff": "quickness", "covered": True, "weight": 2.0, "provided_by": ["Firebrand"]}
+                    {"buff": "quickness", "covered": True, "provided_by": ["Firebrand"], "weight": 1.0},
+                    {"buff": "alacrity", "covered": True, "provided_by": ["Specter"], "weight": 1.0}
                 ],
                 "role_coverage": [
-                    {"role": "heal", "fulfilled_count": 1, "required_count": 1, "fulfilled": True, "weight": 2.0}
+                    {"role": "heal", "fulfilled_count": 1, "required_count": 1, "fulfilled": True, "weight": 1.0},
+                    {"role": "dps", "fulfilled_count": 4, "required_count": 3, "fulfilled": True, "weight": 0.8}
                 ],
-                "timestamp": "2023-10-26T14:30:00Z"
+                "group_coverage": {
+                    "group_1": {
+                        "size": 5,
+                        "buffs": ["quickness", "alacrity", "might"],
+                        "players": ["Firebrand", "Herald", "Scourge", "Scourge", "Scrapper"]
+                    },
+                    "group_2": {
+                        "size": 3,
+                        "buffs": ["quickness", "might"],
+                        "players": ["Firebrand", "Scourge", "Druid"]
+                    }
+                },
+                "timestamp": "2023-04-15T14:30:00.000Z"
             }
         }
+    )

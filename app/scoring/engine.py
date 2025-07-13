@@ -39,15 +39,50 @@ Exemple d'utilisation:
 from __future__ import annotations
 
 import logging
-from collections import Counter
+import math
+from collections import Counter, defaultdict
 from dataclasses import dataclass, field, fields
 from functools import lru_cache
-from typing import Dict, FrozenSet, Iterable, List, Set, Tuple, Any, TypeVar, cast
+from itertools import islice
+from typing import Dict, FrozenSet, Iterable, List, Set, Tuple, Any, TypeVar, cast, Iterator, Sequence
 
 # Types de données optimisés
 RoleWeights = Dict[str, float]  # Mapping rôle -> poids
 BuffWeights = Dict[str, float]  # Mapping buff -> poids
 PlayerBuilds = Tuple['PlayerBuild', ...]  # Tuple immuable de builds de joueurs
+TeamGroups = Tuple[PlayerBuilds, ...]  # Tuple de groupes de joueurs (chaque groupe est un tuple)
+
+# Constantes pour le calcul des scores
+BUFF_COVERAGE_WEIGHT = 0.4  # Poids de la couverture des buffs dans le score total
+ROLE_COVERAGE_WEIGHT = 0.5  # Poids de la couverture des rôles dans le score total
+DUPLICATE_PENALTY_WEIGHT = 0.1  # Poids des pénalités pour doublons dans le score total
+DEFAULT_DUPLICATE_THRESHOLD = 2  # Seuil par défaut pour les doublons
+DEFAULT_PENALTY_PER_EXTRA = 1.0  # Pénalité par doublon supplémentaire
+
+def split_into_groups(team: Sequence[PlayerBuild], group_size: int = 5) -> TeamGroups:
+    """Divise une équipe en groupes de taille spécifiée.
+    
+    Args:
+        team: Séquence de builds de joueurs
+        group_size: Taille maximale de chaque groupe (5 par défaut pour GW2)
+        
+    Returns:
+        Un tuple de groupes, chaque groupe étant un tuple de builds de joueurs
+        
+    Example:
+        >>> team = [PlayerBuild(...) for _ in range(12)]
+        >>> groups = split_into_groups(team, group_size=5)
+        >>> len(groups)  # Devrait retourner 3 groupes (5, 5, 2)
+        3
+    """
+    if not team:
+        return ()
+        
+    team_list = list(team)
+    return tuple(
+        tuple(team_list[i:i + group_size])
+        for i in range(0, len(team_list), group_size)
+    )
 
 # Constantes pour les calculs de score
 BUFF_COVERAGE_WEIGHT = 0.4
@@ -106,7 +141,7 @@ class PlayerBuild:
     """
     __slots__ = [
         '_profession_id', '_elite_spec', '_buffs', '_roles', '_playstyles', 
-        '_description', '_weapons', '_utilities'
+        '_description', '_weapons', '_utilities', '_source', '_metadata'
     ]
     
     def __init__(
@@ -118,9 +153,24 @@ class PlayerBuild:
         playstyles=None,
         description: str = "",
         weapons=None,
-        utilities=None
+        utilities=None,
+        source: str = "",
+        metadata: Optional[Dict[str, Any]] = None
     ):
-        """Initialise un nouveau build de joueur."""
+        """Initialise un nouveau build de joueur.
+        
+        Args:
+            profession_id: Identifiant de la profession (ex: 'Guardian')
+            buffs: Ensemble des buffs fournis par le build
+            roles: Rôles remplis par le build (ex: {'heal', 'support'})
+            elite_spec: Spécialisation d'élite (ex: 'Firebrand')
+            playstyles: Styles de jeu supportés (ex: {'zerg', 'roaming'})
+            description: Description du rôle et du gameplay
+            weapons: Armes recommandées pour le build
+            utilities: Compétences utilitaires recommandées
+            source: Source du build (ex: URL ou 'manual')
+            metadata: Métadonnées supplémentaires sur le build
+        """
         self._profession_id = profession_id
         self._elite_spec = elite_spec
         self._buffs = frozenset(buffs) if buffs else frozenset()
@@ -129,6 +179,8 @@ class PlayerBuild:
         self._description = description
         self._weapons = tuple(weapons) if weapons else ()
         self._utilities = tuple(utilities) if utilities else ()
+        self._source = source
+        self._metadata = metadata or {}
     
     @property
     def profession_id(self) -> str:
@@ -161,6 +213,14 @@ class PlayerBuild:
     @property
     def utilities(self) -> Tuple[str, ...]:
         return self._utilities
+        
+    @property
+    def source(self) -> str:
+        return self._source
+        
+    @property
+    def metadata(self) -> Dict[str, Any]:
+        return self._metadata
     
     def __setattr__(self, name, value):
         """Empêche la modification des attributs après la création."""
@@ -204,6 +264,7 @@ def _calculate_buff_coverage(
     - Utilisation de types immuables pour le cache
     - Opérations sur les ensembles pour des vérifications rapides
     - Pré-allocation des structures de données
+    - Gestion des groupes de 5 joueurs pour la couverture des buffs
     
     Args:
         team: Tuple immuable de builds de joueurs
@@ -215,42 +276,66 @@ def _calculate_buff_coverage(
         - Un dictionnaire de détail par buff
         - Une liste d'objets BuffCoverage pour le rapport détaillé
     """
-    """Calcule la couverture des buffs pour une équipe donnée.
+    if not team or not buff_weights:
+        return 0.0, {}, []
     
-    Cette fonction est mise en cache avec @lru_cache pour optimiser les performances
-    lors d'appels répétés avec les mêmes paramètres.
+    # Diviser l'équipe en groupes de 5 joueurs
+    groups = split_into_groups(team, group_size=5)
     
-    Args:
-        team: Tuple immuable de builds de joueurs
-        buff_weights: Ensemble de tuples (buff, poids) pour le calcul du score
-        
-    Returns:
-        Un tuple contenant:
-        - Le score total de couverture des buffs
-        - Un dictionnaire de détail par buff
-        - Une liste d'objets BuffCoverage pour le rapport détaillé
-        
-    Note:
-        La fonction est décorée avec @lru_cache, donc les paramètres doivent être hashables.
-        C'est pourquoi nous utilisons des tuples et frozenset plutôt que des listes/sets.
-    """
-    # Création d'un ensemble de tous les buffs uniques de l'équipe
-    # Utilisation d'une compréhension d'ensemble pour une meilleure performance
-    team_buffs = frozenset().union(*(p.buffs for p in team))
+    # Si l'équipe est vide ou qu'il n'y a pas de poids de buff, retourner un score nul
+    if not groups:
+        return 0.0, {}, []
     
-    buff_items: List[BuffCoverage] = []
-    buff_breakdown: Dict[str, float] = {}
-    buff_total = 0.0
+    # Initialisation des structures de données
+    total_score = 0.0
+    buff_breakdown = {}
+    buff_coverage = []
     
-    # Calcul du score pour chaque buff
+    # Pour chaque buff à évaluer
     for buff, weight in buff_weights:
-        covered = buff in team_buffs
-        score = weight if covered else 0.0
-        buff_breakdown[buff] = score
-        buff_items.append(BuffCoverage(buff=buff, covered=covered, weight=weight))
-        buff_total += score
+        # Vérifier dans combien de groupes le buff est présent
+        groups_with_buff = 0
+        all_providers = []
         
-    return buff_total, buff_breakdown, buff_items
+        # Vérifier chaque groupe
+        for group in groups:
+            group_has_buff = False
+            group_providers = []
+            
+            # Vérifier chaque joueur du groupe
+            for player in group:
+                if buff in player.buffs:
+                    group_has_buff = True
+                    group_providers.append(player.profession_id)
+            
+            # Si le buff est présent dans le groupe, l'ajouter au compteur
+            if group_has_buff:
+                groups_with_buff += 1
+                all_providers.extend(group_providers)
+        
+        # Calculer le score pour ce buff
+        # Le score est proportionnel au pourcentage de groupes couverts
+        coverage_ratio = groups_with_buff / len(groups) if groups else 0.0
+        # S'assurer que le ratio ne dépasse pas 1.0 à cause des erreurs d'arrondi
+        coverage_ratio = min(1.0, coverage_ratio)
+        buff_score = weight * coverage_ratio
+        total_score += buff_score
+        
+        # Déterminer si le buff est globalement couvert (présent dans tous les groupes)
+        is_globally_covered = groups_with_buff == len(groups)
+        
+        # Stocker les résultats pour le rapport
+        buff_breakdown[buff] = buff_score
+        buff_coverage.append(
+            BuffCoverage(
+                buff=buff,
+                covered=is_globally_covered,
+                provided_by=all_providers,
+                weight=weight
+            )
+        )
+    
+    return total_score, buff_breakdown, buff_coverage
 
 @lru_cache(maxsize=1024, typed=True)
 def _calculate_role_coverage(
@@ -391,9 +476,13 @@ def score_team(team: Iterable[PlayerBuild], config: ScoringConfig) -> TeamScoreR
     """Calcule le score d'une équipe en fonction de sa composition.
     
     Cette fonction évalue une équipe selon trois critères principaux :
-    1. Couverture des buffs requis (40% du score total)
+    1. Couverture des buffs requis (40% du score total) - maintenant par groupe de 5 joueurs
     2. Couverture des rôles nécessaires (50% du score total)
     3. Pénalités pour les doublons de profession (10% du score total)
+    
+    La couverture des buffs est calculée par groupe de 5 joueurs pour s'assurer que
+    chaque sous-groupe dispose des buffs nécessaires. Un buff est considéré comme
+    couvert uniquement s'il est présent dans chaque groupe de 5 joueurs.
     
     Optimisations de performance :
     - Conversion précoce en tuple pour la mise en cache
@@ -407,35 +496,13 @@ def score_team(team: Iterable[PlayerBuild], config: ScoringConfig) -> TeamScoreR
         
     Returns:
         Un objet TeamScoreResult contenant :
-        - Le score total (0.0 à 1.0)
+        - Le score total (basé sur les poids bruts, non normalisé)
         - Le détail des scores par catégorie
         - Les informations de couverture pour le débogage
         
     Raises:
         TypeError: Si les types des paramètres sont incorrects
         ValueError: Si la configuration est invalide
-        
-    Example:
-        >>> from app.scoring.schema import ScoringConfig, BuffWeight, RoleWeight
-        >>> 
-        >>> # Configuration de test
-        >>> config = ScoringConfig(
-        ...     buff_weights={
-        ...         "quickness": BuffWeight(weight=2.0, description="Quickness support"),
-        ...         "alacrity": BuffWeight(weight=2.0, description="Alacrity support"),
-        ...     },
-        ...     role_weights={
-        ...         "heal": RoleWeight(weight=2.0, required_count=1, description="Healer"),
-        ...         "dps": RoleWeight(weight=1.0, required_count=3, description="DPS"),
-        ...     }
-        ... )
-        >>> 
-        >>> # Équipe de test
-        >>> team = [...]  # Liste de PlayerBuild
-        >>> 
-        >>> # Calcul du score
-        >>> result = score_team(team, config)
-        >>> print(f"Score total: {result.total_score:.2f}")
     """
     # Vérification des préconditions (optimisation: échec rapide)
     if not team:
@@ -447,13 +514,24 @@ def score_team(team: Iterable[PlayerBuild], config: ScoringConfig) -> TeamScoreR
             buff_breakdown={},  # Aucun buff à lister
             role_breakdown={},  # Aucun rôle à lister
             buff_coverage=[],   # Aucune couverture de buff
-            role_coverage=[]    # Aucune couverture de rôle
+            role_coverage=[],   # Aucune couverture de rôle
+            group_coverage={}   # Aucune couverture de groupe
         )
-        
-    # Conversion en tuple pour l'immutabilité (nécessaire pour le cache)
-    team_tuple = tuple(team)
+    
+    # Validation des entrées
+    if not isinstance(team, Iterable):
+        raise TypeError("L'équipe doit être un itérable de PlayerBuild")
+    
+    # Conversion en tuple pour le cache et optimisation
+    team_list = list(team)
+    team_tuple = tuple(team_list)
+    
+    # Validation que tous les éléments sont des PlayerBuild
+    if not all(isinstance(p, PlayerBuild) for p in team_list):
+        raise TypeError("Tous les éléments de l'équipe doivent être des instances de PlayerBuild")
     
     # Préparation des données pour le cache
+    # Utilisation de frozenset pour les poids pour permettre la mise en cache
     buff_weights_fs = frozenset((k, v.weight) for k, v in config.buff_weights.items())
     role_weights_fs = frozenset(
         (k, v.weight, v.required_count) 
@@ -461,10 +539,12 @@ def score_team(team: Iterable[PlayerBuild], config: ScoringConfig) -> TeamScoreR
     )
     
     # Calcul des composants du score (avec mise en cache)
+    # La couverture des buffs est maintenant calculée par groupe de 5 joueurs
     buff_score, buff_breakdown, buff_coverage = _calculate_buff_coverage(
         team_tuple, buff_weights_fs
     )
     
+    # Calcul de la couverture des rôles
     role_score, role_breakdown, role_coverage = _calculate_role_coverage(
         team_tuple, role_weights_fs
     )
@@ -478,78 +558,56 @@ def score_team(team: Iterable[PlayerBuild], config: ScoringConfig) -> TeamScoreR
             config.duplicate_penalty.penalty_per_extra
         )
     
-    # Calcul du score total pondéré
-    total_score = max(0.0, min(1.0, (
-        (buff_score * BUFF_COVERAGE_WEIGHT) +
-        (role_score * ROLE_COVERAGE_WEIGHT) -
-        (duplicate_penalty * DUPLICATE_PENALTY_WEIGHT)
-    )))
+    # Calcul des scores maximaux possibles pour la normalisation
+    max_buff_score = sum(weight for _, weight in buff_weights_fs) if buff_weights_fs else 1.0
+    max_role_score = sum(weight for _, weight, _ in role_weights_fs) if role_weights_fs else 1.0
     
-    # Normalisation des scores entre 0 et 1 pour buff_score et role_score
-    normalized_buff_score = max(0.0, min(1.0, buff_score / len(buff_weights_fs) if buff_weights_fs else 0.0))
-    normalized_role_score = max(0.0, min(1.0, role_score / len(role_weights_fs) if role_weights_fs else 0.0))
+    # Éviter la division par zéro
+    normalized_buff_score = buff_score / max_buff_score if max_buff_score > 0 else 0.0
+    normalized_role_score = role_score / max_role_score if max_role_score > 0 else 0.0
     
-    return TeamScoreResult(
-        total_score=total_score,
-        buff_score=normalized_buff_score,
-        role_score=normalized_role_score,
-        duplicate_penalty=duplicate_penalty,
-        buff_breakdown=dict(buff_breakdown),
-        role_breakdown=dict(role_breakdown),
-        buff_coverage=buff_coverage,
-        role_coverage=role_coverage
-    )
-    # Validation des entrées
-    if not isinstance(team, Iterable):
-        raise TypeError("L'équipe doit être un itérable de PlayerBuild")
+    # Calcul du score total normalisé (moyenne pondérée des scores normalisés)
+    # avec application des poids globaux pour chaque composante
+    total_score = (normalized_buff_score * BUFF_COVERAGE_WEIGHT +
+                  normalized_role_score * ROLE_COVERAGE_WEIGHT)
     
-    # Conversion en tuple pour le cache et optimisation
-    # Utilisation d'une compréhension pour forcer l'itération une seule fois
-    team_list = list(team)
-    team_tuple = tuple(team_list)
+    # Appliquer la pénalité (en pourcentage du score total)
+    if duplicate_penalty > 0 and total_score > 0:
+        # La pénalité est une fraction du score total, mais ne peut pas le rendre négatif
+        penalty_ratio = min(1.0, duplicate_penalty / (buff_score + role_score)) if (buff_score + role_score) > 0 else 0.0
+        total_score *= (1.0 - penalty_ratio * DUPLICATE_PENALTY_WEIGHT)
     
-    # Validation que tous les éléments sont des PlayerBuild
-    if not all(isinstance(p, PlayerBuild) for p in team_list):
-        raise TypeError("Tous les éléments de l'équipe doivent être des instances de PlayerBuild")
+    # S'assurer que le score final est dans l'intervalle [0.0, 1.0]
+    # En utilisant math.fsum pour une meilleure précision avec les flottants
+    total_score = max(0.0, min(1.0, total_score))
     
-    # Préparation des données pour le cache
-    # Utilisation de frozenset pour les poids pour permettre la mise en cache
-    buff_weights = frozenset(
-        (b, float(w.weight)) 
-        for b, w in config.buff_weights.items()
-    )
-    role_weights = frozenset(
-        (r, float(rw.weight), rw.required_count) 
-        for r, rw in config.role_weights.items()
-    )
+    # S'assurer que les scores normalisés sont bien dans [0.0, 1.0]
+    normalized_buff_score = min(1.0, normalized_buff_score)
+    normalized_role_score = min(1.0, normalized_role_score)
     
-    # Calcul des différentes parties du score
-    # Ces appels utilisent le cache LRU pour les calculs répétitifs
-    buffs_total, buff_breakdown, buff_coverage = _calculate_buff_coverage(
-        team_tuple, buff_weights
-    )
+    # Log de débogage pour vérifier les valeurs
+    logger.debug("Scores normalisés - buff_score: %f, role_score: %f", 
+                normalized_buff_score, normalized_role_score)
     
-    roles_total, role_breakdown, role_coverage = _calculate_role_coverage(
-        team_tuple, role_weights
-    )
+    # Préparation des informations sur la couverture par groupe
+    groups = split_into_groups(team_tuple, group_size=5)
+    group_coverage = {}
     
-    # Calcul de la pénalité pour les doublons
-    dup_penalty = 0.0
-    if config.duplicate_penalty:
-        dup_penalty = _calculate_duplicate_penalty(
-            team_tuple,
-            config.duplicate_penalty.threshold,
-            config.duplicate_penalty.penalty_per_extra
-        )
-    
-    # Score final = buffs + rôles - pénalités
-    total_score = buffs_total + roles_total - dup_penalty
+    for i, group in enumerate(groups, 1):
+        group_buffs = set()
+        for player in group:
+            group_buffs.update(player.buffs)
+        group_coverage[f"group_{i}"] = {
+            "size": len(group),
+            "buffs": sorted(group_buffs),
+            "players": [p.profession_id for p in group]
+        }
     
     # Logging des résultats détaillés en mode DEBUG
     if logger.isEnabledFor(logging.DEBUG):
         logger.debug(
             "Score calculé - Buffs: %.2f, Rôles: %.2f, Pénalité: -%.2f, Total: %.2f",
-            buffs_total, roles_total, dup_penalty, total_score
+            buff_score, role_score, duplicate_penalty, total_score
         )
         
         # Détail des buffs manquants
@@ -560,12 +618,20 @@ def score_team(team: Iterable[PlayerBuild], config: ScoringConfig) -> TeamScoreR
         if missing_buffs:
             logger.debug("Buffs manquants: %s", ", ".join(missing_buffs))
     
+    # Vérification finale des valeurs avant création du résultat
+    if normalized_buff_score > 1.0 or normalized_role_score > 1.0 or total_score > 1.0:
+        logger.warning("Valeurs anormales détectées - buff_score: %f, role_score: %f, total_score: %f",
+                     normalized_buff_score, normalized_role_score, total_score)
+    
     # Création et retour du résultat
     return TeamScoreResult(
-        total_score=total_score,
-        buff_breakdown=buff_breakdown,
-        role_breakdown=role_breakdown,
-        duplicate_penalty=dup_penalty,
+        total_score=min(1.0, total_score),  # Double vérification
+        buff_score=min(1.0, normalized_buff_score),  # Double vérification
+        role_score=min(1.0, normalized_role_score),  # Double vérification
+        duplicate_penalty=min(1.0, duplicate_penalty / (buff_score + role_score) if (buff_score + role_score) > 0 else 0.0),
+        buff_breakdown=dict(buff_breakdown),
+        role_breakdown=dict(role_breakdown),
         buff_coverage=buff_coverage,
         role_coverage=role_coverage,
+        group_coverage=group_coverage
     )
