@@ -10,12 +10,12 @@ python-multipart==0.0.9  # Pour le téléchargement de fichiers
 # Database
 SQLAlchemy==2.0.34
 alembic==1.14.1
-psycopg2-binary==2.9.9
+psycopg2-binary==2.9.10
 asyncpg==0.29.0  # Pour le support asynchrone de PostgreSQL
 
 # Data processing
-numpy==1.26.4
-pandas==2.2.2
+numpy==2.3.1
+pandas==2.3.1
 
 # API Client
 requests==2.32.3
