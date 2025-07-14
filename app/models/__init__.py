@@ -35,6 +35,10 @@ from .profession_trinket import ProfessionTrinketType
 
 # 5. Import des modèles Pydantic pour l'API (s'ils n'ont pas de dépendances circulaires)
 from .team import TeamRequest, TeamResponse, TeamComposition, TeamMember, Playstyle
+from .build import BuildData, ProfessionType, RoleType, TraitLine, EquipmentItem
+
+# 5.1 Modèles SQLAlchemy
+from .build_sql import Build
 
 # 6. Configuration des relations entre les modèles
 # Note: Ce module doit être importé après tous les autres modèles
@@ -108,10 +112,7 @@ __all__ = [
     'ProfessionArmorType',
     'ProfessionTrinketType',
     
-    # Modèles Pydantic pour l'API
-    'TeamRequest',
-    'TeamResponse',
-    'TeamComposition',
-    'TeamMember',
-    'Playstyle'
+    # Modèles de l'API
+    'Build', 'BuildData', 'ProfessionType', 'RoleType', 'TraitLine', 'EquipmentItem',
+    'TeamRequest', 'TeamResponse', 'TeamComposition', 'TeamMember', 'Playstyle',
 ]

@@ -115,10 +115,12 @@ def sql_profiler(session: Session):
     Exemple d'utilisation:
         with sql_profiler(session) as profiler:
             # Votre code avec des requêtes SQL
-            result = session.query(User).all()
+            # Remplacez 'YourModel' par le nom de votre modèle
+            # result = session.query(YourModel).all()
+            pass
         
         # Afficher le rapport
-        print(profiler.generate_report())
+        # print(profiler.generate_report())
     """
     analyzer = QueryAnalyzer(session)
     analyzer.start()

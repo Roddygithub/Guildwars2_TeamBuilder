@@ -1,0 +1,285 @@
+openapi: 3.0.0
+info:
+  title: GuildWars2 Team Builder API
+  description: |
+    API pour l'import et l'export de builds pour Guild Wars 2.
+    Cette API permet de gérer les builds de personnages, y compris les compétences,
+    l'équipement et les spécialisations.
+  version: 1.0.0
+  contact:
+    name: Support API
+    email: support@gw2teambuilder.example.com
+  license:
+    name: MIT
+    url: https://opensource.org/licenses/MIT
+
+servers:
+  - url: /api
+    description: Serveur d'API principal
+
+tags:
+  - name: builds
+    description: Opérations sur les builds de personnages
+
+paths:
+  /builds/import:
+    post:
+      tags:
+        - builds
+      summary: Importer un build depuis un fichier
+      description: |
+        Importe un build depuis un fichier JSON au format natif de l'application.
+        Le fichier doit contenir toutes les informations nécessaires pour reconstituer le build.
+      operationId: importBuild
+      requestBody:
+        description: Fichier JSON contenant le build à importer
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                file:
+                  type: string
+                  format: binary
+                  description: Fichier JSON contenant le build
+      responses:
+        '201':
+          description: Build importé avec succès
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PlayerBuildResponse'
+        '400':
+          description: Fichier invalide ou format incorrect
+        '500':
+          description: Erreur serveur lors de l'import
+      security:
+        - api_key: []
+
+  /builds/export:
+    post:
+      tags:
+        - builds
+      summary: Exporter un build directement
+      description: |
+        Exporte un build directement depuis les données fournies dans le corps de la requête.
+        Retourne un fichier JSON contenant le build exporté.
+      operationId: exportBuildDirectly
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/BuildData'
+      responses:
+        '200':
+          description: Build exporté avec succès
+          content:
+            application/octet-stream:
+              schema:
+                type: string
+                format: binary
+        '400':
+          description: Données de build invalides
+        '500':
+          description: Erreur serveur lors de l'export
+
+  /builds/export/{build_id}:
+    get:
+      tags:
+        - builds
+      summary: Exporter un build existant
+      description: Récupère un build existant par son ID et le retourne au format JSON.
+      operationId: exportBuild
+      parameters:
+        - name: build_id
+          in: path
+          description: ID du build à exporter
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Build exporté avec succès
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BuildData'
+        '404':
+          description: Build non trouvé
+        '500':
+          description: Erreur serveur
+
+  /builds/template:
+    get:
+      tags:
+        - builds
+      summary: Obtenir un modèle de build vide
+      description: |
+        Retourne un modèle de build vide avec des valeurs par défaut.
+        Utile pour initialiser un nouvel éditeur de build.
+      operationId: getBuildTemplate
+      responses:
+        '200':
+          description: Modèle de build vide
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BuildData'
+
+components:
+  schemas:
+    BuildData:
+      type: object
+      required:
+        - name
+        - profession
+        - role
+        - specializations
+        - skills
+        - equipment
+      properties:
+        name:
+          type: string
+          description: Nom du build
+          example: "DPS Gardien Feu"
+        profession:
+          type: string
+          enum: ["guardian", "warrior", "engineer", "ranger", "thief", "elementalist", "mesmer", "necromancer", "revenant"]
+          description: Classe du personnage
+          example: "guardian"
+        role:
+          type: string
+          enum: ["dps", "heal", "support", "tank", "hybrid"]
+          description: Rôle principal du build
+          example: "dps"
+        specializations:
+          type: array
+          description: Liste des spécialisations
+          items:
+            $ref: '#/components/schemas/TraitLine'
+          minItems: 3
+          maxItems: 3
+        skills:
+          type: array
+          description: Compétences équipées
+          items:
+            type: integer
+          minItems: 5
+          maxItems: 5
+          example: [62561, 9153, 0, 0, 0]
+        equipment:
+          type: object
+          description: Équipement du personnage
+          additionalProperties:
+            $ref: '#/components/schemas/EquipmentItem'
+        description:
+          type: string
+          description: Description du build
+          example: "Build optimisé pour les raids"
+        version:
+          type: string
+          description: Version du format du build
+          example: "1.0"
+          readOnly: true
+
+    TraitLine:
+      type: object
+      required:
+        - id
+        - name
+        - traits
+      properties:
+        id:
+          type: integer
+          description: ID de la ligne de traits
+          example: 46
+        name:
+          type: string
+          description: Nom de la ligne de traits
+          example: "Zeal"
+        traits:
+          type: array
+          description: Traits sélectionnés (3 par ligne)
+          items:
+            type: integer
+          minItems: 3
+          maxItems: 3
+          example: [909, 914, 909]
+
+    EquipmentItem:
+      type: object
+      properties:
+        id:
+          type: integer
+          description: ID de l'objet
+          example: 48033
+        name:
+          type: string
+          description: Nom de l'objet
+          example: "Heaume de gardien exalté"
+        infusions:
+          type: array
+          description: Liste des infusions
+          items:
+            type: integer
+          example: [49432, 49432]
+        upgrades:
+          type: array
+          description: Liste des améliorations
+          items:
+            type: integer
+          example: [24548, 24548]
+
+    PlayerBuildResponse:
+      type: object
+      properties:
+        profession_id:
+          type: string
+          example: "guardian"
+        elite_spec:
+          type: string
+          nullable: true
+          example: "firebrand"
+        buffs:
+          type: array
+          items:
+            type: string
+          example: ["might", "fury"]
+        roles:
+          type: array
+          items:
+            type: string
+          example: ["dps", "support"]
+        playstyles:
+          type: array
+          items:
+            type: string
+          example: ["power", "condition"]
+        description:
+          type: string
+          example: "Build de test"
+        weapons:
+          type: array
+          items:
+            type: string
+          example: ["sword", "focus"]
+        utilities:
+          type: array
+          items:
+            type: string
+          example: ["mantra", "shout"]
+        source:
+          type: string
+          example: "gw2skills.net"
+        metadata:
+          type: object
+          additionalProperties: {}
+
+  securitySchemes:
+    api_key:
+      type: apiKey
+      name: X-API-Key
+      in: header
+      description: Clé API pour l'authentification

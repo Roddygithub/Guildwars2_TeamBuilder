@@ -7,8 +7,9 @@ from __future__ import annotations
 from typing import Dict, List, Optional, Set, Any
 from datetime import datetime
 
-from sqlalchemy import Column, Integer, String, Text, JSON, Index, ForeignKey, event
+from sqlalchemy import Column, Integer, String, Text, JSON, Index, ForeignKey, event, Table, DateTime, Boolean
 from sqlalchemy.orm import relationship, validates
+from sqlalchemy.sql import func
 
 from app.database import Base
 from app.logging_config import get_logger
@@ -210,6 +211,166 @@ class Skill(Base):
         return f"<Skill(id={self.id}, name='{self.name}', type='{self.skill_type}')>"
 
 
+# Table d'association pour les builds et les compétences
+build_skills = Table(
+    'build_skills',
+    Base.metadata,
+    Column('build_id', Integer, ForeignKey('builds.id'), primary_key=True),
+    Column('skill_id', Integer, ForeignKey('skills.id'), primary_key=True),
+    Column('slot', Integer, nullable=False, comment='Emplacement de la compétence (0-4)')
+)
+
+# Table d'association pour les builds et les spécialisations
+build_specializations = Table(
+    'build_specializations',
+    Base.metadata,
+    Column('build_id', Integer, ForeignKey('builds.id'), primary_key=True),
+    Column('specialization_id', Integer, ForeignKey('specializations.id'), primary_key=True),
+    Column('trait_choices', JSON, nullable=True, comment='Choix de traits pour cette spécialisation')
+)
+
+class Build(Base):
+    """Représente un build de joueur sauvegardé.
+    
+    Ce modèle stocke les informations sur un build de personnage, y compris les compétences,
+    les spécialisations et l'équipement.
+    """
+    __tablename__ = "builds"
+    __table_args__ = (
+        Index('idx_build_name', 'name'),
+        Index('idx_build_profession', 'profession_id'),
+        Index('idx_build_created_at', 'created_at'),
+        {'sqlite_autoincrement': True},
+    )
+
+    id = Column(
+        Integer,
+        primary_key=True,
+        index=True,
+        comment="Identifiant unique du build"
+    )
+    
+    name = Column(
+        String(100),
+        nullable=False,
+        comment="Nom du build"
+    )
+    
+    description = Column(
+        Text,
+        nullable=True,
+        comment="Description du build et notes"
+    )
+    
+    profession_id = Column(
+        String(32),
+        ForeignKey('professions.id', ondelete='CASCADE'),
+        nullable=False,
+        index=True,
+        comment="Identifiant de la profession du build"
+    )
+    
+    elite_spec_id = Column(
+        Integer,
+        ForeignKey('specializations.id', ondelete='SET NULL'),
+        nullable=True,
+        index=True,
+        comment="Identifiant de la spécialisation d'élite (si applicable)"
+    )
+    
+    role = Column(
+        String(50),
+        nullable=False,
+        comment="Rôle principal du build (ex: 'dps', 'heal', 'support', 'tank')"
+    )
+    
+    playstyle = Column(
+        String(50),
+        nullable=True,
+        comment="Style de jeu (ex: 'zerg', 'havoc', 'roaming', 'fractal', 'raid')"
+    )
+    
+    equipment = Column(
+        JSON,
+        nullable=False,
+        default=dict,
+        comment="Équipement du personnage (armes, armures, bijoux, etc.)"
+    )
+    
+    buffs = Column(
+        JSON,
+        nullable=False,
+        default=list,
+        comment="Liste des buffs fournis par le build"
+    )
+    
+    is_public = Column(
+        Boolean,
+        default=True,
+        nullable=False,
+        comment="Si le build est public ou privé"
+    )
+    
+    created_at = Column(
+        DateTime(timezone=True),
+        server_default=func.now(),
+        nullable=False,
+        comment="Date de création du build"
+    )
+    
+    updated_at = Column(
+        DateTime(timezone=True),
+        server_default=func.now(),
+        onupdate=func.now(),
+        nullable=False,
+        comment="Dernière mise à jour du build"
+    )
+    
+    created_by = Column(
+        Integer,
+        ForeignKey('users.id', ondelete='SET NULL'),
+        nullable=True,
+        index=True,
+        comment="ID de l'utilisateur qui a créé le build"
+    )
+    
+    # Relations
+    profession = relationship("Profession", back_populates="builds", cascade="all, delete-orphan")
+    elite_spec = relationship("Specialization")
+    skills = relationship(
+        "Skill",
+        secondary=build_skills,
+        back_populates="builds",
+        viewonly=True
+    )
+    specializations = relationship(
+        "Specialization",
+        secondary=build_specializations,
+        back_populates="builds",
+        viewonly=True
+    )
+    
+    def __repr__(self):
+        return f"<Build {self.id}: {self.name} ({self.profession_id} - {self.role})>"
+    
+    def to_dict(self):
+        """Convertit le build en dictionnaire pour la sérialisation."""
+        return {
+            "id": self.id,
+            "name": self.name,
+            "description": self.description,
+            "profession_id": self.profession_id,
+            "elite_spec_id": self.elite_spec_id,
+            "role": self.role,
+            "playstyle": self.playstyle,
+            "equipment": self.equipment,
+            "buffs": self.buffs,
+            "is_public": self.is_public,
+            "created_at": self.created_at.isoformat() if self.created_at else None,
+            "updated_at": self.updated_at.isoformat() if self.updated_at else None,
+            "created_by": self.created_by
+        }
+
 # Événements et hooks
 @event.listens_for(Profession, 'after_insert')
 def log_profession_insert(mapper, connection, target):
@@ -224,4 +385,3 @@ def log_specialization_insert(mapper, connection, target):
         "Nouvelle spécialisation ajoutée: %s (ID: %d, Élite: %s)",
         target.name, target.id, "Oui" if target.is_elite() else "Non"
     )
-

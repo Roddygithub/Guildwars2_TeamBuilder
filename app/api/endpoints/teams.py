@@ -1,16 +1,22 @@
-from fastapi import APIRouter, HTTPException, BackgroundTasks
-from typing import List, Dict, Any, Optional
-import random
 import logging
+import traceback
 from datetime import datetime, timezone
-from ...models.team import TeamRequest, TeamResponse, TeamComposition, TeamMember, Playstyle
-from ...scoring.engine import score_team, PlayerBuild
-from ...scoring.schema import ScoringConfig, BuffWeight, RoleWeight, DuplicatePenalty, TeamScoreResult
-from ...scoring.constants import GameMode, Role, Profession
-from ...optimizer.simple import optimize as optimize_team
+from typing import Dict, List, Any
 
-# Configuration du logging
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+from fastapi import APIRouter, HTTPException
+
+from app.models.team import TeamRequest, TeamResponse, TeamMember, TeamComposition
+from app.optimizer.simple import optimize as optimize_team
+from app.scoring.engine import PlayerBuild
+from app.scoring.schema import (
+    BuffWeight,
+    DuplicatePenalty,
+    RoleWeight,
+    ScoringConfig,
+    TeamScoreResult,
+)
+
+# Configuration du logger
 logger = logging.getLogger(__name__)
 
 router = APIRouter(prefix="/teams", tags=["teams"])
@@ -81,7 +87,6 @@ def _format_score_breakdown(score_result: TeamScoreResult) -> Dict[str, float]:
 @router.post("/generate", response_model=TeamResponse)
 async def generate_team(
     request: TeamRequest,
-    background_tasks: BackgroundTasks
 ) -> TeamResponse:
     """Génère une ou plusieurs compositions d'équipe optimisées.
     
@@ -96,7 +101,11 @@ async def generate_team(
         HTTPException: En cas d'erreur lors de la génération de l'équipe.
     """
     try:
-        logger.info(f"Génération d'une équipe de {request.team_size} joueurs pour le style de jeu: {request.playstyle}")
+        logger.info(
+            "Génération d'une équipe de %s joueurs pour le style de jeu: %s",
+            request.team_size,
+            request.playstyle
+        )
         
         # 1. Valider la requête
         if request.team_size < 1 or request.team_size > 50:
@@ -107,7 +116,10 @@ async def generate_team(
         
         # 2. Utiliser l'optimiseur pour générer les meilleures équipes
         # On génère 1000 échantillons et on garde les 3 meilleures équipes
-        logger.info(f"Démarrage de l'optimisation pour une équipe de {request.team_size} joueurs...")
+        logger.info(
+            "Démarrage de l'optimisation pour une équipe de %s joueurs...",
+            request.team_size
+        )
         try:
             results = optimize_team(
                 team_size=request.team_size,
@@ -116,10 +128,16 @@ async def generate_team(
                 config=_DEFAULT_CONFIG,
                 random_seed=42  # Pour la reproductibilité
             )
-            logger.info(f"Optimisation terminée. {len(results) if results else 0} équipes générées.")
+            logger.info(
+                "Optimisation terminée. %s équipes générées.",
+                len(results) if results else 0
+            )
         except Exception as e:
-            logger.error(f"Erreur lors de l'optimisation: {str(e)}", exc_info=True)
-            raise
+            logger.error("Erreur lors de l'optimisation: %s", str(e), exc_info=True)
+            raise HTTPException(
+                status_code=500,
+                detail="Une erreur est survenue lors de l'optimisation de l'équipe"
+            ) from e
         
         if not results:
             raise HTTPException(
@@ -137,27 +155,44 @@ async def generate_team(
             )
             team_compositions.append(team_composition)
         
-        # 4. Retourner la réponse
+        # 4. Créer les métadonnées de réponse
+        metadata: Dict[str, Any] = {
+            "generated_at": datetime.now(timezone.utc).isoformat(),
+            "version": "0.1.0",
+            "notes": "Généré avec l'optimiseur simple. Les builds sont basés sur des profils types."
+        }
+        
+        # 5. Retourner la réponse
         return TeamResponse(
             teams=team_compositions,
             request=request,
-            metadata={
-                "generated_at": datetime.now(timezone.utc).isoformat(),
-                "version": "0.1.0",
-                "notes": "Généré avec l'optimiseur simple. Les builds sont basés sur des profils types."
-            }
+            metadata=metadata
         )
         
-    except HTTPException:
+    except HTTPException as http_exc:
         # On laisse passer les exceptions HTTP déjà gérées
+        logger.debug(
+            "Exception HTTP interceptée: %s",
+            str(http_exc)
+        )
         raise
         
     except Exception as e:
-        logger.error(f"Erreur lors de la génération de l'équipe: {str(e)}", exc_info=True)
-        # Afficher plus de détails sur l'erreur
-        import traceback
-        error_details = traceback.format_exc()
-        logger.error(f"Détails de l'erreur: {error_details}")
+        error_details = str(e)
+        logger.error(
+            "Erreur lors de la génération de l'équipe: %s",
+            error_details,
+            exc_info=True
+        )
+        
+        raise HTTPException(
+            status_code=500,
+            detail={
+                'error': "Une erreur est survenue lors de la génération de l'équipe",
+                'details': error_details,
+                'traceback': traceback.format_exc().split('\n')
+            }
+        ) from e
         
         raise HTTPException(
             status_code=500,

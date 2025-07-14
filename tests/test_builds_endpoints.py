@@ -47,7 +47,7 @@ def test_import_build():
         # Tester l'import
         with open(test_file, "rb") as f:
             files = {"file": ("test_build.json", f, "application/json")}
-            response = client.post("/api/builds/import", files=files)
+            response = client.post("/builds/import", files=files)
             
         # Vérifier la réponse
         assert response.status_code == 200
@@ -76,9 +76,9 @@ def test_export_build():
         "description": "Build de test pour export"
     }
     
-    # Tester l'export
+    # Tester l'export direct
     response = client.post(
-        "/api/builds/export",
+        "/builds/export/direct",
         json=test_build,
         headers={"Content-Type": "application/json"}
     )
@@ -94,8 +94,8 @@ def test_export_build():
     assert exported_data["profession"] == "guardian"
 
 def test_get_build_template():
-    """Teste la récupération d'un modèle de build vide."""
-    response = client.get("/api/builds/template")
+    # Tester la récupération du template
+    response = client.get("/builds/template")
     
     # Vérifier la réponse
     assert response.status_code == 200
@@ -111,8 +111,8 @@ def test_get_build_template():
 
 def test_export_nonexistent_build():
     """Teste l'export d'un build qui n'existe pas."""
-    # Ce test suppose que l'ID 9999 n'existe pas
-    response = client.get("/api/builds/export/9999")
+    # Tester l'export d'un build qui n'existe pas
+    response = client.get("/builds/export/nonexistent-build-id")
     
     # Vérifier que l'API renvoie une erreur 404
     assert response.status_code == 404
@@ -121,19 +121,22 @@ def test_invalid_import_file():
     """Teste l'import avec un fichier invalide."""
     # Créer un fichier invalide
     test_file = Path("invalid_build.txt")
-    test_file.write_text("ceci n'est pas du JSON valide", encoding="utf-8")
+    # Tester avec un fichier invalide
+    with open("invalid_file.txt", "w", encoding="utf-8") as f:
+        f.write("Ceci n'est pas un JSON valide")
     
     try:
-        # Tester l'import
-        with open(test_file, "rb") as f:
-            files = {"file": ("invalid_build.txt", f, "text/plain")}
-            response = client.post("/api/builds/import", files=files)
+        with open("invalid_file.txt", "rb") as f:
+            files = {"file": ("invalid_file.txt", f, "text/plain")}
+            response = client.post("/builds/import", files=files)
             
         # Vérifier que l'API renvoie une erreur 400
         assert response.status_code == 400
         
     finally:
         # Nettoyer
+        if Path("invalid_file.txt").exists():
+            Path("invalid_file.txt").unlink()
         if test_file.exists():
             test_file.unlink()
 
