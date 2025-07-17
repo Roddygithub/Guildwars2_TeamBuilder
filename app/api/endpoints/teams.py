@@ -202,3 +202,6 @@ async def generate_team(
                 "traceback": error_details.split('\n')
             }
         )
+
+# Export du routeur pour une utilisation dans __init__.py
+__all__ = ["router"]

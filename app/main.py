@@ -5,6 +5,7 @@ et monte les routeurs API.
 """
 import os
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 
 from app.logging_config import setup_logging
 
@@ -25,6 +26,22 @@ app = FastAPI(
         "name": "MIT",
         "url": "https://opensource.org/licenses/MIT"
     }
+)
+
+# Configuration CORS
+from app.config import settings
+
+# Ajouter le port 5173 aux origines autorisées si nécessaire
+allowed_origins = settings.ALLOWED_ORIGINS
+if "http://localhost:5173" not in allowed_origins:
+    allowed_origins.append("http://localhost:5173")
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=allowed_origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 # Import des modèles et initialisation de la base de données
@@ -48,19 +65,17 @@ async def on_startup() -> None:
     logger.debug("Niveau de log: %s", log_level)
 
 
-@app.get("/ping")
-def ping() -> dict[str, str]:
+@app.get("/ping", response_model=None)
+def ping():
     """Health-check endpoint."""
     return {"status": "ok"}
 
 
 # Routers
-from app.api.teams import router as teams_router
-from app.api.endpoints.builds import router as builds_router
+from app.api.endpoints import router as api_router
 
-# Inclure les routeurs
-app.include_router(teams_router)
-app.include_router(builds_router)
+# Inclure le routeur principal avec le préfixe /api
+app.include_router(api_router, prefix="/api")
 
 
 if __name__ == "__main__":

@@ -7,12 +7,13 @@ import traceback
 from pathlib import Path
 from typing import Optional
 
-from fastapi import APIRouter, HTTPException, UploadFile, File, BackgroundTasks, status
+from fastapi import APIRouter, HTTPException, UploadFile, File, status
 from fastapi.responses import FileResponse
+from fastapi.background import BackgroundTasks
 
 from app.models.build import BuildData, ProfessionType, RoleType, TraitLine
 from app.services.build_io import BuildIO
-from app.schemas.build import PlayerBuildResponse, player_build_to_response  # Import de la fonction de conversion
+from app.schemas.build import PlayerBuildResponse, player_build_to_response
 
 # Configuration du logger
 logger = logging.getLogger(__name__)
@@ -71,8 +72,8 @@ async def get_build_from_database(build_id: str) -> Optional[BuildData]:
     }
 )
 async def import_build(
-    file: UploadFile = File(..., description="Fichier JSON contenant le build à importer"),
-    background_tasks: Optional[BackgroundTasks] = None
+    background_tasks: BackgroundTasks,
+    file: UploadFile = File(..., description="Fichier JSON contenant le build à importer")
 ) -> PlayerBuildResponse:
     """
     Importe un build depuis un fichier JSON.
@@ -139,8 +140,8 @@ async def import_build(
     }
 )
 async def export_build(
-    build_id: str,
-    background_tasks: Optional[BackgroundTasks] = None
+    background_tasks: BackgroundTasks,
+    build_id: str
 ) -> FileResponse:
     """
     Exporte un build existant au format JSON natif.
@@ -200,8 +201,8 @@ async def export_build(
     }
 )
 async def export_build_directly(
-    build: BuildData,
-    background_tasks: Optional[BackgroundTasks] = None
+    background_tasks: BackgroundTasks,
+    build: BuildData
 ) -> FileResponse:
     """
     Exporte un build directement depuis les données fournies.
@@ -261,3 +262,6 @@ async def get_build_template() -> BuildData:
         equipment={},
         description=""
     )
+
+# Export du routeur pour une utilisation dans __init__.py
+__all__ = ["router"]

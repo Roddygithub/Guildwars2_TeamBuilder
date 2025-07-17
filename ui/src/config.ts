@@ -2,7 +2,7 @@
 export const config = {
   // URL de l'API backend
   api: {
-    baseUrl: 'http://localhost:8001',
+    baseUrl: 'http://localhost:8000/api',
     endpoints: {
       teams: {
         generate: '/teams/generate'
@@ -15,7 +15,8 @@ export const config = {
     teamSize: 5,
     playstyle: 'zerg',
     generations: 50,
-    population: 150
+    population: 150,
+    samples: 1000 // Nombre de combinaisons testées pour l'optimisation
   },
   
   // Options pour les styles de jeu

@@ -1,9 +1,14 @@
-import { 
-  Box, Button, FormControl, FormLabel, NumberInput, NumberInputField, 
-  Select, VStack, useToast, Heading, Text, SimpleGrid, Badge 
+// Dependencies
+import {
+  Box, Button, FormControl, FormLabel, NumberInput, NumberInputField,
+  Select, VStack, useToast, Heading, Text, SimpleGrid, Badge
 } from '@chakra-ui/react';
 import { useState } from 'react';
 
+import { InfoTooltip } from '../components/InfoTooltip';
+import { RoleIcon } from '../components/RoleIcon';
+import { RoleTooltip } from '../components/RoleTooltip';
+import { ScoreTooltip } from '../components/ScoreTooltip';
 import config from '../config';
 
 interface TeamMember {
@@ -102,15 +107,23 @@ const TeamBuilder = () => {
       <VStack spacing={6} align="stretch">
         <Box textAlign="center" mb={6}>
           <Heading as="h2" size="lg" color="blue.600" mb={2}>
-            Configuration de l'équipe
+            Configuration de l&apos;équipe
           </Heading>
           <Box color="gray.600" fontSize="sm">
-            L&apos;algorithme génétique va calculer la meilleure composition possible
+            L&apos;optimiseur va calculer la meilleure composition possible
           </Box>
         </Box>
 
         <FormControl isRequired>
-          <FormLabel>Taille de l'équipe</FormLabel>
+          <FormLabel>
+            Taille de l&apos;&eacute;quipe
+            <InfoTooltip 
+              label="Nombre de joueurs dans l&apos;&eacute;quipe (1-10)"
+              iconProps={{
+                'aria-label': 'Information sur la taille de l&apos;&eacute;quipe'
+              }}
+            />
+          </FormLabel>
           <NumberInput 
             min={1}
             max={10}
@@ -122,7 +135,15 @@ const TeamBuilder = () => {
         </FormControl>
 
         <FormControl isRequired>
-          <FormLabel>Style de jeu</FormLabel>
+          <FormLabel>
+            Style de jeu
+            <InfoTooltip 
+              label="S&eacute;lectionnez le type de contenu pour lequel optimiser l&apos;&eacute;quipe"
+              iconProps={{
+                'aria-label': 'Information sur le style de jeu'
+              }}
+            />
+          </FormLabel>
           <Select 
             value={formData.playstyle}
             onChange={(e) => handleInputChange('playstyle', e.target.value)}
@@ -138,9 +159,9 @@ const TeamBuilder = () => {
 
         <Box mt={4} p={4} bg="blue.50" borderRadius="md" borderLeft="4px" borderColor="blue.500">
           <Box fontSize="sm" color="blue.800">
-            <Box as="strong" display="block" mb={1}>Algorithme génétique actif</Box>
+            <Box as="strong" display="block" mb={1}>Méthode d&apos;optimisation</Box>
             <Box fontSize="xs" opacity={0.8} mb={2}>
-              {config.defaults.generations} générations × {config.defaults.population} combinaisons testées
+              {config.defaults.samples} combinaisons testées pour trouver la meilleure équipe
             </Box>
             <Box 
               as="details" 
@@ -153,12 +174,12 @@ const TeamBuilder = () => {
               <summary style={{ cursor: 'pointer', outline: 'none' }}>Comment ça marche ?</summary>
               <Box mt={2} p={2} bg="white" borderRadius="md" fontSize="xs">
                 <Text mb={2}>
-                  L'algorithme génétique crée des équipes optimales en simulant l'évolution naturelle :
+                  L&apos;optimiseur évalue {config.defaults.samples} combinaisons aléatoires pour trouver la meilleure équipe :
                 </Text>
                 <VStack align="stretch" spacing={1}>
                   <Box display="flex" alignItems="flex-start">
-                    <Box as="span" fontWeight="bold" minW="24" color="blue.600">1. Population initiale</Box>
-                    <Box>Création de {config.defaults.population} équipes aléatoires</Box>
+                    <Box as="span" fontWeight="bold" minW="24" color="blue.600">1. Échantillonnage</Box>
+                    <Box>Création de {config.defaults.samples} équipes aléatoires</Box>
                   </Box>
                   <Box display="flex" alignItems="flex-start">
                     <Box as="span" fontWeight="bold" minW="24" color="blue.600">2. Évaluation</Box>
@@ -166,23 +187,11 @@ const TeamBuilder = () => {
                   </Box>
                   <Box display="flex" alignItems="flex-start">
                     <Box as="span" fontWeight="bold" minW="24" color="blue.600">3. Sélection</Box>
-                    <Box>Les meilleures équipes sont sélectionnées pour se reproduire</Box>
-                  </Box>
-                  <Box display="flex" alignItems="flex-start">
-                    <Box as="span" fontWeight="bold" minW="24" color="blue.600">4. Croisement</Box>
-                    <Box>Les équipes sélectionnées se combinent pour créer de nouvelles équipes</Box>
-                  </Box>
-                  <Box display="flex" alignItems="flex-start">
-                    <Box as="span" fontWeight="bold" minW="24" color="blue.600">5. Mutation</Box>
-                    <Box>Des changements aléatoires introduisent de la diversité</Box>
-                  </Box>
-                  <Box display="flex" alignItems="flex-start">
-                    <Box as="span" fontWeight="bold" minW="24" color="blue.600">6. Itération</Box>
-                    <Box>Le processus se répète sur {config.defaults.generations} générations</Box>
+                    <Box>Les meilleures équipes sont sélectionnées et retournées</Box>
                   </Box>
                 </VStack>
                 <Text mt={2} fontSize="xs" fontStyle="italic">
-                  Ce processus permet de trouver un bon équilibre entre exploration et optimisation.
+                  Cette méthode simple et efficace permet de trouver rapidement une bonne composition d&apos;équipe.
                 </Text>
               </Box>
             </Box>
@@ -225,23 +234,38 @@ const TeamBuilder = () => {
                     <Text fontWeight="bold" fontSize="lg">
                       Composition #{index + 1}
                     </Text>
-                    <Badge colorScheme={team.score > 0.7 ? 'green' : team.score > 0.4 ? 'yellow' : 'red'}>
-                      Score: {(team.score * 100).toFixed(0)}%
-                    </Badge>
+                    <ScoreTooltip score={team.score} breakdown={team.score_breakdown}>
+                      <Badge 
+                        colorScheme={team.score > 0.7 ? 'green' : team.score > 0.4 ? 'yellow' : 'red'}
+                        cursor="help"
+                      >
+                        Score: {(team.score * 100).toFixed(0)}%
+                      </Badge>
+                    </ScoreTooltip>
                   </Box>
                   
                   <VStack align="stretch" spacing={2} mt={2}>
                     {team.members.map((member, i) => (
                       <Box 
                         key={i} 
-                        p={2} 
+                        p={3} 
                         bg="gray.50" 
                         borderRadius="md"
                         borderLeft="3px solid"
                         borderLeftColor="blue.300"
                       >
-                        <Text fontWeight="medium">{member.profession}</Text>
-                        <Text fontSize="sm" color="gray.600">{member.role}</Text>
+                        <RoleTooltip role={member.role}>
+                          <Box display="flex" alignItems="center" cursor="help">
+                            <RoleIcon role={member.role} />
+                            <Box>
+                              <Text fontWeight="medium">{member.profession}</Text>
+                              <Text fontSize="sm" color="gray.600" display="flex" alignItems="center">
+                                <RoleIcon role={member.role} boxSize={3} mr={1} />
+                                {member.role}
+                              </Text>
+                            </Box>
+                          </Box>
+                        </RoleTooltip>
                       </Box>
                     ))}
                   </VStack>
