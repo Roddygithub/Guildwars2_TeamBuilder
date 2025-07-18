@@ -128,7 +128,17 @@ async def generate_team(
             logger.info("- team_size: %s", request.team_size)
             logger.info("- samples: 1000")
             logger.info("- top_n: 3")
-            logger.info("- config: %s", str(_DEFAULT_CONFIG.dict()) if hasattr(_DEFAULT_CONFIG, 'dict') else str(_DEFAULT_CONFIG))
+            # Éviter la sérialisation complète de _DEFAULT_CONFIG qui peut contenir des références circulaires
+            config_info = {
+                'buff_weights': list(_DEFAULT_CONFIG.buff_weights.keys()) if hasattr(_DEFAULT_CONFIG, 'buff_weights') else [],
+                'role_weights': list(_DEFAULT_CONFIG.role_weights.keys()) if hasattr(_DEFAULT_CONFIG, 'role_weights') else [],
+                'duplicate_penalty': {
+                    'enabled': _DEFAULT_CONFIG.duplicate_penalty.enabled if hasattr(_DEFAULT_CONFIG.duplicate_penalty, 'enabled') else False,
+                    'threshold': _DEFAULT_CONFIG.duplicate_penalty.threshold if hasattr(_DEFAULT_CONFIG.duplicate_penalty, 'threshold') else 1,
+                    'penalty_per_extra': _DEFAULT_CONFIG.duplicate_penalty.penalty_per_extra if hasattr(_DEFAULT_CONFIG.duplicate_penalty, 'penalty_per_extra') else 0.5
+                } if hasattr(_DEFAULT_CONFIG, 'duplicate_penalty') and _DEFAULT_CONFIG.duplicate_penalty is not None else {}
+            }
+            logger.info("- config: %s", config_info)
             
             results = optimize_team(
                 team_size=request.team_size,

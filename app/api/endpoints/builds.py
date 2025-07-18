@@ -63,7 +63,7 @@ async def get_build_from_database(build_id: str) -> Optional[BuildData]:
 
 @router.post(
     "/import",
-    response_model=None,  # Désactiver le modèle de réponse automatique
+    response_model=PlayerBuildResponse,
     status_code=status.HTTP_201_CREATED,
     summary="Importer un build depuis un fichier",
     responses={
@@ -132,7 +132,7 @@ async def import_build(
 
 @router.get(
     "/export/{build_id}",
-    response_model=None,  # Désactiver le modèle de réponse automatique
+    response_class=FileResponse,
     summary="Exporter un build existant",
     responses={
         200: {"description": "Fichier JSON contenant le build"},
@@ -191,7 +191,7 @@ async def export_build(
 
 @router.post(
     "/export",
-    response_model=None,  # Désactiver le modèle de réponse automatique
+    response_class=FileResponse,
     summary="Exporter un build directement depuis les données fournies",
     responses={
         200: {"description": "Fichier JSON contenant le build"},
