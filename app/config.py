@@ -14,7 +14,12 @@ class Settings(BaseSettings):
     
     # Configuration CORS
     FRONTEND_URL: str = "http://localhost:3000"
-    ALLOWED_ORIGINS: List[str] = Field(default=["http://localhost:3000", "http://localhost:8000"])
+    ALLOWED_ORIGINS: List[str] = Field(default=[
+        "http://localhost:3000",
+        "http://localhost:8000",
+        "http://localhost:5173",  # Port par défaut de Vite en développement
+        "http://127.0.0.1:5173",  # Alternative avec 127.0.0.1
+    ])
     
     class Config:
         env_file = ".env"

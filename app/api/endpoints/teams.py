@@ -19,7 +19,8 @@ from app.scoring.schema import (
 # Configuration du logger
 logger = logging.getLogger(__name__)
 
-router = APIRouter(prefix="/teams", tags=["teams"])
+# Le préfixe est maintenant géré dans app/api/endpoints/__init__.py
+router = APIRouter(tags=["teams"])
 
 # Configuration de scoring par défaut
 _DEFAULT_CONFIG = ScoringConfig(
@@ -92,7 +93,6 @@ async def generate_team(
     
     Args:
         request: La demande de génération d'équipe.
-        background_tasks: Tâches d'arrière-plan pour le traitement asynchrone.
         
     Returns:
         Une réponse contenant les équipes optimisées et leurs scores.
@@ -100,7 +100,10 @@ async def generate_team(
     Raises:
         HTTPException: En cas d'erreur lors de la génération de l'équipe.
     """
+    import traceback
     try:
+        logger.info("=== DÉBUT DE LA GÉNÉRATION D'ÉQUIPE ===")
+        logger.info("Requête reçue : %s", request.dict())
         logger.info(
             "Génération d'une équipe de %s joueurs pour le style de jeu: %s",
             request.team_size,
@@ -121,6 +124,12 @@ async def generate_team(
             request.team_size
         )
         try:
+            logger.info("Appel à optimize_team avec les paramètres suivants :")
+            logger.info("- team_size: %s", request.team_size)
+            logger.info("- samples: 1000")
+            logger.info("- top_n: 3")
+            logger.info("- config: %s", str(_DEFAULT_CONFIG.dict()) if hasattr(_DEFAULT_CONFIG, 'dict') else str(_DEFAULT_CONFIG))
+            
             results = optimize_team(
                 team_size=request.team_size,
                 samples=1000,
@@ -128,12 +137,22 @@ async def generate_team(
                 config=_DEFAULT_CONFIG,
                 random_seed=42  # Pour la reproductibilité
             )
+            
             logger.info(
                 "Optimisation terminée. %s équipes générées.",
                 len(results) if results else 0
             )
+            
+            if results:
+                logger.info("Exemple de résultat : %s", str(results[0][0]) if len(results) > 0 else "Aucun résultat")
+                
         except Exception as e:
-            logger.error("Erreur lors de l'optimisation: %s", str(e), exc_info=True)
+            logger.error("=== ERREUR LORS DE L'OPTIMISATION ===")
+            logger.error("Type d'erreur: %s", type(e).__name__)
+            logger.error("Message d'erreur: %s", str(e))
+            logger.error("Stack trace complète:\n%s", traceback.format_exc())
+            logger.error("=== FIN DU LOG D'ERREUR ===")
+            
             raise HTTPException(
                 status_code=500,
                 detail="Une erreur est survenue lors de l'optimisation de l'équipe"

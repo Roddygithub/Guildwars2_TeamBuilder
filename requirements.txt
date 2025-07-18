@@ -31,6 +31,8 @@ python-dotenv==1.0.1
 python-dateutil==2.9.0.post0
 tqdm==4.67.1
 python-slugify==8.0.1  # Pour la création de slugs
+aiohttp==3.12.14  # Pour les requêtes HTTP asynchrones
+aiofiles==24.1.0  # Pour la gestion asynchrone des fichiers
 
 # Testing
 pytest>=7.0.0,<8.0.0  # Compatible avec pytest-httpx 0.28.0

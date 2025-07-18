@@ -18,7 +18,8 @@ from app.schemas.build import PlayerBuildResponse, player_build_to_response
 # Configuration du logger
 logger = logging.getLogger(__name__)
 
-router = APIRouter(prefix="/builds", tags=["builds"])
+# Le préfixe est maintenant géré dans app/api/endpoints/__init__.py
+router = APIRouter(tags=["builds"])
 
 # Dossier pour les exports
 export_dir = Path("exports")
@@ -62,11 +63,11 @@ async def get_build_from_database(build_id: str) -> Optional[BuildData]:
 
 @router.post(
     "/import",
-    response_model=PlayerBuildResponse,
+    response_model=None,  # Désactiver le modèle de réponse automatique
     status_code=status.HTTP_201_CREATED,
     summary="Importer un build depuis un fichier",
     responses={
-        201: {"description": "Build importé avec succès"},
+        201: {"description": "Build importé avec succès", "model": PlayerBuildResponse},
         400: {"description": "Format de fichier invalide"},
         500: {"description": "Erreur lors du traitement du fichier"}
     }
@@ -74,7 +75,7 @@ async def get_build_from_database(build_id: str) -> Optional[BuildData]:
 async def import_build(
     background_tasks: BackgroundTasks,
     file: UploadFile = File(..., description="Fichier JSON contenant le build à importer")
-) -> PlayerBuildResponse:
+):
     """
     Importe un build depuis un fichier JSON.
     
@@ -131,18 +132,17 @@ async def import_build(
 
 @router.get(
     "/export/{build_id}",
-    response_class=FileResponse,
+    response_model=None,  # Désactiver le modèle de réponse automatique
     summary="Exporter un build existant",
     responses={
         200: {"description": "Fichier JSON contenant le build"},
-        404: {"description": "Build non trouvé"},
-        500: {"description": "Erreur lors de l'export du build"}
+        404: {"description": "Build non trouvé"}
     }
 )
 async def export_build(
     background_tasks: BackgroundTasks,
     build_id: str
-) -> FileResponse:
+): 
     """
     Exporte un build existant au format JSON natif.
     
@@ -191,19 +191,17 @@ async def export_build(
 
 @router.post(
     "/export",
-    response_class=FileResponse,
-    status_code=status.HTTP_200_OK,
-    summary="Exporter un build directement",
+    response_model=None,  # Désactiver le modèle de réponse automatique
+    summary="Exporter un build directement depuis les données fournies",
     responses={
-        200: {"description": "Fichier JSON contenant le build exporté"},
-        400: {"description": "Données du build invalides"},
-        500: {"description": "Erreur lors de l'export du build"}
+        200: {"description": "Fichier JSON contenant le build"},
+        400: {"description": "Données du build invalides"}
     }
 )
 async def export_build_directly(
     background_tasks: BackgroundTasks,
     build: BuildData
-) -> FileResponse:
+): 
     """
     Exporte un build directement depuis les données fournies.
     

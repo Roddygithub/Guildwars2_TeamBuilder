@@ -19,6 +19,8 @@ Exemple d'utilisation:
 from __future__ import annotations
 
 import itertools
+import logging
+import math
 import random
 from typing import List, Sequence, Tuple
 
@@ -28,6 +30,7 @@ from app.database import SessionLocal
 # Import du modèle Profession depuis le module racine
 import sys
 from pathlib import Path
+from sqlalchemy import inspect
 # Ajout du répertoire parent au chemin de recherche Python
 sys.path.append(str(Path(__file__).parent.parent.parent))
 from app.models import Profession  # Import direct du modèle SQLAlchemy
@@ -66,21 +69,55 @@ def _default_candidates(db: Session) -> List[PlayerBuild]:
         ...     assert all(isinstance(build, PlayerBuild) for build in builds)
     """
     import logging
+    import traceback
     logger = logging.getLogger(__name__)
     
     try:
         logger.info("Début de la récupération des professions depuis la base de données...")
+        logger.info(f"Type de la session: {type(db)}")
         
-        # Vérifier si la table existe
-        from sqlalchemy import inspect
+        # Vérifier si la table des professions existe
         inspector = inspect(db.get_bind())
-        if 'professions' not in inspector.get_table_names():
-            logger.error("La table 'professions' n'existe pas dans la base de données.")
-            raise ValueError("La table 'professions' n'existe pas dans la base de données.")
+        table_names = inspector.get_table_names()
+        logger.info(f"Tables disponibles dans la base de données: {table_names}")
         
-        # Récupérer toutes les professions
-        professions = db.query(Profession).all()
-        logger.info(f"{len(professions)} professions récupérées depuis la base de données.")
+        if 'professions' not in table_names:
+            logger.warning("La table 'professions' n'existe pas dans la base de données")
+            logger.info("Utilisation des valeurs par défaut pour les professions.")
+            return [
+                PlayerBuild(
+                    profession_id=prof_name.lower(),
+                    buffs=buffs,
+                    roles=roles,
+                    description=f"Build par défaut pour {prof_name}"
+                )
+                for prof_name, (buffs, roles) in _PROFESSION_METADATA.items()
+            ]
+        
+        # Essayer directement de récupérer les professions
+        try:
+            logger.info("Tentative de récupération des professions avec db.query(Profession).all()")
+            professions = db.query(Profession).all()
+            logger.info(f"{len(professions)} professions récupérées depuis la base de données.")
+            
+            if not professions:
+                logger.warning("Aucune profession trouvée dans la table 'professions'")
+                
+        except Exception as query_error:
+            # Si la requête échoue, c'est probablement que la table n'existe pas ou est vide
+            logger.error(f"Erreur lors de la récupération des professions: {str(query_error)}")
+            logger.error(f"Type d'erreur: {type(query_error).__name__}")
+            logger.error(f"Traceback complet: {traceback.format_exc()}")
+            logger.warning("Utilisation des valeurs par défaut pour les professions.")
+            return [
+                PlayerBuild(
+                    profession_id=prof_name.lower(),
+                    buffs=buffs,
+                    roles=roles,
+                    description=f"Build par défaut pour {prof_name}"
+                )
+                for prof_name, (buffs, roles) in _PROFESSION_METADATA.items()
+            ]
         
         if not professions:
             logger.warning("Aucune profession trouvée dans la base de données. Utilisation des valeurs par défaut.")
@@ -117,7 +154,7 @@ def _default_candidates(db: Session) -> List[PlayerBuild]:
         
     except Exception as e:
         logger.error(f"Erreur critique dans _default_candidates: {str(e)}", exc_info=True)
-        # En cas d'échec, retourner des valeurs par défaut
+        # En cas d'erreur, retourner les valeurs par défaut
         return [
             PlayerBuild(
                 profession_id=prof_name.lower(),
@@ -181,33 +218,72 @@ def optimize(
         ...     print(f"Score: {score.total_score:.2f}")
         ...     print(f"  Composition: {[p.profession_id for p in team]}")
     """
+    import logging
+    logger = logging.getLogger(__name__)
+    
+    logger.info(f"Début de l'optimisation pour une équipe de {team_size} joueurs")
+    logger.info(f"Nombre de candidats: {len(candidates) if candidates is not None else 'défaut'}")
+    
     if random_seed is not None:
         random.seed(random_seed)
+        logger.info(f"Graine aléatoire initialisée: {random_seed}")
 
-    with SessionLocal() as db:
-        if candidates is None:
-            candidates = _default_candidates(db)
+    try:
+        with SessionLocal() as db:
+            if candidates is None:
+                logger.info("Récupération des candidats par défaut...")
+                candidates = _default_candidates(db)
+                logger.info(f"{len(candidates)} candidats récupérés")
 
-    if len(candidates) < team_size:
-        raise ValueError("Not enough candidate builds to form a team.")
-
-    best: List[Tuple[TeamScoreResult, Sequence[PlayerBuild]]] = []
-
-    # Si le nombre total de combinaisons est raisonnable, on les évalue toutes
-    # Sinon, on se limite à un échantillon aléatoire
-    total_combos = itertools.combinations(candidates, team_size)
-    
-    # Limite pour éviter les boucles trop longues
-    limit = min(5000, samples)  # Ne pas dépasser 5000 évaluations
-    
-    for i, combo in enumerate(total_combos):
-        if i >= limit:
-            break
+        if not candidates:
+            logger.error("Aucun candidat disponible pour former une équipe")
+            return []
             
-        team = list(combo)
-        result = score_team(team, config)
-        best.append((result, team))
+        if len(candidates) < team_size:
+            error_msg = f"Pas assez de candidats ({len(candidates)}) pour former une équipe de {team_size} joueurs"
+            logger.error(error_msg)
+            raise ValueError(error_msg)
 
-    # Trie par score décroissant et retourne les top_n meilleures équipes
-    best.sort(key=lambda x: x[0].total_score, reverse=True)
-    return best[:top_n]
+        best: List[Tuple[TeamScoreResult, Sequence[PlayerBuild]]] = []
+        total_combinations = math.comb(len(candidates), team_size)
+        
+        # Ajuster la limite en fonction du nombre de combinaisons possibles
+        limit = min(samples, 10000)  # Augmenté à 10000 pour plus de flexibilité
+        
+        logger.info(f"Nombre total de combinaisons possibles: {total_combinations}")
+        logger.info(f"Limite d'échantillonnage: {limit}")
+        
+        # Si le nombre de combinaisons est raisonnable, on les évalue toutes
+        if total_combinations <= limit:
+            logger.info("Évaluation de toutes les combinaisons possibles")
+            combinations = itertools.combinations(candidates, team_size)
+        else:
+            # Sinon, on échantillonne aléatoirement
+            logger.info("Échantillonnage aléatoire des combinaisons")
+            combinations = (random.sample(candidates, team_size) for _ in range(limit))
+        
+        # Évaluer chaque combinaison
+        for i, combo in enumerate(combinations, 1):
+            if i % 100 == 0 or i == 1 or i == limit:
+                logger.debug(f"Évaluation de la combinaison {i}/{limit}")
+                
+            try:
+                team = list(combo)
+                result = score_team(team, config)
+                best.append((result, team))
+            except Exception as e:
+                logger.error(f"Erreur lors de l'évaluation de la combinaison {i}: {str(e)}")
+                continue
+        
+        # Trier par score et retourner les top_n meilleures équipes
+        if best:
+            best.sort(key=lambda x: x[0].total_score, reverse=True)
+            logger.info(f"Optimisation terminée. Meilleur score: {best[0][0].total_score:.2f}")
+            return best[:top_n]
+        else:
+            logger.warning("Aucune équipe valide n'a pu être générée")
+            return []
+            
+    except Exception as e:
+        logger.error(f"Erreur critique dans optimize: {str(e)}", exc_info=True)
+        raise
