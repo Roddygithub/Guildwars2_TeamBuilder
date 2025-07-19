@@ -18,7 +18,7 @@ from .upgrade_component import UpgradeComponentType, InfusionUpgradeFlag
 from .profession import Profession
 from .specialization import Specialization
 from .trait import Trait
-from .weapon import Weapon
+from .weapon import Weapon, ProfessionWeapon
 from .skill import Skill
 from .armor import Armor
 from .trinket import Trinket
@@ -76,21 +76,9 @@ __all__ = [
     'Base',
     
     # Modèles principaux
-    'Profession',
-    'Specialization',
-    'Skill',
-    'Trait',
-    'Weapon',
-    'Armor',
-    'Trinket',
-    'UpgradeComponent',
-    'Rune',
-    'Sigil',
-    'Relic',
-    'Infusion',
-    'Item',
-    'ItemStats',
-    'ItemStat',
+    'Profession', 'Specialization', 'Trait', 'Weapon', 'ProfessionWeapon', 'Skill', 'Armor', 'Trinket',
+    'UpgradeComponent', 'Rune', 'Sigil', 'Relic', 'Infusion', 'InfusionType',
+    'ItemStats', 'ItemStat', 'Item',
     
     # Enums
     'WeaponType',

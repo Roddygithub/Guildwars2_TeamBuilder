@@ -4,8 +4,9 @@ Ce module initialise l'application FastAPI, configure le logging,
 et monte les routeurs API.
 """
 import os
-from fastapi import FastAPI
+from fastapi import FastAPI, Request, Response
 from fastapi.middleware.cors import CORSMiddleware
+from starlette.middleware.base import BaseHTTPMiddleware
 
 from app.logging_config import setup_logging
 
@@ -13,7 +14,16 @@ from app.logging_config import setup_logging
 log_level = os.getenv("LOG_LEVEL", "INFO").upper()
 setup_logging(level=log_level)
 
-# Création de l'application FastAPI
+# Configuration des réponses JSON pour forcer l'encodage UTF-8
+from fastapi.responses import JSONResponse
+from fastapi.encoders import jsonable_encoder
+
+def custom_json_encoder(*args, **kwargs):
+    """Encodeur JSON personnalisé pour forcer l'encodage UTF-8."""
+    kwargs['ensure_ascii'] = False  # Désactive l'échappement des caractères non-ASCII
+    return jsonable_encoder(*args, **kwargs)
+
+# Création de l'application FastAPI avec configuration personnalisée
 app = FastAPI(
     title="GW2 Team Builder",
     version="0.1.0",
@@ -25,24 +35,49 @@ app = FastAPI(
     license_info={
         "name": "MIT",
         "url": "https://opensource.org/licenses/MIT"
-    }
+    },
+    default_response_class=JSONResponse,
+    json_encoder=custom_json_encoder
 )
 
-# Configuration CORS
+# Middleware pour forcer l'encodage UTF-8 dans les réponses
+class ForceUTF8Middleware(BaseHTTPMiddleware):
+    async def dispatch(self, request: Request, call_next):
+        response = await call_next(request)
+        # S'assurer que le Content-Type inclut l'encodage UTF-8
+        content_type = response.headers.get('content-type')
+        if content_type and 'application/json' in content_type and 'charset' not in content_type:
+            response.headers['content-type'] = f"{content_type}; charset=utf-8"
+        return response
+
+# Appliquer le middleware personnalisé
+app.add_middleware(ForceUTF8Middleware)
+
+# Configuration CORS détaillée pour améliorer la communication frontend/backend
 from app.config import settings
 
-# Ajouter le port 5173 aux origines autorisées si nécessaire
-allowed_origins = settings.ALLOWED_ORIGINS
-if "http://localhost:5173" not in allowed_origins:
-    allowed_origins.append("http://localhost:5173")
-
+# Configuration CORS pour le développement
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=allowed_origins,
+    allow_origins=["http://localhost:5173", "http://127.0.0.1:5173"],  # Spécifier explicitement les origines du frontend
     allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
+    allow_methods=["GET", "POST", "OPTIONS"],  # Méthodes HTTP autorisées
+    allow_headers=["Content-Type", "Authorization", "X-Requested-With"],  # Headers autorisés
+    expose_headers=["Content-Type", "Authorization"],  # Headers exposés
+    max_age=600,  # Durée de cache des préflight requests
 )
+
+# Configuration CORS pour la production
+if settings.ENVIRONMENT == "production":
+    app.add_middleware(
+        CORSMiddleware,
+        allow_origins=settings.ALLOWED_ORIGINS,
+        allow_credentials=True,
+        allow_methods=["GET", "POST", "OPTIONS"],
+        allow_headers=["Content-Type", "Authorization", "X-Requested-With"],
+        expose_headers=["Content-Type", "Authorization"],
+        max_age=600,
+    )
 
 # Import des modèles et initialisation de la base de données
 from app.database import init_db

@@ -12,6 +12,10 @@ class TeamMember(BaseModel):
     role: str
     profession: str
     build_url: Optional[str] = None
+    build_details: Optional[Dict[str, Any]] = Field(
+        None,
+        description="Détails complets du build généré (armes, compétences, équipement, etc.)"
+    )
 
 class TeamComposition(BaseModel):
     members: List[TeamMember]
@@ -34,6 +38,6 @@ class TeamRequest(BaseModel):
     )
     
 class TeamResponse(BaseModel):
-    teams: List[TeamComposition]
+    team: TeamComposition
     request: TeamRequest
-    metadata: Dict[str, Any] = Field(default_factory=dict)
+    metadata: Dict[str, Any] = Field(default_factory=dict, description="Métadonnées sur la génération de l'équipe")

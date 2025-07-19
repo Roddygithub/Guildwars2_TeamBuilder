@@ -1,14 +1,11 @@
 // Dependencies
 import {
   Box, Button, FormControl, FormLabel, NumberInput, NumberInputField,
-  Select, VStack, useToast, Heading, Text, SimpleGrid, Badge
+  Select, VStack, useToast, Heading, Text, SimpleGrid
 } from '@chakra-ui/react';
 import { useState } from 'react';
 
 import { InfoTooltip } from '../components/InfoTooltip';
-import { RoleIcon } from '../components/RoleIcon';
-import { RoleTooltip } from '../components/RoleTooltip';
-import { ScoreTooltip } from '../components/ScoreTooltip';
 import config from '../config';
 
 interface TeamMember {
@@ -35,7 +32,7 @@ const TeamBuilder = () => {
   });
   
   const [results, setResults] = useState<{
-    teams: Array<TeamResult>;
+    team: TeamResult;
     request: {
       team_size: number;
       playstyle: string;
@@ -83,7 +80,7 @@ const TeamBuilder = () => {
       
       toast({
         title: 'Succès',
-        description: `Génération de ${data.teams?.length || 0} compositions réussie !`,
+        description: 'Composition d\'équipe générée avec succès !',
         status: 'success',
         duration: 5000,
         isClosable: true,
@@ -217,69 +214,53 @@ const TeamBuilder = () => {
             </Heading>
             
             <Text fontSize="sm" color="gray.600" mb={4}>
-              {results.teams.length} composition(s) générée(s) pour une équipe de {results.request.team_size} joueurs en mode {results.request.playstyle}
+              Composition générée pour une équipe de {results.request.team_size} joueurs en mode {results.request.playstyle}
             </Text>
 
-            <SimpleGrid columns={{ base: 1, md: Math.min(3, results.teams.length) }} spacing={6} mt={6}>
-              {results.teams.map((team, index) => (
-                <Box 
-                  key={index} 
-                  borderWidth="1px" 
-                  borderRadius="lg" 
-                  p={4}
-                  bg="white"
-                  boxShadow="sm"
-                >
-                  <Box display="flex" justifyContent="space-between" alignItems="center" mb={3}>
-                    <Text fontWeight="bold" fontSize="lg">
-                      Composition #{index + 1}
-                    </Text>
-                    <ScoreTooltip score={team.score} breakdown={team.score_breakdown}>
-                      <Badge 
-                        colorScheme={team.score > 0.7 ? 'green' : team.score > 0.4 ? 'yellow' : 'red'}
-                        cursor="help"
-                      >
-                        Score: {(team.score * 100).toFixed(0)}%
-                      </Badge>
-                    </ScoreTooltip>
+            <Box borderWidth="1px" borderRadius="lg" p={4} bg="white" boxShadow="sm">
+              <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={4} mt={2}>
+                {results.team.members.map((member, index) => (
+                  <Box 
+                    key={index} 
+                    borderWidth="1px" 
+                    borderRadius="md" 
+                    p={3}
+                    bg="white"
+                    _hover={{ shadow: 'md' }}
+                  >
+                    <Box display="flex" alignItems="center" mb={2}>
+                      <Text fontWeight="bold" fontSize="lg">{member.profession}</Text>
+                    </Box>
+                    <Box>
+                      <Text fontSize="sm" color="gray.600" mb={1}>
+                        Rôle: {member.role}
+                      </Text>
+                      {member.build_url && member.build_url !== '#' && (
+                        <Button 
+                          as="a" 
+                          href={member.build_url} 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          size="sm"
+                          colorScheme="blue"
+                          variant="outline"
+                          mt={2}
+                        >
+                          Voir le build
+                        </Button>
+                      )}
+                    </Box>
                   </Box>
-                  
-                  <VStack align="stretch" spacing={2} mt={2}>
-                    {team.members.map((member, i) => (
-                      <Box 
-                        key={i} 
-                        p={3} 
-                        bg="gray.50" 
-                        borderRadius="md"
-                        borderLeft="3px solid"
-                        borderLeftColor="blue.300"
-                      >
-                        <RoleTooltip role={member.role}>
-                          <Box display="flex" alignItems="center" cursor="help">
-                            <RoleIcon role={member.role} />
-                            <Box>
-                              <Text fontWeight="medium">{member.profession}</Text>
-                              <Text fontSize="sm" color="gray.600" display="flex" alignItems="center">
-                                <RoleIcon role={member.role} boxSize={3} mr={1} />
-                                {member.role}
-                              </Text>
-                            </Box>
-                          </Box>
-                        </RoleTooltip>
-                      </Box>
-                    ))}
-                  </VStack>
-                  
-                  <Box mt={3} fontSize="xs" color="gray.500">
-                    <Text>Couverture des buffs: {(team.score_breakdown.buff_coverage * 100).toFixed(0)}%</Text>
-                    <Text>Couverture des rôles: {(team.score_breakdown.role_coverage * 100).toFixed(0)}%</Text>
-                    {team.score_breakdown.duplicate_penalty > 0 && (
-                      <Text>Pénalité doublons: -{(team.score_breakdown.duplicate_penalty * 100).toFixed(0)}%</Text>
-                    )}
-                  </Box>
-                </Box>
-              ))}
-            </SimpleGrid>
+                ))}
+              </SimpleGrid>
+              
+              <Box mt={4} p={3} bg="gray.50" borderRadius="md">
+                <Text fontWeight="bold" mb={2}>Détails du score:</Text>
+                <Text>Couverture des buffs: {(results.team.score_breakdown.buff_coverage * 100).toFixed(1)}%</Text>
+                <Text>Couverture des rôles: {(results.team.score_breakdown.role_coverage * 100).toFixed(1)}%</Text>
+                <Text>Pénalité doublons: {results.team.score_breakdown.duplicate_penalty > 0 ? `-${(results.team.score_breakdown.duplicate_penalty * 100).toFixed(1)}%` : 'Aucune'}</Text>
+              </Box>
+            </Box>
           </Box>
         )}
       </VStack>

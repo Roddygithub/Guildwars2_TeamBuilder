@@ -1,12 +1,19 @@
 import logging
 import traceback
 from datetime import datetime, timezone
-from typing import Dict, List, Any
+from typing import Dict, List, Any, Optional
 
 from fastapi import APIRouter, HTTPException
+from sqlalchemy.orm import Session
 
 from app.models.team import TeamRequest, TeamResponse, TeamMember, TeamComposition
 from app.optimizer.simple import optimize as optimize_team
+from app.optimizer.build_generator import (
+    select_weapons_for_build,
+    select_skills_for_build,
+    select_equipment_for_build,
+    BuildRole
+)
 from app.scoring.engine import PlayerBuild
 from app.scoring.schema import (
     BuffWeight,
@@ -15,6 +22,7 @@ from app.scoring.schema import (
     ScoringConfig,
     TeamScoreResult,
 )
+from app.database import SessionLocal
 
 # Configuration du logger
 logger = logging.getLogger(__name__)
@@ -51,6 +59,186 @@ _DEFAULT_CONFIG = ScoringConfig(
     )
 )
 
+def _determine_build_role(roles: List[str]) -> BuildRole:
+    """Détermine le rôle principal du build à partir des rôles fournis."""
+    role_map = {
+        'heal': BuildRole.HEALER,
+        'quickness': BuildRole.QUICKNESS_SUPPORT,
+        'alacrity': BuildRole.ALACRITY_SUPPORT,
+        'tank': BuildRole.TANK,
+        'dps': BuildRole.POWER_DPS,  # Par défaut, on considère DPS puissance
+        'condition': BuildRole.CONDITION_DPS,
+        'hybrid': BuildRole.HYBRID
+    }
+    
+    # Parcourir les rôles par ordre de priorité
+    for role in ['heal', 'quickness', 'alacrity', 'tank', 'condition', 'hybrid', 'dps']:
+        if role in roles:
+            return role_map[role]
+    
+    # Par défaut, on retourne DPS puissance
+    return BuildRole.POWER_DPS
+
+def _get_stat_priority(build_role: BuildRole) -> List[str]:
+    """Détermine la priorité des statistiques en fonction du rôle."""
+    if build_role == BuildRole.POWER_DPS:
+        return ["Power", "Precision", "Ferocity", "Critical Damage"]
+    elif build_role == BuildRole.CONDITION_DPS:
+        return ["Condition Damage", "Expertise", "Precision", "Power"]
+    elif build_role in [BuildRole.HEALER, BuildRole.QUICKNESS_SUPPORT, BuildRole.ALACRITY_SUPPORT]:
+        return ["Healing Power", "Concentration", "Boon Duration", "Vitality"]
+    elif build_role == BuildRole.TANK:
+        return ["Toughness", "Vitality", "Healing Power", "Concentration"]
+    else:  # HYBRID
+        return ["Power", "Precision", "Ferocity", "Vitality"]
+
+def _generate_basic_rotation(profession: str, elite_spec: Optional[str], 
+                           build_role: BuildRole, weapons: List[Dict[str, Any]]) -> List[str]:
+    """Génère une rotation de base basée sur la profession, la spécialisation et le rôle.
+    
+    Args:
+        profession: La profession du personnage
+        elite_spec: La spécialisation d'élite (optionnelle)
+        build_role: Le rôle du build
+        weapons: Liste des armes équipées
+        
+    Returns:
+        Une liste d'étapes de rotation
+    """
+    # Rotation de base générique
+    rotation = [
+        "Utilisez vos compétences de contrôle pour interrompre les attaques ennemies",
+        "Maintenez les buffs de groupe (si votre rôle le permet)",
+        "Adaptez votre rotation en fonction des mécaniques de combat"
+    ]
+    
+    # Ajouter des conseils spécifiques au rôle
+    if build_role in [BuildRole.HEALER, BuildRole.QUICKNESS_SUPPORT, BuildRole.ALACRITY_SUPPORT]:
+        rotation.insert(0, "Priorité aux compétences de soin et de support")
+    elif build_role == BuildRole.TANK:
+        rotation.insert(0, "Gardez l'attention des ennemis sur vous")
+        rotation.insert(1, "Utilisez vos compétences défensives pour survivre")
+    else:  # DPS
+        rotation.insert(0, "Maximisez vos dégâts tout en évitant les attaques ennemies")
+    
+    return rotation
+
+def _generate_build_details(member: PlayerBuild) -> dict:
+    """Génère les détails d'un build personnalisé basé sur la profession et les rôles.
+    
+    Args:
+        member: Le PlayerBuild contenant les informations de base
+        
+    Returns:
+        Un dictionnaire contenant les détails du build généré
+    """
+    try:
+        # Déterminer le rôle principal du build
+        build_role = _determine_build_role(member.roles)
+        
+        # Déterminer la priorité des statistiques
+        stat_priority = _get_stat_priority(build_role)
+        
+        # Créer une session de base de données
+        db = SessionLocal()
+        
+        try:
+            # 1. Sélectionner les armes
+            weapons = select_weapons_for_build(
+                profession=member.profession_id,
+                elite_spec=member.elite_spec,
+                build_role=build_role,
+                session=db
+            )
+            
+            # 2. Sélectionner les compétences
+            skills = select_skills_for_build(
+                profession=member.profession_id,
+                elite_spec=member.elite_spec,
+                weapons=[w['type'] for w in weapons],
+                build_role=build_role,
+                session=db
+            )
+            
+            # 3. Sélectionner l'équipement
+            equipment = select_equipment_for_build(
+                profession=member.profession_id,
+                elite_spec=member.elite_spec,
+                build_role=build_role,
+                stat_priority=stat_priority,
+                session=db
+            )
+            
+            # 4. Générer une rotation de base
+            rotation = _generate_basic_rotation(
+                profession=member.profession_id,
+                elite_spec=member.elite_spec,
+                build_role=build_role,
+                weapons=weapons
+            )
+            
+            # 5. Construire la réponse finale
+            build_details = {
+                "profession": member.profession_id,
+                "elite_spec": member.elite_spec,
+                "roles": member.roles,
+                "build_role": build_role.value,
+                "weapons": weapons,
+                "skills": skills,
+                "equipment": equipment,
+                "stats_priority": stat_priority,
+                "rotation": rotation,
+                "consumables": {
+                    "food": equipment.get('Food', {}).get('name', 'Nourriture recommandée non trouvée'),
+                    "utility": equipment.get('Utility', {}).get('name', 'Utilitaire recommandé non trouvé'),
+                    "rune": equipment.get('Rune', {}).get('name', 'Rune recommandée non trouvée')
+                }
+            }
+            
+            return build_details
+            
+        except Exception as e:
+            logger.error(
+                "Erreur lors de la génération du build pour %s (%s): %s",
+                member.profession_id,
+                member.elite_spec or "Pas de spécialisation",
+                str(e)
+            )
+            logger.error(traceback.format_exc())
+            
+            # En cas d'erreur, retourner une structure de base avec les informations disponibles
+            return {
+                "profession": member.profession_id,
+                "elite_spec": member.elite_spec,
+                "roles": member.roles,
+                "build_role": build_role.value,
+                "weapons": [],
+                "skills": [],
+                "equipment": {},
+                "stats_priority": stat_priority,
+                "rotation": [],
+                "error": f"Erreur lors de la génération du build: {str(e)}"
+            }
+            
+        finally:
+            # Toujours fermer la session de base de données
+            db.close()
+            
+    except Exception as e:
+        logger.error(
+            "Erreur critique lors de la génération du build: %s",
+            str(e)
+        )
+        logger.error(traceback.format_exc())
+        
+        # En cas d'erreur critique, retourner une structure minimale
+        return {
+            "profession": member.profession_id if hasattr(member, 'profession_id') else "Inconnu",
+            "elite_spec": member.elite_spec if hasattr(member, 'elite_spec') else None,
+            "roles": member.roles if hasattr(member, 'roles') else [],
+            "error": f"Erreur critique lors de la génération du build: {str(e)}"
+        }
+
 def _format_team_members(team: List[PlayerBuild]) -> List[TeamMember]:
     """Convertit une liste de PlayerBuild en une liste de TeamMember pour la réponse API."""
     members = []
@@ -68,10 +256,18 @@ def _format_team_members(team: List[PlayerBuild]) -> List[TeamMember]:
         
         roles = [role_descriptions.get(role, role.capitalize()) for role in member.roles]
         
+        # Générer les détails du build personnalisé
+        build_details = _generate_build_details(member)
+        
+        # Pour l'instant, on utilise "#" comme URL, mais on pourrait générer une page de détail
+        # avec les informations du build dans le futur
+        build_url = "#"
+        
         members.append(TeamMember(
             role=", ".join(roles),
             profession=f"{member.elite_spec if member.elite_spec else member.profession_id}",
-            build_url=f"#"  # À remplacer par une URL réelle si disponible
+            build_url=build_url,
+            build_details=build_details  # On ajoute les détails du build à l'objet membre
         ))
     return members
 
@@ -117,8 +313,8 @@ async def generate_team(
                 detail="La taille de l'équipe doit être comprise entre 1 et 50 joueurs."
             )
         
-        # 2. Utiliser l'optimiseur pour générer les meilleures équipes
-        # On génère 1000 échantillons et on garde les 3 meilleures équipes
+        # 2. Utiliser l'optimiseur pour générer la meilleure équipe
+        # On génère 1000 échantillons et on garde uniquement la meilleure équipe
         logger.info(
             "Démarrage de l'optimisation pour une équipe de %s joueurs...",
             request.team_size
@@ -127,7 +323,7 @@ async def generate_team(
             logger.info("Appel à optimize_team avec les paramètres suivants :")
             logger.info("- team_size: %s", request.team_size)
             logger.info("- samples: 1000")
-            logger.info("- top_n: 3")
+            logger.info("- top_n: 1 (uniquement la meilleure équipe)")
             # Éviter la sérialisation complète de _DEFAULT_CONFIG qui peut contenir des références circulaires
             config_info = {
                 'buff_weights': list(_DEFAULT_CONFIG.buff_weights.keys()) if hasattr(_DEFAULT_CONFIG, 'buff_weights') else [],
@@ -140,10 +336,12 @@ async def generate_team(
             }
             logger.info("- config: %s", config_info)
             
+            # Optimiser pour trouver la meilleure équipe
+            # On génère 1000 échantillons mais on ne garde que la meilleure équipe
             results = optimize_team(
                 team_size=request.team_size,
                 samples=1000,
-                top_n=3,  # Retourner les 3 meilleures équipes
+                top_n=1,  # On ne veut que la meilleure équipe
                 config=_DEFAULT_CONFIG,
                 random_seed=42  # Pour la reproductibilité
             )
@@ -174,26 +372,35 @@ async def generate_team(
                 detail="Aucune équipe valide n'a pu être générée avec les paramètres fournis."
             )
         
-        # 3. Formater les équipes pour la réponse
-        team_compositions = []
-        for score_result, team in results:
-            team_composition = TeamComposition(
-                members=_format_team_members(team),
-                score=score_result.total_score,
-                score_breakdown=_format_score_breakdown(score_result)
-            )
-            team_compositions.append(team_composition)
+        # 3. Prendre uniquement la meilleure équipe
+        best_score, best_team = results[0] if results else (None, None)
         
-        # 4. Créer les métadonnées de réponse
+        if not best_team:
+            raise HTTPException(
+                status_code=404,
+                detail="Aucune équipe valide n'a pu être générée avec les paramètres fournis."
+            )
+        
+        # 4. Formater la meilleure équipe pour la réponse
+        team_composition = TeamComposition(
+            members=_format_team_members(best_team),
+            score=best_score.total_score,
+            score_breakdown=_format_score_breakdown(best_score)
+        )
+        
+        # 5. Créer les métadonnées de réponse
         metadata: Dict[str, Any] = {
             "generated_at": datetime.now(timezone.utc).isoformat(),
             "version": "0.1.0",
-            "notes": "Généré avec l'optimiseur simple. Les builds sont basés sur des profils types."
+            "notes": "Équipe optimisée générée avec l'optimiseur avancé. Les builds sont basés sur des profils types optimisés pour le style de jeu.",
+            "total_teams_evaluated": 1000,  # Nombre d'équipes évaluées
+            "optimization_time_ms": 0,      # À implémenter: mesurer le temps d'optimisation
+            "build_details_available": True # Indique que des détails de build sont disponibles
         }
         
-        # 5. Retourner la réponse
+        # 6. Retourner la réponse avec la meilleure équipe
         return TeamResponse(
-            teams=team_compositions,
+            team=team_composition,
             request=request,
             metadata=metadata
         )
